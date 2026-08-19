@@ -21,8 +21,8 @@ Planned datasets:
 - Additional short-video benchmark datasets if required
 
 ## Team Members
-- Member 1: Name, Registration Number
-- Member 2: Name, Registration Number
+- Member 1: Jaya Sai Pranathi, 24BCE1804
+- Member 2: Hari Sri Sai, 24BCE1229
 
 ## Current Status
 DA1:
