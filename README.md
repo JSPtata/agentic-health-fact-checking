@@ -1,8 +1,14 @@
-# Health Misinformation Verification Pipeline
+# Agentic Health Fact-Checking Pipeline
 
-This project analyzes short health videos and is being built to identify
-individual health claims, compare them with reliable evidence, and produce a
-clear verdict.
+This project analyzes short health videos to identify individual health claims,
+compare them with reliable evidence, and produce a clear verdict.
+
+## Problem and goal
+
+Given a short-form health or nutrition video, the eventual system should
+extract spoken content, split it into atomic claims, retrieve reliable evidence,
+verify each claim, and classify it as supported, refuted, misleading, or
+insufficient evidence.
 
 ## Pipeline
 
@@ -24,82 +30,48 @@ Final Verdict
 
 Current status:
 
-- ✅ Video/audio extraction
-- ✅ Speech-to-text transcription
+- ✅ Audio extraction and speech-to-text
 - 🟡 Video collection
 - 🟡 OCR/keyframe processing
 - ❌ Claim extraction implementation
-- ❌ Evidence retrieval and source validation
-- ❌ Verification and final verdict generation
+- ❌ Evidence retrieval/source validation
+- ❌ Verification, adjudication, and final verdict generation
 - 🟡 Evaluation (unit tests only)
 
-## Project structure
+## Structure
 
 - `data/raw/videos/`: downloaded videos and original yt-dlp metadata
 - `data/processed/audio/`: extracted WAV audio
 - `data/processed/transcripts/`: typed transcript JSON
-- `data/claims/`: planned output location; no claim files yet
-- `data/evidence/`: planned output location; no evidence files yet
-- `data/results/`: planned output location; no verdict files yet
-- `src/health_pipeline/`: reusable Python pipeline code
-- `scripts/`: beginner-friendly commands for collection and preprocessing
-- `tests/`: unit tests for implemented behavior
+- `data/claims/`, `data/evidence/`, `data/results/`: planned output locations
+- `src/health_pipeline/`: reusable typed pipeline code
+- `scripts/`: collection and preprocessing commands
+- `tests/`: unit tests
 - `docs/`: architecture and development notes
 
-See [PROJECT_STATUS.md](PROJECT_STATUS.md) for the verified status and
-[QUICK_START.md](QUICK_START.md) for commands.
+See [PROJECT_STATUS.md](PROJECT_STATUS.md) and [QUICK_START.md](QUICK_START.md).
 
-## Install
+## Install and run
 
 ```powershell
 .\venv\Scripts\Activate.ps1
 python -m pip install -e ".[dev,preprocessing]"
-```
-
-`ffmpeg` is required for audio extraction. Optional model downloads occur on
-the first faster-whisper run.
-
-## Run implemented stages
-
-Search candidate videos:
-
-```powershell
 python scripts/collect_videos.py --search
-```
-
-Download reviewed URLs:
-
-```powershell
 python scripts/collect_videos.py --download
-```
-
-Process complete downloaded videos:
-
-```powershell
 python scripts/process_videos.py --model tiny
-```
-
-Run tests:
-
-```powershell
 pytest -q
 ```
 
-## Current dataset
+The currently runnable stages are collection, audio extraction, and
+transcription. Claim extraction, evidence retrieval, verification, and
+evaluation commands do not exist yet.
 
-- 25 candidate records
-- 4 downloaded videos
-- 21 failed downloads
-- 3 transcript JSON files
-- 1 video skipped because it has no audio
-- 0 claim files
-- 0 evidence files
-- 0 final verdict files
+## Dataset and limitations
 
-## Limitations
+The manifest contains 25 candidate records: 4 downloaded videos and 21 failed
+downloads. Three transcripts have been generated; one video was skipped because
+it has no audio. There are currently zero claim, evidence, and verdict files.
+Downloaded content requires license and health-claim review before research use.
 
-The claim-extraction package currently defines an injected LLM interface but
-does not provide a concrete LLM client or claim output command. OCR is also an
-interface only. Evidence retrieval, verification, adjudication, and HealthFC
-evaluation are not implemented. Downloaded content must be reviewed for
-licensing and health-claim relevance before research use.
+Team members and the original research objectives are documented in the
+repository history and project documentation.
