@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "health-misinformation-pipeline"
+version = "0.1.0"
+description = "Claim-level health misinformation verification pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.5",
+]
+
+[project.optional-dependencies]
+preprocessing = [
+    "faster-whisper>=1.0",
+    "easyocr>=1.7",
+]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+health-pipeline = "health_pipeline.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
