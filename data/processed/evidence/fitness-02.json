@@ -1,0 +1,201 @@
+{
+    "video_id": "fitness-02",
+    "claims": [
+        {
+            "claim_text": "Stretching your body after waking up boosts circulation.",
+            "queries_used": [
+                "stretch AND body AND circulation",
+                "stretch AND body",
+                "stretch AND circulation"
+            ],
+            "evidence": [
+                {
+                    "title": "Non-weight-bearing lower-limb simple resistance activities, soleus push-ups, and muscle stretching: Impact on glycemic control and metabolic-circulatory outcomes.",
+                    "abstract": "To review the role of lower-body skeletal muscle non-weight-bearing simple resistance activities (SRAs), soleus push-ups (SPUs), and stretching exercises (SEs) in improving glycemic control and metabolic/circulatory outcomes in those individuals who cannot do weight-bearing aerobic exercises due to musculoskeletal, cardiorespiratory and other reasons.",
+                    "pmid": "41666573",
+                    "relevance_score": 0.0499889478505738
+                },
+                {
+                    "title": "Effects of a 10-week light-intensity stretching program on arterial stiffness in third-trimester pregnant women: a randomized controlled trial.",
+                    "abstract": "To determine whether a 10-week light-intensity stretching program reduces arterial stiffness and blood pressure (BP) compared with walking in pregnant women with obesity at risk for preeclampsia.",
+                    "pmid": "42849274",
+                    "relevance_score": 0.03995277413380135
+                },
+                {
+                    "title": "Acute Effects of Interset Proprioceptive Neuromuscular Facilitation Stretching on Repetition Performance and Blood Lactate Responses in Resistance-Trained Young Men.",
+                    "abstract": "This study aimed to investigate the acute effects of different interset proprioceptive neuromuscular facilitation\u00a0(PNF) stretching protocols on repetition performance, total load, blood lactate concentration, and rating of perceived exertion during a resistance training session.",
+                    "pmid": "42838125",
+                    "relevance_score": 0.03662209811026879
+                }
+            ]
+        },
+        {
+            "claim_text": "Drinking coffee on an empty stomach should be avoided to prevent acidity.",
+            "queries_used": [
+                "avoid AND coffee AND stomach AND acidity",
+                "avoid AND coffee AND stomach",
+                "avoid AND coffee AND acidity"
+            ],
+            "evidence": [
+                {
+                    "title": "Emphysematous Gastritis: A Case Series on a Rare but Critical Gastrointestinal Condition.",
+                    "abstract": "Emphysematous gastritis (EG) is a rare and life-threatening condition characterized by gas-forming microorganisms causing gas to accumulate within the stomach wall. It has a high mortality rate and is associated with risk factors like gastroenteritis, alcohol use disorder, diabetes mellitus, renal failure, recent abdominal surgery, long-term corticosteroid use, and ingestion of corrosive agents. Diagnosis is challenging due to its rarity and nonspecific symptoms, including severe abdominal pain, coffee-ground emesis, fever, and signs of systemic infection. We present two cases of patients with signs and symptoms of EG, where prompt diagnosis and treatment were achieved, avoiding further complications. Surgical intervention was avoided due to the successful response to conservative treatment. These cases highlight the importance of early detection and intervention in improving patient outcomes and preventing complications associated with EG.",
+                    "pmid": "38213347",
+                    "relevance_score": 0.09299029587451901
+                },
+                {
+                    "title": "Acute necrotizing gastritis: A rare and fatal gastrointestinal emergency.",
+                    "abstract": "Acute necrotizing gastritis is a rare and life-threatening condition characterized by gastric gangrene in the absence of vascular compromise. Prompt recognition and surgical intervention are critical to prevent fatal complications.",
+                    "pmid": "39986241",
+                    "relevance_score": 0.08534026131056674
+                },
+                {
+                    "title": "Coffee and gastrointestinal function: facts and fiction. A review.",
+                    "abstract": "Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.",
+                    "pmid": "10499460",
+                    "relevance_score": 0.07833591087122506
+                }
+            ]
+        },
+        {
+            "claim_text": "Eating fruits before meals, not after, leads to better digestion.",
+            "queries_used": [
+                "lead AND fruit AND meal AND digestion",
+                "lead AND fruit AND meal",
+                "lead AND fruit AND digestion"
+            ],
+            "evidence": [
+                {
+                    "title": "Understanding Graduate Students' Perspectives on Food Apps to Inform User-Centered Design: Explanatory Sequential Mixed Methods Survey Study.",
+                    "abstract": "Mobile food apps have the potential to promote healthier eating behaviors and more sustainable food practices. Graduate students often struggle to maintain healthy dietary habits due to lifestyle transitions, academic stress, limited time, and constrained budgets, which can lead to poor meal planning, irregular eating patterns, and increased food waste.",
+                    "pmid": "41894544",
+                    "relevance_score": 0.16029680426573975
+                },
+                {
+                    "title": "Trace metal concentrations in soil, leaves, and fruits of red raspberry (Rubus idaeus) cultivated in home gardens.",
+                    "abstract": "Red raspberry fruits are widely consumed, and raspberry leaves are used in herbal preparations; therefore, trace-metal occurrence in home-garden plants is relevant to environmental monitoring and food-safety screening. This study characterised Cu, Cd, Pb, Mn, Zn, Ni, and Fe in matched soil, leaf, and fruit samples from Polish sites. Concentrations were determined by flame atomic absorption spectrometry after microwave-assisted digestion. Observations were paired by site and several Cd, Pb, and Ni results were below the method quantification limit (MQL), matrix differences were evaluated with Friedman tests and exact paired Wilcoxon tests, while detection frequencies were analysed separately. Significant matrix effects were found for all elements (Kendall's W\u2009=\u20090.195-0.854). Middle-bound medians for Cu, Mn, Zn, and Fe followed the order soil\u2009>\u2009leaves\u2009>\u2009fruits. Quantified-result frequencies differed among matrices for Cd, Pb, and Ni. No targeted soil-plant concentration correlation remained significant after false-discovery-rate correction. Soil pH was negatively associated with the fruit bioaccumulation factor for Mn (Spearman's \u03c1\u2009=\u2009\u2009-\u20090.724, q\u2009=\u20090.004), but not with the other tested factors. For a 100-g portion of fresh raspberries, lower-, middle-, and upper-bound estimates were 0, 2.4, and 4.9\u00a0\u00b5g for Cd and 0, 13.1, and 26.3\u00a0\u00b5g for Pb. These estimates are screening scenarios rather than compliance results because moisture was assumed and more than half of the fruit Cd and Pb observations were censored.",
+                    "pmid": "42782561",
+                    "relevance_score": 0.10850053552242483
+                },
+                {
+                    "title": "Actinidin in Green and SunGold Kiwifruit Improves Digestion of Alternative Proteins-An In Vitro Investigation.",
+                    "abstract": "Both Hayward (green) and SunGold (gold) kiwifruit varieties contain a proteolytic enzyme, actinidin, that has been reported to enhance the upper tract digestion of animal proteins. Unlike the other gold varieties, which do not contain any actinidin, the SunGold variety contains significantly higher actinidin activity, but its activity is still much lower than that present in the green (Hayward) fruit. The objective of this study was to determine the effectiveness of actinidin in Hayward and SunGold kiwifruit in digesting alternative proteins, including pea protein, almonds, tofu, and quinoa. The protein sources were digested using a three-stage in vitro oral-gastro-small intestinal digestion model. The findings showed that both kiwifruit extracts enhanced the breakdown (observed through SDS-PAGE) for all the studied protein sources, particularly during gastric digestion, possibly due to higher actinidin activity at gastric pH. The increase in the rate of protein breakdown was probably due to the broader specificity of actinidin compared to pepsin. For many protein sources, most of the intact proteins disappeared within the first few minutes of gastric digestion with added kiwifruit extract. Green kiwifruit extract, due to its higher actinidin activity, had a higher effect on protein breakdown than the SunGold extract. However, for some proteins and under certain digestion conditions, SunGold extract resulted in higher protein breakdown. The latter, in the absence of any digestive enzymes, also led to some protein breakdown during the small intestinal digestion phase, which was not the case for the green kiwifruit extract. The green kiwifruit extract led to the greater breakdown of polypeptide chains of Pru-du 6, a major allergen in almonds. The results, for the first time, suggest that both Hayward and SunGold kiwifruit can lead to improved breakdown and digestion of alternative proteins when consumed as part of a meal; and therefore, have the potential to be used as a digestive aid in population groups looking to achieve faster and greater protein digestion such as athletes, elderly and people with the impaired digestive system.",
+                    "pmid": "36140865",
+                    "relevance_score": 0.10639638281759368
+                }
+            ]
+        },
+        {
+            "claim_text": "The best time for exercise is early morning or evening.",
+            "queries_used": [
+                "time AND exercise AND morning AND evening",
+                "time AND exercise AND morning",
+                "time AND exercise AND evening"
+            ],
+            "evidence": [
+                {
+                    "title": "The circadian clock: an important factor modifying the effect of physical activity on the lifespan of\u00a0<i>Drosophila melanogaster</i>.",
+                    "abstract": "It is well established that the circadian clock has pronounced effects on functioning of cells, tissues and body organs. Little, however, is known regarding its role in the body's adaptation to physical activity. The aim of the present study was to establish the effect of physical activity-performed at either the activity peak (ZT1) in the morning or during 'siesta' time (ZT6) in the middle of the day-on the lifespan of male and female Drosophila melanogaster. Three\u2011day\u2011old virgin flies (separated by sex) were allocated to control or exercise groups. Flies in the exercise groups were subjected to exercise every day by applying motor stimulation at ZT1 or at ZT6. Overall lifetime physical activity of controls was lower in male D. melanogaster compared to females. Forced physical activity at ZT1 prolonged the male lifespan by ~35%, whereas females in the same group exhibited a lifespan reduction of ~84%. In contrast, physical activity performed at 'siesta' time shortened the lifespan of both male and female flies, by ~20% and ~67%, respectively. Forced locomotor activity performed during the time of\u00a0peak natural daily activity prolonged life expectancy in males but had a negative effect on female longevity. Interestingly, when physical activity was applied during the 'siesta' time, it shortened the lifespan regardless of sex. Therefore, our study suggests that synchronizing physical activity to the daily rhythm of activity and rest dictated by the circadian clock could be a new strategy for optimizing the effects of physical training. However, this interpretation requires further research involving human subjects of different chronotypes.",
+                    "pmid": "42808673",
+                    "relevance_score": 0.26298202882133975
+                },
+                {
+                    "title": "Influence of Morning and Afternoon Exercise on Body Composition and Metabolic Health: A Systematic Review and Meta-Analysis.",
+                    "abstract": "Exercise is widely recognized for its beneficial effects on metabolic health and can serve as a non-pharmacological health intervention. However, the effect of morning versus afternoon exercise on various metabolic indicators remains unclear. This study aimed to systematically analyze the effect of exercise at various times of day on body composition, glucose and lipid metabolism.",
+                    "pmid": "42658446",
+                    "relevance_score": 0.20844142798265772
+                },
+                {
+                    "title": "Morning or evening? Time of day does not affect body composition, cardiopulmonary performance, and muscle strength responses to combined training in women with obesity.",
+                    "abstract": "Obesity is characterized by adipocyte dysfunction, accompanied by impairments in oxidative metabolism and physical function. Although physical training is known to improve oxidative capacity, body composition, and functional performance, the magnitude of these adaptations may be influenced by several modulatory factors. Among these, circadian rhythm has emerged as a potential determinant of exercise-induced adaptations due to daily fluctuations in metabolic and physiological processes; however, its influence in women with obesity remains unclear. Therefore, this study aimed to investigate the effects of combined training performed at different times of the day (morning vs. evening) on body composition, cardiopulmonary performance, and muscle strength in previously untrained women with obesity.",
+                    "pmid": "42812561",
+                    "relevance_score": 0.20466152468762036
+                }
+            ]
+        },
+        {
+            "claim_text": "Screen time should be avoided at least 30 minutes before going to bed.",
+            "queries_used": [
+                "avoid AND time AND bed",
+                "avoid AND time",
+                "avoid AND bed"
+            ],
+            "evidence": [
+                {
+                    "title": "Treating the incumbent patient in triage: An analysis of \"first come, first served\" as a procedural rule.",
+                    "abstract": "Allocating scarce intensive care resources requires decisions about both which patients should receive priority and which rules should guide those choices. We investigate how the procedural allocation rule \"first come, first served\" (FCFS) shapes triage decisions. Using experimental ICU bed allocation scenarios, we examine how 8227 scientists across disciplines, surveyed in April and May 2020, make life-and-death allocation decisions when patients differ in clinical and social characteristics and arrive simultaneously or sequentially. Many respondents prioritize the earlier-arriving incumbent patient even when the alternative has stronger survival-relevant claims, indicating a robust arrival-priority pattern. At the same time, the incumbent frame is associated with lower decision avoidance, suggesting that FCFS can function as a morally and organizationally \"safe\" shortcut in high-stakes settings. Reliance on FCFS varies across expert communities in ways consistent with disciplinary training. Health economists, whose work emphasizes trade-offs and policy evaluation, exhibit lower average adherence to FCFS than other health-related scientists, although substantial reliance on FCFS persists even within this group. The findings highlight a tension between procedural legitimacy and benefit-based triage criteria and suggest that guidelines should anticipate default-preserving tendencies and omission concerns when designing equitable and clinically grounded allocation procedures.",
+                    "pmid": "42810318",
+                    "relevance_score": 0.10113490863359782
+                },
+                {
+                    "title": "The Psychological Impact of Hospital Admission on the Elderly: A Prospective Comparative Clinical Audit and Service Evaluation.",
+                    "abstract": "Introduction Hospital admission in older adults can be associated with functional decline, loss of independence, delirium, disruption of routine, and psychological deterioration. Virtual Wards, also described as Hospital-at-Home models, provide acute clinical care in a patient's usual place of residence and may reduce some harms associated with inpatient admission. Although Virtual Wards are commonly evaluated in terms of bed capacity, admission avoidance, and clinical safety, their psychological impact remains less well explored. This audit compared depressive symptoms and self-rated mood in older adults managed in hospital with those treated through a Virtual Ward service. Methods A prospective comparative clinical audit and service evaluation was conducted within the Care of the Elderly directorate at East Cheshire NHS Trust. The audit included 100 patients aged \u226570 years: 50 hospital inpatients and 50 patients managed through Virtual Ward pathways. Eligible patients had received at least five days of inpatient or Virtual Ward care and had broadly comparable medical diagnoses. Patients with severe acute or life-threatening illness, those lacking capacity to participate, and those with communication barriers preventing completion of the assessment tools were excluded. Baseline age, sex, primary diagnosis, and Clinical Frailty Scale (CFS) characteristics were compared descriptively between cohorts. Depressive symptoms were assessed using the 15-item Geriatric Depression Scale (GDS-15), and self-rated mood was assessed using a five-point mood scale. Exploratory unadjusted between-group comparisons were performed for selected patient-level outcomes. Results Hospital inpatients demonstrated a greater depressive symptom burden than Virtual Ward patients. A GDS-15 score of \u22655 was recorded in 36 (72%) hospital inpatients compared with 15 (30%) Virtual Ward patients, corresponding to an unadjusted odds ratio of 6.00 (95% CI, 2.53-14.24; Fisher's exact p<0.001). Low self-rated mood, defined as a score of 1 or 2, was reported by 19 (38%) hospital inpatients compared with three (6%) Virtual Ward patients, with an unadjusted odds ratio of 9.60 (95% CI, 2.62-35.21; Fisher's exact p<0.001). Conversely, positive mood scores of 4 or 5 were reported by 32 (64%) Virtual Ward patients compared with 16 (32%) hospital inpatients. Baseline age and frailty distributions showed substantial descriptive overlap, although some variation in sex and primary diagnosis was present between cohorts. Conclusion Older adults receiving inpatient care demonstrated a greater burden of depressive symptoms and less positive self-rated mood than those managed through the Virtual Ward service. However, the non-randomised design, potential selection bias, and absence of adjustment for important baseline factors such as cognitive status, functional status, social support, and baseline psychological wellbeing mean that causation cannot be established. The findings should therefore be interpreted as an association between care setting and psychological wellbeing rather than evidence that Virtual Ward care itself improves mood. Further prospective evaluation using comprehensive baseline assessment, adjusted analyses, and post-discharge follow-up is required. Older adults who require hospital admission may also benefit from routine mood assessment and targeted measures to support psychological wellbeing.",
+                    "pmid": "42831210",
+                    "relevance_score": 0.09862924957387288
+                },
+                {
+                    "title": "Renegotiating autonomy and safety: disentangling tensions emerging for older adults living with smart monitoring systems.",
+                    "abstract": "Smart monitoring systems (SMS) are increasingly deployed in community-based care to empower older adults to live safely and independently. However, existing research largely treats monitoring as a process in which continuous data collection and real-time alerts are intended to translate into improved outcomes. What remains underexplored is how older adults experience monitoring and how it shapes their behavior over time. In this qualitative longitudinal study, 21 older adults are accompanied from SMS installation for more than one year, with individual semi-structured interviews conducted across four data collection phases. Findings reveal that older adults actively anticipate how the system interprets their behavior, producing three responses: reactance, that is, disengaging from devices to reclaim autonomy over safety; preemptive behavior, for instance, restructuring daily routines to avoid triggering alerts constraining their autonomy and safety; and performative compliance, that is, managing behavior to satisfy caregivers rather than personal needs, leading to a loss of autonomy. These constitute autonomy-safety value tensions: a technology designed to advance both values instead produces conditions under which protecting one systematically undermines the other. To this end, this study provides empirical insights into unintended consequences and a conceptual model explaining how value tensions emerge, with implications for practitioners and caregivers.",
+                    "pmid": "42850353",
+                    "relevance_score": 0.05642436281479995
+                }
+            ]
+        },
+        {
+            "claim_text": "Maintaining proper posture while sitting prevents back pain.",
+            "queries_used": [
+                "maintain AND posture AND pain",
+                "maintain AND posture",
+                "maintain AND pain"
+            ],
+            "evidence": [
+                {
+                    "title": "Axial Back Pain Secondary to Ligamentum Flavum Ossification in a Patient with Hypoparathyroidism: A Rare Case Report.",
+                    "abstract": "The ligamentum flavum is a structure that connects adjacent laminae and plays a role in maintaining upright posture. Hypoparathyroidism can rarely cause ligamentum flavum ossification (LFO). LFO can cause symptoms due to spinal cord compression. A 48-year-old man was evaluated for complaints of widespread back pain, a burning sensation, and numbness in the lower extremities. Imaging revealed spinal stenosis at the T10-T11 level due to LFO. Following facet joint block and duloxetine treatment, the VAS score decreased from 8 to 3. Early diagnosis and appropriate treatment of LFO in patients with hypoparathyroidism are critical for symptom control and functional recovery.",
+                    "pmid": "42824910",
+                    "relevance_score": 0.18214051296613776
+                },
+                {
+                    "title": "Validity of a Single-Item Stress Measure in TMD-Pain Patients.",
+                    "abstract": "There is growing evidence for the observation that stress has an impact on developing and maintaining temporomandibular disorder (TMD) pain. There are various self-report questionnaires available for the assessment of stress. However, completing questionnaires with several items can be time-consuming for both the patient and the clinician. Therefore, the use of a single-item stress measure could be beneficial.",
+                    "pmid": "42850048",
+                    "relevance_score": 0.06256341457400348
+                },
+                {
+                    "title": "Static sagittal cervical alignment, pain, and jaw functional limitation across temporomandibular disorder subtypes: a cross-sectional study.",
+                    "abstract": "This study aimed to compare cervical sagittal alignment among temporomandibular disorder subtypes and to investigate the relationships between cervical alignment parameters, temporomandibular joint pain, neck pain, and jaw functional limitation.",
+                    "pmid": "42763410",
+                    "relevance_score": 0.055896795534702046
+                }
+            ]
+        },
+        {
+            "claim_text": "Herbal tea is a healthier alternative to sugary drinks.",
+            "queries_used": [
+                "tea AND alternative AND drink",
+                "tea AND alternative",
+                "tea AND drink"
+            ],
+            "evidence": [
+                {
+                    "title": "Shaping the Bioactive Properties of Kombucha Drinks by Using Raw Materials Alternative to Tea.",
+                    "abstract": "Alternative substrates to traditional <i>Camellia sinensis</i> tea are increasingly investigated to diversify kombucha and enhance its functional properties. This review synthesizes evidence (2020-2025) on how non-tea substrates influence microbial ecology, metabolite composition, and bioactivity of kombucha. A semi-systematic search of PubMed, Scopus, Web of Science, and publisher platforms identified studies on fruit, vegetable, herbal, algal, cereal, dairy, and food-industry by-product substrates reporting compositional or functional outcomes. Extracted data included substrate characteristics, fermentation conditions, SCOBY features, analytical methods, and reported antioxidant, anti-inflammatory, metabolic, probiotic, and dermatological effects. Fermentation often leads to an increase in total phenolic content and antioxidant capacity. These effects are highly dependent on fermentation conditions, particularly duration and substrate composition. In some cases, prolonged fermentation may result in phenolic degradation or transformation, leading to reduced levels of certain compounds. Fruit- and hibiscus-based systems enhanced anthocyanin-driven antioxidant and anti-inflammatory activity. Vegetable and cereal substrates supplied phenolic acids and <i>\u03b2</i>-glucans associated with metabolic regulation and gut health, whereas by-products and algal fermentations supported waste valorization and enrichment in chlorogenic acids, pigments, fibers, and peptides. Despite promising functionality, substantial inter-study variability and limited in vivo validation and the lack of standardized fermentation protocols constrain translational application. In addition, the inherent variability in SCOBY microbial composition represents a major source of inconsistency, as differences in microbial communities can significantly influence fermentation dynamics, metabolite profiles, and functional outcomes.",
+                    "pmid": "41976210",
+                    "relevance_score": 0.13104150500083228
+                },
+                {
+                    "title": "Optimization of physicochemical and antimicrobial properties of functional kombucha beverage sweetened with dried fruits using simplex centroid mixture and Plackett-Burman designs.",
+                    "abstract": "Traditional foods and beverages represent alternative strategies to counteract bacterial virulence. The fermentation of tea, sugar, supplemented with a symbiotic culture of bacteria and yeast (SCOBY) produces kombucha beverage, which offers several health advantages and is similar to soft drinks. This study investigates the effect of various fermentation factors on the growth levels of Lactobacillus, Lactococcus, total phenolic content and antimicrobial activities of Green Tea, Black Tea and Moringa kombucha beverage (GTBTMK) prepared with a starter SCOBY culture. Formulation of kombucha beverage was optimized using a Simplex-Centroid Mixture Design and Plackett-Burman Design. The best optimized kombucha formulation (18.98\u00a0g/L; Dried Apricot was 20\u00a0g/L; Dried plum was 10\u00a0g/L, Dried Grape was 20\u00a0g/L,11.763\u00a0g/L Green tea, 0.01238\u00a0g/L Black tea and 8.1127\u00a0g/L Moringa) contain a high phenolic content of 86.79\u00a0mg GAE/mL and exhibited a significant antimicrobial activity against Bacillus cereus ATCC 11778, Micrococcus luteus NCIMB 8166 and Enterococcus faecalis ATCC 29212, Candida albicans ATCC 90028, Cryptococcus neoformans ATCC 14116, Aspergillus brasiliensis ATCC 16404 (Inhibition zone more than 20\u00a0mm). This research provides new insights into the development of innovative, functional kombucha beverage potentially expanding the spectrum of health-promoting fermented drinks available to consumers.",
+                    "pmid": "41592653",
+                    "relevance_score": 0.12005703066329855
+                },
+                {
+                    "title": "Habitual tea consumption is associated with a low prevalence of gastroesophageal reflux disease in a Taiwanese population study.",
+                    "abstract": "Gastroesophageal reflux disease (GERD) is a common gastrointestinal condition associated with significantly impaired quality of life. While tea consumption has been associated with various health benefits, its relationship with GERD remains controversial. The aim of this study was to evaluate the relationship between the prevalence of GERD and tea consumption, including the type, drinking frequency and daily intake of tea, in a large Taiwanese cohort.",
+                    "pmid": "42807308",
+                    "relevance_score": 0.11045435908833749
+                }
+            ]
+        }
+    ]
+}
