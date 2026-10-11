@@ -1,0 +1,53 @@
+{
+    "claims": [
+        {
+            "claim_text": "Always stretch your body after waking up to boost circulation.",
+            "exposure": "stretching your body",
+            "outcome": "boost circulation",
+            "context": "after waking up",
+            "claim_id": "fitness-02-c001"
+        },
+        {
+            "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+            "exposure": "drinking coffee",
+            "outcome": "prevent acidity",
+            "context": "on an empty stomach",
+            "claim_id": "fitness-02-c002"
+        },
+        {
+            "claim_text": "Eat fruits before meals, not after, for better digestion.",
+            "exposure": "eating fruits",
+            "outcome": "better digestion",
+            "context": "before meals, not after",
+            "claim_id": "fitness-02-c003"
+        },
+        {
+            "claim_text": "The best time for exercise is early morning or evening.",
+            "exposure": "exercise",
+            "outcome": null,
+            "context": "early morning or evening",
+            "claim_id": "fitness-02-c004"
+        },
+        {
+            "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+            "exposure": "screen time",
+            "outcome": null,
+            "context": "at least 30 minutes before going to bed",
+            "claim_id": "fitness-02-c005"
+        },
+        {
+            "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+            "exposure": "maintaining proper posture",
+            "outcome": "prevent back pain",
+            "context": "while sitting",
+            "claim_id": "fitness-02-c006"
+        },
+        {
+            "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+            "exposure": "replacing sugary drinks with herbal tea",
+            "outcome": "healthier alternative",
+            "context": null,
+            "claim_id": "fitness-02-c007"
+        }
+    ]
+}

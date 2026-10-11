@@ -25,3 +25,13 @@ data/results/*
 !data/claims/README.md
 !data/evidence/README.md
 !data/results/README.md
+.DS_Store
+*.webm
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/processed/frames/
+aasist/
+agentic-health-fact-checking/

@@ -1,0 +1,206 @@
+{
+    "video_id": "fitness-02",
+    "claims": [
+        {
+            "claim_text": "Stretching your body after waking up boosts circulation.",
+            "queries_used": [
+                "(stretching OR \"muscle stretching\") AND (morning OR awakening) AND (\"blood circulation\" OR \"blood flow\")",
+                "stretching AND (\"blood circulation\" OR \"regional blood flow\" OR perfusion) AND (\"upon waking\" OR morning OR awakening)"
+            ],
+            "query_source": "gemini",
+            "evidence": [
+                {
+                    "title": "Use of low-frequency electrical stimulation for the treatment of plantar fasciitis.",
+                    "abstract": "Recent research has discussed the use of low-frequency electrical stimulation to increase blood flow by eliciting muscular contraction in soft tissues. This randomized clinical trial examined the efficacy of low-frequency electrical stimulation combined with stretching exercises and foot orthoses in individuals diagnosed as having plantar fasciitis for less than 6 months.",
+                    "pmid": "19917733",
+                    "relevance_score": 0.8858855962753296
+                },
+                {
+                    "title": "Characteristics of the sleep of men in simulated space flights.",
+                    "abstract": "A study of the sleep of men in simulated space flight has shown that, during different effects (diminished motor activity, noise, rotation), monotony and time of the exposure is the general pathogenetic factor producing sleep disturbances. The monotony factor was responsible for typical changes in sleep function (difficulty involved in falling asleep, disturbed continuity of sleep as a process, decline in the depth, etc.), whose degree was related not only to the professional importance of the experiment but also to the individual intolerance to the main exposure. In these cases, the action of somnogenic mechanisms developed against the background of the action of analyzers (vestibular, accoustic, proprioceptive) that were under load and whose excitation during hypokinesia, noise, and rotation, especially in poorly adapted people, led to cumulation and was expressed in the phenomenon of spontaneous awakening. In addition to that, the genesis of dyssomnia, particularly during bedrest and water immersion, included hemodynamic disturbances induced by blood redistribution due to the recumbent position and monotonous motor activity. The psychosomatic feelings (congestion, edema, irresistible desire to stand up and stretch) brought about emotional strain which was later enhanced by the duration of the exposure.",
+                    "pmid": "167706",
+                    "relevance_score": 0.8681485652923584
+                },
+                {
+                    "title": "Systemic hypertension, headache, and ocular hemodynamics: a new hypothesis.",
+                    "abstract": "The association between systemic hypertension and headache remains controversial and its pathophysiologic basis is uncertain. A rather characteristic early-morning pulsating headache is commonly seen in hypertensive patients, and a recent meta-analysis supports the link between these 2 entities. Epidemiologic evidence has paradoxically suggested a negative association between hypertension and headache. Unpredictable clinical association between severe hypertension and headache indicates that another cranial perfusion-related variable exerts a critical role. Neuroanatomically, head and neck pain primarily involves the ophthalmic division of the trigeminal nerve (V1). A link between systemic hypertension, pulsatile choroidal blood flow (CBF), and intraocular pressure (IOP) has been established. I propose that a trait ocular sympathetic hypofunction permits rapid episodic ocular choroidal overperfusion that stretches the ocular globe in the cohort of hypertensive patients with headache. Rapid distension of the pain-sensitive corneoscleral envelope can stimulate corneoscleral and iridial pain-sensitive V1 nerve endings and generate headache. Ocular tamponade function physiologically limits choroidal overperfusion. A higher basal IOP in some patients with moderate-to-severe hypertension may dampen pulsatile CBF and account for the negative epidemiologic link between sustained systemic hypertension and headache. Besides activation of the baroreceptor reflex, the association of hypalgesia with hypertension probably involves activation of the vasopressin-endorphin adaptive system consequent to mechanical stimulation of V1. The analogy between hypertensive headache and angle-closure glaucoma is rather limited because typical ocular and visual signs and symptoms of angle-closure glaucoma are not seen in hypertension-related headache. Hypertensive crises, including those associated with pheochromocytoma, are not accompanied by attacks of angle-closure glaucoma. Glaucoma is not associated with ocular choroidal congestion, but with reduced pulsatile CBF. The predisposition to develop angle-closure glaucoma is theoretically not associated with ocular autonomic hypofunction and should be conceptually dissociated from this hypothesis. The hypothesis can be evaluated by establishing significant circadian elevations of blood pressure, including nondipping nighttime pattern as well as circadian and periheadache measurements of IOP in patients with attacks of hypertension-related headache.",
+                    "pmid": "17406187",
+                    "relevance_score": 0.8564375638961792
+                }
+            ]
+        },
+        {
+            "claim_text": "Drinking coffee on an empty stomach should be avoided to prevent acidity.",
+            "queries_used": [
+                "(coffee OR caffeine) AND (\"empty stomach\" OR fasting OR preprandial) AND (\"gastric acid\" OR \"acid secretion\" OR acidity)",
+                "coffee AND (\"empty stomach\" OR \"fasting state\") AND (\"gastroesophageal reflux\" OR heartburn OR dyspepsia)"
+            ],
+            "query_source": "gemini",
+            "evidence": [
+                {
+                    "title": "Effect of coffee on human lower oesophageal function.",
+                    "abstract": "The effect of coffee on lower oesophageal sphincter pressure (LOSP) and intraoesophageal pH was assessed in 10 healthy volunteers, in the fasting state and after a standard Lundh test meal. LOSP was measured by the rapid pull-through technique. Coffee with or without milk has no significant effect on LOSP in the fasting subject. The Lundh meal alone (mean drop = 2.01 cm H2O), or when coffee with (mean drop = 1.80 cm H2O) or without milk (mean drop = 3.47 cm H2O) was taken after it, produced a significant drop in LOSP. Heartburn following coffee does not appear to be due to an effect of coffee on the lower oesophageal sphincter but is more likely due to the effect of a previous meal on sphincter pressure with associated acid reflux.",
+                    "pmid": "7227671",
+                    "relevance_score": 0.9211041331291199
+                },
+                {
+                    "title": "A randomized, double-blind comparison of two different coffee-roasting processes on development of heartburn and dyspepsia in coffee-sensitive individuals.",
+                    "abstract": "The mechanism underlying coffee-induced heartburn and dyspepsia remains poorly understood. This has led to speculation that variations in coffee processing may be important. The primary objective of this study was to determine whether a coffee brewed with coffee beans processed using conduction roasting will result in fewer symptoms of gastroesophageal reflux and dyspepsia in coffee-sensitive individuals compared to a differently processed yet otherwise similar coffee. Thirty coffee-sensitive individuals completed this single-center, randomized, double-blind, crossover study in which the symptoms of heartburn, regurgitation and dyspepsia were assessed following coffee consumption both in the fasting state and after ingestion of a standard test meal. Consumption of both coffees resulted in heartburn, regurgitation, and dyspepsia in most individuals. No significant differences in the frequency or severity of heartburn, regurgitation, or dyspepsia were demonstrated between the two coffees either in the fasting state or after the test meal. We conclude that differences in the coffee bean roasting process do not result in marked differences in coffee-induced upper gastrointestinal symptoms.",
+                    "pmid": "12741451",
+                    "relevance_score": 0.90151047706604
+                },
+                {
+                    "title": "Effects of Coffee-Related Bioactive Components on Flow-Mediated Vasodilation: A Meta-Analysis of Randomized, Controlled Intervention Studies in Adults.",
+                    "abstract": "Coffee contains various bioactive compounds, including chlorogenic acids (CGAs), caffeine, and hydroxyhydroquinone (HHQ), which may differently affect endothelial function.",
+                    "pmid": "41189121",
+                    "relevance_score": 0.8805316090583801
+                }
+            ]
+        },
+        {
+            "claim_text": "Eating fruits before meals, not after, leads to better digestion.",
+            "queries_used": [
+                "(fruit OR fruits) AND (pre-meal OR premeal OR \"before meals\" OR \"meal sequence\") AND (digestion OR \"gastric emptying\")",
+                "(fruit OR fruits) AND (\"food order\" OR \"meal sequence\" OR \"meal timing\") AND (\"digestive system\" OR digestion OR \"gastrointestinal motility\")",
+                "(fruit OR fruits) AND (\"before meals\" OR \"after meals\") AND (digestion OR \"gastrointestinal transit\" OR \"nutrient absorption\")"
+            ],
+            "query_source": "gemini",
+            "evidence": [
+                {
+                    "title": "Food Order and Timing Effects on Glycaemic and Satiety Responses to Partial Fruit-for-Cereal Carbohydrate Exchange: A Randomized Cross-Over Human Intervention Study.",
+                    "abstract": "Postprandial glycaemic response amplitude plays a critical role in diabetic complications, but is subject to food order and temporal separation within a meal. Effects of partial fruit-for-cereal carbohydrate exchange on glycaemic and appetite responses, as affected by food order and separation, were examined using kiwifruit (KF) and wheaten breakfast cereal biscuit (WB). In a randomized cross-over intervention study, 20 subjects ingested 51.7 g of available carbohydrate as 74 g WB alone, or as 200 g KF and 37 g WB, each delivering 25.85 g of available carbohydrate. The 200 g KF was partially exchanged for 37 g of WB, at 90 min and 30 min before, at the same time as, or 30 min after, ingesting WB. Incremental satiety responses were derived from appetite scores measured using a visual analogue scale, and capillary blood glucose responses were monitored. In all exchanges, KF reduced the glycaemic response (iAUC) by 20-30% with no loss of total satiation. The incremental glycaemic and satiety responses to food ingestion followed each other closely. Glycaemic response amplitudes were reduced almost 50% compared with 74 g WB when KF ingestion preceded WB ingestion by 30 min, and less when the KF was ingested with or 30 min after the cereal. The results suggest that fruit most effectively suppresses the digestion of cereal carbohydrates if ingested long enough before the cereal to prevent overlap of the glycaemic responses, but close enough for fruit components that impede carbohydrate digestion or uptake to interact with the ingested cereal in the gut. Ethics approval was obtained from the Human and Disabilities Ethics Committee (HDEC) of the New Zealand Ministry of Health. The trial was registered with the Australian New Zealand Clinical Trials Registry (Trial ID: ACTRN12615000744550).",
+                    "pmid": "37513687",
+                    "relevance_score": 0.9025480151176453
+                },
+                {
+                    "title": "Increased milk protein content and whey-to-casein ratio in milk served with breakfast cereal reduce postprandial glycemia in healthy adults: An examination of mechanisms of action.",
+                    "abstract": "This study describes the effects on glycemic response and the underlying mechanisms of action of increasing the protein concentration and decreasing the casein-to-whey ratio in milk when consumed with a high glycemic breakfast cereal. Twelve healthy men and women, aged 18 to 30 yr and with a body mass index of 20 to 24.9 kg/m<sup>2</sup>, consumed (in random order) milk beverages (250 mL) containing either 3.1 or 9.3% protein and casein-to-whey ratios of either 80:20 or 40:60. We measured postprandial appetite, glucose, regulatory hormones, and stomach emptying rate over 200 min, as well as food intake at an ad libitum meal at 120 min. Although pre-meal appetite was suppressed to a greater extent with milk beverages that had high (9.3%) compared with regular (3.1%) protein content, food intake was similar among all 4 treatments. Pre-meal mean blood glucose was lower with beverages that had high rather than regular milk protein content, with the lowest glucose peaks after the high milk protein treatment with the 40:60 casein-to-whey ratio. Pre-meal insulin and C-peptide levels were not affected by milk protein content or casein-to-whey ratio, but pre-meal glucagon-like peptide 1 was higher after the treatment containing high milk protein and the 40:60 casein-to-whey ratio, and pre-meal cholecystokinin was higher after the treatments containing high milk protein content. Plasma paracetamol response was also lower after the treatments containing high compared with regular milk protein content. When consumed with carbohydrate, milk beverages with high protein content and (to a lesser extent) a decreased casein-to-whey ratio lowered postprandial glycemia through insulin-independent mechanisms, primarily associated with delayed stomach emptying.",
+                    "pmid": "31229285",
+                    "relevance_score": 0.9012289047241211
+                },
+                {
+                    "title": "Snacking in nutrition and health.",
+                    "abstract": "Many studies suggest that distributing energy and nutrient intake across 4-5 eating occasions/day (rather than across three standard meals) could favourably affect human health. The inclusion of 1-2 snacks in the daily pattern alleviates the potential digestive and metabolic overload caused by fewer heavier meals and might contribute to meet recommendations for food groups (e.g. fruits, dairy) and nutrients like fibre and vitamins. The snack composition should be evaluated taking into account the whole day's diet. In early and late ages, and for specific population groups, snacking may need to follow particular characteristics in order to be optimal, both in terms of composition and timing. This document, which is the result of a collaboration of experts across several fields of research, intends to provide a review of the current scientific literature on meal frequency and health, highlighting the beneficial effects of correct snack consumption across the human lifespan.",
+                    "pmid": "30969153",
+                    "relevance_score": 0.8993654847145081
+                }
+            ]
+        },
+        {
+            "claim_text": "The best time for exercise is early morning or evening.",
+            "queries_used": [
+                "(\"exercise\" OR \"physical activity\") AND (\"time of day\" OR \"diurnal variation\" OR \"circadian rhythm\") AND (\"morning\" OR \"evening\")",
+                "(\"exercise timing\" OR \"training timing\") AND (\"morning\" AND \"evening\") AND (\"performance\" OR \"metabolic health\")",
+                "(\"aerobic exercise\" OR \"resistance exercise\") AND (\"morning exercise\" OR \"evening exercise\") AND (\"efficacy\" OR \"outcomes\")"
+            ],
+            "query_source": "gemini",
+            "evidence": [
+                {
+                    "title": "Comparison of morning vs evening exercise on weight loss and related health behaviors in individuals with overweight or obesity: study protocol for a 56-week randomized controlled trial (TIMEX).",
+                    "abstract": "Aerobic exercise is recommended for weight management. Recent evidence suggests that there may be time-dependent differences in how exercise affects body weight and energy balance regulation. The primary purpose of this study is to determine the effect of morning versus evening aerobic exercise on changes in body composition and components of energy balance in adults with overweight and obesity.",
+                    "pmid": "41388471",
+                    "relevance_score": 0.9415391087532043
+                },
+                {
+                    "title": "The efficacy of morning versus evening exercise for weight loss: A randomized controlled trial.",
+                    "abstract": "The aim of this study was to investigate the influence of morning versus evening exercise on weight loss, cardiometabolic health, and components of energy balance.",
+                    "pmid": "36502286",
+                    "relevance_score": 0.9300317764282227
+                },
+                {
+                    "title": "Exercise Timing in Sport: Molecular and Physiological Mechanisms Linking Performance, Recovery, and Biological Cost.",
+                    "abstract": "Time of day is often treated as a scheduling constraint rather than a true programming variable, yet training time is not neutral and can modulate both performance expression and the biological cost of exercise. This structured narrative review synthesizes evidence on morning versus afternoon/evening training in athletes and physically active adults, integrating performance outcomes with internal load, autonomic recovery, sleep interaction, and downstream physiological stress. Acute evidence generally supports superior late-afternoon or early-evening performance, particularly for neuromuscular tasks, whereas chronic training studies do not indicate a universal optimal training time. Instead, adaptation appears to depend on chronotype, habitual training time, the wake-to-training interval, light exposure, nutritional timing, training-testing congruency, and competition-specific demands. Mechanistically, exercise timing likely interacts with BMAL1/CRY loops, AMPK-SIRT1-PGC-1alpha signaling, PGC-1alpha-driven mitochondrial remodeling, and redox-inflammatory pathways, although much of this evidence remains preclinical. Accordingly, this review advances a Performance-Biological Cost (PBC) framework in which training time is judged by the balance between output, recovery opportunity, and residual molecular cost rather than by acute performance alone. By integrating athlete-relevant human evidence with mechanistic insights and translating them into explicit decision tools and testable predictions, this review positions exercise timing as a context-dependent lever within periodized training design.",
+                    "pmid": "42196395",
+                    "relevance_score": 0.9292839169502258
+                }
+            ]
+        },
+        {
+            "claim_text": "Screen time should be avoided at least 30 minutes before going to bed.",
+            "queries_used": [
+                "(\"screen time\" OR \"electronic media\" OR \"digital devices\") AND (bedtime OR \"pre-sleep\" OR \"before bed\") AND (\"sleep quality\" OR \"sleep latency\" OR \"sleep duration\")",
+                "(\"screen exposure\" OR \"smartphone use\" OR \"blue light\") AND (bedtime OR \"pre-bedtime\") AND (\"sleep onset\" OR \"sleep disturbance\" OR \"melatonin\")",
+                "(\"screen time\" OR \"electronic device use\") AND (\"screen curfew\" OR \"screen avoidance\" OR \"pre-sleep\") AND (\"sleep hygiene\" OR \"sleep quality\" OR \"insomnia\")"
+            ],
+            "query_source": "gemini",
+            "evidence": [
+                {
+                    "title": "Prolonged screen time is associated with increased prevalence of sleep disorders in children.",
+                    "abstract": "This study aimed to investigate whether sleep disorders are associated with electronic screen use before bedtime and total daily usage time in preschool children.",
+                    "pmid": "42557449",
+                    "relevance_score": 0.923649251461029
+                },
+                {
+                    "title": "Evaluation of Screen Time, Oral Health Status, and Sleep Disturbances in Children between 6 and 13 years: A Cross-sectional Study.",
+                    "abstract": "Sleep is a critical component required for the growth and development of a child. Deviation from the normal sleep pattern, quality, and quantity directly affects the baseline functioning of the individual. Increased screen time exposure affects the overall well-being of the child, particularly the sleep and oral health.",
+                    "pmid": "42524052",
+                    "relevance_score": 0.9206603169441223
+                },
+                {
+                    "title": "Patterns of screen use and their association with sleep among medical students: a cross-sectional study.",
+                    "abstract": "Screen use and reduced sleep have become an integral part of medical education and daily life, raising concerns regarding the potential impact on health. This study investigated screen time patterns, sleep characteristics, and their associations among medical students.",
+                    "pmid": "42827796",
+                    "relevance_score": 0.9148146510124207
+                }
+            ]
+        },
+        {
+            "claim_text": "Maintaining proper posture while sitting prevents back pain.",
+            "queries_used": [
+                "(\"sitting posture\" OR \"seated posture\" OR \"neutral posture\") AND (\"back pain\" OR \"low back pain\") AND (prevent OR prevention OR preventive)",
+                "(posture OR \"ergonomic sitting\") AND (sitting OR seated) AND (\"low back pain\" OR \"backache\") AND (prevention OR prophylaxis)",
+                "(\"sitting posture\" OR \"postural alignment\") AND (\"back pain\" OR \"lumbar pain\" OR \"spinal pain\") AND (prevent OR prevention OR reduction)"
+            ],
+            "query_source": "gemini",
+            "evidence": [
+                {
+                    "title": "Effects of the lumbar support function of wearable robot (Bot Fit) on sitting position.",
+                    "abstract": "Sedentary lifestyles can lead to musculoskeletal disorders, but proper sitting posture, particularly maintaining a slight anterior pelvic tilt, helps prevent issues like lower back pain and spinal misalignment. Samsung Electronics wearable robot 'Bot Fit' improves posture by enhancing core muscle tension, reducing trapezius muscle tension, and improving spinal alignment, which can alleviate pain and improve overall musculoskeletal health.",
+                    "pmid": "40474262",
+                    "relevance_score": 0.9267892241477966
+                },
+                {
+                    "title": "Designing a Smart Garment for Dynamic Sitting Reminders.",
+                    "abstract": "Currently, the sedentary nature of office work has led to a steady increase in the prevalence of spinal disorders, including lower back pain, back pain, and neck pain. Medical research has shown that monitoring and improving sitting posture is an important measure to prevent spinal discomfort. The emergence and development of wearable technology have enabled more people to effectively monitor their health. In this study, we propose and design a textile sensor-based sitting posture correction smart garment to realize dynamic sitting reminders aimed at meeting the needs of sedentary office workers. The garment achieves real-time sitting posture recognition through integrated machine learning algorithms, with a recognition accuracy exceeding 95% using a random forest classifier. Additionally, we developed haptic vibration feedback and visual GUI feedback modes to provide sitting posture intervention and dynamic sitting reminders. To evaluate the system's effectiveness and usability, we conducted comparative experiments analyzing sitting posture behavior before and after wearing the smart garment, along with a user satisfaction survey. The results demonstrate that the smart garment effectively helps office workers adjust their sitting posture and reduces the risk of spinal discomfort associated with prolonged sedentary work.",
+                    "pmid": "40968911",
+                    "relevance_score": 0.919364333152771
+                },
+                {
+                    "title": "Physical Development and Postural Behaviors in Children and Adolescents: A Cross-Sectional Study.",
+                    "abstract": "<b>Background/Objectives:</b> Musculoskeletal pain represents a frequent and increasingly recognized health issue during adolescence. During this developmental phase, daily habits such as prolonged sitting, sedentary behaviors and the adoption of non-neutral postures may contribute to spinal overload and pain symptoms. This study contributes to the existing literature by focusing on concrete postural behaviors in real-life daily situations, an aspect that is still underexplored despite its relevance for musculoskeletal health. The aim of this study was to investigate the associations between daily habits, postural behaviors and the presence of back and neck pain. <b>Methods</b>: A cross-sectional study was conducted on a sample of 70 adolescents aged 10-20 years. Data were collected using the Back Pain and Body Posture Evaluation Instrument for Children and Adolescents (BackPEI-CA), administered online. Descriptive statistics and chi-square tests with effect sizes (Cramer's V) were used to examine associations between postural behaviors, lifestyle factors, and pain outcomes, providing an inferential assessment beyond simple descriptive analysis. <b>Results</b>: Significant associations were found between gender and back pain, sitting posture during daily activities (writing at the desk and talking with friends) and back pain, with flexed or asymmetrical postures more frequently reported among participants with pain, and between back and neck pain (<i>p</i> < 0.05). <b>Conclusions:</b> The findings highlight the relevance of gender and daily postural behaviors as factors associated with musculoskeletal pain in adolescents. By identifying posture-specific behaviors linked to pain, this study provides preliminary evidence that can inform targeted preventive strategies and guide future research on modifiable daily habits in youth.",
+                    "pmid": "42194224",
+                    "relevance_score": 0.9119896292686462
+                }
+            ]
+        },
+        {
+            "claim_text": "Herbal tea is a healthier alternative to sugary drinks.",
+            "queries_used": [
+                "tea AND alternative AND drink",
+                "tea AND alternative",
+                "tea AND drink"
+            ],
+            "query_source": "spacy_fallback",
+            "evidence": [
+                {
+                    "title": "Shaping the Bioactive Properties of Kombucha Drinks by Using Raw Materials Alternative to Tea.",
+                    "abstract": "Alternative substrates to traditional <i>Camellia sinensis</i> tea are increasingly investigated to diversify kombucha and enhance its functional properties. This review synthesizes evidence (2020-2025) on how non-tea substrates influence microbial ecology, metabolite composition, and bioactivity of kombucha. A semi-systematic search of PubMed, Scopus, Web of Science, and publisher platforms identified studies on fruit, vegetable, herbal, algal, cereal, dairy, and food-industry by-product substrates reporting compositional or functional outcomes. Extracted data included substrate characteristics, fermentation conditions, SCOBY features, analytical methods, and reported antioxidant, anti-inflammatory, metabolic, probiotic, and dermatological effects. Fermentation often leads to an increase in total phenolic content and antioxidant capacity. These effects are highly dependent on fermentation conditions, particularly duration and substrate composition. In some cases, prolonged fermentation may result in phenolic degradation or transformation, leading to reduced levels of certain compounds. Fruit- and hibiscus-based systems enhanced anthocyanin-driven antioxidant and anti-inflammatory activity. Vegetable and cereal substrates supplied phenolic acids and <i>\u03b2</i>-glucans associated with metabolic regulation and gut health, whereas by-products and algal fermentations supported waste valorization and enrichment in chlorogenic acids, pigments, fibers, and peptides. Despite promising functionality, substantial inter-study variability and limited in vivo validation and the lack of standardized fermentation protocols constrain translational application. In addition, the inherent variability in SCOBY microbial composition represents a major source of inconsistency, as differences in microbial communities can significantly influence fermentation dynamics, metabolite profiles, and functional outcomes.",
+                    "pmid": "41976210",
+                    "relevance_score": 0.9137405753135681
+                },
+                {
+                    "title": "Habitual tea consumption is associated with a low prevalence of gastroesophageal reflux disease in a Taiwanese population study.",
+                    "abstract": "Gastroesophageal reflux disease (GERD) is a common gastrointestinal condition associated with significantly impaired quality of life. While tea consumption has been associated with various health benefits, its relationship with GERD remains controversial. The aim of this study was to evaluate the relationship between the prevalence of GERD and tea consumption, including the type, drinking frequency and daily intake of tea, in a large Taiwanese cohort.",
+                    "pmid": "42807308",
+                    "relevance_score": 0.9119873046875
+                },
+                {
+                    "title": "Optimization of physicochemical and antimicrobial properties of functional kombucha beverage sweetened with dried fruits using simplex centroid mixture and Plackett-Burman designs.",
+                    "abstract": "Traditional foods and beverages represent alternative strategies to counteract bacterial virulence. The fermentation of tea, sugar, supplemented with a symbiotic culture of bacteria and yeast (SCOBY) produces kombucha beverage, which offers several health advantages and is similar to soft drinks. This study investigates the effect of various fermentation factors on the growth levels of Lactobacillus, Lactococcus, total phenolic content and antimicrobial activities of Green Tea, Black Tea and Moringa kombucha beverage (GTBTMK) prepared with a starter SCOBY culture. Formulation of kombucha beverage was optimized using a Simplex-Centroid Mixture Design and Plackett-Burman Design. The best optimized kombucha formulation (18.98\u00a0g/L; Dried Apricot was 20\u00a0g/L; Dried plum was 10\u00a0g/L, Dried Grape was 20\u00a0g/L,11.763\u00a0g/L Green tea, 0.01238\u00a0g/L Black tea and 8.1127\u00a0g/L Moringa) contain a high phenolic content of 86.79\u00a0mg GAE/mL and exhibited a significant antimicrobial activity against Bacillus cereus ATCC 11778, Micrococcus luteus NCIMB 8166 and Enterococcus faecalis ATCC 29212, Candida albicans ATCC 90028, Cryptococcus neoformans ATCC 14116, Aspergillus brasiliensis ATCC 16404 (Inhibition zone more than 20\u00a0mm). This research provides new insights into the development of innovative, functional kombucha beverage potentially expanding the spectrum of health-promoting fermented drinks available to consumers.",
+                    "pmid": "41592653",
+                    "relevance_score": 0.9059634804725647
+                }
+            ]
+        }
+    ]
+}

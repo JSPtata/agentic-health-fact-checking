@@ -41,14 +41,31 @@ prompt = f"""
 
     - Ignore greetings, filler, opinions, advertisements, and obvious OCR noise.
 
+    For each extracted atomic claim, also identify:
+
+    - exposure: The behavior, substance, treatment, or intervention being discussed.
+    - outcome: The health effect explicitly claimed.
+    - context: Important timing, dosage, population, conditions, or comparisons.
+
+    Rules:
+    - Extract only information explicitly present in the claim.
+    - Do not invent an outcome or assume a causal relationship.
+    - If a component is not explicitly stated, return null.
+    - Preserve important comparisons and qualifiers.
+    - For comparative claims, retain both alternatives in the context.
+    - Do not change the original claim_text.
+
     Return only this JSON format:
 
     {{
-    "claims": [
-        {{
-        "claim_text": "..."
-        }}
-    ]
+        "claims": [
+            {{
+                "claim_text": "...",
+                "exposure": "...",
+                "outcome": "...",
+                "context": "..."
+            }}
+        ]
     }}
 
     Text:
@@ -73,8 +90,11 @@ response_text = response_text.replace("```", "")
 
 claims_data = json.loads(response_text)
 
+for i, claim in enumerate(claims_data["claims"], start=1):
+    claim["claim_id"] = f"{video_id}-c{i:03d}"
+
 with open(output_file,"w") as json_file:
     json.dump(claims_data,json_file,indent=4)
 
 print("Saved to: "+output_file)
-print(response.output_text)
+print(json.dumps(claims_data, indent=4))

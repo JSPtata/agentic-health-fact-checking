@@ -1,0 +1,654 @@
+{
+    "video_id": "fitness-02",
+    "claims": [
+        {
+            "claim_text": "Always stretch your body after waking up to boost circulation.",
+            "queries_used": [
+                "(stretching OR \"stretching exercises\") AND (morning OR \"waking up\" OR awakening) AND (\"blood circulation\" OR \"blood flow\")",
+                "(\"muscle stretching\" OR \"stretching exercise\") AND (morning OR \"upon waking\") AND (hemodynamics OR \"vascular function\" OR microcirculation)",
+                "(\"static stretching\" OR stretching) AND (morning OR awakening) AND (\"peripheral blood flow\" OR perfusion OR circulation)"
+            ],
+            "query_source": "gemini",
+            "evidence": [
+                {
+                    "title": "Use of low-frequency electrical stimulation for the treatment of plantar fasciitis.",
+                    "abstract": "Recent research has discussed the use of low-frequency electrical stimulation to increase blood flow by eliciting muscular contraction in soft tissues. This randomized clinical trial examined the efficacy of low-frequency electrical stimulation combined with stretching exercises and foot orthoses in individuals diagnosed as having plantar fasciitis for less than 6 months.",
+                    "pmid": "19917733",
+                    "relevance_score": 0.8820163607597351,
+                    "relevance_review": {
+                        "semantic_score": 0.882,
+                        "concept_coverage": 0.0,
+                        "title_coverage": 0.0,
+                        "matched_terms": [],
+                        "missing_terms": [
+                            "body",
+                            "circulation"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.867,
+                            "outcome_match": 0.837,
+                            "context_match": 0.831,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "Effect of yoga on arterial stiffness in elderly subjects with increased pulse pressure: A randomized controlled study.",
+                    "abstract": "We aimed to determine the effect of yoga on arterial function in elderly with increased pulse pressure (PP).",
+                    "pmid": "26275649",
+                    "relevance_score": 0.8804800510406494,
+                    "relevance_review": {
+                        "semantic_score": 0.88,
+                        "concept_coverage": 0.0,
+                        "title_coverage": 0.0,
+                        "matched_terms": [],
+                        "missing_terms": [
+                            "body",
+                            "circulation"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.853,
+                            "outcome_match": 0.849,
+                            "context_match": 0.831,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "Characteristics of the sleep of men in simulated space flights.",
+                    "abstract": "A study of the sleep of men in simulated space flight has shown that, during different effects (diminished motor activity, noise, rotation), monotony and time of the exposure is the general pathogenetic factor producing sleep disturbances. The monotony factor was responsible for typical changes in sleep function (difficulty involved in falling asleep, disturbed continuity of sleep as a process, decline in the depth, etc.), whose degree was related not only to the professional importance of the experiment but also to the individual intolerance to the main exposure. In these cases, the action of somnogenic mechanisms developed against the background of the action of analyzers (vestibular, accoustic, proprioceptive) that were under load and whose excitation during hypokinesia, noise, and rotation, especially in poorly adapted people, led to cumulation and was expressed in the phenomenon of spontaneous awakening. In addition to that, the genesis of dyssomnia, particularly during bedrest and water immersion, included hemodynamic disturbances induced by blood redistribution due to the recumbent position and monotonous motor activity. The psychosomatic feelings (congestion, edema, irresistible desire to stand up and stretch) brought about emotional strain which was later enhanced by the duration of the exposure.",
+                    "pmid": "167706",
+                    "relevance_score": 0.8795281648635864,
+                    "relevance_review": {
+                        "semantic_score": 0.88,
+                        "concept_coverage": 0.0,
+                        "title_coverage": 0.0,
+                        "matched_terms": [],
+                        "missing_terms": [
+                            "body",
+                            "circulation"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.845,
+                            "outcome_match": 0.814,
+                            "context_match": 0.857,
+                            "overall": "pending"
+                        }
+                    }
+                }
+            ],
+            "claim_id": "fitness-02-c001",
+            "exposure": "stretching your body",
+            "outcome": "boost circulation",
+            "context": "after waking up"
+        },
+        {
+            "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+            "queries_used": [
+                "(coffee OR caffeine) AND (fasting OR \"empty stomach\") AND (\"gastric acid\" OR \"acid secretion\" OR heartburn)",
+                "(coffee OR \"coffee consumption\") AND (fasting OR \"empty stomach\" OR preprandial) AND (\"gastric acidity\" OR \"gastric acid secretion\" OR dyspepsia)",
+                "coffee AND (\"empty stomach\" OR fasting) AND (\"gastroesophageal reflux\" OR heartburn OR \"gastric pH\")"
+            ],
+            "query_source": "gemini",
+            "evidence": [
+                {
+                    "title": "Effect of coffee on gastro-oesophageal reflux in patients with reflux disease and healthy controls.",
+                    "abstract": "Many patients with gastro-oesophageal reflux disease (GORD) report that coffee aggravates their symptoms and doctors tend to discourage its use in GORD.",
+                    "pmid": "10563539",
+                    "relevance_score": 0.9388833045959473,
+                    "relevance_review": {
+                        "semantic_score": 0.939,
+                        "concept_coverage": 0.25,
+                        "title_coverage": 0.25,
+                        "matched_terms": [
+                            "coffee"
+                        ],
+                        "missing_terms": [
+                            "acidity",
+                            "drinking",
+                            "stomach"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.91,
+                            "outcome_match": 0.876,
+                            "context_match": 0.875,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "A randomized, double-blind comparison of two different coffee-roasting processes on development of heartburn and dyspepsia in coffee-sensitive individuals.",
+                    "abstract": "The mechanism underlying coffee-induced heartburn and dyspepsia remains poorly understood. This has led to speculation that variations in coffee processing may be important. The primary objective of this study was to determine whether a coffee brewed with coffee beans processed using conduction roasting will result in fewer symptoms of gastroesophageal reflux and dyspepsia in coffee-sensitive individuals compared to a differently processed yet otherwise similar coffee. Thirty coffee-sensitive individuals completed this single-center, randomized, double-blind, crossover study in which the symptoms of heartburn, regurgitation and dyspepsia were assessed following coffee consumption both in the fasting state and after ingestion of a standard test meal. Consumption of both coffees resulted in heartburn, regurgitation, and dyspepsia in most individuals. No significant differences in the frequency or severity of heartburn, regurgitation, or dyspepsia were demonstrated between the two coffees either in the fasting state or after the test meal. We conclude that differences in the coffee bean roasting process do not result in marked differences in coffee-induced upper gastrointestinal symptoms.",
+                    "pmid": "12741451",
+                    "relevance_score": 0.9016669988632202,
+                    "relevance_review": {
+                        "semantic_score": 0.902,
+                        "concept_coverage": 0.25,
+                        "title_coverage": 0.25,
+                        "matched_terms": [
+                            "coffee"
+                        ],
+                        "missing_terms": [
+                            "acidity",
+                            "drinking",
+                            "stomach"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.872,
+                            "outcome_match": 0.841,
+                            "context_match": 0.854,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "Endoscopic finding of hematin represents strong gastric acidity.",
+                    "abstract": "Hematin is a state in which hemoglobin, as petechiae, is discolored to a brown coffee color by gastric hydrochloric acid. Given the nature of hematin, a close relationship between hematin and acidity has been suggested, but has not been confirmed. We investigated the clinical significance of endoscopic finding of hematin with respect to gastric acidity.",
+                    "pmid": "35784632",
+                    "relevance_score": 0.8995547294616699,
+                    "relevance_review": {
+                        "semantic_score": 0.9,
+                        "concept_coverage": 0.5,
+                        "title_coverage": 0.25,
+                        "matched_terms": [
+                            "acidity",
+                            "coffee"
+                        ],
+                        "missing_terms": [
+                            "drinking",
+                            "stomach"
+                        ],
+                        "relevance_flag": "review",
+                        "suitability": {
+                            "exposure_match": 0.848,
+                            "outcome_match": 0.875,
+                            "context_match": 0.866,
+                            "overall": "pending"
+                        }
+                    }
+                }
+            ],
+            "claim_id": "fitness-02-c002",
+            "exposure": "drinking coffee",
+            "outcome": "prevent acidity",
+            "context": "on an empty stomach"
+        },
+        {
+            "claim_text": "Eat fruits before meals, not after, for better digestion.",
+            "queries_used": [
+                "eat AND fruit AND meal AND digestion",
+                "eat AND fruit AND meal",
+                "eat AND fruit AND digestion"
+            ],
+            "query_source": "spacy_fallback",
+            "evidence": [
+                {
+                    "title": "The role of nutrition in non-alcoholic fatty liver disease: Pathophysiology and management.",
+                    "abstract": "A healthy diet together with physical activity could induce weight loss and control the progression of non-alcoholic fatty liver disease (NAFLD). However, the composition of diet has not been clearly established. Macronutrients such as saturated fatty acids (SFA), trans-fats, simple sugars and animal proteins have a harmful effect on the liver. On the other hand, monounsaturated fats (MUFAs), polyunsaturated (PUFAs) omega-3-fats, plant-based proteins and dietary fibres are considered to be beneficial to the liver. The impact of specific micronutrients is less well-known. Nutrients are part of the food we eat. Food makes up our meals, which compose our dietary patterns. Non-alcoholic fatty liver disease patients usually follow Western diets which are rich in soda, frozen junk food, juice, red meat, lard, processed meats, whole fat dairy foods, fatty snack foods, take-away foods, cakes and biscuits and poor in cereals, whole grains, fruit, vegetables, extra virgin olive oil (EVOO) and fish. On the other hand, the Mediterranean diet (MD) is beneficial for NAFLD even when it is iso-caloric or there are no changes in body weight. A new approach, called 'nutritional geometry' considers the importance of integrating nutrition, animals and the environment. The goal of this approach is to combine nutrients and foods in a model to understand how food components interact to regulate the properties of diets affecting health and disease. The use of algorithms developed by artificial intelligence (AI) to create a personalized diet for patients can provide customized nutritional counselling to prevent and treat NAFLD.",
+                    "pmid": "32077594",
+                    "relevance_score": 0.888583779335022,
+                    "relevance_review": {
+                        "semantic_score": 0.889,
+                        "concept_coverage": 0.5,
+                        "title_coverage": 0.0,
+                        "matched_terms": [
+                            "fruit",
+                            "meal"
+                        ],
+                        "missing_terms": [
+                            "digestion",
+                            "well"
+                        ],
+                        "relevance_flag": "review",
+                        "suitability": {
+                            "exposure_match": 0.859,
+                            "outcome_match": 0.876,
+                            "context_match": 0.869,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "A central role for dietary sugars in human evolution.",
+                    "abstract": "What did our ancestors eat? Current understanding of diet in human evolution is predicated on abundant animal foods and mastery of fire, both unlikely for early hominins. Using multiple lines of evidence, including the metabolic requirements of an enlarging brain and reproduction, we model macronutrient distribution across 4 million years of evolution. Before cooking made starch easily digestible, the sugars in fruit and honey provided glucose, the brain's preferred fuel. Modeling suggests that sugars provided >25% of dietary energy, fulfilling obligatory glucose demand. Pounding and cooking released glucose specifically, not merely energy. The evolution of a bigger brain is therefore a story of carbohydrate foods as much as animal foods: from sweet sugars to cooked starch, from chewing to processing, and from wadging to advanced nutrient extraction.",
+                    "pmid": "42561068",
+                    "relevance_score": 0.8821382522583008,
+                    "relevance_review": {
+                        "semantic_score": 0.882,
+                        "concept_coverage": 0.25,
+                        "title_coverage": 0.0,
+                        "matched_terms": [
+                            "fruit"
+                        ],
+                        "missing_terms": [
+                            "digestion",
+                            "meal",
+                            "well"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.875,
+                            "outcome_match": 0.873,
+                            "context_match": 0.865,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "A Smartphone App to Improve Intuitive Eating and Diet Quality: Design and Usability Study.",
+                    "abstract": "Web-based and mobile phone-based apps have become widely available for dietary self-monitoring; however, their use may increase the risk of disordered eating. College students frequently demonstrate poor nutrient intake despite consumption of sufficient calories. One way to improve diet quality may be via the use of a smartphone app that encourages intuitive eating.",
+                    "pmid": "42467965",
+                    "relevance_score": 0.8794685006141663,
+                    "relevance_review": {
+                        "semantic_score": 0.879,
+                        "concept_coverage": 0.0,
+                        "title_coverage": 0.0,
+                        "matched_terms": [],
+                        "missing_terms": [
+                            "digestion",
+                            "fruit",
+                            "meal",
+                            "well"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.873,
+                            "outcome_match": 0.874,
+                            "context_match": 0.866,
+                            "overall": "pending"
+                        }
+                    }
+                }
+            ],
+            "claim_id": "fitness-02-c003",
+            "exposure": "eating fruits",
+            "outcome": "better digestion",
+            "context": "before meals, not after"
+        },
+        {
+            "claim_text": "The best time for exercise is early morning or evening.",
+            "queries_used": [
+                "time AND exercise AND morning AND evening",
+                "time AND exercise AND morning",
+                "time AND exercise AND evening"
+            ],
+            "query_source": "spacy_fallback",
+            "evidence": [
+                {
+                    "title": "Influence of Morning and Afternoon Exercise on Body Composition and Metabolic Health: A Systematic Review and Meta-Analysis.",
+                    "abstract": "Exercise is widely recognized for its beneficial effects on metabolic health and can serve as a non-pharmacological health intervention. However, the effect of morning versus afternoon exercise on various metabolic indicators remains unclear. This study aimed to systematically analyze the effect of exercise at various times of day on body composition, glucose and lipid metabolism.",
+                    "pmid": "42658446",
+                    "relevance_score": 0.9281929731369019,
+                    "relevance_review": {
+                        "semantic_score": 0.928,
+                        "concept_coverage": 0.5,
+                        "title_coverage": 0.333,
+                        "matched_terms": [
+                            "exercise",
+                            "morning",
+                            "time"
+                        ],
+                        "missing_terms": [
+                            "early",
+                            "evening",
+                            "good"
+                        ],
+                        "relevance_flag": "review",
+                        "suitability": {
+                            "exposure_match": 0.896,
+                            "outcome_match": null,
+                            "context_match": 0.904,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "Morning or evening? Time of day does not affect body composition, cardiopulmonary performance, and muscle strength responses to combined training in women with obesity.",
+                    "abstract": "Obesity is characterized by adipocyte dysfunction, accompanied by impairments in oxidative metabolism and physical function. Although physical training is known to improve oxidative capacity, body composition, and functional performance, the magnitude of these adaptations may be influenced by several modulatory factors. Among these, circadian rhythm has emerged as a potential determinant of exercise-induced adaptations due to daily fluctuations in metabolic and physiological processes; however, its influence in women with obesity remains unclear. Therefore, this study aimed to investigate the effects of combined training performed at different times of the day (morning vs. evening) on body composition, cardiopulmonary performance, and muscle strength in previously untrained women with obesity.",
+                    "pmid": "42812561",
+                    "relevance_score": 0.9223988056182861,
+                    "relevance_review": {
+                        "semantic_score": 0.922,
+                        "concept_coverage": 0.667,
+                        "title_coverage": 0.5,
+                        "matched_terms": [
+                            "evening",
+                            "exercise",
+                            "morning",
+                            "time"
+                        ],
+                        "missing_terms": [
+                            "early",
+                            "good"
+                        ],
+                        "relevance_flag": "high",
+                        "suitability": {
+                            "exposure_match": 0.89,
+                            "outcome_match": null,
+                            "context_match": 0.893,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "Time-of-day effects of acute and regular exercise on sleep quality and mood: a three-level meta-analysis.",
+                    "abstract": "Evidence regarding whether exercise timing differentially affects sleep quality and mood remains inconsistent. This study examined the effects of acute and regular exercise performed at different times of day on sleep and mood.",
+                    "pmid": "42857179",
+                    "relevance_score": 0.9151884317398071,
+                    "relevance_review": {
+                        "semantic_score": 0.915,
+                        "concept_coverage": 0.333,
+                        "title_coverage": 0.333,
+                        "matched_terms": [
+                            "exercise",
+                            "time"
+                        ],
+                        "missing_terms": [
+                            "early",
+                            "evening",
+                            "good",
+                            "morning"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.888,
+                            "outcome_match": null,
+                            "context_match": 0.881,
+                            "overall": "pending"
+                        }
+                    }
+                }
+            ],
+            "claim_id": "fitness-02-c004",
+            "exposure": "exercise",
+            "outcome": null,
+            "context": "early morning or evening"
+        },
+        {
+            "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+            "queries_used": [
+                "avoid AND time AND bed",
+                "avoid AND time",
+                "avoid AND bed"
+            ],
+            "query_source": "spacy_fallback",
+            "evidence": [
+                {
+                    "title": "Treating the incumbent patient in triage: An analysis of \"first come, first served\" as a procedural rule.",
+                    "abstract": "Allocating scarce intensive care resources requires decisions about both which patients should receive priority and which rules should guide those choices. We investigate how the procedural allocation rule \"first come, first served\" (FCFS) shapes triage decisions. Using experimental ICU bed allocation scenarios, we examine how 8227 scientists across disciplines, surveyed in April and May 2020, make life-and-death allocation decisions when patients differ in clinical and social characteristics and arrive simultaneously or sequentially. Many respondents prioritize the earlier-arriving incumbent patient even when the alternative has stronger survival-relevant claims, indicating a robust arrival-priority pattern. At the same time, the incumbent frame is associated with lower decision avoidance, suggesting that FCFS can function as a morally and organizationally \"safe\" shortcut in high-stakes settings. Reliance on FCFS varies across expert communities in ways consistent with disciplinary training. Health economists, whose work emphasizes trade-offs and policy evaluation, exhibit lower average adherence to FCFS than other health-related scientists, although substantial reliance on FCFS persists even within this group. The findings highlight a tension between procedural legitimacy and benefit-based triage criteria and suggest that guidelines should anticipate default-preserving tendencies and omission concerns when designing equitable and clinically grounded allocation procedures.",
+                    "pmid": "42810318",
+                    "relevance_score": 0.8757824897766113,
+                    "relevance_review": {
+                        "semantic_score": 0.876,
+                        "concept_coverage": 0.5,
+                        "title_coverage": 0.0,
+                        "matched_terms": [
+                            "bed",
+                            "time"
+                        ],
+                        "missing_terms": [
+                            "minute",
+                            "screen"
+                        ],
+                        "relevance_flag": "review",
+                        "suitability": {
+                            "exposure_match": 0.84,
+                            "outcome_match": null,
+                            "context_match": 0.884,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "The Psychological Impact of Hospital Admission on the Elderly: A Prospective Comparative Clinical Audit and Service Evaluation.",
+                    "abstract": "Introduction Hospital admission in older adults can be associated with functional decline, loss of independence, delirium, disruption of routine, and psychological deterioration. Virtual Wards, also described as Hospital-at-Home models, provide acute clinical care in a patient's usual place of residence and may reduce some harms associated with inpatient admission. Although Virtual Wards are commonly evaluated in terms of bed capacity, admission avoidance, and clinical safety, their psychological impact remains less well explored. This audit compared depressive symptoms and self-rated mood in older adults managed in hospital with those treated through a Virtual Ward service. Methods A prospective comparative clinical audit and service evaluation was conducted within the Care of the Elderly directorate at East Cheshire NHS Trust. The audit included 100 patients aged \u226570 years: 50 hospital inpatients and 50 patients managed through Virtual Ward pathways. Eligible patients had received at least five days of inpatient or Virtual Ward care and had broadly comparable medical diagnoses. Patients with severe acute or life-threatening illness, those lacking capacity to participate, and those with communication barriers preventing completion of the assessment tools were excluded. Baseline age, sex, primary diagnosis, and Clinical Frailty Scale (CFS) characteristics were compared descriptively between cohorts. Depressive symptoms were assessed using the 15-item Geriatric Depression Scale (GDS-15), and self-rated mood was assessed using a five-point mood scale. Exploratory unadjusted between-group comparisons were performed for selected patient-level outcomes. Results Hospital inpatients demonstrated a greater depressive symptom burden than Virtual Ward patients. A GDS-15 score of \u22655 was recorded in 36 (72%) hospital inpatients compared with 15 (30%) Virtual Ward patients, corresponding to an unadjusted odds ratio of 6.00 (95% CI, 2.53-14.24; Fisher's exact p<0.001). Low self-rated mood, defined as a score of 1 or 2, was reported by 19 (38%) hospital inpatients compared with three (6%) Virtual Ward patients, with an unadjusted odds ratio of 9.60 (95% CI, 2.62-35.21; Fisher's exact p<0.001). Conversely, positive mood scores of 4 or 5 were reported by 32 (64%) Virtual Ward patients compared with 16 (32%) hospital inpatients. Baseline age and frailty distributions showed substantial descriptive overlap, although some variation in sex and primary diagnosis was present between cohorts. Conclusion Older adults receiving inpatient care demonstrated a greater burden of depressive symptoms and less positive self-rated mood than those managed through the Virtual Ward service. However, the non-randomised design, potential selection bias, and absence of adjustment for important baseline factors such as cognitive status, functional status, social support, and baseline psychological wellbeing mean that causation cannot be established. The findings should therefore be interpreted as an association between care setting and psychological wellbeing rather than evidence that Virtual Ward care itself improves mood. Further prospective evaluation using comprehensive baseline assessment, adjusted analyses, and post-discharge follow-up is required. Older adults who require hospital admission may also benefit from routine mood assessment and targeted measures to support psychological wellbeing.",
+                    "pmid": "42831210",
+                    "relevance_score": 0.8756688237190247,
+                    "relevance_review": {
+                        "semantic_score": 0.876,
+                        "concept_coverage": 0.25,
+                        "title_coverage": 0.0,
+                        "matched_terms": [
+                            "bed"
+                        ],
+                        "missing_terms": [
+                            "minute",
+                            "screen",
+                            "time"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.838,
+                            "outcome_match": null,
+                            "context_match": 0.881,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "Artificial Intelligence for Predicting Length of Stay for General Surgery Patients: A Systematic Review.",
+                    "abstract": "Length of stay (LoS) prediction is vital for optimizing surgical patient flow and resource allocation. Artificial intelligence (AI) and machine learning (ML) models may enhance LoS prediction, yet their validity and clinical utility in General Surgery remain unclear.",
+                    "pmid": "42755093",
+                    "relevance_score": 0.8729874491691589,
+                    "relevance_review": {
+                        "semantic_score": 0.873,
+                        "concept_coverage": 0.0,
+                        "title_coverage": 0.0,
+                        "matched_terms": [],
+                        "missing_terms": [
+                            "bed",
+                            "minute",
+                            "screen",
+                            "time"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.859,
+                            "outcome_match": null,
+                            "context_match": 0.872,
+                            "overall": "pending"
+                        }
+                    }
+                }
+            ],
+            "claim_id": "fitness-02-c005",
+            "exposure": "screen time",
+            "outcome": null,
+            "context": "at least 30 minutes before going to bed"
+        },
+        {
+            "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+            "queries_used": [
+                "maintain AND posture AND pain",
+                "maintain AND posture",
+                "maintain AND pain"
+            ],
+            "query_source": "spacy_fallback",
+            "evidence": [
+                {
+                    "title": "Sustained Improvements of Thoracic Hyperkyphosis, Body Dysmorphic Disorder, in a 26-Year-Old Male With Scheuermann's Disease Using Chiropractic BioPhysics\u00ae Spinal Rehabilitation: A Case Report and 28-Month Long-Term Follow-Up.",
+                    "abstract": "We report\u00a0sustained improvements in thoracic hyperkyphosis, sagittal balance, and health-related quality of life in a 26-year-old male with Scheuermann's disease using Chiropractic BioPhysics\u00ae (CBP\u00ae) rehabilitation with a 28-month long-term follow-up. Scheuermann's is associated with significant reductions in quality-of-life outcomes and poor psychosocial outcomes. Body dysmorphic disorders and altered self-perception further deteriorate patient-reported outcomes. Reductions in abnormal spine conditions can reduce the likelihood of disability and chronic conditions. A 26-year-old male with posture deformity and hyperkyphosis had experienced only long-term mild pain and consequences from his abnormal posture. Poor sagittal alignment led to disqualification for enrollment into the United States Coast Guard; he sought treatment in Meridian, Idaho, USA. Physical examination demonstrated altered spine and postural alignment. Treatment was a multi-modal regimen focused on postural muscles, specific spine manipulation directed toward abnormal full-spine alignment, and specific mirror image traction aimed to improve spine integrity by realigning the spine toward a more normal position. Following 36 treatments over three months, all initial tests and outcome measures were repeated. All outcome measures, posture, and radiographic mensuration demonstrated improvement at the conclusion of treatment and were maintained at 28-month re-examination. SF-36 scores improved by the minimal clinically important difference in nearly all categories and were maintained at 28 months. We report that the CBP<sup>\u00ae</sup>treatment approach had a potential positive effect for a single patient with Scheuermann's kyphosis. This investigation is a single case, and no declarative statements of efficacy are made or implied. Larger controlled studies are necessary to make conclusions regarding Scheuermann's kyphosis with CBP treatment. This study adds to the literature regarding conservative methods of treating postural and spine disorders.",
+                    "pmid": "42740924",
+                    "relevance_score": 0.9047235250473022,
+                    "relevance_review": {
+                        "semantic_score": 0.905,
+                        "concept_coverage": 0.667,
+                        "title_coverage": 0.0,
+                        "matched_terms": [
+                            "pain",
+                            "posture"
+                        ],
+                        "missing_terms": [
+                            "proper"
+                        ],
+                        "relevance_flag": "review",
+                        "suitability": {
+                            "exposure_match": 0.89,
+                            "outcome_match": 0.887,
+                            "context_match": 0.846,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "Static sagittal cervical alignment, pain, and jaw functional limitation across temporomandibular disorder subtypes: a cross-sectional study.",
+                    "abstract": "This study aimed to compare cervical sagittal alignment among temporomandibular disorder subtypes and to investigate the relationships between cervical alignment parameters, temporomandibular joint pain, neck pain, and jaw functional limitation.",
+                    "pmid": "42763410",
+                    "relevance_score": 0.8989790081977844,
+                    "relevance_review": {
+                        "semantic_score": 0.899,
+                        "concept_coverage": 0.333,
+                        "title_coverage": 0.333,
+                        "matched_terms": [
+                            "pain"
+                        ],
+                        "missing_terms": [
+                            "posture",
+                            "proper"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.865,
+                            "outcome_match": 0.877,
+                            "context_match": 0.851,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "Axial Back Pain Secondary to Ligamentum Flavum Ossification in a Patient with Hypoparathyroidism: A Rare Case Report.",
+                    "abstract": "The ligamentum flavum is a structure that connects adjacent laminae and plays a role in maintaining upright posture. Hypoparathyroidism can rarely cause ligamentum flavum ossification (LFO). LFO can cause symptoms due to spinal cord compression. A 48-year-old man was evaluated for complaints of widespread back pain, a burning sensation, and numbness in the lower extremities. Imaging revealed spinal stenosis at the T10-T11 level due to LFO. Following facet joint block and duloxetine treatment, the VAS score decreased from 8 to 3. Early diagnosis and appropriate treatment of LFO in patients with hypoparathyroidism are critical for symptom control and functional recovery.",
+                    "pmid": "42824910",
+                    "relevance_score": 0.8969700932502747,
+                    "relevance_review": {
+                        "semantic_score": 0.897,
+                        "concept_coverage": 0.667,
+                        "title_coverage": 0.333,
+                        "matched_terms": [
+                            "pain",
+                            "posture"
+                        ],
+                        "missing_terms": [
+                            "proper"
+                        ],
+                        "relevance_flag": "high",
+                        "suitability": {
+                            "exposure_match": 0.867,
+                            "outcome_match": 0.883,
+                            "context_match": 0.833,
+                            "overall": "pending"
+                        }
+                    }
+                }
+            ],
+            "claim_id": "fitness-02-c006",
+            "exposure": "maintaining proper posture",
+            "outcome": "prevent back pain",
+            "context": "while sitting"
+        },
+        {
+            "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+            "queries_used": [
+                "replace AND drink AND tea AND alternative",
+                "replace AND drink AND tea",
+                "replace AND drink AND alternative"
+            ],
+            "query_source": "spacy_fallback",
+            "evidence": [
+                {
+                    "title": "Sugar-sweetened beverages and risk of obesity and type 2 diabetes: epidemiologic evidence.",
+                    "abstract": "In recent decades, temporal patterns in SSB intake have shown a close parallel between the upsurge in obesity and rising levels of SSB consumption. SSBs are beverages that contain added caloric sweeteners such as sucrose, high-fructose corn syrup or fruit-juice concentrates, all of which result in similar metabolic effects. They include the full spectrum of soft drinks, carbonated soft drinks, fruitades, fruit drinks, sports drinks, energy and vitamin water drinks, sweetened iced tea, cordial, squashes, and lemonade, which collectively are the largest contributor to added sugar intake in the US. It has long been suspected that SSBs have an etiologic role in the obesity epidemic, however only recently have large epidemiological studies been able to quantify the relationship between SSB consumption and long-term weight gain, type 2 diabetes (T2DM) and cardiovascular disease (CVD) risk. Experimental studies have provided important insight into potential underlying biological mechanisms. It is thought that SSBs contribute to weight gain in part by incomplete compensation for energy at subsequent meals following intake of liquid calories. They may also increase risk of T2DM and CVD as a contributor to a high dietary glycemic load leading to inflammation, insulin resistance and impaired beta-cell function. Additional metabolic effects from the fructose fraction of these beverages may also promote accumulation of visceral adiposity, and increased hepatic de novo lipogenesis, and hypertension due to hyperuricemia. Consumption of SSBs should therefore be replaced by healthy alternatives such as water, to reduce risk of obesity and chronic diseases.",
+                    "pmid": "20138901",
+                    "relevance_score": 0.8998357653617859,
+                    "relevance_review": {
+                        "semantic_score": 0.9,
+                        "concept_coverage": 0.667,
+                        "title_coverage": 0.0,
+                        "matched_terms": [
+                            "alternative",
+                            "drink",
+                            "healthy",
+                            "tea"
+                        ],
+                        "missing_terms": [
+                            "herbal",
+                            "sugary"
+                        ],
+                        "relevance_flag": "review",
+                        "suitability": {
+                            "exposure_match": 0.874,
+                            "outcome_match": 0.88,
+                            "context_match": null,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "[Smoking and nicotine use, heated tobacco products, psychological and socioeconomic aspects of dependence, alcohol, infections, vaccination and diabetes mellitus (Update 2026)].",
+                    "abstract": "Smoking and passive smoking significantly increase both the incidence of diabetes and the risk of late complications. While complete smoking and nicotine cessation may lead to weight gain and an increased risk of diabetes, it nevertheless reduces cardiovascular and all-cause mortality. The basic diagnostic assessment (Fagerstr\u00f6m test, exhaled carbon monoxide) is essential for successful smoking cessation. Evidence-based pharmacological options include varenicline, nicotine replacement therapy, bupropion and cytisine; glucagon-like peptide\u00a01 (GLP-1) receptor agonists may be used as adjunctive treatment for weight control following smoking cessation. Neither heated tobacco products, e\u2011cigarettes nor smokeless nicotine products (nicotine pouches) are harmless alternatives, they are also associated with an increased risk of diabetes, morbidity, and mortality. Socioeconomic and psychological factors play a\u00a0significant role in addictive behavior, including smoking, nicotine use and alcohol consumption. Moderate alcohol consumption appears to reduce the risk of diabetes and cardiovascular disease but selection bias and underreporting likely overestimate this effect. Dose-dependent risks, particularly through cancer, liver disease and infections predominate. Infections occur more frequently in individuals with diabetes, often with greater severity and atypical presentation. Unexplained hyperglycemia should always prompt consideration of an infection. Vaccinations are of even greater health relevance for patients with diabetes than for those without.",
+                    "pmid": "42162466",
+                    "relevance_score": 0.8881635665893555,
+                    "relevance_review": {
+                        "semantic_score": 0.888,
+                        "concept_coverage": 0.167,
+                        "title_coverage": 0.0,
+                        "matched_terms": [
+                            "alternative"
+                        ],
+                        "missing_terms": [
+                            "drink",
+                            "healthy",
+                            "herbal",
+                            "sugary",
+                            "tea"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.863,
+                            "outcome_match": 0.876,
+                            "context_match": null,
+                            "overall": "pending"
+                        }
+                    }
+                },
+                {
+                    "title": "A modeling study of beverage substitution and obesity outcomes among Australian adults.",
+                    "abstract": "The aim of this study was to investigate the cross-sectional associations among sugar-sweetened beverage (SSB) consumption, its substitution with beverage alternatives, and obesity outcomes in an Australian population.",
+                    "pmid": "28606573",
+                    "relevance_score": 0.881412148475647,
+                    "relevance_review": {
+                        "semantic_score": 0.881,
+                        "concept_coverage": 0.167,
+                        "title_coverage": 0.0,
+                        "matched_terms": [
+                            "alternative"
+                        ],
+                        "missing_terms": [
+                            "drink",
+                            "healthy",
+                            "herbal",
+                            "sugary",
+                            "tea"
+                        ],
+                        "relevance_flag": "low",
+                        "suitability": {
+                            "exposure_match": 0.86,
+                            "outcome_match": 0.873,
+                            "context_match": null,
+                            "overall": "pending"
+                        }
+                    }
+                }
+            ],
+            "claim_id": "fitness-02-c007",
+            "exposure": "replacing sugary drinks with herbal tea",
+            "outcome": "healthier alternative",
+            "context": null
+        }
+    ]
+}

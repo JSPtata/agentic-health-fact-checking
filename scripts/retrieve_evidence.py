@@ -6,8 +6,28 @@ from Bio import Entrez #type:ignore
 from Bio.Entrez import efetch, read #type:ignore
 from itertools import combinations
 
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from google import genai #type:ignore
+from google.genai import types #type:ignore
+
+from sentence_transformers import SentenceTransformer #type:ignore
+from sklearn.metrics.pairwise import cosine_similarity #type:ignore
+
+client = genai.Client(
+    api_key=os.environ["GEMINI_API_KEY"],
+    http_options=types.HttpOptions(
+        retry_options=types.HttpRetryOptions(
+            attempts=3,
+            initial_delay=2,
+            max_delay=10,
+            exp_base=2,
+            jitter=1
+        )
+    )
+)
+
+model=SentenceTransformer(
+    "pritamdeka/S-PubMedBert-MS-MARCO"
+)
 
 Entrez.email = "tatajspranathi@gmail.com" 
 
@@ -22,11 +42,7 @@ nlp = spacy.load("en_core_web_sm")
 with open(input_file,"r") as file:
     data=json.load(file)
 
-claims=[]
-
-for item in data["claims"]:
-    claims.append(item["claim_text"])
-
+claims=data["claims"]
 
 
 def extract_concepts(claim):
@@ -58,6 +74,52 @@ def build_query_variants(concepts):
             query=" AND ".join(j)
             queries.append(query)
         size-=1
+
+    return queries
+
+
+def generate_queries_with_gemini(claim):
+    prompt = f"""
+    You are a biomedical information retrieval specialist.
+
+    Generate exactly 3 PubMed search queries for this health claim:
+
+    {claim}
+
+    Rules:
+    - Preserve the main medical concepts.
+    - Include important outcomes and comparisons.
+    - Use biomedical synonyms where appropriate.
+    - Use PubMed-compatible AND/OR operators.
+    - Do not invent additional medical conditions.
+    - Return only a JSON array of 3 strings.
+
+    Example:
+    [
+      "(screen time OR electronic devices) AND sleep quality",
+      "(blue light OR smartphone use) AND bedtime",
+      "screen exposure AND sleep duration"
+    ]
+    """
+
+    response = client.models.generate_content(
+        model="gemini-3.8-flash",
+        contents=prompt,
+        config={
+            "response_mime_type": "application/json"
+        }
+    )
+
+    queries = json.loads(response.text)
+
+    if not isinstance(queries, list):
+        raise ValueError("Expected a list of queries")
+
+    if len(queries) != 3 or not all(
+        isinstance(query, str) and query.strip()
+        for query in queries
+    ):
+        raise ValueError("Invalid query output")
 
     return queries
 
@@ -133,17 +195,18 @@ def fetch_all_articles(pmids):
     return articles
     
 def rerank_articles(claim, articles):
+    if not articles:
+        return []
+
     article_texts=[]
     
     for article in articles:
-        article_text=article["title"]+" "+article["abstract"]
-        article_texts.append(article_text)
+        text=article["title"]+" "+str(article["abstract"])
+        article_texts.append(text)
 
-    vectorizer=TfidfVectorizer()
-    tfidf_matrix=vectorizer.fit_transform(article_texts)
-
-    claim_vector=vectorizer.transform([claim])
-    scores=cosine_similarity(claim_vector,tfidf_matrix).flatten()
+    claim_embedding=model.encode([claim])
+    article_embeddings=model.encode(article_texts,batch_size=8,show_progress_bar=False)
+    scores=cosine_similarity(claim_embedding,article_embeddings).flatten()
 
     for i in range(len(articles)):
         articles[i]["relevance_score"]=float(scores[i])
@@ -157,10 +220,19 @@ def rerank_articles(claim, articles):
 
 all_results=[]
 
-for claim in claims:
+for item in claims:
+    claim = item["claim_text"]
 
-    concepts=extract_concepts(claim)
-    query_variants = build_query_variants(concepts)
+    try:
+        query_variants = generate_queries_with_gemini(claim)
+        query_source = "gemini"
+
+    except Exception as e:
+        print("Gemini query generation failed:", e)
+
+        concepts = extract_concepts(claim)
+        query_variants = build_query_variants(concepts)
+        query_source = "spacy_fallback"
 
     result = retrieve_candidates(query_variants)
 
@@ -178,13 +250,25 @@ for claim in claims:
         claim_result={
             "claim_text":claim,
             "queries_used":result["queries"],
-            "evidence":top_articles
+            "query_source": query_source,
+            "evidence":top_articles,
+
+            "claim_id": item["claim_id"],
+            "exposure": item.get("exposure"),
+            "outcome": item.get("outcome"),
+            "context": item.get("context")
         }
     else:
         claim_result={
             "claim_text":claim,
             "queries_used":[],
-            "evidence":[]
+            "query_source": query_source,
+            "evidence":[],
+
+            "claim_id": item["claim_id"],
+            "exposure": item.get("exposure"),
+            "outcome": item.get("outcome"),
+            "context": item.get("context")
         }
     
     all_results.append(claim_result)
