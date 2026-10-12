@@ -1,0 +1,224 @@
+{
+    "claims": [
+        {
+            "claim_id": "fitness-02-c001",
+            "assessments": [
+                {
+                    "pmid": "19917733",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study evaluates low-frequency electrical stimulation combined with stretching exercises and orthoses for plantar fasciitis. It does not isolate body stretching, evaluate circulation as an outcome of stretching, or evaluate the morning/waking context."
+                },
+                {
+                    "pmid": "26275649",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study examines the effect of yoga on arterial function in elderly individuals with increased pulse pressure. It does not evaluate body stretching alone, overall blood circulation, or the timing of waking up."
+                },
+                {
+                    "pmid": "167706",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article evaluates sleep disturbances during simulated space flight, bedrest, and hypokinesia. The desire to stretch is only noted as a subjective symptom of emotional strain, with no investigation into stretching as an intervention to improve circulation upon waking."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Controlled clinical trials or physiological studies directly investigating whether whole-body stretching immediately upon waking increases peripheral or systemic blood circulation."
+        },
+        {
+            "claim_id": "fitness-02-c002",
+            "assessments": [
+                {
+                    "pmid": "10563539",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "The article evaluates the effect of coffee on gastro-oesophageal reflux disease symptoms, but the provided text does not contain details regarding consumption specifically on an empty stomach."
+                },
+                {
+                    "pmid": "12741451",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": true,
+                    "suitability": "direct",
+                    "reason": "The study directly evaluates coffee consumption in both the fasting state (empty stomach) and after a test meal to measure symptoms of heartburn, regurgitation, and dyspepsia in coffee-sensitive individuals."
+                },
+                {
+                    "pmid": "35784632",
+                    "exposure_match": false,
+                    "outcome_match": true,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study investigates endoscopic hematin and gastric acidity; coffee is only mentioned descriptively to denote color ('brown coffee color') rather than an ingested beverage."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Studies directly comparing gastric acidity and reflux symptoms when coffee is consumed on an empty stomach versus with food in broader, non-sensitive populations, as well as objective physiological measurements of gastric acid secretion under these conditions."
+        },
+        {
+            "claim_id": "fitness-02-c003",
+            "assessments": [
+                {
+                    "pmid": "32077594",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article discusses dietary patterns and nutrition in the management and pathophysiology of non-alcoholic fatty liver disease. It does not evaluate the specific timing of fruit consumption or digestive outcomes."
+                },
+                {
+                    "pmid": "42561068",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article models the role of dietary sugars from fruits and honey during human brain evolution. It does not examine digestive efficiency related to eating fruit before versus after meals."
+                },
+                {
+                    "pmid": "42467965",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article describes the design and usability of a mobile app promoting intuitive eating among college students, with no focus on fruit consumption timing or digestive health."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Controlled human clinical trials or physiological studies comparing the timing of fruit intake (before meals versus after meals) and measuring digestive outcomes such as gastric emptying rate, gastrointestinal symptoms, or nutrient absorption."
+        },
+        {
+            "claim_id": "fitness-02-c004",
+            "assessments": [
+                {
+                    "pmid": "42658446",
+                    "title": "Influence of Morning and Afternoon Exercise on Body Composition and Metabolic Health: A Systematic Review and Meta-Analysis.",
+                    "exposure_match": true,
+                    "outcome_match": null,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "The study evaluates exercise timing, specifically comparing morning versus afternoon exercise on body composition and metabolic indicators, but does not examine evening exercise as specified in the claim."
+                },
+                {
+                    "pmid": "42812561",
+                    "title": "Morning or evening? Time of day does not affect body composition, cardiopulmonary performance, and muscle strength responses to combined training in women with obesity.",
+                    "exposure_match": true,
+                    "outcome_match": null,
+                    "context_match": true,
+                    "suitability": "direct",
+                    "reason": "The study directly evaluates the comparative effects of exercise performed in the morning versus the evening on fitness and body composition outcomes, directly addressing the claim's context."
+                },
+                {
+                    "pmid": "42857179",
+                    "title": "Time-of-day effects of acute and regular exercise on sleep quality and mood: a three-level meta-analysis.",
+                    "exposure_match": true,
+                    "outcome_match": null,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "The study investigates time-of-day effects of exercise on sleep quality and mood, but the abstract does not specifically delineate comparisons between early morning and evening exercise."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Broader evidence and meta-analyses directly comparing early morning versus evening exercise across diverse populations and general health and fitness metrics to determine optimal timing."
+        },
+        {
+            "claim_id": "fitness-02-c005",
+            "assessments": [
+                {
+                    "pmid": "42810318",
+                    "exposure_match": false,
+                    "outcome_match": null,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study investigates intensive care triage rules ('first come, first served') and has no relevance to screen time or pre-bedtime behaviors."
+                },
+                {
+                    "pmid": "42831210",
+                    "exposure_match": false,
+                    "outcome_match": null,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study evaluates depressive symptoms and mood among elderly patients in hospital versus virtual ward settings. It does not examine screen time or pre-sleep habits."
+                },
+                {
+                    "pmid": "42755093",
+                    "exposure_match": false,
+                    "outcome_match": null,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The systematic review evaluates artificial intelligence models for predicting hospital length of stay in general surgery patients and is unrelated to screen time before bed."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Studies examining the effects of screen time within 30 minutes before bedtime on sleep outcomes, such as sleep latency, sleep quality, melatonin production, or sleep duration."
+        },
+        {
+            "claim_id": "fitness-02-c006",
+            "assessments": [
+                {
+                    "pmid": "42740924",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study is a single-patient case report investigating a multi-modal chiropractic rehabilitation regimen for thoracic hyperkyphosis from Scheuermann's disease, rather than the effect of maintaining proper sitting posture on back pain prevention."
+                },
+                {
+                    "pmid": "42763410",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study investigates cervical sagittal alignment parameters in relation to temporomandibular joint pain, neck pain, and jaw limitation, rather than maintaining posture while sitting to prevent back pain."
+                },
+                {
+                    "pmid": "42824910",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article is a case report on axial back pain secondary to ligamentum flavum ossification in a patient with hypoparathyroidism and does not investigate maintaining proper sitting posture or back pain prevention."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Controlled observational studies or clinical trials evaluating whether maintaining proper posture specifically while sitting is effective in preventing the development or occurrence of back pain."
+        },
+        {
+            "claim_id": "fitness-02-c007",
+            "assessments": [
+                {
+                    "pmid": "20138901",
+                    "exposure_match": false,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The review investigates the adverse health effects of sugar-sweetened beverages and general replacement with water to reduce risk of obesity and chronic diseases, but it does not evaluate herbal tea specifically as the replacement beverage."
+                },
+                {
+                    "pmid": "42162466",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The article discusses smoking cessation, nicotine products, alcohol consumption, vaccinations, and diabetes mellitus, with no mention of sugary drinks, herbal tea, or beverage substitution."
+                },
+                {
+                    "pmid": "28606573",
+                    "exposure_match": false,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The study aims to investigate the substitution of sugar-sweetened beverages with alternative beverages and obesity outcomes, but the provided abstract does not specify whether herbal tea is evaluated nor does it report the results."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Studies specifically examining the health effects or clinical outcomes of substituting sugar-sweetened beverages with herbal tea."
+        }
+    ]
+}
