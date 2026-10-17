@@ -6,16 +6,15 @@ from google import genai #type:ignore
 client=genai.Client()
 
 input_file=sys.argv[1]
+output_file=sys.argv[2]
 
 with open(input_file) as file:
     data=json.load(file)
 
-video_id=os.path.splitext(os.path.basename(input_file))[0]
-
-output_dir="data/processed/suitability"
-os.makedirs(output_dir,exist_ok=True)
-
-output_file=os.path.join(output_dir,video_id+".json")
+os.makedirs(
+    os.path.dirname(output_file) or ".",
+    exist_ok=True
+)
 
 
 all_assessments=[]

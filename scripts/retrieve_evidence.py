@@ -12,6 +12,8 @@ from google.genai import types #type:ignore
 from sentence_transformers import SentenceTransformer #type:ignore
 from sklearn.metrics.pairwise import cosine_similarity #type:ignore
 
+import spacy #type:ignore
+
 client = genai.Client(
     api_key=os.environ["GEMINI_API_KEY"],
     http_options=types.HttpOptions(
@@ -29,20 +31,9 @@ model=SentenceTransformer(
     "pritamdeka/S-PubMedBert-MS-MARCO"
 )
 
-Entrez.email = "tatajspranathi@gmail.com" 
-
-input_file=sys.argv[1]
-
-video_id=input_file.split("/")[-1].replace(".json","")
-
-import spacy #type:ignore
+Entrez.email = "tatajspranathi@gmail.com"
 
 nlp = spacy.load("en_core_web_sm")
-
-with open(input_file,"r") as file:
-    data=json.load(file)
-
-claims=data["claims"]
 
 
 def extract_concepts(claim):
@@ -64,11 +55,10 @@ def extract_concepts(claim):
     return concepts
 
 
-
 def build_query_variants(concepts):
     size=len(concepts)
     queries=[]
-    
+
     while size>=2:
         for j in combinations(concepts,size):
             query=" AND ".join(j)
@@ -96,9 +86,9 @@ def generate_queries_with_gemini(claim):
 
     Example:
     [
-      "(screen time OR electronic devices) AND sleep quality",
-      "(blue light OR smartphone use) AND bedtime",
-      "screen exposure AND sleep duration"
+    "(screen time OR electronic devices) AND sleep quality",
+    "(blue light OR smartphone use) AND bedtime",
+    "screen exposure AND sleep duration"
     ]
     """
 
@@ -124,7 +114,6 @@ def generate_queries_with_gemini(claim):
     return queries
 
 
-
 def search_pubmed(query):
     url="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 
@@ -142,14 +131,13 @@ def search_pubmed(query):
     return data["esearchresult"]["idlist"]
 
 
-
 def fetch_article_details(pmid):
     handle=efetch(
         db='pubmed',
         id=pmid,
         retmode='xml'
-        )
-    
+    )
+
     record=read(handle)
     handle.close()
 
@@ -162,7 +150,7 @@ def fetch_article_details(pmid):
         }
     except (KeyError, IndexError):
         return None
-    
+
 
 def retrieve_candidates(query_variants):
     all_pmids = set()
@@ -182,6 +170,7 @@ def retrieve_candidates(query_variants):
         "pmids": list(all_pmids)
     }
 
+
 def fetch_all_articles(pmids):
     articles=[]
 
@@ -193,13 +182,14 @@ def fetch_all_articles(pmids):
             articles.append(details)
 
     return articles
-    
+
+
 def rerank_articles(claim, articles):
     if not articles:
         return []
 
     article_texts=[]
-    
+
     for article in articles:
         text=article["title"]+" "+str(article["abstract"])
         article_texts.append(text)
@@ -218,73 +208,86 @@ def rerank_articles(claim, articles):
 
     return articles
 
-all_results=[]
 
-for item in claims:
-    claim = item["claim_text"]
+def main():
+    input_file = sys.argv[1]
 
-    try:
-        query_variants = generate_queries_with_gemini(claim)
-        query_source = "gemini"
+    video_id=input_file.split("/")[-1].replace(".json","")
 
-    except Exception as e:
-        print("Gemini query generation failed:", e)
+    with open(input_file,"r") as file:
+        data=json.load(file)
 
-        concepts = extract_concepts(claim)
-        query_variants = build_query_variants(concepts)
-        query_source = "spacy_fallback"
+    claims=data["claims"]
 
-    result = retrieve_candidates(query_variants)
+    all_results=[]
 
+    for item in claims:
+        claim = item["claim_text"]
 
-    if result["pmids"]:
-        articles = fetch_all_articles(result["pmids"])
+        try:
+            query_variants = generate_queries_with_gemini(claim)
+            query_source = "gemini"
 
-        if articles:
-            reranked_articles = rerank_articles(claim, articles)
-            top_articles=reranked_articles[:3]
+        except Exception as e:
+            print("Gemini query generation failed:", e)
+
+            concepts = extract_concepts(claim)
+            query_variants = build_query_variants(concepts)
+            query_source = "spacy_fallback"
+
+        result = retrieve_candidates(query_variants)
+
+        if result["pmids"]:
+            articles = fetch_all_articles(result["pmids"])
+
+            if articles:
+                reranked_articles = rerank_articles(claim, articles)
+                top_articles=reranked_articles[:3]
+            else:
+                top_articles=[]
+
+            claim_result={
+                "claim_text":claim,
+                "queries_used":result["queries"],
+                "query_source": query_source,
+                "evidence":top_articles,
+
+                "claim_id": item["claim_id"],
+                "exposure": item.get("exposure"),
+                "outcome": item.get("outcome"),
+                "context": item.get("context")
+            }
         else:
-            top_articles=[]
+            claim_result={
+                "claim_text":claim,
+                "queries_used":[],
+                "query_source": query_source,
+                "evidence":[],
+
+                "claim_id": item["claim_id"],
+                "exposure": item.get("exposure"),
+                "outcome": item.get("outcome"),
+                "context": item.get("context")
+            }
+
+        all_results.append(claim_result)
+
+    output_data={
+        "video_id":video_id,
+        "claims":all_results
+    }
+
+    os.makedirs("data/processed/evidence",exist_ok=True)
+
+    output_file=os.path.join(
+        "data/processed/evidence",video_id+".json"
+    )
+
+    with open(output_file,"w") as file:
+        json.dump(output_data,file,indent=4)
+
+    print("Saved evidence to:",output_file)
 
 
-        claim_result={
-            "claim_text":claim,
-            "queries_used":result["queries"],
-            "query_source": query_source,
-            "evidence":top_articles,
-
-            "claim_id": item["claim_id"],
-            "exposure": item.get("exposure"),
-            "outcome": item.get("outcome"),
-            "context": item.get("context")
-        }
-    else:
-        claim_result={
-            "claim_text":claim,
-            "queries_used":[],
-            "query_source": query_source,
-            "evidence":[],
-
-            "claim_id": item["claim_id"],
-            "exposure": item.get("exposure"),
-            "outcome": item.get("outcome"),
-            "context": item.get("context")
-        }
-    
-    all_results.append(claim_result)
-
-
-output_data={
-    "video_id":video_id,
-    "claims":all_results
-}
-
-os.makedirs("data/processed/evidence",exist_ok=True)
-
-output_file=os.path.join(
-    "data/processed/evidence",video_id+".json")
-
-with open(output_file,"w") as file:
-    json.dump(output_data,file,indent=4)
-
-print("Saved evidence to:",output_file)
+if __name__ == "__main__":
+    main()
