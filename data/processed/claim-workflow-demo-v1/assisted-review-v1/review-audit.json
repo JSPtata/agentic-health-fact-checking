@@ -1,0 +1,711 @@
+{
+  "profile": "assisted-abstract-review-v1",
+  "method": "assisted",
+  "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+  "independently_reviewed": false,
+  "expert_validated": false,
+  "snapshot_sha256": "2fec066e825bbf018bee8f4218e9fabe4836bd8bfee93ae8c99e5a8988871556",
+  "original_coffee_bundle_content_sha256": "0561a006500085ced1922fda9d81f900e4379df7b2ea3163cf0fe527153d649d",
+  "model_generation_calls": 0,
+  "assessments": [
+    {
+      "claim_id": "fitness-02-c002",
+      "notes": {
+        "claim_id": "fitness-02-c002",
+        "claim_text_sha256": "ac3000dcbd5ac53a8be0dfe8c85bbbc60a9d8845bb0c87ea711fdcdb9a45411d",
+        "source_reviews": {
+          "10499460": {
+            "abstract_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+            "rationale": "Review of coffee/caffeine and gastrointestinal function; no single enrolled cohort is specified. Reports gastric acid secretion and reflux, with mixed findings for other gastrointestinal functions. The abstract provides no controlled meal-timing prevention comparison; a 1999 review is not current clinical guidance.",
+            "method": "assisted"
+          },
+          "15841908": {
+            "abstract_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9",
+            "rationale": "Ten young asymptomatic habitual coffee drinkers were tested before and after 48-hour coffee abstinence and compared with eight non-drinkers. Randomization is not reported. The measured endpoint is sucrose permeability, which was higher in habitual drinkers and decreased after abstinence. The abstract does not test fasting versus fed coffee, and the surrogate does not establish acidity prevention or directly observed tissue healing.",
+            "method": "assisted"
+          }
+        },
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The review explicitly reports gastric acid secretion, so the original model's suggestion that the studies contain no acidity-related evidence is too broad. Its physiological findings do not establish the claimed preventive advice about fasting. The primary study compares habitual coffee drinkers before and after 48-hour abstinence, with a separate non-drinker group; the abstract does not report randomization or a fasting-versus-fed comparison. Sucrose permeability is a mucosal-barrier surrogate, not the claimed acidity-prevention endpoint. Acidity remains ambiguous among acid secretion, reflux, heartburn and dyspepsia. No benefit or harm of changing coffee meal timing is established by these abstracts.",
+            "citations": [
+              {
+                "pmid": "10499460",
+                "quote": "Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+              },
+              {
+                "pmid": "15841908",
+                "quote": "The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence."
+              }
+            ]
+          }
+        ],
+        "summary": "In the two appraised abstracts, a review reports coffee-related gastric acid secretion and reflux, while a small before-and-after study measures sucrose permeability. Neither abstract establishes that avoiding coffee specifically on an empty stomach prevents a defined acid-related clinical outcome. This is an assisted, abstract-only assessment of a bounded selection, not a finding that coffee has no physiological effects or that the claim is false.",
+        "evidence_gaps": [
+          "Define the intended acidity endpoint without treating acid secretion, reflux, heartburn and dyspepsia as interchangeable.",
+          "A controlled comparison of fasting coffee with an appropriate alternative, measuring the intended preventive outcome, is not reported in the appraised abstracts.",
+          "Contemporary evidence, population applicability, dose and coffee preparation, clinical importance, and study-level risk of bias have not been systematically assessed.",
+          "Assisted appraisal of 2/3 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "reviewer": "ChatGPT-assisted abstract assessment and critical recheck"
+      },
+      "unapproved_draft": {
+        "schema_version": "adjudication-ready-v1",
+        "workflow_status": "incomplete",
+        "claim": {
+          "claim_id": "fitness-02-c002",
+          "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity."
+        },
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The review explicitly reports gastric acid secretion, so the original model's suggestion that the studies contain no acidity-related evidence is too broad. Its physiological findings do not establish the claimed preventive advice about fasting. The primary study compares habitual coffee drinkers before and after 48-hour abstinence, with a separate non-drinker group; the abstract does not report randomization or a fasting-versus-fed comparison. Sucrose permeability is a mucosal-barrier surrogate, not the claimed acidity-prevention endpoint. Acidity remains ambiguous among acid secretion, reflux, heartburn and dyspepsia. No benefit or harm of changing coffee meal timing is established by these abstracts.",
+            "citations": [
+              {
+                "source_id": "PMID:10499460",
+                "quote": "Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+              },
+              {
+                "source_id": "PMID:15841908",
+                "quote": "The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence."
+              }
+            ]
+          }
+        ],
+        "sources": {
+          "PMID:10499460": {
+            "text": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\nMETHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\nRESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking. It is demonstrated that coffee promotes gastro-oesophageal reflux. Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results. Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit. Coffee induces cholecystokinin release and gallbladder contraction, which may explain why patients with symptomatic gallstones often avoid drinking coffee. Coffee increases rectosigmoid motor activity within 4 min after ingestion in some people. Its effects on the colon are found to be comparable to those of a 1000 kCal meal. Since coffee contains no calories, and its effects on the gastrointestinal tract cannot be ascribed to its volume load, acidity or osmolality, it must have pharmacological effects. Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia. Coffee stimulates gallbladder contraction and colonic motor activity.",
+            "text_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5"
+          },
+          "PMID:15841908": {
+            "text": "BACKGROUND: Even though coffee is not considered to be responsible for development of peptic ulcer, it may, however, prolong its healing by increasing acidity of gastric content. In our former work we observed a profound increase in sucrose permeability (above normal values) in healthy volunteers regularly drinking coffee for years. In literature, many factors affecting sucrose permeability have been described so far. None of them, however, studied the effect of coffee.\n\nSUBJECTS, MATERIALS AND METHODS: 10 young asymptomatic habitual coffee drinkers were included in the study. The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence. The ingested SaLM solution comprised sucrose (25.0 g), lactulose (10.0 g), mannitol (2.0 g), xylose (2.0 g) and water (up to 100 ml). Urine was collected for five hours and the samples were analysed using gas chromatography. Results were compared with those of 8 young healthy volunteers not drinking coffee. Permeability for sucrose was significantly higher in the group of habitual coffee drinkers in comparison with non-coffee drinkers (p < 0.01). After 48-hour coffee abstinence sucrose excretion decreased significantly (p < 0.05) to a level not differing from that of non-coffee drinkers (p = 0.54).\n\nCONCLUSIONS: Our results indicate that coffee may damage gastroduodenal mucosa in habitual coffee drinkers. In a time period of 48 hours the gastroduodenal mucosa is capable of a significant regeneration.",
+            "text_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9"
+          }
+        },
+        "summary": "In the two appraised abstracts, a review reports coffee-related gastric acid secretion and reflux, while a small before-and-after study measures sucrose permeability. Neither abstract establishes that avoiding coffee specifically on an empty stomach prevents a defined acid-related clinical outcome. This is an assisted, abstract-only assessment of a bounded selection, not a finding that coffee has no physiological effects or that the claim is false.",
+        "evidence_gaps": [
+          "Define the intended acidity endpoint without treating acid secretion, reflux, heartburn and dyspepsia as interchangeable.",
+          "A controlled comparison of fasting coffee with an appropriate alternative, measuring the intended preventive outcome, is not reported in the appraised abstracts.",
+          "Contemporary evidence, population applicability, dose and coffee preparation, clinical importance, and study-level risk of bias have not been systematically assessed.",
+          "Assisted appraisal of 2/3 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "proposed_verdict": null,
+        "review": {
+          "decision": "revise",
+          "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+          "method": "assisted",
+          "claim_requirements_complete": false,
+          "assessment_sha256": "ed71d0e8c2ea6328f14f8f7b2a9d43719c5a747a9443d1e3b9851bb84728b24e",
+          "unresolved_objections": [
+            {
+              "severity": "major",
+              "problem": "Draft awaits a separate check of claim coverage, quotation interpretation and evidence limits."
+            }
+          ]
+        }
+      },
+      "source_provenance": {
+        "profile": "assisted-assessment-draft-v1",
+        "claim_id": "fitness-02-c002",
+        "assessment_sha256": "ed71d0e8c2ea6328f14f8f7b2a9d43719c5a747a9443d1e3b9851bb84728b24e",
+        "snapshot_sha256": "2fec066e825bbf018bee8f4218e9fabe4836bd8bfee93ae8c99e5a8988871556",
+        "source_reviews": {
+          "10499460": {
+            "abstract_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+            "rationale": "Review of coffee/caffeine and gastrointestinal function; no single enrolled cohort is specified. Reports gastric acid secretion and reflux, with mixed findings for other gastrointestinal functions. The abstract provides no controlled meal-timing prevention comparison; a 1999 review is not current clinical guidance.",
+            "method": "assisted"
+          },
+          "15841908": {
+            "abstract_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9",
+            "rationale": "Ten young asymptomatic habitual coffee drinkers were tested before and after 48-hour coffee abstinence and compared with eight non-drinkers. Randomization is not reported. The measured endpoint is sucrose permeability, which was higher in habitual drinkers and decreased after abstinence. The abstract does not test fasting versus fed coffee, and the surrogate does not establish acidity prevention or directly observed tissue healing.",
+            "method": "assisted"
+          }
+        },
+        "source_metadata": {
+          "10499460": {
+            "kind": "pubmed_abstract",
+            "pmid": "10499460",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10499460/",
+            "title": "Coffee and gastrointestinal function: facts and fiction. A review.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "1999"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              2
+            ],
+            "abstract_available": true,
+            "abstract_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+            "ranking_positions": {
+              "bi_encoder": 1,
+              "cross_encoder": 1
+            },
+            "id": "S04c98a2dfe4a7bb8",
+            "text_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5"
+          },
+          "15841908": {
+            "kind": "pubmed_abstract",
+            "pmid": "15841908",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15841908/",
+            "title": "The impairment of gastroduodenal mucosal barrier by coffee.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Journal Article"
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "2004"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              2
+            ],
+            "abstract_available": true,
+            "abstract_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9",
+            "ranking_positions": {
+              "bi_encoder": 2,
+              "cross_encoder": 2
+            },
+            "id": "S9a65f24112340433",
+            "text_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9"
+          }
+        },
+        "historical_screening_attempts": 69,
+        "retained_verification_events": [
+          {
+            "status": "draft_saved_requires_review",
+            "prompt_sha256": "ffcbce0247a222a1a5c78b3a567f3f1ea73026e197e90fc874ca9ec7b33796a1",
+            "response_file": "responses/1.json"
+          }
+        ],
+        "method": "assisted",
+        "independently_reviewed": false,
+        "expert_validated": false
+      },
+      "review_record": {
+        "schema_version": "assessment-review-v1",
+        "claim_id": "fitness-02-c002",
+        "draft_assessment_sha256": "ed71d0e8c2ea6328f14f8f7b2a9d43719c5a747a9443d1e3b9851bb84728b24e",
+        "decision": "accept",
+        "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+        "method": "assisted",
+        "scope": "Assisted appraisal of 2/3 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed. Same assistant prepared and rechecked the assessment; no independent or expert validation.",
+        "independently_reviewed": false,
+        "expert_validated": false,
+        "claim_requirements_complete": true,
+        "summary": "In the two appraised abstracts, a review reports coffee-related gastric acid secretion and reflux, while a small before-and-after study measures sucrose permeability. Neither abstract establishes that avoiding coffee specifically on an empty stomach prevents a defined acid-related clinical outcome. This is an assisted, abstract-only assessment of a bounded selection, not a finding that coffee has no physiological effects or that the claim is false.",
+        "criterion_reviews": [
+          {
+            "criterion_id": "C1",
+            "rationale": "Checked the complete supplied abstracts against the exact avoidance, empty-stomach and acidity wording. Corrected the unsupported randomized-trial and review-population labels, retained the review's acid-secretion finding, and separated barrier permeability from the claimed preventive endpoint. The evidence-limited conclusion concerns only the appraised selection; no refutation or general safety advice follows.",
+            "additional_citations": []
+          }
+        ],
+        "resolved_objections": [
+          {
+            "problem": "Draft awaits a separate check of claim coverage, quotation interpretation and evidence limits.",
+            "resolution": "Checked the complete supplied abstracts against the exact avoidance, empty-stomach and acidity wording. Corrected the unsupported randomized-trial and review-population labels, retained the review's acid-secretion finding, and separated barrier permeability from the claimed preventive endpoint. The evidence-limited conclusion concerns only the appraised selection; no refutation or general safety advice follows. Remaining evidence and wording limits are retained as gaps; coverage approval does not establish evidence sufficiency."
+          }
+        ],
+        "unresolved_objections": []
+      },
+      "corrections": [
+        "Patients and lay press in the review background are not an enrolled study population.",
+        "The 10-drinker before-and-after study does not report randomization; do not label it an RCT.",
+        "The review explicitly reports gastric acid secretion. The missing evidence is for the specified preventive meal-timing advice.",
+        "Sucrose-permeability results do not establish directly observed tissue injury or clinical recovery."
+      ],
+      "reviewed_assessment_sha256": "e9a348106825a8c4381168160eb6687b3d9259c28c60e2c14767ca06209304cf"
+    },
+    {
+      "claim_id": "fitness-02-c003",
+      "notes": {
+        "claim_id": "fitness-02-c003",
+        "claim_text_sha256": "3be33fa6637395be3daddecfffe414337f7a18aa71ebee38ee816dd45959d8f1",
+        "source_reviews": {
+          "23746068": {
+            "abstract_sha256": "befa23deacc0bf913fadbfd3b06d76153ac773feb561f0f6e64f1a0d18f59f91",
+            "rationale": "Review of green and gold kiwifruit health effects. The abstract states that green kiwifruit aids digestion and laxation, but does not supply a general whole-fruit before-versus-after-meal experiment, a specific digestive effect estimate, or a risk-of-bias appraisal. Species-specific benefits should not be generalized to all fruits.",
+            "method": "assisted"
+          },
+          "24176228": {
+            "abstract_sha256": "b79b183d7b3c87a68e58121d764937c538bfd530fccf9438619d5da03083e21f",
+            "rationale": "Mixed laboratory and human baobab-extract experiments. Extract baked into bread was tested with in-vitro digestion. In humans, low- and high-dose aqueous extract was consumed alongside white bread; glycemic response, satiety and energy expenditure were measured. Glycemic response was reduced, with no statistically significant satiety or energy-expenditure effect reported. The abstract does not report whole fruit before versus after meals or a defined better-digestion outcome; null tests do not establish equivalence.",
+            "method": "assisted"
+          }
+        },
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Eat fruits before meals, not after, for better digestion.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The kiwifruit review states that green kiwifruit aids digestion and laxation; this is relevant background, not evidence that all fruit is better before meals. The baobab study separates bread experiments with in-vitro digestion from human consumption of aqueous baobab extract alongside white bread. Its human outcomes are glycemic response, satiety and energy expenditure; these do not establish the vague endpoint better digestion or a before-versus-after-meal advantage. Whole fruit, fruit extract, glucose responses and digestive symptoms must remain distinct. The supplied abstracts do not report the required timing comparison.",
+            "citations": [
+              {
+                "pmid": "23746068",
+                "quote": "Consuming gold kiwifruit with iron-rich meals improves poor iron status, and green kiwifruit aids digestion and laxation."
+              },
+              {
+                "pmid": "24176228",
+                "quote": "In vivo, baobab extract was consumed in solution at both a low-dose (18.5 g) and a high-dose (37 g) aqueous drink in 250 mL of water along with white bread, and resulting GR, satiety, and postprandial energy expenditure were measured."
+              }
+            ]
+          }
+        ],
+        "summary": "The two appraised abstracts describe kiwifruit-related digestive benefits and baobab-extract experiments, but do not report a comparison of eating whole fruits before versus after meals on a defined human digestive outcome. This bounded assisted assessment cannot establish the timing recommendation or refute digestive benefits of particular fruits.",
+        "evidence_gaps": [
+          "Better digestion is not a defined endpoint; digestive symptoms, transit, nutrient absorption and postprandial glycemia cannot be substituted silently.",
+          "A human whole-fruit before-versus-after-meal comparison with a defined digestive endpoint is not reported in the appraised abstracts.",
+          "Fruit species, dose, population, timing interval, clinical importance and generalizability require specification.",
+          "Assisted appraisal of 2/70 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "reviewer": "ChatGPT-assisted abstract assessment and critical recheck"
+      },
+      "unapproved_draft": {
+        "schema_version": "adjudication-ready-v1",
+        "workflow_status": "incomplete",
+        "claim": {
+          "claim_id": "fitness-02-c003",
+          "claim_text": "Eat fruits before meals, not after, for better digestion."
+        },
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Eat fruits before meals, not after, for better digestion.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The kiwifruit review states that green kiwifruit aids digestion and laxation; this is relevant background, not evidence that all fruit is better before meals. The baobab study separates bread experiments with in-vitro digestion from human consumption of aqueous baobab extract alongside white bread. Its human outcomes are glycemic response, satiety and energy expenditure; these do not establish the vague endpoint better digestion or a before-versus-after-meal advantage. Whole fruit, fruit extract, glucose responses and digestive symptoms must remain distinct. The supplied abstracts do not report the required timing comparison.",
+            "citations": [
+              {
+                "source_id": "PMID:23746068",
+                "quote": "Consuming gold kiwifruit with iron-rich meals improves poor iron status, and green kiwifruit aids digestion and laxation."
+              },
+              {
+                "source_id": "PMID:24176228",
+                "quote": "In vivo, baobab extract was consumed in solution at both a low-dose (18.5 g) and a high-dose (37 g) aqueous drink in 250 mL of water along with white bread, and resulting GR, satiety, and postprandial energy expenditure were measured."
+              }
+            ]
+          }
+        ],
+        "sources": {
+          "PMID:23746068": {
+            "text": "Kiwifruit are unequalled, compared with other commonly consumed fruit, for their nutrient density, health benefits, and consumer appeal. Research into their health benefits has focussed on the cultivars Actinidia deliciosa 'Hayward' (green kiwifruit) and Actinidia chinensis 'Hort 16A', ZESPRI(®) (gold kiwifruit). Compared with other commonly consumed fruit, both green and gold kiwifruit are exceptionally high in vitamins C, E, K, folate, carotenoids, potassium, fibre, and phytochemicals acting in synergy to achieve multiple health benefits. Kiwifruit, as part of a healthy diet, may increase high-density lipoprotein cholesterol, and decrease triglycerides, platelet aggregation, and elevated blood pressure. Consuming gold kiwifruit with iron-rich meals improves poor iron status, and green kiwifruit aids digestion and laxation. As a rich source of antioxidants, they may protect the body from endogenous oxidative damage. Kiwifruit may support immune function and reduce the incidence and severity of cold or flu-like illness in at-risk groups such as older adults and children. However, kiwifruit are allergenic, and although symptoms in most susceptible individuals are mild, severe reactions have been reported. While many research gaps remain, kiwifruit with their multiple health benefits have the potential to become part of our \"daily prescription for health.\"",
+            "text_sha256": "befa23deacc0bf913fadbfd3b06d76153ac773feb561f0f6e64f1a0d18f59f91"
+          },
+          "PMID:24176228": {
+            "text": "The baobab fruit (Adansonia digitata L.) is found throughout regions of Africa and is becoming increasingly recognized for its high nutrient and polyphenol content. Polyphenols have been beneficial for their effects on reducing the glycemic response (GR) and for improving various other metabolic parameters. Based on previous research, it was hypothesized that the baobab fruit extract would reduce starch digestion in vitro and would show potential for reducing the GR and for increasing satiety and diet-induced thermogenesis in humans. Six extracts of baobab from 6 different locations in Africa were measured for their antioxidant and polyphenol content using the ferric ion-reducing antioxidant power and the Folin-Ciocalteu methods, respectively. Baobab extract was baked into white bread at different doses to determine the optimal dose for reducing starch breakdown and sugar release from white bread after an in vitro digestion procedure. In vivo, baobab extract was consumed in solution at both a low-dose (18.5 g) and a high-dose (37 g) aqueous drink in 250 mL of water along with white bread, and resulting GR, satiety, and postprandial energy expenditure were measured. All extracts in this study were shown to be good sources of polyphenols. Baobab fruit extract added to white bread at 1.88 % significantly (P < .05) reduced rapidly digestible starch from white bread samples. In vivo, the baobab fruit extract at both low and high doses significantly (P < .05) reduced GR, although there was no significant effect on satiety or on energy expenditure.",
+            "text_sha256": "b79b183d7b3c87a68e58121d764937c538bfd530fccf9438619d5da03083e21f"
+          }
+        },
+        "summary": "The two appraised abstracts describe kiwifruit-related digestive benefits and baobab-extract experiments, but do not report a comparison of eating whole fruits before versus after meals on a defined human digestive outcome. This bounded assisted assessment cannot establish the timing recommendation or refute digestive benefits of particular fruits.",
+        "evidence_gaps": [
+          "Better digestion is not a defined endpoint; digestive symptoms, transit, nutrient absorption and postprandial glycemia cannot be substituted silently.",
+          "A human whole-fruit before-versus-after-meal comparison with a defined digestive endpoint is not reported in the appraised abstracts.",
+          "Fruit species, dose, population, timing interval, clinical importance and generalizability require specification.",
+          "Assisted appraisal of 2/70 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "proposed_verdict": null,
+        "review": {
+          "decision": "revise",
+          "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+          "method": "assisted",
+          "claim_requirements_complete": false,
+          "assessment_sha256": "81bf0f085583ad771a57be5b660660e09fc72f147175215f3de1b41ce912e7ef",
+          "unresolved_objections": [
+            {
+              "severity": "major",
+              "problem": "Draft awaits a separate check of claim coverage, quotation interpretation and evidence limits."
+            }
+          ]
+        }
+      },
+      "source_provenance": {
+        "profile": "assisted-assessment-draft-v1",
+        "claim_id": "fitness-02-c003",
+        "assessment_sha256": "81bf0f085583ad771a57be5b660660e09fc72f147175215f3de1b41ce912e7ef",
+        "snapshot_sha256": "2fec066e825bbf018bee8f4218e9fabe4836bd8bfee93ae8c99e5a8988871556",
+        "source_reviews": {
+          "23746068": {
+            "abstract_sha256": "befa23deacc0bf913fadbfd3b06d76153ac773feb561f0f6e64f1a0d18f59f91",
+            "rationale": "Review of green and gold kiwifruit health effects. The abstract states that green kiwifruit aids digestion and laxation, but does not supply a general whole-fruit before-versus-after-meal experiment, a specific digestive effect estimate, or a risk-of-bias appraisal. Species-specific benefits should not be generalized to all fruits.",
+            "method": "assisted"
+          },
+          "24176228": {
+            "abstract_sha256": "b79b183d7b3c87a68e58121d764937c538bfd530fccf9438619d5da03083e21f",
+            "rationale": "Mixed laboratory and human baobab-extract experiments. Extract baked into bread was tested with in-vitro digestion. In humans, low- and high-dose aqueous extract was consumed alongside white bread; glycemic response, satiety and energy expenditure were measured. Glycemic response was reduced, with no statistically significant satiety or energy-expenditure effect reported. The abstract does not report whole fruit before versus after meals or a defined better-digestion outcome; null tests do not establish equivalence.",
+            "method": "assisted"
+          }
+        },
+        "source_metadata": {
+          "23746068": {
+            "kind": "pubmed_abstract",
+            "pmid": "23746068",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23746068/",
+            "title": "Kiwifruit: our daily prescription for health.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "2013 Jun"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T17:49:55.399867+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              1
+            ],
+            "abstract_available": true,
+            "abstract_sha256": "befa23deacc0bf913fadbfd3b06d76153ac773feb561f0f6e64f1a0d18f59f91",
+            "ranking_positions": {
+              "bi_encoder": 18,
+              "cross_encoder": 13
+            },
+            "id": "Sa3c711c6a9befdeb",
+            "text_sha256": "befa23deacc0bf913fadbfd3b06d76153ac773feb561f0f6e64f1a0d18f59f91"
+          },
+          "24176228": {
+            "kind": "pubmed_abstract",
+            "pmid": "24176228",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24176228/",
+            "title": "The polyphenol-rich baobab fruit (Adansonia digitata L.) reduces starch digestion and glycemic response in humans.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "2013 Nov"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T17:49:55.399867+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              2
+            ],
+            "abstract_available": true,
+            "abstract_sha256": "b79b183d7b3c87a68e58121d764937c538bfd530fccf9438619d5da03083e21f",
+            "ranking_positions": {
+              "bi_encoder": 14,
+              "cross_encoder": 15
+            },
+            "id": "S88b5819a9d71ca23",
+            "text_sha256": "b79b183d7b3c87a68e58121d764937c538bfd530fccf9438619d5da03083e21f"
+          }
+        },
+        "historical_screening_attempts": 69,
+        "retained_verification_events": [
+          {
+            "status": "error",
+            "prompt_sha256": "0b758142457062f1b55db7d04ed890186b5f579265f10006d5d99afd25437d99",
+            "response_file": "responses/1.json",
+            "error": "Incomplete or oversized local response"
+          },
+          {
+            "status": "error",
+            "prompt_sha256": "0b758142457062f1b55db7d04ed890186b5f579265f10006d5d99afd25437d99",
+            "num_ctx": 8192,
+            "num_predict": 4096,
+            "prior_input_tokens": 945,
+            "error": "timed out"
+          }
+        ],
+        "method": "assisted",
+        "independently_reviewed": false,
+        "expert_validated": false
+      },
+      "review_record": {
+        "schema_version": "assessment-review-v1",
+        "claim_id": "fitness-02-c003",
+        "draft_assessment_sha256": "81bf0f085583ad771a57be5b660660e09fc72f147175215f3de1b41ce912e7ef",
+        "decision": "accept",
+        "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+        "method": "assisted",
+        "scope": "Assisted appraisal of 2/70 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed. Same assistant prepared and rechecked the assessment; no independent or expert validation.",
+        "independently_reviewed": false,
+        "expert_validated": false,
+        "claim_requirements_complete": true,
+        "summary": "The two appraised abstracts describe kiwifruit-related digestive benefits and baobab-extract experiments, but do not report a comparison of eating whole fruits before versus after meals on a defined human digestive outcome. This bounded assisted assessment cannot establish the timing recommendation or refute digestive benefits of particular fruits.",
+        "criterion_reviews": [
+          {
+            "criterion_id": "C1",
+            "rationale": "Checked whole fruit versus extract, in-vitro versus human experiments, actual measured outcomes, and before-versus-after-meal wording. Preserved the positive kiwifruit statement and reduced glycemic response, while rejecting transfer of these findings to a general fruit-timing recommendation. Lack of the comparison in these abstracts is not a claim that no such research exists.",
+            "additional_citations": []
+          }
+        ],
+        "resolved_objections": [
+          {
+            "problem": "Draft awaits a separate check of claim coverage, quotation interpretation and evidence limits.",
+            "resolution": "Checked whole fruit versus extract, in-vitro versus human experiments, actual measured outcomes, and before-versus-after-meal wording. Preserved the positive kiwifruit statement and reduced glycemic response, while rejecting transfer of these findings to a general fruit-timing recommendation. Lack of the comparison in these abstracts is not a claim that no such research exists. Remaining evidence and wording limits are retained as gaps; coverage approval does not establish evidence sufficiency."
+          }
+        ],
+        "unresolved_objections": []
+      },
+      "corrections": [
+        "Do not equate simulated starch digestion or glycemic response with a demonstrated improvement in human digestion.",
+        "Do not merge the baobab-in-bread laboratory experiment with the aqueous-drink human intervention.",
+        "Kiwifruit-specific benefits do not establish a timing benefit for all fruits."
+      ],
+      "reviewed_assessment_sha256": "320d6582f8e558979af7804c789ebc96161fbb07d7d0bd377fb004910ffdcba0"
+    },
+    {
+      "claim_id": "fitness-02-c006",
+      "notes": {
+        "claim_id": "fitness-02-c006",
+        "claim_text_sha256": "00ce26c11342d05dc5b868921a5b035d8c930e0a34ca947e8b1cf889ea4c7213",
+        "source_reviews": {
+          "34306274": {
+            "abstract_sha256": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3",
+            "rationale": "Randomized trial in 60 people with existing nonspecific low back pain, followed through 12 weeks of treatment. Both arms received core stability exercise; the multidimensional arm additionally received pain-principles and management training. The abstract reports greater improvements in pain, disability and sitting-posture measurements in that arm. It does not isolate sitting posture or report incident or recurrent back-pain prevention.",
+            "method": "assisted"
+          },
+          "31451200": {
+            "abstract_sha256": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6",
+            "rationale": "Umbrella review of 41 systematic reviews/meta-analyses on spine posture or physical exposure and low back pain. It reports positive and null associations, mixed temporal and dose-response evidence, and no consensus on causality. It does not establish a single optimal sitting posture or the effect of an isolated preventive posture intervention; review-level associations are not proof of causation or no effect.",
+            "method": "assisted"
+          }
+        },
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Maintain proper posture while sitting to prevent back pain.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The randomized trial enrolled 60 patients with existing nonspecific low back pain. Both arms performed core stability exercise; the multidimensional arm also received pain-principles and management training. Improved pain, disability and measured posture after this combined treatment do not isolate a preventive effect of sitting posture. The umbrella review includes 41 reviews and reports mixed temporal and dose-response evidence and no causal consensus. Association and lack of causal consensus neither prove posture-caused pain nor prove no posture effect. Proper posture is not operationalized in the claim, and prevention must be distinguished from treating current symptoms.",
+            "citations": [
+              {
+                "pmid": "34306274",
+                "quote": "The purpose of this study was to investigate the effects of multidimensional approach model on the pain, disability, and sitting posture in patients with nonspecific low back pain (LBP)."
+              },
+              {
+                "pmid": "31451200",
+                "quote": "Evidence that these factors precede first time LBP or have a dose response relationship with LBP outcomes was mixed."
+              }
+            ]
+          }
+        ],
+        "summary": "The two appraised abstracts concern treatment in people already experiencing low back pain and mixed review-level evidence about physical exposure and causality. They do not establish that an isolated, defined proper sitting posture prevents back-pain onset or recurrence. This bounded assisted assessment does not establish that posture is irrelevant or ineffective.",
+        "evidence_gaps": [
+          "Define the proposed sitting posture and intended prevention population, including whether onset or recurrence is the target.",
+          "An isolated sitting-posture intervention with incident or recurrent back-pain outcomes is not established by the appraised trial abstract.",
+          "Confounding, mixed interventions, review overlap, risk of bias, effect sizes and clinical importance require further appraisal.",
+          "Assisted appraisal of 2/77 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "reviewer": "ChatGPT-assisted abstract assessment and critical recheck"
+      },
+      "unapproved_draft": {
+        "schema_version": "adjudication-ready-v1",
+        "workflow_status": "incomplete",
+        "claim": {
+          "claim_id": "fitness-02-c006",
+          "claim_text": "Maintain proper posture while sitting to prevent back pain."
+        },
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Maintain proper posture while sitting to prevent back pain.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The randomized trial enrolled 60 patients with existing nonspecific low back pain. Both arms performed core stability exercise; the multidimensional arm also received pain-principles and management training. Improved pain, disability and measured posture after this combined treatment do not isolate a preventive effect of sitting posture. The umbrella review includes 41 reviews and reports mixed temporal and dose-response evidence and no causal consensus. Association and lack of causal consensus neither prove posture-caused pain nor prove no posture effect. Proper posture is not operationalized in the claim, and prevention must be distinguished from treating current symptoms.",
+            "citations": [
+              {
+                "source_id": "PMID:34306274",
+                "quote": "The purpose of this study was to investigate the effects of multidimensional approach model on the pain, disability, and sitting posture in patients with nonspecific low back pain (LBP)."
+              },
+              {
+                "source_id": "PMID:31451200",
+                "quote": "Evidence that these factors precede first time LBP or have a dose response relationship with LBP outcomes was mixed."
+              }
+            ]
+          }
+        ],
+        "sources": {
+          "PMID:34306274": {
+            "text": "The purpose of this study was to investigate the effects of multidimensional approach model on the pain, disability, and sitting posture in patients with nonspecific low back pain (LBP). Sixty LBP patients were recruited and were randomly divided into two groups: multidimensional treatment (MT) group (n = 30) and unimodal treatment (UT) group (n = 30). All participants underwent 48 sessions of treatment (40 min/session, two sessions per day, 2 days per week) for 12 weeks. The MT group conducted a core stability exercise twice a day and additionally provided training on pain principles and management methods. The UT group only performed a core stability exercise twice a day. The visual analog scale (VAS) and Oswestry Disability index (ODI) were used to measure pain intensity and disability. Thoracolumbar kyphosis and lumbar lordosis in the sitting position were measured using a motion capture system. After training, the pain and disability in the MT group improved significantly greater than the UT group (p < 0.05). In the MT group, the pain relief effect persisted 3 months after the end of training. Thoracolumbar kyphosis and lumbar lordosis in the MT group were significantly improved compared to the UT group (p < 0.05). Thus, MT combined with core stability exercise may be used to improve the pain, disability, and sitting posture in patients with LBP.",
+            "text_sha256": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3"
+          },
+          "PMID:31451200": {
+            "text": "Specific spinal postures and physical activities have been linked to low back pain (LBP) but previous reviews have produced contrasting outcomes. This umbrella review examined (1) what relationship, if any, is evident between specific spinal postures or physical activities and LBP; (2) the quality of existing systematic reviews in this area; and (3) the extent to which previous systematic reviews demonstrate causality. Five electronic databases and reference lists of relevant articles were searched from January 1990 to June 2018. Systematic reviews and meta-analyses on spine posture or physical exposure and LBP symptoms (self-report) or outcomes (e.g. work absence, medical consultation) were included. The AMSTAR and the Bradford Hill Criteria were utilised to critically appraise the quality of included systematic reviews and to determine the extent to which these reviews demonstrated causality. Two independent reviewers screened 4285 publications with 41 reviews included in the final review. Both positive and null associations between spine posture, prolonged standing, sitting, bending and twisting, awkward postures, whole body vibration, and components of heavy physical work were reported. Results from meta-analyses were more consistently in favour of an association, whereas systematic reviews that included only prospective studies were less able to provide consistent conclusions. Evidence that these factors precede first time LBP or have a dose response relationship with LBP outcomes was mixed. Despite the availability of many reviews, there is no consensus regarding causality of physical exposure to LBP. Association has been documented but does not provide a causal explanation for LBP.",
+            "text_sha256": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6"
+          }
+        },
+        "summary": "The two appraised abstracts concern treatment in people already experiencing low back pain and mixed review-level evidence about physical exposure and causality. They do not establish that an isolated, defined proper sitting posture prevents back-pain onset or recurrence. This bounded assisted assessment does not establish that posture is irrelevant or ineffective.",
+        "evidence_gaps": [
+          "Define the proposed sitting posture and intended prevention population, including whether onset or recurrence is the target.",
+          "An isolated sitting-posture intervention with incident or recurrent back-pain outcomes is not established by the appraised trial abstract.",
+          "Confounding, mixed interventions, review overlap, risk of bias, effect sizes and clinical importance require further appraisal.",
+          "Assisted appraisal of 2/77 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "proposed_verdict": null,
+        "review": {
+          "decision": "revise",
+          "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+          "method": "assisted",
+          "claim_requirements_complete": false,
+          "assessment_sha256": "33076a99b8e2cc74a99cd950eb654b54bac1ba764f20dad57001a2c6b195bedf",
+          "unresolved_objections": [
+            {
+              "severity": "major",
+              "problem": "Draft awaits a separate check of claim coverage, quotation interpretation and evidence limits."
+            }
+          ]
+        }
+      },
+      "source_provenance": {
+        "profile": "assisted-assessment-draft-v1",
+        "claim_id": "fitness-02-c006",
+        "assessment_sha256": "33076a99b8e2cc74a99cd950eb654b54bac1ba764f20dad57001a2c6b195bedf",
+        "snapshot_sha256": "2fec066e825bbf018bee8f4218e9fabe4836bd8bfee93ae8c99e5a8988871556",
+        "source_reviews": {
+          "34306274": {
+            "abstract_sha256": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3",
+            "rationale": "Randomized trial in 60 people with existing nonspecific low back pain, followed through 12 weeks of treatment. Both arms received core stability exercise; the multidimensional arm additionally received pain-principles and management training. The abstract reports greater improvements in pain, disability and sitting-posture measurements in that arm. It does not isolate sitting posture or report incident or recurrent back-pain prevention.",
+            "method": "assisted"
+          },
+          "31451200": {
+            "abstract_sha256": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6",
+            "rationale": "Umbrella review of 41 systematic reviews/meta-analyses on spine posture or physical exposure and low back pain. It reports positive and null associations, mixed temporal and dose-response evidence, and no consensus on causality. It does not establish a single optimal sitting posture or the effect of an isolated preventive posture intervention; review-level associations are not proof of causation or no effect.",
+            "method": "assisted"
+          }
+        },
+        "source_metadata": {
+          "34306274": {
+            "kind": "pubmed_abstract",
+            "pmid": "34306274",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34306274/",
+            "title": "Effects of the Multidimensional Treatment on Pain, Disability, and Sitting Posture in Patients with Low Back Pain: A Randomized Controlled Trial.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "2021"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T18:32:13.065001+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              2
+            ],
+            "abstract_available": true,
+            "abstract_sha256": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3",
+            "ranking_positions": {
+              "bi_encoder": 31,
+              "cross_encoder": 5
+            },
+            "id": "S731c77fc56dfc6e1",
+            "text_sha256": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3"
+          },
+          "31451200": {
+            "kind": "pubmed_abstract",
+            "pmid": "31451200",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31451200/",
+            "title": "No consensus on causality of spine postures or physical exposure and low back pain: A systematic review of systematic reviews.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "2020 Mar 26"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T18:32:13.065001+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              2
+            ],
+            "abstract_available": true,
+            "abstract_sha256": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6",
+            "ranking_positions": {
+              "bi_encoder": 28,
+              "cross_encoder": 10
+            },
+            "id": "S5d33c2b9c0aa1e86",
+            "text_sha256": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6"
+          }
+        },
+        "historical_screening_attempts": 69,
+        "retained_verification_events": [
+          {
+            "status": "error",
+            "prompt_sha256": "cb212848576e5901484903dc9412424b4ac62c29bd5f10b3f0de949ee43448ac",
+            "response_file": "responses/1.json",
+            "error": "Incomplete or oversized local response"
+          }
+        ],
+        "method": "assisted",
+        "independently_reviewed": false,
+        "expert_validated": false
+      },
+      "review_record": {
+        "schema_version": "assessment-review-v1",
+        "claim_id": "fitness-02-c006",
+        "draft_assessment_sha256": "33076a99b8e2cc74a99cd950eb654b54bac1ba764f20dad57001a2c6b195bedf",
+        "decision": "accept",
+        "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+        "method": "assisted",
+        "scope": "Assisted appraisal of 2/77 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed. Same assistant prepared and rechecked the assessment; no independent or expert validation.",
+        "independently_reviewed": false,
+        "expert_validated": false,
+        "claim_requirements_complete": true,
+        "summary": "The two appraised abstracts concern treatment in people already experiencing low back pain and mixed review-level evidence about physical exposure and causality. They do not establish that an isolated, defined proper sitting posture prevents back-pain onset or recurrence. This bounded assisted assessment does not establish that posture is irrelevant or ineffective.",
+        "criterion_reviews": [
+          {
+            "criterion_id": "C1",
+            "rationale": "Checked the existing-pain population, both intervention arms, treatment endpoints, sitting context and causal-prevention wording. The trial reports randomization but does not isolate posture or measure the claimed prevention effect. The umbrella review's mixed causality evidence warrants uncertainty, not a refutation. Prevention may concern onset or recurrence; neither is inferred from treatment improvement.",
+            "additional_citations": []
+          }
+        ],
+        "resolved_objections": [
+          {
+            "problem": "Draft awaits a separate check of claim coverage, quotation interpretation and evidence limits.",
+            "resolution": "Checked the existing-pain population, both intervention arms, treatment endpoints, sitting context and causal-prevention wording. The trial reports randomization but does not isolate posture or measure the claimed prevention effect. The umbrella review's mixed causality evidence warrants uncertainty, not a refutation. Prevention may concern onset or recurrence; neither is inferred from treatment improvement. Remaining evidence and wording limits are retained as gaps; coverage approval does not establish evidence sufficiency."
+          }
+        ],
+        "unresolved_objections": []
+      },
+      "corrections": [
+        "Treatment improvement in patients with existing pain is not the claimed preventive outcome.",
+        "The added intervention described is pain-principles and management training alongside exercise; do not invent an isolated posture intervention.",
+        "No causal consensus is not proof that posture has no effect."
+      ],
+      "reviewed_assessment_sha256": "5bd83c9efde4a22cc552f7fd33aefb409e72d6565058df576501a7c4ef00069b"
+    }
+  ]
+}

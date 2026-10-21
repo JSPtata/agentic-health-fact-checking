@@ -1,0 +1,45 @@
+{
+  "profile": "claim-scope-review-v1",
+  "video_id": "fitness-02",
+  "transcript_sha256": "afefbf51b4a6be4aa0aa33029dedc9e023e7f267f0655463b98f8f59f391227c",
+  "reviewer": "ChatGPT-assisted review of supplied transcript and OCR",
+  "method": "assisted",
+  "independently_reviewed": false,
+  "expert_validated": false,
+  "scope": "Reviewed the supplied OCR statements at 0 and 2 seconds. Saved speech text and segment contain only an em dash. No missing medical outcome was inferred. This does not prove the source video has no speech; the raw video/audio was not reinspected. These are scope abstentions for the current clinical-outcome workflow. A separate guideline-alignment review could assess recommendation consistency without inventing a causal outcome.",
+  "claims": [
+    {
+      "claim_id": "fitness-02-c004",
+      "claim_text": "The best time for exercise is early morning or evening.",
+      "claim_text_sha256": "96c642e13e7da0395d068dd9e7dc2fafc0dc55b2ccdc1005819ddd38be3bf0e5",
+      "disposition": "scope_abstention",
+      "verdict": null,
+      "reason": "The OCR states best without identifying what is optimized. The saved transcript supplies no usable additional outcome. A single best time cannot be assessed for an unspecified health or performance objective.",
+      "missing_information": [
+        "Specify the health or performance outcome for best, the target population and relevant comparison. Do not choose weight loss, strength, sleep or cardiovascular benefit on the speaker's behalf."
+      ]
+    },
+    {
+      "claim_id": "fitness-02-c005",
+      "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+      "claim_text_sha256": "1b4cbc01b48fe21208573e191802a159ee95fa7bd802c59d88c1f8f1fbcfede5",
+      "disposition": "scope_abstention",
+      "verdict": null,
+      "reason": "This is a behavioral recommendation with a time threshold but no explicitly stated health effect in the supplied OCR or usable speech transcript. The current causal-health-claim route cannot assign a medical verdict to an inferred benefit. The advice can instead be routed to a separately defined guideline-alignment task.",
+      "missing_information": [
+        "Specify whether to evaluate a stated health outcome or consistency with an identified guideline. Do not silently add improved sleep or assume that a 30-minute threshold proves a causal benefit."
+      ]
+    },
+    {
+      "claim_id": "fitness-02-c007",
+      "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+      "claim_text_sha256": "a3829744caad8b0e028470c360d8e7d788329d85ef4f125ff4f7d3823eb4a7f7",
+      "disposition": "scope_abstention",
+      "verdict": null,
+      "reason": "Healthier is an unspecified comparative outcome. The supplied OCR does not identify a health endpoint, tea ingredients, preparation or added sugar. Defining the claim as unsweetened tea reducing weight, glycemia or disease risk would introduce details not stated here.",
+      "missing_information": [
+        "Specify the health endpoint and relevant herbal-tea preparation, including added sugar, without assuming all herbal teas have the same composition or effects."
+      ]
+    }
+  ]
+}

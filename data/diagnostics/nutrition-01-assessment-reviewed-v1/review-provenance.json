@@ -1,0 +1,24 @@
+{
+  "profile": "reviewed-assessment-import-v1",
+  "inputs": [
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-draft-v1/assessment-draft.json",
+      "sha256": "b2e5e656dc9b0aefe452438201c3122f333152a472cc354003f3b962f8c2fe5e"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-draft-v1/provenance.json",
+      "sha256": "145fe225dd6381a1578ba88cfc3ea1e0e3d904c21d7c2af48737009f2ab0b5c6"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-review-v1.json",
+      "sha256": "68f81799cd2f1d686808c65a54ab66f185160a32214434d7247363cde24de090"
+    }
+  ],
+  "script_sha256": "a758008c0424e7604039cddd221ac093e3448e240ff9b9d41a789eafaed9e7b5",
+  "assessment_sha256": "7afbc1fcaa71f74d820c4121b66eeb2e7de66bac21fd6339c8ad8fff2108de94",
+  "method": "assisted",
+  "scope": "Acceptance of a conservative abstract-level assessment of the frozen 17-source development pool. This does not approve autonomous verifier performance, exhaustive retrieval, a causal refutation or an expert-validated conclusion.",
+  "independently_reviewed": false,
+  "expert_validated": false,
+  "api_calls": 0
+}

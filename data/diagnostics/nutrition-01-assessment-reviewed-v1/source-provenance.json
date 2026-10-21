@@ -1,0 +1,374 @@
+{
+  "profile": "assisted-assessment-draft-v1",
+  "claim_id": "nutrition-01-diagnostic-c001",
+  "bundle_sha256": "fbdbbb7f45d62719465c0f978697b875a411883ecd426f65f80ea5e40cc70af2",
+  "notes_sha256": "07d030f4336aee3e1c43faec964db1b0fc154a4ca25b0b8245dce780c75cc9cf",
+  "script_sha256": "24e26dbd44ec674d225942f66f73b08a8596d7ca499b4c9f6ef1be6a0a79501e",
+  "assessment_sha256": "97886da93f33d491b9a831e9b32124df2f6ca0f1e76bd78ad52b5858be3deb91",
+  "method": "Assisted abstract review supplied as external notes; no model or retrieval API calls.",
+  "independently_reviewed": false,
+  "expert_validated": false,
+  "source_reviews": {
+    "25178568": {
+      "abstract_sha256": "1ec6d10bee74eb93d2ee86d01b046f5c3ea536aff2c54d3647ae7c4918f2e421",
+      "role": "partial_intervention_effect",
+      "rationale": "A 12-month randomized comparison reports fat-mass differences. Diet and timing differ from the exact claim; the percent fat-mass contrast must not be reported as kilograms or absolute fat loss."
+    },
+    "26278052": {
+      "abstract_sha256": "df0f93b2ea856cb79a6ece567e17e317f522585f863233ed72a56812f72b1075",
+      "role": "partial_intervention_effect",
+      "rationale": "Six-day randomized-order isocaloric feeding comparison estimates body-fat loss using fat balance. It does not test the exact food list, and does not establish the necessity of excluding grains/dairy."
+    },
+    "28676132": {
+      "abstract_sha256": "aa057cb764f6dbd48054c44e545d73fb65fff01cf6028c509f10df85f4642daa",
+      "role": "partial_observational_synthesis",
+      "rationale": "Systematic review of mostly observational pediatric evidence on ultra-processed foods and body fat. Associations in children/adolescents do not establish the effect of switching to the prescribed diet."
+    },
+    "31105044": {
+      "abstract_sha256": "ac04e8d2cd5e4a260c4f974a39ed5728a09b43a5b620bc2b6152c3ec40683e65",
+      "role": "partial_weight_proxy_intervention",
+      "rationale": "Two-week randomized feeding comparison reports energy intake and weight in this abstract, not body-fat change. Follow linked errata before relying on numerical results; missing abstract endpoints may exist in full text."
+    },
+    "32990607": {
+      "abstract_sha256": "73a11ee516de3d72b20b95509f070e10138012b8031f94a3a92d5ab70bbfb7f2",
+      "role": "partial_intervention_effect",
+      "rationale": "Randomized study in NAFLD reports two-month body-fat decreases within the intervention group. A between-group fat-loss effect is not explicitly reported in the abstract. Diet includes high fiber and education and is not the exact food list."
+    },
+    "33479499": {
+      "abstract_sha256": "4b7d4c9300a0096f6b6642e5f8578dea39308d34a83e1de96b7362edac21a881",
+      "role": "energy_intake_context",
+      "rationale": "Randomized two-week feeding periods compare energy intake. The abstract does not report a body-fat result; this is not evidence that the full study lacks one. One participant withdrew due to hypoglycemia during the low-carbohydrate diet."
+    },
+    "33802738": {
+      "abstract_sha256": "b00225db7b95bd6ce9dd58b612ee8a5e694b93f62867518d6870464fafeffca1",
+      "role": "partial_secondary_association",
+      "rationale": "Secondary analysis relates diet adherence to lower fat mass at 12 weeks in T2D. Participants were randomized to exercise conditions, not to high versus low Paleo adherence; do not treat adherence associations as randomized diet effects."
+    },
+    "33916669": {
+      "abstract_sha256": "7bb63db75f60467cf294621d0d7886a7d64f685ae235580df8c011316bbe585a",
+      "role": "partial_narrative_synthesis",
+      "rationale": "Narrative review discusses short-term fat-mass reduction and longer-term limitations of LCD. It is neither a new trial nor an exact assessment of the video diet. Safety assertions require checking underlying evidence."
+    },
+    "34515299": {
+      "abstract_sha256": "6660bb5a2925464d29d272f659265cfb7f18221d0a60ad9a070f04aa54e5613c",
+      "role": "mechanistic_hypothesis",
+      "rationale": "Conceptual carbohydrate-insulin model with testable hypotheses; not an intervention effect estimate or established demonstration of rapid fat loss."
+    },
+    "35362512": {
+      "abstract_sha256": "4853b63d6a470e0d37b6c9107f56342f4190c73412b89c622272e3c3d16df57e",
+      "role": "partial_observational_synthesis",
+      "rationale": "Mostly observational pediatric systematic review includes percentage-body-fat associations, low certainty, heterogeneous exposures. Not a trial of the prescribed diet; linked erratum requires review before using estimates."
+    },
+    "36313106": {
+      "abstract_sha256": "a7bd4d5a08f11b232f3e0893bea7de9712edae7db77756b15edae41de6e8ba2c",
+      "role": "partial_observational_effect",
+      "rationale": "Long-term UPF/body-composition association in a cohort, with reported associations only in women. Not rapid fat loss following randomized diet substitution."
+    },
+    "37296485": {
+      "abstract_sha256": "8da821853214ba670076aafffa3b0a03c06e437af9a1470d32497d8d7bf0e919",
+      "role": "critical_guidance",
+      "rationale": "Position statement directly useful for reviewing quick-loss promises, food-group exclusions and energy deficit. Critical guidance is relevant but not an experimental refutation of the exact claim."
+    },
+    "37535715": {
+      "abstract_sha256": "4c6948d01dedaa6450484e7b6add2dda933a67e88f66177190032548fc95b301",
+      "role": "topic_only_editorial",
+      "rationale": "Short abstract lists possible obesity drivers and discusses weight-loss drugs; it supplies no dietary fat-loss effect or focused assessment of the claimed restriction."
+    },
+    "40760353": {
+      "abstract_sha256": "400fed3501f485f830425687e3c7bc6c9e1f18635394530f813841f6b888f424",
+      "role": "partial_weight_proxy_intervention",
+      "rationale": "Eight-week minimally processed versus UPF feeding periods report weight-change outcomes. Primary endpoint is weight, not body fat in this abstract. Both diets follow Eatwell guidance and do not establish necessity of the video exclusions."
+    },
+    "40933253": {
+      "abstract_sha256": "b0d6b68af1db062d91e6f2e81d8d30ef7723b47cce6486b82ee9ab4bdaf3b979",
+      "role": "different_outcome_context",
+      "rationale": "Diet comparison targets glycemia while maintaining stable weight. No fat-loss estimate is reported in the abstract. Stable weight must not be interpreted as proof of zero body-fat change."
+    },
+    "41628734": {
+      "abstract_sha256": "835e7bea1888baf231b1dc62971adcefa49551ad4af8a97d8cc980bbc20df785",
+      "role": "unrelated",
+      "rationale": "Cancer nutrition review does not evaluate whether the prescribed restriction produces rapid body-fat loss. Shared food vocabulary is insufficient."
+    },
+    "42502137": {
+      "abstract_sha256": "2be08c92e9e05bdc8cb44ab4cf2ef28584f8cd753214d0d9b9eec6d47b98cb6d",
+      "role": "disease_specific_background",
+      "rationale": "MASLD lifestyle overview concerns weight management and hepatic disease. It reports no evaluation of rapid whole-body fat loss from the exact restriction in the abstract."
+    }
+  },
+  "source_metadata": {
+    "25178568": {
+      "title": "Effects of low-carbohydrate and low-fat diets: a randomized trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25178568/",
+      "abstract_sha256": "1ec6d10bee74eb93d2ee86d01b046f5c3ea536aff2c54d3647ae7c4918f2e421",
+      "publication_types": [
+        "Comparative Study",
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "correction_notices": [
+        {
+          "type": "SummaryForPatientsIn",
+          "pmid": "25178581"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25732286"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25732287"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25732288"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25732289"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25732291"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25751921"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25802358"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "28754086"
+        }
+      ]
+    },
+    "26278052": {
+      "title": "Calorie for Calorie, Dietary Fat Restriction Results in More Body Fat Loss than Carbohydrate Restriction in People with Obesity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26278052/",
+      "abstract_sha256": "df0f93b2ea856cb79a6ece567e17e317f522585f863233ed72a56812f72b1075",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Intramural"
+      ],
+      "correction_notices": [
+        {
+          "type": "CommentIn",
+          "pmid": "26278053"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "26303602"
+        }
+      ]
+    },
+    "28676132": {
+      "title": "Consumption of ultra-processed foods and body fat during childhood and adolescence: a systematic review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28676132/",
+      "abstract_sha256": "aa057cb764f6dbd48054c44e545d73fb65fff01cf6028c509f10df85f4642daa",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "correction_notices": []
+    },
+    "31105044": {
+      "title": "Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31105044/",
+      "abstract_sha256": "ac04e8d2cd5e4a260c4f974a39ed5728a09b43a5b620bc2b6152c3ec40683e65",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Intramural"
+      ],
+      "correction_notices": [
+        {
+          "type": "CommentIn",
+          "pmid": "31230986"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "31230987"
+        },
+        {
+          "type": "ErratumIn",
+          "pmid": "31269427"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "31272848"
+        },
+        {
+          "type": "ErratumIn",
+          "pmid": "33027677"
+        }
+      ]
+    },
+    "32990607": {
+      "title": "Impact of a low-carbohydrate and high-fiber diet on nonalcoholic fatty liver disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32990607/",
+      "abstract_sha256": "73a11ee516de3d72b20b95509f070e10138012b8031f94a3a92d5ab70bbfb7f2",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "correction_notices": []
+    },
+    "33479499": {
+      "title": "Effect of a plant-based, low-fat diet versus an animal-based, ketogenic diet on ad libitum energy intake.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33479499/",
+      "abstract_sha256": "4b7d4c9300a0096f6b6642e5f8578dea39308d34a83e1de96b7362edac21a881",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correction_notices": [
+        {
+          "type": "CommentIn",
+          "pmid": "33526931"
+        }
+      ]
+    },
+    "33802738": {
+      "title": "Using a Paleo Ratio to Assess Adherence to Paleolithic Dietary Recommendations in a Randomized Controlled Trial of Individuals with Type 2 Diabetes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33802738/",
+      "abstract_sha256": "b00225db7b95bd6ce9dd58b612ee8a5e694b93f62867518d6870464fafeffca1",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "correction_notices": []
+    },
+    "33916669": {
+      "title": "The Low-Carbohydrate Diet: Short-Term Metabolic Efficacy Versus Longer-Term Limitations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33916669/",
+      "abstract_sha256": "7bb63db75f60467cf294621d0d7886a7d64f685ae235580df8c011316bbe585a",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "correction_notices": []
+    },
+    "34515299": {
+      "title": "The carbohydrate-insulin model: a physiological perspective on the obesity pandemic.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34515299/",
+      "abstract_sha256": "6660bb5a2925464d29d272f659265cfb7f18221d0a60ad9a070f04aa54e5613c",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "correction_notices": [
+        {
+          "type": "CommentIn",
+          "pmid": "35139162"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "35139163"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "35139164"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "35139169"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "35139171"
+        }
+      ]
+    },
+    "35362512": {
+      "title": "Unhealthy Food and Beverage Consumption in Children and Risk of Overweight and Obesity: A Systematic Review and Meta-Analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35362512/",
+      "abstract_sha256": "4853b63d6a470e0d37b6c9107f56342f4190c73412b89c622272e3c3d16df57e",
+      "publication_types": [
+        "Journal Article",
+        "Meta-Analysis",
+        "Systematic Review",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correction_notices": [
+        {
+          "type": "ErratumIn",
+          "pmid": "36183244"
+        }
+      ]
+    },
+    "36313106": {
+      "title": "Ultra-processed food consumption is associated with increase in fat mass and decrease in lean mass in Brazilian women: A cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36313106/",
+      "abstract_sha256": "a7bd4d5a08f11b232f3e0893bea7de9712edae7db77756b15edae41de6e8ba2c",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "correction_notices": []
+    },
+    "37296485": {
+      "title": "Position statement on nutrition therapy for overweight and obesity: nutrition department of the Brazilian association for the study of obesity and metabolic syndrome (ABESO-2022).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37296485/",
+      "abstract_sha256": "8da821853214ba670076aafffa3b0a03c06e437af9a1470d32497d8d7bf0e919",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "correction_notices": []
+    },
+    "37535715": {
+      "title": "Turning the tide on obesity?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37535715/",
+      "abstract_sha256": "4c6948d01dedaa6450484e7b6add2dda933a67e88f66177190032548fc95b301",
+      "publication_types": [
+        "Editorial"
+      ],
+      "correction_notices": []
+    },
+    "40760353": {
+      "title": "Ultraprocessed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health: a randomized, crossover trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40760353/",
+      "abstract_sha256": "400fed3501f485f830425687e3c7bc6c9e1f18635394530f813841f6b888f424",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "correction_notices": []
+    },
+    "40933253": {
+      "title": "Randomised crossover controlled trial of dietary interventions for glycaemic control when body weight is kept stable.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40933253/",
+      "abstract_sha256": "b0d6b68af1db062d91e6f2e81d8d30ef7723b47cce6486b82ee9ab4bdaf3b979",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "correction_notices": []
+    },
+    "41628734": {
+      "title": "Energy metabolism, nutrition and cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41628734/",
+      "abstract_sha256": "835e7bea1888baf231b1dc62971adcefa49551ad4af8a97d8cc980bbc20df785",
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correction_notices": []
+    },
+    "42502137": {
+      "title": "Non-pharmacological treatment of MASLD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42502137/",
+      "abstract_sha256": "2be08c92e9e05bdc8cb44ab4cf2ef28584f8cd753214d0d9b9eec6d47b98cb6d",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "correction_notices": []
+    }
+  }
+}

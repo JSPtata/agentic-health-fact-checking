@@ -1,0 +1,143 @@
+{
+  "profile": "reviewed-finish-v1",
+  "inputs": [
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-reviewed-v1/assessment-reviewed.json",
+      "sha256": "ff57ccc3efd722230ad35c1452536230f6fe37f8e368617f5d7ddab6c9788d2f"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/verification-local-v1/verification-assisted.json",
+      "sha256": "c1d4860f0a98ac067699399850350ac76b9ee0457d555ba45f3766ab30fed637"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c002.json",
+      "sha256": "78745a737acda0b184d2f157d05fbcd0a2eb0c4abe814198f15ee7dcb1d86ca2"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c003.json",
+      "sha256": "7a065f5275badb1af223c1d941e7b3b15cb4513cd0fd25edd2bd82a9a116673e"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c006.json",
+      "sha256": "2579ed782a0b0994b2306fda513ff6d3c7e2ab8543dae41e221c04b469ff2cbc"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claims/fitness-02.json",
+      "sha256": "47eca921ba2b279b211f2ce9b3011848d92fd221a84233a3ad1ad4ab24fee4fc"
+    }
+  ],
+  "claim_specs": {
+    "fitness-02-c001": {
+      "claim_text": "Always stretch your body after waking up to boost circulation.",
+      "exposure": "stretching your body",
+      "outcome": "boost circulation",
+      "context": "after waking up",
+      "claim_id": "fitness-02-c001"
+    },
+    "fitness-02-c002": {
+      "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+      "exposure": "drinking coffee",
+      "outcome": "prevent acidity",
+      "context": "on an empty stomach",
+      "claim_id": "fitness-02-c002"
+    },
+    "fitness-02-c003": {
+      "claim_text": "Eat fruits before meals, not after, for better digestion.",
+      "exposure": "eating fruits",
+      "outcome": "better digestion",
+      "context": "before meals, not after",
+      "claim_id": "fitness-02-c003"
+    },
+    "fitness-02-c004": {
+      "claim_text": "The best time for exercise is early morning or evening.",
+      "exposure": "exercise",
+      "outcome": null,
+      "context": "early morning or evening",
+      "claim_id": "fitness-02-c004"
+    },
+    "fitness-02-c005": {
+      "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+      "exposure": "screen time",
+      "outcome": null,
+      "context": "at least 30 minutes before going to bed",
+      "claim_id": "fitness-02-c005"
+    },
+    "fitness-02-c006": {
+      "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+      "exposure": "maintaining proper posture",
+      "outcome": "prevent back pain",
+      "context": "while sitting",
+      "claim_id": "fitness-02-c006"
+    },
+    "fitness-02-c007": {
+      "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+      "exposure": "replacing sugary drinks with herbal tea",
+      "outcome": "healthier alternative",
+      "context": null,
+      "claim_id": "fitness-02-c007"
+    },
+    "nutrition-01-diagnostic-c001": {
+      "claim_id": "nutrition-01-diagnostic-c001",
+      "claim_text": "People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk."
+    }
+  },
+  "selected": {
+    "fitness-02-c001": {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/verification-local-v1/verification-assisted.json",
+      "sha256": "c1d4860f0a98ac067699399850350ac76b9ee0457d555ba45f3766ab30fed637"
+    },
+    "fitness-02-c002": {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c002.json",
+      "sha256": "78745a737acda0b184d2f157d05fbcd0a2eb0c4abe814198f15ee7dcb1d86ca2"
+    },
+    "fitness-02-c003": {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c003.json",
+      "sha256": "7a065f5275badb1af223c1d941e7b3b15cb4513cd0fd25edd2bd82a9a116673e"
+    },
+    "fitness-02-c006": {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c006.json",
+      "sha256": "2579ed782a0b0994b2306fda513ff6d3c7e2ab8543dae41e221c04b469ff2cbc"
+    },
+    "nutrition-01-diagnostic-c001": {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-reviewed-v1/assessment-reviewed.json",
+      "sha256": "ff57ccc3efd722230ad35c1452536230f6fe37f8e368617f5d7ddab6c9788d2f"
+    }
+  },
+  "pending": [
+    {
+      "claim_id": "fitness-02-c004",
+      "claim_text": "The best time for exercise is early morning or evening.",
+      "verdict": null,
+      "origin": "registered_claim",
+      "disposition": "abstained",
+      "reason": "Define the health outcome or guideline-alignment task."
+    },
+    {
+      "claim_id": "fitness-02-c005",
+      "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+      "verdict": null,
+      "origin": "registered_claim",
+      "disposition": "abstained",
+      "reason": "Define the health outcome or guideline-alignment task."
+    },
+    {
+      "claim_id": "fitness-02-c007",
+      "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+      "verdict": null,
+      "origin": "registered_claim",
+      "disposition": "abstained",
+      "reason": "Define the health outcome or guideline-alignment task."
+    }
+  ],
+  "unresolved_inputs": [],
+  "code": {
+    "reporter": "20a95a640f6e44cba8a9480358b0eb97b735fcaf53f72c51ea3c61883558e582",
+    "controller": "de171f57cc643d39a463715b184e889b323ba6fd03c50b2d62bdfb3c9a1144aa",
+    "adjudicator": "6bc1a50e07c7277ea7e8f6c0b4ca80a96aa09fdff612082ea51c3db68e5f3c14"
+  },
+  "versions": {
+    "langgraph": "1.2.16",
+    "langgraph-checkpoint-sqlite": "3.1.2",
+    "pydantic": "2.13.4"
+  }
+}

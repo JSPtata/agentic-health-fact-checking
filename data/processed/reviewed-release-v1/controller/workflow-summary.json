@@ -1,0 +1,632 @@
+{
+  "binding": {
+    "verification_settings": null,
+    "retrieval_settings": null,
+    "profile": "claim-controller-v1",
+    "script_sha256": "de171f57cc643d39a463715b184e889b323ba6fd03c50b2d62bdfb3c9a1144aa",
+    "adjudicator_sha256": "6bc1a50e07c7277ea7e8f6c0b4ca80a96aa09fdff612082ea51c3db68e5f3c14",
+    "framework_versions": {
+      "langgraph": "1.2.16",
+      "langgraph-checkpoint-sqlite": "3.1.2",
+      "langgraph-checkpoint": "4.3.0",
+      "pydantic": "2.13.4"
+    },
+    "claim_inputs": {
+      "fitness-02-c001": "f43522c16c4aecc908a578f82460e3d90ec6608da4a9dcacf0c1edfc7fdd63c0",
+      "fitness-02-c002": "14096bcb5c83d3d459f92ec1a12ded1a059df203e890016cd46555535adff67f",
+      "fitness-02-c003": "f4d85939aa9e8f2ff120307fdb161b91365e0a05a3ea2d916e32c7edeb1bc347",
+      "fitness-02-c006": "7857ef9d47d618873c2805b8fb4baabd71cd1343fa80f4cd29cf0bc08cc0c84f",
+      "nutrition-01-diagnostic-c001": "ac236a679e9aed12940a42792b50eb73f84a8750e94b813441cc0388bbb6d664"
+    }
+  },
+  "claims": [
+    {
+      "claim_id": "fitness-02-c001",
+      "claim_text": "Always stretch your body after waking up to boost circulation.",
+      "status": "completed_from_reviewed_assessment",
+      "interrupted": false,
+      "pending_action": "finished",
+      "source_review_status": "not_supplied",
+      "retrieval": null,
+      "verification": null,
+      "verdict": "insufficient_evidence",
+      "last_error": null,
+      "submissions": 1,
+      "history": [
+        {
+          "action": "adjudicated",
+          "input_sha256": "c1d4860f0a98ac067699399850350ac76b9ee0457d555ba45f3766ab30fed637",
+          "verdict": "insufficient_evidence"
+        }
+      ],
+      "adjudication": {
+        "status": "adjudicated_assisted_legacy",
+        "claim_id": "fitness-02-c001",
+        "claim_text": "Always stretch your body after waking up to boost circulation.",
+        "verdict": "insufficient_evidence",
+        "reason": "The supplied verification contains unresolved or heterogeneous component evidence and concludes insufficient evidence. Missing support is not converted into refutation.",
+        "summary": "Stretching can produce local vascular responses under particular conditions, but the supplied evidence does not establish that everyone should always stretch after waking to boost circulation. Missing direct support is not proof that the claim is false.",
+        "components": [
+          {
+            "component": "exposure_outcome",
+            "conclusion": "mixed",
+            "source_ids": [
+              "S1955d890eacc64be",
+              "S65191223e280ad02",
+              "Saa096fef81f1c81a",
+              "S0756726fd5d009f5",
+              "S046d91794ffce008"
+            ],
+            "explanation": "Some protocols show local vascular responses; others show nonsignificant changes or context-specific reduced flow. Endpoints, populations and phases differ. This is qualitative heterogeneity, not a pooled effect estimate."
+          },
+          {
+            "component": "context",
+            "conclusion": "insufficient_evidence",
+            "source_ids": [
+              "S03497b210d84149c",
+              "S0417cef78183352d",
+              "Sef005e977b28d913",
+              "S87f90993316e05a0",
+              "Sf177d99b8f9cede3",
+              "S1955d890eacc64be",
+              "S65191223e280ad02",
+              "Saa096fef81f1c81a",
+              "S0756726fd5d009f5",
+              "Sa7b17fb771d89d6c",
+              "S046d91794ffce008",
+              "S6a335acf4bb51a1c",
+              "S0aaa51b257fd42b2",
+              "S2524867fdcd3a897"
+            ],
+            "explanation": "The supplied sources do not establish an isolated post-waking stretching routine. Morning scheduling alone does not document timing relative to waking. No exact delay or superiority over other times is imposed."
+          },
+          {
+            "component": "recommendation_strength",
+            "conclusion": "insufficient_evidence",
+            "source_ids": [
+              "S03497b210d84149c",
+              "S0417cef78183352d",
+              "Sef005e977b28d913",
+              "S87f90993316e05a0",
+              "Sf177d99b8f9cede3",
+              "S1955d890eacc64be",
+              "S65191223e280ad02",
+              "Saa096fef81f1c81a",
+              "S0756726fd5d009f5",
+              "Sa7b17fb771d89d6c",
+              "S046d91794ffce008",
+              "S6a335acf4bb51a1c",
+              "S0aaa51b257fd42b2",
+              "S2524867fdcd3a897"
+            ],
+            "explanation": "Selected physiological experiments and general activity guidance do not justify always. This does not establish that stretching is unsafe or ineffective."
+          }
+        ],
+        "evidence_gaps": [
+          "A directly evaluated post-waking stretching routine with an appropriate comparator is absent from this supplied active evidence set.",
+          "Optimal dose, response duration, clinical relevance and general applicability are not established.",
+          "Only 12 abstracts and two extracted official pages were reviewed; 21 inactive registry entries were not assessed here.",
+          "Search completeness, full-text risk of bias, study overlap and retraction/correction status were not independently audited.",
+          "This is an assistant-assisted correction, not independent expert validation or a successful autonomous rerun."
+        ],
+        "policy": "reviewed-criteria-adjudication-v1",
+        "input_sha256": "c1d4860f0a98ac067699399850350ac76b9ee0457d555ba45f3766ab30fed637",
+        "decision_scope": "Classification of the supplied assisted verification; not a new evidence appraisal, independent scientific review or clinical recommendation.",
+        "verification_provenance": {
+          "method": "Compact local reconstruction of this conversation's assistant-reviewed corrections; no new model run.",
+          "bundle_sha256": "320bf14b933570f44ab365ddacbe85bdf47aa3fbd6bf877a654387f46d3d500c",
+          "source_hashes": {
+            "S03497b210d84149c": "435dcecde61ddb277f9696eb350a215595b967af89b237f6d7177974381d661f",
+            "S0417cef78183352d": "f9cb6e83389359dbc24de36934e4ed7f9f537091ef645ad8eeda7e54901760ad",
+            "Sef005e977b28d913": "5485d218511e192c5b13d53b7204a138f320118f14badd9a97bb72c0354954a7",
+            "S87f90993316e05a0": "3917ed1416d0c511eab7c2203da182927e589b1ed83c830be1668920b261209e",
+            "Sf177d99b8f9cede3": "1e2b3ac6574d78b3a478fbbd1dfdfe462fa31524a1433e4d9ff85303ea4822e1",
+            "S1955d890eacc64be": "64ce193074242d2106ea7ed30670823d4c748c0c21f0caefb8d567fb66fe3736",
+            "S65191223e280ad02": "c33f447966e09effa4157e43a579be9e12582643e9da5baf4153eef717e4b309",
+            "Saa096fef81f1c81a": "743bd2c79d8304848e4aeb71dfb7b3d9ec907672ae366b6eaa971576fb8101dc",
+            "S0756726fd5d009f5": "0eb82148c0acaa0b6cc127b5900cb32652919d2de6a9ef3e469ac46fd059ba68",
+            "Sa7b17fb771d89d6c": "2e0f471c73a18faa60fe8051535f08b4471eb1f0e2392b56cfa07e3417084b03",
+            "S046d91794ffce008": "e0069dc42813a6e6aa59676b92a737156ad858e8a10bfb5dcb05947d0c2673be",
+            "S6a335acf4bb51a1c": "7bfa1374c47dd3bf9f7825e9594b6e2c39a461dc5208b80bb42b8b70f4a6a399",
+            "S0aaa51b257fd42b2": "0db8632bcae94f7b3b53515703e92f786d793f04bf033781d5966c2ef4269c6a",
+            "S2524867fdcd3a897": "726d409917d7f299f8243ab5a528adb66cd1b7d65e913e44a72f4930ad51e66c"
+          },
+          "original_report_sha256": "10a43be600264fc0b437dadd0b9fb196988ca24dbf0834dc138f49e1942da126",
+          "independent_expert_review": false,
+          "source_data_independently_refetched": false,
+          "original_local_model": "qwen3:4b",
+          "transfer_version": "compact-assisted-report-v1"
+        },
+        "review_reconciliation_entries": 35,
+        "source_count": 14,
+        "sources": {
+          "S03497b210d84149c": {
+            "title": "Effect of yoga on arterial stiffness in elderly subjects with increased pulse pressure: A randomized controlled study.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26275649/",
+            "pmid": "26275649",
+            "text_sha256": "435dcecde61ddb277f9696eb350a215595b967af89b237f6d7177974381d661f"
+          },
+          "S0417cef78183352d": {
+            "title": "Adaptations of bone and bone vasculature to muscular stretch training.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38741608/",
+            "pmid": "38741608",
+            "text_sha256": "f9cb6e83389359dbc24de36934e4ed7f9f537091ef645ad8eeda7e54901760ad"
+          },
+          "Sef005e977b28d913": {
+            "title": "Acute effect of stretching one leg on regional arterial stiffness in young men.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28397006/",
+            "pmid": "28397006",
+            "text_sha256": "5485d218511e192c5b13d53b7204a138f320118f14badd9a97bb72c0354954a7"
+          },
+          "S87f90993316e05a0": {
+            "title": "Aerobic training conducted at different times of day in elderly patients with hypertension: a controlled trial.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41361156/",
+            "pmid": "41361156",
+            "text_sha256": "3917ed1416d0c511eab7c2203da182927e589b1ed83c830be1668920b261209e"
+          },
+          "Sf177d99b8f9cede3": {
+            "title": "Cardiovascular Responses to Skeletal Muscle Stretching: \"Stretching\" the Truth or a New Exercise Paradigm for Cardiovascular Medicine?",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28780647/",
+            "pmid": "28780647",
+            "text_sha256": "1e2b3ac6574d78b3a478fbbd1dfdfe462fa31524a1433e4d9ff85303ea4822e1"
+          },
+          "S1955d890eacc64be": {
+            "title": "Effect of self-administered stretching on NIRS-measured oxygenation dynamics.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25324203/",
+            "pmid": "25324203",
+            "text_sha256": "64ce193074242d2106ea7ed30670823d4c748c0c21f0caefb8d567fb66fe3736"
+          },
+          "S65191223e280ad02": {
+            "title": "Acute Effects of Warming Up on Achilles Tendon Blood Flow and Stiffness.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33337692/",
+            "pmid": "33337692",
+            "text_sha256": "c33f447966e09effa4157e43a579be9e12582643e9da5baf4153eef717e4b309"
+          },
+          "Saa096fef81f1c81a": {
+            "title": "Impaired Microvascular Response to Muscle Stretching in Chronic Smokers With Type 2 Diabetes.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32596231/",
+            "pmid": "32596231",
+            "text_sha256": "743bd2c79d8304848e4aeb71dfb7b3d9ec907672ae366b6eaa971576fb8101dc"
+          },
+          "S0756726fd5d009f5": {
+            "title": "Effects of nociceptive and mechanosensitive afferents sensitization on central and peripheral hemodynamics following exercise-induced muscle damage.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35981730/",
+            "pmid": "35981730",
+            "text_sha256": "0eb82148c0acaa0b6cc127b5900cb32652919d2de6a9ef3e469ac46fd059ba68"
+          },
+          "Sa7b17fb771d89d6c": {
+            "title": "The influence of muscle length on gastrocnemius and vastus lateralis muscle oxygen saturation and endurance.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31563842/",
+            "pmid": "31563842",
+            "text_sha256": "2e0f471c73a18faa60fe8051535f08b4471eb1f0e2392b56cfa07e3417084b03"
+          },
+          "S046d91794ffce008": {
+            "title": "Acute effect of passive one-legged intermittent static stretching on regional blood flow in young men.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33079234/",
+            "pmid": "33079234",
+            "text_sha256": "e0069dc42813a6e6aa59676b92a737156ad858e8a10bfb5dcb05947d0c2673be"
+          },
+          "S6a335acf4bb51a1c": {
+            "title": "Acute effects of passive stretching on skeletal muscle microvascular Po<sub>2</sub> and HIF-1α expression: influence of stretch intensity and duration.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41467762/",
+            "pmid": "41467762",
+            "text_sha256": "7bfa1374c47dd3bf9f7825e9594b6e2c39a461dc5208b80bb42b8b70f4a6a399"
+          },
+          "S0aaa51b257fd42b2": {
+            "title": "Physical activity",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+            "pmid": null,
+            "text_sha256": "0db8632bcae94f7b3b53515703e92f786d793f04bf033781d5966c2ef4269c6a"
+          },
+          "S2524867fdcd3a897": {
+            "title": "Physical activity guidelines for adults aged 19 to 64 - NHS",
+            "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+            "pmid": null,
+            "text_sha256": "726d409917d7f299f8243ab5a528adb66cd1b7d65e913e44a72f4930ad51e66c"
+          }
+        },
+        "limitations": [
+          "Supplied active sources only; no new retrieval or exhaustive search.",
+          "Inactive candidates remain in the registry but are not verified here.",
+          "Passages from one document are not independent studies; findings may overlap.",
+          "Passage boundaries can lose context; consult full saved sources before adjudication.",
+          "Verifier and reviewer use the same small model; errors can be correlated.",
+          "Quotation checks establish textual presence, not scientific validity.",
+          "Official pages are not automatically applicable. Abstracts do not replace full-text appraisal.",
+          "No overall verdict or final adjudication is generated by this source-verification stage.",
+          "A directly evaluated post-waking stretching routine with an appropriate comparator is absent from this supplied active evidence set.",
+          "Optimal dose, response duration, clinical relevance and general applicability are not established.",
+          "Only 12 abstracts and two extracted official pages were reviewed; 21 inactive registry entries were not assessed here.",
+          "Search completeness, full-text risk of bias, study overlap and retraction/correction status were not independently audited.",
+          "This is an assistant-assisted correction, not independent expert validation or a successful autonomous rerun."
+        ],
+        "next_action": "stop_with_evidence_limits",
+        "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/verification-local-v1/verification-assisted.json"
+      }
+    },
+    {
+      "claim_id": "fitness-02-c002",
+      "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+      "status": "completed_from_reviewed_assessment",
+      "interrupted": false,
+      "pending_action": "finished",
+      "source_review_status": "not_supplied",
+      "retrieval": null,
+      "verification": null,
+      "verdict": "insufficient_evidence",
+      "last_error": null,
+      "submissions": 1,
+      "history": [
+        {
+          "action": "adjudicated",
+          "input_sha256": "78745a737acda0b184d2f157d05fbcd0a2eb0c4abe814198f15ee7dcb1d86ca2",
+          "verdict": "insufficient_evidence"
+        }
+      ],
+      "adjudication": {
+        "status": "adjudicated_from_reviewed_assessments",
+        "verdict": "insufficient_evidence",
+        "reason": "The reviewed evidence does not establish support or refutation under this policy.",
+        "next_action": "stop_with_evidence_limits",
+        "summary": "In the two appraised abstracts, a review reports coffee-related gastric acid secretion and reflux, while a small before-and-after study measures sucrose permeability. Neither abstract establishes that avoiding coffee specifically on an empty stomach prevents a defined acid-related clinical outcome. This is an assisted, abstract-only assessment of a bounded selection, not a finding that coffee has no physiological effects or that the claim is false.",
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The review explicitly reports gastric acid secretion, so the original model's suggestion that the studies contain no acidity-related evidence is too broad. Its physiological findings do not establish the claimed preventive advice about fasting. The primary study compares habitual coffee drinkers before and after 48-hour abstinence, with a separate non-drinker group; the abstract does not report randomization or a fasting-versus-fed comparison. Sucrose permeability is a mucosal-barrier surrogate, not the claimed acidity-prevention endpoint. Acidity remains ambiguous among acid secretion, reflux, heartburn and dyspepsia. No benefit or harm of changing coffee meal timing is established by these abstracts.",
+            "citations": [
+              {
+                "source_id": "PMID:10499460",
+                "quote": "Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+              },
+              {
+                "source_id": "PMID:15841908",
+                "quote": "The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence."
+              }
+            ]
+          }
+        ],
+        "evidence_gaps": [
+          "Define the intended acidity endpoint without treating acid secretion, reflux, heartburn and dyspepsia as interchangeable.",
+          "A controlled comparison of fasting coffee with an appropriate alternative, measuring the intended preventive outcome, is not reported in the appraised abstracts.",
+          "Contemporary evidence, population applicability, dose and coffee preparation, clinical importance, and study-level risk of bias have not been systematically assessed.",
+          "Assisted appraisal of 2/3 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "review": {
+          "decision": "accept",
+          "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+          "method": "assisted",
+          "claim_requirements_complete": true,
+          "assessment_sha256": "e9a348106825a8c4381168160eb6687b3d9259c28c60e2c14767ca06209304cf",
+          "unresolved_objections": []
+        },
+        "source_hashes": {
+          "PMID:10499460": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+          "PMID:15841908": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9"
+        },
+        "decision_scope": "Rule-based synthesis of supplied reviewed assessments; citation presence does not prove entailment or scientific correctness.",
+        "claim_id": "fitness-02-c002",
+        "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+        "input_sha256": "78745a737acda0b184d2f157d05fbcd0a2eb0c4abe814198f15ee7dcb1d86ca2",
+        "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c002.json"
+      }
+    },
+    {
+      "claim_id": "fitness-02-c003",
+      "claim_text": "Eat fruits before meals, not after, for better digestion.",
+      "status": "completed_from_reviewed_assessment",
+      "interrupted": false,
+      "pending_action": "finished",
+      "source_review_status": "not_supplied",
+      "retrieval": null,
+      "verification": null,
+      "verdict": "insufficient_evidence",
+      "last_error": null,
+      "submissions": 1,
+      "history": [
+        {
+          "action": "adjudicated",
+          "input_sha256": "7a065f5275badb1af223c1d941e7b3b15cb4513cd0fd25edd2bd82a9a116673e",
+          "verdict": "insufficient_evidence"
+        }
+      ],
+      "adjudication": {
+        "status": "adjudicated_from_reviewed_assessments",
+        "verdict": "insufficient_evidence",
+        "reason": "The reviewed evidence does not establish support or refutation under this policy.",
+        "next_action": "stop_with_evidence_limits",
+        "summary": "The two appraised abstracts describe kiwifruit-related digestive benefits and baobab-extract experiments, but do not report a comparison of eating whole fruits before versus after meals on a defined human digestive outcome. This bounded assisted assessment cannot establish the timing recommendation or refute digestive benefits of particular fruits.",
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Eat fruits before meals, not after, for better digestion.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The kiwifruit review states that green kiwifruit aids digestion and laxation; this is relevant background, not evidence that all fruit is better before meals. The baobab study separates bread experiments with in-vitro digestion from human consumption of aqueous baobab extract alongside white bread. Its human outcomes are glycemic response, satiety and energy expenditure; these do not establish the vague endpoint better digestion or a before-versus-after-meal advantage. Whole fruit, fruit extract, glucose responses and digestive symptoms must remain distinct. The supplied abstracts do not report the required timing comparison.",
+            "citations": [
+              {
+                "source_id": "PMID:23746068",
+                "quote": "Consuming gold kiwifruit with iron-rich meals improves poor iron status, and green kiwifruit aids digestion and laxation."
+              },
+              {
+                "source_id": "PMID:24176228",
+                "quote": "In vivo, baobab extract was consumed in solution at both a low-dose (18.5 g) and a high-dose (37 g) aqueous drink in 250 mL of water along with white bread, and resulting GR, satiety, and postprandial energy expenditure were measured."
+              }
+            ]
+          }
+        ],
+        "evidence_gaps": [
+          "Better digestion is not a defined endpoint; digestive symptoms, transit, nutrient absorption and postprandial glycemia cannot be substituted silently.",
+          "A human whole-fruit before-versus-after-meal comparison with a defined digestive endpoint is not reported in the appraised abstracts.",
+          "Fruit species, dose, population, timing interval, clinical importance and generalizability require specification.",
+          "Assisted appraisal of 2/70 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "review": {
+          "decision": "accept",
+          "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+          "method": "assisted",
+          "claim_requirements_complete": true,
+          "assessment_sha256": "320d6582f8e558979af7804c789ebc96161fbb07d7d0bd377fb004910ffdcba0",
+          "unresolved_objections": []
+        },
+        "source_hashes": {
+          "PMID:23746068": "befa23deacc0bf913fadbfd3b06d76153ac773feb561f0f6e64f1a0d18f59f91",
+          "PMID:24176228": "b79b183d7b3c87a68e58121d764937c538bfd530fccf9438619d5da03083e21f"
+        },
+        "decision_scope": "Rule-based synthesis of supplied reviewed assessments; citation presence does not prove entailment or scientific correctness.",
+        "claim_id": "fitness-02-c003",
+        "claim_text": "Eat fruits before meals, not after, for better digestion.",
+        "input_sha256": "7a065f5275badb1af223c1d941e7b3b15cb4513cd0fd25edd2bd82a9a116673e",
+        "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c003.json"
+      }
+    },
+    {
+      "claim_id": "fitness-02-c006",
+      "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+      "status": "completed_from_reviewed_assessment",
+      "interrupted": false,
+      "pending_action": "finished",
+      "source_review_status": "not_supplied",
+      "retrieval": null,
+      "verification": null,
+      "verdict": "insufficient_evidence",
+      "last_error": null,
+      "submissions": 1,
+      "history": [
+        {
+          "action": "adjudicated",
+          "input_sha256": "2579ed782a0b0994b2306fda513ff6d3c7e2ab8543dae41e221c04b469ff2cbc",
+          "verdict": "insufficient_evidence"
+        }
+      ],
+      "adjudication": {
+        "status": "adjudicated_from_reviewed_assessments",
+        "verdict": "insufficient_evidence",
+        "reason": "The reviewed evidence does not establish support or refutation under this policy.",
+        "next_action": "stop_with_evidence_limits",
+        "summary": "The two appraised abstracts concern treatment in people already experiencing low back pain and mixed review-level evidence about physical exposure and causality. They do not establish that an isolated, defined proper sitting posture prevents back-pain onset or recurrence. This bounded assisted assessment does not establish that posture is irrelevant or ineffective.",
+        "criteria": [
+          {
+            "criterion_id": "C1",
+            "wording": "Maintain proper posture while sitting to prevent back pain.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The randomized trial enrolled 60 patients with existing nonspecific low back pain. Both arms performed core stability exercise; the multidimensional arm also received pain-principles and management training. Improved pain, disability and measured posture after this combined treatment do not isolate a preventive effect of sitting posture. The umbrella review includes 41 reviews and reports mixed temporal and dose-response evidence and no causal consensus. Association and lack of causal consensus neither prove posture-caused pain nor prove no posture effect. Proper posture is not operationalized in the claim, and prevention must be distinguished from treating current symptoms.",
+            "citations": [
+              {
+                "source_id": "PMID:34306274",
+                "quote": "The purpose of this study was to investigate the effects of multidimensional approach model on the pain, disability, and sitting posture in patients with nonspecific low back pain (LBP)."
+              },
+              {
+                "source_id": "PMID:31451200",
+                "quote": "Evidence that these factors precede first time LBP or have a dose response relationship with LBP outcomes was mixed."
+              }
+            ]
+          }
+        ],
+        "evidence_gaps": [
+          "Define the proposed sitting posture and intended prevention population, including whether onset or recurrence is the target.",
+          "An isolated sitting-posture intervention with incident or recurrent back-pain outcomes is not established by the appraised trial abstract.",
+          "Confounding, mixed interventions, review overlap, risk of bias, effect sizes and clinical importance require further appraisal.",
+          "Assisted appraisal of 2/77 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+        ],
+        "review": {
+          "decision": "accept",
+          "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+          "method": "assisted",
+          "claim_requirements_complete": true,
+          "assessment_sha256": "5bd83c9efde4a22cc552f7fd33aefb409e72d6565058df576501a7c4ef00069b",
+          "unresolved_objections": []
+        },
+        "source_hashes": {
+          "PMID:34306274": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3",
+          "PMID:31451200": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6"
+        },
+        "decision_scope": "Rule-based synthesis of supplied reviewed assessments; citation presence does not prove entailment or scientific correctness.",
+        "claim_id": "fitness-02-c006",
+        "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+        "input_sha256": "2579ed782a0b0994b2306fda513ff6d3c7e2ab8543dae41e221c04b469ff2cbc",
+        "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c006.json"
+      }
+    },
+    {
+      "claim_id": "nutrition-01-diagnostic-c001",
+      "claim_text": "People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk.",
+      "status": "completed_from_reviewed_assessment",
+      "interrupted": false,
+      "pending_action": "finished",
+      "source_review_status": "not_supplied",
+      "retrieval": null,
+      "verification": null,
+      "verdict": "insufficient_evidence",
+      "last_error": null,
+      "submissions": 1,
+      "history": [
+        {
+          "action": "adjudicated",
+          "input_sha256": "ff57ccc3efd722230ad35c1452536230f6fe37f8e368617f5d7ddab6c9788d2f",
+          "verdict": "insufficient_evidence"
+        }
+      ],
+      "adjudication": {
+        "status": "adjudicated_from_reviewed_assessments",
+        "verdict": "insufficient_evidence",
+        "reason": "The reviewed evidence does not establish support or refutation under this policy.",
+        "next_action": "stop_with_evidence_limits",
+        "summary": "Within the reviewed 17-abstract development pool, related studies report body-fat changes, weight changes or dietary associations, but the evidence does not establish or refute the exact restricted-food claim and its large, rapid fat-loss wording. Weight change is not equivalent to fat loss; adherence associations are not randomized dietary effects. Guidance does not experimentally refute this dietary package. Magnitude and timing remain unspecified. This completed assisted assessment is limited to the supplied abstracts and is not an exhaustive or independently validated verification of the claim.",
+        "criteria": [
+          {
+            "criterion_id": "diet_body_fat",
+            "wording": "Switching to the exact foods and beverages described in the claim, including the stated exclusions, produces body-fat loss.",
+            "role": "core",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The metabolic-ward study estimates fat loss under different, isocaloric dietary restrictions with daily exercise. The Paleo adherence analysis randomizes exercise conditions, not dietary adherence. The minimally processed-food trial reports weight change in its abstract. These do not establish the exact claimed dietary effect.",
+            "citations": [
+              {
+                "source_id": "PMID:26278052",
+                "quote": "Body fat loss was calculated as the difference between daily fat intake and net fat oxidation measured while residing in a metabolic chamber."
+              },
+              {
+                "source_id": "PMID:33802738",
+                "quote": "Participants were asked to follow a Paleolithic diet for 12 weeks and were randomized to supervised exercise or general exercise recommendations."
+              },
+              {
+                "source_id": "PMID:40760353",
+                "quote": "The primary outcome was the within-participant difference in percent weight change (%WC) between diets, from baseline to week 8."
+              },
+              {
+                "source_id": "PMID:26278052",
+                "quote": "Whereas carbohydrate restriction led to sustained increases in fat oxidation and loss of 53 ± 6 g/day of body fat, fat oxidation was unchanged by fat restriction, leading to 89 ± 6 g/day of fat loss, and was significantly greater than carbohydrate restriction (p = 0.002)."
+              },
+              {
+                "source_id": "PMID:33802738",
+                "quote": "A higher Paleo ratio was associated with lower fat mass, BMI, waist circumference, systolic blood pressure, and serum triglycerides at 12 weeks, but not with lower HbA1c levels."
+              }
+            ]
+          },
+          {
+            "criterion_id": "magnitude",
+            "wording": "The amount of body-fat loss is large, as expressed by \"a lot\".",
+            "role": "qualifier",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The claim provides no quantitative threshold. A fat-mass percentage contrast at 12 months in a different dietary comparison cannot establish the size of fat loss under this exact diet. Do not convert this percentage contrast into kilograms or absolute fat loss.",
+            "citations": [
+              {
+                "source_id": "PMID:25178568",
+                "quote": "fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011)"
+              },
+              {
+                "source_id": "PMID:25178568",
+                "quote": "At 12 months, participants on the low-carbohydrate diet had greater decreases in weight (mean difference in change, -3.5 kg [95% CI, -5.6 to -1.4 kg]; P = 0.002), fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011)"
+              }
+            ]
+          },
+          {
+            "criterion_id": "timing",
+            "wording": "Body-fat loss occurs \"very quickly\".",
+            "role": "qualifier",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "The claim supplies no duration. A six-day metabolic-ward comparison and measurements up to 12 months describe different settings and diets. Do not invent a time cutoff or equate early weight change with rapid fat loss.",
+            "citations": [
+              {
+                "source_id": "PMID:26278052",
+                "quote": "We selectively restricted dietary carbohydrate versus fat for 6 days following a 5-day baseline diet in 19 adults with obesity confined to a metabolic ward where they exercised daily."
+              },
+              {
+                "source_id": "PMID:25178568",
+                "quote": "Data on weight, cardiovascular risk factors, and dietary composition were collected at 0, 3, 6, and 12 months."
+              }
+            ]
+          },
+          {
+            "criterion_id": "prior_diet_context",
+            "wording": "The effect applies to people previously eating a lot of processed foods and excess carbohydrates and fats together.",
+            "role": "qualifier",
+            "conclusion": "insufficient_evidence",
+            "applicability": "indirect",
+            "evidence_strength": "limited",
+            "rationale": "One trial includes high habitual UPF intake, but tests Eatwell-guided diets and reports weight change. Other evidence includes obesity or type 2 diabetes and different interventions. This provides partial contextual overlap without establishing the full exposure, outcome and prior-diet combination.",
+            "citations": [
+              {
+                "source_id": "PMID:40760353",
+                "quote": "habitual UPF intake ≥50% kcal day-1"
+              },
+              {
+                "source_id": "PMID:33802738",
+                "quote": "individuals with type 2 diabetes"
+              },
+              {
+                "source_id": "PMID:40760353",
+                "quote": "55 adults in England (body mass index ≥25 to <40 kg m-2, habitual UPF intake ≥50% kcal day-1) were provided with two 8-week ad libitum diets following the UK Eatwell Guide"
+              }
+            ]
+          }
+        ],
+        "evidence_gaps": [
+          "The magnitude and duration of \"a lot\" and \"very quickly\" are unspecified; no thresholds were invented.",
+          "No direct test of the complete restricted-food and beverage claim was identified in the reviewed 17 abstracts. This is not proof that no such study exists.",
+          "Only the pooled top-10 candidates from two rankings were reviewed, not every retrieved article or the whole literature; this is not an exhaustive systematic review.",
+          "Full texts, risk of bias, study overlap and applicability have not been independently assessed.",
+          "Linked corrections 31269427 and 33027677 for 31105044, and 36183244 for 35362512, remain unchecked. No numerical effects from those sources are used in these criteria.",
+          "This assessment and its source-role judgments are assistant-assisted development work, not independent expert validation."
+        ],
+        "review": {
+          "decision": "accept",
+          "reviewer": "ChatGPT second-pass assisted review; same assistant, not independent expert review",
+          "method": "assisted",
+          "claim_requirements_complete": true,
+          "assessment_sha256": "7afbc1fcaa71f74d820c4121b66eeb2e7de66bac21fd6339c8ad8fff2108de94",
+          "unresolved_objections": [
+            {
+              "severity": "minor",
+              "problem": "Abstract-only scope: full texts, risk of bias, linked corrections and underlying synthesis evidence remain unverified. These limits are retained; no numerical effects from the flagged correction-linked papers are used."
+            },
+            {
+              "severity": "minor",
+              "problem": "The claim leaves magnitude and timing unspecified. No thresholds are inferred; the assessment supports neither affirmation nor refutation of those qualifiers."
+            }
+          ]
+        },
+        "source_hashes": {
+          "PMID:25178568": "1ec6d10bee74eb93d2ee86d01b046f5c3ea536aff2c54d3647ae7c4918f2e421",
+          "PMID:26278052": "df0f93b2ea856cb79a6ece567e17e317f522585f863233ed72a56812f72b1075",
+          "PMID:28676132": "aa057cb764f6dbd48054c44e545d73fb65fff01cf6028c509f10df85f4642daa",
+          "PMID:31105044": "ac04e8d2cd5e4a260c4f974a39ed5728a09b43a5b620bc2b6152c3ec40683e65",
+          "PMID:32990607": "73a11ee516de3d72b20b95509f070e10138012b8031f94a3a92d5ab70bbfb7f2",
+          "PMID:33479499": "4b7d4c9300a0096f6b6642e5f8578dea39308d34a83e1de96b7362edac21a881",
+          "PMID:33802738": "b00225db7b95bd6ce9dd58b612ee8a5e694b93f62867518d6870464fafeffca1",
+          "PMID:33916669": "7bb63db75f60467cf294621d0d7886a7d64f685ae235580df8c011316bbe585a",
+          "PMID:34515299": "6660bb5a2925464d29d272f659265cfb7f18221d0a60ad9a070f04aa54e5613c",
+          "PMID:35362512": "4853b63d6a470e0d37b6c9107f56342f4190c73412b89c622272e3c3d16df57e",
+          "PMID:36313106": "a7bd4d5a08f11b232f3e0893bea7de9712edae7db77756b15edae41de6e8ba2c",
+          "PMID:37296485": "8da821853214ba670076aafffa3b0a03c06e437af9a1470d32497d8d7bf0e919",
+          "PMID:37535715": "4c6948d01dedaa6450484e7b6add2dda933a67e88f66177190032548fc95b301",
+          "PMID:40760353": "400fed3501f485f830425687e3c7bc6c9e1f18635394530f813841f6b888f424",
+          "PMID:40933253": "b0d6b68af1db062d91e6f2e81d8d30ef7723b47cce6486b82ee9ab4bdaf3b979",
+          "PMID:41628734": "835e7bea1888baf231b1dc62971adcefa49551ad4af8a97d8cc980bbc20df785",
+          "PMID:42502137": "2be08c92e9e05bdc8cb44ab4cf2ef28584f8cd753214d0d9b9eec6d47b98cb6d"
+        },
+        "decision_scope": "Rule-based synthesis of supplied reviewed assessments; citation presence does not prove entailment or scientific correctness.",
+        "claim_id": "nutrition-01-diagnostic-c001",
+        "claim_text": "People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk.",
+        "input_sha256": "ff57ccc3efd722230ad35c1452536230f6fe37f8e368617f5d7ddab6c9788d2f",
+        "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-reviewed-v1/assessment-reviewed.json"
+      }
+    }
+  ],
+  "scope": "Persistent orchestration and validated adjudication of supplied reviewed assessments. Missing scientific stages pause. Local query planning and PubMed retrieval run only with --retrieve; candidates require scientific review."
+}
