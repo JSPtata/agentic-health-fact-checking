@@ -1,0 +1,55 @@
+{
+  "schema_version": "adjudication-ready-v1",
+  "workflow_status": "complete",
+  "claim": {
+    "claim_id": "fitness-02-c003",
+    "claim_text": "Eat fruits before meals, not after, for better digestion."
+  },
+  "criteria": [
+    {
+      "criterion_id": "C1",
+      "wording": "Eat fruits before meals, not after, for better digestion.",
+      "role": "core",
+      "conclusion": "insufficient_evidence",
+      "applicability": "indirect",
+      "evidence_strength": "limited",
+      "rationale": "The kiwifruit review states that green kiwifruit aids digestion and laxation; this is relevant background, not evidence that all fruit is better before meals. The baobab study separates bread experiments with in-vitro digestion from human consumption of aqueous baobab extract alongside white bread. Its human outcomes are glycemic response, satiety and energy expenditure; these do not establish the vague endpoint better digestion or a before-versus-after-meal advantage. Whole fruit, fruit extract, glucose responses and digestive symptoms must remain distinct. The supplied abstracts do not report the required timing comparison.",
+      "citations": [
+        {
+          "source_id": "PMID:23746068",
+          "quote": "Consuming gold kiwifruit with iron-rich meals improves poor iron status, and green kiwifruit aids digestion and laxation."
+        },
+        {
+          "source_id": "PMID:24176228",
+          "quote": "In vivo, baobab extract was consumed in solution at both a low-dose (18.5 g) and a high-dose (37 g) aqueous drink in 250 mL of water along with white bread, and resulting GR, satiety, and postprandial energy expenditure were measured."
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "PMID:23746068": {
+      "text": "Kiwifruit are unequalled, compared with other commonly consumed fruit, for their nutrient density, health benefits, and consumer appeal. Research into their health benefits has focussed on the cultivars Actinidia deliciosa 'Hayward' (green kiwifruit) and Actinidia chinensis 'Hort 16A', ZESPRI(®) (gold kiwifruit). Compared with other commonly consumed fruit, both green and gold kiwifruit are exceptionally high in vitamins C, E, K, folate, carotenoids, potassium, fibre, and phytochemicals acting in synergy to achieve multiple health benefits. Kiwifruit, as part of a healthy diet, may increase high-density lipoprotein cholesterol, and decrease triglycerides, platelet aggregation, and elevated blood pressure. Consuming gold kiwifruit with iron-rich meals improves poor iron status, and green kiwifruit aids digestion and laxation. As a rich source of antioxidants, they may protect the body from endogenous oxidative damage. Kiwifruit may support immune function and reduce the incidence and severity of cold or flu-like illness in at-risk groups such as older adults and children. However, kiwifruit are allergenic, and although symptoms in most susceptible individuals are mild, severe reactions have been reported. While many research gaps remain, kiwifruit with their multiple health benefits have the potential to become part of our \"daily prescription for health.\"",
+      "text_sha256": "befa23deacc0bf913fadbfd3b06d76153ac773feb561f0f6e64f1a0d18f59f91"
+    },
+    "PMID:24176228": {
+      "text": "The baobab fruit (Adansonia digitata L.) is found throughout regions of Africa and is becoming increasingly recognized for its high nutrient and polyphenol content. Polyphenols have been beneficial for their effects on reducing the glycemic response (GR) and for improving various other metabolic parameters. Based on previous research, it was hypothesized that the baobab fruit extract would reduce starch digestion in vitro and would show potential for reducing the GR and for increasing satiety and diet-induced thermogenesis in humans. Six extracts of baobab from 6 different locations in Africa were measured for their antioxidant and polyphenol content using the ferric ion-reducing antioxidant power and the Folin-Ciocalteu methods, respectively. Baobab extract was baked into white bread at different doses to determine the optimal dose for reducing starch breakdown and sugar release from white bread after an in vitro digestion procedure. In vivo, baobab extract was consumed in solution at both a low-dose (18.5 g) and a high-dose (37 g) aqueous drink in 250 mL of water along with white bread, and resulting GR, satiety, and postprandial energy expenditure were measured. All extracts in this study were shown to be good sources of polyphenols. Baobab fruit extract added to white bread at 1.88 % significantly (P < .05) reduced rapidly digestible starch from white bread samples. In vivo, the baobab fruit extract at both low and high doses significantly (P < .05) reduced GR, although there was no significant effect on satiety or on energy expenditure.",
+      "text_sha256": "b79b183d7b3c87a68e58121d764937c538bfd530fccf9438619d5da03083e21f"
+    }
+  },
+  "summary": "The two appraised abstracts describe kiwifruit-related digestive benefits and baobab-extract experiments, but do not report a comparison of eating whole fruits before versus after meals on a defined human digestive outcome. This bounded assisted assessment cannot establish the timing recommendation or refute digestive benefits of particular fruits.",
+  "evidence_gaps": [
+    "Better digestion is not a defined endpoint; digestive symptoms, transit, nutrient absorption and postprandial glycemia cannot be substituted silently.",
+    "A human whole-fruit before-versus-after-meal comparison with a defined digestive endpoint is not reported in the appraised abstracts.",
+    "Fruit species, dose, population, timing interval, clinical importance and generalizability require specification.",
+    "Assisted appraisal of 2/70 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+  ],
+  "proposed_verdict": null,
+  "review": {
+    "decision": "accept",
+    "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+    "method": "assisted",
+    "claim_requirements_complete": true,
+    "assessment_sha256": "320d6582f8e558979af7804c789ebc96161fbb07d7d0bd377fb004910ffdcba0",
+    "unresolved_objections": []
+  }
+}

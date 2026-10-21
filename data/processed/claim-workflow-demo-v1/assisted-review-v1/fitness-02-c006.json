@@ -1,0 +1,55 @@
+{
+  "schema_version": "adjudication-ready-v1",
+  "workflow_status": "complete",
+  "claim": {
+    "claim_id": "fitness-02-c006",
+    "claim_text": "Maintain proper posture while sitting to prevent back pain."
+  },
+  "criteria": [
+    {
+      "criterion_id": "C1",
+      "wording": "Maintain proper posture while sitting to prevent back pain.",
+      "role": "core",
+      "conclusion": "insufficient_evidence",
+      "applicability": "indirect",
+      "evidence_strength": "limited",
+      "rationale": "The randomized trial enrolled 60 patients with existing nonspecific low back pain. Both arms performed core stability exercise; the multidimensional arm also received pain-principles and management training. Improved pain, disability and measured posture after this combined treatment do not isolate a preventive effect of sitting posture. The umbrella review includes 41 reviews and reports mixed temporal and dose-response evidence and no causal consensus. Association and lack of causal consensus neither prove posture-caused pain nor prove no posture effect. Proper posture is not operationalized in the claim, and prevention must be distinguished from treating current symptoms.",
+      "citations": [
+        {
+          "source_id": "PMID:34306274",
+          "quote": "The purpose of this study was to investigate the effects of multidimensional approach model on the pain, disability, and sitting posture in patients with nonspecific low back pain (LBP)."
+        },
+        {
+          "source_id": "PMID:31451200",
+          "quote": "Evidence that these factors precede first time LBP or have a dose response relationship with LBP outcomes was mixed."
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "PMID:34306274": {
+      "text": "The purpose of this study was to investigate the effects of multidimensional approach model on the pain, disability, and sitting posture in patients with nonspecific low back pain (LBP). Sixty LBP patients were recruited and were randomly divided into two groups: multidimensional treatment (MT) group (n = 30) and unimodal treatment (UT) group (n = 30). All participants underwent 48 sessions of treatment (40 min/session, two sessions per day, 2 days per week) for 12 weeks. The MT group conducted a core stability exercise twice a day and additionally provided training on pain principles and management methods. The UT group only performed a core stability exercise twice a day. The visual analog scale (VAS) and Oswestry Disability index (ODI) were used to measure pain intensity and disability. Thoracolumbar kyphosis and lumbar lordosis in the sitting position were measured using a motion capture system. After training, the pain and disability in the MT group improved significantly greater than the UT group (p < 0.05). In the MT group, the pain relief effect persisted 3 months after the end of training. Thoracolumbar kyphosis and lumbar lordosis in the MT group were significantly improved compared to the UT group (p < 0.05). Thus, MT combined with core stability exercise may be used to improve the pain, disability, and sitting posture in patients with LBP.",
+      "text_sha256": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3"
+    },
+    "PMID:31451200": {
+      "text": "Specific spinal postures and physical activities have been linked to low back pain (LBP) but previous reviews have produced contrasting outcomes. This umbrella review examined (1) what relationship, if any, is evident between specific spinal postures or physical activities and LBP; (2) the quality of existing systematic reviews in this area; and (3) the extent to which previous systematic reviews demonstrate causality. Five electronic databases and reference lists of relevant articles were searched from January 1990 to June 2018. Systematic reviews and meta-analyses on spine posture or physical exposure and LBP symptoms (self-report) or outcomes (e.g. work absence, medical consultation) were included. The AMSTAR and the Bradford Hill Criteria were utilised to critically appraise the quality of included systematic reviews and to determine the extent to which these reviews demonstrated causality. Two independent reviewers screened 4285 publications with 41 reviews included in the final review. Both positive and null associations between spine posture, prolonged standing, sitting, bending and twisting, awkward postures, whole body vibration, and components of heavy physical work were reported. Results from meta-analyses were more consistently in favour of an association, whereas systematic reviews that included only prospective studies were less able to provide consistent conclusions. Evidence that these factors precede first time LBP or have a dose response relationship with LBP outcomes was mixed. Despite the availability of many reviews, there is no consensus regarding causality of physical exposure to LBP. Association has been documented but does not provide a causal explanation for LBP.",
+      "text_sha256": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6"
+    }
+  },
+  "summary": "The two appraised abstracts concern treatment in people already experiencing low back pain and mixed review-level evidence about physical exposure and causality. They do not establish that an isolated, defined proper sitting posture prevents back-pain onset or recurrence. This bounded assisted assessment does not establish that posture is irrelevant or ineffective.",
+  "evidence_gaps": [
+    "Define the proposed sitting posture and intended prevention population, including whether onset or recurrence is the target.",
+    "An isolated sitting-posture intervention with incident or recurrent back-pain outcomes is not established by the appraised trial abstract.",
+    "Confounding, mixed interventions, review overlap, risk of bias, effect sizes and clinical importance require further appraisal.",
+    "Assisted appraisal of 2/77 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+  ],
+  "proposed_verdict": null,
+  "review": {
+    "decision": "accept",
+    "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+    "method": "assisted",
+    "claim_requirements_complete": true,
+    "assessment_sha256": "5bd83c9efde4a22cc552f7fd33aefb409e72d6565058df576501a7c4ef00069b",
+    "unresolved_objections": []
+  }
+}

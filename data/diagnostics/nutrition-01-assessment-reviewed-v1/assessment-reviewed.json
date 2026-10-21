@@ -1,0 +1,199 @@
+{
+  "schema_version": "adjudication-ready-v1",
+  "workflow_status": "complete",
+  "claim": {
+    "claim_id": "nutrition-01-diagnostic-c001",
+    "claim_text": "People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk."
+  },
+  "criteria": [
+    {
+      "criterion_id": "diet_body_fat",
+      "wording": "Switching to the exact foods and beverages described in the claim, including the stated exclusions, produces body-fat loss.",
+      "role": "core",
+      "conclusion": "insufficient_evidence",
+      "applicability": "indirect",
+      "evidence_strength": "limited",
+      "rationale": "The metabolic-ward study estimates fat loss under different, isocaloric dietary restrictions with daily exercise. The Paleo adherence analysis randomizes exercise conditions, not dietary adherence. The minimally processed-food trial reports weight change in its abstract. These do not establish the exact claimed dietary effect.",
+      "citations": [
+        {
+          "source_id": "PMID:26278052",
+          "quote": "Body fat loss was calculated as the difference between daily fat intake and net fat oxidation measured while residing in a metabolic chamber."
+        },
+        {
+          "source_id": "PMID:33802738",
+          "quote": "Participants were asked to follow a Paleolithic diet for 12 weeks and were randomized to supervised exercise or general exercise recommendations."
+        },
+        {
+          "source_id": "PMID:40760353",
+          "quote": "The primary outcome was the within-participant difference in percent weight change (%WC) between diets, from baseline to week 8."
+        },
+        {
+          "source_id": "PMID:26278052",
+          "quote": "Whereas carbohydrate restriction led to sustained increases in fat oxidation and loss of 53 ± 6 g/day of body fat, fat oxidation was unchanged by fat restriction, leading to 89 ± 6 g/day of fat loss, and was significantly greater than carbohydrate restriction (p = 0.002)."
+        },
+        {
+          "source_id": "PMID:33802738",
+          "quote": "A higher Paleo ratio was associated with lower fat mass, BMI, waist circumference, systolic blood pressure, and serum triglycerides at 12 weeks, but not with lower HbA1c levels."
+        }
+      ]
+    },
+    {
+      "criterion_id": "magnitude",
+      "wording": "The amount of body-fat loss is large, as expressed by \"a lot\".",
+      "role": "qualifier",
+      "conclusion": "insufficient_evidence",
+      "applicability": "indirect",
+      "evidence_strength": "limited",
+      "rationale": "The claim provides no quantitative threshold. A fat-mass percentage contrast at 12 months in a different dietary comparison cannot establish the size of fat loss under this exact diet. Do not convert this percentage contrast into kilograms or absolute fat loss.",
+      "citations": [
+        {
+          "source_id": "PMID:25178568",
+          "quote": "fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011)"
+        },
+        {
+          "source_id": "PMID:25178568",
+          "quote": "At 12 months, participants on the low-carbohydrate diet had greater decreases in weight (mean difference in change, -3.5 kg [95% CI, -5.6 to -1.4 kg]; P = 0.002), fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011)"
+        }
+      ]
+    },
+    {
+      "criterion_id": "timing",
+      "wording": "Body-fat loss occurs \"very quickly\".",
+      "role": "qualifier",
+      "conclusion": "insufficient_evidence",
+      "applicability": "indirect",
+      "evidence_strength": "limited",
+      "rationale": "The claim supplies no duration. A six-day metabolic-ward comparison and measurements up to 12 months describe different settings and diets. Do not invent a time cutoff or equate early weight change with rapid fat loss.",
+      "citations": [
+        {
+          "source_id": "PMID:26278052",
+          "quote": "We selectively restricted dietary carbohydrate versus fat for 6 days following a 5-day baseline diet in 19 adults with obesity confined to a metabolic ward where they exercised daily."
+        },
+        {
+          "source_id": "PMID:25178568",
+          "quote": "Data on weight, cardiovascular risk factors, and dietary composition were collected at 0, 3, 6, and 12 months."
+        }
+      ]
+    },
+    {
+      "criterion_id": "prior_diet_context",
+      "wording": "The effect applies to people previously eating a lot of processed foods and excess carbohydrates and fats together.",
+      "role": "qualifier",
+      "conclusion": "insufficient_evidence",
+      "applicability": "indirect",
+      "evidence_strength": "limited",
+      "rationale": "One trial includes high habitual UPF intake, but tests Eatwell-guided diets and reports weight change. Other evidence includes obesity or type 2 diabetes and different interventions. This provides partial contextual overlap without establishing the full exposure, outcome and prior-diet combination.",
+      "citations": [
+        {
+          "source_id": "PMID:40760353",
+          "quote": "habitual UPF intake ≥50% kcal day-1"
+        },
+        {
+          "source_id": "PMID:33802738",
+          "quote": "individuals with type 2 diabetes"
+        },
+        {
+          "source_id": "PMID:40760353",
+          "quote": "55 adults in England (body mass index ≥25 to <40 kg m-2, habitual UPF intake ≥50% kcal day-1) were provided with two 8-week ad libitum diets following the UK Eatwell Guide"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "PMID:25178568": {
+      "text": "BACKGROUND: Low-carbohydrate diets are popular for weight loss, but their cardiovascular effects have not been well-studied, particularly in diverse populations.\n\nOBJECTIVE: To examine the effects of a low-carbohydrate diet compared with a low-fat diet on body weight and cardiovascular risk factors.\n\nDESIGN: A randomized, parallel-group trial. (ClinicalTrials.gov: NCT00609271).\n\nSETTING: A large academic medical center.\n\nPARTICIPANTS: 148 men and women without clinical cardiovascular disease and diabetes.\n\nINTERVENTION: A low-carbohydrate (<40 g/d) or low-fat (<30% of daily energy intake from total fat [<7% saturated fat]) diet. Both groups received dietary counseling at regular intervals throughout the trial.\n\nMEASUREMENTS: Data on weight, cardiovascular risk factors, and dietary composition were collected at 0, 3, 6, and 12 months.\n\nRESULTS: Sixty participants (82%) in the low-fat group and 59 (79%) in the low-carbohydrate group completed the intervention. At 12 months, participants on the low-carbohydrate diet had greater decreases in weight (mean difference in change, -3.5 kg [95% CI, -5.6 to -1.4 kg]; P = 0.002), fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011), ratio of total-high-density lipoprotein (HDL) cholesterol (mean difference in change, -0.44 [CI, -0.71 to -0.16]; P = 0.002), and triglyceride level (mean difference in change, -0.16 mmol/L [-14.1 mg/dL] [CI, -0.31 to -0.01 mmol/L {-27.4 to -0.8 mg/dL}]; P = 0.038) and greater increases in HDL cholesterol level (mean difference in change, 0.18 mmol/L [7.0 mg/dL] [CI, 0.08 to 0.28 mmol/L {3.0 to 11.0 mg/dL}]; P < 0.001) than those on the low-fat diet.\n\nLIMITATION: Lack of clinical cardiovascular disease end points.\n\nCONCLUSION: The low-carbohydrate diet was more effective for weight loss and cardiovascular risk factor reduction than the low-fat diet. Restricting carbohydrate may be an option for persons seeking to lose weight and reduce cardiovascular risk factors.\n\nPRIMARY FUNDING SOURCE: National Institutes of Health.",
+      "text_sha256": "1ec6d10bee74eb93d2ee86d01b046f5c3ea536aff2c54d3647ae7c4918f2e421"
+    },
+    "PMID:26278052": {
+      "text": "Dietary carbohydrate restriction has been purported to cause endocrine adaptations that promote body fat loss more than dietary fat restriction. We selectively restricted dietary carbohydrate versus fat for 6 days following a 5-day baseline diet in 19 adults with obesity confined to a metabolic ward where they exercised daily. Subjects received both isocaloric diets in random order during each of two inpatient stays. Body fat loss was calculated as the difference between daily fat intake and net fat oxidation measured while residing in a metabolic chamber. Whereas carbohydrate restriction led to sustained increases in fat oxidation and loss of 53 ± 6 g/day of body fat, fat oxidation was unchanged by fat restriction, leading to 89 ± 6 g/day of fat loss, and was significantly greater than carbohydrate restriction (p = 0.002). Mathematical model simulations agreed with these data, but predicted that the body acts to minimize body fat differences with prolonged isocaloric diets varying in carbohydrate and fat.",
+      "text_sha256": "df0f93b2ea856cb79a6ece567e17e317f522585f863233ed72a56812f72b1075"
+    },
+    "PMID:28676132": {
+      "text": "OBJECTIVE: To review the available literature on the association between consumption of ultra-processed foods and body fat during childhood and adolescence.\n\nDESIGN: A systematic review was conducted in the PubMed, Web of Science and LILACS databases. Studies that evaluated the association between consumption of ultra-processed food (exposure) and body fat (outcome) during childhood and adolescence were eligible.\n\nSUBJECTS: Healthy children and adolescents.\n\nRESULTS: Twenty-six studies that evaluated groups of ultra-processed foods (such as snacks, fast foods, junk foods and convenience foods) or specific ultra-processed foods (soft drinks/sweetened beverages, sweets, chocolate and ready-to-eat cereals) were selected. Most of the studies (n 15) had a cohort design. Consumption was generally evaluated by means of FFQ or food records; and body composition, by means of double indirect methods (bioelectrical impedance analysis and skinfolds). Most of the studies that evaluated consumption of groups of ultra-processed foods and soft drinks/sweetened beverages found positive associations with body fat.\n\nCONCLUSIONS: Our review showed that most studies have found positive associations between consumption of ultra-processed food and body fat during childhood and adolescence. There is a need to use a standardized classification that considers the level of food processing to promote comparability between studies.",
+      "text_sha256": "aa057cb764f6dbd48054c44e545d73fb65fff01cf6028c509f10df85f4642daa"
+    },
+    "PMID:31105044": {
+      "text": "We investigated whether ultra-processed foods affect energy intake in 20 weight-stable adults, aged (mean ± SE) 31.2 ± 1.6 years and BMI = 27 ± 1.5 kg/m2. Subjects were admitted to the NIH Clinical Center and randomized to receive either ultra-processed or unprocessed diets for 2 weeks immediately followed by the alternate diet for 2 weeks. Meals were designed to be matched for presented calories, energy density, macronutrients, sugar, sodium, and fiber. Subjects were instructed to consume as much or as little as desired. Energy intake was greater during the ultra-processed diet (508 ± 106 kcal/day; p = 0.0001), with increased consumption of carbohydrate (280 ± 54 kcal/day; p < 0.0001) and fat (230 ± 53 kcal/day; p = 0.0004), but not protein (-2 ± 12 kcal/day; p = 0.85). Weight changes were highly correlated with energy intake (r = 0.8, p < 0.0001), with participants gaining 0.9 ± 0.3 kg (p = 0.009) during the ultra-processed diet and losing 0.9 ± 0.3 kg (p = 0.007) during the unprocessed diet. Limiting consumption of ultra-processed foods may be an effective strategy for obesity prevention and treatment.",
+      "text_sha256": "ac04e8d2cd5e4a260c4f974a39ed5728a09b43a5b620bc2b6152c3ec40683e65"
+    },
+    "PMID:32990607": {
+      "text": "BACKGROUND AND OBJECTIVES: To study the effects of a low-carbohydrate and high-fiber diet and education on patients with nonalcoholic fatty liver disease.\n\nMETHODS AND STUDY DESIGN: We randomly divided 44 patients with nonalcoholic fatty liver disease into two groups: low-carbohydrate and high-fiber diet and education (intervention group), and education alone (control group). Liver and kidney function, fasting plasma glucose, insulin resistance index, body composition, and controlled attenuation parameter were detected before and after the intervention.\n\nRESULTS: After 2 months, the body fat, body weight, abdominal circumference, and visceral fat area, fasting plasma glucose, insulin resistance index, and levels of serum alanine aminotransferase, aspartate transaminase, uric acid, and insulin of the intervention group were significantly lower than before (p<0.05). In the female intervention group, the insulin resistance index and levels of serum alanine aminotransferase, uric acid, triglyceride, fasting plasma glucose, and C-peptide were lower and the level of serum high-density lipoprotein cholesterol was higher than in the female control group (p<0.05). In the male intervention group, the levels of serum alanine aminotransferase, triglyceride, and fasting plasma glucose were lower and the level of serum high-density lipoprotein cholesterol was higher compared with the male control group (p<0.05).\n\nCONCLUSIONS: A low-carbohydrate and high-fiber diet and education can effectively reduce the body weight and body fat of patients with nonalcoholic fatty liver disease and improve metabolic indicators such as liver enzymes, blood glucose, blood lipid, and uric acid. Our female patients showed significantly better improvement in the indicators than our male patients.",
+      "text_sha256": "73a11ee516de3d72b20b95509f070e10138012b8031f94a3a92d5ab70bbfb7f2"
+    },
+    "PMID:33479499": {
+      "text": "The carbohydrate-insulin model of obesity posits that high-carbohydrate diets lead to excess insulin secretion, thereby promoting fat accumulation and increasing energy intake. Thus, low-carbohydrate diets are predicted to reduce ad libitum energy intake as compared to low-fat, high-carbohydrate diets. To test this hypothesis, 20 adults aged 29.9 ± 1.4 (mean ± s.e.m.) years with body mass index of 27.8 ± 1.3 kg m-2 were admitted as inpatients to the National Institutes of Health Clinical Center and randomized to consume ad libitum either a minimally processed, plant-based, low-fat diet (10.3% fat, 75.2% carbohydrate) with high glycemic load (85 g 1,000 kcal-1) or a minimally processed, animal-based, ketogenic, low-carbohydrate diet (75.8% fat, 10.0% carbohydrate) with low glycemic load (6 g 1,000 kcal-1) for 2 weeks followed immediately by the alternate diet for 2 weeks. One participant withdrew due to hypoglycemia during the low-carbohydrate diet. The primary outcomes compared mean daily ad libitum energy intake between each 2-week diet period as well as between the final week of each diet. We found that the low-fat diet led to 689 ± 73 kcal d-1 less energy intake than the low-carbohydrate diet over 2 weeks (P < 0.0001) and 544 ± 68 kcal d-1 less over the final week (P < 0.0001). Therefore, the predictions of the carbohydrate-insulin model were inconsistent with our observations. This study was registered on ClinicalTrials.gov as NCT03878108 .",
+      "text_sha256": "4b7d4c9300a0096f6b6642e5f8578dea39308d34a83e1de96b7362edac21a881"
+    },
+    "PMID:33802738": {
+      "text": "This study is a secondary analysis of a randomized controlled trial using Paleolithic diet and exercise in individuals with type 2 diabetes. We hypothesized that increased adherence to the Paleolithic diet was associated with greater effects on blood pressure, blood lipids and HbA1c independent of weight loss. Participants were asked to follow a Paleolithic diet for 12 weeks and were randomized to supervised exercise or general exercise recommendations. Four-day food records were analyzed, and food items characterized as \"Paleolithic\" or \"not Paleolithic\". Foods considered Paleolithic were lean meat, poultry, fish, seafood, fruits, nuts, berries, seeds, vegetables, and water to drink; \"not Paleolithic\" were legumes, cereals, sugar, salt, processed foods, and dairy products. A Paleo ratio was calculated by dividing the Paleolithic calorie intake by total calorie intake. A multiple regression model predicted the outcome at 12 weeks using the Paleo ratio, group affiliation, and outcome at baseline as predictors. The Paleo ratio increased from 28% at baseline to 94% after the intervention. A higher Paleo ratio was associated with lower fat mass, BMI, waist circumference, systolic blood pressure, and serum triglycerides at 12 weeks, but not with lower HbA1c levels. The Paleo ratio predicted triglyceride levels independent of weight loss (p = 0.046). Moreover, an increased monounsaturated/saturated fatty acids ratio and an increased polyunsaturated/saturated fatty acids ratio was associated with lower triglyceride levels independent of weight loss. (p = 0.017 and p = 0.019 respectively). We conclude that a higher degree of adherence to the Paleolithic diet recommendations improved fat quality and was associated with improved triglyceride levels independent of weight loss among individuals with type 2 diabetes.",
+      "text_sha256": "b00225db7b95bd6ce9dd58b612ee8a5e694b93f62867518d6870464fafeffca1"
+    },
+    "PMID:33916669": {
+      "text": "BACKGROUND: Diets have been a central component of lifestyle modification for decades. The Low-Carbohydrate Diet (LCD), originally conceived as a treatment strategy for intractable epilepsy (due to its association with ketogenesis), became popular in the 1970s and since then has risen to prominence as a weight loss strategy.\n\nOBJECTIVE: To explore the efficacy, limitations and potential safety concerns of the LCD.\n\nDATA SOURCES: We performed a narrative review, based on relevant articles written in English from a Pubmed search, using the terms 'low carbohydrate diet and metabolic health'.\n\nRESULTS: Evidence supports the efficacy of the LCD in the short-term (up to 6-months) for reduction in fat mass and remission of Type 2 Diabetes Mellitus (T2D). However, the longer-term efficacy of the LCD is disappointing, with diminishment of weight loss potential and metabolic benefits of the LCD beyond 6-months of its adoption. Furthermore, practical limitations of the LCD include the associated restriction of food choices that restrict the acceptability of the LCD for the individual, particularly over the longer term. There are also safety concerns of the LCD that stem from nutritional imbalances (with a relative excess of dietary fat and protein intake with associated dyslipidaemia and increased risk of insulin resistance and T2D development) and ketotic effects. Finally, the LCD often results in a reduction in dietary fibre intake, with potentially serious adverse consequences for overall health and the gut microbiota.\n\nCONCLUSIONS: Although widely adopted, the LCD usually has short-lived metabolic benefits, with limited efficacy and practicality over the longer term. Dietary modification needs tailoring to the individual, with careful a priori assessments of food preferences to ensure acceptability and adherence over the longer term, with avoidance of dietary imbalances and optimization of dietary fibre intake (primarily from plant-based fruit and vegetables), and with a posteriori assessments of the highly individual responses to the LCD. Finally, we need to change our view of diets from simply an excipient for weight loss to an essential component of a healthy lifestyle.",
+      "text_sha256": "7bb63db75f60467cf294621d0d7886a7d64f685ae235580df8c011316bbe585a"
+    },
+    "PMID:34515299": {
+      "text": "According to a commonly held view, the obesity pandemic is caused by overconsumption of modern, highly palatable, energy-dense processed foods, exacerbated by a sedentary lifestyle. However, obesity rates remain at historic highs, despite a persistent focus on eating less and moving more, as guided by the energy balance model (EBM). This public health failure may arise from a fundamental limitation of the EBM itself. Conceptualizing obesity as a disorder of energy balance restates a principle of physics without considering the biological mechanisms that promote weight gain. An alternative paradigm, the carbohydrate-insulin model (CIM), proposes a reversal of causal direction. According to the CIM, increasing fat deposition in the body-resulting from the hormonal responses to a high-glycemic-load diet-drives positive energy balance. The CIM provides a conceptual framework with testable hypotheses for how various modifiable factors influence energy balance and fat storage. Rigorous research is needed to compare the validity of these 2 models, which have substantially different implications for obesity management, and to generate new models that best encompass the evidence.",
+      "text_sha256": "6660bb5a2925464d29d272f659265cfb7f18221d0a60ad9a070f04aa54e5613c"
+    },
+    "PMID:35362512": {
+      "text": "This WHO-commissioned review contributed to the update of complementary feeding recommendations, synthesizing evidence on effects of unhealthy food and beverage consumption in children on overweight and obesity. We searched PubMed (Medline), Cochrane CENTRAL, and Embase for articles, irrespective of language or geography. Inclusion criteria were: 1) randomized controlled trials (RCTs), non-RCTs, cohort studies, and pre/post studies with control; 2) participants aged ≤10.9 y at exposure; 3) studies reporting greater consumption of unhealthy foods/beverages compared with no or low consumption; 4) studies assessing anthropometric and/or body composition; and 5) publication date ≥1971. Unhealthy foods and beverages were defined using nutrient- and food-based approaches. Risk of bias was assessed using the ROBINS-I (risk of bias in nonrandomized studies of interventions version I) and RoB2 [Cochrane RoB (version 2)] tools for nonrandomized and randomized studies, respectively. Narrative synthesis was complemented by meta-analyses where appropriate. Certainty of evidence was assessed using Grading of Recommendations Assessment, Development, and Evaluation. Of 26,542 identified citations, 60 studies from 71 articles were included. Most studies were observational (59/60), and no included studies were from low-income countries. The evidence base was low quality, as assessed by ROBINS-I and RoB2 tools. Evidence synthesis was limited by the different interventions and comparators across studies. Evidence indicated that consumption of sugar-sweetened beverages (SSBs) and unhealthy foods in childhood may increase BMI/BMI z-score, percentage body fat, or odds of overweight/obesity (low certainty of evidence). Artificially sweetened beverages and 100% fruit juice consumption make little/no difference to BMI, percentage body fat, or overweight/obesity outcomes (low certainty of evidence). Meta-analyses of a subset of studies indicated a positive association between SSB intake and percentage body fat, but no association with change in BMI and BMI z-score. High-quality epidemiological studies that are designed to assess the effects of unhealthy food consumption during childhood on risk of overweight/obesity are needed to contribute to a more robust evidence base upon which to design policy recommendations. This protocol was registered at https://www.crd.york.ac.uk/PROSPERO as CRD42020218109.",
+      "text_sha256": "4853b63d6a470e0d37b6c9107f56342f4190c73412b89c622272e3c3d16df57e"
+    },
+    "PMID:36313106": {
+      "text": "OBJECTIVE: To investigate the association between ultra-processed food consumption at 23-25 years of age and measurements of body composition-fat mass, fat mass distribution and lean mass at 37-39 years of age in Brazilian adults.\n\nMETHODS: 1978/1979 birth cohort study conducted with healthy adults from Ribeirão Preto, São Paulo, Brazil. A total of 1,021 individuals participated in the fat mass analysis (measured by air displacement plethysmography) and 815 in the lean mass analysis and fat mass distribution (assessed by dual energy X-ray absorptiometry). Food consumption was evaluated by a food frequency questionnaire. Food items were grouped according to the level of processing as per the NOVA classification. Ultra-processed food consumption was expressed as a percentage of total daily intake (g/day). Linear regression models were used to estimate the effect of ultra-processed food consumption (g/day) on body mass index, body fat percentage, fat mass index, android fat, gynoid fat, android-gynoid fat ratio, lean mass percentage, lean mass index and appendicular lean mass index. Marginal plots were produced to visualize interactions.\n\nRESULTS: The mean daily ultra-processed food consumption in grams was 35.8% (813.3 g). There was an association between ultra-processed food consumption and increase in body mass index, body fat percentage, fat mass index, android fat and gynoid fat and decrease in lean mass percentage, only in women.\n\nCONCLUSION: A high ultra-processed food consumption is associated with a long-term increase in fat mass and a decrease in lean mass in adult women.",
+      "text_sha256": "a7bd4d5a08f11b232f3e0893bea7de9712edae7db77756b15edae41de6e8ba2c"
+    },
+    "PMID:37296485": {
+      "text": "Obesity is a chronic disease resulting from multifactorial causes mainly related to lifestyle (sedentary lifestyle, inadequate eating habits) and to other conditions such as genetic, hereditary, psychological, cultural, and ethnic factors. The weight loss process is slow and complex, and involves lifestyle changes with an emphasis on nutritional therapy, physical activity practice, psychological interventions, and pharmacological or surgical treatment. Because the management of obesity is a long-term process, it is essential that the nutritional treatment contributes to the maintenance of the individual's global health. The main diet-related causes associated with excess weight are the high consumption of ultraprocessed foods, which are high in fats, sugars, and have high energy density; increased portion sizes; and low intake of fruits, vegetables, and grains. In addition, some situations negatively interfere with the weight loss process, such as fad diets that involve the belief in superfoods, the use of teas and phytotherapics, or even the avoidance of certain food groups, as has currently been the case for foods that are sources of carbohydrates. Individuals with obesity are often exposed to fad diets and, on a recurring basis, adhere to proposals with promises of quick solutions, which are not supported by the scientific literature. The adoption of a dietary pattern combining foods such as grains, lean meats, low-fat dairy, fruits, and vegetables, associated with an energy deficit, is the nutritional treatment recommended by the main international guidelines. Moreover, an emphasis on behavioral aspects including motivational interviewing and the encouragement for the individual to develop skills will contribute to achieve and maintain a healthy weight. Therefore, this Position Statement was prepared based on the analysis of the main randomized controlled studies and meta-analyses that tested different nutrition interventions for weight loss. Topics in the frontier of knowledge such as gut microbiota, inflammation, and nutritional genomics, as well as the processes involved in weight regain, were included in this document. This Position Statement was prepared by the Nutrition Department of the Brazilian Association for the Study of Obesity and Metabolic Syndrome (ABESO), with the collaboration of dietitians from research and clinical fields with an emphasis on strategies for weight loss.",
+      "text_sha256": "8da821853214ba670076aafffa3b0a03c06e437af9a1470d32497d8d7bf0e919"
+    },
+    "PMID:37535715": {
+      "text": "Genetics, ultraprocessed foods, portion distortion, sweetened beverages, screen time, food addiction, intestinal microbiota, diet culture, weight stigma, food insecurity-all have been implicated in the \"obesity epidemic.\" More than a billion people worldwide have obesity, and many more are overweight. With the emergence of new, highly effective weight-loss drugs, might the \"fat decades\" become a closed chapter in the history of public health?",
+      "text_sha256": "4c6948d01dedaa6450484e7b6add2dda933a67e88f66177190032548fc95b301"
+    },
+    "PMID:40760353": {
+      "text": "Ultraprocessed food (UPF) consumption is associated with noncommunicable disease risk, yet no trial has assessed its health impact within the context of national dietary guidelines. In a 2 × 2 crossover randomized controlled feeding trial, 55 adults in England (body mass index ≥25 to <40 kg m-2, habitual UPF intake ≥50% kcal day-1) were provided with two 8-week ad libitum diets following the UK Eatwell Guide: (1) minimally processed food (MPF) and (2) UPF, in a random order. Twenty-eight people were randomized to MPF then UPF, and 27 to UPF then MPF; 50 participants comprised the intention-to-treat sample. The primary outcome was the within-participant difference in percent weight change (%WC) between diets, from baseline to week 8. Participants were blinded to the primary outcome. MPF (%WC, -2.06 (95% confidence interval (CI), -2.99, -1.13) and UPF (%WC, -1.05 (95% CI, -1.98, -0.13)) resulted in weight loss, with significantly greater %WC on MPF (Δ%WC, -1.01 (95% CI, -1.87, -0.14), P = 0.024; Cohen's d, -0.48 (95% CI, -0.91, -0.06)). Mild gastrointestinal adverse events were common on both diets. Findings indicate greater weight loss on MPF than UPF diets and needing dietary guidance on food processing in addition to existing recommendations. Clinicaltrials.gov registration: NCT05627570 .",
+      "text_sha256": "400fed3501f485f830425687e3c7bc6c9e1f18635394530f813841f6b888f424"
+    },
+    "PMID:40933253": {
+      "text": "A Palaeolithic diet is an efficacious dietary approach for glycaemic control in type 2 diabetes. Causal mechanisms are body weight loss and glucometabolic effects from differences in included food groups, macronutrient composition, fibre content, and glycaemic load. The aim was to test the hypothesis that characteristic food group differences between a Palaeolithic and a diabetes diet would cause an effect on glycaemic control when weight was kept stable and diets were matched for macronutrient composition, fibre content and glycaemic load. Adult participants with type 2 diabetes and increased waist circumference were instructed to follow two diets, with or without the food groups cereal grain, dairy products, and legumes, during two periods of 4 weeks separated by a 6-week washout period in a random-order crossover design. The Palaeolithic diet included fruit, vegetables, tubers, fish, shellfish, lean meat, nuts, eggs and olive oil, and excluded cereal grains, dairy products and legumes. The diabetes diet included fruit, vegetables, fish, shellfish, lean meat, nuts, eggs, olive oil, and substantial amounts of whole grains, low-fat dairy products and legumes. Dietary energy content was adjusted throughout the study to maintain stable body weight. There were no differences between diets on HbA1c or fructosamine among the 14 participants. Body weight was kept stable, and the two diets were successfully matched for macronutrient composition and glycaemic load but not for fibre content. Characteristic food group differences and the accompanying differences in fibre content between a Palaeolithic and a diabetes diet do not cause an effect on glycaemic control.",
+      "text_sha256": "b0d6b68af1db062d91e6f2e81d8d30ef7723b47cce6486b82ee9ab4bdaf3b979"
+    },
+    "PMID:41628734": {
+      "text": "Cancer is a complex group of diseases characterized by the uncontrolled growth and spread of abnormal cells, and it remains a major global health concern. In order to meet the increased energy and biosynthetic requirements of rapid growth, cancer cells undergo metabolic reprogramming. In this setting, nutrition exerts a crucial influence on nutrients availability and increasing evidence highlights the significant role of nutrition in the prevention, development, and management of cancer. Dietary patterns and nutrient intake can influence cancer risk through various biological mechanisms, including inflammation, oxidative stress, immune modulation, and hormonal regulation. Diets high in processed foods, red meats, saturated fats and added sugars, have been associated with an increased risk of several cancers. Such diets may contribute to chronic inflammation, insulin resistance, and obesity-conditions known as major risk factors for cancer. Obesity itself is considered a significant contributor to cancer incidence and mortality, linking excess body fat to hormonal imbalances and altered metabolic pathways. Conversely, balanced diets rich in fruits, vegetables, whole grains, legumes, healthy fats and low refined carbohydrates, provide essential vitamins, minerals, fiber, and phytochemicals that have protective properties. These components can help the scavenging of free radicals, reduce DNA damage, and regulate cell growth, potentially lowering the risk of developing certain types of cancer. Nutritional needs in patients with cancer become complex, because of changes in metabolism and tolerance, frequently associated with cancer progression and treatment. Personalized nutritional support can help maintain body weight, preserve muscle mass, and improve treatment tolerance, potentially enhancing overall performance status and survival. While nutrition is not a cure for cancer, it is an essential component of an integrative approach to prevention and care. Further research is necessary to explore how diet can be optimized to support long-term health, reduce recurrence, and improve outcomes in cancer.",
+      "text_sha256": "835e7bea1888baf231b1dc62971adcefa49551ad4af8a97d8cc980bbc20df785"
+    },
+    "PMID:42502137": {
+      "text": "Non-pharmacological treatment of metabolic dysfunction-associated steatotic liver disease (MASLD) aims at modifying lifestyle patterns that promote metabolic dysfunction and hepatic fat accumulation. These include unhealthy dietary habits, which are characterised by excess energy intake and a qualitatively poor diet that is high in ultra-processed food, saturated fat, free sugar, red and processed meat and/or sweetened beverages, and low in fibre. In addition, sedentary habits, and sleep and circadian rhythm disruption have been identified as detrimental lifestyle factors. Lifestyle interventions act upstream of the main pathophysiological mechanisms driving MASLD and, therefore, provide benefits that extend beyond the liver, also improving cardiometabolic health. Weight loss remains the cornerstone of non-pharmacological strategies, and even modest weight loss has been proven beneficial in individuals with MASLD with or without obesity. To achieve weight loss, energy restriction should be combined with physical activity/exercise, since the effects of the latter are partly independent of weight reduction. Importantly, exercise is associated with a dose-dependent reduction in the risk of hepatic steatosis, fibrosis and hepatocellular carcinoma. Despite lifestyle changes proving highly effective for improving MASLD, their implementation is challenging and requires multidisciplinary efforts. Adherence is suboptimal, particularly in the long term, and the variability in individual response calls for research on biomarkers to achieve a more personalised approach. This review provides an overview of evidence of the impact of lifestyle changes/non-pharmacological interventions on MASLD.",
+      "text_sha256": "2be08c92e9e05bdc8cb44ab4cf2ef28584f8cd753214d0d9b9eec6d47b98cb6d"
+    }
+  },
+  "summary": "Within the reviewed 17-abstract development pool, related studies report body-fat changes, weight changes or dietary associations, but the evidence does not establish or refute the exact restricted-food claim and its large, rapid fat-loss wording. Weight change is not equivalent to fat loss; adherence associations are not randomized dietary effects. Guidance does not experimentally refute this dietary package. Magnitude and timing remain unspecified. This completed assisted assessment is limited to the supplied abstracts and is not an exhaustive or independently validated verification of the claim.",
+  "evidence_gaps": [
+    "The magnitude and duration of \"a lot\" and \"very quickly\" are unspecified; no thresholds were invented.",
+    "No direct test of the complete restricted-food and beverage claim was identified in the reviewed 17 abstracts. This is not proof that no such study exists.",
+    "Only the pooled top-10 candidates from two rankings were reviewed, not every retrieved article or the whole literature; this is not an exhaustive systematic review.",
+    "Full texts, risk of bias, study overlap and applicability have not been independently assessed.",
+    "Linked corrections 31269427 and 33027677 for 31105044, and 36183244 for 35362512, remain unchecked. No numerical effects from those sources are used in these criteria.",
+    "This assessment and its source-role judgments are assistant-assisted development work, not independent expert validation."
+  ],
+  "proposed_verdict": null,
+  "review": {
+    "decision": "accept",
+    "reviewer": "ChatGPT second-pass assisted review; same assistant, not independent expert review",
+    "method": "assisted",
+    "claim_requirements_complete": true,
+    "assessment_sha256": "7afbc1fcaa71f74d820c4121b66eeb2e7de66bac21fd6339c8ad8fff2108de94",
+    "unresolved_objections": [
+      {
+        "severity": "minor",
+        "problem": "Abstract-only scope: full texts, risk of bias, linked corrections and underlying synthesis evidence remain unverified. These limits are retained; no numerical effects from the flagged correction-linked papers are used."
+      },
+      {
+        "severity": "minor",
+        "problem": "The claim leaves magnitude and timing unspecified. No thresholds are inferred; the assessment supports neither affirmation nor refutation of those qualifiers."
+      }
+    ]
+  }
+}

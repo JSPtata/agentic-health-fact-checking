@@ -1,77 +1,12 @@
-# Agentic Health Fact-Checking Pipeline
+# Agentic Health Claim Fact-Checking
 
-This project analyzes short health videos to identify individual health claims,
-compare them with reliable evidence, and produce a clear verdict.
+A research prototype for checking individual health claims in short videos, with persistent state, bounded attempts, source provenance, critical review and rule-based adjudication.
 
-## Problem and goal
+The completed demonstration follows **reviewed evidence -> LangGraph adjudication -> per-claim report**. Assessments include assisted review. Automatic verification of unseen videos and independent scientific accuracy remain research work.
 
-Given a short-form health or nutrition video, the eventual system should
-extract spoken content, split it into atomic claims, retrieve reliable evidence,
-verify each claim, and classify it as supported, refuted, misleading, or
-insufficient evidence.
+- [Results, architecture, evaluation and limitations](PROJECT_STATUS.md)
+- [Reproduce the reviewed demonstration](QUICK_START.md)
+- [Final claim report](data/processed/reviewed-release-v1/final-report.md)
+- [Machine-readable results](data/processed/reviewed-release-v1/final-report.json)
 
-## Pipeline
-
-```text
-Video
-  ↓
-Audio
-  ↓
-Transcript
-  ↓
-Health Claims
-  ↓
-Evidence
-  ↓
-Verification
-  ↓
-Final Verdict
-```
-
-Current status:
-
-- ✅ Audio extraction and speech-to-text
-- 🟡 Video collection
-- 🟡 OCR/keyframe processing
-- ❌ Claim extraction implementation
-- ❌ Evidence retrieval/source validation
-- ❌ Verification, adjudication, and final verdict generation
-- 🟡 Evaluation (unit tests only)
-
-## Structure
-
-- `data/raw/videos/`: downloaded videos and original yt-dlp metadata
-- `data/processed/audio/`: extracted WAV audio
-- `data/processed/transcripts/`: typed transcript JSON
-- `data/claims/`, `data/evidence/`, `data/results/`: planned output locations
-- `src/health_pipeline/`: reusable typed pipeline code
-- `scripts/`: collection and preprocessing commands
-- `tests/`: unit tests
-- `docs/`: architecture and development notes
-
-See [PROJECT_STATUS.md](PROJECT_STATUS.md) and [QUICK_START.md](QUICK_START.md).
-
-## Install and run
-
-```powershell
-.\venv\Scripts\Activate.ps1
-python -m pip install -e ".[dev,preprocessing]"
-python scripts/collect_videos.py --search
-python scripts/collect_videos.py --download
-python scripts/process_videos.py --model tiny
-pytest -q
-```
-
-The currently runnable stages are collection, audio extraction, and
-transcription. Claim extraction, evidence retrieval, verification, and
-evaluation commands do not exist yet.
-
-## Dataset and limitations
-
-The manifest contains 25 candidate records: 4 downloaded videos and 21 failed
-downloads. Three transcripts have been generated; one video was skipped because
-it has no audio. There are currently zero claim, evidence, and verdict files.
-Downloaded content requires license and health-claim review before research use.
-
-Team members and the original research objectives are documented in the
-repository history and project documentation.
+Each claim receives its own result. Underspecified claims can abstain without a medical verdict. Insufficient evidence is scoped to the appraised sources and does not mean false. Software checks and review acceptance do not establish clinical correctness.

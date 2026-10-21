@@ -14,30 +14,56 @@ from sklearn.metrics.pairwise import cosine_similarity #type:ignore
 
 import spacy #type:ignore
 
-client = genai.Client(
-    api_key=os.environ["GEMINI_API_KEY"],
-    http_options=types.HttpOptions(
-        retry_options=types.HttpRetryOptions(
-            attempts=3,
-            initial_delay=2,
-            max_delay=10,
-            exp_base=2,
-            jitter=1
+Entrez.email=os.environ.get("NCBI_EMAIL")
+
+_client=None
+_embedding_model=None
+_nlp=None
+
+def get_query_client():
+    global _client
+    
+    if _client is None:
+        _client=genai.Client(
+            api_key=os.environ["GEMINI_API_KEY"],
+            http_options=types.HttpOptions(
+                retry_options=types.HttpRetryOptions(
+                    attempts=3,
+                    initial_delay=2,
+                    max_delay=10,
+                    exp_base=2,
+                    jitter=1
+                )
+            )
         )
-    )
-)
+    
+    return _client
 
-model=SentenceTransformer(
-    "pritamdeka/S-PubMedBert-MS-MARCO"
-)
 
-Entrez.email = "tatajspranathi@gmail.com"
+def get_embedding_model():
+    global _embedding_model
+    
+    if _embedding_model is None:
+        _embedding_model=SentenceTransformer(
+            "pritamdeka/S-PubMedBert-MS-MARCO"
+        )
+        
+    return _embedding_model
 
-nlp = spacy.load("en_core_web_sm")
-
+def get_nlp():
+    global _nlp
+    
+    if _nlp is None:
+        _nlp=spacy.load("en_core_web_sm")
+        
+    return _nlp
+    
 
 def extract_concepts(claim):
+    nlp=get_nlp()
+    
     doc=nlp(claim)
+    
 
     concepts=[]
 
@@ -91,6 +117,8 @@ def generate_queries_with_gemini(claim):
     "screen exposure AND sleep duration"
     ]
     """
+    
+    client=get_query_client()
 
     response = client.models.generate_content(
         model="gemini-3.8-flash",
@@ -124,7 +152,12 @@ def search_pubmed(query):
         "retmode":"json"
     }
 
-    response=requests.get(url,params=params)
+    response=requests.get(
+        url,
+        params=params,
+        timeout=30
+    )
+    response.raise_for_status()
 
     data = response.json()
 
@@ -132,24 +165,43 @@ def search_pubmed(query):
 
 
 def fetch_article_details(pmid):
-    handle=efetch(
-        db='pubmed',
-        id=pmid,
-        retmode='xml'
-    )
-
-    record=read(handle)
-    handle.close()
-
-    try:
-        article=record["PubmedArticle"][0]["MedlineCitation"]["Article"]
-        abstract=article['Abstract']['AbstractText'][0]
-        return {
-            "title":article["ArticleTitle"],
-            "abstract":abstract
-        }
-    except (KeyError, IndexError):
+    with efetch(
+        db="pubmed",
+        id=str(pmid),
+        retmode="xml",
+    )as handle:
+        record=read(handle)
+        
+    records=record.get("PubmedArticle",[])
+    if not records:
         return None
+    
+    article=records[0]["MedlineCitation"]["Article"]
+    
+    sections=[]
+    
+    for section in article.get("Abstract",{}).get("AbstractText",[]):
+        attributes=getattr(section,"attributes",{})
+        
+        sections.append({
+            "label":attributes.get("Label"),
+            "category":attributes.get("NlmCategory"),
+            "text":str(section)
+        })
+        
+    abstract="\n\n".join(
+        f"{section['label']}: {section['text']}"
+        if section["label"]
+        else section["text"]
+        for section in sections
+    )
+    
+    return {
+        "title": str(article.get("ArticleTitle", "")),
+        "abstract": abstract,
+        "abstract_sections": sections,
+        "abstract_available": bool(sections)
+    }
 
 
 def retrieve_candidates(query_variants):
@@ -187,6 +239,8 @@ def fetch_all_articles(pmids):
 def rerank_articles(claim, articles):
     if not articles:
         return []
+        
+    model=get_embedding_model()
 
     article_texts=[]
 

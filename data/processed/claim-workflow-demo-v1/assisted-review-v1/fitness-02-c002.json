@@ -1,0 +1,55 @@
+{
+  "schema_version": "adjudication-ready-v1",
+  "workflow_status": "complete",
+  "claim": {
+    "claim_id": "fitness-02-c002",
+    "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity."
+  },
+  "criteria": [
+    {
+      "criterion_id": "C1",
+      "wording": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+      "role": "core",
+      "conclusion": "insufficient_evidence",
+      "applicability": "indirect",
+      "evidence_strength": "limited",
+      "rationale": "The review explicitly reports gastric acid secretion, so the original model's suggestion that the studies contain no acidity-related evidence is too broad. Its physiological findings do not establish the claimed preventive advice about fasting. The primary study compares habitual coffee drinkers before and after 48-hour abstinence, with a separate non-drinker group; the abstract does not report randomization or a fasting-versus-fed comparison. Sucrose permeability is a mucosal-barrier surrogate, not the claimed acidity-prevention endpoint. Acidity remains ambiguous among acid secretion, reflux, heartburn and dyspepsia. No benefit or harm of changing coffee meal timing is established by these abstracts.",
+      "citations": [
+        {
+          "source_id": "PMID:10499460",
+          "quote": "Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+        },
+        {
+          "source_id": "PMID:15841908",
+          "quote": "The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence."
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "PMID:10499460": {
+      "text": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\nMETHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\nRESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking. It is demonstrated that coffee promotes gastro-oesophageal reflux. Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results. Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit. Coffee induces cholecystokinin release and gallbladder contraction, which may explain why patients with symptomatic gallstones often avoid drinking coffee. Coffee increases rectosigmoid motor activity within 4 min after ingestion in some people. Its effects on the colon are found to be comparable to those of a 1000 kCal meal. Since coffee contains no calories, and its effects on the gastrointestinal tract cannot be ascribed to its volume load, acidity or osmolality, it must have pharmacological effects. Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia. Coffee stimulates gallbladder contraction and colonic motor activity.",
+      "text_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5"
+    },
+    "PMID:15841908": {
+      "text": "BACKGROUND: Even though coffee is not considered to be responsible for development of peptic ulcer, it may, however, prolong its healing by increasing acidity of gastric content. In our former work we observed a profound increase in sucrose permeability (above normal values) in healthy volunteers regularly drinking coffee for years. In literature, many factors affecting sucrose permeability have been described so far. None of them, however, studied the effect of coffee.\n\nSUBJECTS, MATERIALS AND METHODS: 10 young asymptomatic habitual coffee drinkers were included in the study. The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence. The ingested SaLM solution comprised sucrose (25.0 g), lactulose (10.0 g), mannitol (2.0 g), xylose (2.0 g) and water (up to 100 ml). Urine was collected for five hours and the samples were analysed using gas chromatography. Results were compared with those of 8 young healthy volunteers not drinking coffee. Permeability for sucrose was significantly higher in the group of habitual coffee drinkers in comparison with non-coffee drinkers (p < 0.01). After 48-hour coffee abstinence sucrose excretion decreased significantly (p < 0.05) to a level not differing from that of non-coffee drinkers (p = 0.54).\n\nCONCLUSIONS: Our results indicate that coffee may damage gastroduodenal mucosa in habitual coffee drinkers. In a time period of 48 hours the gastroduodenal mucosa is capable of a significant regeneration.",
+      "text_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9"
+    }
+  },
+  "summary": "In the two appraised abstracts, a review reports coffee-related gastric acid secretion and reflux, while a small before-and-after study measures sucrose permeability. Neither abstract establishes that avoiding coffee specifically on an empty stomach prevents a defined acid-related clinical outcome. This is an assisted, abstract-only assessment of a bounded selection, not a finding that coffee has no physiological effects or that the claim is false.",
+  "evidence_gaps": [
+    "Define the intended acidity endpoint without treating acid secretion, reflux, heartburn and dyspepsia as interchangeable.",
+    "A controlled comparison of fasting coffee with an appropriate alternative, measuring the intended preventive outcome, is not reported in the appraised abstracts.",
+    "Contemporary evidence, population applicability, dose and coffee preparation, clinical importance, and study-level risk of bias have not been systematically assessed.",
+    "Assisted appraisal of 2/3 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+  ],
+  "proposed_verdict": null,
+  "review": {
+    "decision": "accept",
+    "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+    "method": "assisted",
+    "claim_requirements_complete": true,
+    "assessment_sha256": "e9a348106825a8c4381168160eb6687b3d9259c28c60e2c14767ca06209304cf",
+    "unresolved_objections": []
+  }
+}
