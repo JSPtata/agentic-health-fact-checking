@@ -1,0 +1,7 @@
+BACKGROUND: Recent research has discussed the use of low-frequency electrical stimulation to increase blood flow by eliciting muscular contraction in soft tissues. This randomized clinical trial examined the efficacy of low-frequency electrical stimulation combined with stretching exercises and foot orthoses in individuals diagnosed as having plantar fasciitis for less than 6 months.
+
+METHODS: Twenty-six participants aged 18 to 65 years diagnosed as having plantar fasciitis were randomly assigned to two treatment groups: a control group receiving only stretching and orthoses and a treatment group receiving low-frequency electrical stimulation in addition to stretching and orthoses. To assess treatment response, a visual analog scale was used to determine first-step morning pain, and changes in daily activity levels were monitored by using a validated outcome measure. All of the participants were assessed before starting treatment, after 4 weeks of treatment, and 3 months after the conclusion of treatment.
+
+RESULTS: Participants in the control and experimental groups demonstrated pain reduction and improvements in functional activity levels after 4 weeks and 3 months.
+
+CONCLUSIONS: Regardless of whether low-frequency electrical stimulation was used as an intervention, the use of plantar fascia-specific stretching and prefabricated foot orthoses provided short-term (3-month) pain relief and improvement in functional activity levels.

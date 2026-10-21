@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T19:10:18.064335Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"Saa096fef81f1c81a\",\n  \"study_or_document_type\": \"pubmed_abstract\",\n  \"population_and_intervention\": \"30 type 2 diabetic male patients (15 smokers vs. 15 non-smokers) and 15 normal non-smoking subjects\",\n  \"measured_outcome_or_recommendation\": \"cutaneous blood flow measured by LDF at supine position after muscle stretching\",\n  \"finding\": \"Diabetic non-smokers had higher reactive blood flow than diabetic smokers\",\n  \"relation\": \"support\",\n  \"limitations\": [\n    \"No comparison to non-diabetic non-smokers in PSRH duration\",\n    \"No mention of stretching duration or intensity\",\n    \"No long-term follow-up data\"\n  ],\n  \"quote_ids\": [\n    \"Q5\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 28880306125,
+  "load_duration": 43723250,
+  "prompt_eval_count": 761,
+  "prompt_eval_cached_count": 3,
+  "prompt_eval_duration": 8390072000,
+  "eval_count": 193,
+  "eval_duration": 20290505000
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "assessment-review-v1",
+  "claim_id": "nutrition-01-diagnostic-c001",
+  "draft_assessment_sha256": "97886da93f33d491b9a831e9b32124df2f6ca0f1e76bd78ad52b5858be3deb91",
+  "decision": "accept",
+  "reviewer": "ChatGPT second-pass assisted review; same assistant, not independent expert review",
+  "method": "assisted",
+  "scope": "Acceptance of a conservative abstract-level assessment of the frozen 17-source development pool. This does not approve autonomous verifier performance, exhaustive retrieval, a causal refutation or an expert-validated conclusion.",
+  "independently_reviewed": false,
+  "expert_validated": false,
+  "claim_requirements_complete": true,
+  "summary": "Within the reviewed 17-abstract development pool, related studies report body-fat changes, weight changes or dietary associations, but the evidence does not establish or refute the exact restricted-food claim and its large, rapid fat-loss wording. Weight change is not equivalent to fat loss; adherence associations are not randomized dietary effects. Guidance does not experimentally refute this dietary package. Magnitude and timing remain unspecified. This completed assisted assessment is limited to the supplied abstracts and is not an exhaustive or independently validated verification of the claim.",
+  "criterion_reviews": [
+    {
+      "criterion_id": "diet_body_fat",
+      "rationale": "The exact dietary package and body-fat endpoint are preserved. The ward study reports calculated fat loss under a different isocaloric macrorestriction comparison, so it is not interchangeable with the video diet. The Paleo result is an adherence association within exercise-randomized groups, not a randomized dietary effect. The UPF trial abstract reports weight change. Added quotations expose the actual fat-loss and association findings instead of relying only on methods.",
+      "additional_citations": [
+        {
+          "source_id": "PMID:26278052",
+          "quote": "Whereas carbohydrate restriction led to sustained increases in fat oxidation and loss of 53 ± 6 g/day of body fat, fat oxidation was unchanged by fat restriction, leading to 89 ± 6 g/day of fat loss, and was significantly greater than carbohydrate restriction (p = 0.002)."
+        },
+        {
+          "source_id": "PMID:33802738",
+          "quote": "A higher Paleo ratio was associated with lower fat mass, BMI, waist circumference, systolic blood pressure, and serum triglycerides at 12 weeks, but not with lower HbA1c levels."
+        }
+      ]
+    },
+    {
+      "criterion_id": "magnitude",
+      "rationale": "The fat-mass contrast is a percentage measure at 12 months between different diet groups. It is not kilograms or absolute fat loss. No threshold for \"a lot\" is supplied by the claim; insufficient evidence retains that ambiguity without declaring a refutation.",
+      "additional_citations": [
+        {
+          "source_id": "PMID:25178568",
+          "quote": "At 12 months, participants on the low-carbohydrate diet had greater decreases in weight (mean difference in change, -3.5 kg [95% CI, -5.6 to -1.4 kg]; P = 0.002), fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011)"
+        }
+      ]
+    },
+    {
+      "criterion_id": "timing",
+      "rationale": "The cited six-day and up-to-12-month intervals are real study durations, not a definition of \"very quickly\". The claim does not specify a cutoff, and weight change is not substituted for fat change. The limited indirect conclusion is retained.",
+      "additional_citations": []
+    },
+    {
+      "criterion_id": "prior_diet_context",
+      "rationale": "High habitual UPF intake is partial contextual overlap in the Eatwell-guided trial, but its abstract endpoint is weight. Other populations and diets differ. The draft does not generalize a diabetes association to the whole stated population or claim every individual responds identically.",
+      "additional_citations": [
+        {
+          "source_id": "PMID:40760353",
+          "quote": "55 adults in England (body mass index ≥25 to <40 kg m-2, habitual UPF intake ≥50% kcal day-1) were provided with two 8-week ad libitum diets following the UK Eatwell Guide"
+        }
+      ]
+    }
+  ],
+  "resolved_objections": [
+    {
+      "problem": "Draft awaits a separate check of claim coverage, quotation interpretation and evidence limits.",
+      "resolution": "A second assisted reading checked all four requirements against the exact claim and source text. Supporting quotations were added for reported fat-loss estimates, the adherence association, the 12-month percentage contrast and the UPF trial population. The review retains limited indirect conclusions and every original evidence gap. The same assistant performed this second pass; it is not independent validation."
+    }
+  ],
+  "unresolved_objections": [
+    {
+      "severity": "minor",
+      "problem": "Abstract-only scope: full texts, risk of bias, linked corrections and underlying synthesis evidence remain unverified. These limits are retained; no numerical effects from the flagged correction-linked papers are used."
+    },
+    {
+      "severity": "minor",
+      "problem": "The claim leaves magnitude and timing unspecified. No thresholds are inferred; the assessment supports neither affirmation nor refutation of those qualifiers."
+    }
+  ]
+}

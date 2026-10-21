@@ -1,0 +1,115 @@
+{
+    "claims": [
+        {
+            "claim_id": "fitness-02-c001",
+            "assessments": [
+                {
+                    "pmid": "19917733",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Investigates electrical stimulation combined with stretching exercises and orthoses for treating plantar fasciitis; it does not evaluate the effect of stretching upon waking on systemic circulation."
+                },
+                {
+                    "pmid": "26275649",
+                    "exposure_match": false,
+                    "outcome_match": true,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Examines the effect of yoga on arterial stiffness in elderly subjects with increased pulse pressure; it does not specifically examine stretching upon waking or general circulation."
+                },
+                {
+                    "pmid": "167706",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Studies sleep disturbances during simulated space flight and only mentions a subjective desire to stretch among psychosomatic feelings; it does not evaluate stretching as an intervention to improve circulation."
+                },
+                {
+                    "pmid": "20046192",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "Provides a general narrative overview of physical exercise, describing flexibility stretching and cardiovascular benefits, but does not test the specific effect of stretching immediately after waking on circulation."
+                },
+                {
+                    "pmid": "17118099",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Examines N-terminal pro-brain natriuretic peptide and myocardial stretch in obstructive sleep apnea syndrome; it uses 'stretch' in a cellular/cardiac context rather than physical stretching exercise."
+                },
+                {
+                    "pmid": "13810756",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Investigates respiratory sinus arrhythmia and thoracic stretch receptors rather than bodily stretching exercises."
+                },
+                {
+                    "pmid": "41361156",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "Includes passive stretching as a control intervention and evaluates hemodynamics and vascular function across morning and evening sessions, though it does not evaluate acute stretching upon waking."
+                },
+                {
+                    "pmid": "21854966",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Investigates rat cerebral vascular responses and vessel stretch during sleep and sleep deprivation, not physical body stretching."
+                },
+                {
+                    "pmid": "16290978",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Discusses stretch of ventricular myocytes in congestive heart failure patients, which is unrelated to physical stretching."
+                },
+                {
+                    "pmid": "27895607",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Uses stretching merely as a control condition to evaluate memory performance and physiological arousal following morning exercise or caffeine, without assessing circulatory outcomes."
+                },
+                {
+                    "pmid": "38640183",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Introduces physical inactivity in female college students and mentions yoga, but provides no data or evaluation of post-waking stretching on circulation."
+                },
+                {
+                    "pmid": "33654248",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Reviews pathophysiological mechanisms of nocturia and refers to stretching of heart chambers due to venous return, not bodily stretching exercise."
+                },
+                {
+                    "pmid": "29020716",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "Focuses on joint pain, function, and morning stiffness in osteoarthritis, without examining stretching to boost circulation after waking."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Controlled clinical trials or physiological studies directly measuring the acute or sustained effects of whole-body stretching immediately after waking on blood flow, vascular conductance, or systemic circulation."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T19:09:49.116253Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"decision\": \"accept_for_adjudication\",\n  \"objections\": [],\n  \"remaining_gaps\": [\n    \"No mention of stretching in intervention\",\n    \"No comparison of stretching effects\",\n    \"No long-term follow-up data\",\n    \"No control for confounding factors\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 20319279625,
+  "load_duration": 35175000,
+  "prompt_eval_count": 1144,
+  "prompt_eval_cached_count": 3,
+  "prompt_eval_duration": 13442780000,
+  "eval_count": 64,
+  "eval_duration": 6546077000
+}

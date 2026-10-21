@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:54:11.789807Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S0aaa51b257fd42b2\",\n  \"study_or_document_type\": \"WHO report\",\n  \"population_and_intervention\": \"Global adult population\",\n  \"measured_outcome_or_recommendation\": \"Physical inactivity rates\",\n  \"finding\": \"31% of world's adult population (1.8 billion) are physically inactive\",\n  \"relation\": \"null_or_uncertain\",\n  \"limitations\": [\n    \"Data from 2010-2022\",\n    \"Does not specify timing of stretching\",\n    \"No evidence of stretching effects\",\n    \"Does not address post-waking stretching\"\n  ],\n  \"quote_ids\": [\n    \"Q1\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 19395386250,
+  "load_duration": 8794375,
+  "prompt_eval_count": 714,
+  "prompt_eval_cached_count": 356,
+  "prompt_eval_duration": 4001214000,
+  "eval_count": 170,
+  "eval_duration": 15223701000
+}

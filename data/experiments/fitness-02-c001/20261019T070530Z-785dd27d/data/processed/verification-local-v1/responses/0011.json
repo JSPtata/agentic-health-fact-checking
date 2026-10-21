@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:35:24.453651Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"Sef005e977b28d913\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"25 healthy young men; passive one leg stretching (6x30s static stretch with 10s recovery)\",\n  \"measured_outcome_or_recommendation\": \"femoral-ankle PWV (faPWV) decreased significantly immediately and 15 min after stretching\",\n  \"finding\": \"faPWV decreased significantly in stretched leg immediately and 15 min after stretching\",\n  \"relation\": \"contradiction\",\n  \"limitations\": [\n    \"Only one leg stretched, not whole body\",\n    \"No comparison to control group (non-stretched leg only)\",\n    \"Short-term (immediate and 15 min) effects only\",\n    \"No mention of waking up timing\"\n  ],\n  \"quote_ids\": [\"Q7\"]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 13913839042,
+  "load_duration": 12444542,
+  "prompt_eval_count": 798,
+  "prompt_eval_cached_count": 331,
+  "prompt_eval_duration": 2700046000,
+  "eval_count": 212,
+  "eval_duration": 11087920000
+}

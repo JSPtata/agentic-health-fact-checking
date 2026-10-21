@@ -1,0 +1,92 @@
+{
+  "binding": {
+    "profile": "retrieval-budget-diagnostic-v1",
+    "plan_sha256": "3cd911cb972dbb9f54fd8d456fdc343a455752e92a0cf4f68d860824ae75c925",
+    "transcript_sha256": "af42bf7b6387139342a619bcd43f1fbfaf4fbb219100e744e1f80297eb3acda2",
+    "script_sha256": "d3f484efb74e80b16265757ff410d6b82778c9819e31766fa0bbaa08cf24aca8",
+    "parser_sha256": "2130838f9a6772d24d1f925c54d8262004c6c1c53f9747177b6cbf04877eb135",
+    "model": "pritamdeka/S-PubMedBert-MS-MARCO"
+  },
+  "cache": {
+    "50224fdd100eba5740063ec6dc29d952845f6ee5912286296efb70c3c0cef2f9": {
+      "file": "pubmed-cache/50224fdd100eba5740063ec6dc29d952845f6ee5912286296efb70c3c0cef2f9.json",
+      "sha256": "a4313db13c91d7fc8868e098b683f1b017ca159b9a9e03b30f69f1153d9320c9",
+      "retrieved_at": "2026-10-20T11:36:03.724317+00:00"
+    },
+    "dc4d76ff56600b1c3087adb650cd5d2234ac1a679f8541e5ec268a04a459088d": {
+      "file": "pubmed-cache/dc4d76ff56600b1c3087adb650cd5d2234ac1a679f8541e5ec268a04a459088d.json",
+      "sha256": "cf9d35975bcb7908b315a754ff4318461c067abbfcc110ce120db0da346e4dbc",
+      "retrieved_at": "2026-10-20T11:36:23.435492+00:00"
+    },
+    "c6dead51f9b2bc7cacb51ab2a3bbc1e4625acb38846000d08750a447cf9b6674": {
+      "file": "pubmed-cache/c6dead51f9b2bc7cacb51ab2a3bbc1e4625acb38846000d08750a447cf9b6674.json",
+      "sha256": "3df3e3aa4ed6f191e5a0c469652b32329f961b163911ea56176cdc459bd97394",
+      "retrieved_at": "2026-10-20T11:36:30.537883+00:00"
+    },
+    "985fe13610290172f7cd0e76f33cbed70e6819561ad9ba967e5fa57952ee96f3": {
+      "file": "pubmed-cache/985fe13610290172f7cd0e76f33cbed70e6819561ad9ba967e5fa57952ee96f3.xml",
+      "sha256": "5d03a82f5d571c571b9ae25ac31623fc09818f7536184b0650f293cbb43a2212",
+      "retrieved_at": "2026-10-20T11:36:50.873973+00:00"
+    },
+    "cd6e5dd2bfdf2e1e9a600b4dd96d4a40417d04852e8414080d340762c030537d": {
+      "file": "pubmed-cache/cd6e5dd2bfdf2e1e9a600b4dd96d4a40417d04852e8414080d340762c030537d.xml",
+      "sha256": "5b047aef99f883c9334518a34560a04bb19fa0e27e9ca7a014bfda0606784c13",
+      "retrieved_at": "2026-10-20T11:37:03.792283+00:00"
+    },
+    "9156c5e0619201b26eb12a345cd4ac487547b5af86c488df1fef4fd86df07eb7": {
+      "file": "pubmed-cache/9156c5e0619201b26eb12a345cd4ac487547b5af86c488df1fef4fd86df07eb7.xml",
+      "sha256": "f07bfe35b06d142c818d92e562303c08ec550d23d4df4f70378c66a74146a988",
+      "retrieved_at": "2026-10-20T11:37:27.785687+00:00"
+    }
+  },
+  "events": [
+    {
+      "key": "50224fdd100eba5740063ec6dc29d952845f6ee5912286296efb70c3c0cef2f9",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "dc4d76ff56600b1c3087adb650cd5d2234ac1a679f8541e5ec268a04a459088d",
+      "endpoint": "esearch.fcgi",
+      "status": "error",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "key": "dc4d76ff56600b1c3087adb650cd5d2234ac1a679f8541e5ec268a04a459088d",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "c6dead51f9b2bc7cacb51ab2a3bbc1e4625acb38846000d08750a447cf9b6674",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "985fe13610290172f7cd0e76f33cbed70e6819561ad9ba967e5fa57952ee96f3",
+      "endpoint": "efetch.fcgi",
+      "status": "error",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "key": "985fe13610290172f7cd0e76f33cbed70e6819561ad9ba967e5fa57952ee96f3",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "cd6e5dd2bfdf2e1e9a600b4dd96d4a40417d04852e8414080d340762c030537d",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "9156c5e0619201b26eb12a345cd4ac487547b5af86c488df1fef4fd86df07eb7",
+      "endpoint": "efetch.fcgi",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='eutils.ncbi.nlm.nih.gov', port=443): Read timed out. (read timeout=10)"
+    },
+    {
+      "key": "9156c5e0619201b26eb12a345cd4ac487547b5af86c488df1fef4fd86df07eb7",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    }
+  ]
+}

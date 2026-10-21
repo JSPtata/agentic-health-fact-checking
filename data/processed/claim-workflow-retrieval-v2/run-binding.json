@@ -1,0 +1,25 @@
+{
+  "retrieval_settings": {
+    "root": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval",
+    "model": "qwen3:4b",
+    "controller_sha256": "65d664e7c5b14d99d2cc0fb09e4e2d16d5ed03cf47df3ced03faa8c788f11d68"
+  },
+  "profile": "claim-controller-v1",
+  "script_sha256": "53c68a428e4017e80dc48792f766d6af41b73f1cb9f19dc469b37d6fbb69a7f3",
+  "adjudicator_sha256": "6bc1a50e07c7277ea7e8f6c0b4ca80a96aa09fdff612082ea51c3db68e5f3c14",
+  "framework_versions": {
+    "langgraph": "1.2.16",
+    "langgraph-checkpoint-sqlite": "3.1.2",
+    "langgraph-checkpoint": "4.3.0",
+    "pydantic": "2.13.4"
+  },
+  "claim_inputs": {
+    "fitness-02-c001": "1c3032616b8b450c7210c0348d9b07a22f16d05f526f6e1f3d42e79a70e613d4",
+    "fitness-02-c002": "e680f05fc6da0c03ce990170123af66c885ca847dae6a688366d1524f7b6dce3",
+    "fitness-02-c003": "3824d7e0e312a777e7a99b0a2061c3481a42088ffa7dfb922bbc2d2ac856b119",
+    "fitness-02-c004": "d248d457e9eb81e12702657775cc281cdb38ff47805d67b465f85c03127192cc",
+    "fitness-02-c005": "83915c429d7166297be753206b64bf062158f474f4a4a6ad0260e9944f003c93",
+    "fitness-02-c006": "7a60b1f9a8af03a8ff18e725f11494f5ab01f5ee8c7bb61414316e81bf301fb2",
+    "fitness-02-c007": "4645325d7f3be923d4ac52f3822a7eae4d41b4783e87758a89a75be7164e72e8"
+  }
+}

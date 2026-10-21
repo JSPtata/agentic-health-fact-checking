@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T17:49:40.907001Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"exposure_anchor\": \"fruits\",\n  \"exposure_terms\": [\"fruit\", \"fruits\"],\n  \"outcome_anchor\": \"digestion\",\n  \"outcome_terms\": [\"digestive health\", \"digestive system\"],\n  \"context_anchor\": null,\n  \"context_terms\": []\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8732546833,
+  "load_duration": 44179833,
+  "prompt_eval_count": 229,
+  "prompt_eval_cached_count": 163,
+  "prompt_eval_duration": 1485144000,
+  "eval_count": 63,
+  "eval_duration": 7110102000
+}

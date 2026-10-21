@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:55:05.442204Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S0aaa51b257fd42b2\",\n  \"study_or_document_type\": \"policy guidance\",\n  \"population_and_intervention\": \"general population; physical activity policies\",\n  \"measured_outcome_or_recommendation\": \"policy implementation for physical activity\",\n  \"finding\": \"no evidence of stretching after waking for circulation\",\n  \"relation\": \"unassessable\",\n  \"limitations\": [\n    \"policy focus, not individual stretching\",\n    \"no mention of timing relative to waking\",\n    \"no evidence of circulation effects\",\n    \"no specific stretching instructions\"\n  ],\n  \"quote_ids\": [\"Q1\", \"Q2\"]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 22140445917,
+  "load_duration": 20544625,
+  "prompt_eval_count": 634,
+  "prompt_eval_cached_count": 356,
+  "prompt_eval_duration": 2962042000,
+  "eval_count": 152,
+  "eval_duration": 19005253000
+}

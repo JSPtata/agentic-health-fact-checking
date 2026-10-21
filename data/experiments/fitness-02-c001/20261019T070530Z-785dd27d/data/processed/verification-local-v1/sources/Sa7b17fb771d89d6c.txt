@@ -1,0 +1,9 @@
+UNLABELLED: Increasing muscle length (passive stretch) has been shown to reduce muscle oxygen levels by increasing intramuscular pressure.
+
+PURPOSE: To measure the effect of passive stretch on muscle-specific endurance and oxygen saturation in the vastus lateralis and medial gastrocnemius muscle groups.
+
+METHODS: Muscle Endurance (EI), Muscle blood flow (MBF), and Muscle oxygen saturation (MVO<sub>2</sub>) were measured on the vastus lateralis and medial gastrocnemius muscles in a passive stretched (lengthened) and relaxed (shortened) positions in 10 healthy individuals (21 ± 1 yrs.). Muscle endurance was measured with tri-axial accelerometer. Muscle oxygen saturation and blood flow were measured using a continuous wavelength Near Infrared Spectroscopy (NIRS).
+
+RESULTS: Muscle at stretched position showed a lower endurance index in the gastrocnemius (51 ± 9.6% versus 77 ± 9.1%, p = 0.008) and vastus lateralis (54 ± 8.9% versus 75 ± 9.6%, p < 0.001). The time to half recovery of oxygen levels during reactive hyperemia was slower in the stretched positions for the gastrocnemius (11.4 ± 1.0 s versus 8.2 ± 1.1 s, p < 0.001) and the vastus lateralis (9.8 ± 1.9 s versus 6.3 ± 0.7 s, p < 0.001). However, oxygen saturation during the endurance tests were not different between stretched and relaxed conditions in both muscle (p > 0.05 for all comparisons).
+
+CONCLUSIONS: Studies of muscle endurance need to control for muscle length as changes in muscle length can influence muscle endurance.

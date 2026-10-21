@@ -1,0 +1,873 @@
+{
+  "schema_version": 1,
+  "binding": {
+    "evidence_sha256": "202a117533192d0af4f7e5f062844eac6b3603d3665395c79e972f39d5688fb5",
+    "suitability_sha256": "7eab291db1cf59a082676e896f2a0bfd35d48c37a94cff62f016ff20be7e8b4c",
+    "model": "gemini-3.8-flash",
+    "search_model": "gemini-2.5-flash",
+    "version": "agent-v2.0",
+    "limits": {
+      "actions": 8,
+      "official_searches": 3,
+      "web_fetches": 4,
+      "pubmed_searches": 2,
+      "model_calls": 20,
+      "source_chars": 16000,
+      "context_chars": 100000,
+      "deadline_minutes": 20
+    }
+  },
+  "claim": {
+    "claim_id": "fitness-02-c001",
+    "claim_text": "Always stretch your body after waking up to boost circulation.",
+    "exposure": "stretching your body",
+    "outcome": "boost circulation",
+    "context": "after waking up",
+    "reported_evidence_gap": "Controlled clinical studies in humans assessing whether performing whole-body or localized stretching exercises immediately after waking up increases systemic or regional circulation compared to resting or alternative post-waking routines.",
+    "input_limitations": [
+      "Prior suitability screening is provisional; irrelevant abstracts remain inspectable.",
+      "Existing retrieval may be incomplete; unprovided candidates and full texts are not covered."
+    ]
+  },
+  "created_at": "2026-10-19T12:49:12.106779+00:00",
+  "deadline": "2026-10-19T13:09:12.106413+00:00",
+  "counts": {
+    "actions": 4,
+    "official_searches": 2,
+    "web_fetches": 0,
+    "pubmed_searches": 1,
+    "model_calls": 7
+  },
+  "actions": [
+    {
+      "id": 1,
+      "action": {
+        "tool": "search_official",
+        "rationale": "The instructions mandate searching WHO and at least one other applicable official organization for guidance. We search WHO to check whether official physical activity recommendations endorse stretching after waking up to improve or boost circulation.",
+        "target_gap": "Official public health guidance from WHO regarding stretching immediately after waking up and its effects on circulation.",
+        "query": "stretching circulation",
+        "domain": "who.int",
+        "candidate_id": null,
+        "source_id": null
+      },
+      "status": "error",
+      "at": "2026-10-19T12:49:18.286192+00:00",
+      "error": "ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 2,
+      "action": {
+        "tool": "search_pubmed",
+        "rationale": "Existing sources evaluate localized stretching during daytime laboratory protocols or general morning exercise combinations without directly assessing acute post-waking stretching on circulation. We search PubMed with neutral exposure and outcome terms to identify human studies evaluating stretching upon waking and its acute effects on blood flow or circulation.",
+        "target_gap": "Human experimental or clinical trials testing whether stretching immediately after waking up increases systemic or regional circulation compared to control waking routines.",
+        "query": "(stretch OR stretching) AND (waking OR \"wake up\" OR morning) AND (circulation OR \"blood flow\" OR hemodynamics)",
+        "domain": null,
+        "candidate_id": null,
+        "source_id": null
+      },
+      "status": "completed",
+      "at": "2026-10-19T12:49:35.029023+00:00",
+      "result": {
+        "query": "(stretch OR stretching) AND (waking OR \"wake up\" OR morning) AND (circulation OR \"blood flow\" OR hemodynamics)",
+        "total_matches": "26",
+        "query_translation": "(\"stretch\"[All Fields] OR \"stretched\"[All Fields] OR \"stretches\"[All Fields] OR \"stretching\"[All Fields] OR \"stretchings\"[All Fields] OR (\"stretch\"[All Fields] OR \"stretched\"[All Fields] OR \"stretches\"[All Fields] OR \"stretching\"[All Fields] OR \"stretchings\"[All Fields])) AND (\"wakeful\"[All Fields] OR \"wakefulness\"[MeSH Terms] OR \"wakefulness\"[All Fields] OR \"wakes\"[All Fields] OR \"waking\"[All Fields] OR \"wakings\"[All Fields] OR \"wake up\"[All Fields] OR (\"morning\"[All Fields] OR \"morning s\"[All Fields] OR \"mornings\"[All Fields])) AND (\"blood circulation\"[MeSH Terms] OR (\"blood\"[All Fields] AND \"circulation\"[All Fields]) OR \"blood circulation\"[All Fields] OR \"circulation\"[All Fields] OR \"circulations\"[All Fields] OR \"circulate\"[All Fields] OR \"circulated\"[All Fields] OR \"circulates\"[All Fields] OR \"circulating\"[All Fields] OR \"blood flow\"[All Fields] OR (\"haemodynamic\"[All Fields] OR \"hemodynamics\"[MeSH Terms] OR \"hemodynamics\"[All Fields] OR \"hemodynamic\"[All Fields] OR \"haemodynamical\"[All Fields] OR \"haemodynamically\"[All Fields] OR \"haemodynamics\"[All Fields] OR \"hemodynamical\"[All Fields] OR \"hemodynamically\"[All Fields]))",
+        "warnings": {},
+        "requested_pmids": [
+          "12609009",
+          "17406187",
+          "30489494",
+          "16290978",
+          "41361156"
+        ],
+        "unresolved_pmids": [],
+        "exhaustive": false,
+        "source_ids": [
+          "S2122253e3604aad5",
+          "S4f65ddae7ab1ca21",
+          "S77e17308bf8a9da5",
+          "S422360b933495041",
+          "S87f90993316e05a0"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "action": {
+        "tool": "search_official",
+        "rationale": "Official physical activity guidance from major health organizations must be evaluated to determine whether stretching immediately after waking is recommended for boosting circulation. Having attempted WHO, we search the CDC as an applicable official public health agency to check for guidance or systematic reviews on morning stretching and circulatory health.",
+        "target_gap": "Official health guidelines and evidence summaries from national public health agencies (e.g., CDC) assessing recommendations or demonstrated benefits of stretching after waking up for circulation.",
+        "query": "stretching circulation",
+        "domain": "cdc.gov",
+        "candidate_id": null,
+        "source_id": null
+      },
+      "status": "error",
+      "at": "2026-10-19T12:49:54.070657+00:00",
+      "error": "ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 4,
+      "action": {
+        "tool": "finish",
+        "rationale": "Official search tools targeting who.int and cdc.gov failed due to an upstream API service error, preventing further official retrieval. Literature searches in PubMed confirm that while acute skeletal muscle stretching can elicit transient localized hyperemia and microvascular shear stress in laboratory conditions, direct controlled evidence evaluating whether stretching specifically after waking up boosts systemic or regional circulation compared to normal post-waking activity or rest is lacking. Because official sources are technically unavailable and primary evidence addressing the specific post-waking context remains sparse, evidence collection is complete with this explicit limitation.",
+        "target_gap": "Controlled clinical studies in humans assessing whether performing whole-body or localized stretching exercises immediately after waking up increases systemic or regional circulation compared to resting or alternative post-waking routines.",
+        "query": null,
+        "domain": null,
+        "candidate_id": null,
+        "source_id": null
+      },
+      "status": "completed",
+      "at": "2026-10-19T12:50:12.513871+00:00",
+      "result": {
+        "stop_reason": "Official search tools targeting who.int and cdc.gov failed due to an upstream API service error, preventing further official retrieval. Literature searches in PubMed confirm that while acute skeletal muscle stretching can elicit transient localized hyperemia and microvascular shear stress in laboratory conditions, direct controlled evidence evaluating whether stretching specifically after waking up boosts systemic or regional circulation compared to normal post-waking activity or rest is lacking. Because official sources are technically unavailable and primary evidence addressing the specific post-waking context remains sparse, evidence collection is complete with this explicit limitation."
+      }
+    }
+  ],
+  "model_events": [
+    {
+      "id": 1,
+      "model": "gemini-3.8-flash",
+      "prompt_sha256": "4fbba573d109b1e85585154a7357cff84a607cf26e5a9c6d694e5dbf8fd80f82",
+      "status": "returned",
+      "at": "2026-10-19T12:49:12.660810+00:00",
+      "response_file": "model_responses/001.json",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 120,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 19493,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 19493
+          }
+        ],
+        "thoughts_token_count": 332,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 19945,
+        "traffic_type": null
+      }
+    },
+    {
+      "id": 2,
+      "model": "gemini-2.5-flash",
+      "prompt_sha256": "afc576abeef05e5575e8d5f0a1cf774f00f92f8614f6e82145e210713ae64126",
+      "status": "error",
+      "at": "2026-10-19T12:49:18.298052+00:00",
+      "error": "ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 3,
+      "model": "gemini-3.8-flash",
+      "prompt_sha256": "9220a6f8ca39429c01c3f956274ec3e1f68cff41f872908a864bccf87296395f",
+      "status": "returned",
+      "at": "2026-10-19T12:49:18.625905+00:00",
+      "response_file": "model_responses/003.json",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 162,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 19764,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 19764
+          }
+        ],
+        "thoughts_token_count": 1287,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 21213,
+        "traffic_type": null
+      }
+    },
+    {
+      "id": 4,
+      "model": "gemini-3.8-flash",
+      "prompt_sha256": "469f3161cf72dca0e46b2fb1f936d964af850fcd40840b4cf78ff3cdf6ebe71b",
+      "status": "returned",
+      "at": "2026-10-19T12:49:37.688484+00:00",
+      "response_file": "model_responses/004.json",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 149,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 24908,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 24908
+          }
+        ],
+        "thoughts_token_count": 1467,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 26524,
+        "traffic_type": null
+      }
+    },
+    {
+      "id": 5,
+      "model": "gemini-2.5-flash",
+      "prompt_sha256": "2d1c2709a233d51692a9f65f503add63e01b55fe9fa0a81f6c72cc4a5e6caf92",
+      "status": "error",
+      "at": "2026-10-19T12:49:54.074022+00:00",
+      "error": "ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "id": 6,
+      "model": "gemini-3.8-flash",
+      "prompt_sha256": "cfb5824b1185d33b21eef878b278e8ccbb6bab74f57afb34a3ba178fe6cbf83c",
+      "status": "returned",
+      "at": "2026-10-19T12:49:54.480675+00:00",
+      "response_file": "model_responses/006.json",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 200,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 25209,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 25209
+          }
+        ],
+        "thoughts_token_count": 1756,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 27165,
+        "traffic_type": null
+      }
+    },
+    {
+      "id": 7,
+      "model": "gemini-3.8-flash",
+      "prompt_sha256": "ef52f855f230a4b346f4e187e57cf8ca4b85ad0d7811c3c233077fa156f04f8f",
+      "status": "started",
+      "at": "2026-10-19T12:50:12.530031+00:00"
+    }
+  ],
+  "sources": {
+    "S54dfd101b4964920": {
+      "kind": "pubmed_abstract",
+      "pmid": "19917733",
+      "title": "Use of low-frequency electrical stimulation for the treatment of plantar fasciitis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19917733/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The study evaluated low-frequency electrical stimulation combined with stretching exercises and foot orthoses in patients with plantar fasciitis. It measured 'first-step morning pain, and changes in daily activity levels' rather than circulation or blood flow.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S54dfd101b4964920",
+      "text_file": "sources/S54dfd101b4964920.txt",
+      "text_sha256": "db7004c792398c6eddef870f506d9395ff39f795df03f569b185d60eae4635cf",
+      "characters": 1454
+    },
+    "S03497b210d84149c": {
+      "kind": "pubmed_abstract",
+      "pmid": "26275649",
+      "title": "Effect of yoga on arterial stiffness in elderly subjects with increased pulse pressure: A randomized controlled study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26275649/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "Stretching was evaluated only as a component of a combined regimen ('brisk-walk with stretching exercise for 1h in the morning') against yoga. Outcomes were arterial stiffness indices, nitric oxide, and blood pressure rather than direct blood flow, and morning timing was not specified as immediately after waking.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S03497b210d84149c",
+      "text_file": "sources/S03497b210d84149c.txt",
+      "text_sha256": "435dcecde61ddb277f9696eb350a215595b967af89b237f6d7177974381d661f",
+      "characters": 2100
+    },
+    "Sf2e6e54fe5ceacd0": {
+      "kind": "pubmed_abstract",
+      "pmid": "167706",
+      "title": "Characteristics of the sleep of men in simulated space flights.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/167706/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "This study examined sleep disturbances in simulated space flights. An 'irresistible desire to stand up and stretch' was mentioned as a psychosomatic symptom of confinement rather than an evaluated stretching intervention.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Sf2e6e54fe5ceacd0",
+      "text_file": "sources/Sf2e6e54fe5ceacd0.txt",
+      "text_sha256": "2ab59374f60ebd57a5bfe12e6902f7006901c8e9845e9ac55453d2d210723326",
+      "characters": 1326
+    },
+    "S0417cef78183352d": {
+      "kind": "pubmed_abstract",
+      "pmid": "38741608",
+      "title": "Adaptations of bone and bone vasculature to muscular stretch training.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38741608/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "In a rodent model, the study demonstrated that 'static stretching increased blood flow to the proximal tibial metaphasis'. However, it evaluated localized bone perfusion in rats without examining human subjects or post-waking timing.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S0417cef78183352d",
+      "text_file": "sources/S0417cef78183352d.txt",
+      "text_sha256": "f9cb6e83389359dbc24de36934e4ed7f9f537091ef645ad8eeda7e54901760ad",
+      "characters": 1946
+    },
+    "Sef005e977b28d913": {
+      "kind": "pubmed_abstract",
+      "pmid": "28397006",
+      "title": "Acute effect of stretching one leg on regional arterial stiffness in young men.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28397006/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "The study examined passive calf stretching in healthy young men and observed that 'faPWV in the stretched leg was significantly decreased'. It evaluated arterial stiffness rather than blood flow, and timing after waking was not assessed.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Sef005e977b28d913",
+      "text_file": "sources/Sef005e977b28d913.txt",
+      "text_sha256": "5485d218511e192c5b13d53b7204a138f320118f14badd9a97bb72c0354954a7",
+      "characters": 1609
+    },
+    "Sd4cb40a7bdefed61": {
+      "kind": "pubmed_abstract",
+      "pmid": "40182711",
+      "title": "The effects of different ischemic conditioning on strength training recovery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40182711/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The trial compared ischemic conditioning with traditional recovery involving stretching and foam rolling after strength training, measuring muscle soreness, jump height, and blood damage markers without measuring circulation.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Sd4cb40a7bdefed61",
+      "text_file": "sources/Sd4cb40a7bdefed61.txt",
+      "text_sha256": "e56d3c2fe23f1773b03e9559ad4bcc3dbfb5c010104bc28f429921720be7419b",
+      "characters": 1746
+    },
+    "S87f90993316e05a0": {
+      "kind": "pubmed_abstract",
+      "pmid": "41361156",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41361156/",
+      "title": "Aerobic training conducted at different times of day in elderly patients with hypertension: a controlled trial.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Oct"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-19T12:49:37.676092+00:00",
+      "text_scope": "abstract_only",
+      "id": "S87f90993316e05a0",
+      "text_file": "sources/S87f90993316e05a0.txt",
+      "text_sha256": "3917ed1416d0c511eab7c2203da182927e589b1ed83c830be1668920b261209e",
+      "characters": 1748
+    },
+    "S084f97396254b3eb": {
+      "kind": "pubmed_abstract",
+      "pmid": "38640183",
+      "title": "Yogistic efficacy on cardiopulmonary capacities, endurance efficiencies and musculoskeletal potentialities in female college students.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38640183/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The study investigated a multicomponent yogic module incorporating breathing, meditation, and stretching-strengthening exercises, measuring cardiopulmonary capacity and hand grip strength rather than circulatory perfusion.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S084f97396254b3eb",
+      "text_file": "sources/S084f97396254b3eb.txt",
+      "text_sha256": "9782e8095dfdc72d0abb7869c816ddf49a3f86c45010784212cd23dbb6c13d2d",
+      "characters": 1719
+    },
+    "S9657985d00278cbf": {
+      "kind": "pubmed_abstract",
+      "pmid": "24714795",
+      "title": "Physical training as non-pharmacological treatment of neurocardiogenic syncope.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24714795/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The study evaluated aerobic training versus a control consisting of stretching and light walking for neurocardiogenic syncope, assessing head-up tilt test outcomes without evaluating circulation.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S9657985d00278cbf",
+      "text_file": "sources/S9657985d00278cbf.txt",
+      "text_sha256": "88882b3dfc177768fe3baeb1fc16caa766fb34112fc413e87f69d17e64b26346",
+      "characters": 1588
+    },
+    "S5920bb9c01342d25": {
+      "kind": "pubmed_abstract",
+      "pmid": "40809290",
+      "title": "Editorial: Unveiling functional and structural physiological transformations through muscle stretching.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40809290/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "Abstract unavailable; findings and suitability remain unassessed.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S5920bb9c01342d25",
+      "text_file": "sources/S5920bb9c01342d25.txt",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0
+    },
+    "Scdfcc4be4059c320": {
+      "kind": "pubmed_abstract",
+      "pmid": "33269763",
+      "title": "Motor tract reorganization after acute central nervous system injury: a translational perspective.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33269763/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "This review addresses central nervous system injury where 'stretching and shearing injury to microstructures' refers to physical trauma rather than voluntary stretching exercises.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Scdfcc4be4059c320",
+      "text_file": "sources/Scdfcc4be4059c320.txt",
+      "text_sha256": "683e70d9b79d8e3f3bfdd4ebdbde7a9759cd1e970f2c292d8fec1789156bd681",
+      "characters": 2323
+    },
+    "S9cb6a56c56be171b": {
+      "kind": "pubmed_abstract",
+      "pmid": "32763257",
+      "title": "In vitro cell stretching technology (IsoStretcher) as an approach to unravel Piezo1-mediated cardiac mechanotransduction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32763257/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The study investigated in vitro mechanical stretching of cultured HL-1 cardiac muscle cells to assess Piezo1 channel activity rather than physical bodily stretching.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S9cb6a56c56be171b",
+      "text_file": "sources/S9cb6a56c56be171b.txt",
+      "text_sha256": "675ef30c90bdb3dde92794062d8de2aca0c52216c46c470a2ba58b945c8dcd47",
+      "characters": 1511
+    },
+    "Sbad07de0e24ca100": {
+      "kind": "pubmed_abstract",
+      "pmid": "11943651",
+      "title": "Ventilation-induced lung injury and mechanotransduction: stretching it too far?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11943651/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The paper focuses on mechanical ventilation-induced lung injury, where stretching denotes pathological alveolar distension rather than bodily stretching exercises.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Sbad07de0e24ca100",
+      "text_file": "sources/Sbad07de0e24ca100.txt",
+      "text_sha256": "6390de02e77e07af9a3ffb05de3c09be300f297dee14eb2c43ea9304ac45ec6f",
+      "characters": 1541
+    },
+    "S3b3794abbf34023d": {
+      "kind": "pubmed_abstract",
+      "pmid": "1556775",
+      "title": "Physiological profile and incidence of injuries among elite figure skaters.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1556775/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "This observational study of figure skaters recorded injury incidence and aerobic profile, mentioning warm-up and stretching as part of training routines without evaluating circulatory outcomes.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S3b3794abbf34023d",
+      "text_file": "sources/S3b3794abbf34023d.txt",
+      "text_sha256": "1c38306d0ae33a347e5d66c39dc6460d1a3030f35934bdbc4aad3966ef6b6a3f",
+      "characters": 1479
+    },
+    "S6493a8dfc6b4b0dd": {
+      "kind": "pubmed_abstract",
+      "pmid": "17306136",
+      "title": "[Mechanical ventilation induced lung injury].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17306136/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The article evaluates mechanical ventilation-induced lung injury caused by stretching and alveolar rupture (volutrauma), unrelated to physical stretching.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S6493a8dfc6b4b0dd",
+      "text_file": "sources/S6493a8dfc6b4b0dd.txt",
+      "text_sha256": "387f47f543a2585c5c17cad09b1756a1e1a9b05effd25a1a42cb1ebde250c3b7",
+      "characters": 1075
+    },
+    "S044a40086946547a": {
+      "kind": "pubmed_abstract",
+      "pmid": "19935063",
+      "title": "Pulmonary/renal interaction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19935063/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "This review concerns pulmonary-renal crosstalk in critical illness, mentioning prevention of lung tissue stretching from mechanical ventilation.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S044a40086946547a",
+      "text_file": "sources/S044a40086946547a.txt",
+      "text_sha256": "2b6331c8fadf57a2d9756d24647de6a207bdfb783f45339cf86ae17c99568d7b",
+      "characters": 1348
+    },
+    "S081f46b0f6815a23": {
+      "kind": "pubmed_abstract",
+      "pmid": "21729635",
+      "title": "[Vascular injuries in joint replacement surgery].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21729635/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The article reviews iatrogenic vascular injuries during joint replacement surgery, noting blunt vascular trauma from stretching over surgical material.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S081f46b0f6815a23",
+      "text_file": "sources/S081f46b0f6815a23.txt",
+      "text_sha256": "71438bdd03855b09606663919030bfd31063882bb35d1d3699a62c6a03654594",
+      "characters": 2695
+    },
+    "S8ca66aeef0f35c0a": {
+      "kind": "pubmed_abstract",
+      "pmid": "23041761",
+      "title": "Neurovascular saturation thresholds under high intensity auditory stimulation during wake.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23041761/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The study evaluated neurovascular coupling under auditory stimulation, discussing blood vessel wall stretching as a possible physiological mechanism limiting compliance rather than stretching exercises.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S8ca66aeef0f35c0a",
+      "text_file": "sources/S8ca66aeef0f35c0a.txt",
+      "text_sha256": "dd89a2327950bb37524d8b1f9173fb312ccc3022458f038caffabd44dca85a12",
+      "characters": 2094
+    },
+    "S96d7309089b83b36": {
+      "kind": "pubmed_abstract",
+      "pmid": "32557265",
+      "title": "Inflammatory oedema of nerve trunks may be pathogenic in very early Guillain-Barré syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32557265/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The article describes the pathology of Guillain-Barré syndrome, where endoneurial fluid pressure causes mechanical stretching of the perineurium.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S96d7309089b83b36",
+      "text_file": "sources/S96d7309089b83b36.txt",
+      "text_sha256": "72e1451c1a7dcdd28b0f07abfd7cca3c2af0df97138828fbfed8f4415c71122a",
+      "characters": 1407
+    },
+    "Se2d1996857ad3fa2": {
+      "kind": "pubmed_abstract",
+      "pmid": "8892143",
+      "title": "Posterior hip dislocations: a cadaveric angiographic study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8892143/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "This cadaveric study evaluated arterial distortion and filling defects resulting from traumatic posterior hip dislocation, unrelated to voluntary stretching exercises.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Se2d1996857ad3fa2",
+      "text_file": "sources/Se2d1996857ad3fa2.txt",
+      "text_sha256": "6d1e68c34b682ab39410db591a340a6b64050ca4646f8e5387c2eec469639196",
+      "characters": 2692
+    },
+    "S621a7a4cf853ad07": {
+      "kind": "pubmed_abstract",
+      "pmid": "9266251",
+      "title": "[Rehabilitation for musculoskeltal disorders in geriatric patients].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9266251/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The review covers general geriatric rehabilitation modalities. While it mentions traction increases peripheral circulation and lists stretching under exercise, it provides no experimental evaluation of stretching for circulation.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S621a7a4cf853ad07",
+      "text_file": "sources/S621a7a4cf853ad07.txt",
+      "text_sha256": "26de98e2e98108603cbb11c50eda7eec6003bb7a62fb58b16248469c0513c174",
+      "characters": 1688
+    },
+    "Sf177d99b8f9cede3": {
+      "kind": "pubmed_abstract",
+      "pmid": "28780647",
+      "title": "Cardiovascular Responses to Skeletal Muscle Stretching: \"Stretching\" the Truth or a New Exercise Paradigm for Cardiovascular Medicine?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28780647/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "This review highlights that 'acute stretching causes a significant macro- and microcirculatory event that alters blood flow', discussing cardiovascular regulation during skeletal muscle stretching. It is a narrative review rather than primary evidence and does not evaluate post-waking timing.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Sf177d99b8f9cede3",
+      "text_file": "sources/Sf177d99b8f9cede3.txt",
+      "text_sha256": "1e2b3ac6574d78b3a478fbbd1dfdfe462fa31524a1433e4d9ff85303ea4822e1",
+      "characters": 1919
+    },
+    "S1955d890eacc64be": {
+      "kind": "pubmed_abstract",
+      "pmid": "25324203",
+      "title": "Effect of self-administered stretching on NIRS-measured oxygenation dynamics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25324203/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "The study examined acute self-administered calf stretching and found that 'local blood flow... was found to be significantly increased relative to baseline at 1, 5 and 10 min after SAS'. However, it evaluated localized calf hyperaemia in a laboratory setting without assessing stretching after waking up.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S1955d890eacc64be",
+      "text_file": "sources/S1955d890eacc64be.txt",
+      "text_sha256": "64ce193074242d2106ea7ed30670823d4c748c0c21f0caefb8d567fb66fe3736",
+      "characters": 1397
+    },
+    "S65191223e280ad02": {
+      "kind": "pubmed_abstract",
+      "pmid": "33337692",
+      "title": "Acute Effects of Warming Up on Achilles Tendon Blood Flow and Stiffness.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33337692/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "The study measured Achilles tendon blood flow after various warm-up exercises, reporting that 'Static stretching and eccentric exercises elicited no significant changes'. The findings address localized tendon blood flow but do not evaluate timing after waking up.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S65191223e280ad02",
+      "text_file": "sources/S65191223e280ad02.txt",
+      "text_sha256": "c33f447966e09effa4157e43a579be9e12582643e9da5baf4153eef717e4b309",
+      "characters": 1853
+    },
+    "S3deb69e3299fae39": {
+      "kind": "pubmed_abstract",
+      "pmid": "38157043",
+      "title": "Acute self-myofascial release modulates cardiac autonomic function and hemodynamic parameters at rest and reduces cardiovascular stress reaction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38157043/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The intervention studied was self-myofascial release (self-massage with a foam roller) rather than stretching exercises.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S3deb69e3299fae39",
+      "text_file": "sources/S3deb69e3299fae39.txt",
+      "text_sha256": "0dc808a7c8eaa098b2c6904e59a62ab44c23064dc7547190871460f04b830700",
+      "characters": 1625
+    },
+    "Saa096fef81f1c81a": {
+      "kind": "pubmed_abstract",
+      "pmid": "32596231",
+      "title": "Impaired Microvascular Response to Muscle Stretching in Chronic Smokers With Type 2 Diabetes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32596231/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "The study evaluated calf microvascular blood flow following passive ankle dorsiflexion, finding that 'All subjects expressed the PSRH effect in cutaneous microcirculation after a 10-s stretch stimulus'. It examined localized microvascular reactivity rather than systemic circulation and did not assess post-waking timing.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Saa096fef81f1c81a",
+      "text_file": "sources/Saa096fef81f1c81a.txt",
+      "text_sha256": "743bd2c79d8304848e4aeb71dfb7b3d9ec907672ae366b6eaa971576fb8101dc",
+      "characters": 1967
+    },
+    "S0756726fd5d009f5": {
+      "kind": "pubmed_abstract",
+      "pmid": "35981730",
+      "title": "Effects of nociceptive and mechanosensitive afferents sensitization on central and peripheral hemodynamics following exercise-induced muscle damage.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35981730/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "The study evaluated leg blood flow and central hemodynamics during static stretching before and after exercise-induced muscle damage, finding that stretching combined with muscle damage decreased resting limb blood flow. It did not examine stretching after waking up.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S0756726fd5d009f5",
+      "text_file": "sources/S0756726fd5d009f5.txt",
+      "text_sha256": "0eb82148c0acaa0b6cc127b5900cb32652919d2de6a9ef3e469ac46fd059ba68",
+      "characters": 2432
+    },
+    "Sa7b17fb771d89d6c": {
+      "kind": "pubmed_abstract",
+      "pmid": "31563842",
+      "title": "The influence of muscle length on gastrocnemius and vastus lateralis muscle oxygen saturation and endurance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31563842/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "The study assessed muscle blood flow and reactive hyperemia in lengthened versus shortened positions, observing that 'The time to half recovery of oxygen levels during reactive hyperemia was slower in the stretched positions'. It investigated acute localized muscle positions without post-waking context.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Sa7b17fb771d89d6c",
+      "text_file": "sources/Sa7b17fb771d89d6c.txt",
+      "text_sha256": "2e0f471c73a18faa60fe8051535f08b4471eb1f0e2392b56cfa07e3417084b03",
+      "characters": 1504
+    },
+    "S046d91794ffce008": {
+      "kind": "pubmed_abstract",
+      "pmid": "33079234",
+      "title": "Acute effect of passive one-legged intermittent static stretching on regional blood flow in young men.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33079234/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "The trial measured tibial artery hemodynamics during passive intermittent calf stretching, finding that 'during the relaxation period, the mean blood velocity... increased, and consequently, the shear rate... increased'. It assessed localized lower limb hemodynamics without evaluating post-waking timing.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S046d91794ffce008",
+      "text_file": "sources/S046d91794ffce008.txt",
+      "text_sha256": "e0069dc42813a6e6aa59676b92a737156ad858e8a10bfb5dcb05947d0c2673be",
+      "characters": 1752
+    },
+    "S558c35b097cf9cde": {
+      "kind": "pubmed_abstract",
+      "pmid": "27160729",
+      "title": "[Acute therapeutic measures for limb salvage Part 1 : Haemorrhage control, emergency revascularization, compartment syndrome].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27160729/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The article discusses emergency surgical management of mangled extremities, mentioning pain on passive muscle stretching as a diagnostic sign of compartment syndrome.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S558c35b097cf9cde",
+      "text_file": "sources/S558c35b097cf9cde.txt",
+      "text_sha256": "23f3d901edd4bd93691a2ae8d3ebc151d655ca7a86bfa88285f45a7528078fbc",
+      "characters": 1751
+    },
+    "S6a335acf4bb51a1c": {
+      "kind": "pubmed_abstract",
+      "pmid": "41467762",
+      "title": "Acute effects of passive stretching on skeletal muscle microvascular Po<sub>2</sub> and HIF-1α expression: influence of stretch intensity and duration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41467762/",
+      "organization": "PubMed record",
+      "prior_suitability": "partial",
+      "prior_reason": "In a rat model, the authors found that 'passive stretching elicits an intensity-dependent and sustained reduction in microvascular Po2'. It evaluated microvascular oxygen partial pressure rather than directly measuring blood flow, and lacked human and post-waking context.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S6a335acf4bb51a1c",
+      "text_file": "sources/S6a335acf4bb51a1c.txt",
+      "text_sha256": "7bfa1374c47dd3bf9f7825e9594b6e2c39a461dc5208b80bb42b8b70f4a6a399",
+      "characters": 2237
+    },
+    "S6007c8e449a27a64": {
+      "kind": "pubmed_abstract",
+      "pmid": "16558458",
+      "title": "Acute atraumatic compartment syndrome in an athlete: a case report.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16558458/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "This case report describes acute compartment syndrome in an athlete, noting pain with passive stretching as a diagnostic clinical sign.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "S6007c8e449a27a64",
+      "text_file": "sources/S6007c8e449a27a64.txt",
+      "text_sha256": "ce715935138df976108840297155f3d31c53ee056a19fc639a96b4da7bd16152",
+      "characters": 1960
+    },
+    "Sd1dc1d01dc2e38a1": {
+      "kind": "pubmed_abstract",
+      "pmid": "23261755",
+      "title": "Comparison of passive leg raising and hyperemia on macrovascular and microvascular responses.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23261755/",
+      "organization": "PubMed record",
+      "prior_suitability": "irrelevant",
+      "prior_reason": "The study investigated passive leg raising, which is a diagnostic postural maneuver rather than a stretching exercise.",
+      "text_scope": "supplied_abstract_only",
+      "dates_as_reported": {},
+      "id": "Sd1dc1d01dc2e38a1",
+      "text_file": "sources/Sd1dc1d01dc2e38a1.txt",
+      "text_sha256": "f4a21463a4d048ca0b7686ff06ec4328310a6e59ed12cc7c2c9012c800c3783e",
+      "characters": 1667
+    },
+    "S2122253e3604aad5": {
+      "kind": "pubmed_abstract",
+      "pmid": "12609009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12609009/",
+      "title": "Chemoreflexes--physiology and clinical implications.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2003 Mar"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-19T12:49:37.675911+00:00",
+      "text_scope": "abstract_only",
+      "id": "S2122253e3604aad5",
+      "text_file": "sources/S2122253e3604aad5.txt",
+      "text_sha256": "4d62dfe0b2bb70abab59255d727e381296ab17ea9e4483f49791c3cd819050ae",
+      "characters": 2874
+    },
+    "S4f65ddae7ab1ca21": {
+      "kind": "pubmed_abstract",
+      "pmid": "17406187",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17406187/",
+      "title": "Systemic hypertension, headache, and ocular hemodynamics: a new hypothesis.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2006 Sep 12"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-19T12:49:37.675980+00:00",
+      "text_scope": "abstract_only",
+      "id": "S4f65ddae7ab1ca21",
+      "text_file": "sources/S4f65ddae7ab1ca21.txt",
+      "text_sha256": "e60d6a820f0e1b2a6a7542e72ee1eeb85dcb3c994f2099ee257d5c1f0f7ad642",
+      "characters": 2514
+    },
+    "S77e17308bf8a9da5": {
+      "kind": "pubmed_abstract",
+      "pmid": "30489494",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30489494/",
+      "title": "Morning versus Evening Aerobic Training Effects on Blood Pressure in Treated Hypertension.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2019 Apr"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-19T12:49:37.676021+00:00",
+      "text_scope": "abstract_only",
+      "id": "S77e17308bf8a9da5",
+      "text_file": "sources/S77e17308bf8a9da5.txt",
+      "text_sha256": "b435141e2629498324bb3c93895ed8c46d6d7f1b87d0f83b728a566fdccb503f",
+      "characters": 1806
+    },
+    "S422360b933495041": {
+      "kind": "pubmed_abstract",
+      "pmid": "16290978",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16290978/",
+      "title": "Blood volume and brain natriuretic peptide in congestive heart failure: a pilot study.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2005 Nov"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-19T12:49:37.676053+00:00",
+      "text_scope": "abstract_only",
+      "id": "S422360b933495041",
+      "text_file": "sources/S422360b933495041.txt",
+      "text_sha256": "d7e7ea5c8078ad225c5d971dd0cf5b2c4c25cc791c4aaac82d3dd29f27fe205c",
+      "characters": 1800
+    }
+  },
+  "candidates": {},
+  "active_sources": [
+    "S03497b210d84149c",
+    "S0417cef78183352d",
+    "Sef005e977b28d913",
+    "S87f90993316e05a0",
+    "Sf177d99b8f9cede3",
+    "S1955d890eacc64be",
+    "S65191223e280ad02",
+    "Saa096fef81f1c81a",
+    "S0756726fd5d009f5",
+    "Sa7b17fb771d89d6c",
+    "S046d91794ffce008",
+    "S6a335acf4bb51a1c",
+    "S2122253e3604aad5",
+    "S4f65ddae7ab1ca21",
+    "S77e17308bf8a9da5",
+    "S422360b933495041"
+  ],
+  "official_domains_attempted": [
+    "who.int",
+    "cdc.gov"
+  ],
+  "revision": 0,
+  "retrieval_done": true,
+  "phase": "retrieving",
+  "report_history": [],
+  "limitations": []
+}

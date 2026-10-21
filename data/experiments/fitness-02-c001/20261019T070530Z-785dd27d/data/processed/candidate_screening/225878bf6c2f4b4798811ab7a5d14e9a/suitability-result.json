@@ -1,0 +1,186 @@
+{
+    "provenance": {
+        "input_file": "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/candidate_screening/225878bf6c2f4b4798811ab7a5d14e9a/assessment-input.json",
+        "input_sha256": "faf290825be14a0ab266f5bb835de42c460736014e1c034c6bfe1baadc82aa5e",
+        "model": "gemini-3.8-flash",
+        "rubric_version": "suitability-v1",
+        "status": "complete"
+    },
+    "claims": [
+        {
+            "claim_id": "fitness-02-c001",
+            "assessments": [
+                {
+                    "pmid": "19917733",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This study evaluated plantar fascia-specific stretching combined with orthoses or electrical stimulation for pain and functional outcomes in plantar fasciitis. It did not evaluate blood circulation or stretching upon waking."
+                },
+                {
+                    "pmid": "26275649",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "This trial assessed a morning intervention combining brisk walking with stretching exercises alongside yoga in elderly subjects, evaluating arterial stiffness and nitric oxide rather than directly measuring blood flow or circulation. Furthermore, morning exercise is not equivalent to stretching immediately after waking up."
+                },
+                {
+                    "pmid": "167706",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This study examined sleep disturbances during simulated space flight and bedrest; it did not investigate a stretching exercise intervention to boost circulation."
+                },
+                {
+                    "pmid": "38741608",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "This animal study demonstrated that acute and chronic static muscle stretching increased local bone blood flow in rats. However, it investigated splint-induced muscle stretching in an animal model and did not examine human stretching immediately upon waking."
+                },
+                {
+                    "pmid": "28397006",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "This study examined the acute effect of passive calf stretching on regional arterial stiffness in healthy young men. While it investigated a stretching intervention, it measured pulse wave velocity rather than directly measuring blood circulation, and did not examine the post-waking context."
+                },
+                {
+                    "pmid": "40182711",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This study evaluated ischemic conditioning versus traditional recovery (stretching and foam rolling) after strength training on muscle recovery markers, not stretching to boost circulation after waking."
+                },
+                {
+                    "pmid": "41361156",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "partial",
+                    "reason": "This trial included passive stretching as a control condition to evaluate morning versus evening aerobic training on hemodynamics and vascular parameters in hypertensive elderly patients. It found no significant vascular or hemodynamic changes from stretching and did not evaluate stretching immediately after waking."
+                },
+                {
+                    "pmid": "38640183",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This study examined the effects of a multi-component yoga module practiced in the morning on cardiopulmonary and musculoskeletal fitness in female college students, rather than testing stretching alone to boost circulation upon waking."
+                },
+                {
+                    "pmid": "24714795",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This study investigated aerobic training compared to a control procedure of stretching and walking for neurocardiogenic syncope; it did not evaluate stretching upon waking to improve circulation."
+                },
+                {
+                    "pmid": "40809290",
+                    "exposure_match": null,
+                    "outcome_match": null,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The abstract is missing. The title indicates an editorial regarding physiological transformations through muscle stretching, but empirical findings cannot be assessed and cannot establish evidence sufficiency."
+                },
+                {
+                    "pmid": "33269763",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This review focused on motor tract reorganization after acute central nervous system trauma and stroke; the term stretching refers to mechanical shearing injury of axons rather than a physical stretching exercise."
+                },
+                {
+                    "pmid": "32763257",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This in vitro study investigated mechanical cell stretching devices on cultured cardiomyocytes to evaluate mechanotransduction, not physical stretching of the human body."
+                },
+                {
+                    "pmid": "11943651",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This article discusses mechanical strain and cellular stretching in the lungs caused by mechanical ventilation, which is unrelated to body stretching exercises."
+                },
+                {
+                    "pmid": "1556775",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This study described physiological profiles and injury rates in elite figure skaters, with no investigation into stretching to boost circulation upon waking."
+                },
+                {
+                    "pmid": "17306136",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This article addresses acute lung injury from mechanical ventilation, referring to lung tissue stretching rather than bodily stretching exercises."
+                },
+                {
+                    "pmid": "19935063",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This review addressed lung-kidney interactions and lung stretching during mechanical ventilation in critical illness, unrelated to physical stretching exercises."
+                },
+                {
+                    "pmid": "21729635",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This article discusses iatrogenic vascular injuries during joint replacement surgery, where stretching refers to mechanical tension over surgical implants."
+                },
+                {
+                    "pmid": "23041761",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This study examined neurovascular coupling during auditory stimulation in waking states; the mention of stretching refers to hypothetical passive distension of blood vessel walls."
+                },
+                {
+                    "pmid": "32557265",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This paper discusses the pathology of Guillain-Barré syndrome, where stretching refers to mechanical strain on the perineurium from inflammatory edema."
+                },
+                {
+                    "pmid": "8892143",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This cadaveric study evaluated vascular occlusion resulting from stretching and twisting of arteries during traumatic hip dislocation."
+                },
+                {
+                    "pmid": "9266251",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This review summarizes geriatric rehabilitation modalities, mentioning exercise that includes stretching and noting that mechanical traction increases circulation, but provides no empirical data linking body stretching upon waking to boosted circulation."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Controlled human experimental studies directly evaluating the acute or chronic effects of whole-body or regional stretching performed specifically after waking up on direct measures of blood circulation or tissue perfusion."
+        }
+    ]
+}

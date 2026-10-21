@@ -1,0 +1,9 @@
+INTRODUCTION: The acute blood pressure (BP) decrease is greater after evening than morning exercise, suggesting that evening training (ET) may have a greater hypotensive effect.
+
+OBJECTIVE: This study aimed to compare the hypotensive effect of aerobic training performed in the morning versus evening in treated hypertensives.
+
+METHODS: Fifty treated hypertensive men were randomly allocated to three groups: morning training (MT), ET, and control (C). Training groups cycled for 45 min at moderate intensity (progressing from the heart rate of the anaerobic threshold to 10% below the heart rate of the respiratory compensation point), while C stretched for 30 min. Interventions were conducted 3 times per week for 10 wk. Clinic and ambulatory BP and hemodynamic and autonomic mechanisms were evaluated before and after the interventions. Clinic assessments were performed in the morning (7:00-9:00 AM) and evening (6:00-8:00 PM). Between-within ANOVA was used (P ≤ 0.05).
+
+RESULTS: Only ET decreased clinic systolic BP differently from C and MT (morning assessment -5 ± 6 mm Hg and evening assessment -8 ± 7 mm Hg, P < 0.05). Only ET reduced 24 h and asleep diastolic BP differently from C and MT (-3 ± 5 and -3 ± 4 mm Hg, respectively, P < 0.05). Systemic vascular resistance decreased from C only in ET (P = 0.03). Vasomotor sympathetic modulation decreased (P = 0.001) and baroreflex sensitivity (P < 0.02) increased from C in both training groups with greater changes in ET than MT.
+
+CONCLUSIONS: In treated hypertensive men, aerobic training performed in the evening decreased clinic and ambulatory BP due to reductions in systemic vascular resistance and vasomotor sympathetic modulation. Aerobic training conducted at both times of day increases baroreflex sensitivity, but with greater after ET.

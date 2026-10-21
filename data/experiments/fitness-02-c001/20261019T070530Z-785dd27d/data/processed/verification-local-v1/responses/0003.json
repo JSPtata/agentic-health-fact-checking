@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:23:08.546426Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S03497b210d84149c\",\n  \"study_or_document_type\": \"randomized controlled study\",\n  \"population_and_intervention\": \"elderly subjects with increased pulse pressure; yoga vs. brisk walk\",\n  \"measured_outcome_or_recommendation\": \"reduction in arterial stiffness, BP, endothelial function, cardiac autonomic activity\",\n  \"finding\": \"Yoga more effective than brisk walk for reducing arterial stiffness and BP in elderly with increased PP\",\n  \"relation\": \"contradiction\",\n  \"limitations\": [\n    \"No mention of post-waking stretching\",\n    \"No timing specified for yoga intervention\",\n    \"No comparison to stretching\",\n    \"No evidence of effect on circulation post-waking\"\n  ],\n  \"quotes\": [\n    \"Yoga program offered was more effective than brisk-walk in reducing arterial stiffness along with BP in elderly individuals with increased PP.\",\n    \"Yoga can also significantly reduce sympathetic activity and improve endothelial function with enhancement in bioavailability of NO.\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 18093902208,
+  "load_duration": 40596500,
+  "prompt_eval_count": 512,
+  "prompt_eval_cached_count": 3,
+  "prompt_eval_duration": 2803877000,
+  "eval_count": 237,
+  "eval_duration": 14984929000
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T17:50:23.719958Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"exposure_anchor\": \"posture\",\n  \"exposure_terms\": [\"posture\"],\n  \"outcome_anchor\": \"back pain\",\n  \"outcome_terms\": [\"back pain\"],\n  \"context_anchor\": null,\n  \"context_terms\": []\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 8678350458,
+  "load_duration": 29968917,
+  "prompt_eval_count": 243,
+  "prompt_eval_cached_count": 220,
+  "prompt_eval_duration": 294028000,
+  "eval_count": 54,
+  "eval_duration": 8298865000
+}

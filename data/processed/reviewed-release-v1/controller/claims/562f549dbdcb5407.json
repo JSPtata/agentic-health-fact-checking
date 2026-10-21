@@ -1,0 +1,71 @@
+{
+  "claim_id": "fitness-02-c003",
+  "claim_text": "Eat fruits before meals, not after, for better digestion.",
+  "status": "completed_from_reviewed_assessment",
+  "interrupted": false,
+  "pending_action": "finished",
+  "source_review_status": "not_supplied",
+  "retrieval": null,
+  "verification": null,
+  "verdict": "insufficient_evidence",
+  "last_error": null,
+  "submissions": 1,
+  "history": [
+    {
+      "action": "adjudicated",
+      "input_sha256": "7a065f5275badb1af223c1d941e7b3b15cb4513cd0fd25edd2bd82a9a116673e",
+      "verdict": "insufficient_evidence"
+    }
+  ],
+  "adjudication": {
+    "status": "adjudicated_from_reviewed_assessments",
+    "verdict": "insufficient_evidence",
+    "reason": "The reviewed evidence does not establish support or refutation under this policy.",
+    "next_action": "stop_with_evidence_limits",
+    "summary": "The two appraised abstracts describe kiwifruit-related digestive benefits and baobab-extract experiments, but do not report a comparison of eating whole fruits before versus after meals on a defined human digestive outcome. This bounded assisted assessment cannot establish the timing recommendation or refute digestive benefits of particular fruits.",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "wording": "Eat fruits before meals, not after, for better digestion.",
+        "role": "core",
+        "conclusion": "insufficient_evidence",
+        "applicability": "indirect",
+        "evidence_strength": "limited",
+        "rationale": "The kiwifruit review states that green kiwifruit aids digestion and laxation; this is relevant background, not evidence that all fruit is better before meals. The baobab study separates bread experiments with in-vitro digestion from human consumption of aqueous baobab extract alongside white bread. Its human outcomes are glycemic response, satiety and energy expenditure; these do not establish the vague endpoint better digestion or a before-versus-after-meal advantage. Whole fruit, fruit extract, glucose responses and digestive symptoms must remain distinct. The supplied abstracts do not report the required timing comparison.",
+        "citations": [
+          {
+            "source_id": "PMID:23746068",
+            "quote": "Consuming gold kiwifruit with iron-rich meals improves poor iron status, and green kiwifruit aids digestion and laxation."
+          },
+          {
+            "source_id": "PMID:24176228",
+            "quote": "In vivo, baobab extract was consumed in solution at both a low-dose (18.5 g) and a high-dose (37 g) aqueous drink in 250 mL of water along with white bread, and resulting GR, satiety, and postprandial energy expenditure were measured."
+          }
+        ]
+      }
+    ],
+    "evidence_gaps": [
+      "Better digestion is not a defined endpoint; digestive symptoms, transit, nutrient absorption and postprandial glycemia cannot be substituted silently.",
+      "A human whole-fruit before-versus-after-meal comparison with a defined digestive endpoint is not reported in the appraised abstracts.",
+      "Fruit species, dose, population, timing interval, clinical importance and generalizability require specification.",
+      "Assisted appraisal of 2/70 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+    ],
+    "review": {
+      "decision": "accept",
+      "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+      "method": "assisted",
+      "claim_requirements_complete": true,
+      "assessment_sha256": "320d6582f8e558979af7804c789ebc96161fbb07d7d0bd377fb004910ffdcba0",
+      "unresolved_objections": []
+    },
+    "source_hashes": {
+      "PMID:23746068": "befa23deacc0bf913fadbfd3b06d76153ac773feb561f0f6e64f1a0d18f59f91",
+      "PMID:24176228": "b79b183d7b3c87a68e58121d764937c538bfd530fccf9438619d5da03083e21f"
+    },
+    "decision_scope": "Rule-based synthesis of supplied reviewed assessments; citation presence does not prove entailment or scientific correctness.",
+    "claim_id": "fitness-02-c003",
+    "claim_text": "Eat fruits before meals, not after, for better digestion.",
+    "input_sha256": "7a065f5275badb1af223c1d941e7b3b15cb4513cd0fd25edd2bd82a9a116673e",
+    "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c003.json"
+  }
+}

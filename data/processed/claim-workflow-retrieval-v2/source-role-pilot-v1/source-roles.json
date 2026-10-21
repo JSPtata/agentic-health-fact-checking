@@ -1,0 +1,419 @@
+{
+  "binding": {
+    "profile": "source-roles-v1",
+    "inputs": {
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/ranking-summary.json": "9c1bc881189853aa2e9d579c56b096ae59a59e2cd815823ab14405a1bf07aa01",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/bi-encoder/passage-ranking.json": "4c0ddeb3962e9c76470a5ca6de0518b3e1dfef60942f447a6cbc96689d0f345a",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cached-candidates.json": "831fb25a71ac928aefd9170b443e7ca32757cb2c0f43ce2dd94c89dedf522b42",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json": "e421b8c037fa3c0195451f921b68a2ed985b1ccc7c3eb45a73a95fa3fd7929be",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cross-encoder/cross-encoder-ranking.json": "099bc5f7a487e678d8bc91d059e93e734ba4b634f8ccdc3668bbb0d824c7d189",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/bi-encoder/passage-ranking.json": "55357725c5c9b998134fe51ff2283f7bbb003066f4520b1b9d5a689c7d627d21",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cached-candidates.json": "ae19fc9a8251deb2ae5d18775f32e6c1a266da747a48adf36b8800bc32ec7724",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cross-encoder/cross-encoder-ranking.json": "fb15bb9c11d43cdd2e4960919768293e57ed5ed11568a7f9b913a00179588b3a"
+    },
+    "backend": "ollama",
+    "model_identity": {
+      "model": "qwen3:4b",
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    "selected_pmids": [
+      "10499460",
+      "36233963",
+      "37316040"
+    ],
+    "ranking_top_k": 10,
+    "script_sha256": "7ccde911c4f2b26df3bfbfdc72ae27d2a9c46439464fccd64e7f3c7f286f978f",
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e"
+  },
+  "claims": [
+    {
+      "claim": {
+        "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+        "exposure": "drinking coffee",
+        "outcome": "prevent acidity",
+        "context": "on an empty stomach",
+        "claim_id": "fitness-02-c002"
+      },
+      "source_cards": {
+        "10499460": {
+          "status": "provisional_source_card",
+          "role": "mechanistic_context",
+          "fit": "not_applicable",
+          "lane": "needs_review",
+          "contrast": "not_reported",
+          "reason": "The claim 'Avoid drinking coffee on an empty stomach to prevent acidity' requires evidence that coffee consumption on an empty stomach causes acidity, and that avoiding it prevents acidity. The review does not address the specific context of 'on an empty stomach' or the prevention of acidity. The 'g",
+          "scope_flags": [
+            "no_treatment",
+            "no_prevention",
+            "no_empty_stomach"
+          ],
+          "facts": {
+            "design": [
+              {
+                "quote_id": "Q10",
+                "text": " Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia."
+              }
+            ],
+            "population": [
+              {
+                "quote_id": "Q1",
+                "text": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\n"
+              },
+              {
+                "quote_id": "Q2",
+                "text": "METHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\n"
+              },
+              {
+                "quote_id": "Q3",
+                "text": "RESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking."
+              },
+              {
+                "quote_id": "Q4",
+                "text": " It is demonstrated that coffee promotes gastro-oesophageal reflux."
+              },
+              {
+                "quote_id": "Q5",
+                "text": " Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+              },
+              {
+                "quote_id": "Q6",
+                "text": " Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit."
+              }
+            ],
+            "exposure_and_comparator": [
+              {
+                "quote_id": "Q1",
+                "text": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\n"
+              },
+              {
+                "quote_id": "Q2",
+                "text": "METHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\n"
+              },
+              {
+                "quote_id": "Q3",
+                "text": "RESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking."
+              },
+              {
+                "quote_id": "Q4",
+                "text": " It is demonstrated that coffee promotes gastro-oesophageal reflux."
+              },
+              {
+                "quote_id": "Q5",
+                "text": " Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+              },
+              {
+                "quote_id": "Q6",
+                "text": " Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit."
+              }
+            ],
+            "actual_outcomes": [
+              {
+                "quote_id": "Q3",
+                "text": "RESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking."
+              },
+              {
+                "quote_id": "Q4",
+                "text": " It is demonstrated that coffee promotes gastro-oesophageal reflux."
+              },
+              {
+                "quote_id": "Q5",
+                "text": " Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+              },
+              {
+                "quote_id": "Q6",
+                "text": " Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit."
+              },
+              {
+                "quote_id": "Q7",
+                "text": " Coffee induces cholecystokinin release and gallbladder contraction, which may explain why patients with symptomatic gallstones often avoid drinking coffee."
+              },
+              {
+                "quote_id": "Q8",
+                "text": " Coffee increases rectosigmoid motor activity within 4 min after ingestion in some people. Its effects on the colon are found to be comparable to those of a 1000 kCal meal."
+              }
+            ],
+            "results": [
+              {
+                "quote_id": "Q3",
+                "text": "RESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking."
+              },
+              {
+                "quote_id": "Q4",
+                "text": " It is demonstrated that coffee promotes gastro-oesophageal reflux."
+              },
+              {
+                "quote_id": "Q5",
+                "text": " Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+              },
+              {
+                "quote_id": "Q6",
+                "text": " Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit."
+              },
+              {
+                "quote_id": "Q7",
+                "text": " Coffee induces cholecystokinin release and gallbladder contraction, which may explain why patients with symptomatic gallstones often avoid drinking coffee."
+              },
+              {
+                "quote_id": "Q8",
+                "text": " Coffee increases rectosigmoid motor activity within 4 min after ingestion in some people. Its effects on the colon are found to be comparable to those of a 1000 kCal meal."
+              }
+            ],
+            "duration": [
+              {
+                "quote_id": "Q9",
+                "text": " Since coffee contains no calories, and its effects on the gastrointestinal tract cannot be ascribed to its volume load, acidity or osmolality, it must have pharmacological effects."
+              }
+            ],
+            "guidance": [
+              {
+                "quote_id": "Q10",
+                "text": " Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia."
+              }
+            ],
+            "mechanism": [
+              {
+                "quote_id": "Q1",
+                "text": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\n"
+              },
+              {
+                "quote_id": "Q2",
+                "text": "METHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\n"
+              },
+              {
+                "quote_id": "Q3",
+                "text": "RESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking."
+              },
+              {
+                "quote_id": "Q4",
+                "text": " It is demonstrated that coffee promotes gastro-oesophageal reflux."
+              },
+              {
+                "quote_id": "Q5",
+                "text": " Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+              },
+              {
+                "quote_id": "Q6",
+                "text": " Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit."
+              }
+            ],
+            "reported_limitations_or_harms": [
+              {
+                "quote_id": "Q10",
+                "text": " Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia."
+              }
+            ]
+          },
+          "role_basis": [
+            {
+              "quote_id": "Q1",
+              "text": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\n"
+            },
+            {
+              "quote_id": "Q2",
+              "text": "METHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\n"
+            },
+            {
+              "quote_id": "Q3",
+              "text": "RESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking."
+            },
+            {
+              "quote_id": "Q4",
+              "text": " It is demonstrated that coffee promotes gastro-oesophageal reflux."
+            },
+            {
+              "quote_id": "Q5",
+              "text": " Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+            },
+            {
+              "quote_id": "Q6",
+              "text": " Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit."
+            }
+          ],
+          "correction_checks_required": [],
+          "publication_checks_required": [],
+          "semantic_review_required": true,
+          "adjudication_approved": false,
+          "source": {
+            "kind": "pubmed_abstract",
+            "pmid": "10499460",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10499460/",
+            "title": "Coffee and gastrointestinal function: facts and fiction. A review.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "1999"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              2
+            ],
+            "abstract": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\nMETHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\nRESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking. It is demonstrated that coffee promotes gastro-oesophageal reflux. Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results. Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit. Coffee induces cholecystokinin release and gallbladder contraction, which may explain why patients with symptomatic gallstones often avoid drinking coffee. Coffee increases rectosigmoid motor activity within 4 min after ingestion in some people. Its effects on the colon are found to be comparable to those of a 1000 kCal meal. Since coffee contains no calories, and its effects on the gastrointestinal tract cannot be ascribed to its volume load, acidity or osmolality, it must have pharmacological effects. Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia. Coffee stimulates gallbladder contraction and colonic motor activity.",
+            "abstract_available": true,
+            "abstract_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+            "ranking_positions": {
+              "bi_encoder": 1,
+              "cross_encoder": 1
+            }
+          }
+        },
+        "36233963": {
+          "status": "unresolved",
+          "source": {
+            "kind": "pubmed_abstract",
+            "pmid": "36233963",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36233963/",
+            "title": "Evaluation of Recycled Spent Coffee Material Treated with Animal Glue, Starch, and Red Clay as Acid Materials.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Journal Article"
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "2022 Sep 23"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              2
+            ],
+            "abstract": "Annual coffee consumption has increased to 10 million tons. Of the coffee consumed, 65% is discarded as spent coffee grounds (SCG). However, most SCG are buried in the ground as organic waste. The more coffee consumption increases, the more land is used for disposing of spent coffee. SCG recycling has gotten considerable attention as a solution involved in these issues. The construction community has studied means and methods to recycle SCG as construction materials, such as bricks, subgrade fillers, thermal insulators, etc. This paper presents a new method, which recycles SCG as a construction material, maximally using its acidity. The SCG were hardened with natural binders (i.e., animal glue (AG) and starch (S)) and red clay (RC). The SCG mixtures were pressed with 2 MPa in a cylindrical mold and cured for 7 days. Then, the strength, durability, and pH tests were measured. The AG- and RC-treated SCG sample, which outputs 1933 kPa of strength and a 4.9 pH value, is identified as the optimal sampling method among the acid materials produced in this study. The optimal sample decreases the pH to approximately 7 of water where 68% weight of Ordinary Portland cement was soaked in.",
+            "abstract_available": true,
+            "abstract_sha256": "8caccc9a84cd65e72c401f72c9e1ac1a0f5cb7cfb838f1f4270ce8d0bb8613b4",
+            "ranking_positions": {
+              "bi_encoder": 3,
+              "cross_encoder": 3
+            }
+          },
+          "adjudication_approved": false,
+          "error": "Role needs a source quotation"
+        }
+      },
+      "verdict": null,
+      "queues": {
+        "effect_candidates": [],
+        "guidance_candidates": [],
+        "background_candidates": [],
+        "needs_review": [
+          "10499460"
+        ]
+      },
+      "status": "draft_suitability_only"
+    },
+    {
+      "claim": {
+        "claim_text": "Eat fruits before meals, not after, for better digestion.",
+        "exposure": "eating fruits",
+        "outcome": "better digestion",
+        "context": "before meals, not after",
+        "claim_id": "fitness-02-c003"
+      },
+      "source_cards": {
+        "37316040": {
+          "status": "provisional_source_card",
+          "role": "background",
+          "fit": "not_applicable",
+          "lane": "needs_review",
+          "contrast": "not_reported",
+          "reason": "The claim 'Eat fruits before meals, not after, for better digestion' refers to a behavioral recommendation for human consumption timing. The abstract describes in vitro gastrointestinal digestion assays for phenolic compounds in fruits, which is a laboratory method to simulate digestion conditions. ",
+          "scope_flags": [
+            "no_direct_evidence",
+            "no_human_data",
+            "no_behavioral_recommendation_support"
+          ],
+          "facts": {
+            "design": [],
+            "population": [
+              {
+                "quote_id": "Q1",
+                "text": "Fruits and their derivatives are sources of phenolic compounds, which contribute to the maintenance of health benefits."
+              }
+            ],
+            "exposure_and_comparator": [
+              {
+                "quote_id": "Q1",
+                "text": "Fruits and their derivatives are sources of phenolic compounds, which contribute to the maintenance of health benefits."
+              }
+            ],
+            "actual_outcomes": [],
+            "results": [
+              {
+                "quote_id": "Q1",
+                "text": "Fruits and their derivatives are sources of phenolic compounds, which contribute to the maintenance of health benefits."
+              }
+            ],
+            "duration": [],
+            "guidance": [],
+            "mechanism": [
+              {
+                "quote_id": "Q1",
+                "text": "Fruits and their derivatives are sources of phenolic compounds, which contribute to the maintenance of health benefits."
+              }
+            ],
+            "reported_limitations_or_harms": [
+              {
+                "quote_id": "Q1",
+                "text": "Fruits and their derivatives are sources of phenolic compounds, which contribute to the maintenance of health benefits."
+              }
+            ]
+          },
+          "role_basis": [
+            {
+              "quote_id": "Q1",
+              "text": "Fruits and their derivatives are sources of phenolic compounds, which contribute to the maintenance of health benefits."
+            }
+          ],
+          "correction_checks_required": [],
+          "publication_checks_required": [],
+          "semantic_review_required": true,
+          "adjudication_approved": false,
+          "source": {
+            "kind": "pubmed_abstract",
+            "pmid": "37316040",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37316040/",
+            "title": "Gastrointestinal digestion assays for evaluating the bioaccessibility of phenolic compounds in fruits and their derivates: an overview.",
+            "organization": "PubMed record",
+            "publication_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "dates_as_reported": {
+              "journal_pubdate": "2023 Aug"
+            },
+            "correction_notices": [],
+            "retrieved_at": "2026-10-20T17:49:58.174524+00:00",
+            "text_scope": "abstract_only",
+            "matched_queries": [
+              2
+            ],
+            "abstract": "Fruits and their derivatives are sources of phenolic compounds, which contribute to the maintenance of health benefits. In order to exert such properties, these compounds must be exposed to gastrointestinal conditions during digestion. In vitro methods of gastrointestinal digestion have been developed to simulate and evaluate the changes that compounds undergo after being exposed to various conditions. We present, in this review, the major in vitro methods for evaluating the effects of gastrointestinal digestion of phenolic compounds in fruits and their derivatives. We discuss the concept of bioaccessibility, bioactivity, and bioavailability, as well as the conceptual differences and calculations among studies. Finally, the main changes caused by in vitro gastrointestinal digestion in phenolic compounds are also discussed. The significant variation of parameters and concepts observed hinders a better evaluation of the real effects on the antioxidant activity of phenolic compounds, thus, the use of standardized methods in research would contribute for a better understanding of these changes.",
+            "abstract_available": true,
+            "abstract_sha256": "b4a33a680a32d8c561eaf3aa9982f9fe3fbd78a49ac591bdcb01dc13a8a77aeb",
+            "ranking_positions": {
+              "bi_encoder": 10,
+              "cross_encoder": 1
+            }
+          }
+        }
+      },
+      "verdict": null,
+      "queues": {
+        "effect_candidates": [],
+        "guidance_candidates": [],
+        "background_candidates": [],
+        "needs_review": [
+          "37316040"
+        ]
+      },
+      "status": "draft_suitability_only"
+    }
+  ],
+  "model_attempts": 4,
+  "paused_service": false,
+  "scope": "Quotation-backed model drafts, not verified scientific facts. Only selected sources assessed. Empty selections are not proof of absence. No automatic exclusion or claim verdict; scientific review and verification remain necessary."
+}

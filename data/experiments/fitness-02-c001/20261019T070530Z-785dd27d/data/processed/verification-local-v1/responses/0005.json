@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:33:59.105135Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S03497b210d84149c\",\n  \"study_or_document_type\": \"randomized controlled study\",\n  \"population_and_intervention\": \"elderly subjects with increased pulse pressure; yoga vs. brisk walk\",\n  \"measured_outcome_or_recommendation\": \"reduction in arterial stiffness and BP\",\n  \"finding\": \"Yoga program was more effective than brisk walk in reducing arterial stiffness and BP\",\n  \"relation\": \"contradiction\",\n  \"limitations\": [\n    \"Results specific to elderly with increased pulse pressure\",\n    \"No mention of post-waking stretching\",\n    \"No direct comparison to stretching protocols\",\n    \"No evidence of acute effects post-waking\"\n  ],\n  \"quote_ids\": [\n    \"Q1\",\n    \"Q2\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 24100697292,
+  "load_duration": 10210729792,
+  "prompt_eval_count": 573,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 3640004000,
+  "eval_count": 189,
+  "eval_duration": 9874946000
+}

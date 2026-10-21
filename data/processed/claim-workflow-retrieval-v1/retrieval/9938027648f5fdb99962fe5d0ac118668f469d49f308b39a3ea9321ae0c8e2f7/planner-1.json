@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T17:28:17.947342Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"queries\": [\n    \"((drinking coffee) AND (on an empty stomach)) AND (prevent acidity)\",\n    \"((coffee consumption) OR (coffee drinking)) AND (on empty stomach) AND (acidity prevention)\"\n  ]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 19003524833,
+  "load_duration": 9921897666,
+  "prompt_eval_count": 155,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 1894534000,
+  "eval_count": 54,
+  "eval_duration": 6986338000
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:34:57.827892Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S0417cef78183352d\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"bone and bone vasculature\",\n  \"measured_outcome_or_recommendation\": \"intravascular volume of tibial bone\",\n  \"finding\": \"increased intravascular volume of tibial bone after 4 weeks of daily muscle stretching\",\n  \"relation\": \"support\",\n  \"limitations\": [\n    \"measures bone and bone vasculature, not whole body circulation\",\n    \"studies static stretching of hindlimb muscles, not general body stretching\",\n    \"no mention of waking-specific timing\",\n    \"no evidence of acute effects on circulation\"\n  ],\n  \"quote_ids\": [\n    \"Q4\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 9988985792,
+  "load_duration": 32370125,
+  "prompt_eval_count": 516,
+  "prompt_eval_cached_count": 369,
+  "prompt_eval_duration": 858773000,
+  "eval_count": 182,
+  "eval_duration": 8943812000
+}

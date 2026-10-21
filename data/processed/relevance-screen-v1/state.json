@@ -1,0 +1,370 @@
+{
+  "binding": {
+    "profile": "claim-relevance-triage-v1",
+    "input_sha256": "1cab3582deddbb9ad8cdbfb9c145cf9774f61b20798c186cf19e69b186948819",
+    "script_sha256": "7e90ee4439ac86d73173ec61133be5cbbfcecbca796f90a547ba2c49d55bc06a",
+    "model": "qwen3:4b",
+    "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "attempts_per_pair": 2,
+    "anchor_code_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e",
+    "pydantic_version": "2.13.4"
+  },
+  "outputs": {
+    "3ff499b09a82072c9c821a9f160ff6f74b046fb50b49b77d49c3d6c1cf1ee491": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q6"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q9",
+          "Q10",
+          "Q11",
+          "Q12"
+        ]
+      },
+      "context": {
+        "match": "not_applicable",
+        "quote_ids": []
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'the best time for exercise' but the study only shows differential effects on specific metabolic markers (HbA1c, fasting glucose) in T2D populations, not a general 'best time' for all individuals or health outcomes. The study does not provide a universal recommendation for 'best time' across all populations or health contexts. The claim is overly broad and does not align with the ",
+      "gaps": [
+        "The study does not address general population benefits beyond T2D populations",
+        "No evidence for long-term benefits outside of T2D populations",
+        "No comparison of exercise timing across different health conditions or populations",
+        "The claim implies a single optimal time for all, but the study shows context-dependent effects"
+      ]
+    },
+    "d206fcc43b75d7cf127abc59f90e9bb4bee4e64bf26fdf35e128badfc38dccba": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q4",
+          "Q7",
+          "Q8",
+          "Q11"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q13",
+          "Q15",
+          "Q16",
+          "Q17"
+        ]
+      },
+      "context": {
+        "match": "not_applicable",
+        "quote_ids": [
+          "Q6",
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'the best time for exercise' but the study compares morning vs. evening training without identifying a superior outcome. The outcomes measured (muscle strength, VO2peak) show improvements in both groups but no consistent superiority. The study does not claim a 'best' time, only that both schedules are effective. Vague outcomes like 'best' require clarification as the study does no",
+      "gaps": [
+        "The study does not specify which time of day is better for which outcome",
+        "No comparison of long-term effects or sustainability of results",
+        "Limited body composition changes reported (waist circumference increased in control group)"
+      ]
+    },
+    "1a00489d42909e118b324a76da5cf78d0401e3f4a1feb95a10acb256dd270465": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q10"
+        ]
+      },
+      "context": {
+        "match": "not_applicable",
+        "quote_ids": []
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim suggests replacing sugary drinks with herbal tea as a healthier alternative. The abstract mentions replacing SSBs with water (Q10) but does not specify herbal tea as an alternative. Herbal tea is not mentioned in the abstract, so the claim's proposed alternative is not directly supported. The abstract focuses on SSBs and their health impacts, but does not review herbal tea as a viable or",
+      "gaps": [
+        "Herbal tea is not mentioned in the abstract as a replacement for SSBs",
+        "The abstract specifies water as the healthy alternative (Q10), not herbal tea"
+      ]
+    },
+    "9917b4cbde2af3ead26c1d3c34562f0f35c8565b5729401091cd419f0795850f": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "not_applicable",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'herbal tea' as the alternative, but the study only mentions 'coffee/tea' (not herbal tea) as a substitution. The outcome is partially measured (BMI and WC), but the claim implies a direct health benefit without specifying the outcome. The context is not applicable as the study is a cross-sectional analysis, not an intervention study. The claim lacks specificity on the type of tea",
+      "gaps": [
+        "The study does not specify herbal tea as the alternative; it mentions coffee/tea",
+        "The outcome is measured as BMI and WC, but the claim implies a broader health benefit",
+        "The study is cross-sectional, so it does not provide evidence for causation or intervention effects"
+      ]
+    }
+  },
+  "events": [
+    {
+      "key": "5512fb34bd96ee4c5f2d3caff3c66262fc2cb6a946951c39511852bbb005d642",
+      "status": "invalid_output",
+      "prompt_sha256": "7aa89f7c724236fdd57a0c3c9bc7e2d39423f6d4c82f227ea5087932e6a8b57e",
+      "response_file": "responses/0001.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "5512fb34bd96ee4c5f2d3caff3c66262fc2cb6a946951c39511852bbb005d642",
+      "status": "invalid_output",
+      "prompt_sha256": "3e01ae33657bfd7492d03dd454cb054398d614eab88971eb2997880a8f9595a1",
+      "response_file": "responses/0002.json",
+      "error": "Unknown or duplicate quotation ID"
+    },
+    {
+      "key": "a02475b5746b3100e81785275ef49514a46321c928f8ff8f0d8a2115e3d5b59f",
+      "status": "invalid_output",
+      "prompt_sha256": "26f36d36fc1de680d393d7335bdd67dc5986977832589d39877b2324786f2f9c",
+      "response_file": "responses/0003.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "a02475b5746b3100e81785275ef49514a46321c928f8ff8f0d8a2115e3d5b59f",
+      "status": "invalid_output",
+      "prompt_sha256": "b6662fae2e9641e7a5f14b1e72bc969df8c0c81c5dec1c5a00a3883eef630a98",
+      "response_file": "responses/0004.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "760168e047d4b658aa0319c125b2e29cb778324aa10fa65ca85ce90e66638d39",
+      "status": "invalid_output",
+      "prompt_sha256": "11b773c4daf0ff05ae9bd83d9958f5d68de096d7b8f76ef6d6ff8bdfc87aed03",
+      "response_file": "responses/0005.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "760168e047d4b658aa0319c125b2e29cb778324aa10fa65ca85ce90e66638d39",
+      "status": "invalid_output",
+      "prompt_sha256": "6a63b029ba7faf70c4376ddf8e4d1cc68c27a9a6252ac3b7d6adfd3ac39e4429",
+      "response_file": "responses/0006.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "78c109f998fdba198bde2346f203f58409a088769938e00b6aaeda21526bdaba",
+      "status": "invalid_output",
+      "prompt_sha256": "9c96fe22046f4e4fed5549c192898342602a6bd2cdab29feb2d6145ee2ca6922",
+      "response_file": "responses/0007.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "78c109f998fdba198bde2346f203f58409a088769938e00b6aaeda21526bdaba",
+      "status": "invalid_output",
+      "prompt_sha256": "e5c95d234d9f0af390936b8cf09d203434af4e8391494ecaddd160de26c99c53",
+      "response_file": "responses/0008.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "4768e951aba96d45d690cb089c3f4e74dbb8f433d1f8e82581b65e7f3220eddd",
+      "status": "invalid_output",
+      "prompt_sha256": "39f2ed493c92a11caba082d1c96456dd66dd6970bba11432821a227345887d8c",
+      "response_file": "responses/0009.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "4768e951aba96d45d690cb089c3f4e74dbb8f433d1f8e82581b65e7f3220eddd",
+      "status": "invalid_output",
+      "prompt_sha256": "007dbbf13ffbedf43882702e60785b8500fb0b15373cf4ec7ca9b5489b770592",
+      "response_file": "responses/0010.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "ed358c9f9c53a4e1e471a987a2bad459a966ca030c535702a36b898a5316a8ef",
+      "status": "invalid_output",
+      "prompt_sha256": "1dccc0a48c576a7b5c582844bef7b6afd9efdeb29a4fba3b566723d44f74f8ad",
+      "response_file": "responses/0011.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "ed358c9f9c53a4e1e471a987a2bad459a966ca030c535702a36b898a5316a8ef",
+      "status": "invalid_output",
+      "prompt_sha256": "6fcf66d7562803385e9a7a4016e433d4b0353821de071f81da285fe8ca93cdd7",
+      "response_file": "responses/0012.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "3ff499b09a82072c9c821a9f160ff6f74b046fb50b49b77d49c3d6c1cf1ee491",
+      "status": "structure_checked",
+      "prompt_sha256": "bdc723602207d270e4b40f9a9e6af5188eda6180bf12f40341671560434dd2f8",
+      "response_file": "responses/0013.json"
+    },
+    {
+      "key": "d206fcc43b75d7cf127abc59f90e9bb4bee4e64bf26fdf35e128badfc38dccba",
+      "status": "structure_checked",
+      "prompt_sha256": "528d039db6e51f39920de961097a187eab94c95def7ad3494c560a97cd601193",
+      "response_file": "responses/0014.json"
+    },
+    {
+      "key": "71b326e90d2e3e875d9a7586243a1e50cbac37d98f6b33e7429955ddff5e5875",
+      "status": "invalid_output",
+      "prompt_sha256": "6ae41e9dc038be24c32932141b8fa824aef2ec15e40f09c80ff73d1479203643",
+      "response_file": "responses/0015.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "71b326e90d2e3e875d9a7586243a1e50cbac37d98f6b33e7429955ddff5e5875",
+      "status": "invalid_output",
+      "prompt_sha256": "405f0056a1e050767958085355473dc6c99e44675b2f7fcc1883055320b95b8e",
+      "response_file": "responses/0016.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "56e0965a0a2dccc70190e2788b58fba397ceb312e742778569b7b321229de1ce",
+      "status": "invalid_output",
+      "prompt_sha256": "4158b3d36bfae063bf359a6f8ccb2a33c808eb84f0b0e30194e7b748fb018f1c",
+      "response_file": "responses/0017.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "56e0965a0a2dccc70190e2788b58fba397ceb312e742778569b7b321229de1ce",
+      "status": "invalid_output",
+      "prompt_sha256": "caae4fce1abcefbae3e4c0a45e89613bc60f5cd646e0fbc3a33ccfd0eacb9784",
+      "response_file": "responses/0018.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "4e8346ba36ca6f5dddf94eeef7eb716f7a03ceca005966872c0de22a7a731a11",
+      "status": "invalid_output",
+      "prompt_sha256": "8eeaa3e4f1c4195a6538cdd8eaed7f124e796068165e6c758a06c927356b398d",
+      "response_file": "responses/0019.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "4e8346ba36ca6f5dddf94eeef7eb716f7a03ceca005966872c0de22a7a731a11",
+      "status": "invalid_output",
+      "prompt_sha256": "ba98da29b10923af12d965b81a26f6ea11276eb84219cd04c87e669e1c4dda03",
+      "response_file": "responses/0020.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "1b9626c686fe999ae8cec1e7740d5c676575af490119ec7fef47d7d472a111d7",
+      "status": "invalid_output",
+      "prompt_sha256": "508c2665439aff404e8d3e747dd4ca1253018de229005e36dc126f7055341c66",
+      "response_file": "responses/0021.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "1b9626c686fe999ae8cec1e7740d5c676575af490119ec7fef47d7d472a111d7",
+      "status": "invalid_output",
+      "prompt_sha256": "5afd5c86bbfa8d2c796d1c6dd32065b02988307ad16f170a8991a775ccbb6eba",
+      "response_file": "responses/0022.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "de76f991bc622b3574e6db9add4b28fde6e0d8a1091d72a90cf119d422c63df5",
+      "status": "invalid_output",
+      "prompt_sha256": "0d60cce7c6e8eeb48ef6f5afab244fe9526d7f184f738f6799527956243b92d6",
+      "response_file": "responses/0023.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "de76f991bc622b3574e6db9add4b28fde6e0d8a1091d72a90cf119d422c63df5",
+      "status": "invalid_output",
+      "prompt_sha256": "f2ad74ad12e565923b9ed79be6138a032d4cdd34d1a1ad267ccbb46a4b5cb05e",
+      "response_file": "responses/0024.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "bbe613986b4b472375c55e9c14b55e53551093d37d03fb32d2d20d7d33ef149b",
+      "status": "invalid_output",
+      "prompt_sha256": "4b950dd2444779f8ba11990fb4720ec30be60559999cd2aa79820755620ae240",
+      "response_file": "responses/0025.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "bbe613986b4b472375c55e9c14b55e53551093d37d03fb32d2d20d7d33ef149b",
+      "status": "invalid_output",
+      "prompt_sha256": "f22ccc0e84c95f3efd4f0085f5d64ac50ac1c11427f6b24a323aaa931ea31025",
+      "response_file": "responses/0026.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "931f269688a0998c643d39c988ff788717a25011fd656dffd4908fd844516ff8",
+      "status": "invalid_output",
+      "prompt_sha256": "671cf0db868a0da7ee465d41a847bd2c39a7a0b758888af8765cd406dba1b2cc",
+      "response_file": "responses/0027.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "931f269688a0998c643d39c988ff788717a25011fd656dffd4908fd844516ff8",
+      "status": "invalid_output",
+      "prompt_sha256": "4bca203af92f81b4fc90934385d07f355705418bd799a030680943e54f1624ab",
+      "response_file": "responses/0028.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "1a00489d42909e118b324a76da5cf78d0401e3f4a1feb95a10acb256dd270465",
+      "status": "structure_checked",
+      "prompt_sha256": "1cd5a100cc5433f8d91ff7501b60bab858798c70dbd95a7cbeeaa0a4246f2c78",
+      "response_file": "responses/0029.json"
+    },
+    {
+      "key": "9917b4cbde2af3ead26c1d3c34562f0f35c8565b5729401091cd419f0795850f",
+      "status": "invalid_output",
+      "prompt_sha256": "2e1c1ce7223c3b70b4f7b781734a4700b2b5777ea4d5e63c0bb81723e0e770d4",
+      "response_file": "responses/0030.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "9917b4cbde2af3ead26c1d3c34562f0f35c8565b5729401091cd419f0795850f",
+      "status": "structure_checked",
+      "prompt_sha256": "2bc02d4f6e1ef15bc474dca9df2b7c3932a30a7a0e28a6a2a2df241fc393b306",
+      "response_file": "responses/0031.json"
+    },
+    {
+      "key": "cd6d92f3840e00cf39299336162536231cc5e81191cd59a223241e7878a7f4a7",
+      "status": "invalid_output",
+      "prompt_sha256": "9cab232cd845c96ddc494e0baa5f356cbdfa2e10de5efbfcf717288dd14b80ff",
+      "response_file": "responses/0032.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "cd6d92f3840e00cf39299336162536231cc5e81191cd59a223241e7878a7f4a7",
+      "status": "invalid_output",
+      "prompt_sha256": "2a9af3da092aa766980948e37a373a36f4f4963c6e2624c81cc614af10193ea0",
+      "response_file": "responses/0033.json",
+      "error": "Only context may be not_applicable"
+    }
+  ]
+}

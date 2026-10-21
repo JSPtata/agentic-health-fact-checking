@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T10:59:57.193962Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"exposure\": {\n    \"match\": \"not_applicable\",\n    \"quote_ids\": []\n  },\n  \"outcome\": {\n    \"match\": \"mismatch\",\n    \"quote_ids\": [\n    \"Q12\",\n    \"Q13\",\n    \"Q14\"\n  ]\n  },\n  \"context\": {\n    \"match\": \"mismatch\",\n    \"quote_ids\": [\n    \"Q1\",\n    \"Q2\",\n    \"Q3\"\n  ]\n  },\n  \"needs_scope_clarification\": true,\n  \"reason\": \"The claim 'Avoid screen time at least 30 minutes before going to bed.' refers to screen time management as a behavioral intervention for sleep hygiene. The complete abstract discusses Virtual Ward services (a care model for older adults) and their psychological impacts, with no mention of screen time, sleep hygiene, or related interventions. The outcomes measured (depressive symptoms, self-rated m\",\n  \"gaps\": [\n    \"No reference to screen time, sleep hygiene, or related interventions in the abstract\",\n    \"No discussion of how screen time affects sleep or psychological outcomes in older adults\",\n    \"No comparison of screen time exposure with Virtual Ward care or other interventions\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 42378690792,
+  "load_duration": 31862250,
+  "prompt_eval_count": 921,
+  "prompt_eval_cached_count": 158,
+  "prompt_eval_duration": 9772173000,
+  "eval_count": 273,
+  "eval_duration": 32404860000
+}

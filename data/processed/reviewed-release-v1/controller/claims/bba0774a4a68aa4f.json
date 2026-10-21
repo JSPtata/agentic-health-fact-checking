@@ -1,0 +1,170 @@
+{
+  "claim_id": "nutrition-01-diagnostic-c001",
+  "claim_text": "People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk.",
+  "status": "completed_from_reviewed_assessment",
+  "interrupted": false,
+  "pending_action": "finished",
+  "source_review_status": "not_supplied",
+  "retrieval": null,
+  "verification": null,
+  "verdict": "insufficient_evidence",
+  "last_error": null,
+  "submissions": 1,
+  "history": [
+    {
+      "action": "adjudicated",
+      "input_sha256": "ff57ccc3efd722230ad35c1452536230f6fe37f8e368617f5d7ddab6c9788d2f",
+      "verdict": "insufficient_evidence"
+    }
+  ],
+  "adjudication": {
+    "status": "adjudicated_from_reviewed_assessments",
+    "verdict": "insufficient_evidence",
+    "reason": "The reviewed evidence does not establish support or refutation under this policy.",
+    "next_action": "stop_with_evidence_limits",
+    "summary": "Within the reviewed 17-abstract development pool, related studies report body-fat changes, weight changes or dietary associations, but the evidence does not establish or refute the exact restricted-food claim and its large, rapid fat-loss wording. Weight change is not equivalent to fat loss; adherence associations are not randomized dietary effects. Guidance does not experimentally refute this dietary package. Magnitude and timing remain unspecified. This completed assisted assessment is limited to the supplied abstracts and is not an exhaustive or independently validated verification of the claim.",
+    "criteria": [
+      {
+        "criterion_id": "diet_body_fat",
+        "wording": "Switching to the exact foods and beverages described in the claim, including the stated exclusions, produces body-fat loss.",
+        "role": "core",
+        "conclusion": "insufficient_evidence",
+        "applicability": "indirect",
+        "evidence_strength": "limited",
+        "rationale": "The metabolic-ward study estimates fat loss under different, isocaloric dietary restrictions with daily exercise. The Paleo adherence analysis randomizes exercise conditions, not dietary adherence. The minimally processed-food trial reports weight change in its abstract. These do not establish the exact claimed dietary effect.",
+        "citations": [
+          {
+            "source_id": "PMID:26278052",
+            "quote": "Body fat loss was calculated as the difference between daily fat intake and net fat oxidation measured while residing in a metabolic chamber."
+          },
+          {
+            "source_id": "PMID:33802738",
+            "quote": "Participants were asked to follow a Paleolithic diet for 12 weeks and were randomized to supervised exercise or general exercise recommendations."
+          },
+          {
+            "source_id": "PMID:40760353",
+            "quote": "The primary outcome was the within-participant difference in percent weight change (%WC) between diets, from baseline to week 8."
+          },
+          {
+            "source_id": "PMID:26278052",
+            "quote": "Whereas carbohydrate restriction led to sustained increases in fat oxidation and loss of 53 ± 6 g/day of body fat, fat oxidation was unchanged by fat restriction, leading to 89 ± 6 g/day of fat loss, and was significantly greater than carbohydrate restriction (p = 0.002)."
+          },
+          {
+            "source_id": "PMID:33802738",
+            "quote": "A higher Paleo ratio was associated with lower fat mass, BMI, waist circumference, systolic blood pressure, and serum triglycerides at 12 weeks, but not with lower HbA1c levels."
+          }
+        ]
+      },
+      {
+        "criterion_id": "magnitude",
+        "wording": "The amount of body-fat loss is large, as expressed by \"a lot\".",
+        "role": "qualifier",
+        "conclusion": "insufficient_evidence",
+        "applicability": "indirect",
+        "evidence_strength": "limited",
+        "rationale": "The claim provides no quantitative threshold. A fat-mass percentage contrast at 12 months in a different dietary comparison cannot establish the size of fat loss under this exact diet. Do not convert this percentage contrast into kilograms or absolute fat loss.",
+        "citations": [
+          {
+            "source_id": "PMID:25178568",
+            "quote": "fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011)"
+          },
+          {
+            "source_id": "PMID:25178568",
+            "quote": "At 12 months, participants on the low-carbohydrate diet had greater decreases in weight (mean difference in change, -3.5 kg [95% CI, -5.6 to -1.4 kg]; P = 0.002), fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011)"
+          }
+        ]
+      },
+      {
+        "criterion_id": "timing",
+        "wording": "Body-fat loss occurs \"very quickly\".",
+        "role": "qualifier",
+        "conclusion": "insufficient_evidence",
+        "applicability": "indirect",
+        "evidence_strength": "limited",
+        "rationale": "The claim supplies no duration. A six-day metabolic-ward comparison and measurements up to 12 months describe different settings and diets. Do not invent a time cutoff or equate early weight change with rapid fat loss.",
+        "citations": [
+          {
+            "source_id": "PMID:26278052",
+            "quote": "We selectively restricted dietary carbohydrate versus fat for 6 days following a 5-day baseline diet in 19 adults with obesity confined to a metabolic ward where they exercised daily."
+          },
+          {
+            "source_id": "PMID:25178568",
+            "quote": "Data on weight, cardiovascular risk factors, and dietary composition were collected at 0, 3, 6, and 12 months."
+          }
+        ]
+      },
+      {
+        "criterion_id": "prior_diet_context",
+        "wording": "The effect applies to people previously eating a lot of processed foods and excess carbohydrates and fats together.",
+        "role": "qualifier",
+        "conclusion": "insufficient_evidence",
+        "applicability": "indirect",
+        "evidence_strength": "limited",
+        "rationale": "One trial includes high habitual UPF intake, but tests Eatwell-guided diets and reports weight change. Other evidence includes obesity or type 2 diabetes and different interventions. This provides partial contextual overlap without establishing the full exposure, outcome and prior-diet combination.",
+        "citations": [
+          {
+            "source_id": "PMID:40760353",
+            "quote": "habitual UPF intake ≥50% kcal day-1"
+          },
+          {
+            "source_id": "PMID:33802738",
+            "quote": "individuals with type 2 diabetes"
+          },
+          {
+            "source_id": "PMID:40760353",
+            "quote": "55 adults in England (body mass index ≥25 to <40 kg m-2, habitual UPF intake ≥50% kcal day-1) were provided with two 8-week ad libitum diets following the UK Eatwell Guide"
+          }
+        ]
+      }
+    ],
+    "evidence_gaps": [
+      "The magnitude and duration of \"a lot\" and \"very quickly\" are unspecified; no thresholds were invented.",
+      "No direct test of the complete restricted-food and beverage claim was identified in the reviewed 17 abstracts. This is not proof that no such study exists.",
+      "Only the pooled top-10 candidates from two rankings were reviewed, not every retrieved article or the whole literature; this is not an exhaustive systematic review.",
+      "Full texts, risk of bias, study overlap and applicability have not been independently assessed.",
+      "Linked corrections 31269427 and 33027677 for 31105044, and 36183244 for 35362512, remain unchecked. No numerical effects from those sources are used in these criteria.",
+      "This assessment and its source-role judgments are assistant-assisted development work, not independent expert validation."
+    ],
+    "review": {
+      "decision": "accept",
+      "reviewer": "ChatGPT second-pass assisted review; same assistant, not independent expert review",
+      "method": "assisted",
+      "claim_requirements_complete": true,
+      "assessment_sha256": "7afbc1fcaa71f74d820c4121b66eeb2e7de66bac21fd6339c8ad8fff2108de94",
+      "unresolved_objections": [
+        {
+          "severity": "minor",
+          "problem": "Abstract-only scope: full texts, risk of bias, linked corrections and underlying synthesis evidence remain unverified. These limits are retained; no numerical effects from the flagged correction-linked papers are used."
+        },
+        {
+          "severity": "minor",
+          "problem": "The claim leaves magnitude and timing unspecified. No thresholds are inferred; the assessment supports neither affirmation nor refutation of those qualifiers."
+        }
+      ]
+    },
+    "source_hashes": {
+      "PMID:25178568": "1ec6d10bee74eb93d2ee86d01b046f5c3ea536aff2c54d3647ae7c4918f2e421",
+      "PMID:26278052": "df0f93b2ea856cb79a6ece567e17e317f522585f863233ed72a56812f72b1075",
+      "PMID:28676132": "aa057cb764f6dbd48054c44e545d73fb65fff01cf6028c509f10df85f4642daa",
+      "PMID:31105044": "ac04e8d2cd5e4a260c4f974a39ed5728a09b43a5b620bc2b6152c3ec40683e65",
+      "PMID:32990607": "73a11ee516de3d72b20b95509f070e10138012b8031f94a3a92d5ab70bbfb7f2",
+      "PMID:33479499": "4b7d4c9300a0096f6b6642e5f8578dea39308d34a83e1de96b7362edac21a881",
+      "PMID:33802738": "b00225db7b95bd6ce9dd58b612ee8a5e694b93f62867518d6870464fafeffca1",
+      "PMID:33916669": "7bb63db75f60467cf294621d0d7886a7d64f685ae235580df8c011316bbe585a",
+      "PMID:34515299": "6660bb5a2925464d29d272f659265cfb7f18221d0a60ad9a070f04aa54e5613c",
+      "PMID:35362512": "4853b63d6a470e0d37b6c9107f56342f4190c73412b89c622272e3c3d16df57e",
+      "PMID:36313106": "a7bd4d5a08f11b232f3e0893bea7de9712edae7db77756b15edae41de6e8ba2c",
+      "PMID:37296485": "8da821853214ba670076aafffa3b0a03c06e437af9a1470d32497d8d7bf0e919",
+      "PMID:37535715": "4c6948d01dedaa6450484e7b6add2dda933a67e88f66177190032548fc95b301",
+      "PMID:40760353": "400fed3501f485f830425687e3c7bc6c9e1f18635394530f813841f6b888f424",
+      "PMID:40933253": "b0d6b68af1db062d91e6f2e81d8d30ef7723b47cce6486b82ee9ab4bdaf3b979",
+      "PMID:41628734": "835e7bea1888baf231b1dc62971adcefa49551ad4af8a97d8cc980bbc20df785",
+      "PMID:42502137": "2be08c92e9e05bdc8cb44ab4cf2ef28584f8cd753214d0d9b9eec6d47b98cb6d"
+    },
+    "decision_scope": "Rule-based synthesis of supplied reviewed assessments; citation presence does not prove entailment or scientific correctness.",
+    "claim_id": "nutrition-01-diagnostic-c001",
+    "claim_text": "People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk.",
+    "input_sha256": "ff57ccc3efd722230ad35c1452536230f6fe37f8e368617f5d7ddab6c9788d2f",
+    "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-reviewed-v1/assessment-reviewed.json"
+  }
+}

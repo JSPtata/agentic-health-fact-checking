@@ -1,0 +1,104 @@
+{
+  "video_id": "fitness-02",
+  "claims": [
+    {
+      "claim_text": "Always stretch your body after waking up to boost circulation.",
+      "queries_used": [
+        "(stretching OR \"stretching exercises\") AND (morning OR \"waking up\" OR awakening) AND (\"blood circulation\" OR \"blood flow\")",
+        "(\"muscle stretching\" OR \"stretching exercise\") AND (morning OR \"upon waking\") AND (hemodynamics OR \"vascular function\" OR microcirculation)",
+        "(\"static stretching\" OR stretching) AND (morning OR awakening) AND (\"peripheral blood flow\" OR perfusion OR circulation)"
+      ],
+      "query_source": "gemini",
+      "evidence": [
+        {
+          "title": "Use of low-frequency electrical stimulation for the treatment of plantar fasciitis.",
+          "abstract": "BACKGROUND: Recent research has discussed the use of low-frequency electrical stimulation to increase blood flow by eliciting muscular contraction in soft tissues. This randomized clinical trial examined the efficacy of low-frequency electrical stimulation combined with stretching exercises and foot orthoses in individuals diagnosed as having plantar fasciitis for less than 6 months.\n\nMETHODS: Twenty-six participants aged 18 to 65 years diagnosed as having plantar fasciitis were randomly assigned to two treatment groups: a control group receiving only stretching and orthoses and a treatment group receiving low-frequency electrical stimulation in addition to stretching and orthoses. To assess treatment response, a visual analog scale was used to determine first-step morning pain, and changes in daily activity levels were monitored by using a validated outcome measure. All of the participants were assessed before starting treatment, after 4 weeks of treatment, and 3 months after the conclusion of treatment.\n\nRESULTS: Participants in the control and experimental groups demonstrated pain reduction and improvements in functional activity levels after 4 weeks and 3 months.\n\nCONCLUSIONS: Regardless of whether low-frequency electrical stimulation was used as an intervention, the use of plantar fascia-specific stretching and prefabricated foot orthoses provided short-term (3-month) pain relief and improvement in functional activity levels.",
+          "abstract_sections": [
+            {
+              "label": "BACKGROUND",
+              "category": "BACKGROUND",
+              "text": "Recent research has discussed the use of low-frequency electrical stimulation to increase blood flow by eliciting muscular contraction in soft tissues. This randomized clinical trial examined the efficacy of low-frequency electrical stimulation combined with stretching exercises and foot orthoses in individuals diagnosed as having plantar fasciitis for less than 6 months."
+            },
+            {
+              "label": "METHODS",
+              "category": "METHODS",
+              "text": "Twenty-six participants aged 18 to 65 years diagnosed as having plantar fasciitis were randomly assigned to two treatment groups: a control group receiving only stretching and orthoses and a treatment group receiving low-frequency electrical stimulation in addition to stretching and orthoses. To assess treatment response, a visual analog scale was used to determine first-step morning pain, and changes in daily activity levels were monitored by using a validated outcome measure. All of the participants were assessed before starting treatment, after 4 weeks of treatment, and 3 months after the conclusion of treatment."
+            },
+            {
+              "label": "RESULTS",
+              "category": "RESULTS",
+              "text": "Participants in the control and experimental groups demonstrated pain reduction and improvements in functional activity levels after 4 weeks and 3 months."
+            },
+            {
+              "label": "CONCLUSIONS",
+              "category": "CONCLUSIONS",
+              "text": "Regardless of whether low-frequency electrical stimulation was used as an intervention, the use of plantar fascia-specific stretching and prefabricated foot orthoses provided short-term (3-month) pain relief and improvement in functional activity levels."
+            }
+          ],
+          "abstract_available": true,
+          "pmid": "19917733"
+        },
+        {
+          "title": "Effect of yoga on arterial stiffness in elderly subjects with increased pulse pressure: A randomized controlled study.",
+          "abstract": "OBJECTIVE: We aimed to determine the effect of yoga on arterial function in elderly with increased pulse pressure (PP).\n\nDESIGN: Randomized controlled study with two parallel groups.\n\nPARTICIPANTS: Elderly subjects with PP\u226560 mmHg (n=60).\n\nINTERVENTIONS: Yoga group (n=30) was assigned for yoga training and brisk-walking (BW) group (n=30) for brisk-walk with stretching exercise for 1h in the morning for 6 days in a week for 12 weeks.\n\nMAIN OUTCOME MEASURES: Arterial stiffness measures: Brachial-ankle pulse wave velocity (baPWV), Carotid-femoral pulse wave velocity (c-f PWV), aortic augmentation index (AIx@75), arterial stiffness index at brachial (bASI) and tibial arteries (aASI). Total serum nitric oxide concentration (NOx) as an index of endothelial function. Heart rate variability (HRV) measures: Low frequency and high frequency in normalized units (LFnu, HFnu) and LF/HF ratio.\n\nRESULTS: The mean between-group change (with 95% CI) in arterial stiffness: c-f PWV(m/s) [1.25(0.59-1.89); p<0.001], baPWV(m/s) [1.96(0.76-3.16), p<0.01], AIx@75 [3.07(0.24-5.89), p=0.066], aASI [8.3(4.06-12.53), p<0.001]; endothelial function index: NO(\u03bcmol/L) [-9.03(-14.57 to -3.47), p<0.001]; SBP(mmHg) [14.23(12.03-16.44), p<0.001], DBP(mmHg) [0.1(-1.95-2.15), p=0.38], PP(mmHg) [14.07(11.2-16.92), p<0.001], MAP(mmHg) [4.7(3.08-6.32), p<0.001]; and cardiac autonomic function: LF(nu) [4.81(1.54-8.08), p<0.01], HF(nu) [-4.13(-7.57 to -0.69), p<0.01], LF/HF ratio [0.84(0.3-1.37), p<0.001], indicate significant difference in effects of two intervention on arterial stiffness, endothelial function, BP and cardiac autonomic activity. There was significant change within-yoga group in vascular function, BP and autonomic function, while no significant change within-BW group was observed.\n\nCONCLUSION: Our findings suggest that yoga program offered was more effective than brisk-walk in reducing arterial stiffness along with BP in elderly individuals with increased PP. Yoga can also significantly reduce sympathetic activity and improve endothelial function with enhancement in bioavailability of NO.",
+          "abstract_sections": [
+            {
+              "label": "OBJECTIVE",
+              "category": "OBJECTIVE",
+              "text": "We aimed to determine the effect of yoga on arterial function in elderly with increased pulse pressure (PP)."
+            },
+            {
+              "label": "DESIGN",
+              "category": "METHODS",
+              "text": "Randomized controlled study with two parallel groups."
+            },
+            {
+              "label": "PARTICIPANTS",
+              "category": "METHODS",
+              "text": "Elderly subjects with PP\u226560 mmHg (n=60)."
+            },
+            {
+              "label": "INTERVENTIONS",
+              "category": "METHODS",
+              "text": "Yoga group (n=30) was assigned for yoga training and brisk-walking (BW) group (n=30) for brisk-walk with stretching exercise for 1h in the morning for 6 days in a week for 12 weeks."
+            },
+            {
+              "label": "MAIN OUTCOME MEASURES",
+              "category": "METHODS",
+              "text": "Arterial stiffness measures: Brachial-ankle pulse wave velocity (baPWV), Carotid-femoral pulse wave velocity (c-f PWV), aortic augmentation index (AIx@75), arterial stiffness index at brachial (bASI) and tibial arteries (aASI). Total serum nitric oxide concentration (NOx) as an index of endothelial function. Heart rate variability (HRV) measures: Low frequency and high frequency in normalized units (LFnu, HFnu) and LF/HF ratio."
+            },
+            {
+              "label": "RESULTS",
+              "category": "RESULTS",
+              "text": "The mean between-group change (with 95% CI) in arterial stiffness: c-f PWV(m/s) [1.25(0.59-1.89); p<0.001], baPWV(m/s) [1.96(0.76-3.16), p<0.01], AIx@75 [3.07(0.24-5.89), p=0.066], aASI [8.3(4.06-12.53), p<0.001]; endothelial function index: NO(\u03bcmol/L) [-9.03(-14.57 to -3.47), p<0.001]; SBP(mmHg) [14.23(12.03-16.44), p<0.001], DBP(mmHg) [0.1(-1.95-2.15), p=0.38], PP(mmHg) [14.07(11.2-16.92), p<0.001], MAP(mmHg) [4.7(3.08-6.32), p<0.001]; and cardiac autonomic function: LF(nu) [4.81(1.54-8.08), p<0.01], HF(nu) [-4.13(-7.57 to -0.69), p<0.01], LF/HF ratio [0.84(0.3-1.37), p<0.001], indicate significant difference in effects of two intervention on arterial stiffness, endothelial function, BP and cardiac autonomic activity. There was significant change within-yoga group in vascular function, BP and autonomic function, while no significant change within-BW group was observed."
+            },
+            {
+              "label": "CONCLUSION",
+              "category": "CONCLUSIONS",
+              "text": "Our findings suggest that yoga program offered was more effective than brisk-walk in reducing arterial stiffness along with BP in elderly individuals with increased PP. Yoga can also significantly reduce sympathetic activity and improve endothelial function with enhancement in bioavailability of NO."
+            }
+          ],
+          "abstract_available": true,
+          "pmid": "26275649"
+        },
+        {
+          "title": "Characteristics of the sleep of men in simulated space flights.",
+          "abstract": "A study of the sleep of men in simulated space flight has shown that, during different effects (diminished motor activity, noise, rotation), monotony and time of the exposure is the general pathogenetic factor producing sleep disturbances. The monotony factor was responsible for typical changes in sleep function (difficulty involved in falling asleep, disturbed continuity of sleep as a process, decline in the depth, etc.), whose degree was related not only to the professional importance of the experiment but also to the individual intolerance to the main exposure. In these cases, the action of somnogenic mechanisms developed against the background of the action of analyzers (vestibular, accoustic, proprioceptive) that were under load and whose excitation during hypokinesia, noise, and rotation, especially in poorly adapted people, led to cumulation and was expressed in the phenomenon of spontaneous awakening. In addition to that, the genesis of dyssomnia, particularly during bedrest and water immersion, included hemodynamic disturbances induced by blood redistribution due to the recumbent position and monotonous motor activity. The psychosomatic feelings (congestion, edema, irresistible desire to stand up and stretch) brought about emotional strain which was later enhanced by the duration of the exposure.",
+          "abstract_sections": [
+            {
+              "label": null,
+              "category": null,
+              "text": "A study of the sleep of men in simulated space flight has shown that, during different effects (diminished motor activity, noise, rotation), monotony and time of the exposure is the general pathogenetic factor producing sleep disturbances. The monotony factor was responsible for typical changes in sleep function (difficulty involved in falling asleep, disturbed continuity of sleep as a process, decline in the depth, etc.), whose degree was related not only to the professional importance of the experiment but also to the individual intolerance to the main exposure. In these cases, the action of somnogenic mechanisms developed against the background of the action of analyzers (vestibular, accoustic, proprioceptive) that were under load and whose excitation during hypokinesia, noise, and rotation, especially in poorly adapted people, led to cumulation and was expressed in the phenomenon of spontaneous awakening. In addition to that, the genesis of dyssomnia, particularly during bedrest and water immersion, included hemodynamic disturbances induced by blood redistribution due to the recumbent position and monotonous motor activity. The psychosomatic feelings (congestion, edema, irresistible desire to stand up and stretch) brought about emotional strain which was later enhanced by the duration of the exposure."
+            }
+          ],
+          "abstract_available": true,
+          "pmid": "167706"
+        }
+      ],
+      "claim_id": "fitness-02-c001",
+      "exposure": "stretching your body",
+      "outcome": "boost circulation",
+      "context": "after waking up"
+    }
+  ]
+}

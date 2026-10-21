@@ -1,0 +1,35 @@
+{
+  "claims": [
+    {
+      "claim_id": "fitness-02-c001",
+      "assessments": [
+        {
+          "pmid": "19917733",
+          "exposure_match": false,
+          "outcome_match": false,
+          "context_match": false,
+          "suitability": "irrelevant",
+          "reason": "The study evaluates low-frequency electrical stimulation combined with stretching exercises and orthoses for plantar fasciitis. It does not isolate body stretching, evaluate circulation as an outcome of stretching, or evaluate the morning/waking context."
+        },
+        {
+          "pmid": "26275649",
+          "exposure_match": false,
+          "outcome_match": false,
+          "context_match": false,
+          "suitability": "irrelevant",
+          "reason": "The study examines the effect of yoga on arterial function in elderly individuals with increased pulse pressure. It does not evaluate body stretching alone, overall blood circulation, or the timing of waking up."
+        },
+        {
+          "pmid": "167706",
+          "exposure_match": false,
+          "outcome_match": false,
+          "context_match": false,
+          "suitability": "irrelevant",
+          "reason": "The article evaluates sleep disturbances during simulated space flight, bedrest, and hypokinesia. The desire to stretch is only noted as a subjective symptom of emotional strain, with no investigation into stretching as an intervention to improve circulation upon waking."
+        }
+      ],
+      "needs_more_evidence": true,
+      "missing_evidence": "Controlled clinical trials or physiological studies directly investigating whether whole-body stretching immediately upon waking increases peripheral or systemic blood circulation."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "claim": {
+    "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+    "exposure": "drinking coffee",
+    "outcome": "prevent acidity",
+    "context": "on an empty stomach",
+    "claim_id": "fitness-02-c002",
+    "input_limitations": [
+      "Existing candidate pool only; no new literature search or relevance assessment.",
+      "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+      "No official guidance was fetched or assessed in this preparation step."
+    ]
+  },
+  "binding": {
+    "profile": "pending-claim-sources-v1",
+    "worklist_sha256": "fe2fe9fd6bf36077620e815c7bf4b396b32121dc7f834effca2763be7ece889d",
+    "evidence_sha256": "806c59b322f8bbde73869d9f006690d1bb455f3896680cf3a14d59bf6ca70d8d",
+    "script_sha256": "1b03106402a675742997484268a6672fca71f3a470dfdba00c58d025cfe6e41f",
+    "source_hashes": {
+      "Sa4e9495eb84f9788": "3d90a36ddee084ad350ae7c5491dd4edf98e000b3e3a2361c2b314af1efff8a8",
+      "S7253767afd363fd8": "9d8f6276c00f6395d7a56d4aadc26d9463db1cec202c4ff9250477a981bb06fc",
+      "Sf8564f255404bdc9": "6ea3e3936cd76a2a32eb1650f7d886d2a2e15de032f9abdeb456d3e3711d6112"
+    }
+  },
+  "sources": {
+    "Sa4e9495eb84f9788": {
+      "kind": "pubmed_abstract",
+      "pmid": "10563539",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10563539/",
+      "title": "Effect of coffee on gastro-oesophageal reflux in patients with reflux disease and healthy controls.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Clinical Trial",
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "1999 Nov"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592149+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sa4e9495eb84f9788",
+      "text_file": "sources/Sa4e9495eb84f9788.txt",
+      "text_sha256": "3d90a36ddee084ad350ae7c5491dd4edf98e000b3e3a2361c2b314af1efff8a8",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1468
+    },
+    "S7253767afd363fd8": {
+      "kind": "pubmed_abstract",
+      "pmid": "12741451",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12741451/",
+      "title": "A randomized, double-blind comparison of two different coffee-roasting processes on development of heartburn and dyspepsia in coffee-sensitive individuals.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Clinical Trial",
+        "Comparative Study",
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2003 Apr"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592193+00:00",
+      "text_scope": "abstract_only",
+      "id": "S7253767afd363fd8",
+      "text_file": "sources/S7253767afd363fd8.txt",
+      "text_sha256": "9d8f6276c00f6395d7a56d4aadc26d9463db1cec202c4ff9250477a981bb06fc",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1204
+    },
+    "Sf8564f255404bdc9": {
+      "kind": "pubmed_abstract",
+      "pmid": "35784632",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35784632/",
+      "title": "Endoscopic finding of hematin represents strong gastric acidity.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2022 Jul-Aug"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592292+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sf8564f255404bdc9",
+      "text_file": "sources/Sf8564f255404bdc9.txt",
+      "text_sha256": "6ea3e3936cd76a2a32eb1650f7d886d2a2e15de032f9abdeb456d3e3711d6112",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1613
+    }
+  },
+  "active_sources": [
+    "Sa4e9495eb84f9788",
+    "S7253767afd363fd8",
+    "Sf8564f255404bdc9"
+  ],
+  "phase": "sources_prepared",
+  "counts": {
+    "model_calls": 0
+  },
+  "model_events": [],
+  "unresolved_pmids": [],
+  "empty_abstract_pmids": []
+}

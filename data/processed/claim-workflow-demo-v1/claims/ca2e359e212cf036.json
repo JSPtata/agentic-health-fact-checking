@@ -1,0 +1,15 @@
+{
+  "claim_id": "fitness-02-c004",
+  "claim_text": "The best time for exercise is early morning or evening.",
+  "status": "claim_clarification_required",
+  "interrupted": false,
+  "pending_action": "clarify_claim_outcome",
+  "source_review_status": "not_supplied",
+  "retrieval": null,
+  "verification": null,
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [],
+  "adjudication": null
+}

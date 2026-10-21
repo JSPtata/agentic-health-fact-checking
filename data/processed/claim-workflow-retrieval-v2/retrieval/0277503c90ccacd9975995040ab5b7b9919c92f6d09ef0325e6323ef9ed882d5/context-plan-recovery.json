@@ -1,0 +1,13 @@
+{
+  "method": "literal-claim-context-recovery-v1",
+  "original_state_sha256": "f513e7fc7bc1b79ecc072eba284f029935eb69d451eb104ccbfa6467a194534d",
+  "saved_response_sha256": "9f6890ac6ea2c3b03c934ddf2423e13bdf6a4834800843e6f928384c60f890e8",
+  "context_anchor_before": null,
+  "context_anchor_after": "while sitting",
+  "queries": [
+    "(\"posture\"[tiab]) AND (\"back pain\"[tiab]) AND (\"while sitting\"[tiab])",
+    "(\"posture\"[tiab]) AND (\"back pain\"[tiab])"
+  ],
+  "planner_attempts_retained": 2,
+  "model_calls": 0
+}

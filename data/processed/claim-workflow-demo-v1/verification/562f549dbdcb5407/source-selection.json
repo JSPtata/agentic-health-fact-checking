@@ -1,0 +1,495 @@
+{
+  "sources": [
+    {
+      "source_id": "S4d5e97bec7686d1c",
+      "pmid": "37316040",
+      "title": "Gastrointestinal digestion assays for evaluating the bioaccessibility of phenolic compounds in fruits and their derivates: an overview.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "unresolved_screen"
+    },
+    {
+      "source_id": "Se9ea6d36cd432e91",
+      "pmid": "29195935",
+      "title": "Effect of in vitro simulated gastrointestinal digestion on polyphenol and polysaccharide content and their biological activities among 22 fruit juices.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "unresolved_screen"
+    },
+    {
+      "source_id": "S7bfa95c2238caaf7",
+      "pmid": "36832925",
+      "title": "Influence of Processing and Digestion on the Stability, Bioac-Cessibility and Bioactivity of Food Polyphenols.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S63d7d83ca733ea63",
+      "pmid": "33087981",
+      "title": "Effect of in-vitro digestion on the bio active compounds and biological activities of fruit pomaces.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S78afa706b2d4f7de",
+      "pmid": "12737441",
+      "title": "Changes in food tolerance and lifestyle after eradication of Helicobacter pylori.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sf5bac582bf147f6d",
+      "pmid": "19132262",
+      "title": "Antioxidant capacity of infant fruit beverages: influence of storage and in vitro gastrointestinal digestion.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S61e8f374f41f9c61",
+      "pmid": "29412271",
+      "title": "[Delicious, healthy, and good for digestion: medical discourse present in the consumption of fruit, preserves, and compotes in sixteenth-century Portuguese America].",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S74c0d0ed829a3608",
+      "pmid": "18928195",
+      "title": "Fruit and vegetable intake and knowledge increased following a community-based intervention in older adults in Georgia senior centers.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sdf042c7647860a05",
+      "pmid": "25029433",
+      "title": "Fruits, vegetables and their polyphenols protect dietary lipids from oxidation during gastric digestion.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Scee43bf62909bead",
+      "pmid": "42186760",
+      "title": "From food plants to functional ingredients for type 2 diabetes: chemotype markers, digestive fate, exposure-informed specifications and sustainable processing.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sb20c45f522e22a01",
+      "pmid": "28417424",
+      "title": "A Review of the Anaerobic Digestion of Fruit and Vegetable Waste.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S83b7cff8ca8b46d5",
+      "pmid": "8892178",
+      "title": "Digestion and absorption of fruit juice carbohydrates.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S930ea583f93cf26f",
+      "pmid": "23483023",
+      "title": "Ensure preparation and capsule endoscopy: a two-center prospective study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S1635b40d4d079d30",
+      "pmid": "32838552",
+      "title": "A systematic review of in vitro studies evaluating the inhibitory effects of polyphenol-rich fruit extracts on carbohydrate digestive enzymes activity: a focus on culinary fruits consumed in Europe.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S928de9fbd84b48df",
+      "pmid": "9773720",
+      "title": "Acute metabolic response to high-carbohydrate, high-starch meals compared with moderate-carbohydrate, low-starch meals in subjects with type 2 diabetes.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Scd376fb8c3677889",
+      "pmid": "35357662",
+      "title": "Effect of fruits and vegetables in the anaerobic digestion of food waste from university restaurant.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S39f7eb817da9a92c",
+      "pmid": "12200900",
+      "title": "Calcium, iron and zinc availability from weaning meals.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S6d87c17eafc2b60b",
+      "pmid": "16498205",
+      "title": "The inhibitory effects of berry polyphenols on digestive enzymes.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Scb4229674b254e4c",
+      "pmid": "23394992",
+      "title": "Kiwifruit, carbohydrate availability, and the glycemic response.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sa3c711c6a9befdeb",
+      "pmid": "23746068",
+      "title": "Kiwifruit: our daily prescription for health.",
+      "verification_scope": "selected_complete_abstract",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Scabc45282c2ea482",
+      "pmid": "36590203",
+      "title": "Effects of simulated in vitro gastrointestinal digestion on antioxidant activities and potential bioaccessibility of phenolic compounds from K. coccinea fruits.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S866d5d6543c4fd58",
+      "pmid": "40353421",
+      "title": "Unraveling the Nutritional Perspectives of Probiotics and Prebiotics in Female Healthcare.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S88b5819a9d71ca23",
+      "pmid": "24176228",
+      "title": "The polyphenol-rich baobab fruit (Adansonia digitata L.) reduces starch digestion and glycemic response in humans.",
+      "verification_scope": "selected_complete_abstract",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S806a3550ab82858d",
+      "pmid": "38764977",
+      "title": "In vitro digestion and fermentation behaviors of polysaccharides from Choerospondias axillaris fruit and its effect on human gut microbiota.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sd32970582d710ca9",
+      "pmid": "29205039",
+      "title": "Comparison of Two Static in Vitro Digestion Methods for Screening the Bioaccessibility of Carotenoids in Fruits, Vegetables, and Animal Products.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S6c1b28682d26d14d",
+      "pmid": "36047105",
+      "title": "Effects of Persimmon Fruit Polyphenols on Postprandial Plasma Glucose Elevation in Rats and Humans.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sb6ee932e3194d57b",
+      "pmid": "33406015",
+      "title": "Anaerobic co-digestion of fruit and vegetable waste: Synergy and process stability analysis.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sc952877a818e595a",
+      "pmid": "42811948",
+      "title": "In Vitro Gastrointestinal Digestion and Gut Fermentation of Atlantic Forest Fruit-Flavored Kombucha: Gut Microbiota Dynamics and Bioactive Compound Bioaccessibility.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sa6011f5b063fa459",
+      "pmid": "26114420",
+      "title": "Bioavailability of β-cryptoxanthin is greater from pasteurized orange juice than from fresh oranges - a randomized cross-over study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sb71989851acc7482",
+      "pmid": "26612114",
+      "title": "White bread enriched with polyphenol extracts shows no effect on glycemic response or satiety, yet may increase postprandial insulin economy in healthy participants.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S4f8cbddc7a7f9e04",
+      "pmid": "18287353",
+      "title": "In vitro micellarization and intestinal cell uptake of cis isomers of lycopene exceed those of all-trans lycopene.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S6838049b9e9a14b7",
+      "pmid": "28847429",
+      "title": "Carotenoids from gac fruit aril (Momordica cochinchinensis [Lour.] Spreng.) are more bioaccessible than those from carrot root and tomato fruit.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending_with_consumed_attempt"
+    },
+    {
+      "source_id": "S391ce039561fba21",
+      "pmid": "37971652",
+      "title": "Nutritional Composition, Simulated Digestion and Biological Activities of Campomanesia xanthocarpa Fruit.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sae7196ae765afa32",
+      "pmid": "29579910",
+      "title": "Effect of dietary fiber (inulin) addition on phenolics and in vitro bioaccessibility of tomato sauce.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S5c0094f162e1d36b",
+      "pmid": "32737594",
+      "title": "Anaerobic digestion of fourth range fruit and vegetable products: comparison of three different scenarios for its valorisation by life cycle assessment and life cycle costing.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S57b5493f7ebd1f2a",
+      "pmid": "34865782",
+      "title": "Effect of in vitro digestion on the bioaccessibility and bioactivity of phenolic compounds in fractions of Eugenia pyriformis fruit.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sd00dc88fe31f2887",
+      "pmid": "35781666",
+      "title": "Anaerobic digestion of fruit and vegetable waste: a critical review of associated challenges.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sdc901100785c2bc7",
+      "pmid": "29260598",
+      "title": "Blueberry by-product used as an ingredient in the development of functional cookies.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S546c95644eb84c73",
+      "pmid": "33773461",
+      "title": "Pancreatic lipase and α-amylase inhibitory activity of extracts from selected plant materials after gastrointestinal digestion in vitro.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S0e1f5597ab6c5341",
+      "pmid": "28651681",
+      "title": "No influence of supplemental dietary calcium intake on the bioavailability of spinach carotenoids in humans.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Saeb2e688ab695e97",
+      "pmid": "33233058",
+      "title": "Potential prebiotic effect of fruit and vegetable byproducts flour using in vitro gastrointestinal digestion.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sace665abf1f1bd93",
+      "pmid": "34328725",
+      "title": "In Vitro Bioaccessibility Protocol for Chlorophylls.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sb226065a57d6769c",
+      "pmid": "25306347",
+      "title": "Identification of bioaccessible and uptaken phenolic compounds from strawberry fruits in in vitro digestion/Caco-2 absorption model.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S4960eaaeffb6373e",
+      "pmid": "36446138",
+      "title": "Applications of the INFOGEST In Vitro Digestion Model to Foods: A Review.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S6ab2a9d78d5eb049",
+      "pmid": "25599260",
+      "title": "HPLC-Q-TOF-MS identification of antioxidant and antihypertensive peptides recovered from cherry (Prunus cerasus L.) subproducts.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S5537784c5964cf21",
+      "pmid": "21843582",
+      "title": "Comparison of dry, wet and microwave digestion methods for the multi element determination in some dried fruit samples by ICP-OES.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Scf9a32bcd45ead30",
+      "pmid": "25192798",
+      "title": "Anaerobic co-digestion of kitchen waste and fruit/vegetable waste: lab-scale and pilot-scale studies.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sddd3713fa1ab82b1",
+      "pmid": "21114101",
+      "title": "Anaerobic co-digestion of fruit and vegetable wastes and primary sewage sludge.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sd27078e0395bf8f1",
+      "pmid": "19183058",
+      "title": "Milk peptides increase iron dialyzability in water but do not affect DMT-1 expression in Caco-2 cells.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sdaf7e9bd2b95b79c",
+      "pmid": "23867528",
+      "title": "Performances of anaerobic co-digestion of fruit & vegetable waste (FVW) and food waste (FW): single-phase vs. two-phase.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S5896c10af676ecd4",
+      "pmid": "12561909",
+      "title": "Induction of some digestive enzymes in the midgut of the sandfly Phlebotomus langeroni after sugar and blood meals.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S0eaf56263ee7a2c0",
+      "pmid": "31589238",
+      "title": "Banana flour phenolics inhibit trans-epithelial glucose transport from wheat cakes in a coupled in vitro digestion/Caco-2 cell intestinal model.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Scb5208b11a59d02d",
+      "pmid": "26995617",
+      "title": "A new method of two-phase anaerobic digestion for fruit and vegetable waste treatment.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sac94fb549d4ca9e4",
+      "pmid": "27329567",
+      "title": "Impact of Lipid Components and Emulsifiers on Plant Sterols Bioaccessibility from Milk-Based Fruit Beverages.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sff6e506b22ce261f",
+      "pmid": "40355003",
+      "title": "Anaerobic Digestion Model No. 1 applied to bioenergy generation from fruit and vegetable waste in Upflow Anaerobic Sludge Blanket reactors.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sd6d51624e3932512",
+      "pmid": "34974105",
+      "title": "Production of volatile fatty acid from fruit waste by anaerobic digestion at high organic loading rates: Performance and microbial community characteristics.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S9c887f82d33bbcb2",
+      "pmid": "25081855",
+      "title": "Citrus essential oils and their influence on the anaerobic digestion process: an overview.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S9df51a7c1c37752a",
+      "pmid": "36081263",
+      "title": "Anaerobic co-digestion of marine macroalgae waste and fruit waste: Effect of mixture ratio on biogas production.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sf3893a232c911ed5",
+      "pmid": "29478956",
+      "title": "Experimental and feasibility assessment of biogas production by anaerobic digestion of fruit and vegetable waste from Joburg Market.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S8428465fee233b89",
+      "pmid": "41130148",
+      "title": "Anaerobic co-digestion of HDPE plastics with fruit and vegetable waste: Insights into partial biodegradation and organic waste valorization.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S68ef9623cf5397f9",
+      "pmid": "30821586",
+      "title": "Anaerobic co-digestion of municipal sewage sludge and fruit/vegetable waste: effect of different mixtures on digester stability and methane yield.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sdb473e921a1cf804",
+      "pmid": "9788144",
+      "title": "A cysteine proteinase inhibitor purified from apple fruit.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sc575006569b5dccc",
+      "pmid": "24280084",
+      "title": "Mesophilic batch anaerobic co-digestion of fruit-juice industrial waste and municipal waste sludge: process and cost-benefit analysis.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S5adc94a826520669",
+      "pmid": "35841776",
+      "title": "Evaluation of electro-oxidation and Fenton pretreatments on industrial fruit waste and municipal sewage sludge to enhance biogas production by anaerobic co-digestion.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Se7f83958b7eb525f",
+      "pmid": "25410725",
+      "title": "Chebulin: Terminalia chebula Retz. fruit-derived peptide with angiotensin-I-converting enzyme inhibitory activity.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S2c008c226842a68a",
+      "pmid": "29030117",
+      "title": "Biohydrogen production from hyperthermophilic anaerobic digestion of fruit and vegetable wastes in seawater: Simplification of the culture medium of Thermotoga maritima.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Se1f5491b2005b7e1",
+      "pmid": "24350470",
+      "title": "Mesophilic co-digestion of palm oil mill effluent and empty fruit bunches.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sa3fcd47946c1c8ff",
+      "pmid": "28159266",
+      "title": "Unravelling the nanostructure of strawberry fruit pectins by endo-polygalacturonase digestion and atomic force microscopy.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Scc19bfd8b89c8426",
+      "pmid": "31374416",
+      "title": "Thermotolerant cellulolytic Clostridiaceae and Lachnospiraceae rich consortium enhanced biogas production from oil palm empty fruit bunches by solid-state anaerobic digestion.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sebb798c8abc6ff78",
+      "pmid": "33049444",
+      "title": "Improvement of empty palm fruit bunches biodegradability and biogas production by integrating the straw mushroom cultivation as a pretreatment in the solid-state anaerobic digestion.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    }
+  ],
+  "coverage": "Bounded assessment of 2/70 available abstracts; all other sources remain unassessed in this draft. No full-text or exhaustive-search appraisal."
+}

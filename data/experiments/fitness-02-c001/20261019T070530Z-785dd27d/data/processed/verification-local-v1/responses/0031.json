@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:41:33.323544Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"Saa096fef81f1c81a\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"chronic smokers with type 2 diabetes\",\n  \"measured_outcome_or_recommendation\": \"impaired microvascular response to muscle stretching\",\n  \"finding\": \"ubjects expressed the PSRH effect in cutaneous microcirculation after a 10-s stretch stimulus; however, this effect was observed at a significantly lower intensity in chronic smokers with diabetes.\",\n  \"relation\": \"unassessable\",\n  \"limitations\": [\n    \"This study focuses on chronic smokers with type 2 diabetes, not general population\",\n    \"No data on stretching after waking specifically\",\n    \"Does not address acute vs chronic effects of stretching\",\n    \"Does not measure oxygenation or stiffness\"\n  ],\n  \"quote_ids\": [\"Q1\"]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 16777169208,
+  "load_duration": 9350417,
+  "prompt_eval_count": 495,
+  "prompt_eval_cached_count": 372,
+  "prompt_eval_duration": 1166091000,
+  "eval_count": 200,
+  "eval_duration": 15453161000
+}

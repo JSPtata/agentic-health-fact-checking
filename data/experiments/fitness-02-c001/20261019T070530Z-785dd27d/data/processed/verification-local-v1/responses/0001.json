@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:22:22.365782Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S03497b210d84149c\",\n  \"study_or_document_type\": \"randomized controlled study\",\n  \"population_and_intervention\": \"Elderly subjects with increased pulse pressure (PP ≥60 mmHg) assigned to yoga or brisk-walking with stretching (1h morning, 6 days/week for 12 weeks)\",\n  \"measured_outcome_or_recommendation\": \"Arterial stiffness measures (baPWV, c-f PWV, AIx@75, aASI) and endothelial function (NOx) improved significantly in stretching group\",\n  \"finding\": \"Significant reductions in arterial stiffness (c-f PWV: 1.25 m/s, p<0.001; baPWV: 1.96 m/s, p<0.01) and improved endothelial function (NOx: -9.03 μmol/L, p<0.001) in stretching group\",\n  \"relation\": \"contradiction\",\n  \"limitations\": [\n    \"Intervention was stretching with brisk walking, not isolated stretching\",\n    \"Only elderly with increased pulse pressure (PP ≥60 mmHg)\",\n    \"Results measured after 12 weeks of intervention, not immediate effects\",\n    \"No comparison to control group without stretching\"\n  ],\n  \"quotes\": [\n    \"The mean between-group change (with 95% CI) in arterial stiffness: c-f PWV(m/s) [1.25(0.59-1.89); p<0.001]\",\n    \"endothelial function index: NO(μmol/L) [-9.03(-14.57 to -3.47), p<0.001]\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 40741297041,
+  "load_duration": 9881381083,
+  "prompt_eval_count": 909,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 7390688000,
+  "eval_count": 401,
+  "eval_duration": 23136150000
+}

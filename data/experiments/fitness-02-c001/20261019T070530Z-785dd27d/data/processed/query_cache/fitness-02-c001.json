@@ -1,0 +1,8 @@
+{
+    "claim_id": "fitness-02-c001",
+    "missing_evidence": "Controlled clinical trials or physiological studies directly investigating whether whole-body stretching immediately upon waking increases peripheral or systemic blood circulation.",
+    "queries": [
+        "(stretching[tiab] OR \"muscle stretching exercises\"[Mesh]) AND (morning[tiab] OR waking[tiab] OR awakening[tiab] OR \"wake up\"[tiab]) AND (\"blood flow\"[tiab] OR circulation[tiab] OR hemodynamics[tiab] OR \"blood circulation\"[Mesh] OR \"hemodynamics\"[Mesh])",
+        "(stretching[tiab] OR \"muscle stretching exercises\"[Mesh]) AND (\"blood flow\"[tiab] OR circulation[tiab] OR microcirculation[tiab] OR hemodynamics[tiab] OR \"regional blood flow\"[Mesh]) AND (acute[tiab] OR immediate[tiab] OR morning[tiab])"
+    ]
+}

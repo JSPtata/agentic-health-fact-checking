@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:47:08.771668Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"decision\": \"accept_for_adjudication\",\n  \"objections\": [\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"invented facts\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q5\"\n    },\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"invented facts\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q6\"\n    },\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"invented facts\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q7\"\n    }\n  ],\n  \"remaining_gaps\": [\n    \"The claim states 'always stretch your body after waking up to boost circulation.' The passage only measures acute effects in posterior tibial artery during a specific stretching procedure (not general body stretching), and does not address chronic effects or daily routines. This is a major mismatch in scope and timing.\"\n  ]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 26732397250,
+  "load_duration": 4157292,
+  "prompt_eval_count": 994,
+  "prompt_eval_cached_count": 250,
+  "prompt_eval_duration": 7810445000,
+  "eval_count": 218,
+  "eval_duration": 18798628000
+}

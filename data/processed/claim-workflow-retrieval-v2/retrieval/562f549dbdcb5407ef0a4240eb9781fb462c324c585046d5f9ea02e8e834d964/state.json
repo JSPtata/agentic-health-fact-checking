@@ -1,0 +1,117 @@
+{
+  "binding": {
+    "profile": "compiled-concept-retrieval-v2",
+    "claim": {
+      "claim_text": "Eat fruits before meals, not after, for better digestion.",
+      "exposure": "eating fruits",
+      "outcome": "better digestion",
+      "context": "before meals, not after",
+      "claim_id": "fitness-02-c003"
+    },
+    "model": "qwen3:4b",
+    "controller_sha256": "65d664e7c5b14d99d2cc0fb09e4e2d16d5ed03cf47df3ced03faa8c788f11d68",
+    "pubmed_client_sha256": "d3f484efb74e80b16265757ff410d6b82778c9819e31766fa0bbaa08cf24aca8",
+    "parser_sha256": "2130838f9a6772d24d1f925c54d8262004c6c1c53f9747177b6cbf04877eb135",
+    "limits": {
+      "planner_attempts": 2,
+      "queries_per_plan": 2,
+      "max_queries_total": 4,
+      "results_per_query": 50,
+      "http_attempts_per_request": 2
+    }
+  },
+  "cache": {
+    "2301bfe053dc91d4eda6e12753f1f345a60e53f2dbe554067f87cd46cb914f9d": {
+      "file": "pubmed-cache/2301bfe053dc91d4eda6e12753f1f345a60e53f2dbe554067f87cd46cb914f9d.json",
+      "sha256": "cb16779190775264cca4661485e8bbac12335c6595979e4b64ea875f3457bcff",
+      "retrieved_at": "2026-10-20T17:49:51.857364+00:00"
+    },
+    "a8a6d4865b263bdf042d3407349fece5ee2e415256f62ce5428575440d129a84": {
+      "file": "pubmed-cache/a8a6d4865b263bdf042d3407349fece5ee2e415256f62ce5428575440d129a84.json",
+      "sha256": "9d8298822fd5649898d36cbe74d2bf0eda2dea9a6c20b7acf38abb880158deab",
+      "retrieved_at": "2026-10-20T17:49:53.134917+00:00"
+    },
+    "c54c86aa081bccdeddb2a05f75ad5824d71927b0d0b83c76ba7f4d6e0661fda9": {
+      "file": "pubmed-cache/c54c86aa081bccdeddb2a05f75ad5824d71927b0d0b83c76ba7f4d6e0661fda9.xml",
+      "sha256": "ae7e2ad10c7a784ab3e3c5b4a3a9fdcaf2cd5431754e5e788a2d2b8f2d197d54",
+      "retrieved_at": "2026-10-20T17:49:55.399867+00:00"
+    },
+    "1773f98b5abbe61157cd0ff634cc8724d7277950392c7c8ace089298371398b4": {
+      "file": "pubmed-cache/1773f98b5abbe61157cd0ff634cc8724d7277950392c7c8ace089298371398b4.xml",
+      "sha256": "ebf634ed0cb0332f25c1d7fa78f2800b997ff0857922cbf8c1a839665c38f90f",
+      "retrieved_at": "2026-10-20T17:49:58.174524+00:00"
+    }
+  },
+  "events": [
+    {
+      "key": "2301bfe053dc91d4eda6e12753f1f345a60e53f2dbe554067f87cd46cb914f9d",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "a8a6d4865b263bdf042d3407349fece5ee2e415256f62ce5428575440d129a84",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "c54c86aa081bccdeddb2a05f75ad5824d71927b0d0b83c76ba7f4d6e0661fda9",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "1773f98b5abbe61157cd0ff634cc8724d7277950392c7c8ace089298371398b4",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    }
+  ],
+  "planner_attempts": [
+    {
+      "status": "error",
+      "prompt_sha256": "991e266779fa077ca9f9f086d183492c65a5a3374f95a7cb5e0c817625fdc878",
+      "response_file": "planner-1.json",
+      "error": "ValueError: Each concept must be a short plain-text term"
+    },
+    {
+      "status": "validated",
+      "prompt_sha256": "a6e8a38acd73b32f90834c0565bf2af8e986e005d9b0b19924fe5bf0c5a453b4",
+      "response_file": "planner-2.json"
+    }
+  ],
+  "status": "awaiting_relevance_screening",
+  "concept_plan": {
+    "exposure_anchor": "fruits",
+    "exposure_terms": [
+      "fruit"
+    ],
+    "outcome_anchor": "digestion",
+    "outcome_terms": [
+      "digestive process"
+    ],
+    "context_anchor": "meals",
+    "context_terms": [
+      "meal timing",
+      "food intake timing"
+    ]
+  },
+  "queries": [
+    "(\"fruit\"[tiab] OR \"fruits\"[tiab]) AND (\"digestion\"[tiab] OR \"digestive process\"[tiab]) AND (\"food intake timing\"[tiab] OR \"meal timing\"[tiab] OR \"meals\"[tiab])",
+    "(\"fruit\"[tiab] OR \"fruits\"[tiab]) AND (\"digestion\"[tiab] OR \"digestive process\"[tiab])"
+  ],
+  "query_compiler": "concept-blocks-v2",
+  "result": {
+    "status": "awaiting_relevance_screening",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json",
+    "evidence_sha256": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+    "candidate_pmids": 70,
+    "usable_abstracts": 70,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "(\"fruit\"[tiab] OR \"fruits\"[tiab]) AND (\"digestion\"[tiab] OR \"digestive process\"[tiab]) AND (\"food intake timing\"[tiab] OR \"meal timing\"[tiab] OR \"meals\"[tiab])",
+      "(\"fruit\"[tiab] OR \"fruits\"[tiab]) AND (\"digestion\"[tiab] OR \"digestive process\"[tiab])"
+    ]
+  },
+  "output": {
+    "sha256": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7"
+  }
+}

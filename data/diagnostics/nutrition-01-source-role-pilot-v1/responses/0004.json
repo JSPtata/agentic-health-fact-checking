@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T15:09:21.161024Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"D\": [\n    \"Q1\",\n    \"Q2\",\n    \"Q3\",\n    \"Q4\",\n    \"Q5\",\n    \"Q6\"\n  ],\n  \"P\": [\n    \"Q1\",\n    \"Q2\",\n    \"Q3\",\n    \"Q4\",\n    \"Q5\",\n    \"Q6\"\n  ],\n  \"I\": [\n    \"Q1\",\n    \"Q2\",\n    \"Q3\",\n    \"Q4\",\n    \"Q5\",\n    \"Q6\"\n  ],\n  \"O\": [\n    \"Q5\"\n  ],\n  \"R\": [\n    \"Q5\"\n  ],\n  \"T\": [\n    \"Q2\"\n  ],\n  \"G\": [\n    \"Q1\",\n    \"Q2\",\n    \"Q3\",\n    \"Q4\",\n    \"Q5\",\n    \"Q6\"\n  ],\n  \"M\": [\n    \"Q1\",\n    \"Q2\",\n    \"Q3\",\n    \"Q4\",\n    \"Q5\",\n    \"Q6\"\n  ],\n  \"L\": [\n    \"Q6\"\n  ],\n  \"role\": \"effect_evidence\",\n  \"fit\": \"direct\",\n  \"contrast\": \"between_groups\",\n  \"basis\": [\n    \"Q5\"\n  ],\n  \"reason\": \"The study directly compares weight loss between minimally processed food (MPF) and ultraprocessed food (UPF) diets in a randomized crossover trial. The primary outcome (%WC) shows significantly greater weight loss on MPF (-2.06%) compared to UPF (-1.05%).\",\n  \"scope_flags\": [\n    \"population\",\n    \"dose\",\n    \"timing\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 57920557625,
+  "load_duration": 77810333,
+  "prompt_eval_count": 812,
+  "prompt_eval_cached_count": 793,
+  "prompt_eval_duration": 675516000,
+  "eval_count": 361,
+  "eval_duration": 56828222000
+}

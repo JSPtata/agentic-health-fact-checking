@@ -1,0 +1,84 @@
+{
+  "binding": {
+    "profile": "bounded-pubmed-first-pass-v1",
+    "claim": {
+      "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+      "exposure": "maintaining proper posture",
+      "outcome": "prevent back pain",
+      "context": "while sitting",
+      "claim_id": "fitness-02-c006"
+    },
+    "model": "qwen3:4b",
+    "controller_sha256": "0c9d7eeb21a19ee8a7c70c38b426a4583f9cc862c7ae931785b83212807796dd",
+    "pubmed_client_sha256": "d3f484efb74e80b16265757ff410d6b82778c9819e31766fa0bbaa08cf24aca8",
+    "parser_sha256": "2130838f9a6772d24d1f925c54d8262004c6c1c53f9747177b6cbf04877eb135",
+    "limits": {
+      "planner_attempts": 2,
+      "queries": 2,
+      "results_per_query": 50,
+      "http_attempts_per_request": 2
+    }
+  },
+  "cache": {
+    "9a72109e2f0f3cfc7a12a311cb5b8e6b99cfd95af96d997caa4b6960d5615d42": {
+      "file": "pubmed-cache/9a72109e2f0f3cfc7a12a311cb5b8e6b99cfd95af96d997caa4b6960d5615d42.json",
+      "sha256": "d651015751d4984bb4ef76cfb191ea16b0dbdf17025fcde13596d4ce841fc913",
+      "retrieved_at": "2026-10-20T17:28:46.504831+00:00"
+    },
+    "8b5a127ab9a4da1ec501c9068267b9e0af4843f7db598a61fd86596aad648356": {
+      "file": "pubmed-cache/8b5a127ab9a4da1ec501c9068267b9e0af4843f7db598a61fd86596aad648356.json",
+      "sha256": "e69b7e9eb030c2bc9b51344a5f0cc14346eff96267f3aca09048bb96a982e361",
+      "retrieved_at": "2026-10-20T17:28:48.050752+00:00"
+    },
+    "aecad78af25593357a68d48f970bd250b3e5e7614149b95a63a9616d5bb67083": {
+      "file": "pubmed-cache/aecad78af25593357a68d48f970bd250b3e5e7614149b95a63a9616d5bb67083.xml",
+      "sha256": "a47f8321d0ce18f98e6cf5498913f9d293a31e748e37e5a301df1502cf42606c",
+      "retrieved_at": "2026-10-20T17:28:49.224411+00:00"
+    }
+  },
+  "events": [
+    {
+      "key": "9a72109e2f0f3cfc7a12a311cb5b8e6b99cfd95af96d997caa4b6960d5615d42",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "8b5a127ab9a4da1ec501c9068267b9e0af4843f7db598a61fd86596aad648356",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "aecad78af25593357a68d48f970bd250b3e5e7614149b95a63a9616d5bb67083",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    }
+  ],
+  "planner_attempts": [
+    {
+      "status": "validated",
+      "prompt_sha256": "516c59d507e2ab10dc624bb34a8fcb2c0431c0148d0105925d55c721599fb4c4",
+      "response_file": "planner-1.json"
+    }
+  ],
+  "status": "awaiting_relevance_screening",
+  "queries": [
+    "((maintaining proper posture) AND (prevent back pain)) AND (while sitting) AND (title OR abstract)",
+    "((proper posture maintenance) OR (correct posture) OR (postural alignment)) AND (back pain prevention) AND (sitting) AND (title OR abstract)"
+  ],
+  "result": {
+    "status": "awaiting_relevance_screening",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json",
+    "evidence_sha256": "e836979c85c2e12d1cdb841c9999680d79da0d978abc5397b0ebbb2f0b9a8890",
+    "candidate_pmids": 3,
+    "usable_abstracts": 3,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "((maintaining proper posture) AND (prevent back pain)) AND (while sitting) AND (title OR abstract)",
+      "((proper posture maintenance) OR (correct posture) OR (postural alignment)) AND (back pain prevention) AND (sitting) AND (title OR abstract)"
+    ]
+  },
+  "output": {
+    "sha256": "e836979c85c2e12d1cdb841c9999680d79da0d978abc5397b0ebbb2f0b9a8890"
+  }
+}

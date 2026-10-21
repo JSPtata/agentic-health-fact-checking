@@ -1,0 +1,47 @@
+{
+  "claims": [
+    {
+      "claim_text": "Eat fruits before meals, not after, for better digestion.",
+      "exposure": "eating fruits",
+      "outcome": "better digestion",
+      "context": "before meals, not after",
+      "claim_id": "fitness-02-c003",
+      "evidence": []
+    }
+  ],
+  "searches": [
+    {
+      "query": "eating fruits before meals AND better digestion",
+      "total_matches": "0",
+      "query_translation": "(\"eating\"[MeSH Terms] OR \"eating\"[All Fields]) AND (\"fruit\"[MeSH Terms] OR \"fruit\"[All Fields] OR \"fruits\"[All Fields] OR \"fruit s\"[All Fields] OR \"fruited\"[All Fields] OR \"fruiting\"[All Fields]) AND (\"meal s\"[All Fields] OR \"meals\"[MeSH Terms] OR \"meals\"[All Fields]) AND (\"better\"[All Fields] AND (\"digest\"[All Fields] OR \"digestability\"[All Fields] OR \"digestable\"[All Fields] OR \"digestate\"[All Fields] OR \"digestates\"[All Fields] OR \"digested\"[All Fields] OR \"digester\"[All Fields] OR \"digesters\"[All Fields] OR \"digestibilities\"[All Fields] OR \"digestibility\"[All Fields] OR \"digestible\"[All Fields] OR \"digesting\"[All Fields] OR \"digestion\"[MeSH Terms] OR \"digestion\"[All Fields] OR \"digestions\"[All Fields] OR \"digestive system\"[MeSH Terms] OR (\"digestive\"[All Fields] AND \"system\"[All Fields]) OR \"digestive system\"[All Fields] OR \"digestive\"[All Fields] OR \"digestives\"[All Fields] OR \"digests\"[All Fields]))",
+      "warnings": {
+        "phrasesignored": [
+          "before"
+        ],
+        "quotedphrasesnotfound": [],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "returned_pmids": [],
+      "retrieved_at": "2026-10-20T17:28:28.409400+00:00"
+    },
+    {
+      "query": "eating fruits prior to meals AND improved gastrointestinal function",
+      "total_matches": "0",
+      "query_translation": "(\"eating\"[MeSH Terms] OR \"eating\"[All Fields]) AND (\"fruit\"[MeSH Terms] OR \"fruit\"[All Fields] OR \"fruits\"[All Fields] OR \"fruit s\"[All Fields] OR \"fruited\"[All Fields] OR \"fruiting\"[All Fields]) AND (\"prior\"[All Fields] OR \"priors\"[All Fields]) AND (\"meal s\"[All Fields] OR \"meals\"[MeSH Terms] OR \"meals\"[All Fields]) AND ((\"improve\"[All Fields] OR \"improved\"[All Fields] OR \"improvement\"[All Fields] OR \"improvements\"[All Fields] OR \"improves\"[All Fields] OR \"improving\"[All Fields] OR \"improvment\"[All Fields]) AND (\"gastrointestinal\"[All Fields] OR \"gastrointestinally\"[All Fields] OR \"gastrointestine\"[All Fields]) AND (\"functional\"[All Fields] OR \"functional s\"[All Fields] OR \"functionalities\"[All Fields] OR \"functionality\"[All Fields] OR \"functionalization\"[All Fields] OR \"functionalizations\"[All Fields] OR \"functionalize\"[All Fields] OR \"functionalized\"[All Fields] OR \"functionalizes\"[All Fields] OR \"functionalizing\"[All Fields] OR \"functionally\"[All Fields] OR \"functionals\"[All Fields] OR \"functioned\"[All Fields] OR \"functioning\"[All Fields] OR \"functionings\"[All Fields] OR \"functions\"[All Fields] OR \"physiology\"[MeSH Subheading] OR \"physiology\"[All Fields] OR \"function\"[All Fields] OR \"physiology\"[MeSH Terms]))",
+      "warnings": {
+        "phrasesignored": [
+          "to"
+        ],
+        "quotedphrasesnotfound": [],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "returned_pmids": [],
+      "retrieved_at": "2026-10-20T17:28:30.513974+00:00"
+    }
+  ],
+  "retrieval_scope": "PubMed candidates only; no suitability or truth determination."
+}

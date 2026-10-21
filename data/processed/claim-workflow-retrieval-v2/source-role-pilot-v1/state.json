@@ -1,0 +1,167 @@
+{
+  "binding": {
+    "profile": "source-roles-v1",
+    "inputs": {
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/ranking-summary.json": "9c1bc881189853aa2e9d579c56b096ae59a59e2cd815823ab14405a1bf07aa01",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/bi-encoder/passage-ranking.json": "4c0ddeb3962e9c76470a5ca6de0518b3e1dfef60942f447a6cbc96689d0f345a",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cached-candidates.json": "831fb25a71ac928aefd9170b443e7ca32757cb2c0f43ce2dd94c89dedf522b42",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json": "e421b8c037fa3c0195451f921b68a2ed985b1ccc7c3eb45a73a95fa3fd7929be",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cross-encoder/cross-encoder-ranking.json": "099bc5f7a487e678d8bc91d059e93e734ba4b634f8ccdc3668bbb0d824c7d189",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/bi-encoder/passage-ranking.json": "55357725c5c9b998134fe51ff2283f7bbb003066f4520b1b9d5a689c7d627d21",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cached-candidates.json": "ae19fc9a8251deb2ae5d18775f32e6c1a266da747a48adf36b8800bc32ec7724",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cross-encoder/cross-encoder-ranking.json": "fb15bb9c11d43cdd2e4960919768293e57ed5ed11568a7f9b913a00179588b3a"
+    },
+    "backend": "ollama",
+    "model_identity": {
+      "model": "qwen3:4b",
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    "selected_pmids": [
+      "10499460",
+      "36233963",
+      "37316040"
+    ],
+    "ranking_top_k": 10,
+    "script_sha256": "7ccde911c4f2b26df3bfbfdc72ae27d2a9c46439464fccd64e7f3c7f286f978f",
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e"
+  },
+  "outputs": {
+    "5c259dd2d45e3a66da4267ceea24636594ad857b912f67539d119f53901d78bf": {
+      "D": [
+        "Q10"
+      ],
+      "P": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "I": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "O": [
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8"
+      ],
+      "R": [
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8"
+      ],
+      "T": [
+        "Q9"
+      ],
+      "G": [
+        "Q10"
+      ],
+      "M": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "L": [
+        "Q10"
+      ],
+      "role": "mechanistic_context",
+      "fit": "not_applicable",
+      "contrast": "not_reported",
+      "basis": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "reason": "The claim 'Avoid drinking coffee on an empty stomach to prevent acidity' requires evidence that coffee consumption on an empty stomach causes acidity, and that avoiding it prevents acidity. The review does not address the specific context of 'on an empty stomach' or the prevention of acidity. The 'g",
+      "scope_flags": [
+        "no_treatment",
+        "no_prevention",
+        "no_empty_stomach"
+      ]
+    },
+    "7f943e87e8ae68debf4d982fa2d90214f32a079e1499cf73ae04c72600a3f237": {
+      "D": [],
+      "P": [
+        "Q1"
+      ],
+      "I": [
+        "Q1"
+      ],
+      "O": [],
+      "R": [
+        "Q1"
+      ],
+      "T": [],
+      "G": [],
+      "M": [
+        "Q1"
+      ],
+      "L": [
+        "Q1"
+      ],
+      "role": "background",
+      "fit": "not_applicable",
+      "contrast": "not_reported",
+      "basis": [
+        "Q1"
+      ],
+      "reason": "The claim 'Eat fruits before meals, not after, for better digestion' refers to a behavioral recommendation for human consumption timing. The abstract describes in vitro gastrointestinal digestion assays for phenolic compounds in fruits, which is a laboratory method to simulate digestion conditions. ",
+      "scope_flags": [
+        "no_direct_evidence",
+        "no_human_data",
+        "no_behavioral_recommendation_support"
+      ]
+    }
+  },
+  "events": [
+    {
+      "key": "5c259dd2d45e3a66da4267ceea24636594ad857b912f67539d119f53901d78bf",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "0c4fdab361fbeb9dcb23b436495d835ecc9d56618737517721f7d1eec64ade71",
+      "response_file": "responses/0001.json",
+      "prompt_eval_count": 741
+    },
+    {
+      "key": "d621b8c5efc3141503117980fc09f328e93b0a962a4ee4fa598299805c1070da",
+      "status": "invalid_output",
+      "prompt_sha256": "3b78021ee4527c47ebbef75b1c8b17748c83cdcfec59d0155168a9781506b9fe",
+      "response_file": "responses/0002.json",
+      "prompt_eval_count": 675,
+      "error": "Role needs a source quotation"
+    },
+    {
+      "key": "d621b8c5efc3141503117980fc09f328e93b0a962a4ee4fa598299805c1070da",
+      "status": "invalid_output",
+      "prompt_sha256": "d6837a1bd2a35afca9905b89c3d63d4910b1e0dd97985e35a695e45d48c36133",
+      "response_file": "responses/0003.json",
+      "prompt_eval_count": 684,
+      "error": "Role needs a source quotation"
+    },
+    {
+      "key": "7f943e87e8ae68debf4d982fa2d90214f32a079e1499cf73ae04c72600a3f237",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "6b42eb42769bc8fac45b2168fdfe0a4f1334dc2b719c28705127525d4cec4ae8",
+      "response_file": "responses/0004.json",
+      "prompt_eval_count": 597
+    }
+  ]
+}

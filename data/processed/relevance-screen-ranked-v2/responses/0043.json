@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T19:58:18.945776Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"exposure\": {\n    \"match\": \"partial\",\n    \"quote_ids\": [\"Q1\", \"Q2\", \"Q3\", \"Q4\"]\n  },\n  \"outcome\": {\n    \"match\": \"mismatch\",\n    \"quote_ids\": [\"Q5\", \"Q6\", \"Q7\", \"Q8\"]\n  },\n  \"context\": {\n    \"match\": \"unclear\",\n    \"quote_ids\": [\"Q1\", \"Q2\", \"Q3\", \"Q4\"]\n  },\n  \"needs_scope_clarification\": true,\n  \"reason\": \"The claim states 'eat fruits before meals, not after, for better digestion' but the abstract only discusses kiwifruit's composition and in vitro digestion effects. The abstract does not mention timing of consumption (before/after meals), nor does it address digestion benefits in the context of eating fruits at specific times. The outcome (digestion) is discussed but not in relation to meal timing.\",\n  \"gaps\": [\n    \"No information on when fruits should be eaten relative to meals\",\n    \"No comparison between eating fruits before vs after meals\",\n    \"No evidence that eating kiwifruit before meals improves digestion compared to eating after\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 21785670209,
+  "load_duration": 25392125,
+  "prompt_eval_count": 511,
+  "prompt_eval_cached_count": 149,
+  "prompt_eval_duration": 3157387000,
+  "eval_count": 276,
+  "eval_duration": 18533092000
+}

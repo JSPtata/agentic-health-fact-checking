@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:34:27.649961Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S0417cef78183352d\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"Old male Fischer 344 rats; static stretching of ankle flexor muscles via dorsiflexion splint for 30 min/d, 5d/wk for 4wk\",\n  \"measured_outcome_or_recommendation\": \"Increased blood flow to proximal tibial metaphysis in naive rats; increased blood flow during treadmill exercise in stretched limb after 4wk; increased tibial bone weight and volume\",\n  \"finding\": \"Increased blood flow to proximal tibial metaphysis in naive rats\",\n  \"relation\": \"null_or_uncertain\",\n  \"limitations\": [\n    \"Acute effects only in naive rats\",\n    \"No human data\",\n    \"No evidence of effect on circulation in waking humans\",\n    \"No chronic effects on circulation in humans\"\n  ],\n  \"quote_ids\": [\n    \"Q8\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 15790080791,
+  "load_duration": 31658333,
+  "prompt_eval_count": 707,
+  "prompt_eval_cached_count": 332,
+  "prompt_eval_duration": 2063581000,
+  "eval_count": 232,
+  "eval_duration": 13522000000
+}

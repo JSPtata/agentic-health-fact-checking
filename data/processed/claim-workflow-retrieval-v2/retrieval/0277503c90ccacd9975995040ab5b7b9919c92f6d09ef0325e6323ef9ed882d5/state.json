@@ -1,0 +1,128 @@
+{
+  "binding": {
+    "profile": "compiled-concept-retrieval-v2",
+    "claim": {
+      "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+      "exposure": "maintaining proper posture",
+      "outcome": "prevent back pain",
+      "context": "while sitting",
+      "claim_id": "fitness-02-c006"
+    },
+    "model": "qwen3:4b",
+    "controller_sha256": "65d664e7c5b14d99d2cc0fb09e4e2d16d5ed03cf47df3ced03faa8c788f11d68",
+    "pubmed_client_sha256": "d3f484efb74e80b16265757ff410d6b82778c9819e31766fa0bbaa08cf24aca8",
+    "parser_sha256": "2130838f9a6772d24d1f925c54d8262004c6c1c53f9747177b6cbf04877eb135",
+    "limits": {
+      "planner_attempts": 2,
+      "queries_per_plan": 2,
+      "max_queries_total": 4,
+      "results_per_query": 50,
+      "http_attempts_per_request": 2
+    }
+  },
+  "cache": {
+    "7a51b57b5703b9f8b8a92168fa979979cb13e2bd2398e4581680cefc7d5b6f35": {
+      "file": "pubmed-cache/7a51b57b5703b9f8b8a92168fa979979cb13e2bd2398e4581680cefc7d5b6f35.json",
+      "sha256": "e953804498ff324fdff78990982cdfd22c2b3689c2d5104977123485cb86ac20",
+      "retrieved_at": "2026-10-20T18:32:09.858348+00:00"
+    },
+    "d1c27674cddba935b0097da2efc6de5919684b34343b9a5ad5f8e5ec6a4279c7": {
+      "file": "pubmed-cache/d1c27674cddba935b0097da2efc6de5919684b34343b9a5ad5f8e5ec6a4279c7.json",
+      "sha256": "2630a33277e4b6b0eff82a7609c33c7b97d3fc091545e01c9e1bd9402bfece97",
+      "retrieved_at": "2026-10-20T18:32:10.532010+00:00"
+    },
+    "0b59ecff372cbac025c617d778c8cfd5675988d6f0f6c36138c4270d8c72f530": {
+      "file": "pubmed-cache/0b59ecff372cbac025c617d778c8cfd5675988d6f0f6c36138c4270d8c72f530.xml",
+      "sha256": "c3426654f8974935cbc0655654680e7e232d60da531c9348af36af86b32d479b",
+      "retrieved_at": "2026-10-20T18:32:13.065001+00:00"
+    },
+    "51ef1f5fb2c3d67f00baed1eec1829a7f34a1f2983a6c662575718a4513002e0": {
+      "file": "pubmed-cache/51ef1f5fb2c3d67f00baed1eec1829a7f34a1f2983a6c662575718a4513002e0.xml",
+      "sha256": "45203cccb7a1b4102dc62ad82ec7124c23171021f530dfcdb611c597b980b023",
+      "retrieved_at": "2026-10-20T18:32:14.773402+00:00"
+    }
+  },
+  "events": [
+    {
+      "key": "7a51b57b5703b9f8b8a92168fa979979cb13e2bd2398e4581680cefc7d5b6f35",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "d1c27674cddba935b0097da2efc6de5919684b34343b9a5ad5f8e5ec6a4279c7",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "0b59ecff372cbac025c617d778c8cfd5675988d6f0f6c36138c4270d8c72f530",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "51ef1f5fb2c3d67f00baed1eec1829a7f34a1f2983a6c662575718a4513002e0",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    }
+  ],
+  "planner_attempts": [
+    {
+      "status": "error",
+      "prompt_sha256": "d9097d7c3c46dcf11058fe5fdbebc7048d2e41ab41950dfc8b5e7230973a4b14",
+      "response_file": "planner-1.json",
+      "error": "ValueError: Use neutral concepts, without operators, tags or benefit wording"
+    },
+    {
+      "status": "error",
+      "prompt_sha256": "584f0a47b85e63cabee0485453e96391a8faa22816e273ac80327e4f0ba11b05",
+      "response_file": "planner-2.json",
+      "error": "ValueError: Each concept must be a short plain-text term"
+    }
+  ],
+  "status": "awaiting_relevance_screening",
+  "concept_plan": {
+    "exposure_anchor": "posture",
+    "exposure_terms": [
+      "posture"
+    ],
+    "outcome_anchor": "back pain",
+    "outcome_terms": [
+      "back pain"
+    ],
+    "context_anchor": "while sitting",
+    "context_terms": []
+  },
+  "queries": [
+    "(\"posture\"[tiab]) AND (\"back pain\"[tiab]) AND (\"while sitting\"[tiab])",
+    "(\"posture\"[tiab]) AND (\"back pain\"[tiab])"
+  ],
+  "query_compiler": "concept-blocks-v2",
+  "context_plan_recovery": {
+    "method": "literal-claim-context-recovery-v1",
+    "original_state_sha256": "f513e7fc7bc1b79ecc072eba284f029935eb69d451eb104ccbfa6467a194534d",
+    "saved_response_sha256": "9f6890ac6ea2c3b03c934ddf2423e13bdf6a4834800843e6f928384c60f890e8",
+    "context_anchor_before": null,
+    "context_anchor_after": "while sitting",
+    "queries": [
+      "(\"posture\"[tiab]) AND (\"back pain\"[tiab]) AND (\"while sitting\"[tiab])",
+      "(\"posture\"[tiab]) AND (\"back pain\"[tiab])"
+    ],
+    "planner_attempts_retained": 2,
+    "model_calls": 0
+  },
+  "result": {
+    "status": "awaiting_relevance_screening",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json",
+    "evidence_sha256": "dce19253d689867dac16f925b5b80ae667ae7d3f28ddafc60a55c6268c759f68",
+    "candidate_pmids": 77,
+    "usable_abstracts": 77,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "(\"posture\"[tiab]) AND (\"back pain\"[tiab]) AND (\"while sitting\"[tiab])",
+      "(\"posture\"[tiab]) AND (\"back pain\"[tiab])"
+    ]
+  },
+  "output": {
+    "sha256": "dce19253d689867dac16f925b5b80ae667ae7d3f28ddafc60a55c6268c759f68"
+  }
+}

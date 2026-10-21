@@ -1,0 +1,142 @@
+{
+  "profile": "claim-criteria-draft-v1",
+  "claim_id": "fitness-02-c002",
+  "assessment_sha256": "f0732a130aba396deb2eb40f5c59bc4faaf4ed7d0d1e64d33e4718d5f633753c",
+  "snapshot_sha256": "2fec066e825bbf018bee8f4218e9fabe4836bd8bfee93ae8c99e5a8988871556",
+  "historical_screening_attempts": 69,
+  "verification_attempts": 1,
+  "source_snapshots": {
+    "PMID:10499460": {
+      "text_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5"
+    },
+    "PMID:15841908": {
+      "text_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9"
+    }
+  },
+  "source_metadata": {
+    "PMID:10499460": {
+      "kind": "pubmed_abstract",
+      "pmid": "10499460",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10499460/",
+      "title": "Coffee and gastrointestinal function: facts and fiction. A review.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "1999"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+      "text_scope": "abstract_only",
+      "matched_queries": [
+        2
+      ],
+      "abstract_available": true,
+      "abstract_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+      "ranking_positions": {
+        "bi_encoder": 1,
+        "cross_encoder": 1
+      },
+      "id": "S04c98a2dfe4a7bb8",
+      "text_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5"
+    },
+    "PMID:15841908": {
+      "kind": "pubmed_abstract",
+      "pmid": "15841908",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15841908/",
+      "title": "The impairment of gastroduodenal mucosal barrier by coffee.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2004"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+      "text_scope": "abstract_only",
+      "matched_queries": [
+        2
+      ],
+      "abstract_available": true,
+      "abstract_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9",
+      "ranking_positions": {
+        "bi_encoder": 2,
+        "cross_encoder": 2
+      },
+      "id": "S9a65f24112340433",
+      "text_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9"
+    }
+  },
+  "proposed_source_facts": {
+    "10499460": {
+      "abstract_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+      "rationale": "{\"design\": \"Review\", \"population\": \"Patients and lay press\", \"intervention_comparator\": \"Coffee consumption vs. no coffee consumption\", \"outcomes\": \"Gastro-oesophageal reflux, dyspepsia, gastrin release, gastric acid secretion, lower oesophageal sphincter pressure, gastric emptying, small bowel transit, cholecystokinin release, gallbladder contraction, rectosigmoid motor activity\", \"results\": \"Coffee promotes gastro-oesophageal reflux; no association between coffee and dyspepsia; coffee stimulates gastrin release and gastric acid secretion; conflicting results on lower oesophageal sphincter pressure; coffee may slow gastric emptying but other studies indicate no effect on gastric emptying or small bowel transit; coffee induces cholecystokinin release and gallbladder contraction; coffee increases rectosigmoid motor activity within 4 min after ingestion\", \"limitations\": \"No specific population or intervention details provided; review of literature without experimental data\", \"quote_ids\": [\"D1-Q1\", \"D1-Q2\", \"D1-Q3\"]}",
+      "facts": {
+        "design": "Review",
+        "population": "Patients and lay press",
+        "intervention_comparator": "Coffee consumption vs. no coffee consumption",
+        "outcomes": "Gastro-oesophageal reflux, dyspepsia, gastrin release, gastric acid secretion, lower oesophageal sphincter pressure, gastric emptying, small bowel transit, cholecystokinin release, gallbladder contraction, rectosigmoid motor activity",
+        "results": "Coffee promotes gastro-oesophageal reflux; no association between coffee and dyspepsia; coffee stimulates gastrin release and gastric acid secretion; conflicting results on lower oesophageal sphincter pressure; coffee may slow gastric emptying but other studies indicate no effect on gastric emptying or small bowel transit; coffee induces cholecystokinin release and gallbladder contraction; coffee increases rectosigmoid motor activity within 4 min after ingestion",
+        "limitations": "No specific population or intervention details provided; review of literature without experimental data",
+        "quote_ids": [
+          "D1-Q1",
+          "D1-Q2",
+          "D1-Q3"
+        ]
+      },
+      "quotations": [
+        {
+          "pmid": "10499460",
+          "quote": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\n"
+        },
+        {
+          "pmid": "10499460",
+          "quote": "METHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\n"
+        },
+        {
+          "pmid": "10499460",
+          "quote": "RESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking."
+        }
+      ],
+      "status": "model_proposed_requires_review"
+    },
+    "15841908": {
+      "abstract_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9",
+      "rationale": "{\"design\": \"Randomized controlled trial\", \"population\": \"10 young asymptomatic habitual coffee drinkers\", \"intervention_comparator\": \"Coffee consumption vs. 48-hour coffee abstinence\", \"outcomes\": \"Sucrose permeability\", \"results\": \"Habitual coffee drinkers had significantly higher sucrose excretion (p < 0.01) compared to non-coffee drinkers; after 48-hour coffee abstinence, sucrose excretion decreased significantly (p < 0.05) to levels not differing from non-coffee drinkers\", \"limitations\": \"Small sample size (n=10); short abstinence period (48 hours); no control group for coffee abstinence\", \"quote_ids\": [\"D2-Q4\", \"D2-Q5\", \"D2-Q8\"]}",
+      "facts": {
+        "design": "Randomized controlled trial",
+        "population": "10 young asymptomatic habitual coffee drinkers",
+        "intervention_comparator": "Coffee consumption vs. 48-hour coffee abstinence",
+        "outcomes": "Sucrose permeability",
+        "results": "Habitual coffee drinkers had significantly higher sucrose excretion (p < 0.01) compared to non-coffee drinkers; after 48-hour coffee abstinence, sucrose excretion decreased significantly (p < 0.05) to levels not differing from non-coffee drinkers",
+        "limitations": "Small sample size (n=10); short abstinence period (48 hours); no control group for coffee abstinence",
+        "quote_ids": [
+          "D2-Q4",
+          "D2-Q5",
+          "D2-Q8"
+        ]
+      },
+      "quotations": [
+        {
+          "pmid": "15841908",
+          "quote": "SUBJECTS, MATERIALS AND METHODS: 10 young asymptomatic habitual coffee drinkers were included in the study."
+        },
+        {
+          "pmid": "15841908",
+          "quote": " The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence."
+        },
+        {
+          "pmid": "15841908",
+          "quote": " Permeability for sucrose was significantly higher in the group of habitual coffee drinkers in comparison with non-coffee drinkers (p < 0.01)."
+        }
+      ],
+      "status": "model_proposed_requires_review"
+    }
+  },
+  "coverage": "Bounded assessment of 2/3 available abstracts; all other sources remain unassessed in this draft. No full-text or exhaustive-search appraisal.",
+  "independently_reviewed": false,
+  "expert_validated": false
+}

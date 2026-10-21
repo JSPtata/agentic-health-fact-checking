@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:38:02.165696Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"Sf177d99b8f9cede3\",\n  \"study_or_document_type\": \"review\",\n  \"population_and_intervention\": \"unavailable here\",\n  \"measured_outcome_or_recommendation\": \"unavailable here\",\n  \"finding\": \"unavailable here\",\n  \"relation\": \"unassessable\",\n  \"limitations\": [\n    \"No specific timing for stretching after waking mentioned\",\n    \"No evidence of acute effects on circulation post-waking\",\n    \"No human studies on stretching after waking\",\n    \"No comparison to other interventions for circulation\"\n  ],\n  \"quote_ids\": [\n    \"Q1\",\n    \"Q2\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 15272190958,
+  "load_duration": 29000083,
+  "prompt_eval_count": 492,
+  "prompt_eval_cached_count": 382,
+  "prompt_eval_duration": 1191686000,
+  "eval_count": 157,
+  "eval_duration": 13290874000
+}

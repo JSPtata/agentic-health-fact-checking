@@ -1,0 +1,161 @@
+{
+  "total_claims": 7,
+  "status_counts": {
+    "adjudication_recorded": 1,
+    "verification_pending": 6
+  },
+  "claims": [
+    {
+      "claim": {
+        "claim_text": "Always stretch your body after waking up to boost circulation.",
+        "exposure": "stretching your body",
+        "outcome": "boost circulation",
+        "context": "after waking up",
+        "claim_id": "fitness-02-c001"
+      },
+      "claims_file": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claims/fitness-02.json",
+      "claim_id": "fitness-02-c001",
+      "status": "adjudication_recorded",
+      "verdict": "insufficient_evidence",
+      "candidate_reports": [
+        "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/verification-local-v1/verification-assisted.json"
+      ],
+      "candidate_report_copies": [
+        {
+          "sha256": "c1d4860f0a98ac067699399850350ac76b9ee0457d555ba45f3766ab30fed637",
+          "paths": [
+            "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/verification-local-v1/verification-assisted.json"
+          ]
+        }
+      ],
+      "assessments_awaiting_review": [],
+      "invalid_assessments": [],
+      "claim_specification_note": null
+    },
+    {
+      "claim": {
+        "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+        "exposure": "drinking coffee",
+        "outcome": "prevent acidity",
+        "context": "on an empty stomach",
+        "claim_id": "fitness-02-c002"
+      },
+      "claims_file": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claims/fitness-02.json",
+      "claim_id": "fitness-02-c002",
+      "status": "verification_pending",
+      "verdict": null,
+      "candidate_reports": [],
+      "candidate_report_copies": [],
+      "assessments_awaiting_review": [],
+      "invalid_assessments": [],
+      "claim_specification_note": null
+    },
+    {
+      "claim": {
+        "claim_text": "Eat fruits before meals, not after, for better digestion.",
+        "exposure": "eating fruits",
+        "outcome": "better digestion",
+        "context": "before meals, not after",
+        "claim_id": "fitness-02-c003"
+      },
+      "claims_file": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claims/fitness-02.json",
+      "claim_id": "fitness-02-c003",
+      "status": "verification_pending",
+      "verdict": null,
+      "candidate_reports": [],
+      "candidate_report_copies": [],
+      "assessments_awaiting_review": [],
+      "invalid_assessments": [],
+      "claim_specification_note": null
+    },
+    {
+      "claim": {
+        "claim_text": "The best time for exercise is early morning or evening.",
+        "exposure": "exercise",
+        "outcome": null,
+        "context": "early morning or evening",
+        "claim_id": "fitness-02-c004"
+      },
+      "claims_file": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claims/fitness-02.json",
+      "claim_id": "fitness-02-c004",
+      "status": "verification_pending",
+      "verdict": null,
+      "candidate_reports": [],
+      "candidate_report_copies": [],
+      "assessments_awaiting_review": [],
+      "invalid_assessments": [],
+      "claim_specification_note": "Structured outcome is missing; review the wording before operationalizing it."
+    },
+    {
+      "claim": {
+        "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+        "exposure": "screen time",
+        "outcome": null,
+        "context": "at least 30 minutes before going to bed",
+        "claim_id": "fitness-02-c005"
+      },
+      "claims_file": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claims/fitness-02.json",
+      "claim_id": "fitness-02-c005",
+      "status": "verification_pending",
+      "verdict": null,
+      "candidate_reports": [],
+      "candidate_report_copies": [],
+      "assessments_awaiting_review": [],
+      "invalid_assessments": [],
+      "claim_specification_note": "Structured outcome is missing; review the wording before operationalizing it."
+    },
+    {
+      "claim": {
+        "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+        "exposure": "maintaining proper posture",
+        "outcome": "prevent back pain",
+        "context": "while sitting",
+        "claim_id": "fitness-02-c006"
+      },
+      "claims_file": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claims/fitness-02.json",
+      "claim_id": "fitness-02-c006",
+      "status": "verification_pending",
+      "verdict": null,
+      "candidate_reports": [],
+      "candidate_report_copies": [],
+      "assessments_awaiting_review": [],
+      "invalid_assessments": [],
+      "claim_specification_note": null
+    },
+    {
+      "claim": {
+        "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+        "exposure": "replacing sugary drinks with herbal tea",
+        "outcome": "healthier alternative",
+        "context": null,
+        "claim_id": "fitness-02-c007"
+      },
+      "claims_file": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claims/fitness-02.json",
+      "claim_id": "fitness-02-c007",
+      "status": "verification_pending",
+      "verdict": null,
+      "candidate_reports": [],
+      "candidate_report_copies": [],
+      "assessments_awaiting_review": [],
+      "invalid_assessments": [],
+      "claim_specification_note": null
+    }
+  ],
+  "artifact_issues": [
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-draft-v1/assessment-draft.json",
+      "problem": "Claim ID is outside the extracted-claims inventory"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-reviewed-v1/assessment-reviewed.json",
+      "problem": "Claim ID is outside the extracted-claims inventory"
+    }
+  ],
+  "adjudication_summaries": [
+    "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-adjudication-assisted-v1/batch-summary.json",
+    "/Users/User/Desktop/agentic-health-fact-checking/data/processed/adjudication-batch-v1/batch-summary.json",
+    "/Users/User/Desktop/agentic-health-fact-checking/data/processed/langgraph-controller-v1/workflow-summary.json"
+  ],
+  "pending_adjudication_inputs": [],
+  "scope": "Artifact readiness and recorded adjudication; not independent scientific validation. No retrieval or model calls performed."
+}

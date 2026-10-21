@@ -1,0 +1,66 @@
+{
+  "claims": [
+    {
+      "claim_id": "fitness-02-c001",
+      "claim": {
+        "claim_text": "Always stretch your body after waking up to boost circulation.",
+        "exposure": "stretching your body",
+        "outcome": "boost circulation",
+        "context": "after waking up",
+        "claim_id": "fitness-02-c001"
+      },
+      "candidate_reports": [
+        "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/verification-local-v1/verification-assisted.json"
+      ]
+    },
+    {
+      "claim_id": "fitness-02-c002",
+      "claim": {
+        "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+        "exposure": "drinking coffee",
+        "outcome": "prevent acidity",
+        "context": "on an empty stomach",
+        "claim_id": "fitness-02-c002"
+      },
+      "candidate_reports": [
+        "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c002.json"
+      ]
+    },
+    {
+      "claim_id": "fitness-02-c003",
+      "claim": {
+        "claim_text": "Eat fruits before meals, not after, for better digestion.",
+        "exposure": "eating fruits",
+        "outcome": "better digestion",
+        "context": "before meals, not after",
+        "claim_id": "fitness-02-c003"
+      },
+      "candidate_reports": [
+        "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c003.json"
+      ]
+    },
+    {
+      "claim_id": "fitness-02-c006",
+      "claim": {
+        "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+        "exposure": "maintaining proper posture",
+        "outcome": "prevent back pain",
+        "context": "while sitting",
+        "claim_id": "fitness-02-c006"
+      },
+      "candidate_reports": [
+        "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c006.json"
+      ]
+    },
+    {
+      "claim_id": "nutrition-01-diagnostic-c001",
+      "claim": {
+        "claim_id": "nutrition-01-diagnostic-c001",
+        "claim_text": "People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk."
+      },
+      "candidate_reports": [
+        "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-reviewed-v1/assessment-reviewed.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "binding": {
+    "profile": "focused-endpoint-check-v1",
+    "input_sha256": "1052b1ce1883ebca096ec4cfde9abf73b7428d9d768dc413c35ead347f39a839",
+    "model_identity": {
+      "model": "qwen3:4b",
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    "script_sha256": "dbfd54f62b2953187bb911832810d2b2809625d797833bccfe0246a9291892e4",
+    "transport_sha256": "48867083ca64ddf4efe7afbc952f57dea9a01acef7bcf64f470dd7282856616d",
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e"
+  },
+  "outputs": {
+    "149995ad3a8112621b3895f111207e462e317a931be2d093930f6029ce27ef2b": {
+      "relation": "different",
+      "quote_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "reason": "The claimed outcome 'Losing a lot of fat very quickly' refers to rapid weight loss, but the abstract discusses the slow and complex nature of weight loss processes, emphasizing long-term management rather than quick results. The abstract mentions that weight '"
+    },
+    "e0020f8631e6ad4787e19a9a7d4c71a87234cf8b6d6673cf068adbab878e6f0e": {
+      "relation": "exact",
+      "quote_ids": [
+        "Q4"
+      ],
+      "reason": "The claimed outcome 'Losing a lot of fat very quickly' is directly measured as 'within-participant difference in percent weight change (%WC) between diets, from baseline to week 8' in Q4. This is a precise endpoint construct for weight loss over time, matching"
+    },
+    "ec1e765dcd0e63259d1965dfe640ec7f3df55ade901b7523defe4bb4fbf19b35": {
+      "relation": "different",
+      "quote_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "reason": "The claimed outcome 'Losing a lot of fat very quickly' refers to a rapid weight loss process, but the abstract discusses cancer-related topics without any mention of fat loss, weight loss, or related constructs. The endpoints described in the abstract are all "
+    }
+  },
+  "events": [
+    {
+      "key": "149995ad3a8112621b3895f111207e462e317a931be2d093930f6029ce27ef2b",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "33bb6fbfa4edbc698e24f5438a43c71b1ae2f953c2fa93061c500c5302f67102",
+      "response_file": "responses/0001.json",
+      "duplicate_citations_removed": 0
+    },
+    {
+      "key": "e0020f8631e6ad4787e19a9a7d4c71a87234cf8b6d6673cf068adbab878e6f0e",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "a5a55807f146dbe41630a66b4d4c1c51c68497993bd09ad55422b7e02cc16a4e",
+      "response_file": "responses/0002.json",
+      "duplicate_citations_removed": 0
+    },
+    {
+      "key": "ec1e765dcd0e63259d1965dfe640ec7f3df55ade901b7523defe4bb4fbf19b35",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "be6fdf1a321ba702a639b9426d2bd748ded4b3a480dd0c97c7bcd2d801ce0a0b",
+      "response_file": "responses/0003.json",
+      "duplicate_citations_removed": 0
+    }
+  ]
+}

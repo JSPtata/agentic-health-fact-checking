@@ -1,0 +1,43 @@
+{
+  "claim_id": "fitness-02-c003",
+  "claim_text": "Eat fruits before meals, not after, for better digestion.",
+  "status": "awaiting_relevance_screening",
+  "interrupted": true,
+  "pending_action": "rank_candidates_and_complete_suitability_verification_and_review",
+  "source_review_status": "source_review_incomplete",
+  "retrieval": {
+    "status": "awaiting_relevance_screening",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json",
+    "evidence_sha256": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+    "candidate_pmids": 70,
+    "usable_abstracts": 70,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "(\"fruit\"[tiab] OR \"fruits\"[tiab]) AND (\"digestion\"[tiab] OR \"digestive process\"[tiab]) AND (\"food intake timing\"[tiab] OR \"meal timing\"[tiab] OR \"meals\"[tiab])",
+      "(\"fruit\"[tiab] OR \"fruits\"[tiab]) AND (\"digestion\"[tiab] OR \"digestive process\"[tiab])"
+    ]
+  },
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [
+    {
+      "action": "retrieval_finished",
+      "result": {
+        "status": "awaiting_relevance_screening",
+        "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json",
+        "evidence_sha256": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+        "candidate_pmids": 70,
+        "usable_abstracts": 70,
+        "unresolved_pmids": [],
+        "empty_abstract_pmids": [],
+        "queries": [
+          "(\"fruit\"[tiab] OR \"fruits\"[tiab]) AND (\"digestion\"[tiab] OR \"digestive process\"[tiab]) AND (\"food intake timing\"[tiab] OR \"meal timing\"[tiab] OR \"meals\"[tiab])",
+          "(\"fruit\"[tiab] OR \"fruits\"[tiab]) AND (\"digestion\"[tiab] OR \"digestive process\"[tiab])"
+        ]
+      }
+    }
+  ],
+  "adjudication": null
+}

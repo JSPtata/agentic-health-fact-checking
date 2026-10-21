@@ -1,0 +1,32 @@
+{
+  "binding": {
+    "snapshot_sha256": "2fec066e825bbf018bee8f4218e9fabe4836bd8bfee93ae8c99e5a8988871556",
+    "claim": {
+      "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+      "exposure": "drinking coffee",
+      "outcome": "prevent acidity",
+      "context": "on an empty stomach",
+      "claim_id": "fitness-02-c002"
+    },
+    "model": "qwen3:4b",
+    "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "source_limit": 2,
+    "attempt_limit": 2,
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e",
+    "schema_sha256": "4e10bb834df497562fa5549e99a234807af56a3dc044c7ea459959a7438baf8c",
+    "script_sha256": "d666a51fc87a0e70449ac7ceb4e2df323c9f5a29e045ec2edc2b164b28999f37"
+  },
+  "events": [
+    {
+      "status": "draft_saved_requires_review",
+      "prompt_sha256": "ffcbce0247a222a1a5c78b3a567f3f1ea73026e197e90fc874ca9ec7b33796a1",
+      "response_file": "responses/1.json"
+    }
+  ],
+  "draft": true,
+  "output_hashes": {
+    "assessment-draft.json": "75d80c19813d1a16df7b15f8da30bec74d2d8940390c1ac9611e6294c38ff963",
+    "provenance.json": "53cf9059037ad785fd9064d3a70d1cb7a55ede89bcb24aecf7681d6b4312547d",
+    "source-selection.json": "35139381b128a72beb5df483c320075d3f24110de4cb4462a920d371b369bc46"
+  }
+}

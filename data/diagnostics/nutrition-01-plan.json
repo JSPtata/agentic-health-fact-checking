@@ -1,0 +1,24 @@
+{
+  "transcript_file": "data/processed/transcripts/nutrition-01.json",
+  "source_quote": "What you find is they lose a lot of fat very, very quickly.",
+  "claim_selection": "Assistant-selected paraphrase for a retrieval diagnostic; interpret the source quote using the complete transcript. Not an automatic claim-extraction evaluation.",
+  "claim": {
+    "claim_id": "nutrition-01-diagnostic-c001",
+    "claim_text": "People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk.",
+    "exposure": "Switching to the described restricted food list",
+    "outcome": "Losing a lot of fat very quickly",
+    "context": "People previously eating a lot of processed foods and excess carbohydrates and fats together; amount and time frame unspecified"
+  },
+  "queries": [
+    "(\"low carbohydrate\"[tiab] OR \"low-carbohydrate\"[tiab] OR \"carbohydrate restricted\"[tiab] OR \"Diet, Carbohydrate-Restricted\"[Mesh]) AND (\"fat mass\"[tiab] OR \"body fat\"[tiab] OR \"Body Composition\"[Mesh])",
+    "(paleolithic[tiab] OR palaeolithic[tiab] OR paleo[tiab]) AND (\"body fat\"[tiab] OR \"fat mass\"[tiab] OR adiposity[tiab] OR \"weight loss\"[tiab])",
+    "(\"ultra-processed\"[tiab] OR ultraprocessed[tiab] OR \"processed foods\"[tiab]) AND (\"body fat\"[tiab] OR \"fat mass\"[tiab] OR \"weight loss\"[tiab])"
+  ],
+  "query_notes": "Low-carbohydrate and paleolithic diets are discovery proxies, not assumed equivalents of the exact claimed diet. Queries do not require positive results.",
+  "review_questions": [
+    "Does the tested diet match the actual listed foods and exclusions, or is it only an indirect proxy?",
+    "Was body fat measured, or only body weight? Do not equate the two.",
+    "What population, comparator, duration, fat-change estimate and uncertainty are reported?",
+    "Retain supportive, null and adverse findings. The claim specifies no numerical amount or time frame."
+  ]
+}

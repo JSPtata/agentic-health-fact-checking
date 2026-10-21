@@ -1,0 +1,12 @@
+{
+  "policy": "reviewed-criteria-adjudication-v1",
+  "script_sha256": "06c91834820ddf86f343b47fc526829fb3697fe0fc179e78cc0dbe9a65795e7f",
+  "inputs": [
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/verification-local-v1/verification-assisted.json",
+      "sha256": "c1d4860f0a98ac067699399850350ac76b9ee0457d555ba45f3766ab30fed637",
+      "claim_id": "fitness-02-c001",
+      "error": null
+    }
+  ]
+}

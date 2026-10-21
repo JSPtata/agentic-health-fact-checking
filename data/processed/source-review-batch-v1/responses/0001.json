@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T06:00:43.437854Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"design_ids\": [\"Q2\"],\n  \"population_ids\": [\"Q2\"],\n  \"intervention_comparator_ids\": [\"Q4\"],\n  \"outcome_result_ids\": [\"Q6\", \"Q7\", \"Q8\"]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 24853253000,
+  "load_duration": 7924419833,
+  "prompt_eval_count": 541,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 8882622000,
+  "eval_count": 60,
+  "eval_duration": 7625523000
+}

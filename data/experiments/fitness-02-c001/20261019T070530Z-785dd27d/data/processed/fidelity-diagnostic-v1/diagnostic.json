@@ -1,0 +1,76 @@
+{
+  "correct_answers": 5,
+  "total_questions": 6,
+  "results": [
+    {
+      "pmid": "26275649",
+      "question": "Which group had significant within-group vascular changes?",
+      "answer": "yoga",
+      "expected": "yoga",
+      "correct": true,
+      "source_quotes": [
+        " There was significant change within-yoga group in vascular function, BP and autonomic function, while no significant change within-BW group was observed.\n\n"
+      ]
+    },
+    {
+      "pmid": "26275649",
+      "question": "Does this design isolate the effect of stretching alone?",
+      "answer": "not_reported",
+      "expected": "no",
+      "correct": false,
+      "source_quotes": [
+        "INTERVENTIONS: Yoga group (n=30) was assigned for yoga training and brisk-walking (BW) group (n=30) for brisk-walk with stretching exercise for 1h in the morning for 6 days in a week for 12 weeks.\n\n"
+      ]
+    },
+    {
+      "pmid": "32596231",
+      "question": "Were normal nonsmoking subjects included as a comparison group?",
+      "answer": "yes",
+      "expected": "yes",
+      "correct": true,
+      "source_quotes": [
+        "METHODS: The study population consisted of thirty type 2 diabetic male patients (15 smokers vs. 15 non-smokers) and 15 normal non-smoking subjects."
+      ]
+    },
+    {
+      "pmid": "32596231",
+      "question": "Was post-stretch reactive hyperemia reported in all subjects?",
+      "answer": "yes",
+      "expected": "yes",
+      "correct": true,
+      "source_quotes": [
+        "RESULTS: Following the stretch, post-stretch reactive hyperemia (PSRH) responses were found in all subjects. However, the diabetic non-smokers had relatively higher reactive blood flow than that of the diabetic smokers."
+      ]
+    },
+    {
+      "pmid": "35981730",
+      "question": "What species were the enrolled experimental participants?",
+      "answer": "human",
+      "expected": "human",
+      "correct": true,
+      "source_quotes": [
+        " Eight healthy young males undertook four experimental sessions, in which a sPLM was performed on the dominant limb while in each specific session the contralateral was: <i>1</i>) in a resting condition (CTRL),"
+      ]
+    },
+    {
+      "pmid": "35981730",
+      "question": "What happened to resting limb blood flow in the combined muscle-damage-plus-stretch condition?",
+      "answer": "decreased",
+      "expected": "decreased",
+      "correct": true,
+      "source_quotes": [
+        " Resting FBF and LVC were decreased only in the DOMS + ST condition (-26 mL/min and -50 mL/mmHg/min respectively) with decreased RMSSD and increased LF/HF ratio."
+      ]
+    }
+  ],
+  "reference_provenance": "Case-specific assistant-reviewed reference answers, not independent expert gold labels.",
+  "limitations": "Checks source reading only. Does not establish quotation entailment, general scientific accuracy or full-verifier reliability.",
+  "model_attempts": 3,
+  "binding": {
+    "profile": "source-fidelity-diagnostic-v1",
+    "model": "qwen3:4b",
+    "bundle_sha256": "320bf14b933570f44ab365ddacbe85bdf47aa3fbd6bf877a654387f46d3d500c",
+    "max_attempts_per_source": 2,
+    "diagnostic_config_sha256": "2926385393c33e97405cc47b69495ccdbc77ebef6a41efafd3725d379469d26b"
+  }
+}

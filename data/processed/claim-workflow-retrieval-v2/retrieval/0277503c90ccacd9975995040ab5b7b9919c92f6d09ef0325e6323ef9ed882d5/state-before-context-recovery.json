@@ -1,0 +1,41 @@
+{
+  "binding": {
+    "profile": "compiled-concept-retrieval-v2",
+    "claim": {
+      "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+      "exposure": "maintaining proper posture",
+      "outcome": "prevent back pain",
+      "context": "while sitting",
+      "claim_id": "fitness-02-c006"
+    },
+    "model": "qwen3:4b",
+    "controller_sha256": "65d664e7c5b14d99d2cc0fb09e4e2d16d5ed03cf47df3ced03faa8c788f11d68",
+    "pubmed_client_sha256": "d3f484efb74e80b16265757ff410d6b82778c9819e31766fa0bbaa08cf24aca8",
+    "parser_sha256": "2130838f9a6772d24d1f925c54d8262004c6c1c53f9747177b6cbf04877eb135",
+    "limits": {
+      "planner_attempts": 2,
+      "queries_per_plan": 2,
+      "max_queries_total": 4,
+      "results_per_query": 50,
+      "http_attempts_per_request": 2
+    }
+  },
+  "cache": {},
+  "events": [],
+  "planner_attempts": [
+    {
+      "status": "error",
+      "prompt_sha256": "d9097d7c3c46dcf11058fe5fdbebc7048d2e41ab41950dfc8b5e7230973a4b14",
+      "response_file": "planner-1.json",
+      "error": "ValueError: Use neutral concepts, without operators, tags or benefit wording"
+    },
+    {
+      "status": "error",
+      "prompt_sha256": "584f0a47b85e63cabee0485453e96391a8faa22816e273ac80327e4f0ba11b05",
+      "response_file": "planner-2.json",
+      "error": "ValueError: Each concept must be a short plain-text term"
+    }
+  ],
+  "status": "retrieval_budget_exhausted",
+  "last_error": "RetrievalPaused: Two planner attempts consumed; inspect saved concept plans"
+}

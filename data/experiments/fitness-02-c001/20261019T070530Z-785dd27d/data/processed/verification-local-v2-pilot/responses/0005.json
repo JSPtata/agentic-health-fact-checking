@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T19:11:00.435704Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S0756726fd5d009f5\",\n  \"study_or_document_type\": \"pubmed_abstract\",\n  \"population_and_intervention\": \"Eight healthy young males\",\n  \"measured_outcome_or_recommendation\": \"Resting FBF and LVC decreased in DOMS + ST condition\",\n  \"finding\": \"DOMS + ST condition showed decreased resting FBF (-26 mL/min) and LVC (-50 mL/mmHg/min)\",\n  \"relation\": \"support\",\n  \"limitations\": [\n    \"No long-term effects measured\",\n    \"Short-term study only\",\n    \"Limited to young males\"\n  ],\n  \"quote_ids\": [\n    \"Q9\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 26907768708,
+  "load_duration": 30679291,
+  "prompt_eval_count": 987,
+  "prompt_eval_cached_count": 280,
+  "prompt_eval_duration": 8927661000,
+  "eval_count": 172,
+  "eval_duration": 17750401000
+}

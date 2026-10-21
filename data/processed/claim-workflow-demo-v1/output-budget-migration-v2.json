@@ -1,0 +1,69 @@
+{
+  "profile": "output-budget-migration-v2",
+  "created_at": "2026-10-21T05:20:28.520516+00:00",
+  "reason": "Extend one remaining retry after a length-limited response",
+  "old_helper_sha256": "3a9a32fb3fb89eba7545fa68c607b8e5a2c10f4fdfd3bab038d68b41ebebf13a",
+  "new_helper_sha256": "d666a51fc87a0e70449ac7ceb4e2df323c9f5a29e045ec2edc2b164b28999f37",
+  "context_tokens": 8192,
+  "retry_output_cap": 4096,
+  "attempt_limit_unchanged": 2,
+  "model_calls": 0,
+  "states": [
+    {
+      "claim_id": "fitness-02-c006",
+      "attempts_retained": 1,
+      "cached_draft_retained": false,
+      "response_sha256": {
+        "responses/1.json": "fc71885578f25ab45816d7ea6075bef9d025140d2e3e25250ebb50c5ec708bbd"
+      }
+    },
+    {
+      "claim_id": "fitness-02-c003",
+      "attempts_retained": 1,
+      "cached_draft_retained": false,
+      "response_sha256": {
+        "responses/1.json": "2be831d52f50f4b9d596bb245b6022b85562a5302b822b703c94e03287137bf4"
+      }
+    },
+    {
+      "claim_id": "fitness-02-c002",
+      "attempts_retained": 1,
+      "cached_draft_retained": true,
+      "response_sha256": {
+        "responses/1.json": "6eb9f46d3b0b02eab6f947543ce9dbe5284313097f1f2d4fb9e3d8466514ce2c"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/scripts/prepare_assessment_draft.py",
+      "backup": "/var/folders/_b/0s7k_czd39nf8lxxvdmg_9lm0000gn/T/health-output-budget-backup-xwu6pyfe/0",
+      "before_sha256": "3a9a32fb3fb89eba7545fa68c607b8e5a2c10f4fdfd3bab038d68b41ebebf13a",
+      "after_sha256": "d666a51fc87a0e70449ac7ceb4e2df323c9f5a29e045ec2edc2b164b28999f37"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/run-binding.json",
+      "backup": "/var/folders/_b/0s7k_czd39nf8lxxvdmg_9lm0000gn/T/health-output-budget-backup-xwu6pyfe/1",
+      "before_sha256": "040f86c01f77300cdf11a5bf0bddd1bd07886d5fd6f4ae4dd22bb021e4be428b",
+      "after_sha256": "cda141af9f626a417c15bf906876177c459618195f5586ae22df1e8c11a627aa"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/verification/0277503c90ccacd9/state.json",
+      "backup": "/var/folders/_b/0s7k_czd39nf8lxxvdmg_9lm0000gn/T/health-output-budget-backup-xwu6pyfe/2",
+      "before_sha256": "d3dff54b6abe277d5b52a548aa6b06e6fafb3f059467fdcdd6a41f75d15b5995",
+      "after_sha256": "a768c383def8680dbf6af77c902de89ffcc2bf67b68e10db05fac37c531eb80e"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/verification/562f549dbdcb5407/state.json",
+      "backup": "/var/folders/_b/0s7k_czd39nf8lxxvdmg_9lm0000gn/T/health-output-budget-backup-xwu6pyfe/3",
+      "before_sha256": "ed87c752c24fec4f1a664d2740b57949ed7741c908c3af40d129274b51b2cc86",
+      "after_sha256": "92129f6f25fa4201ccdf052c9288cb63b018e0bcfe3990c0f372462c549b1ab5"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/verification/9938027648f5fdb9/state.json",
+      "backup": "/var/folders/_b/0s7k_czd39nf8lxxvdmg_9lm0000gn/T/health-output-budget-backup-xwu6pyfe/4",
+      "before_sha256": "caf263d42174bf0ead3de1b42c893b78be9ac74dddd71d8fa48c40dad1dee533",
+      "after_sha256": "2b26310c7fdb4973ca2e3c036e76a7a684c64c79ea4da5eb3ac25fc0aec56743"
+    }
+  ]
+}

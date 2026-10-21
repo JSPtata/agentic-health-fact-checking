@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"3","retmax":"3","retstart":"0","idlist":["10499460","36233963","15841908"],"translationset":[],"querytranslation":"(\"coffee consumption\"[Title/Abstract] OR \"coffee intake\"[Title/Abstract] OR \"drinking coffee\"[Title/Abstract]) AND (\"acid reflux\"[Title/Abstract] OR \"acidity\"[Title/Abstract])"}}

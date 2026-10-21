@@ -1,0 +1,93 @@
+{
+  "claim_id": "fitness-02-c006",
+  "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+  "status": "completed_from_reviewed_assessment",
+  "interrupted": false,
+  "pending_action": "finished",
+  "source_review_status": "not_supplied",
+  "retrieval": null,
+  "verification": {
+    "status": "verification_service_paused",
+    "retryable": true
+  },
+  "verdict": "insufficient_evidence",
+  "last_error": null,
+  "submissions": 1,
+  "history": [
+    {
+      "action": "bounded_verification",
+      "result": {
+        "status": "verification_request_failed",
+        "error": "Incomplete or oversized local response",
+        "retryable": true
+      }
+    },
+    {
+      "action": "bounded_verification",
+      "result": {
+        "status": "verification_service_paused",
+        "retryable": true
+      }
+    },
+    {
+      "action": "assessment_attached",
+      "sha256": "2579ed782a0b0994b2306fda513ff6d3c7e2ab8543dae41e221c04b469ff2cbc"
+    },
+    {
+      "action": "adjudicated",
+      "input_sha256": "2579ed782a0b0994b2306fda513ff6d3c7e2ab8543dae41e221c04b469ff2cbc",
+      "verdict": "insufficient_evidence"
+    }
+  ],
+  "adjudication": {
+    "status": "adjudicated_from_reviewed_assessments",
+    "verdict": "insufficient_evidence",
+    "reason": "The reviewed evidence does not establish support or refutation under this policy.",
+    "next_action": "stop_with_evidence_limits",
+    "summary": "The two appraised abstracts concern treatment in people already experiencing low back pain and mixed review-level evidence about physical exposure and causality. They do not establish that an isolated, defined proper sitting posture prevents back-pain onset or recurrence. This bounded assisted assessment does not establish that posture is irrelevant or ineffective.",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "wording": "Maintain proper posture while sitting to prevent back pain.",
+        "role": "core",
+        "conclusion": "insufficient_evidence",
+        "applicability": "indirect",
+        "evidence_strength": "limited",
+        "rationale": "The randomized trial enrolled 60 patients with existing nonspecific low back pain. Both arms performed core stability exercise; the multidimensional arm also received pain-principles and management training. Improved pain, disability and measured posture after this combined treatment do not isolate a preventive effect of sitting posture. The umbrella review includes 41 reviews and reports mixed temporal and dose-response evidence and no causal consensus. Association and lack of causal consensus neither prove posture-caused pain nor prove no posture effect. Proper posture is not operationalized in the claim, and prevention must be distinguished from treating current symptoms.",
+        "citations": [
+          {
+            "source_id": "PMID:34306274",
+            "quote": "The purpose of this study was to investigate the effects of multidimensional approach model on the pain, disability, and sitting posture in patients with nonspecific low back pain (LBP)."
+          },
+          {
+            "source_id": "PMID:31451200",
+            "quote": "Evidence that these factors precede first time LBP or have a dose response relationship with LBP outcomes was mixed."
+          }
+        ]
+      }
+    ],
+    "evidence_gaps": [
+      "Define the proposed sitting posture and intended prevention population, including whether onset or recurrence is the target.",
+      "An isolated sitting-posture intervention with incident or recurrent back-pain outcomes is not established by the appraised trial abstract.",
+      "Confounding, mixed interventions, review overlap, risk of bias, effect sizes and clinical importance require further appraisal.",
+      "Assisted appraisal of 2/77 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+    ],
+    "review": {
+      "decision": "accept",
+      "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+      "method": "assisted",
+      "claim_requirements_complete": true,
+      "assessment_sha256": "5bd83c9efde4a22cc552f7fd33aefb409e72d6565058df576501a7c4ef00069b",
+      "unresolved_objections": []
+    },
+    "source_hashes": {
+      "PMID:34306274": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3",
+      "PMID:31451200": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6"
+    },
+    "decision_scope": "Rule-based synthesis of supplied reviewed assessments; citation presence does not prove entailment or scientific correctness.",
+    "claim_id": "fitness-02-c006",
+    "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+    "input_sha256": "2579ed782a0b0994b2306fda513ff6d3c7e2ab8543dae41e221c04b469ff2cbc",
+    "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c006.json"
+  }
+}

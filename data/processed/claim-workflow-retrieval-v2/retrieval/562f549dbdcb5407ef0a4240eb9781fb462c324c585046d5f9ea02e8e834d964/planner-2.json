@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T17:49:50.623642Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"exposure_anchor\": \"fruits\",\n  \"exposure_terms\": [\"fruit\"],\n  \"outcome_anchor\": \"digestion\",\n  \"outcome_terms\": [\"digestive process\"],\n  \"context_anchor\": \"meals\",\n  \"context_terms\": [\"meal timing\", \"food intake timing\"]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 9673190375,
+  "load_duration": 24816542,
+  "prompt_eval_count": 242,
+  "prompt_eval_cached_count": 221,
+  "prompt_eval_duration": 344198000,
+  "eval_count": 70,
+  "eval_duration": 9263355000
+}

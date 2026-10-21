@@ -1,0 +1,13 @@
+BACKGROUND: Many patients with gastro-oesophageal reflux disease (GORD) report that coffee aggravates their symptoms and doctors tend to discourage its use in GORD.
+
+OBJECTIVE: To assess the effect of coffee ingestion on gastro-oesophageal acid reflux.
+
+DESIGN: A randomized, controlled, crossover study.
+
+PARTICIPANTS: Seven GORD patients and eight healthy subjects.
+
+METHODS: After 1 day of coffee abstinence, participants underwent 24-h oesophageal pH and manometric monitoring. At well-defined times, they ingested either 280 ml of regular paper-filtered coffee or 280 ml of warm water. Coffee or water was drunk 1 h after breakfast, during lunch, 1 h after dinner and after an overnight fast Reflux and oesophageal motility parameters were assessed for the first hour after each coffee or water intake.
+
+RESULTS: Coffee had no effect on postprandial acid reflux time or number of reflux episodes, either in GORD patients or in healthy subjects. Coffee increased the percentage acid reflux time only when ingested in the fasting period in the GORD patients (median 2.6, range 0-19.3 versus median 0, range 0-8.3; P = 0.028), but not in the healthy subjects. No effect of coffee on postprandial lower oesophageal sphincter pressure (LOSP), patterns of LOSP associated with reflux episodes or oesophageal contractions was found.
+
+CONCLUSION: Coffee has no important effect on gastro-oesophageal acid reflux in GORD patients, and no effect at all in healthy subjects.

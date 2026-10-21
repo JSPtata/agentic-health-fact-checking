@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T19:09:28.616982Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S03497b210d84149c\",\n  \"study_or_document_type\": \"pubmed_abstract\",\n  \"population_and_intervention\": \"Elderly subjects with increased pulse pressure (PP≥60 mmHg) (n=60); yoga group (n=30) vs. brisk-walking group (n=30)\",\n  \"measured_outcome_or_recommendation\": \"Arterial stiffness measures (baPWV, c-f PWV, AIx@75, aASI), endothelial function (NOx), BP, cardiac autonomic function\",\n  \"finding\": \"Yoga program more effective than brisk-walk in reducing arterial stiffness and BP in elderly with increased PP\",\n  \"relation\": \"contradiction\",\n  \"limitations\": [\n    \"No mention of stretching in intervention\",\n    \"No comparison of stretching effects\",\n    \"No long-term follow-up data\",\n    \"No control for confounding factors\"\n  ],\n  \"quote_ids\": [\n    \"Q1\",\n    \"Q2\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 50616380667,
+  "load_duration": 6543200792,
+  "prompt_eval_count": 1126,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 15445147000,
+  "eval_count": 249,
+  "eval_duration": 28205073000
+}

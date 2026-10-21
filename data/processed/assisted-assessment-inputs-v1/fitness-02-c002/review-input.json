@@ -1,0 +1,98 @@
+{
+  "claim": {
+    "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+    "exposure": "drinking coffee",
+    "outcome": "prevent acidity",
+    "context": "on an empty stomach",
+    "claim_id": "fitness-02-c002"
+  },
+  "articles": {
+    "10563539": {
+      "kind": "pubmed_abstract",
+      "pmid": "10563539",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10563539/",
+      "title": "Effect of coffee on gastro-oesophageal reflux in patients with reflux disease and healthy controls.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Clinical Trial",
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "1999 Nov"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592149+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sa4e9495eb84f9788",
+      "text_file": "sources/Sa4e9495eb84f9788.txt",
+      "text_sha256": "3d90a36ddee084ad350ae7c5491dd4edf98e000b3e3a2361c2b314af1efff8a8",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1468,
+      "abstract": "BACKGROUND: Many patients with gastro-oesophageal reflux disease (GORD) report that coffee aggravates their symptoms and doctors tend to discourage its use in GORD.\n\nOBJECTIVE: To assess the effect of coffee ingestion on gastro-oesophageal acid reflux.\n\nDESIGN: A randomized, controlled, crossover study.\n\nPARTICIPANTS: Seven GORD patients and eight healthy subjects.\n\nMETHODS: After 1 day of coffee abstinence, participants underwent 24-h oesophageal pH and manometric monitoring. At well-defined times, they ingested either 280 ml of regular paper-filtered coffee or 280 ml of warm water. Coffee or water was drunk 1 h after breakfast, during lunch, 1 h after dinner and after an overnight fast Reflux and oesophageal motility parameters were assessed for the first hour after each coffee or water intake.\n\nRESULTS: Coffee had no effect on postprandial acid reflux time or number of reflux episodes, either in GORD patients or in healthy subjects. Coffee increased the percentage acid reflux time only when ingested in the fasting period in the GORD patients (median 2.6, range 0-19.3 versus median 0, range 0-8.3; P = 0.028), but not in the healthy subjects. No effect of coffee on postprandial lower oesophageal sphincter pressure (LOSP), patterns of LOSP associated with reflux episodes or oesophageal contractions was found.\n\nCONCLUSION: Coffee has no important effect on gastro-oesophageal acid reflux in GORD patients, and no effect at all in healthy subjects.",
+      "abstract_sha256": "3d90a36ddee084ad350ae7c5491dd4edf98e000b3e3a2361c2b314af1efff8a8",
+      "abstract_available": true
+    },
+    "12741451": {
+      "kind": "pubmed_abstract",
+      "pmid": "12741451",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12741451/",
+      "title": "A randomized, double-blind comparison of two different coffee-roasting processes on development of heartburn and dyspepsia in coffee-sensitive individuals.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Clinical Trial",
+        "Comparative Study",
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2003 Apr"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592193+00:00",
+      "text_scope": "abstract_only",
+      "id": "S7253767afd363fd8",
+      "text_file": "sources/S7253767afd363fd8.txt",
+      "text_sha256": "9d8f6276c00f6395d7a56d4aadc26d9463db1cec202c4ff9250477a981bb06fc",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1204,
+      "abstract": "The mechanism underlying coffee-induced heartburn and dyspepsia remains poorly understood. This has led to speculation that variations in coffee processing may be important. The primary objective of this study was to determine whether a coffee brewed with coffee beans processed using conduction roasting will result in fewer symptoms of gastroesophageal reflux and dyspepsia in coffee-sensitive individuals compared to a differently processed yet otherwise similar coffee. Thirty coffee-sensitive individuals completed this single-center, randomized, double-blind, crossover study in which the symptoms of heartburn, regurgitation and dyspepsia were assessed following coffee consumption both in the fasting state and after ingestion of a standard test meal. Consumption of both coffees resulted in heartburn, regurgitation, and dyspepsia in most individuals. No significant differences in the frequency or severity of heartburn, regurgitation, or dyspepsia were demonstrated between the two coffees either in the fasting state or after the test meal. We conclude that differences in the coffee bean roasting process do not result in marked differences in coffee-induced upper gastrointestinal symptoms.",
+      "abstract_sha256": "9d8f6276c00f6395d7a56d4aadc26d9463db1cec202c4ff9250477a981bb06fc",
+      "abstract_available": true
+    },
+    "35784632": {
+      "kind": "pubmed_abstract",
+      "pmid": "35784632",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35784632/",
+      "title": "Endoscopic finding of hematin represents strong gastric acidity.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2022 Jul-Aug"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592292+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sf8564f255404bdc9",
+      "text_file": "sources/Sf8564f255404bdc9.txt",
+      "text_sha256": "6ea3e3936cd76a2a32eb1650f7d886d2a2e15de032f9abdeb456d3e3711d6112",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1613,
+      "abstract": "BACKGROUND: Hematin is a state in which hemoglobin, as petechiae, is discolored to a brown coffee color by gastric hydrochloric acid. Given the nature of hematin, a close relationship between hematin and acidity has been suggested, but has not been confirmed. We investigated the clinical significance of endoscopic finding of hematin with respect to gastric acidity.\n\nMETHODS: A total of 501 patients were assessed for both hematin and fasting gastric juice pH by endoscopy. Endpoints were as follows: 1) the relationship between the presence of hematin and the fasting gastric juice pH; and 2) the diagnostic performance of endoscopic hematin. In addition, we performed a supplementary in vitro study to clarify the relationship between hematin formation and various acid pH levels.\n\nRESULTS: The prevalence of hematin was 31.1% (142/206), 4.6% (5/109) and 45.2% (84/186) in the H. pylori-uninfected, -infected and -eradicated groups, respectively. The mean pH of fasting gastric juice in the hematin-positive cases was significantly lower than the hematin-negative cases (mean pH 1.2, 95% confidence interval [CI] 1.1-1.3 vs. 2.7 95%CI 2.5-3.0; P<0.001). The sensitivity, specificity, positive predictive value and negative predictive value of hematin for predicting strong acidic condition (pH 1 or 2 for fasting gastric juice) were 36.0%, 98.1%, 98.7% and 29.3%, respectively. Interobserver agreement was categorized as \"excellent\" (k=0.88). Supplementary in vitro results showed that hematin formation was only observed at a pH=1.\n\nCONCLUSION: Endoscopic finding of hematin represent strong gastric acidity.",
+      "abstract_sha256": "6ea3e3936cd76a2a32eb1650f7d886d2a2e15de032f9abdeb456d3e3711d6112",
+      "abstract_available": true
+    }
+  },
+  "status": "assessment_pending",
+  "verdict": null,
+  "claim_specification_issues": [],
+  "limitations": [
+    "Existing candidate pool only; not an exhaustive literature search.",
+    "Source hashes establish integrity, not scientific relevance or correctness.",
+    "Previous model selections and review decisions are not imported as approved facts.",
+    "Relevance screening, claim clarification where needed, assessment and review remain pending."
+  ]
+}

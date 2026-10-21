@@ -1,0 +1,16 @@
+[
+  {
+    "status": "fetched",
+    "file": "source-1.json",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "title": "Physical activity",
+    "characters": 10143
+  },
+  {
+    "status": "fetched",
+    "file": "source-2.json",
+    "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+    "title": "Physical activity guidelines for adults aged 19 to 64 - NHS",
+    "characters": 4691
+  }
+]

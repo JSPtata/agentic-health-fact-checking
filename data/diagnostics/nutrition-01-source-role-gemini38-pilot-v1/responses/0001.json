@@ -1,0 +1,150 @@
+{
+  "text": "{\n  \"D\": [\"Q12\", \"Q14\", \"Q15\"],\n  \"P\": [\"Q1\", \"Q2\", \"Q4\", \"Q9\"],\n  \"I\": [\"Q5\", \"Q6\", \"Q7\", \"Q8\", \"Q10\"],\n  \"O\": [\"Q3\", \"Q4\", \"Q7\", \"Q10\", \"Q11\"],\n  \"R\": [\"Q3\", \"Q9\"],\n  \"T\": [\"Q3\", \"Q4\"],\n  \"G\": [\"Q10\", \"Q11\"],\n  \"M\": [\"Q1\", \"Q2\", \"Q5\", \"Q6\", \"Q13\"],\n  \"L\": [\"Q7\", \"Q8\", \"Q9\"],\n  \"role\": \"critical_guidance\",\n  \"fit\": \"partial\",\n  \"contrast\": \"synthesis\",\n  \"basis\": [\"Q3\", \"Q7\", \"Q8\", \"Q9\", \"Q10\"],\n  \"reason\": \"This position statement synthesizes clinical evidence on obesity management, cautioning that weight loss is inherently slow and complex and that fad diets promising quick results through food-group restriction lack scientific support.\",\n  \"scope_flags\": [\n    \"The claim specifies rapid fat loss from an exact restrictive whole-food dietary switch, whereas the document broadly critiques fad diets and rapid-loss claims.\"\n  ]\n}",
+  "provider_response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-gemini-service-tier": "standard",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Tue, 20 Oct 2026 15:44:11 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=86794",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"D\": [\"Q12\", \"Q14\", \"Q15\"],\n  \"P\": [\"Q1\", \"Q2\", \"Q4\", \"Q9\"],\n  \"I\": [\"Q5\", \"Q6\", \"Q7\", \"Q8\", \"Q10\"],\n  \"O\": [\"Q3\", \"Q4\", \"Q7\", \"Q10\", \"Q11\"],\n  \"R\": [\"Q3\", \"Q9\"],\n  \"T\": [\"Q3\", \"Q4\"],\n  \"G\": [\"Q10\", \"Q11\"],\n  \"M\": [\"Q1\", \"Q2\", \"Q5\", \"Q6\", \"Q13\"],\n  \"L\": [\"Q7\", \"Q8\", \"Q9\"],\n  \"role\": \"critical_guidance\",\n  \"fit\": \"partial\",\n  \"contrast\": \"synthesis\",\n  \"basis\": [\"Q3\", \"Q7\", \"Q8\", \"Q9\", \"Q10\"],\n  \"reason\": \"This position statement synthesizes clinical evidence on obesity management, cautioning that weight loss is inherently slow and complex and that fad diets promising quick results through food-group restriction lack scientific support.\",\n  \"scope_flags\": [\n    \"The claim specifies rapid fat loss from an exact restrictive whole-food dietary switch, whereas the document broadly critiques fad diets and rapid-loss claims.\"\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EvsWCvgWAWkUfRPREVUCmojC8k5N225nGHyQshXNexzAxVsWsLrJe-V9cnmvSGFYye_8fm8lMiDTR_25xVo6wqP_EcMzfvXOl-EPjo7_7SbXU1iTzGsEtbgMfETwCwAd2rU81Rn9XoJE4_4Eo1og8WzqL9m8fXrxwJ-NfBs68fpQPAZVyW828Qne6XDiai-amtmUfg6qdEjJnUtF4MoYXX1t00tU3lbpuz_3WlYAph0VkyavCtiWOmiv65rCaBLP5cbXLYarfcE79wnU7c_zlezRtiEKXH-xM3IbAsSs7n2ZZ6QmL5lxchlnvakufsPssQb79Kxh3Dx7iceBdFIVRu1G2HzYSeHM6a6w3XatsxZGkmfCBEgyO-DiMidp5SXZyfaRfOJNV7GiR6sjs42fbFGBvQMZwkuXCAoPBwKveLV64SHC9TXBYpEoPoXW552lJSXliJSWGqe8Zlq5tsCpovi9LdVKUuaOeiDgWO3jAOCCbnJq-KGwBEeEWRptUOlQiulXsLakTBFMVth3BbzlpPPjuXE3nhVd3lXKDwRP6-CCGlmRcPEr_WY4FNxl5HGa7Vz2X_uPje0AjKAttgUu6lZsxf-NIGDnzsFw1ZSr4Hy7Oq5Jhdb24brrDx8LuUpQ7lSPOscs_65VDPX_BU-_yb8d9QmErDJ7eT5mZDo7lFbMO_qxXvjgZCz41zNwaxeGo0eed_i9LO52RKUqVGItvnJpd4TjeHfmzQgTob9xEoax-8g7Uk-6F9eOkk08J0DlGRISzw64JDPuzR4nYksLIQ2yAoBslHFmrCZKdRE9WY87jB5pTptfhX0sN3cce_rGDyi_XRjbDkKHHCqd2kiSUqWvQxz7HLIBgqKyldwnPb_n4Xqs5iiwaq98hYfoQGsCLA_2_dpaJZbSrHtcTCtRs0hCiwT9g5P1w5xuiqHN-wiOPgOGAP5xJrLAGhuJgG6vr7MQeLSeBwZfj7nn9T7KueMTX68-d9fLiAhnIXAVwOQpahjQRZbz0KvRplLZ4zEyEDyvdnVYmjZf89-iHpx-rolA3oswn386jhEpUOwB-lea62l8m-E75_g4SEP2vxHJo6OxRv0R6oPybWGx7AgnJmNP3cj8XeGyDFm6k57t1MOv0_hw58ZDVw91M3pa_VdD16TLMxeNpreXTl-e7TZt5btoe0aQGXlu5uZmTD3XD8By-AhkJeVAUShRZ0Cr4AGc_0N3gIXw5wyFqffR0TXJK4DDBaoWHnWAk5Agb2PysUD0xsCcoCW6vSPQjblMAFeroJAym7GdWJIGREpM1eLYVFyCJQpwzdz3cS_3WOqCampqxLB4tCtoDSnikG4GSWlOMPH3zhe7rJyIOBwugJi2v0SxsHNOn-8ojiXhnPMzE6xyOsRpH4H4iDjQ5b1J8UEmcaPZAexy9hW-_Fsw0hBOaBEmXCI_wJ6xZFmMO9PhyjaMV3A6HrkLvy23MTMyiswrIRQ8PrB8VcYE0yZwxUTGUcqaNq30-uncvAeYEAK5TATyoGuLYRxrrK78kCS0IwjWyAqFlRWKTn5Xbd04ZkQaruHjK6gBvlXDbZ4SlvwRLGmEWD25FkhRXSj4OVaRPU5zzxP0AE6mbKW4ioqwQM4UIXf684I9XXXE9gtp9StUszUOASqr3CDR06hqT8Uprwf7_YbqXqFmJqw095ot5wAcHGohO-0ewLhtPVPmaA6xBzW1xR8k0xyVUMFqQG50fhZTlLUDmkG7CIw937ObB82r7q7aQ3ny6HmnTeFEq6tlSNmVyLVd_fgkgo-qaFpDrcDVRbfX-VkdXJ16krqAW2rLPT5xN2Vn8ZrdfsmLBN4Lkv2isKX0ACgA895cGs-by-zPQLgDtAoUgO9iulni6jy35t2Ceme5x9jr9MpusaMCrJkDQpWTKnpfLoaPYZ_ah7Ih_bcfvZC45h92m7V0uo4sxmiXbKHv4PRVFilymIfVify3ER3r1Dg5lHT376aE9hb0GJZhxcO2Iylh5-Mt_7pQgjGEPBVcF_GZC-AlyX5VxSbb1DZLxZ9YPIBrOCptROhUmwxMNOvEm-1cBHuceANszGVQVJB9RbU4sCT-lIJwDDDMJdrDF267ecNJwZq_TBzdXmOskOTSoScu1CnpDmwS2UMD9Pj3DaLCI8f_SI_WFZ07YiMH4ALsbeg_7WeXd5ZFZ501UjVwi6RPOx8FPRaxRuaD298VR1PieiUdKVqhi-ZapojHuFagMGfc89fufL5k2aNwpm9eK7looUhh7aQ5D1o1nHpKSMeSipj-3gxgjClkHpfCPXnFQT1K0feItQYR7111tfouvtCgWFo9PpEqvI2j-PuCiOluyEBn8R4zBt4aKxkM_OxaCoXKwk4ETfM4xfqjZhkBWVLfTOpn8xqV92ANEH8tIcoP8rUVLh2js003lmHeoBhy3Q44JuFsDasZFPk9Ok5GlER2P3iWsI57zEOjJzr2uRYh2PDCffg-x-ozmg1oRk0o2uLi0mMMvR54SfMoBRdEGr7rHS4BRFVkEt7VHRsHCLGM_0W0CbJKaP3qZ_93R1BmrAMJUwk5CaTq1bdE7fg8zq7PwDfmfagNnACK-E-JVo_4DBp_NBw_NeuEzRJaXH16QADpDjqMbNsdTv571zuUBPq0DOr7CZWVKoVOOAGZrWCs2_MQ83L9hkb3NN3k2jvhoL6sjcgIQeeWUWG-2DJ8CmstBQX7fSaOgPBzjSm8adIvd5vx1z0wdq6vB1UomJzM9cVoSWXu6fHrU4zdAHM5h-MedTchcQKvZes5x_kHxWWO0p8wuFrGUJFP2Mpmg1rkTKtlkfhXTYMLRguUW9LiBAEhE9Od2X0oBBpZcUeBOI1gbZ7czh9pDF__waVJg2DgnZZOUvEshpYxRJdCnu8JSXJrpr7kckpDKyEAIAyxBVi3JfZFf84_TnN0DHwBLUfHnatvULlz5U9m06uPVgg4vsdBYb6DgjbV-4osaewNMqMTRdwwaXIim2qWSW6mnoAGdVzNUGEPEhE6GY2kSQ4qn2jZoAl2dKFZaBgV6HAxIag--rnaYayBkp7_vvDEBnVicc7XXnZQaC4DXWkq3fZGsayVI2tRX6WbdnW8iu6yMsLG1ytD6zNYkYfq7uAp5rc-w4dB5qMn4gkSkR9FjxH-NHaMA3OGONGkj0t7ffXj4q3A2S9PV38Fqhv6KbpfUqWoi1ogCVT3FbcMjR1T2e6QkeSK-I5XtuMsb2jSpO_R__ND8hEwasBuH4bbXiYPtAqwYC_di-EY4eYo_ANyu5hEwTOXRbmbCYD1Qee0v1QgMMJFJ9WKSVRzBlNX_rgtSMBuM9_TBATZsGZJO_ERTPE6zY-_lOhQgBszd9WKVnyhRSp3kLvG9bUQvBbpoZZJrcMu3f-ASXzfs3LPRvysI4OjtZMRDbXwTcJsqiM-CV--dUmek_sMsk16xuqB1p1KEBkbIsG3id5xOMFh0oH7nmzJuDlyytZxP4M3V-7RmoTKdx8j_oemxzsr0ILYrO8vjhKJONXnFkZcWMNjHdMA9WJsXDW2wmX4NOTHU6mOdae17EKGAmtISSreZksZszuXiPYqwrK6cPap5XRFpy_nhhJ7MrHIH8MdFNWOtIEthvfEHwr4pfvKkVW728o1UXTAKL6lhdbIeefh77-_UE7yTTkpFoaTkqJ_TcZRnHuwVwrVOgJ3NhjCirGZ-1Pjb5bDpV2AUvJuK9B7a2_dt1TTDyZ2UqQcIeF_rkLItvmDzIR1d6EWVUevuONa3JvPQosnBKD28zfVy36hBKVNlShWyimNG8OBWRzU88LLUMPR0pQKIT-4gNsaaY-03--2G18s5XDg_KjrDecKLsmhr8mgQpOxkWKO8-iQpO_OYiw2wdGZga903iGPNMoRGhhbCzX9WF9RC2r-dBFYSxNk_TJi6_J-340iNikLGKQ=",
+              "video_metadata": null,
+              "tool_call": null,
+              "tool_response": null,
+              "part_metadata": null,
+              "audio_transcription": null,
+              "media_processing": null,
+              "speech_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "grounding_metadata": null,
+        "avg_logprobs": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null,
+        "continuation_token": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3.8-flash",
+    "prompt_feedback": null,
+    "response_id": "9YvXatW4AZ6Dg8UP8ZHx0QM",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 321,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 895,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 895
+        }
+      ],
+      "thoughts_token_count": 704,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1920,
+      "traffic_type": null
+    },
+    "model_status": null,
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "D": [
+        "Q12",
+        "Q14",
+        "Q15"
+      ],
+      "P": [
+        "Q1",
+        "Q2",
+        "Q4",
+        "Q9"
+      ],
+      "I": [
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q10"
+      ],
+      "O": [
+        "Q3",
+        "Q4",
+        "Q7",
+        "Q10",
+        "Q11"
+      ],
+      "R": [
+        "Q3",
+        "Q9"
+      ],
+      "T": [
+        "Q3",
+        "Q4"
+      ],
+      "G": [
+        "Q10",
+        "Q11"
+      ],
+      "M": [
+        "Q1",
+        "Q2",
+        "Q5",
+        "Q6",
+        "Q13"
+      ],
+      "L": [
+        "Q7",
+        "Q8",
+        "Q9"
+      ],
+      "role": "critical_guidance",
+      "fit": "partial",
+      "contrast": "synthesis",
+      "basis": [
+        "Q3",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10"
+      ],
+      "reason": "This position statement synthesizes clinical evidence on obesity management, cautioning that weight loss is inherently slow and complex and that fad diets promising quick results through food-group restriction lack scientific support.",
+      "scope_flags": [
+        "The claim specifies rapid fat loss from an exact restrictive whole-food dietary switch, whereas the document broadly critiques fad diets and rapid-loss claims."
+      ]
+    }
+  }
+}

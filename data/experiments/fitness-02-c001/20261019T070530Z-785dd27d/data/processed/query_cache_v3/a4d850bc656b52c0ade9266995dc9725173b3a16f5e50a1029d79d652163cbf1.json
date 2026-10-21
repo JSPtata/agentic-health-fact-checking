@@ -1,0 +1,9 @@
+{
+  "claim_id": "fitness-02-c001",
+  "planner_version": "retrieval-planner-v3",
+  "cache_key": "a4d850bc656b52c0ade9266995dc9725173b3a16f5e50a1029d79d652163cbf1",
+  "queries": [
+    "(\"muscle stretching exercises\"[Mesh] OR \"stretching exercise\"[tiab] OR \"stretching exercises\"[tiab] OR \"static stretching\"[tiab] OR \"passive stretching\"[tiab] OR \"muscle stretching\"[tiab]) AND (\"blood circulation\"[Mesh] OR \"regional blood flow\"[Mesh] OR \"blood flow\"[tiab] OR \"tissue perfusion\"[tiab] OR microcirculation[tiab]) AND (morning[tiab] OR waking[tiab] OR awakening[tiab] OR \"wake up\"[tiab])",
+    "(\"muscle stretching exercises\"[Mesh] OR \"stretching exercise\"[tiab] OR \"stretching exercises\"[tiab] OR \"static stretching\"[tiab] OR \"passive stretching\"[tiab] OR \"muscle stretching\"[tiab]) AND (\"blood flow\"[tiab] OR \"muscle perfusion\"[tiab] OR \"tissue perfusion\"[tiab] OR \"regional blood flow\"[Mesh] OR \"blood circulation\"[Mesh]) AND (acute[tiab] OR hyperemia[tiab] OR hyperaemia[tiab] OR \"vascular conductance\"[tiab])"
+  ]
+}

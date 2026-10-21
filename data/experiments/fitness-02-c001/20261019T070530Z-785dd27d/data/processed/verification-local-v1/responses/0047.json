@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:48:35.780524Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S6a335acf4bb51a1c\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"Rats\",\n  \"measured_outcome_or_recommendation\": \"microvascular oxygen partial pressure ([Formula: see text]) and HIF-1α mRNA expression\",\n  \"finding\": \"Passive stretching induced an acute, intensity-dependent decrease in [Formula: see text]\",\n  \"relation\": \"null_or_uncertain\",\n  \"limitations\": [\n    \"Only rats, not humans\",\n    \"Acute effects only (not chronic)\",\n    \"Stretching done in lab setting (not after waking up)\",\n    \"No mention of timing relative to waking\"\n  ],\n  \"quote_ids\": [\n    \"Q5\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 21607952167,
+  "load_duration": 34489625,
+  "prompt_eval_count": 832,
+  "prompt_eval_cached_count": 331,
+  "prompt_eval_duration": 5179581000,
+  "eval_count": 180,
+  "eval_duration": 15838682000
+}

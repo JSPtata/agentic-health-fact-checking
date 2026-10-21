@@ -1,0 +1,129 @@
+{
+  "binding": {
+    "profile": "cached-passage-ranking-v1",
+    "input_sha256": "831fb25a71ac928aefd9170b443e7ca32757cb2c0f43ce2dd94c89dedf522b42",
+    "script_sha256": "1f4f8a42c62736ac45cf77e2d269a2ad2e2ba3f9a07f8f7604b9ba0a533f2eb0",
+    "model": "pritamdeka/S-PubMedBert-MS-MARCO"
+  },
+  "claim": {
+    "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+    "exposure": "drinking coffee",
+    "outcome": "prevent acidity",
+    "context": "on an empty stomach",
+    "claim_id": "fitness-02-c002"
+  },
+  "ranking": [
+    {
+      "kind": "pubmed_abstract",
+      "pmid": "10499460",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10499460/",
+      "title": "Coffee and gastrointestinal function: facts and fiction. A review.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "1999"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+      "text_scope": "abstract_only",
+      "matched_queries": [
+        2
+      ],
+      "abstract": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\nMETHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\nRESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking. It is demonstrated that coffee promotes gastro-oesophageal reflux. Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results. Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit. Coffee induces cholecystokinin release and gallbladder contraction, which may explain why patients with symptomatic gallstones often avoid drinking coffee. Coffee increases rectosigmoid motor activity within 4 min after ingestion in some people. Its effects on the colon are found to be comparable to those of a 1000 kCal meal. Since coffee contains no calories, and its effects on the gastrointestinal tract cannot be ascribed to its volume load, acidity or osmolality, it must have pharmacological effects. Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia. Coffee stimulates gallbladder contraction and colonic motor activity.",
+      "abstract_available": true,
+      "abstract_sha256": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+      "text": "BACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\nMETHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\nRESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking. It is demonstrated that coffee promotes gastro-oesophageal reflux. Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results. Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit. Coffee induces cholecystokinin release and gallbladder contraction, which may explain why patients with symptomatic gallstones often avoid drinking coffee. Coffee increases rectosigmoid motor activity within 4 min after ingestion in some people. Its effects on the colon are found to be comparable to those of a 1000 kCal meal. Since coffee contains no calories, and its effects on the gastrointestinal tract cannot be ascribed to its volume load, acidity or osmolality, it must have pharmacological effects. Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia. Coffee stimulates gallbladder contraction and colonic motor activity.",
+      "passages": [
+        {
+          "start_char": 0,
+          "end_char": 1774,
+          "text": "Coffee and gastrointestinal function: facts and fiction. A review.\n\nBACKGROUND: Effects of coffee on the gastrointestinal system have been suggested by patients and the lay press, while doctors tend to discourage its consumption in some diseases.\n\nMETHODS: The literature on the effects of coffee and caffeine on the gastrointestinal system is reviewed with emphasis on gastrointestinal function.\n\nRESULTS: Although often mentioned as a cause of dyspeptic symptoms, no association between coffee and dyspepsia is found. Heartburn is the most frequently reported symptom after coffee drinking. It is demonstrated that coffee promotes gastro-oesophageal reflux. Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results. Coffee also prolongs the adaptive relaxation of the proximal stomach, suggesting that it might slow gastric emptying. However, other studies indicate that coffee does not affect gastric emptying or small bowel transit. Coffee induces cholecystokinin release and gallbladder contraction, which may explain why patients with symptomatic gallstones often avoid drinking coffee. Coffee increases rectosigmoid motor activity within 4 min after ingestion in some people. Its effects on the colon are found to be comparable to those of a 1000 kCal meal. Since coffee contains no calories, and its effects on the gastrointestinal tract cannot be ascribed to its volume load, acidity or osmolality, it must have pharmacological effects. Caffeine cannot solely account for these gastrointestinal effects.\n\nCONCLUSIONS: Coffee promotes gastro-oesophageal reflux, but is not associated with dyspepsia. Coffee stimulates gallbladder contraction and colonic motor activity.",
+          "token_count": 303,
+          "score": 0.9358035922050476
+        }
+      ],
+      "baseline_bi_encoder_score": null,
+      "passage_score": 0.9358035922050476,
+      "best_passage_index": 0
+    },
+    {
+      "kind": "pubmed_abstract",
+      "pmid": "15841908",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15841908/",
+      "title": "The impairment of gastroduodenal mucosal barrier by coffee.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2004"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+      "text_scope": "abstract_only",
+      "matched_queries": [
+        2
+      ],
+      "abstract": "BACKGROUND: Even though coffee is not considered to be responsible for development of peptic ulcer, it may, however, prolong its healing by increasing acidity of gastric content. In our former work we observed a profound increase in sucrose permeability (above normal values) in healthy volunteers regularly drinking coffee for years. In literature, many factors affecting sucrose permeability have been described so far. None of them, however, studied the effect of coffee.\n\nSUBJECTS, MATERIALS AND METHODS: 10 young asymptomatic habitual coffee drinkers were included in the study. The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence. The ingested SaLM solution comprised sucrose (25.0 g), lactulose (10.0 g), mannitol (2.0 g), xylose (2.0 g) and water (up to 100 ml). Urine was collected for five hours and the samples were analysed using gas chromatography. Results were compared with those of 8 young healthy volunteers not drinking coffee. Permeability for sucrose was significantly higher in the group of habitual coffee drinkers in comparison with non-coffee drinkers (p < 0.01). After 48-hour coffee abstinence sucrose excretion decreased significantly (p < 0.05) to a level not differing from that of non-coffee drinkers (p = 0.54).\n\nCONCLUSIONS: Our results indicate that coffee may damage gastroduodenal mucosa in habitual coffee drinkers. In a time period of 48 hours the gastroduodenal mucosa is capable of a significant regeneration.",
+      "abstract_available": true,
+      "abstract_sha256": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9",
+      "text": "BACKGROUND: Even though coffee is not considered to be responsible for development of peptic ulcer, it may, however, prolong its healing by increasing acidity of gastric content. In our former work we observed a profound increase in sucrose permeability (above normal values) in healthy volunteers regularly drinking coffee for years. In literature, many factors affecting sucrose permeability have been described so far. None of them, however, studied the effect of coffee.\n\nSUBJECTS, MATERIALS AND METHODS: 10 young asymptomatic habitual coffee drinkers were included in the study. The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence. The ingested SaLM solution comprised sucrose (25.0 g), lactulose (10.0 g), mannitol (2.0 g), xylose (2.0 g) and water (up to 100 ml). Urine was collected for five hours and the samples were analysed using gas chromatography. Results were compared with those of 8 young healthy volunteers not drinking coffee. Permeability for sucrose was significantly higher in the group of habitual coffee drinkers in comparison with non-coffee drinkers (p < 0.01). After 48-hour coffee abstinence sucrose excretion decreased significantly (p < 0.05) to a level not differing from that of non-coffee drinkers (p = 0.54).\n\nCONCLUSIONS: Our results indicate that coffee may damage gastroduodenal mucosa in habitual coffee drinkers. In a time period of 48 hours the gastroduodenal mucosa is capable of a significant regeneration.",
+      "passages": [
+        {
+          "start_char": 0,
+          "end_char": 1583,
+          "text": "The impairment of gastroduodenal mucosal barrier by coffee.\n\nBACKGROUND: Even though coffee is not considered to be responsible for development of peptic ulcer, it may, however, prolong its healing by increasing acidity of gastric content. In our former work we observed a profound increase in sucrose permeability (above normal values) in healthy volunteers regularly drinking coffee for years. In literature, many factors affecting sucrose permeability have been described so far. None of them, however, studied the effect of coffee.\n\nSUBJECTS, MATERIALS AND METHODS: 10 young asymptomatic habitual coffee drinkers were included in the study. The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence. The ingested SaLM solution comprised sucrose (25.0 g), lactulose (10.0 g), mannitol (2.0 g), xylose (2.0 g) and water (up to 100 ml). Urine was collected for five hours and the samples were analysed using gas chromatography. Results were compared with those of 8 young healthy volunteers not drinking coffee. Permeability for sucrose was significantly higher in the group of habitual coffee drinkers in comparison with non-coffee drinkers (p < 0.01). After 48-hour coffee abstinence sucrose excretion decreased significantly (p < 0.05) to a level not differing from that of non-coffee drinkers (p = 0.54).\n\nCONCLUSIONS: Our results indicate that coffee may damage gastroduodenal mucosa in habitual coffee drinkers. In a time period of 48 hours the gastroduodenal mucosa is capable of a significant regeneration.",
+          "token_count": 320,
+          "score": 0.9114333987236023
+        }
+      ],
+      "baseline_bi_encoder_score": null,
+      "passage_score": 0.9114333987236023,
+      "best_passage_index": 0
+    },
+    {
+      "kind": "pubmed_abstract",
+      "pmid": "36233963",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36233963/",
+      "title": "Evaluation of Recycled Spent Coffee Material Treated with Animal Glue, Starch, and Red Clay as Acid Materials.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2022 Sep 23"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T17:49:32.011535+00:00",
+      "text_scope": "abstract_only",
+      "matched_queries": [
+        2
+      ],
+      "abstract": "Annual coffee consumption has increased to 10 million tons. Of the coffee consumed, 65% is discarded as spent coffee grounds (SCG). However, most SCG are buried in the ground as organic waste. The more coffee consumption increases, the more land is used for disposing of spent coffee. SCG recycling has gotten considerable attention as a solution involved in these issues. The construction community has studied means and methods to recycle SCG as construction materials, such as bricks, subgrade fillers, thermal insulators, etc. This paper presents a new method, which recycles SCG as a construction material, maximally using its acidity. The SCG were hardened with natural binders (i.e., animal glue (AG) and starch (S)) and red clay (RC). The SCG mixtures were pressed with 2 MPa in a cylindrical mold and cured for 7 days. Then, the strength, durability, and pH tests were measured. The AG- and RC-treated SCG sample, which outputs 1933 kPa of strength and a 4.9 pH value, is identified as the optimal sampling method among the acid materials produced in this study. The optimal sample decreases the pH to approximately 7 of water where 68% weight of Ordinary Portland cement was soaked in.",
+      "abstract_available": true,
+      "abstract_sha256": "8caccc9a84cd65e72c401f72c9e1ac1a0f5cb7cfb838f1f4270ce8d0bb8613b4",
+      "text": "Annual coffee consumption has increased to 10 million tons. Of the coffee consumed, 65% is discarded as spent coffee grounds (SCG). However, most SCG are buried in the ground as organic waste. The more coffee consumption increases, the more land is used for disposing of spent coffee. SCG recycling has gotten considerable attention as a solution involved in these issues. The construction community has studied means and methods to recycle SCG as construction materials, such as bricks, subgrade fillers, thermal insulators, etc. This paper presents a new method, which recycles SCG as a construction material, maximally using its acidity. The SCG were hardened with natural binders (i.e., animal glue (AG) and starch (S)) and red clay (RC). The SCG mixtures were pressed with 2 MPa in a cylindrical mold and cured for 7 days. Then, the strength, durability, and pH tests were measured. The AG- and RC-treated SCG sample, which outputs 1933 kPa of strength and a 4.9 pH value, is identified as the optimal sampling method among the acid materials produced in this study. The optimal sample decreases the pH to approximately 7 of water where 68% weight of Ordinary Portland cement was soaked in.",
+      "passages": [
+        {
+          "start_char": 0,
+          "end_char": 1307,
+          "text": "Evaluation of Recycled Spent Coffee Material Treated with Animal Glue, Starch, and Red Clay as Acid Materials.\n\nAnnual coffee consumption has increased to 10 million tons. Of the coffee consumed, 65% is discarded as spent coffee grounds (SCG). However, most SCG are buried in the ground as organic waste. The more coffee consumption increases, the more land is used for disposing of spent coffee. SCG recycling has gotten considerable attention as a solution involved in these issues. The construction community has studied means and methods to recycle SCG as construction materials, such as bricks, subgrade fillers, thermal insulators, etc. This paper presents a new method, which recycles SCG as a construction material, maximally using its acidity. The SCG were hardened with natural binders (i.e., animal glue (AG) and starch (S)) and red clay (RC). The SCG mixtures were pressed with 2 MPa in a cylindrical mold and cured for 7 days. Then, the strength, durability, and pH tests were measured. The AG- and RC-treated SCG sample, which outputs 1933 kPa of strength and a 4.9 pH value, is identified as the optimal sampling method among the acid materials produced in this study. The optimal sample decreases the pH to approximately 7 of water where 68% weight of Ordinary Portland cement was soaked in.",
+          "token_count": 284,
+          "score": 0.8886988162994385
+        }
+      ],
+      "baseline_bi_encoder_score": null,
+      "passage_score": 0.8886988162994385,
+      "best_passage_index": 0
+    }
+  ],
+  "max_seq_length": 350,
+  "resolved_model_revision": null,
+  "source_diagnostic": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cached-candidates.json",
+  "offsets_relative_to": "title + two newline characters + abstract",
+  "aggregation": "maximum passage similarity; may favor longer documents",
+  "scope": "Same cached candidate pool; complete available title/abstract coverage. No new PubMed search, cross-encoder, suitability assessment or claim verdict. Every saved passage fits the bi-encoder limit."
+}

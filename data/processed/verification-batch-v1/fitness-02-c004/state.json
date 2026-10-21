@@ -1,0 +1,104 @@
+{
+  "claim": {
+    "claim_text": "The best time for exercise is early morning or evening.",
+    "exposure": "exercise",
+    "outcome": null,
+    "context": "early morning or evening",
+    "claim_id": "fitness-02-c004",
+    "input_limitations": [
+      "Existing candidate pool only; no new literature search or relevance assessment.",
+      "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+      "No official guidance was fetched or assessed in this preparation step."
+    ]
+  },
+  "binding": {
+    "profile": "pending-claim-sources-v1",
+    "worklist_sha256": "fe2fe9fd6bf36077620e815c7bf4b396b32121dc7f834effca2763be7ece889d",
+    "evidence_sha256": "806c59b322f8bbde73869d9f006690d1bb455f3896680cf3a14d59bf6ca70d8d",
+    "script_sha256": "1b03106402a675742997484268a6672fca71f3a470dfdba00c58d025cfe6e41f",
+    "source_hashes": {
+      "S40445dbef38b6b61": "0dd996e19b5268e17ab3ff18c366f90313b4ba159abbafc3e0986c119cc59e83",
+      "S2b482cbe59d234dd": "e801b08b85d19ce6735b14fc289dfa424a141fb99a59e6eee7ef0639d05ee7f3",
+      "Sa4bfda174a883e37": "9ee72b3385ff2407c5d18a79ea279c3fc6e37fda6bfb036e0106a3ff8347b60a"
+    }
+  },
+  "sources": {
+    "S40445dbef38b6b61": {
+      "kind": "pubmed_abstract",
+      "pmid": "42658446",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42658446/",
+      "title": "Influence of Morning and Afternoon Exercise on Body Composition and Metabolic Health: A Systematic Review and Meta-Analysis.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Aug 27"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592391+00:00",
+      "text_scope": "abstract_only",
+      "id": "S40445dbef38b6b61",
+      "text_file": "sources/S40445dbef38b6b61.txt",
+      "text_sha256": "0dd996e19b5268e17ab3ff18c366f90313b4ba159abbafc3e0986c119cc59e83",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2642
+    },
+    "S2b482cbe59d234dd": {
+      "kind": "pubmed_abstract",
+      "pmid": "42812561",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42812561/",
+      "title": "Morning or evening? Time of day does not affect body composition, cardiopulmonary performance, and muscle strength responses to combined training in women with obesity.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592520+00:00",
+      "text_scope": "abstract_only",
+      "id": "S2b482cbe59d234dd",
+      "text_file": "sources/S2b482cbe59d234dd.txt",
+      "text_sha256": "e801b08b85d19ce6735b14fc289dfa424a141fb99a59e6eee7ef0639d05ee7f3",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 3476
+    },
+    "Sa4bfda174a883e37": {
+      "kind": "pubmed_abstract",
+      "pmid": "42857179",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42857179/",
+      "title": "Time-of-day effects of acute and regular exercise on sleep quality and mood: a three-level meta-analysis.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592584+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sa4bfda174a883e37",
+      "text_file": "sources/Sa4bfda174a883e37.txt",
+      "text_sha256": "9ee72b3385ff2407c5d18a79ea279c3fc6e37fda6bfb036e0106a3ff8347b60a",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1658
+    }
+  },
+  "active_sources": [
+    "S40445dbef38b6b61",
+    "S2b482cbe59d234dd",
+    "Sa4bfda174a883e37"
+  ],
+  "phase": "sources_prepared",
+  "counts": {
+    "model_calls": 0
+  },
+  "model_events": [],
+  "unresolved_pmids": [],
+  "empty_abstract_pmids": []
+}

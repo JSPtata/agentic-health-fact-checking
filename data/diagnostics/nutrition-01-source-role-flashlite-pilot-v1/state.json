@@ -1,0 +1,27 @@
+{
+  "binding": {
+    "profile": "source-roles-v1",
+    "inputs": {
+      "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-ranking-comparison-review.json": "fbdbbb7f45d62719465c0f978697b875a411883ecd426f65f80ea5e40cc70af2"
+    },
+    "backend": "gemini",
+    "model_identity": {
+      "model": "gemini-3.1-flash-lite",
+      "sdk": "2.28.0"
+    },
+    "selected_pmids": [
+      "40760353"
+    ],
+    "script_sha256": "48867083ca64ddf4efe7afbc952f57dea9a01acef7bcf64f470dd7282856616d",
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e"
+  },
+  "outputs": {},
+  "events": [
+    {
+      "key": "e0020f8631e6ad4787e19a9a7d4c71a87234cf8b6d6673cf068adbab878e6f0e",
+      "status": "service_error",
+      "prompt_sha256": "932e4281002978eaecaa4dbc9a6ac1fccc823260e611e1f83013ccac8367fc62",
+      "error": "ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+  ]
+}

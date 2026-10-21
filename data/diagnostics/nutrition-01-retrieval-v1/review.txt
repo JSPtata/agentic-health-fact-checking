@@ -1,0 +1,276 @@
+CLAIM: People previously eating a lot of processed foods and excess carbohydrates and fats together lose a lot of fat very quickly when they switch to eating only meat, fish, eggs, vegetables and fruit, with water, coffee or tea and without alcohol or milk.
+ASSISTED diagnostic selection. No claim verdict or retrieval-quality grade.
+Does the tested diet match the actual listed foods and exclusions, or is it only an indirect proxy?
+Was body fat measured, or only body weight? Do not equate the two.
+What population, comparator, duration, fat-change estimate and uncertainty are reported?
+Retain supportive, null and adverse findings. The claim specifies no numerical amount or time frame.
+
+SMALL_POOL_RANKING
+
+1. PMID 31105044 | Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake.
+https://pubmed.ncbi.nlm.nih.gov/31105044/
+Publication types: ["Journal Article", "Randomized Controlled Trial", "Research Support, N.I.H., Intramural"]
+Correction/retraction links: [{"type": "CommentIn", "pmid": "31230986"}, {"type": "CommentIn", "pmid": "31230987"}, {"type": "ErratumIn", "pmid": "31269427"}, {"type": "CommentIn", "pmid": "31272848"}, {"type": "ErratumIn", "pmid": "33027677"}]
+Full available abstract:
+We investigated whether ultra-processed foods affect energy intake in 20 weight-stable adults, aged (mean ± SE) 31.2 ± 1.6 years and BMI = 27 ± 1.5 kg/m2. Subjects were admitted to the NIH Clinical Center and randomized to receive either ultra-processed or unprocessed diets for 2 weeks immediately followed by the alternate diet for 2 weeks. Meals were designed to be matched for presented calories, energy density, macronutrients, sugar, sodium, and fiber. Subjects were instructed to consume as much or as little as desired. Energy intake was greater during the ultra-processed diet (508 ± 106 kcal/day; p = 0.0001), with increased consumption of carbohydrate (280 ± 54 kcal/day; p < 0.0001) and fat (230 ± 53 kcal/day; p = 0.0004), but not protein (-2 ± 12 kcal/day; p = 0.85). Weight changes were highly correlated with energy intake (r = 0.8, p < 0.0001), with participants gaining 0.9 ± 0.3 kg (p = 0.009) during the ultra-processed diet and losing 0.9 ± 0.3 kg (p = 0.007) during the unprocessed diet. Limiting consumption of ultra-processed foods may be an effective strategy for obesity prevention and treatment.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+2. PMID 35866077 | Fad Diets: Facts and Fiction.
+https://pubmed.ncbi.nlm.nih.gov/35866077/
+Publication types: ["Journal Article", "Review"]
+Correction/retraction links: []
+Full available abstract:
+The global prevalence of obesity is alarmingly high and is impacting both developed and underdeveloped countries, beyond the borders of ethnicity, sex, and age. On the other hand, the global interest in dieting has increased, and people are obsessed with certain fad diets, assuming them as a magic bullet for their long-term problems. A fad diet is a popular dietary pattern known to be a quick fix for obesity. These diets are quite appealing due to the proposed claims, but the lack of scientific evidence is a big question mark. Such diets are often marketed with specific claims that defy the basic principles of biochemistry and nutritional adequacy. These diets may have protective effects against obesity and certain chronic diseases like cardiovascular diseases, metabolic syndrome, and certain cancers. Limited evidence exists to support the proposed claims; rather certain studies suggest the negative health consequences of long-term adherence to such dietary patterns. Many fad diets have emerged in the previous few decades. This review article will explore the current evidence related to the health impacts of some most popular diets: Atkins diet, ketogenic diet, Paleolithic diet, Mediterranean diet, vegetarian diet, intermittent fasting and detox diet.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+3. PMID 29124370 | Popular Weight Loss Strategies: a Review of Four Weight Loss Techniques.
+https://pubmed.ncbi.nlm.nih.gov/29124370/
+Publication types: ["Journal Article", "Review"]
+Correction/retraction links: []
+Full available abstract:
+PURPOSE OF REVIEW: The purpose of this paper is to review the epidemiology of obesity and the most recent literature on popular fad diets and exercise regimens that are used for weight loss. The weight loss plans that will be discussed in this article include juicing or detoxification diets, intermittent fasting, the paleo diet, and high intensity training.
+
+RECENT FINDINGS: Despite the growing popularity of fad diets and exercise plans for weight loss, there are limited studies that actually suggest these particular regimens are beneficial and lead to long-term weight loss. Juicing or detoxification diets tend to work because they lead to extremely low caloric intake for short periods of time, however tend to lead to weight gain once a normal diet is resumed. Both intermittent fasting and the paleo diet lead to weight loss because of overall decreased caloric intake as well. Lastly, studies on short bursts of high intensity training have shown remarkable weight loss and improvements in cardiovascular health. Review of the literature does suggest that some fad diets and exercise plans do lead to weight loss; however, the studies are quite limited and are all based on the concept of caloric restriction.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+4. PMID 35322333 | Ultra-processed foods and obesity and adiposity parameters among children and adolescents: a systematic review.
+https://pubmed.ncbi.nlm.nih.gov/35322333/
+Publication types: ["Journal Article", "Systematic Review"]
+Correction/retraction links: []
+Full available abstract:
+PURPOSE: According to the NOVA classification, ultra-processed foods are products made through physical, biological and chemical processes and typically with multiple ingredients and additives, in which whole foods are mostly or entirely absent. From a nutritional point of view, they are typically energy-dense foods high in fat, sugar, and salt and low in fiber. The association between the consumption of ultra-processed food and obesity and adiposity measurements has been established in adults. However, the situation remains unclear in children and adolescents.
+
+METHODS: We carried out a systematic review, in which we summarize observational studies investigating the association between the consumption of ultra-processed food, as defined by NOVA classification, and obesity and adiposity parameters among children and adolescents. A literature search was performed using PUBMED and Web of Science databases for relevant articles published prior to May 2021.
+
+RESULTS: Ten studies, five longitudinal and five cross-sectional, mainly conducted in Brazil, were included in this review. Four longitudinal studies in children with a follow-up longer than 4 years found a positive association between the consumption of ultra-processed food and obesity and adiposity parameters, whereas cross-sectional studies failed to find an association.
+
+CONCLUSION: These data suggest that a consistent intake of ultra-processed foods over time is needed to impact nutritional status and body composition of children and adolescents. Further well-designed prospective studies worldwide are needed to confirm these findings considering country-related differences in dietary habits and food production technologies.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+5. PMID 37238352 | Ultra-Processed Food, Reward System and Childhood Obesity.
+https://pubmed.ncbi.nlm.nih.gov/37238352/
+Publication types: ["Journal Article", "Review"]
+Correction/retraction links: []
+Full available abstract:
+Obesity and overweight are a major public health problem globally. Diet quality is critical for proper child development, and an unhealthy diet is a preventable risk factor for noncommunicable diseases (NCDs), such as obesity. Consumption of sugar-sweetened beverages and ultra-processed foods (UPFs) in childhood may increase the BMI/BMI z-score, body fat percentage, or likelihood of overweight. A strict feeding regulation system allows for sufficient food to be consumed to meet ongoing metabolic demands while avoiding overconsumption. This narrative review explores the issues of obesity and the regulation of food intake related to reward systems and UPF consumption. Nutrient composition alone cannot explain the influence of UPFs on the risk of obesity. Furthermore, the non-nutritional properties of UPFs may explain the mechanisms underlying the relationship with obesity and NCDs. UPFs are designed to be highly palatable, appealing, and energy dense with a unique combination of the main taste enhancer ingredients to generate a strong rewarding stimulus and influence the circuits related to feeding facilitation. How individual UPF ingredients influence eating behavior and reward processes remains not fully elucidated. To increase the knowledge on the relationship between UPFs and pediatric obesity, it may be useful to limit the rapid growth in the prevalence of obesity and subsequent related complications, and to develop new strategies for appropriate food and nutrition policies.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+6. PMID 38934469 | International society of sports nutrition position stand: ketogenic diets.
+https://pubmed.ncbi.nlm.nih.gov/38934469/
+Publication types: ["Journal Article", "Review"]
+Correction/retraction links: []
+Full available abstract:
+POSITION STATEMENT: The International Society of Sports Nutrition (ISSN) provides an objective and critical review of the use of a ketogenic diet in healthy exercising adults, with a focus on exercise performance and body composition. However, this review does not address the use of exogenous ketone supplements. The following points summarize the position of the ISSN.
+
+UNLABELLED: 1. A ketogenic diet induces a state of nutritional ketosis, which is generally defined as serum ketone levels above 0.5 mM. While many factors can impact what amount of daily carbohydrate intake will result in these levels, a broad guideline is a daily dietary carbohydrate intake of less than 50 grams per day.
+
+UNLABELLED: 2. Nutritional ketosis achieved through carbohydrate restriction and a high dietary fat intake is not intrinsically harmful and should not be confused with ketoacidosis, a life-threatening condition most commonly seen in clinical populations and metabolic dysregulation.
+
+UNLABELLED: 3. A ketogenic diet has largely neutral or detrimental effects on athletic performance compared to a diet higher in carbohydrates and lower in fat, despite achieving significantly elevated levels of fat oxidation during exercise (~1.5 g/min).
+
+UNLABELLED: 4. The endurance effects of a ketogenic diet may be influenced by both training status and duration of the dietary intervention, but further research is necessary to elucidate these possibilities. All studies involving elite athletes showed a performance decrement from a ketogenic diet, all lasting six weeks or less. Of the two studies lasting more than six weeks, only one reported a statistically significant benefit of a ketogenic diet.
+
+UNLABELLED: 5. A ketogenic diet tends to have similar effects on maximal strength or strength gains from a resistance training program compared to a diet higher in carbohydrates. However, a minority of studies show superior effects of non-ketogenic comparators.
+
+UNLABELLED: 6. When compared to a diet higher in carbohydrates and lower in fat, a ketogenic diet may cause greater losses in body weight, fat mass, and fat-free mass, but may also heighten losses of lean tissue. However, this is likely due to differences in calorie and protein intake, as well as shifts in fluid balance.
+
+UNLABELLED: 7. There is insufficient evidence to determine if a ketogenic diet affects males and females differently. However, there is a strong mechanistic basis for sex differences to exist in response to a ketogenic diet.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+7. PMID 28630601 | International society of sports nutrition position stand: diets and body composition.
+https://pubmed.ncbi.nlm.nih.gov/28630601/
+Publication types: ["Journal Article", "Review"]
+Correction/retraction links: []
+Full available abstract:
+Position Statement: The International Society of Sports Nutrition (ISSN) bases the following position stand on a critical analysis of the literature regarding the effects of diet types (macronutrient composition; eating styles) and their influence on body composition. The ISSN has concluded the following. 1) There is a multitude of diet types and eating styles, whereby numerous subtypes fall under each major dietary archetype. 2) All body composition assessment methods have strengths and limitations. 3) Diets primarily focused on fat loss are driven by a sustained caloric deficit. The higher the baseline body fat level, the more aggressively the caloric deficit may be imposed. Slower rates of weight loss can better preserve lean mass (LM) in leaner subjects. 4) Diets focused primarily on accruing LM are driven by a sustained caloric surplus to facilitate anabolic processes and support increasing resistance-training demands. The composition and magnitude of the surplus, as well as training status of the subjects can influence the nature of the gains. 5) A wide range of dietary approaches (low-fat to low-carbohydrate/ketogenic, and all points between) can be similarly effective for improving body composition. 6) Increasing dietary protein to levels significantly beyond current recommendations for athletic populations may result in improved body composition. Higher protein intakes (2.3-3.1 g/kg FFM) may be required to maximize muscle retention in lean, resistance-trained subjects under hypocaloric conditions. Emerging research on very high protein intakes (>3 g/kg) has demonstrated that the known thermic, satiating, and LM-preserving effects of dietary protein might be amplified in resistance-training subjects. 7) The collective body of intermittent caloric restriction research demonstrates no significant advantage over daily caloric restriction for improving body composition. 8) The long-term success of a diet depends upon compliance and suppression or circumvention of mitigating factors such as adaptive thermogenesis. 9) There is a paucity of research on women and older populations, as well as a wide range of untapped permutations of feeding frequency and macronutrient distribution at various energetic balances combined with training. Behavioral and lifestyle modification strategies are still poorly researched areas of weight management.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+8. PMID 37535715 | Turning the tide on obesity?
+https://pubmed.ncbi.nlm.nih.gov/37535715/
+Publication types: ["Editorial"]
+Correction/retraction links: []
+Full available abstract:
+Genetics, ultraprocessed foods, portion distortion, sweetened beverages, screen time, food addiction, intestinal microbiota, diet culture, weight stigma, food insecurity-all have been implicated in the "obesity epidemic." More than a billion people worldwide have obesity, and many more are overweight. With the emergence of new, highly effective weight-loss drugs, might the "fat decades" become a closed chapter in the history of public health?
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+9. PMID 27051985 | Cutting through the Paleo hype: The evidence for the Palaeolithic diet.
+https://pubmed.ncbi.nlm.nih.gov/27051985/
+Publication types: ["Journal Article", "Review"]
+Correction/retraction links: []
+Full available abstract:
+BACKGROUND: General practitioners (GPs) are commonly asked about popular diets. The Palaeolithic diet is both highly popular and controversial.
+
+OBJECTIVE: This article reviews the published literature to establish the evidence for and against the Palaeolithic diet.
+
+DISCUSSION: The Palaeolithic diet remains controversial because of exaggerated claims for it by wellness bloggers and celebrity chefs, and the contentious evolutionary discordance hypothesis on which it is based. However, a number of underpowered trials have suggested there may be some benefit to the Palaeolithic diet, especially in weight loss and the correction of metabolic dysfunction. Further research is warranted to test these early findings. GPs should caution patients who are on the Palaeolithic diet about adequate calcium intake, especially those at higher risk of osteoporosis.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+10. PMID 14608009 | Insulin resistance and elevated triglyceride in muscle: more important for survival than "thrifty" genes?
+https://pubmed.ncbi.nlm.nih.gov/14608009/
+Publication types: ["Journal Article", "Review"]
+Correction/retraction links: []
+Full available abstract:
+Elevated intramyocellular triglyceride (IMTG) is strongly associated with insulin resistance, though a cause and effect relationship has not been fully described. Insulin sensitivity and IMTG content are both dynamic and can alter rapidly in response to dietary variation, physical activity and thermoregulatory response. Physically active humans (athletes) display elevated IMTG content, but in contrast to obese persons, are insulin sensitive. This paradox has created confusion surrounding the role of IMTG in the development of insulin resistance. In this review we consider the modern athlete as the physiological archetype of the Late Palaeolithic hunter-gatherer to whom the selection pressures of food availability, predation and fluctuating environmental conditions applied and to whom the genotype of modern man is virtually identical. As food procurement by the hunter-gatherer required physical activity, "thrifty" genes that encouraged immediate energy storage upon refeeding after food deprivation (Neel, 1962) must have been of secondary importance in survival to genes that preserved physical capacity during food deprivation. Similarly genes that enabled survival during cold exposure whilst starved would be of primary importance. In this context, we discuss the advantage afforded by an elevated IMTG content, and how under these conditions, a concomitant muscle resistance to insulin-mediated glucose uptake would also be advantageous. In sedentary modern man, adiposity is high and skeletal muscle appears to respond as if a state of starvation exists. In this situation, elevated plasma lipids serve to accrue lipid and induce insulin resistance in skeletal muscle. Reversal of this physiological state is primarily dependent on adequate contractile activity, however, in modern Western society, physical inactivity combined with abundant food and warmth has rendered IMTG a redundant muscle substrate.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+WIDE_POOL_RANKING
+
+1. PMID 26278052 | Calorie for Calorie, Dietary Fat Restriction Results in More Body Fat Loss than Carbohydrate Restriction in People with Obesity.
+https://pubmed.ncbi.nlm.nih.gov/26278052/
+Publication types: ["Journal Article", "Research Support, N.I.H., Intramural"]
+Correction/retraction links: [{"type": "CommentIn", "pmid": "26278053"}, {"type": "CommentIn", "pmid": "26303602"}]
+Full available abstract:
+Dietary carbohydrate restriction has been purported to cause endocrine adaptations that promote body fat loss more than dietary fat restriction. We selectively restricted dietary carbohydrate versus fat for 6 days following a 5-day baseline diet in 19 adults with obesity confined to a metabolic ward where they exercised daily. Subjects received both isocaloric diets in random order during each of two inpatient stays. Body fat loss was calculated as the difference between daily fat intake and net fat oxidation measured while residing in a metabolic chamber. Whereas carbohydrate restriction led to sustained increases in fat oxidation and loss of 53 ± 6 g/day of body fat, fat oxidation was unchanged by fat restriction, leading to 89 ± 6 g/day of fat loss, and was significantly greater than carbohydrate restriction (p = 0.002). Mathematical model simulations agreed with these data, but predicted that the body acts to minimize body fat differences with prolonged isocaloric diets varying in carbohydrate and fat.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+2. PMID 40933253 | Randomised crossover controlled trial of dietary interventions for glycaemic control when body weight is kept stable.
+https://pubmed.ncbi.nlm.nih.gov/40933253/
+Publication types: ["Journal Article", "Randomized Controlled Trial"]
+Correction/retraction links: []
+Full available abstract:
+A Palaeolithic diet is an efficacious dietary approach for glycaemic control in type 2 diabetes. Causal mechanisms are body weight loss and glucometabolic effects from differences in included food groups, macronutrient composition, fibre content, and glycaemic load. The aim was to test the hypothesis that characteristic food group differences between a Palaeolithic and a diabetes diet would cause an effect on glycaemic control when weight was kept stable and diets were matched for macronutrient composition, fibre content and glycaemic load. Adult participants with type 2 diabetes and increased waist circumference were instructed to follow two diets, with or without the food groups cereal grain, dairy products, and legumes, during two periods of 4 weeks separated by a 6-week washout period in a random-order crossover design. The Palaeolithic diet included fruit, vegetables, tubers, fish, shellfish, lean meat, nuts, eggs and olive oil, and excluded cereal grains, dairy products and legumes. The diabetes diet included fruit, vegetables, fish, shellfish, lean meat, nuts, eggs, olive oil, and substantial amounts of whole grains, low-fat dairy products and legumes. Dietary energy content was adjusted throughout the study to maintain stable body weight. There were no differences between diets on HbA1c or fructosamine among the 14 participants. Body weight was kept stable, and the two diets were successfully matched for macronutrient composition and glycaemic load but not for fibre content. Characteristic food group differences and the accompanying differences in fibre content between a Palaeolithic and a diabetes diet do not cause an effect on glycaemic control.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+3. PMID 25178568 | Effects of low-carbohydrate and low-fat diets: a randomized trial.
+https://pubmed.ncbi.nlm.nih.gov/25178568/
+Publication types: ["Comparative Study", "Journal Article", "Randomized Controlled Trial", "Research Support, N.I.H., Extramural"]
+Correction/retraction links: [{"type": "SummaryForPatientsIn", "pmid": "25178581"}, {"type": "CommentIn", "pmid": "25732286"}, {"type": "CommentIn", "pmid": "25732287"}, {"type": "CommentIn", "pmid": "25732288"}, {"type": "CommentIn", "pmid": "25732289"}, {"type": "CommentIn", "pmid": "25732291"}, {"type": "CommentIn", "pmid": "25751921"}, {"type": "CommentIn", "pmid": "25802358"}, {"type": "CommentIn", "pmid": "28754086"}]
+Full available abstract:
+BACKGROUND: Low-carbohydrate diets are popular for weight loss, but their cardiovascular effects have not been well-studied, particularly in diverse populations.
+
+OBJECTIVE: To examine the effects of a low-carbohydrate diet compared with a low-fat diet on body weight and cardiovascular risk factors.
+
+DESIGN: A randomized, parallel-group trial. (ClinicalTrials.gov: NCT00609271).
+
+SETTING: A large academic medical center.
+
+PARTICIPANTS: 148 men and women without clinical cardiovascular disease and diabetes.
+
+INTERVENTION: A low-carbohydrate (<40 g/d) or low-fat (<30% of daily energy intake from total fat [<7% saturated fat]) diet. Both groups received dietary counseling at regular intervals throughout the trial.
+
+MEASUREMENTS: Data on weight, cardiovascular risk factors, and dietary composition were collected at 0, 3, 6, and 12 months.
+
+RESULTS: Sixty participants (82%) in the low-fat group and 59 (79%) in the low-carbohydrate group completed the intervention. At 12 months, participants on the low-carbohydrate diet had greater decreases in weight (mean difference in change, -3.5 kg [95% CI, -5.6 to -1.4 kg]; P = 0.002), fat mass (mean difference in change, -1.5% [CI, -2.6% to -0.4%]; P = 0.011), ratio of total-high-density lipoprotein (HDL) cholesterol (mean difference in change, -0.44 [CI, -0.71 to -0.16]; P = 0.002), and triglyceride level (mean difference in change, -0.16 mmol/L [-14.1 mg/dL] [CI, -0.31 to -0.01 mmol/L {-27.4 to -0.8 mg/dL}]; P = 0.038) and greater increases in HDL cholesterol level (mean difference in change, 0.18 mmol/L [7.0 mg/dL] [CI, 0.08 to 0.28 mmol/L {3.0 to 11.0 mg/dL}]; P < 0.001) than those on the low-fat diet.
+
+LIMITATION: Lack of clinical cardiovascular disease end points.
+
+CONCLUSION: The low-carbohydrate diet was more effective for weight loss and cardiovascular risk factor reduction than the low-fat diet. Restricting carbohydrate may be an option for persons seeking to lose weight and reduce cardiovascular risk factors.
+
+PRIMARY FUNDING SOURCE: National Institutes of Health.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+4. PMID 37296485 | Position statement on nutrition therapy for overweight and obesity: nutrition department of the Brazilian association for the study of obesity and metabolic syndrome (ABESO-2022).
+https://pubmed.ncbi.nlm.nih.gov/37296485/
+Publication types: ["Journal Article", "Review"]
+Correction/retraction links: []
+Full available abstract:
+Obesity is a chronic disease resulting from multifactorial causes mainly related to lifestyle (sedentary lifestyle, inadequate eating habits) and to other conditions such as genetic, hereditary, psychological, cultural, and ethnic factors. The weight loss process is slow and complex, and involves lifestyle changes with an emphasis on nutritional therapy, physical activity practice, psychological interventions, and pharmacological or surgical treatment. Because the management of obesity is a long-term process, it is essential that the nutritional treatment contributes to the maintenance of the individual's global health. The main diet-related causes associated with excess weight are the high consumption of ultraprocessed foods, which are high in fats, sugars, and have high energy density; increased portion sizes; and low intake of fruits, vegetables, and grains. In addition, some situations negatively interfere with the weight loss process, such as fad diets that involve the belief in superfoods, the use of teas and phytotherapics, or even the avoidance of certain food groups, as has currently been the case for foods that are sources of carbohydrates. Individuals with obesity are often exposed to fad diets and, on a recurring basis, adhere to proposals with promises of quick solutions, which are not supported by the scientific literature. The adoption of a dietary pattern combining foods such as grains, lean meats, low-fat dairy, fruits, and vegetables, associated with an energy deficit, is the nutritional treatment recommended by the main international guidelines. Moreover, an emphasis on behavioral aspects including motivational interviewing and the encouragement for the individual to develop skills will contribute to achieve and maintain a healthy weight. Therefore, this Position Statement was prepared based on the analysis of the main randomized controlled studies and meta-analyses that tested different nutrition interventions for weight loss. Topics in the frontier of knowledge such as gut microbiota, inflammation, and nutritional genomics, as well as the processes involved in weight regain, were included in this document. This Position Statement was prepared by the Nutrition Department of the Brazilian Association for the Study of Obesity and Metabolic Syndrome (ABESO), with the collaboration of dietitians from research and clinical fields with an emphasis on strategies for weight loss.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+5. PMID 28676132 | Consumption of ultra-processed foods and body fat during childhood and adolescence: a systematic review.
+https://pubmed.ncbi.nlm.nih.gov/28676132/
+Publication types: ["Journal Article", "Systematic Review"]
+Correction/retraction links: []
+Full available abstract:
+OBJECTIVE: To review the available literature on the association between consumption of ultra-processed foods and body fat during childhood and adolescence.
+
+DESIGN: A systematic review was conducted in the PubMed, Web of Science and LILACS databases. Studies that evaluated the association between consumption of ultra-processed food (exposure) and body fat (outcome) during childhood and adolescence were eligible.
+
+SUBJECTS: Healthy children and adolescents.
+
+RESULTS: Twenty-six studies that evaluated groups of ultra-processed foods (such as snacks, fast foods, junk foods and convenience foods) or specific ultra-processed foods (soft drinks/sweetened beverages, sweets, chocolate and ready-to-eat cereals) were selected. Most of the studies (n 15) had a cohort design. Consumption was generally evaluated by means of FFQ or food records; and body composition, by means of double indirect methods (bioelectrical impedance analysis and skinfolds). Most of the studies that evaluated consumption of groups of ultra-processed foods and soft drinks/sweetened beverages found positive associations with body fat.
+
+CONCLUSIONS: Our review showed that most studies have found positive associations between consumption of ultra-processed food and body fat during childhood and adolescence. There is a need to use a standardized classification that considers the level of food processing to promote comparability between studies.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+6. PMID 33479499 | Effect of a plant-based, low-fat diet versus an animal-based, ketogenic diet on ad libitum energy intake.
+https://pubmed.ncbi.nlm.nih.gov/33479499/
+Publication types: ["Journal Article", "Randomized Controlled Trial", "Research Support, N.I.H., Extramural", "Research Support, Non-U.S. Gov't"]
+Correction/retraction links: [{"type": "CommentIn", "pmid": "33526931"}]
+Full available abstract:
+The carbohydrate-insulin model of obesity posits that high-carbohydrate diets lead to excess insulin secretion, thereby promoting fat accumulation and increasing energy intake. Thus, low-carbohydrate diets are predicted to reduce ad libitum energy intake as compared to low-fat, high-carbohydrate diets. To test this hypothesis, 20 adults aged 29.9 ± 1.4 (mean ± s.e.m.) years with body mass index of 27.8 ± 1.3 kg m-2 were admitted as inpatients to the National Institutes of Health Clinical Center and randomized to consume ad libitum either a minimally processed, plant-based, low-fat diet (10.3% fat, 75.2% carbohydrate) with high glycemic load (85 g 1,000 kcal-1) or a minimally processed, animal-based, ketogenic, low-carbohydrate diet (75.8% fat, 10.0% carbohydrate) with low glycemic load (6 g 1,000 kcal-1) for 2 weeks followed immediately by the alternate diet for 2 weeks. One participant withdrew due to hypoglycemia during the low-carbohydrate diet. The primary outcomes compared mean daily ad libitum energy intake between each 2-week diet period as well as between the final week of each diet. We found that the low-fat diet led to 689 ± 73 kcal d-1 less energy intake than the low-carbohydrate diet over 2 weeks (P < 0.0001) and 544 ± 68 kcal d-1 less over the final week (P < 0.0001). Therefore, the predictions of the carbohydrate-insulin model were inconsistent with our observations. This study was registered on ClinicalTrials.gov as NCT03878108 .
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+7. PMID 31105044 | Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake.
+https://pubmed.ncbi.nlm.nih.gov/31105044/
+Publication types: ["Journal Article", "Randomized Controlled Trial", "Research Support, N.I.H., Intramural"]
+Correction/retraction links: [{"type": "CommentIn", "pmid": "31230986"}, {"type": "CommentIn", "pmid": "31230987"}, {"type": "ErratumIn", "pmid": "31269427"}, {"type": "CommentIn", "pmid": "31272848"}, {"type": "ErratumIn", "pmid": "33027677"}]
+Full available abstract:
+We investigated whether ultra-processed foods affect energy intake in 20 weight-stable adults, aged (mean ± SE) 31.2 ± 1.6 years and BMI = 27 ± 1.5 kg/m2. Subjects were admitted to the NIH Clinical Center and randomized to receive either ultra-processed or unprocessed diets for 2 weeks immediately followed by the alternate diet for 2 weeks. Meals were designed to be matched for presented calories, energy density, macronutrients, sugar, sodium, and fiber. Subjects were instructed to consume as much or as little as desired. Energy intake was greater during the ultra-processed diet (508 ± 106 kcal/day; p = 0.0001), with increased consumption of carbohydrate (280 ± 54 kcal/day; p < 0.0001) and fat (230 ± 53 kcal/day; p = 0.0004), but not protein (-2 ± 12 kcal/day; p = 0.85). Weight changes were highly correlated with energy intake (r = 0.8, p < 0.0001), with participants gaining 0.9 ± 0.3 kg (p = 0.009) during the ultra-processed diet and losing 0.9 ± 0.3 kg (p = 0.007) during the unprocessed diet. Limiting consumption of ultra-processed foods may be an effective strategy for obesity prevention and treatment.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+8. PMID 33802738 | Using a Paleo Ratio to Assess Adherence to Paleolithic Dietary Recommendations in a Randomized Controlled Trial of Individuals with Type 2 Diabetes.
+https://pubmed.ncbi.nlm.nih.gov/33802738/
+Publication types: ["Journal Article", "Randomized Controlled Trial"]
+Correction/retraction links: []
+Full available abstract:
+This study is a secondary analysis of a randomized controlled trial using Paleolithic diet and exercise in individuals with type 2 diabetes. We hypothesized that increased adherence to the Paleolithic diet was associated with greater effects on blood pressure, blood lipids and HbA1c independent of weight loss. Participants were asked to follow a Paleolithic diet for 12 weeks and were randomized to supervised exercise or general exercise recommendations. Four-day food records were analyzed, and food items characterized as "Paleolithic" or "not Paleolithic". Foods considered Paleolithic were lean meat, poultry, fish, seafood, fruits, nuts, berries, seeds, vegetables, and water to drink; "not Paleolithic" were legumes, cereals, sugar, salt, processed foods, and dairy products. A Paleo ratio was calculated by dividing the Paleolithic calorie intake by total calorie intake. A multiple regression model predicted the outcome at 12 weeks using the Paleo ratio, group affiliation, and outcome at baseline as predictors. The Paleo ratio increased from 28% at baseline to 94% after the intervention. A higher Paleo ratio was associated with lower fat mass, BMI, waist circumference, systolic blood pressure, and serum triglycerides at 12 weeks, but not with lower HbA1c levels. The Paleo ratio predicted triglyceride levels independent of weight loss (p = 0.046). Moreover, an increased monounsaturated/saturated fatty acids ratio and an increased polyunsaturated/saturated fatty acids ratio was associated with lower triglyceride levels independent of weight loss. (p = 0.017 and p = 0.019 respectively). We conclude that a higher degree of adherence to the Paleolithic diet recommendations improved fat quality and was associated with improved triglyceride levels independent of weight loss among individuals with type 2 diabetes.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+9. PMID 34245802 | Meal composition during an ad libitum buffet meal and longitudinal predictions of weight and percent body fat change: The role of hyper-palatable, energy dense, and ultra-processed foods.
+https://pubmed.ncbi.nlm.nih.gov/34245802/
+Publication types: ["Journal Article", "Research Support, N.I.H., Extramural", "Research Support, Non-U.S. Gov't"]
+Correction/retraction links: []
+Full available abstract:
+BACKGROUND: Foods that increase obesity risk are ubiquitous in the US food environment. Such foods may be the target of hedonic eating, which may facilitate weight gain and lead to obesity. The study tested whether meal composition during an ad libitum buffet meal was associated with 1-year weight and percent body fat changes among healthy younger adults without obesity. Hyper-palatable foods (HPF) were the study focus; comparisons were conducted with high energy dense (HED) and ultra-processed foods (UPF).
+
+DESIGN: Younger adults without obesity (N = 82; 43% male; mean age 26.8) completed an ad libitum buffet meal and provided body composition measurements at baseline and 1-year follow up. Multiple regression models tested associations between the proportion of the target food consumed (HPF, HED, or UPF) during the ad libitum meal and 1) weight change and 2) percent body fat change. The proportion of HPF was characterized by HPF group, specifically carbohydrate and sodium (CSOD) foods or fat and sodium (FSOD) foods.
+
+RESULTS: Participants who consumed a greater proportion of CSOD HPF in their ad libitum buffet meals had significantly greater weight change (b = 0.354, p = .003) and percent body fat change (b = 0.247, p = .036) at 1-year follow up. In contrast, no significant associations were found between the proportion of FSOD HPF, HED, or UPF consumed and anthropometric outcomes (p values = .099-.938).
+
+CONCLUSIONS: Eating a greater proportion of hyper-palatable CSOD foods ad libitum appears to be a pattern of hedonic eating, which may increase an individual's risk for weight and body fat gain in early adulthood.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____
+
+10. PMID 35445063 | Intake of Ultra-Processed Food and Ectopic-, Visceral- and Other Fat Depots: A Cross-Sectional Study.
+https://pubmed.ncbi.nlm.nih.gov/35445063/
+Publication types: ["Journal Article"]
+Correction/retraction links: []
+Full available abstract:
+INTRODUCTION: The purpose of this study was to investigate associations between intake of ultra-processed food (UPF) and liver fat, pancreas fat and visceral adipose tissue (VAT) but also subcutaneous adipose tissue (SAT), VAT/SAT ratio and total fat mass.
+
+MATERIALS AND METHODS: Cross-sectional analysis of n = 286 50-year old men and women. Energy percentage (%E) from UPF was calculated from a semi-quantitative food frequency questionnaire. Food items were categorized according to the NOVA-classification system and fat depots were assessed using magnetic resonance imaging (MRI) and bioelectrical impedance analysis (BIA). Associations were analyzed using linear regression, adjusted for sex, education, physical activity, smoking, dietary factors and BMI.
+
+RESULTS: Mean intake of UPF was 37.8 ± 10.2 %E and the three largest contributors to this were crisp- and wholegrain breads and spreads, indicating overall healthy food choices. Consumption of UPF was associated with higher intake of energy, carbohydrates and fiber and lower intake of protein and polyunsaturated fat but no differences were observed for total fat, saturated fat (SFA), monounsaturated fat, sugar or alcohol between tertiles of UPF. Intake of UPF was positively associated with liver- and pancreas fat, VAT, VAT/SAT and inversely associated with total fat mass in crude models. The association for VAT remained after full adjustment (β = 0.01 (95% CI: 0.002, 0.02), P = 0.02) and was driven by women.
+
+CONCLUSION: Energy intake from UPF is not associated with ectopic fat, SAT or total fat after adjustment for multiple confounders in this population having overall healthy food habits. However, a positive association between UPF and VAT was observed which was driven by women.
+REVIEW: relevant / partial / unrelated / unclear = ____
+EXPOSURE + COMPARATOR: ____ | ACTUAL OUTCOME: ____ | DURATION: ____
+RESULT + LIMITATIONS: ____

@@ -1,0 +1,104 @@
+{
+  "claim": {
+    "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+    "exposure": "maintaining proper posture",
+    "outcome": "prevent back pain",
+    "context": "while sitting",
+    "claim_id": "fitness-02-c006",
+    "input_limitations": [
+      "Existing candidate pool only; no new literature search or relevance assessment.",
+      "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+      "No official guidance was fetched or assessed in this preparation step."
+    ]
+  },
+  "binding": {
+    "profile": "pending-claim-sources-v1",
+    "worklist_sha256": "fe2fe9fd6bf36077620e815c7bf4b396b32121dc7f834effca2763be7ece889d",
+    "evidence_sha256": "806c59b322f8bbde73869d9f006690d1bb455f3896680cf3a14d59bf6ca70d8d",
+    "script_sha256": "1b03106402a675742997484268a6672fca71f3a470dfdba00c58d025cfe6e41f",
+    "source_hashes": {
+      "S6e4e53b38a7db8f2": "1ce0ed74c18bba9b80ee047bec9433e96465668d60c00a37c0740f6dd9d36efe",
+      "S76ebc2ffbe320969": "c06180fc1b93df3b1735bb93a2d6ceb4bfffc5fdf7d26c57e19f481579513504",
+      "S407eacc6b499746c": "a7c446457447e82d6ddc78c393e5011efd787c403047c1542f45b195b3e3ab89"
+    }
+  },
+  "sources": {
+    "S6e4e53b38a7db8f2": {
+      "kind": "pubmed_abstract",
+      "pmid": "42740924",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42740924/",
+      "title": "Sustained Improvements of Thoracic Hyperkyphosis, Body Dysmorphic Disorder, in a 26-Year-Old Male With Scheuermann's Disease Using Chiropractic BioPhysics® Spinal Rehabilitation: A Case Report and 28-Month Long-Term Follow-Up.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Sep"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592414+00:00",
+      "text_scope": "abstract_only",
+      "id": "S6e4e53b38a7db8f2",
+      "text_file": "sources/S6e4e53b38a7db8f2.txt",
+      "text_sha256": "1ce0ed74c18bba9b80ee047bec9433e96465668d60c00a37c0740f6dd9d36efe",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2029
+    },
+    "S76ebc2ffbe320969": {
+      "kind": "pubmed_abstract",
+      "pmid": "42763410",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42763410/",
+      "title": "Static sagittal cervical alignment, pain, and jaw functional limitation across temporomandibular disorder subtypes: a cross-sectional study.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Sep 04"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592462+00:00",
+      "text_scope": "abstract_only",
+      "id": "S76ebc2ffbe320969",
+      "text_file": "sources/S76ebc2ffbe320969.txt",
+      "text_sha256": "c06180fc1b93df3b1735bb93a2d6ceb4bfffc5fdf7d26c57e19f481579513504",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2088
+    },
+    "S407eacc6b499746c": {
+      "kind": "pubmed_abstract",
+      "pmid": "42824910",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42824910/",
+      "title": "Axial Back Pain Secondary to Ligamentum Flavum Ossification in a Patient with Hypoparathyroidism: A Rare Case Report.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592539+00:00",
+      "text_scope": "abstract_only",
+      "id": "S407eacc6b499746c",
+      "text_file": "sources/S407eacc6b499746c.txt",
+      "text_sha256": "a7c446457447e82d6ddc78c393e5011efd787c403047c1542f45b195b3e3ab89",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 677
+    }
+  },
+  "active_sources": [
+    "S6e4e53b38a7db8f2",
+    "S76ebc2ffbe320969",
+    "S407eacc6b499746c"
+  ],
+  "phase": "sources_prepared",
+  "counts": {
+    "model_calls": 0
+  },
+  "model_events": [],
+  "unresolved_pmids": [],
+  "empty_abstract_pmids": []
+}

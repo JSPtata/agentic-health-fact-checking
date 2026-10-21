@@ -1,0 +1,9 @@
+BACKGROUND: Evidence regarding whether exercise timing differentially affects sleep quality and mood remains inconsistent. This study examined the effects of acute and regular exercise performed at different times of day on sleep and mood.
+
+METHODS: Eight English and Chinese databases were searched from inception to June 2026. Parallel and crossover randomized trials were synthesized using three-level meta-analysis with non-diagonal sampling variance-covariance matrices. Exercise vs. Control and direct Time vs. Time comparisons were analyzed separately, with CR2 cluster-robust inference used as a robustness check.
+
+RESULTS: Thirteen studies contributed 81 effect sizes (40 sleep and 41 mood). For sleep, Exercise vs. Control showed a large effect in the conventional model (g = 0.86, 95% CI [0.26, 1.46], p = 0.005), but CR2 inference was non-significant (p = 0.109). Direct Time vs. Time comparisons were non-significant (g = 0.15, 95% CI [-0.08, 0.39], p = 0.209; CR2 p = 0.127), with no stable advantage for morning, afternoon, or evening exercise. For mood, Exercise vs. Control was large but non-significant (g = 0.95, p = 0.056). Time vs. Time was significant conventionally (g = 0.30, p = 0.027) but not under CR2 inference (p = 0.097). Afternoon vs. Evening favored afternoon exercise (g = 0.50, p = 0.001), although based on only two studies.
+
+CONCLUSION: Exercise itself may be more important than its specific timing for sleep, whereas mood may show timing-related signals that remain insufficiently robust for definitive recommendations.
+
+SYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/prospero/, identifier [CRD420261431622].

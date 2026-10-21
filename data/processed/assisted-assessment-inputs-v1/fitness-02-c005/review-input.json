@@ -1,0 +1,96 @@
+{
+  "claim": {
+    "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+    "exposure": "screen time",
+    "outcome": null,
+    "context": "at least 30 minutes before going to bed",
+    "claim_id": "fitness-02-c005"
+  },
+  "articles": {
+    "42755093": {
+      "kind": "pubmed_abstract",
+      "pmid": "42755093",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42755093/",
+      "title": "Artificial Intelligence for Predicting Length of Stay for General Surgery Patients: A Systematic Review.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Oct"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592438+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sc4a6f15dccff64e5",
+      "text_file": "sources/Sc4a6f15dccff64e5.txt",
+      "text_sha256": "6478e3d8be0c4160206b63c7ce6b62cfc2a45dec12d3b672486621a905fb0619",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2526,
+      "abstract": "BACKGROUND: Length of stay (LoS) prediction is vital for optimizing surgical patient flow and resource allocation. Artificial intelligence (AI) and machine learning (ML) models may enhance LoS prediction, yet their validity and clinical utility in General Surgery remain unclear.\n\nMETHODS: Embase, Medline, Scopus, and Web of Science were systematically searched to June 2025. Studies employing AI or ML to predict LoS or discharge timing in adult General Surgery cohorts were included. Data on model development, predictor and target variables, performance, and validation were extracted. Risk of bias was appraised using PROBAST + AI. A checklist was developed to guide future LoS-prediction research.\n\nRESULTS: Nine of 4115 screened records met inclusion criteria. Classifier models with low overall risk of bias achieved moderate discrimination (AUROC 0.71-0.83), whereas regression models performed poorly (RMSE 4.6-12.7 days). Methodological weaknesses were frequent, including data leakage, temporally invalid predictors, biased patient selection, limited external validation, and incomplete performance reporting. Important predictors commonly included ASA score, age and operative duration; psychosocial and home-support features were rarely considered. Outcome definitions and intended applications varied substantially, limiting direct comparison of performance. Models predicting discharge within short, dynamically reassessed time horizons may achieve greater accuracy, but offer limited capacity for longer-term bed forecasting. No included study benchmarked ML or AI predictions against usual clinician LoS estimates. Low-bias models were retrospective and generally internally validated, so performance in prospective or external cohorts remains unknown. More complex neural network models did not consistently outperform simpler methods. This review identifies recurring barriers to prospective clinical application for routine real-world use.\n\nCONCLUSION: AI and ML models can moderately predict LoS for General Surgery patients, but generalizability is limited by methodological bias, incomplete reporting, and non-standard outcome definitions. Current models appear more suited to hospital-wide forecasting than bedside decision support. Future development should use prospectively available predictors, clinically meaningful outcomes, transparent performance reporting, and external validation. The proposed framework highlights strategies to avoid common methodological flaws in models published to date.",
+      "abstract_sha256": "6478e3d8be0c4160206b63c7ce6b62cfc2a45dec12d3b672486621a905fb0619",
+      "abstract_available": true
+    },
+    "42810318": {
+      "kind": "pubmed_abstract",
+      "pmid": "42810318",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42810318/",
+      "title": "Treating the incumbent patient in triage: An analysis of \"first come, first served\" as a procedural rule.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Sep 18"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592480+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sd3bc3ec724b26757",
+      "text_file": "sources/Sd3bc3ec724b26757.txt",
+      "text_sha256": "8bcf9688046459d280619f994aa09836a82d9e9d2e2242e80e0e1a037ad6b370",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1498,
+      "abstract": "Allocating scarce intensive care resources requires decisions about both which patients should receive priority and which rules should guide those choices. We investigate how the procedural allocation rule \"first come, first served\" (FCFS) shapes triage decisions. Using experimental ICU bed allocation scenarios, we examine how 8227 scientists across disciplines, surveyed in April and May 2020, make life-and-death allocation decisions when patients differ in clinical and social characteristics and arrive simultaneously or sequentially. Many respondents prioritize the earlier-arriving incumbent patient even when the alternative has stronger survival-relevant claims, indicating a robust arrival-priority pattern. At the same time, the incumbent frame is associated with lower decision avoidance, suggesting that FCFS can function as a morally and organizationally \"safe\" shortcut in high-stakes settings. Reliance on FCFS varies across expert communities in ways consistent with disciplinary training. Health economists, whose work emphasizes trade-offs and policy evaluation, exhibit lower average adherence to FCFS than other health-related scientists, although substantial reliance on FCFS persists even within this group. The findings highlight a tension between procedural legitimacy and benefit-based triage criteria and suggest that guidelines should anticipate default-preserving tendencies and omission concerns when designing equitable and clinically grounded allocation procedures.",
+      "abstract_sha256": "8bcf9688046459d280619f994aa09836a82d9e9d2e2242e80e0e1a037ad6b370",
+      "abstract_available": true
+    },
+    "42831210": {
+      "kind": "pubmed_abstract",
+      "pmid": "42831210",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42831210/",
+      "title": "The Psychological Impact of Hospital Admission on the Elderly: A Prospective Comparative Clinical Audit and Service Evaluation.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Oct"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592560+00:00",
+      "text_scope": "abstract_only",
+      "id": "S6ae3518c2a6eb3fa",
+      "text_file": "sources/S6ae3518c2a6eb3fa.txt",
+      "text_sha256": "b87994e1d998b4a9f26362885a0fbe3148903f039064e1523c53f94603c471ad",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 3421,
+      "abstract": "Introduction Hospital admission in older adults can be associated with functional decline, loss of independence, delirium, disruption of routine, and psychological deterioration. Virtual Wards, also described as Hospital-at-Home models, provide acute clinical care in a patient's usual place of residence and may reduce some harms associated with inpatient admission. Although Virtual Wards are commonly evaluated in terms of bed capacity, admission avoidance, and clinical safety, their psychological impact remains less well explored. This audit compared depressive symptoms and self-rated mood in older adults managed in hospital with those treated through a Virtual Ward service. Methods A prospective comparative clinical audit and service evaluation was conducted within the Care of the Elderly directorate at East Cheshire NHS Trust. The audit included 100 patients aged ≥70 years: 50 hospital inpatients and 50 patients managed through Virtual Ward pathways. Eligible patients had received at least five days of inpatient or Virtual Ward care and had broadly comparable medical diagnoses. Patients with severe acute or life-threatening illness, those lacking capacity to participate, and those with communication barriers preventing completion of the assessment tools were excluded. Baseline age, sex, primary diagnosis, and Clinical Frailty Scale (CFS) characteristics were compared descriptively between cohorts. Depressive symptoms were assessed using the 15-item Geriatric Depression Scale (GDS-15), and self-rated mood was assessed using a five-point mood scale. Exploratory unadjusted between-group comparisons were performed for selected patient-level outcomes. Results Hospital inpatients demonstrated a greater depressive symptom burden than Virtual Ward patients. A GDS-15 score of ≥5 was recorded in 36 (72%) hospital inpatients compared with 15 (30%) Virtual Ward patients, corresponding to an unadjusted odds ratio of 6.00 (95% CI, 2.53-14.24; Fisher's exact p<0.001). Low self-rated mood, defined as a score of 1 or 2, was reported by 19 (38%) hospital inpatients compared with three (6%) Virtual Ward patients, with an unadjusted odds ratio of 9.60 (95% CI, 2.62-35.21; Fisher's exact p<0.001). Conversely, positive mood scores of 4 or 5 were reported by 32 (64%) Virtual Ward patients compared with 16 (32%) hospital inpatients. Baseline age and frailty distributions showed substantial descriptive overlap, although some variation in sex and primary diagnosis was present between cohorts. Conclusion Older adults receiving inpatient care demonstrated a greater burden of depressive symptoms and less positive self-rated mood than those managed through the Virtual Ward service. However, the non-randomised design, potential selection bias, and absence of adjustment for important baseline factors such as cognitive status, functional status, social support, and baseline psychological wellbeing mean that causation cannot be established. The findings should therefore be interpreted as an association between care setting and psychological wellbeing rather than evidence that Virtual Ward care itself improves mood. Further prospective evaluation using comprehensive baseline assessment, adjusted analyses, and post-discharge follow-up is required. Older adults who require hospital admission may also benefit from routine mood assessment and targeted measures to support psychological wellbeing.",
+      "abstract_sha256": "b87994e1d998b4a9f26362885a0fbe3148903f039064e1523c53f94603c471ad",
+      "abstract_available": true
+    }
+  },
+  "status": "assessment_pending",
+  "verdict": null,
+  "claim_specification_issues": [
+    "Structured outcome missing; do not invent an outcome."
+  ],
+  "limitations": [
+    "Existing candidate pool only; not an exhaustive literature search.",
+    "Source hashes establish integrity, not scientific relevance or correctness.",
+    "Previous model selections and review decisions are not imported as approved facts.",
+    "Relevance screening, claim clarification where needed, assessment and review remain pending."
+  ]
+}

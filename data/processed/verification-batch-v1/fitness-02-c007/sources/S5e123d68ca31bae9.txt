@@ -1,0 +1,7 @@
+OBJECTIVE: The aim of this study was to investigate the cross-sectional associations among sugar-sweetened beverage (SSB) consumption, its substitution with beverage alternatives, and obesity outcomes in an Australian population.
+
+METHODS: We used data from 9341 adults ages ≥19 y from the 2011-2012 Australian National Nutrition and Physical Activity Survey. Multivariate linear regression with adjustment for covariates was used to examine the associations between SSB consumption and body mass index (BMI) and waist circumference (WC). Substitution modeling was used to simulate the effect of replacing SSB with water, coffee/tea, fruit juice, and milk.
+
+RESULTS: SSB intake (100 g/d) was associated with higher BMI (β = 0.06 kg/m2; P = 0.001) and WC (β = 0.19 cm; P < 0.001). A linear trend with BMI and WC also was seen when SSB intake was examined as categories of servings per day (Ptrend ≤ 0.001). Replacing SSB with water, coffee/tea, or milk was inversely associated with BMI (β = -0.07 to -0.09 kg/m2; P < 0.001) and WC (β = -0.25 to -0.28 cm; P < 0.001).
+
+CONCLUSIONS: The results of the present study suggested that SSB intake is associated with obesity and that coffee/tea, water, and milk may be good alternatives for SSB. Further longitudinal and intervention studies are warranted to examine the effects of beverage substitution on obesity.

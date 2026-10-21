@@ -1,0 +1,204 @@
+{
+  "status": "adjudicated_assisted_legacy",
+  "claim_id": "fitness-02-c001",
+  "claim_text": "Always stretch your body after waking up to boost circulation.",
+  "verdict": "insufficient_evidence",
+  "reason": "The supplied verification contains unresolved or heterogeneous component evidence and concludes insufficient evidence. Missing support is not converted into refutation.",
+  "summary": "Stretching can produce local vascular responses under particular conditions, but the supplied evidence does not establish that everyone should always stretch after waking to boost circulation. Missing direct support is not proof that the claim is false.",
+  "components": [
+    {
+      "component": "exposure_outcome",
+      "conclusion": "mixed",
+      "source_ids": [
+        "S1955d890eacc64be",
+        "S65191223e280ad02",
+        "Saa096fef81f1c81a",
+        "S0756726fd5d009f5",
+        "S046d91794ffce008"
+      ],
+      "explanation": "Some protocols show local vascular responses; others show nonsignificant changes or context-specific reduced flow. Endpoints, populations and phases differ. This is qualitative heterogeneity, not a pooled effect estimate."
+    },
+    {
+      "component": "context",
+      "conclusion": "insufficient_evidence",
+      "source_ids": [
+        "S03497b210d84149c",
+        "S0417cef78183352d",
+        "Sef005e977b28d913",
+        "S87f90993316e05a0",
+        "Sf177d99b8f9cede3",
+        "S1955d890eacc64be",
+        "S65191223e280ad02",
+        "Saa096fef81f1c81a",
+        "S0756726fd5d009f5",
+        "Sa7b17fb771d89d6c",
+        "S046d91794ffce008",
+        "S6a335acf4bb51a1c",
+        "S0aaa51b257fd42b2",
+        "S2524867fdcd3a897"
+      ],
+      "explanation": "The supplied sources do not establish an isolated post-waking stretching routine. Morning scheduling alone does not document timing relative to waking. No exact delay or superiority over other times is imposed."
+    },
+    {
+      "component": "recommendation_strength",
+      "conclusion": "insufficient_evidence",
+      "source_ids": [
+        "S03497b210d84149c",
+        "S0417cef78183352d",
+        "Sef005e977b28d913",
+        "S87f90993316e05a0",
+        "Sf177d99b8f9cede3",
+        "S1955d890eacc64be",
+        "S65191223e280ad02",
+        "Saa096fef81f1c81a",
+        "S0756726fd5d009f5",
+        "Sa7b17fb771d89d6c",
+        "S046d91794ffce008",
+        "S6a335acf4bb51a1c",
+        "S0aaa51b257fd42b2",
+        "S2524867fdcd3a897"
+      ],
+      "explanation": "Selected physiological experiments and general activity guidance do not justify always. This does not establish that stretching is unsafe or ineffective."
+    }
+  ],
+  "evidence_gaps": [
+    "A directly evaluated post-waking stretching routine with an appropriate comparator is absent from this supplied active evidence set.",
+    "Optimal dose, response duration, clinical relevance and general applicability are not established.",
+    "Only 12 abstracts and two extracted official pages were reviewed; 21 inactive registry entries were not assessed here.",
+    "Search completeness, full-text risk of bias, study overlap and retraction/correction status were not independently audited.",
+    "This is an assistant-assisted correction, not independent expert validation or a successful autonomous rerun."
+  ],
+  "policy": "reviewed-criteria-adjudication-v1",
+  "input_sha256": "c1d4860f0a98ac067699399850350ac76b9ee0457d555ba45f3766ab30fed637",
+  "decision_scope": "Classification of the supplied assisted verification; not a new evidence appraisal, independent scientific review or clinical recommendation.",
+  "verification_provenance": {
+    "method": "Compact local reconstruction of this conversation's assistant-reviewed corrections; no new model run.",
+    "bundle_sha256": "320bf14b933570f44ab365ddacbe85bdf47aa3fbd6bf877a654387f46d3d500c",
+    "source_hashes": {
+      "S03497b210d84149c": "435dcecde61ddb277f9696eb350a215595b967af89b237f6d7177974381d661f",
+      "S0417cef78183352d": "f9cb6e83389359dbc24de36934e4ed7f9f537091ef645ad8eeda7e54901760ad",
+      "Sef005e977b28d913": "5485d218511e192c5b13d53b7204a138f320118f14badd9a97bb72c0354954a7",
+      "S87f90993316e05a0": "3917ed1416d0c511eab7c2203da182927e589b1ed83c830be1668920b261209e",
+      "Sf177d99b8f9cede3": "1e2b3ac6574d78b3a478fbbd1dfdfe462fa31524a1433e4d9ff85303ea4822e1",
+      "S1955d890eacc64be": "64ce193074242d2106ea7ed30670823d4c748c0c21f0caefb8d567fb66fe3736",
+      "S65191223e280ad02": "c33f447966e09effa4157e43a579be9e12582643e9da5baf4153eef717e4b309",
+      "Saa096fef81f1c81a": "743bd2c79d8304848e4aeb71dfb7b3d9ec907672ae366b6eaa971576fb8101dc",
+      "S0756726fd5d009f5": "0eb82148c0acaa0b6cc127b5900cb32652919d2de6a9ef3e469ac46fd059ba68",
+      "Sa7b17fb771d89d6c": "2e0f471c73a18faa60fe8051535f08b4471eb1f0e2392b56cfa07e3417084b03",
+      "S046d91794ffce008": "e0069dc42813a6e6aa59676b92a737156ad858e8a10bfb5dcb05947d0c2673be",
+      "S6a335acf4bb51a1c": "7bfa1374c47dd3bf9f7825e9594b6e2c39a461dc5208b80bb42b8b70f4a6a399",
+      "S0aaa51b257fd42b2": "0db8632bcae94f7b3b53515703e92f786d793f04bf033781d5966c2ef4269c6a",
+      "S2524867fdcd3a897": "726d409917d7f299f8243ab5a528adb66cd1b7d65e913e44a72f4930ad51e66c"
+    },
+    "original_report_sha256": "10a43be600264fc0b437dadd0b9fb196988ca24dbf0834dc138f49e1942da126",
+    "independent_expert_review": false,
+    "source_data_independently_refetched": false,
+    "original_local_model": "qwen3:4b",
+    "transfer_version": "compact-assisted-report-v1"
+  },
+  "review_reconciliation_entries": 35,
+  "source_count": 14,
+  "sources": {
+    "S03497b210d84149c": {
+      "title": "Effect of yoga on arterial stiffness in elderly subjects with increased pulse pressure: A randomized controlled study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26275649/",
+      "pmid": "26275649",
+      "text_sha256": "435dcecde61ddb277f9696eb350a215595b967af89b237f6d7177974381d661f"
+    },
+    "S0417cef78183352d": {
+      "title": "Adaptations of bone and bone vasculature to muscular stretch training.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38741608/",
+      "pmid": "38741608",
+      "text_sha256": "f9cb6e83389359dbc24de36934e4ed7f9f537091ef645ad8eeda7e54901760ad"
+    },
+    "Sef005e977b28d913": {
+      "title": "Acute effect of stretching one leg on regional arterial stiffness in young men.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28397006/",
+      "pmid": "28397006",
+      "text_sha256": "5485d218511e192c5b13d53b7204a138f320118f14badd9a97bb72c0354954a7"
+    },
+    "S87f90993316e05a0": {
+      "title": "Aerobic training conducted at different times of day in elderly patients with hypertension: a controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41361156/",
+      "pmid": "41361156",
+      "text_sha256": "3917ed1416d0c511eab7c2203da182927e589b1ed83c830be1668920b261209e"
+    },
+    "Sf177d99b8f9cede3": {
+      "title": "Cardiovascular Responses to Skeletal Muscle Stretching: \"Stretching\" the Truth or a New Exercise Paradigm for Cardiovascular Medicine?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28780647/",
+      "pmid": "28780647",
+      "text_sha256": "1e2b3ac6574d78b3a478fbbd1dfdfe462fa31524a1433e4d9ff85303ea4822e1"
+    },
+    "S1955d890eacc64be": {
+      "title": "Effect of self-administered stretching on NIRS-measured oxygenation dynamics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25324203/",
+      "pmid": "25324203",
+      "text_sha256": "64ce193074242d2106ea7ed30670823d4c748c0c21f0caefb8d567fb66fe3736"
+    },
+    "S65191223e280ad02": {
+      "title": "Acute Effects of Warming Up on Achilles Tendon Blood Flow and Stiffness.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33337692/",
+      "pmid": "33337692",
+      "text_sha256": "c33f447966e09effa4157e43a579be9e12582643e9da5baf4153eef717e4b309"
+    },
+    "Saa096fef81f1c81a": {
+      "title": "Impaired Microvascular Response to Muscle Stretching in Chronic Smokers With Type 2 Diabetes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32596231/",
+      "pmid": "32596231",
+      "text_sha256": "743bd2c79d8304848e4aeb71dfb7b3d9ec907672ae366b6eaa971576fb8101dc"
+    },
+    "S0756726fd5d009f5": {
+      "title": "Effects of nociceptive and mechanosensitive afferents sensitization on central and peripheral hemodynamics following exercise-induced muscle damage.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35981730/",
+      "pmid": "35981730",
+      "text_sha256": "0eb82148c0acaa0b6cc127b5900cb32652919d2de6a9ef3e469ac46fd059ba68"
+    },
+    "Sa7b17fb771d89d6c": {
+      "title": "The influence of muscle length on gastrocnemius and vastus lateralis muscle oxygen saturation and endurance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31563842/",
+      "pmid": "31563842",
+      "text_sha256": "2e0f471c73a18faa60fe8051535f08b4471eb1f0e2392b56cfa07e3417084b03"
+    },
+    "S046d91794ffce008": {
+      "title": "Acute effect of passive one-legged intermittent static stretching on regional blood flow in young men.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33079234/",
+      "pmid": "33079234",
+      "text_sha256": "e0069dc42813a6e6aa59676b92a737156ad858e8a10bfb5dcb05947d0c2673be"
+    },
+    "S6a335acf4bb51a1c": {
+      "title": "Acute effects of passive stretching on skeletal muscle microvascular Po<sub>2</sub> and HIF-1α expression: influence of stretch intensity and duration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41467762/",
+      "pmid": "41467762",
+      "text_sha256": "7bfa1374c47dd3bf9f7825e9594b6e2c39a461dc5208b80bb42b8b70f4a6a399"
+    },
+    "S0aaa51b257fd42b2": {
+      "title": "Physical activity",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "pmid": null,
+      "text_sha256": "0db8632bcae94f7b3b53515703e92f786d793f04bf033781d5966c2ef4269c6a"
+    },
+    "S2524867fdcd3a897": {
+      "title": "Physical activity guidelines for adults aged 19 to 64 - NHS",
+      "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+      "pmid": null,
+      "text_sha256": "726d409917d7f299f8243ab5a528adb66cd1b7d65e913e44a72f4930ad51e66c"
+    }
+  },
+  "limitations": [
+    "Supplied active sources only; no new retrieval or exhaustive search.",
+    "Inactive candidates remain in the registry but are not verified here.",
+    "Passages from one document are not independent studies; findings may overlap.",
+    "Passage boundaries can lose context; consult full saved sources before adjudication.",
+    "Verifier and reviewer use the same small model; errors can be correlated.",
+    "Quotation checks establish textual presence, not scientific validity.",
+    "Official pages are not automatically applicable. Abstracts do not replace full-text appraisal.",
+    "No overall verdict or final adjudication is generated by this source-verification stage.",
+    "A directly evaluated post-waking stretching routine with an appropriate comparator is absent from this supplied active evidence set.",
+    "Optimal dose, response duration, clinical relevance and general applicability are not established.",
+    "Only 12 abstracts and two extracted official pages were reviewed; 21 inactive registry entries were not assessed here.",
+    "Search completeness, full-text risk of bias, study overlap and retraction/correction status were not independently audited.",
+    "This is an assistant-assisted correction, not independent expert validation or a successful autonomous rerun."
+  ],
+  "next_action": "stop_with_evidence_limits",
+  "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/verification-local-v1/verification-assisted.json"
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:45:02.724324Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"Sa7b17fb771d89d6c\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"10 healthy individuals (21 ± 1 yrs.)\",\n  \"measured_outcome_or_recommendation\": \"Muscle oxygen saturation and blood flow\",\n  \"finding\": \"Muscle at stretched position showed a lower endurance index in the gastrocnemius (51 ± 9.6% versus 77 ± 9.1%, p = 0.008) and vastus lateralis (54 ± 8.9% versus 75 ± 9.6%, p < 0.001).\",\n  \"relation\": \"unassessable\",\n  \"limitations\": [\n    \"Muscle oxygen saturation and blood flow were measured using NIRS\",\n    \"Muscle endurance was measured with tri-axial accelerometer\",\n    \"Results only show lower endurance index in stretched positions\",\n    \"No mention of timing relative to waking up\"\n  ],\n  \"quote_ids\": [\n    \"Q6\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 33671577917,
+  "load_duration": 53014583,
+  "prompt_eval_count": 828,
+  "prompt_eval_cached_count": 330,
+  "prompt_eval_duration": 7312210000,
+  "eval_count": 268,
+  "eval_duration": 25814471000
+}

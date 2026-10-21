@@ -1,0 +1,46 @@
+{
+  "claims": [
+    {
+      "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+      "exposure": "replacing sugary drinks with herbal tea",
+      "outcome": "healthier alternative",
+      "context": null,
+      "claim_id": "fitness-02-c007",
+      "evidence": []
+    }
+  ],
+  "searches": [
+    {
+      "query": "((sugary drinks OR sweetened beverages) AND (herbal tea OR herbal beverages)) AND (healthier OR better health OR improved health outcomes) AND (substitution OR replacement) AND (dietary change OR lifestyle intervention)",
+      "total_matches": "0",
+      "query_translation": "((\"sugary\"[All Fields] AND (\"drink\"[All Fields] OR \"drinking\"[MeSH Terms] OR \"drinking\"[All Fields] OR \"alcohol drinking\"[MeSH Terms] OR (\"alcohol\"[All Fields] AND \"drinking\"[All Fields]) OR \"alcohol drinking\"[All Fields] OR \"drinkings\"[All Fields] OR \"drinks\"[All Fields])) OR (\"sugar sweetened beverages\"[MeSH Terms] OR (\"sugar sweetened\"[All Fields] AND \"beverages\"[All Fields]) OR \"sugar sweetened beverages\"[All Fields] OR (\"sweetened\"[All Fields] AND \"beverages\"[All Fields]) OR \"sweetened beverages\"[All Fields])) AND (\"teas herbal\"[Supplementary Concept] OR \"teas herbal\"[All Fields] OR \"herbal tea\"[All Fields] OR \"teas, herbal\"[MeSH Terms] OR (\"teas\"[All Fields] AND \"herbal\"[All Fields]) OR \"herbal teas\"[All Fields] OR (\"herbal\"[All Fields] AND \"tea\"[All Fields]) OR ((\"herbal medicine\"[MeSH Terms] OR (\"herbal\"[All Fields] AND \"medicine\"[All Fields]) OR \"herbal medicine\"[All Fields] OR \"herbalism\"[All Fields] OR \"herbal\"[All Fields] OR \"herbals\"[All Fields]) AND (\"beverage s\"[All Fields] OR \"beverages\"[MeSH Terms] OR \"beverages\"[All Fields] OR \"beverage\"[All Fields]))) AND (\"healthier\"[All Fields] OR (\"better health lond\"[Journal] OR (\"better\"[All Fields] AND \"health\"[All Fields]) OR \"better health\"[All Fields]) OR ((\"improve\"[All Fields] OR \"improved\"[All Fields] OR \"improvement\"[All Fields] OR \"improvements\"[All Fields] OR \"improves\"[All Fields] OR \"improving\"[All Fields] OR \"improvment\"[All Fields]) AND (\"health\"[MeSH Terms] OR \"health\"[All Fields] OR \"health s\"[All Fields] OR \"healthful\"[All Fields] OR \"healthfulness\"[All Fields] OR \"healths\"[All Fields]) AND (\"outcome\"[All Fields] OR \"outcomes\"[All Fields]))) AND (\"substitute\"[All Fields] OR \"substituted\"[All Fields] OR \"substitutent\"[All Fields] OR \"substitutents\"[All Fields] OR \"substitutes\"[All Fields] OR \"substituting\"[All Fields] OR \"substitution\"[All Fields] OR \"substitutional\"[All Fields] OR \"substitutions\"[All Fields] OR (\"replace\"[All Fields] OR \"replaceable\"[All Fields] OR \"replaced\"[All Fields] OR \"replaces\"[All Fields] OR \"replacing\"[All Fields] OR \"replacment\"[All Fields] OR \"replantation\"[MeSH Terms] OR \"replantation\"[All Fields] OR \"replacement\"[All Fields] OR \"replacements\"[All Fields])) AND (((\"diet\"[MeSH Terms] OR \"diet\"[All Fields] OR \"dietary\"[All Fields] OR \"dietaries\"[All Fields]) AND (\"change\"[All Fields] OR \"changed\"[All Fields] OR \"changes\"[All Fields] OR \"changing\"[All Fields] OR \"changings\"[All Fields])) OR ((\"life style\"[MeSH Terms] OR (\"life\"[All Fields] AND \"style\"[All Fields]) OR \"life style\"[All Fields] OR \"lifestyle\"[All Fields] OR \"lifestyles\"[All Fields]) AND (\"intervention s\"[All Fields] OR \"interventions\"[All Fields] OR \"interventive\"[All Fields] OR \"methods\"[MeSH Terms] OR \"methods\"[All Fields] OR \"intervention\"[All Fields] OR \"interventional\"[All Fields])))",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "returned_pmids": [],
+      "retrieved_at": "2026-10-20T17:29:06.009839+00:00"
+    },
+    {
+      "query": "((sug as a beverage OR sweetened drinks) AND (herbal tea OR herbal infusions)) AND (health benefits OR reduced risk OR improved health) AND (dietary substitution OR behavioral change)",
+      "total_matches": "0",
+      "query_translation": "((\"sug\"[All Fields] AND (\"beverage s\"[All Fields] OR \"beverages\"[MeSH Terms] OR \"beverages\"[All Fields] OR \"beverage\"[All Fields])) OR (\"sugar sweetened beverages\"[MeSH Terms] OR (\"sugar sweetened\"[All Fields] AND \"beverages\"[All Fields]) OR \"sugar sweetened beverages\"[All Fields] OR (\"sweetened\"[All Fields] AND \"drinks\"[All Fields]) OR \"sweetened drinks\"[All Fields])) AND (\"teas herbal\"[Supplementary Concept] OR \"teas herbal\"[All Fields] OR \"herbal tea\"[All Fields] OR \"teas, herbal\"[MeSH Terms] OR (\"teas\"[All Fields] AND \"herbal\"[All Fields]) OR \"herbal teas\"[All Fields] OR (\"herbal\"[All Fields] AND \"tea\"[All Fields]) OR ((\"herbal medicine\"[MeSH Terms] OR (\"herbal\"[All Fields] AND \"medicine\"[All Fields]) OR \"herbal medicine\"[All Fields] OR \"herbalism\"[All Fields] OR \"herbal\"[All Fields] OR \"herbals\"[All Fields]) AND (\"infusate\"[All Fields] OR \"infusates\"[All Fields] OR \"infuse\"[All Fields] OR \"infused\"[All Fields] OR \"infuser\"[All Fields] OR \"infusers\"[All Fields] OR \"infuses\"[All Fields] OR \"infusing\"[All Fields] OR \"infusion\"[All Fields] OR \"infusions\"[All Fields]))) AND (\"insurance benefits\"[MeSH Terms] OR (\"insurance\"[All Fields] AND \"benefits\"[All Fields]) OR \"insurance benefits\"[All Fields] OR (\"health\"[All Fields] AND \"benefits\"[All Fields]) OR \"health benefits\"[All Fields] OR ((\"reduce\"[All Fields] OR \"reduced\"[All Fields] OR \"reduces\"[All Fields] OR \"reducing\"[All Fields]) AND (\"risk\"[MeSH Terms] OR \"risk\"[All Fields])) OR ((\"improve\"[All Fields] OR \"improved\"[All Fields] OR \"improvement\"[All Fields] OR \"improvements\"[All Fields] OR \"improves\"[All Fields] OR \"improving\"[All Fields] OR \"improvment\"[All Fields]) AND (\"health\"[MeSH Terms] OR \"health\"[All Fields] OR \"health s\"[All Fields] OR \"healthful\"[All Fields] OR \"healthfulness\"[All Fields] OR \"healths\"[All Fields]))) AND (((\"diet\"[MeSH Terms] OR \"diet\"[All Fields] OR \"dietary\"[All Fields] OR \"dietaries\"[All Fields]) AND (\"substitute\"[All Fields] OR \"substituted\"[All Fields] OR \"substitutent\"[All Fields] OR \"substitutents\"[All Fields] OR \"substitutes\"[All Fields] OR \"substituting\"[All Fields] OR \"substitution\"[All Fields] OR \"substitutional\"[All Fields] OR \"substitutions\"[All Fields])) OR ((\"behavior s\"[All Fields] OR \"behaviorally\"[All Fields] OR \"behaviour\"[All Fields] OR \"behavior\"[MeSH Terms] OR \"behavior\"[All Fields] OR \"behavioural\"[All Fields] OR \"behavioral\"[All Fields] OR \"behaviourally\"[All Fields] OR \"behaviours\"[All Fields] OR \"behaviors\"[All Fields] OR \"pattern\"[All Fields] OR \"pattern s\"[All Fields] OR \"patternability\"[All Fields] OR \"patternable\"[All Fields] OR \"patterned\"[All Fields] OR \"patterning\"[All Fields] OR \"patternings\"[All Fields] OR \"patterns\"[All Fields]) AND (\"change\"[All Fields] OR \"changed\"[All Fields] OR \"changes\"[All Fields] OR \"changing\"[All Fields] OR \"changings\"[All Fields])))",
+      "warnings": {
+        "phrasesignored": [
+          "as",
+          "a"
+        ],
+        "quotedphrasesnotfound": [],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "returned_pmids": [],
+      "retrieved_at": "2026-10-20T17:29:06.564303+00:00"
+    }
+  ],
+  "retrieval_scope": "PubMed candidates only; no suitability or truth determination."
+}

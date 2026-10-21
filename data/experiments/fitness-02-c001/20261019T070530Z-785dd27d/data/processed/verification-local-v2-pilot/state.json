@@ -1,0 +1,356 @@
+{
+  "binding": {
+    "profile": "local-source-review-v2",
+    "model": "qwen3:4b",
+    "origin_state_sha256": "2138cf46ac5ac384868cf6d503a3c65f78893644c2609219f922e4c2f769a501",
+    "chunk_bytes": 1400,
+    "source_hashes": {
+      "S03497b210d84149c": "435dcecde61ddb277f9696eb350a215595b967af89b237f6d7177974381d661f",
+      "Saa096fef81f1c81a": "743bd2c79d8304848e4aeb71dfb7b3d9ec907672ae366b6eaa971576fb8101dc",
+      "S0756726fd5d009f5": "0eb82148c0acaa0b6cc127b5900cb32652919d2de6a9ef3e469ac46fd059ba68"
+    },
+    "abstract_max_bytes": 2500,
+    "review_protocol": "finding-fidelity-v2",
+    "selected_pmids": [
+      "26275649",
+      "32596231",
+      "35981730"
+    ]
+  },
+  "events": [
+    {
+      "key": "S03497b210d84149c/1/finding",
+      "protocol": "quote-anchors-v3",
+      "status": "validated",
+      "prompt_sha256": "55f6d5d69eefa6a1ea3ec85d9ea93cfdf2db37996209778d4d491bd1b89780bd",
+      "quote_anchors": {
+        "Q1": "OBJECTIVE: We aimed to determine the effect of yoga on arterial function in elderly with increased pulse pressure (PP).\n\nDESIGN: Randomized controlled study with two parallel groups.\n\n",
+        "Q2": "PARTICIPANTS: Elderly subjects with PP≥60 mmHg (n=60).\n\n",
+        "Q3": "INTERVENTIONS: Yoga group (n=30) was assigned for yoga training and brisk-walking (BW) group (n=30) for brisk-walk with stretching exercise for 1h in the morning for 6 days in a week for 12 weeks.\n\n",
+        "Q4": "MAIN OUTCOME MEASURES: Arterial stiffness measures: Brachial-ankle pulse wave velocity (baPWV), Carotid-femoral pulse wave velocity (c-f PWV), aortic augmentation index (AIx@75), arterial stiffness index at brachial",
+        "Q5": " (bASI) and tibial arteries (aASI). Total serum nitric oxide concentration (NOx) as an index of endothelial function.",
+        "Q6": " Heart rate variability (HRV) measures: Low frequency and high frequency in normalized units (LFnu, HFnu) and LF/HF ratio.\n\n",
+        "Q7": "RESULTS: The mean between-group change (with 95% CI) in arterial stiffness: c-f PWV(m/s) [1.25(0.59-1.89); p<0.001], baPWV(m/s) [1.96(0.76-3.16), p<0.01], AIx@75 [3.07(0.24-5.89), p=0.066], aASI [8.3(4.06-12.53),",
+        "Q8": " p<0.001]; endothelial function index: NO(μmol/L) [-9.03(-14.57 to -3.47), p<0.001]; SBP(mmHg) [14.23(12.03-16.44), p<0.001], DBP(mmHg) [0.1(-1.95-2.15), p=0.38], PP(mmHg) [14.07(11.2-16.92), p<0.001], MAP(mmHg)",
+        "Q9": " [4.7(3.08-6.32), p<0.001]; and cardiac autonomic function: LF(nu) [4.81(1.54-8.08), p<0.01], HF(nu) [-4.13(-7.57 to -0.69), p<0.01], LF/HF ratio [0.84(0.3-1.37), p<0.001], indicate significant difference in effects of",
+        "Q10": " two intervention on arterial stiffness, endothelial function, BP and cardiac autonomic activity.",
+        "Q11": " There was significant change within-yoga group in vascular function, BP and autonomic function, while no significant change within-BW group was observed.\n\n",
+        "Q12": "CONCLUSION: Our findings suggest that yoga program offered was more effective than brisk-walk in reducing arterial stiffness along with BP in elderly individuals with increased PP.",
+        "Q13": " Yoga can also significantly reduce sympathetic activity and improve endothelial function with enhancement in bioavailability of NO."
+      },
+      "response_file": "responses/0001.json",
+      "prompt_tokens": 1126,
+      "output_tokens": 249
+    },
+    {
+      "key": "S03497b210d84149c/1/review",
+      "protocol": "quote-anchors-v3",
+      "status": "validated",
+      "prompt_sha256": "1561f70092645e97134579cf91c0557808f20a9c6b483617e282a7ba5b4b280d",
+      "quote_anchors": {
+        "Q1": "OBJECTIVE: We aimed to determine the effect of yoga on arterial function in elderly with increased pulse pressure (PP).\n\nDESIGN: Randomized controlled study with two parallel groups.\n\n",
+        "Q2": "PARTICIPANTS: Elderly subjects with PP≥60 mmHg (n=60).\n\n",
+        "Q3": "INTERVENTIONS: Yoga group (n=30) was assigned for yoga training and brisk-walking (BW) group (n=30) for brisk-walk with stretching exercise for 1h in the morning for 6 days in a week for 12 weeks.\n\n",
+        "Q4": "MAIN OUTCOME MEASURES: Arterial stiffness measures: Brachial-ankle pulse wave velocity (baPWV), Carotid-femoral pulse wave velocity (c-f PWV), aortic augmentation index (AIx@75), arterial stiffness index at brachial",
+        "Q5": " (bASI) and tibial arteries (aASI). Total serum nitric oxide concentration (NOx) as an index of endothelial function.",
+        "Q6": " Heart rate variability (HRV) measures: Low frequency and high frequency in normalized units (LFnu, HFnu) and LF/HF ratio.\n\n",
+        "Q7": "RESULTS: The mean between-group change (with 95% CI) in arterial stiffness: c-f PWV(m/s) [1.25(0.59-1.89); p<0.001], baPWV(m/s) [1.96(0.76-3.16), p<0.01], AIx@75 [3.07(0.24-5.89), p=0.066], aASI [8.3(4.06-12.53),",
+        "Q8": " p<0.001]; endothelial function index: NO(μmol/L) [-9.03(-14.57 to -3.47), p<0.001]; SBP(mmHg) [14.23(12.03-16.44), p<0.001], DBP(mmHg) [0.1(-1.95-2.15), p=0.38], PP(mmHg) [14.07(11.2-16.92), p<0.001], MAP(mmHg)",
+        "Q9": " [4.7(3.08-6.32), p<0.001]; and cardiac autonomic function: LF(nu) [4.81(1.54-8.08), p<0.01], HF(nu) [-4.13(-7.57 to -0.69), p<0.01], LF/HF ratio [0.84(0.3-1.37), p<0.001], indicate significant difference in effects of",
+        "Q10": " two intervention on arterial stiffness, endothelial function, BP and cardiac autonomic activity.",
+        "Q11": " There was significant change within-yoga group in vascular function, BP and autonomic function, while no significant change within-BW group was observed.\n\n",
+        "Q12": "CONCLUSION: Our findings suggest that yoga program offered was more effective than brisk-walk in reducing arterial stiffness along with BP in elderly individuals with increased PP.",
+        "Q13": " Yoga can also significantly reduce sympathetic activity and improve endothelial function with enhancement in bioavailability of NO."
+      },
+      "response_file": "responses/0002.json",
+      "prompt_tokens": 1144,
+      "output_tokens": 64
+    },
+    {
+      "key": "Saa096fef81f1c81a/1/finding",
+      "protocol": "quote-anchors-v3",
+      "status": "validated",
+      "prompt_sha256": "62b38731319af68c33a6e92164674b62438101c4d7a1359725aaf6a8464b557e",
+      "quote_anchors": {
+        "Q1": "OBJECTIVE: Cigarette smoking promotes endothelial dysfunction and is a prominent catalyst for vascular disease.",
+        "Q2": " This study employed laser doppler flowmetry (LDF) and spectral analysis to investigate the skin microvascular response to relatively mild stimulus of stretching in diabetic smokers.\n\n",
+        "Q3": "METHODS: The study population consisted of thirty type 2 diabetic male patients (15 smokers vs. 15 non-smokers) and 15 normal non-smoking subjects.",
+        "Q4": " The cutaneous blood flow of the calf at both lower limbs was measured by LDF at a supine position throughout and after muscle stretching by passive dorsiflexion of the ankle.\n\n",
+        "Q5": "RESULTS: Following the stretch, post-stretch reactive hyperemia (PSRH) responses were found in all subjects. However, the diabetic non-smokers had relatively higher reactive blood flow than that of the diabetic smokers.",
+        "Q6": " The PSRH sustained for a longer time in both diabetic non-smokers and non-diabetic non-smokers in the time domain analysis.",
+        "Q7": " By spectral analysis, an observed discrepancy between that of diabetic smokers and diabetic non-smokers was statistically significant.",
+        "Q8": " Specifically, the frequency intervals corresponded to a nitric oxide dependent endothelial activity.",
+        "Q9": " In addition, an excessive response induced by stretching in frequency intervals of neurogenic activity, when compared with the non-smoking control, was found on diabetic non-smokers.\n\n",
+        "Q10": "CONCLUSION: All subjects expressed the PSRH effect in cutaneous microcirculation after a 10-s stretch stimulus; however, this effect was observed at a significantly lower intensity in chronic smokers with diabetes.",
+        "Q11": " The spectral analysis of the skin blood flow signals provides a pathological index for the assessment of the endothelial dysfunction induced by cigarette smoking.",
+        "Q12": " Furthermore, the discrepancy of neurovascular function between that of diabetic non-smokers and normal subjects could also be distinguished via the variations of the spectrum related to neurogenic activity."
+      },
+      "response_file": "responses/0003.json",
+      "prompt_tokens": 761,
+      "output_tokens": 193
+    },
+    {
+      "key": "Saa096fef81f1c81a/1/review",
+      "protocol": "quote-anchors-v3",
+      "status": "validated",
+      "prompt_sha256": "b2ae7f68f033fc4fa65cdda4939b28aff8bad1c7d430c178ce933ec316674129",
+      "quote_anchors": {
+        "Q1": "OBJECTIVE: Cigarette smoking promotes endothelial dysfunction and is a prominent catalyst for vascular disease.",
+        "Q2": " This study employed laser doppler flowmetry (LDF) and spectral analysis to investigate the skin microvascular response to relatively mild stimulus of stretching in diabetic smokers.\n\n",
+        "Q3": "METHODS: The study population consisted of thirty type 2 diabetic male patients (15 smokers vs. 15 non-smokers) and 15 normal non-smoking subjects.",
+        "Q4": " The cutaneous blood flow of the calf at both lower limbs was measured by LDF at a supine position throughout and after muscle stretching by passive dorsiflexion of the ankle.\n\n",
+        "Q5": "RESULTS: Following the stretch, post-stretch reactive hyperemia (PSRH) responses were found in all subjects. However, the diabetic non-smokers had relatively higher reactive blood flow than that of the diabetic smokers.",
+        "Q6": " The PSRH sustained for a longer time in both diabetic non-smokers and non-diabetic non-smokers in the time domain analysis.",
+        "Q7": " By spectral analysis, an observed discrepancy between that of diabetic smokers and diabetic non-smokers was statistically significant.",
+        "Q8": " Specifically, the frequency intervals corresponded to a nitric oxide dependent endothelial activity.",
+        "Q9": " In addition, an excessive response induced by stretching in frequency intervals of neurogenic activity, when compared with the non-smoking control, was found on diabetic non-smokers.\n\n",
+        "Q10": "CONCLUSION: All subjects expressed the PSRH effect in cutaneous microcirculation after a 10-s stretch stimulus; however, this effect was observed at a significantly lower intensity in chronic smokers with diabetes.",
+        "Q11": " The spectral analysis of the skin blood flow signals provides a pathological index for the assessment of the endothelial dysfunction induced by cigarette smoking.",
+        "Q12": " Furthermore, the discrepancy of neurovascular function between that of diabetic non-smokers and normal subjects could also be distinguished via the variations of the spectrum related to neurogenic activity."
+      },
+      "response_file": "responses/0004.json",
+      "prompt_tokens": 735,
+      "output_tokens": 64
+    },
+    {
+      "key": "S0756726fd5d009f5/1/finding",
+      "protocol": "quote-anchors-v3",
+      "status": "validated",
+      "prompt_sha256": "69dd2102f165eb564c7ff35ab57d8b579bc9f812003d20684ef7d0cae369323d",
+      "quote_anchors": {
+        "Q1": "This study aims to test the separated and combined effects of mechanoreflex activation and nociception through exercise-induced muscle damage (EIMD) on central and peripheral hemodynamics before and during single",
+        "Q2": " passive leg movement (sPLM).",
+        "Q3": " Eight healthy young males undertook four experimental sessions, in which a sPLM was performed on the dominant limb while in each specific session the contralateral was: <i>1</i>) in a resting condition (CTRL),",
+        "Q4": " <i>2</i>) stretched (ST), <i>3</i>) resting after EIMD called delayed onset muscle soreness (DOMS) condition, or <i>4</i>) stretched after EIMD (DOMS + ST). EIMD was used to induce DOMS in the following 24-48 h.",
+        "Q5": " Femoral blood flow (FBF) was assessed using Doppler ultrasound whereas central hemodynamics were assessed via finger photoplethysmography.",
+        "Q6": " Leg vascular conductance (LVC) was calculated as FBF/mean arterial pressure (MAP).",
+        "Q7": " RR-intervals were analyzed in the time (root mean squared of successive intervals; RMSSD) and frequency domain [low frequency (LF)/high frequency (HF)].",
+        "Q8": " Blood samples were collected before each condition and gene expression analysis showed increased fold changes for P2X4 and IL1β in DOMS and DOMS + ST compared with baseline.",
+        "Q9": " Resting FBF and LVC were decreased only in the DOMS + ST condition (-26 mL/min and -50 mL/mmHg/min respectively) with decreased RMSSD and increased LF/HF ratio.",
+        "Q10": " MAP, HR, CO, and SV were increased in ST and DOMS + ST compared with CTRL.",
+        "Q11": " Marked decreases of Δpeaks and AUC were observed for FBF (Δ: -146 mL/min and -265 mL respectively) and LVC (Δ: -8.66 mL/mmHg/min and ±1.7 mL/mmHg/min respectively) all <i>P</i> < 0.05.",
+        "Q12": " These results suggest that the combination of mechanoreflex and nociception resulted in decreased vagal tone and concomitant rise in sympathetic drive that led to increases in resting central hemodynamics with reduced",
+        "Q13": " limb blood flow before and during sPLM.<b>NEW & NOTEWORTHY</b> Exercise-induced muscle damage (EIMD) is a well-known model to study mechanical hyperalgesia and muscle peripheral nerve sensitizations.",
+        "Q14": " The combination of static stretching protocol on the damaged limb extensively increases resting central hemodynamics with reduction in resting limb blood flow and passive leg movement-induced hyperemia.",
+        "Q15": " The mechanism underlining these results may be linked to reduction of vagal tone with concomitant increase in sympathetic activity following mechano- and nociceptive activation."
+      },
+      "response_file": "responses/0005.json",
+      "prompt_tokens": 987,
+      "output_tokens": 172
+    },
+    {
+      "key": "S0756726fd5d009f5/1/review",
+      "protocol": "quote-anchors-v3",
+      "status": "validated",
+      "prompt_sha256": "7be8f2e9ad2f3b02560413a03a541d271f4d08ec92d94e5bef8a90c970abaa22",
+      "quote_anchors": {
+        "Q1": "This study aims to test the separated and combined effects of mechanoreflex activation and nociception through exercise-induced muscle damage (EIMD) on central and peripheral hemodynamics before and during single",
+        "Q2": " passive leg movement (sPLM).",
+        "Q3": " Eight healthy young males undertook four experimental sessions, in which a sPLM was performed on the dominant limb while in each specific session the contralateral was: <i>1</i>) in a resting condition (CTRL),",
+        "Q4": " <i>2</i>) stretched (ST), <i>3</i>) resting after EIMD called delayed onset muscle soreness (DOMS) condition, or <i>4</i>) stretched after EIMD (DOMS + ST). EIMD was used to induce DOMS in the following 24-48 h.",
+        "Q5": " Femoral blood flow (FBF) was assessed using Doppler ultrasound whereas central hemodynamics were assessed via finger photoplethysmography.",
+        "Q6": " Leg vascular conductance (LVC) was calculated as FBF/mean arterial pressure (MAP).",
+        "Q7": " RR-intervals were analyzed in the time (root mean squared of successive intervals; RMSSD) and frequency domain [low frequency (LF)/high frequency (HF)].",
+        "Q8": " Blood samples were collected before each condition and gene expression analysis showed increased fold changes for P2X4 and IL1β in DOMS and DOMS + ST compared with baseline.",
+        "Q9": " Resting FBF and LVC were decreased only in the DOMS + ST condition (-26 mL/min and -50 mL/mmHg/min respectively) with decreased RMSSD and increased LF/HF ratio.",
+        "Q10": " MAP, HR, CO, and SV were increased in ST and DOMS + ST compared with CTRL.",
+        "Q11": " Marked decreases of Δpeaks and AUC were observed for FBF (Δ: -146 mL/min and -265 mL respectively) and LVC (Δ: -8.66 mL/mmHg/min and ±1.7 mL/mmHg/min respectively) all <i>P</i> < 0.05.",
+        "Q12": " These results suggest that the combination of mechanoreflex and nociception resulted in decreased vagal tone and concomitant rise in sympathetic drive that led to increases in resting central hemodynamics with reduced",
+        "Q13": " limb blood flow before and during sPLM.<b>NEW & NOTEWORTHY</b> Exercise-induced muscle damage (EIMD) is a well-known model to study mechanical hyperalgesia and muscle peripheral nerve sensitizations.",
+        "Q14": " The combination of static stretching protocol on the damaged limb extensively increases resting central hemodynamics with reduction in resting limb blood flow and passive leg movement-induced hyperemia.",
+        "Q15": " The mechanism underlining these results may be linked to reduction of vagal tone with concomitant increase in sympathetic activity following mechano- and nociceptive activation."
+      },
+      "response_file": "responses/0006.json",
+      "prompt_tokens": 928,
+      "output_tokens": 51
+    }
+  ],
+  "outputs": {
+    "S03497b210d84149c/1/finding": {
+      "source_id": "S03497b210d84149c",
+      "study_or_document_type": "pubmed_abstract",
+      "population_and_intervention": "Elderly subjects with increased pulse pressure (PP≥60 mmHg) (n=60); yoga group (n=30) vs. brisk-walking group (n=30)",
+      "measured_outcome_or_recommendation": "Arterial stiffness measures (baPWV, c-f PWV, AIx@75, aASI), endothelial function (NOx), BP, cardiac autonomic function",
+      "finding": "Yoga program more effective than brisk-walk in reducing arterial stiffness and BP in elderly with increased PP",
+      "relation": "contradiction",
+      "limitations": [
+        "No mention of stretching in intervention",
+        "No comparison of stretching effects",
+        "No long-term follow-up data",
+        "No control for confounding factors"
+      ],
+      "quotes": [
+        "OBJECTIVE: We aimed to determine the effect of yoga on arterial function in elderly with increased pulse pressure (PP).\n\nDESIGN: Randomized controlled study with two parallel groups.\n\n",
+        "PARTICIPANTS: Elderly subjects with PP≥60 mmHg (n=60).\n\n"
+      ]
+    },
+    "S03497b210d84149c/1/review": {
+      "decision": "accept_for_adjudication",
+      "objections": [],
+      "remaining_gaps": [
+        "No mention of stretching in intervention",
+        "No comparison of stretching effects",
+        "No long-term follow-up data",
+        "No control for confounding factors"
+      ]
+    },
+    "Saa096fef81f1c81a/1/finding": {
+      "source_id": "Saa096fef81f1c81a",
+      "study_or_document_type": "pubmed_abstract",
+      "population_and_intervention": "30 type 2 diabetic male patients (15 smokers vs. 15 non-smokers) and 15 normal non-smoking subjects",
+      "measured_outcome_or_recommendation": "cutaneous blood flow measured by LDF at supine position after muscle stretching",
+      "finding": "Diabetic non-smokers had higher reactive blood flow than diabetic smokers",
+      "relation": "support",
+      "limitations": [
+        "No comparison to non-diabetic non-smokers in PSRH duration",
+        "No mention of stretching duration or intensity",
+        "No long-term follow-up data"
+      ],
+      "quotes": [
+        "RESULTS: Following the stretch, post-stretch reactive hyperemia (PSRH) responses were found in all subjects. However, the diabetic non-smokers had relatively higher reactive blood flow than that of the diabetic smokers."
+      ]
+    },
+    "Saa096fef81f1c81a/1/review": {
+      "decision": "accept_for_adjudication",
+      "objections": [],
+      "remaining_gaps": [
+        "No comparison to non-diabetic non-smokers in PSRH duration",
+        "No mention of stretching duration or intensity",
+        "No long-term follow-up data"
+      ]
+    },
+    "S0756726fd5d009f5/1/finding": {
+      "source_id": "S0756726fd5d009f5",
+      "study_or_document_type": "pubmed_abstract",
+      "population_and_intervention": "Eight healthy young males",
+      "measured_outcome_or_recommendation": "Resting FBF and LVC decreased in DOMS + ST condition",
+      "finding": "DOMS + ST condition showed decreased resting FBF (-26 mL/min) and LVC (-50 mL/mmHg/min)",
+      "relation": "support",
+      "limitations": [
+        "No long-term effects measured",
+        "Short-term study only",
+        "Limited to young males"
+      ],
+      "quotes": [
+        " Resting FBF and LVC were decreased only in the DOMS + ST condition (-26 mL/min and -50 mL/mmHg/min respectively) with decreased RMSSD and increased LF/HF ratio."
+      ]
+    },
+    "S0756726fd5d009f5/1/review": {
+      "decision": "accept_for_adjudication",
+      "objections": [],
+      "remaining_gaps": [
+        "No long-term effects measured",
+        "Short-term study only",
+        "Limited to young males"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "source_id": "S03497b210d84149c",
+      "part": 1,
+      "total_parts": 1,
+      "finding": {
+        "source_id": "S03497b210d84149c",
+        "study_or_document_type": "pubmed_abstract",
+        "population_and_intervention": "Elderly subjects with increased pulse pressure (PP≥60 mmHg) (n=60); yoga group (n=30) vs. brisk-walking group (n=30)",
+        "measured_outcome_or_recommendation": "Arterial stiffness measures (baPWV, c-f PWV, AIx@75, aASI), endothelial function (NOx), BP, cardiac autonomic function",
+        "finding": "Yoga program more effective than brisk-walk in reducing arterial stiffness and BP in elderly with increased PP",
+        "relation": "contradiction",
+        "limitations": [
+          "No mention of stretching in intervention",
+          "No comparison of stretching effects",
+          "No long-term follow-up data",
+          "No control for confounding factors"
+        ],
+        "quotes": [
+          "OBJECTIVE: We aimed to determine the effect of yoga on arterial function in elderly with increased pulse pressure (PP).\n\nDESIGN: Randomized controlled study with two parallel groups.\n\n",
+          "PARTICIPANTS: Elderly subjects with PP≥60 mmHg (n=60).\n\n"
+        ]
+      },
+      "review": {
+        "decision": "accept_for_adjudication",
+        "objections": [],
+        "remaining_gaps": [
+          "No mention of stretching in intervention",
+          "No comparison of stretching effects",
+          "No long-term follow-up data",
+          "No control for confounding factors"
+        ]
+      }
+    },
+    {
+      "source_id": "Saa096fef81f1c81a",
+      "part": 1,
+      "total_parts": 1,
+      "finding": {
+        "source_id": "Saa096fef81f1c81a",
+        "study_or_document_type": "pubmed_abstract",
+        "population_and_intervention": "30 type 2 diabetic male patients (15 smokers vs. 15 non-smokers) and 15 normal non-smoking subjects",
+        "measured_outcome_or_recommendation": "cutaneous blood flow measured by LDF at supine position after muscle stretching",
+        "finding": "Diabetic non-smokers had higher reactive blood flow than diabetic smokers",
+        "relation": "support",
+        "limitations": [
+          "No comparison to non-diabetic non-smokers in PSRH duration",
+          "No mention of stretching duration or intensity",
+          "No long-term follow-up data"
+        ],
+        "quotes": [
+          "RESULTS: Following the stretch, post-stretch reactive hyperemia (PSRH) responses were found in all subjects. However, the diabetic non-smokers had relatively higher reactive blood flow than that of the diabetic smokers."
+        ]
+      },
+      "review": {
+        "decision": "accept_for_adjudication",
+        "objections": [],
+        "remaining_gaps": [
+          "No comparison to non-diabetic non-smokers in PSRH duration",
+          "No mention of stretching duration or intensity",
+          "No long-term follow-up data"
+        ]
+      }
+    },
+    {
+      "source_id": "S0756726fd5d009f5",
+      "part": 1,
+      "total_parts": 1,
+      "finding": {
+        "source_id": "S0756726fd5d009f5",
+        "study_or_document_type": "pubmed_abstract",
+        "population_and_intervention": "Eight healthy young males",
+        "measured_outcome_or_recommendation": "Resting FBF and LVC decreased in DOMS + ST condition",
+        "finding": "DOMS + ST condition showed decreased resting FBF (-26 mL/min) and LVC (-50 mL/mmHg/min)",
+        "relation": "support",
+        "limitations": [
+          "No long-term effects measured",
+          "Short-term study only",
+          "Limited to young males"
+        ],
+        "quotes": [
+          " Resting FBF and LVC were decreased only in the DOMS + ST condition (-26 mL/min and -50 mL/mmHg/min respectively) with decreased RMSSD and increased LF/HF ratio."
+        ]
+      },
+      "review": {
+        "decision": "accept_for_adjudication",
+        "objections": [],
+        "remaining_gaps": [
+          "No long-term effects measured",
+          "Short-term study only",
+          "Limited to young males"
+        ]
+      }
+    }
+  ],
+  "phase": "finished",
+  "claim": {
+    "claim_id": "fitness-02-c001",
+    "claim_text": "Always stretch your body after waking up to boost circulation.",
+    "exposure": "stretching your body",
+    "outcome": "boost circulation",
+    "context": "after waking up",
+    "reported_evidence_gap": "Controlled clinical studies in humans assessing whether performing whole-body or localized stretching exercises immediately after waking up increases systemic or regional circulation compared to resting or alternative post-waking routines.",
+    "input_limitations": [
+      "Prior suitability screening is provisional; irrelevant abstracts remain inspectable.",
+      "Existing retrieval may be incomplete; unprovided candidates and full texts are not covered."
+    ]
+  }
+}

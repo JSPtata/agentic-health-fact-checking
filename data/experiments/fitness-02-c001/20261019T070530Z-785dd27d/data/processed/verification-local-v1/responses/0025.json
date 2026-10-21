@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:39:39.053747Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S65191223e280ad02\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"40 healthy subjects (20 men and 20 women) aged 18-25 years; warm-up exercises (running, plyometrics, eccentric heel drops, static stretching)\",\n  \"measured_outcome_or_recommendation\": \"Achilles tendon blood flow and stiffness\",\n  \"finding\": \"Significant increase in Achilles tendon blood flow and stiffness after 10 minutes of running (p < 0.001 and p < 0.001)\",\n  \"relation\": \"contradiction\",\n  \"limitations\": [\n    \"Measures only Achilles tendon, not whole body circulation\",\n    \"Only acute effects (10 min running), not chronic stretching\",\n    \"No comparison to stretching as warm-up exercise\",\n    \"Small sample size (40 subjects)\"\n  ],\n  \"quote_ids\": [\"Q9\"]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 21259850667,
+  "load_duration": 22826667,
+  "prompt_eval_count": 738,
+  "prompt_eval_cached_count": 331,
+  "prompt_eval_duration": 3544676000,
+  "eval_count": 229,
+  "eval_duration": 17276078000
+}

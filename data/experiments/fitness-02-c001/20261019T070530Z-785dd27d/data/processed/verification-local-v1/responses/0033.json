@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:42:23.078042Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S0756726fd5d009f5\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"Eight healthy young males; passive leg movement (sPLM) with or without stretching after exercise-induced muscle damage (EIMD)\",\n  \"measured_outcome_or_recommendation\": \"Femoral blood flow (FBF) and leg vascular conductance (LVC) decreased in DOMS + ST condition (-26 mL/min and -50 mL/mmHg/min)\",\n  \"finding\": \"Resting FBF and LVC were decreased only in the DOMS + ST condition (-26 mL/min and -50 mL/mmHg/min respectively) with decreased RMSSD and increased LF/HF ratio\",\n  \"relation\": \"support\",\n  \"limitations\": [\n    \"Only measured in healthy young males\",\n    \"DOMS + ST condition specific (not general stretching after waking)\",\n    \"No direct comparison to waking-specific stretching\",\n    \"No mention of acute vs chronic effects\"\n  ],\n  \"quote_ids\": [\n    \"Q9\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 26589847084,
+  "load_duration": 4500500,
+  "prompt_eval_count": 769,
+  "prompt_eval_cached_count": 331,
+  "prompt_eval_duration": 4106841999,
+  "eval_count": 252,
+  "eval_duration": 22339629000
+}

@@ -1,0 +1,76 @@
+{
+  "binding": {
+    "profile": "source-fidelity-diagnostic-v1",
+    "model": "qwen3:4b",
+    "bundle_sha256": "320bf14b933570f44ab365ddacbe85bdf47aa3fbd6bf877a654387f46d3d500c",
+    "max_attempts_per_source": 2,
+    "diagnostic_config_sha256": "2926385393c33e97405cc47b69495ccdbc77ebef6a41efafd3725d379469d26b"
+  },
+  "events": [
+    {
+      "pmid": "26275649",
+      "status": "validated_structure",
+      "prompt_sha256": "48c3169c5e07757c81f1a7fe1e12eee8906e0bab793da5af94931ced4edcd05d",
+      "response_file": "responses/001.json",
+      "seconds": 26.7
+    },
+    {
+      "pmid": "32596231",
+      "status": "validated_structure",
+      "prompt_sha256": "e6207f7112fc40517b17d5a2bff5920cba846dd3313d1548ce63a4054a1524d8",
+      "response_file": "responses/002.json",
+      "seconds": 12.76
+    },
+    {
+      "pmid": "35981730",
+      "status": "validated_structure",
+      "prompt_sha256": "fb9f5fc0f5b34db73cfbb62546fa207582e4505a2b6671beacc0d553a5609d97",
+      "response_file": "responses/003.json",
+      "seconds": 14.99
+    }
+  ],
+  "outputs": {
+    "26275649": {
+      "improved_group": {
+        "choice": "yoga",
+        "quote_ids": [
+          "Q11"
+        ]
+      },
+      "isolated_stretching": {
+        "choice": "not_reported",
+        "quote_ids": [
+          "Q3"
+        ]
+      }
+    },
+    "32596231": {
+      "normal_controls": {
+        "choice": "yes",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "poststretch_response": {
+        "choice": "yes",
+        "quote_ids": [
+          "Q5"
+        ]
+      }
+    },
+    "35981730": {
+      "participants": {
+        "choice": "human",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "peripheral_flow": {
+        "choice": "decreased",
+        "quote_ids": [
+          "Q9"
+        ]
+      }
+    }
+  }
+}

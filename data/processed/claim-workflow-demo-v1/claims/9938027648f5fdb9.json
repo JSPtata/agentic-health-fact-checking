@@ -1,0 +1,87 @@
+{
+  "claim_id": "fitness-02-c002",
+  "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+  "status": "completed_from_reviewed_assessment",
+  "interrupted": false,
+  "pending_action": "finished",
+  "source_review_status": "not_supplied",
+  "retrieval": null,
+  "verification": {
+    "status": "draft_requires_review",
+    "draft_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/verification/9938027648f5fdb9/assessment-draft.json",
+    "retryable": false
+  },
+  "verdict": "insufficient_evidence",
+  "last_error": null,
+  "submissions": 1,
+  "history": [
+    {
+      "action": "bounded_verification",
+      "result": {
+        "status": "draft_requires_review",
+        "draft_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/verification/9938027648f5fdb9/assessment-draft.json",
+        "retryable": false
+      }
+    },
+    {
+      "action": "assessment_attached",
+      "sha256": "78745a737acda0b184d2f157d05fbcd0a2eb0c4abe814198f15ee7dcb1d86ca2"
+    },
+    {
+      "action": "adjudicated",
+      "input_sha256": "78745a737acda0b184d2f157d05fbcd0a2eb0c4abe814198f15ee7dcb1d86ca2",
+      "verdict": "insufficient_evidence"
+    }
+  ],
+  "adjudication": {
+    "status": "adjudicated_from_reviewed_assessments",
+    "verdict": "insufficient_evidence",
+    "reason": "The reviewed evidence does not establish support or refutation under this policy.",
+    "next_action": "stop_with_evidence_limits",
+    "summary": "In the two appraised abstracts, a review reports coffee-related gastric acid secretion and reflux, while a small before-and-after study measures sucrose permeability. Neither abstract establishes that avoiding coffee specifically on an empty stomach prevents a defined acid-related clinical outcome. This is an assisted, abstract-only assessment of a bounded selection, not a finding that coffee has no physiological effects or that the claim is false.",
+    "criteria": [
+      {
+        "criterion_id": "C1",
+        "wording": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+        "role": "core",
+        "conclusion": "insufficient_evidence",
+        "applicability": "indirect",
+        "evidence_strength": "limited",
+        "rationale": "The review explicitly reports gastric acid secretion, so the original model's suggestion that the studies contain no acidity-related evidence is too broad. Its physiological findings do not establish the claimed preventive advice about fasting. The primary study compares habitual coffee drinkers before and after 48-hour abstinence, with a separate non-drinker group; the abstract does not report randomization or a fasting-versus-fed comparison. Sucrose permeability is a mucosal-barrier surrogate, not the claimed acidity-prevention endpoint. Acidity remains ambiguous among acid secretion, reflux, heartburn and dyspepsia. No benefit or harm of changing coffee meal timing is established by these abstracts.",
+        "citations": [
+          {
+            "source_id": "PMID:10499460",
+            "quote": "Coffee stimulates gastrin release and gastric acid secretion, but studies on the effect on lower oesophageal sphincter pressure yield conflicting results."
+          },
+          {
+            "source_id": "PMID:15841908",
+            "quote": "The probands underwent SaLM test twice--first time without coffee restriction and second time after 48-hour coffee abstinence."
+          }
+        ]
+      }
+    ],
+    "evidence_gaps": [
+      "Define the intended acidity endpoint without treating acid secretion, reflux, heartburn and dyspepsia as interchangeable.",
+      "A controlled comparison of fasting coffee with an appropriate alternative, measuring the intended preventive outcome, is not reported in the appraised abstracts.",
+      "Contemporary evidence, population applicability, dose and coffee preparation, clinical importance, and study-level risk of bias have not been systematically assessed.",
+      "Assisted appraisal of 2/3 candidate abstracts. Other candidates were not appraised in this assessment. No full-text, exhaustive-search or systematic risk-of-bias appraisal was performed."
+    ],
+    "review": {
+      "decision": "accept",
+      "reviewer": "ChatGPT-assisted abstract assessment and critical recheck",
+      "method": "assisted",
+      "claim_requirements_complete": true,
+      "assessment_sha256": "e9a348106825a8c4381168160eb6687b3d9259c28c60e2c14767ca06209304cf",
+      "unresolved_objections": []
+    },
+    "source_hashes": {
+      "PMID:10499460": "e38122f862b166a748e55c0d389edaa0d3b7c726412db825b84932d58363a3b5",
+      "PMID:15841908": "a1cefd771af1d5e5c2d43a3d1c1c469650bdd696e9d0b06b060634f5e3ce3fd9"
+    },
+    "decision_scope": "Rule-based synthesis of supplied reviewed assessments; citation presence does not prove entailment or scientific correctness.",
+    "claim_id": "fitness-02-c002",
+    "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+    "input_sha256": "78745a737acda0b184d2f157d05fbcd0a2eb0c4abe814198f15ee7dcb1d86ca2",
+    "input_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/assisted-review-v1/fitness-02-c002.json"
+  }
+}

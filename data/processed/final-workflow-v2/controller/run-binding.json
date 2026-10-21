@@ -1,0 +1,20 @@
+{
+  "verification_settings": null,
+  "retrieval_settings": null,
+  "profile": "claim-controller-v1",
+  "script_sha256": "de171f57cc643d39a463715b184e889b323ba6fd03c50b2d62bdfb3c9a1144aa",
+  "adjudicator_sha256": "6bc1a50e07c7277ea7e8f6c0b4ca80a96aa09fdff612082ea51c3db68e5f3c14",
+  "framework_versions": {
+    "langgraph": "1.2.16",
+    "langgraph-checkpoint-sqlite": "3.1.2",
+    "langgraph-checkpoint": "4.3.0",
+    "pydantic": "2.13.4"
+  },
+  "claim_inputs": {
+    "fitness-02-c001": "f43522c16c4aecc908a578f82460e3d90ec6608da4a9dcacf0c1edfc7fdd63c0",
+    "fitness-02-c002": "14096bcb5c83d3d459f92ec1a12ded1a059df203e890016cd46555535adff67f",
+    "fitness-02-c003": "f4d85939aa9e8f2ff120307fdb161b91365e0a05a3ea2d916e32c7edeb1bc347",
+    "fitness-02-c006": "7857ef9d47d618873c2805b8fb4baabd71cd1343fa80f4cd29cf0bc08cc0c84f",
+    "nutrition-01-diagnostic-c001": "ac236a679e9aed12940a42792b50eb73f84a8750e94b813441cc0388bbb6d664"
+  }
+}

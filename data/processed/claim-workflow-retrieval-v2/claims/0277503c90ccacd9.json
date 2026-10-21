@@ -1,0 +1,43 @@
+{
+  "claim_id": "fitness-02-c006",
+  "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+  "status": "awaiting_relevance_screening",
+  "interrupted": true,
+  "pending_action": "rank_candidates_and_complete_suitability_verification_and_review",
+  "source_review_status": "source_review_incomplete",
+  "retrieval": {
+    "status": "awaiting_relevance_screening",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json",
+    "evidence_sha256": "dce19253d689867dac16f925b5b80ae667ae7d3f28ddafc60a55c6268c759f68",
+    "candidate_pmids": 77,
+    "usable_abstracts": 77,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "(\"posture\"[tiab]) AND (\"back pain\"[tiab]) AND (\"while sitting\"[tiab])",
+      "(\"posture\"[tiab]) AND (\"back pain\"[tiab])"
+    ]
+  },
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [
+    {
+      "action": "retrieval_finished",
+      "result": {
+        "status": "awaiting_relevance_screening",
+        "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json",
+        "evidence_sha256": "dce19253d689867dac16f925b5b80ae667ae7d3f28ddafc60a55c6268c759f68",
+        "candidate_pmids": 77,
+        "usable_abstracts": 77,
+        "unresolved_pmids": [],
+        "empty_abstract_pmids": [],
+        "queries": [
+          "(\"posture\"[tiab]) AND (\"back pain\"[tiab]) AND (\"while sitting\"[tiab])",
+          "(\"posture\"[tiab]) AND (\"back pain\"[tiab])"
+        ]
+      }
+    }
+  ],
+  "adjudication": null
+}

@@ -1,0 +1,102 @@
+{
+  "binding": {
+    "profile": "compiled-concept-retrieval-v2",
+    "claim": {
+      "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+      "exposure": "drinking coffee",
+      "outcome": "prevent acidity",
+      "context": "on an empty stomach",
+      "claim_id": "fitness-02-c002"
+    },
+    "model": "qwen3:4b",
+    "controller_sha256": "65d664e7c5b14d99d2cc0fb09e4e2d16d5ed03cf47df3ced03faa8c788f11d68",
+    "pubmed_client_sha256": "d3f484efb74e80b16265757ff410d6b82778c9819e31766fa0bbaa08cf24aca8",
+    "parser_sha256": "2130838f9a6772d24d1f925c54d8262004c6c1c53f9747177b6cbf04877eb135",
+    "limits": {
+      "planner_attempts": 2,
+      "queries_per_plan": 2,
+      "max_queries_total": 4,
+      "results_per_query": 50,
+      "http_attempts_per_request": 2
+    }
+  },
+  "cache": {
+    "41829ed3d29550308ffd133fa392a57bfcd299dfe9e5a46aa6cea123c53bb0f1": {
+      "file": "pubmed-cache/41829ed3d29550308ffd133fa392a57bfcd299dfe9e5a46aa6cea123c53bb0f1.json",
+      "sha256": "826f1c9f0eac04db93fcd051c736f53fb43c527f4bcd1ae19ce48a42747e7e3d",
+      "retrieved_at": "2026-10-20T17:49:29.610987+00:00"
+    },
+    "c4f35d76579114cc56c81b5b48a3350c48423bec5da7c74522f19da41ab346c8": {
+      "file": "pubmed-cache/c4f35d76579114cc56c81b5b48a3350c48423bec5da7c74522f19da41ab346c8.json",
+      "sha256": "ec148cc3d3d4ee1542496aaa11f8c77e55d31ba3c9a99a2664a3698d5d2d2441",
+      "retrieved_at": "2026-10-20T17:49:30.703901+00:00"
+    },
+    "6b8bf6585cf24e6ca3c4c6e33bff58128ba1bbfa26f0f95de1c22a9f44542440": {
+      "file": "pubmed-cache/6b8bf6585cf24e6ca3c4c6e33bff58128ba1bbfa26f0f95de1c22a9f44542440.xml",
+      "sha256": "ea16c95b35764a502c61ed211dfb511354d424dcae0bcf3f9c100b6653462630",
+      "retrieved_at": "2026-10-20T17:49:32.011535+00:00"
+    }
+  },
+  "events": [
+    {
+      "key": "41829ed3d29550308ffd133fa392a57bfcd299dfe9e5a46aa6cea123c53bb0f1",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "c4f35d76579114cc56c81b5b48a3350c48423bec5da7c74522f19da41ab346c8",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "6b8bf6585cf24e6ca3c4c6e33bff58128ba1bbfa26f0f95de1c22a9f44542440",
+      "endpoint": "efetch.fcgi",
+      "status": "cached"
+    }
+  ],
+  "planner_attempts": [
+    {
+      "status": "validated",
+      "prompt_sha256": "0b93bb41f0830b0cb2fc47e070ede03c3414d110f7665c854ce86676121fab9c",
+      "response_file": "planner-1.json"
+    }
+  ],
+  "status": "awaiting_relevance_screening",
+  "concept_plan": {
+    "exposure_anchor": "drinking coffee",
+    "exposure_terms": [
+      "coffee consumption",
+      "coffee intake"
+    ],
+    "outcome_anchor": "prevent acidity",
+    "outcome_terms": [
+      "acidity prevention",
+      "acid reflux"
+    ],
+    "context_anchor": "on an empty stomach",
+    "context_terms": [
+      "empty stomach"
+    ]
+  },
+  "queries": [
+    "(\"coffee consumption\"[tiab] OR \"coffee intake\"[tiab] OR \"drinking coffee\"[tiab]) AND (\"acid reflux\"[tiab] OR \"acidity\"[tiab]) AND (\"empty stomach\"[tiab] OR \"on an empty stomach\"[tiab])",
+    "(\"coffee consumption\"[tiab] OR \"coffee intake\"[tiab] OR \"drinking coffee\"[tiab]) AND (\"acid reflux\"[tiab] OR \"acidity\"[tiab])"
+  ],
+  "query_compiler": "concept-blocks-v2",
+  "result": {
+    "status": "awaiting_relevance_screening",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json",
+    "evidence_sha256": "e421b8c037fa3c0195451f921b68a2ed985b1ccc7c3eb45a73a95fa3fd7929be",
+    "candidate_pmids": 3,
+    "usable_abstracts": 3,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "(\"coffee consumption\"[tiab] OR \"coffee intake\"[tiab] OR \"drinking coffee\"[tiab]) AND (\"acid reflux\"[tiab] OR \"acidity\"[tiab]) AND (\"empty stomach\"[tiab] OR \"on an empty stomach\"[tiab])",
+      "(\"coffee consumption\"[tiab] OR \"coffee intake\"[tiab] OR \"drinking coffee\"[tiab]) AND (\"acid reflux\"[tiab] OR \"acidity\"[tiab])"
+    ]
+  },
+  "output": {
+    "sha256": "e421b8c037fa3c0195451f921b68a2ed985b1ccc7c3eb45a73a95fa3fd7929be"
+  }
+}

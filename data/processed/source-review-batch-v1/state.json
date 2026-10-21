@@ -1,0 +1,955 @@
+{
+  "binding": {
+    "preparation_sha256": "a311fa32375f29b6275ef36f79ebcc2ecbb0b8f11e436a1cc316b466d7db433c",
+    "source_run_hashes": {
+      "fitness-02-c002": "9ba3c8b3f5e096a5600993c4fbbdbe554b630bbc7180f41cb81717af388f051a",
+      "fitness-02-c003": "159de647000d7d90b5130efbd6232126d690adb7897381d37a1811911bae1f0f",
+      "fitness-02-c004": "2b265f13c85651b557694cf37ed0a5e2b096dbed94131a9a0c706b974f920fa8",
+      "fitness-02-c005": "aeafb47417d157aba7adc06493592030a78e54b2181490c33128c7317f7e5635",
+      "fitness-02-c006": "35d3223f0259e68da53b070133d35f5a90c0057a47c4064c57d4be962d9d4acc",
+      "fitness-02-c007": "f5c36e4c2cc6faa1c6255c48e4a531532d3c245d48b5aefd25c5201c2fb6bd8d"
+    },
+    "profile": "extractive-source-review-v1",
+    "model": "qwen3:4b",
+    "script_sha256": "1187c307fb975a17abe466909adcc505e5698104442a5fba69b44d77bc791cb0",
+    "attempts_per_phase": 2
+  },
+  "outputs": {
+    "Sa4e9495eb84f9788/extract": {
+      "design_ids": [
+        "Q2"
+      ],
+      "population_ids": [
+        "Q2"
+      ],
+      "intervention_comparator_ids": [
+        "Q4"
+      ],
+      "outcome_result_ids": [
+        "Q6",
+        "Q7",
+        "Q8"
+      ]
+    },
+    "Sa4e9495eb84f9788/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "population_ids",
+          "problem": "The selected population_ids only include Q2, but the study has two distinct populations: GORD patients and healthy subjects. Q2 mentions 'participants' but does not specify the population groups. The complete abstract specifies 'Seven GORD'",
+          "quote_ids": [
+            "Q2"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids only include Q4, but Q4 describes the coffee/water intake protocol which is part of the intervention. However, the comparator (water) is not explicitly mentioned in Q4. The study uses water as a non-",
+          "quote_ids": [
+            "Q4"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids include Q6, Q7, Q8, but Q7 describes a specific finding (increased percentage acid reflux time in fasting period for GORD patients) which is a key contrast. The outcomes should include both null and adverse (",
+          "quote_ids": [
+            "Q6",
+            "Q7",
+            "Q8"
+          ]
+        }
+      ]
+    },
+    "S7253767afd363fd8/extract": {
+      "design_ids": [
+        "Q4"
+      ],
+      "population_ids": [
+        "Q4"
+      ],
+      "intervention_comparator_ids": [
+        "Q2",
+        "Q3"
+      ],
+      "outcome_result_ids": [
+        "Q5",
+        "Q6"
+      ]
+    },
+    "S7253767afd363fd8/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "population_ids",
+          "problem": "The population description in Q4 is too narrow. Q4 states 'Thirty coffee-sensitive individuals' but the study is described as a crossover study with 'coffee-sensitive individuals' as the population. The population should be defined as 'coff",
+          "quote_ids": [
+            "Q4"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The comparator description in Q2 and Q3 is incomplete. Q2 mentions 'conduction roasting' but Q3 says 'differently processed yet otherwise similar coffee'. The comparison groups are not clearly defined as 'conduction roasting vs. another roa",
+          "quote_ids": [
+            "Q2",
+            "Q3"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The outcome results in Q5 and Q6 are not fully aligned with the study's primary objective. Q5 states that both coffees caused symptoms in most individuals, but Q6 states no significant differences were found. The outcome results should be '",
+          "quote_ids": [
+            "Q5",
+            "Q6"
+          ]
+        }
+      ]
+    },
+    "Sf8564f255404bdc9/extract": {
+      "design_ids": [
+        "Q3"
+      ],
+      "population_ids": [
+        "Q3"
+      ],
+      "intervention_comparator_ids": [
+        "Q3"
+      ],
+      "outcome_result_ids": [
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9"
+      ]
+    },
+    "Sf8564f255404bdc9/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "population_ids",
+          "problem": "Q3 does not specify the population (e.g., patients with H. pylori infection status) as a comparison group. The abstract mentions H. pylori-uninfected, -infected, and -eradicated groups in Q6, but Q3 only describes the study population as '5",
+          "quote_ids": [
+            "Q3"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "Q3 does not define an intervention or comparator group. The study compares H. pylori-uninfected, -infected, and -eradicated groups, but Q3 does not mention these as a comparator.",
+          "quote_ids": [
+            "Q3"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "Q6 reports prevalence rates across H. pylori groups, but the selected outcome 'Q6' does not specify the outcome direction (e.g., higher prevalence in H. pylori-infected vs. uninfected) or the actual endpoints (e.g., hematin prevalence by H.",
+          "quote_ids": [
+            "Q6"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "Q7 reports a significant difference in mean pH between hematin-positive and hematin-negative cases, but the selected outcome 'Q7' does not specify the outcome direction (e.g., lower pH in hematin-positive cases) or the actual endpoints (e.g",
+          "quote_ids": [
+            "Q7"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "Q8 reports diagnostic performance metrics, but the selected outcome 'Q8' does not specify the outcome direction (e.g., high specificity for strong acidity) or the actual endpoints (e.g., pH 1 or 2 for fasting gastric juice).",
+          "quote_ids": [
+            "Q8"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "Q9 reports interobserver agreement and in vitro results, but the selected outcome 'Q9' does not specify the outcome direction (e.g., excellent agreement) or the actual endpoints (e.g., k=0.88).",
+          "quote_ids": [
+            "Q9"
+          ]
+        }
+      ]
+    },
+    "S171c08e96bbfe80a/extract": {
+      "design_ids": [],
+      "population_ids": [],
+      "intervention_comparator_ids": [],
+      "outcome_result_ids": []
+    },
+    "S171c08e96bbfe80a/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "design_ids",
+          "problem": "The selected design_ids is empty. The complete abstract mentions multiple study designs: observational studies (Q5, Q6), randomized controlled trials (Q7), and theoretical models (Q8, Q9).",
+          "quote_ids": [
+            "Q5",
+            "Q6",
+            "Q7"
+          ]
+        },
+        {
+          "field": "population_ids",
+          "problem": "The selected population_ids is empty. The complete abstract specifies NAFLD patients (Q5, Q6) and the general population (Q4).",
+          "quote_ids": [
+            "Q5",
+            "Q6",
+            "Q4"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids is empty. The complete abstract compares Western diets (Q5, Q6) with Mediterranean diet (Q7) and mentions beneficial vs. harmful nutrients (Q2, Q3).",
+          "quote_ids": [
+            "Q5",
+            "Q6",
+            "Q7"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids is empty. The complete abstract reports outcomes like weight loss (Q1), liver progression control (Q1), and improved liver health (Q7).",
+          "quote_ids": [
+            "Q1",
+            "Q7"
+          ]
+        }
+      ]
+    },
+    "Se83ab42f263370e7/extract": {
+      "design_ids": [
+        "Q3"
+      ],
+      "population_ids": [
+        "Q5"
+      ],
+      "intervention_comparator_ids": [
+        "Q5"
+      ],
+      "outcome_result_ids": [
+        "Q8",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14"
+      ]
+    },
+    "Se83ab42f263370e7/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "population_ids",
+          "problem": "Q5 specifies '45 college students' but the abstract does not explicitly state the population characteristics (e.g., gender, age, ethnicity) that might be relevant for the comparison groups. The selected population_id 'Q5' is too broad and o",
+          "quote_ids": [
+            "Q5"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids ['Q5'] does not specify a comparator group. The abstract does not mention a control group (e.g., 'no app' or 'standard diet') for comparison. The intervention is described as a single group (45 users",
+          "quote_ids": [
+            "Q5"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids ['Q8', 'Q10', 'Q11', 'Q12', 'Q13', 'Q14'] do not cover all principal relevant contrasts. The abstract reports multiple outcomes: diet quality (Q8), intuitive eating (Q10), disordered eating (Q11), SUS scores,",
+          "quote_ids": [
+            "Q8",
+            "Q10",
+            "Q11"
+          ]
+        }
+      ]
+    },
+    "S3ecb0b2ddc3eab17/extract": {
+      "design_ids": [],
+      "population_ids": [],
+      "intervention_comparator_ids": [],
+      "outcome_result_ids": []
+    },
+    "S3ecb0b2ddc3eab17/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "design_ids",
+          "problem": "The selected design_ids is empty. The complete abstract does not mention any specific study design (e.g., observational, experimental, modeling). The abstract describes a theoretical model based on metabolic requirements and historical data",
+          "quote_ids": [
+            "Q2"
+          ]
+        },
+        {
+          "field": "population_ids",
+          "problem": "The selected population_ids is empty. The complete abstract refers to 'early hominins' and 'human evolution' but does not specify a particular population or species (e.g., Homo sapiens, Homo erectus).",
+          "quote_ids": [
+            "Q1",
+            "Q3"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids is empty. The complete abstract compares 'sugars' (intervention) to 'animal foods' (comparator) but does not explicitly state a comparator group or intervention group in the context of a study.",
+          "quote_ids": [
+            "Q3",
+            "Q4"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids is empty. The complete abstract states that 'sugars provided >25% of dietary energy' (outcome) but does not specify the direction of the outcome (e.g., positive or negative) or whether it is an adverse or non",
+          "quote_ids": [
+            "Q4"
+          ]
+        }
+      ]
+    },
+    "S40445dbef38b6b61/extract": {
+      "design_ids": [
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7"
+      ],
+      "population_ids": [
+        "Q6"
+      ],
+      "intervention_comparator_ids": [
+        "Q6",
+        "Q9",
+        "Q10",
+        "Q11"
+      ],
+      "outcome_result_ids": [
+        "Q9",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14"
+      ]
+    },
+    "S40445dbef38b6b61/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "population_ids",
+          "problem": "The selected population_ids only include Q6, but the abstract mentions T2D populations in Q9 and Q10, which are critical for the comparison groups. The population_ids should reflect the specific populations (e.g., T2D) where the effects are",
+          "quote_ids": [
+            "Q9",
+            "Q10"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids include Q6, Q9, Q10, Q11, but Q9 and Q10 are outcomes (not comparators). The comparators should be the exercise timing groups (morning vs. afternoon/evening), not the outcomes themselves.",
+          "quote_ids": [
+            "Q9",
+            "Q10"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids include Q9, Q10, Q11, Q12, Q13, Q14, but Q13 and Q14 are acute studies results, while the main focus of the study is long-term studies (Q9-Q12). The outcome_result_ids should focus on the primary outcomes (Hb",
+          "quote_ids": [
+            "Q13",
+            "Q14"
+          ]
+        }
+      ]
+    },
+    "Sa4bfda174a883e37/extract": {
+      "design_ids": [],
+      "population_ids": [],
+      "intervention_comparator_ids": [],
+      "outcome_result_ids": []
+    },
+    "Sa4bfda174a883e37/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "design_ids",
+          "problem": "No design IDs selected. The study uses parallel and crossover randomized trials (Q3), so design IDs should include 'parallel', 'crossover'.",
+          "quote_ids": [
+            "Q3"
+          ]
+        },
+        {
+          "field": "population_ids",
+          "problem": "No population IDs selected. The study specifies 'adults' (implied by context), but the abstract does not explicitly state population. However, the study likely involves adults given the context of exercise and sleep.",
+          "quote_ids": [
+            "Q2"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "No intervention comparator IDs selected. The study compares 'Exercise vs. Control' and 'Time vs. Time' (Q5, Q6, Q7).",
+          "quote_ids": [
+            "Q5",
+            "Q6",
+            "Q7"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "No outcome result IDs selected. The outcomes are sleep quality and mood (Q4, Q5, Q6, Q7).",
+          "quote_ids": [
+            "Q4",
+            "Q5",
+            "Q6"
+          ]
+        }
+      ]
+    },
+    "Sc4a6f15dccff64e5/extract": {
+      "design_ids": [
+        "Q3",
+        "Q4"
+      ],
+      "population_ids": [
+        "Q3"
+      ],
+      "intervention_comparator_ids": [
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9"
+      ],
+      "outcome_result_ids": [
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11"
+      ]
+    },
+    "Sc4a6f15dccff64e5/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "population_ids",
+          "problem": "The selected population_ids should include Q3, but the complete abstract does not specify a population beyond 'adult General Surgery cohorts' in Q3. The population description is incomplete and not explicitly stated in the abstract.",
+          "quote_ids": [
+            "Q3"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids include Q7, which describes methodological weaknesses rather than a direct intervention or comparator. Q7 is not a valid intervention or comparator but a description of methodological issues.",
+          "quote_ids": [
+            "Q7"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids include Q9, which describes variability in outcome definitions rather than a specific outcome result. Q9 is not a concrete outcome result but a description of variability.",
+          "quote_ids": [
+            "Q9"
+          ]
+        }
+      ]
+    },
+    "Sd3bc3ec724b26757/extract": {
+      "design_ids": [],
+      "population_ids": [],
+      "intervention_comparator_ids": [],
+      "outcome_result_ids": []
+    },
+    "Sd3bc3ec724b26757/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "design_ids",
+          "problem": "No design IDs selected. The study uses an experimental ICU bed allocation scenario with 8227 scientists surveyed across disciplines. The design should include the experimental setup (e.g., simulated ICU bed allocation scenarios) as a key 'Q",
+          "quote_ids": [
+            "Q3"
+          ]
+        },
+        {
+          "field": "population_ids",
+          "problem": "No population IDs selected. The study population is 8227 scientists across disciplines surveyed in April and May 2020. The population should include the specific group (e.g., health-related scientists) as a key 'Q",
+          "quote_ids": [
+            "Q3"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "No intervention/comparator IDs selected. The study compares incumbent patient (earlier-arriving) vs. alternative patients (later-arriving) in triage decisions. The intervention/comparator should include the procedural rule (FCFS) and the 't",
+          "quote_ids": [
+            "Q5"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "No outcome/result IDs selected. The study reports outcomes like 'lower decision avoidance' and 'robust arrival-priority pattern'. The outcome should include the key results (e.g., 'many respondents prioritize earlier-arriving patient') as a",
+          "quote_ids": [
+            "Q5",
+            "Q6"
+          ]
+        }
+      ]
+    },
+    "S6e4e53b38a7db8f2/extract": {
+      "design_ids": [],
+      "population_ids": [],
+      "intervention_comparator_ids": [],
+      "outcome_result_ids": []
+    },
+    "S6e4e53b38a7db8f2/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "design_ids",
+          "problem": "No design IDs selected. The study is a single case report, so design should be 'case report' or 'single case'.",
+          "quote_ids": [
+            "Q11"
+          ]
+        },
+        {
+          "field": "population_ids",
+          "problem": "No population IDs selected. The population is a 26-year-old male with Scheuermann's disease.",
+          "quote_ids": [
+            "Q4",
+            "Q5"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "No intervention/comparator IDs selected. The intervention is CBP® spinal rehabilitation; no comparator is mentioned (it's a single case).",
+          "quote_ids": [
+            "Q1",
+            "Q6",
+            "Q10"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "No outcome/result IDs selected. Outcomes include improvement in thoracic hyperkyphosis, sagittal balance, health-related quality of life (SF-36 scores), and maintained improvements at 28 months.",
+          "quote_ids": [
+            "Q8",
+            "Q9",
+            "Q10"
+          ]
+        }
+      ]
+    },
+    "S76ebc2ffbe320969/extract": {
+      "design_ids": [
+        "Q1"
+      ],
+      "population_ids": [
+        "Q2"
+      ],
+      "intervention_comparator_ids": [
+        "Q4"
+      ],
+      "outcome_result_ids": [
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10"
+      ]
+    },
+    "S76ebc2ffbe320969/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "population_ids",
+          "problem": "Q2 states '118 participants, including patients diagnosed with temporomandibular disorder (TMD) and healthy controls' but does not specify the exact number of TMD patients or healthy controls. This is a critical omission for population size",
+          "quote_ids": [
+            "Q2"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "Q4 states 'four groups: healthy controls, myalgia, disc displacement with reduction (DDwR), and disc displacement without reduction (DDwoR)' but does not explicitly state that these are the only comparison groups. The term 'myalgia' is not ",
+          "quote_ids": [
+            "Q4"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "Q7 mentions 'DDwoR group compared with the control group and other TMD subtypes' but does not specify which TMD subtypes are included in 'other TMD subtypes'. This is a critical omission for outcome comparison groups",
+          "quote_ids": [
+            "Q7"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "Q8 states 'No significant differences were observed among groups' but does not specify which groups were compared. The study has four groups, but the comparison is not explicitly stated",
+          "quote_ids": [
+            "Q8"
+          ]
+        }
+      ]
+    },
+    "S407eacc6b499746c/extract": {
+      "design_ids": [],
+      "population_ids": [],
+      "intervention_comparator_ids": [],
+      "outcome_result_ids": []
+    },
+    "S407eacc6b499746c/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "design_ids",
+          "problem": "The selected design_ids is empty. The abstract describes a case report, which typically involves a single patient without a control group or comparison. However, the design should reflect the study design (e.g., case report, case series).",
+          "quote_ids": [
+            "Q1",
+            "Q2",
+            "Q3"
+          ]
+        },
+        {
+          "field": "population_ids",
+          "problem": "The selected population_ids is empty. The abstract specifies a 48-year-old man with hypoparathyroidism, so the population should include this demographic and condition.",
+          "quote_ids": [
+            "Q2"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids is empty. The abstract mentions facet joint block and duloxetine treatment, but does not explicitly compare these interventions to a control group or alternative treatments.",
+          "quote_ids": [
+            "Q3"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids is empty. The abstract reports a VAS score decrease from 8 to 3, which is a key outcome measure.",
+          "quote_ids": [
+            "Q3"
+          ]
+        }
+      ]
+    },
+    "S252146dc9726d26a/extract": {
+      "design_ids": [],
+      "population_ids": [],
+      "intervention_comparator_ids": [],
+      "outcome_result_ids": []
+    },
+    "S252146dc9726d26a/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "design_ids",
+          "problem": "The selected design_ids is empty. The complete abstract does not mention any specific study design (e.g., cohort, case-control, cross-sectional). The abstract describes general epidemiological evidence but does not specify the design of the",
+          "quote_ids": [
+            "Q1",
+            "Q2",
+            "Q3"
+          ]
+        },
+        {
+          "field": "population_ids",
+          "problem": "The selected population_ids is empty. The complete abstract does not specify the population (e.g., US adults, children, specific demographic groups). The abstract mentions 'the US' in Q4 but does not detail the population studied.",
+          "quote_ids": [
+            "Q4"
+          ]
+        },
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids is empty. The complete abstract does not explicitly state a comparator group (e.g., non-consumers vs. consumers). The abstract discusses SSB consumption but does not specify a control group.",
+          "quote_ids": [
+            "Q5"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids is empty. The complete abstract mentions outcomes (weight gain, T2DM, CVD) but does not specify the exact outcomes or their direction (e.g., increased risk). The abstract states 'quantify the relationship' in",
+          "quote_ids": [
+            "Q5",
+            "Q6",
+            "Q8"
+          ]
+        }
+      ]
+    },
+    "S5e123d68ca31bae9/extract": {
+      "design_ids": [
+        "Q3"
+      ],
+      "population_ids": [
+        "Q2"
+      ],
+      "intervention_comparator_ids": [
+        "Q4",
+        "Q7"
+      ],
+      "outcome_result_ids": [
+        "Q5",
+        "Q6",
+        "Q7"
+      ]
+    },
+    "S5e123d68ca31bae9/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "Q4 is a methodological description of substitution modeling, not a comparison group. The comparison groups are explicitly listed in Q7: water, coffee/tea, milk. Q4 should not be included here as it describes the method, not the actual group",
+          "quote_ids": [
+            "Q4"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "Q6 is a result about the trend in SSB intake categories, but the outcome direction (inverse association) is not covered here. The outcome direction is critical for the principal contrasts, and Q6 does not report the direction of effect (e.g",
+          "quote_ids": [
+            "Q6"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "Q7 is a result about substitution effects, but it is listed twice in outcome_result_ids (Q7 appears in both intervention_comparator_ids and outcome_result_ids). This is a duplication error",
+          "quote_ids": [
+            "Q7"
+          ]
+        }
+      ]
+    },
+    "Sc4b5216516b60ca2/extract": {
+      "design_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "population_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "intervention_comparator_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "outcome_result_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    "Sc4b5216516b60ca2/review": {
+      "decision": "revise",
+      "issues": [
+        {
+          "field": "intervention_comparator_ids",
+          "problem": "The selected intervention_comparator_ids include Q1-Q4, but Q1-Q4 do not represent comparative interventions or comparators. Q1-Q4 describe outcomes or general statements without explicit comparisons (e.g., 'smoking and passive smoking' inQ",
+          "quote_ids": [
+            "Q1",
+            "Q2",
+            "Q3"
+          ]
+        },
+        {
+          "field": "outcome_result_ids",
+          "problem": "The selected outcome_result_ids include Q1-Q4, but Q1-Q4 do not describe specific outcomes or results with direction (e.g., 'increase', 'reduce', 'risk'). Q1-Q4 are general statements without clear outcome directions.",
+          "quote_ids": [
+            "Q1",
+            "Q2",
+            "Q3"
+          ]
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "key": "Sa4e9495eb84f9788/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "db347884c7337d54281fc695b1d50dbff8f0cce727bcdd33367b337be2e1b4cb",
+      "response_file": "responses/0001.json"
+    },
+    {
+      "key": "Sa4e9495eb84f9788/review",
+      "status": "structure_checked",
+      "prompt_sha256": "8094e38a8ad1176a32b64ae9649a019f60ebdf5f06332979a7e8312f054de007",
+      "response_file": "responses/0002.json"
+    },
+    {
+      "key": "S7253767afd363fd8/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "9b638ee4f87a236ffe93dc5d6fee11541cca875c3a0df0dcf7c38ac198565ffe",
+      "response_file": "responses/0003.json"
+    },
+    {
+      "key": "S7253767afd363fd8/review",
+      "status": "structure_checked",
+      "prompt_sha256": "95963ca16db70a1a58baac536b87db7ec21185ada8c74646eac8a43ca8733b20",
+      "response_file": "responses/0004.json"
+    },
+    {
+      "key": "Sf8564f255404bdc9/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "b841e764f5076aec0f9c441ad2562f13f16abaff19635c089bcd2cdd11fff038",
+      "response_file": "responses/0005.json"
+    },
+    {
+      "key": "Sf8564f255404bdc9/review",
+      "status": "structure_checked",
+      "prompt_sha256": "b5a2b06610c259d51ae975ad7626ddf220c5942e10b3b875d66aa7f8bc250e22",
+      "response_file": "responses/0006.json"
+    },
+    {
+      "key": "S171c08e96bbfe80a/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "b50f6c2863dc7f5ca22b7c9c54b329ddfb70748c05179ff8b7ba84f292347ed6",
+      "response_file": "responses/0007.json"
+    },
+    {
+      "key": "S171c08e96bbfe80a/review",
+      "status": "structure_checked",
+      "prompt_sha256": "882bfdde34bf79468df2de9241853a667c22e14ea9d4723d87cb801ad3429070",
+      "response_file": "responses/0008.json"
+    },
+    {
+      "key": "Se83ab42f263370e7/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "ba10ffc1237beb35ccd415e9d76396115478e06afc7fb4eccda335e1a7e2f95c",
+      "response_file": "responses/0009.json"
+    },
+    {
+      "key": "Se83ab42f263370e7/review",
+      "status": "structure_checked",
+      "prompt_sha256": "72fbdd602c21e2ba66ed90ff4483df13e0be67db2d4ccd93617d7f345a90d3a7",
+      "response_file": "responses/0010.json"
+    },
+    {
+      "key": "S3ecb0b2ddc3eab17/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "9eaa26c60d5c71cfc395a58069a9bf3edbccc47608a77ed7c6921f98b9398478",
+      "response_file": "responses/0011.json"
+    },
+    {
+      "key": "S3ecb0b2ddc3eab17/review",
+      "status": "structure_checked",
+      "prompt_sha256": "acee947dba7a72fbdbff37778c1670eb088c1d82f4a3c382cd134c63b561d273",
+      "response_file": "responses/0012.json"
+    },
+    {
+      "key": "S40445dbef38b6b61/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "00eb7f262102d4dc7753bc4741b96e2603ac024936feb9085f7c63d4937b43bc",
+      "response_file": "responses/0013.json"
+    },
+    {
+      "key": "S40445dbef38b6b61/review",
+      "status": "structure_checked",
+      "prompt_sha256": "b4ee194c7a073d011659f54f92aefc40cb18ec610812918f5c8bf17421fac884",
+      "response_file": "responses/0014.json"
+    },
+    {
+      "key": "Sa4bfda174a883e37/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "c87e5662faa0f85a613afce71ead4477f7d1bf00675c1ff447512ec1610348cb",
+      "response_file": "responses/0015.json"
+    },
+    {
+      "key": "Sa4bfda174a883e37/review",
+      "status": "structure_checked",
+      "prompt_sha256": "14a4b0c5d3fccda2ee246cd8d116473d5fdb8e0a587a1f0275be6bc636690d82",
+      "response_file": "responses/0016.json"
+    },
+    {
+      "key": "Sc4a6f15dccff64e5/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "d144f201d1a5a00b92ae361b4b7efc7dabfe5293159cf331be453d5fb752614c",
+      "response_file": "responses/0017.json"
+    },
+    {
+      "key": "Sc4a6f15dccff64e5/review",
+      "status": "structure_checked",
+      "prompt_sha256": "9f51f4885ae4777eef55579b499addde5ce0db4030b05b3466eda3ff07b549e0",
+      "response_file": "responses/0018.json"
+    },
+    {
+      "key": "Sd3bc3ec724b26757/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "d05ffe09c2fd51e9f4da0207b76e12d9e0ed7bca730bffbf8e1650b69b3430a2",
+      "response_file": "responses/0019.json"
+    },
+    {
+      "key": "Sd3bc3ec724b26757/review",
+      "status": "structure_checked",
+      "prompt_sha256": "a1997ca69ac7c36984f8e80ad6d6e2c125ff0634a5b5111cde4649c38ab8e954",
+      "response_file": "responses/0020.json"
+    },
+    {
+      "key": "S6e4e53b38a7db8f2/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "172dd84a656c378a99d0d4901f365113fa39dbe9e850483f9fd3bd4a7e5b55ed",
+      "response_file": "responses/0021.json"
+    },
+    {
+      "key": "S6e4e53b38a7db8f2/review",
+      "status": "structure_checked",
+      "prompt_sha256": "bac236709813df91b41940e7be93b639871af6b0c52320a9ccc2e5355871bb0e",
+      "response_file": "responses/0022.json"
+    },
+    {
+      "key": "S76ebc2ffbe320969/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "360f64f95bb59697a9cd52f32e287351eb46bcb7734b0c5f18916b8243ee14bb",
+      "response_file": "responses/0023.json"
+    },
+    {
+      "key": "S76ebc2ffbe320969/review",
+      "status": "structure_checked",
+      "prompt_sha256": "d56c2e335f1550200af415bfb647fbac6c1c5ebff7b8a835dc53be9071fd820d",
+      "response_file": "responses/0024.json"
+    },
+    {
+      "key": "S407eacc6b499746c/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "35d2655869d06c52a0af181a06a66115d3335f60e7e8f5af8974a602be9a8fb1",
+      "response_file": "responses/0025.json"
+    },
+    {
+      "key": "S407eacc6b499746c/review",
+      "status": "structure_checked",
+      "prompt_sha256": "c68dd2506ad1afce8ffbeec04bb9bcd60490ed7e2393fd098e6f23a988851da1",
+      "response_file": "responses/0026.json"
+    },
+    {
+      "key": "S252146dc9726d26a/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "867c79d5f33979c5ae5004f7beccdcf8b170c6ec7c075f7803d1010dfa3eb855",
+      "response_file": "responses/0027.json"
+    },
+    {
+      "key": "S252146dc9726d26a/review",
+      "status": "structure_checked",
+      "prompt_sha256": "0c6d219f7f03d5bdb650872fde18ddb0642359ed123c6bcae67bfb21ebbebb59",
+      "response_file": "responses/0028.json"
+    },
+    {
+      "key": "S5e123d68ca31bae9/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "c4bf6f7c3a091bf71657f66a935292bcd33c1afb4eb059c320c12f7748fa9864",
+      "response_file": "responses/0029.json"
+    },
+    {
+      "key": "S5e123d68ca31bae9/review",
+      "status": "structure_checked",
+      "prompt_sha256": "230da32266eccbd91c3b36ebf62dcbbe1e0e0d321fe193cc986eec288cf0a848",
+      "response_file": "responses/0030.json"
+    },
+    {
+      "key": "Sc4b5216516b60ca2/extract",
+      "status": "structure_checked",
+      "prompt_sha256": "b0c24bb6750a8b4cae27aa052d861a017be83504a4d119573c27afc2d843787b",
+      "response_file": "responses/0031.json"
+    },
+    {
+      "key": "Sc4b5216516b60ca2/review",
+      "status": "structure_checked",
+      "prompt_sha256": "5a01e1b66ef9c5790779050383d9b6e0c7c0928f06c6af165bbf0012dd9a2c2f",
+      "response_file": "responses/0032.json"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "binding": {
+    "profile": "bounded-pubmed-first-pass-v1",
+    "claim": {
+      "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+      "exposure": "drinking coffee",
+      "outcome": "prevent acidity",
+      "context": "on an empty stomach",
+      "claim_id": "fitness-02-c002"
+    },
+    "model": "qwen3:4b",
+    "controller_sha256": "0c9d7eeb21a19ee8a7c70c38b426a4583f9cc862c7ae931785b83212807796dd",
+    "pubmed_client_sha256": "d3f484efb74e80b16265757ff410d6b82778c9819e31766fa0bbaa08cf24aca8",
+    "parser_sha256": "2130838f9a6772d24d1f925c54d8262004c6c1c53f9747177b6cbf04877eb135",
+    "limits": {
+      "planner_attempts": 2,
+      "queries": 2,
+      "results_per_query": 50,
+      "http_attempts_per_request": 2
+    }
+  },
+  "cache": {
+    "00364991fcb37cad11694f5dea42f0ce16974498cac814dd869732d52a62bc88": {
+      "file": "pubmed-cache/00364991fcb37cad11694f5dea42f0ce16974498cac814dd869732d52a62bc88.json",
+      "sha256": "614385a8eed85066ec4a97e2489453973b2a35332c8ee3d91e9f75da8b8eb9c1",
+      "retrieved_at": "2026-10-20T17:28:19.165802+00:00"
+    },
+    "11811a2d695f91cc76ec240845cf974164adfb974f32a7dbeb08f494f6f7b3c3": {
+      "file": "pubmed-cache/11811a2d695f91cc76ec240845cf974164adfb974f32a7dbeb08f494f6f7b3c3.json",
+      "sha256": "83fe88aff66cfd306450f098dacb25962672926141453cb7addd8df11c36a65d",
+      "retrieved_at": "2026-10-20T17:28:19.777406+00:00"
+    }
+  },
+  "events": [
+    {
+      "key": "00364991fcb37cad11694f5dea42f0ce16974498cac814dd869732d52a62bc88",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "11811a2d695f91cc76ec240845cf974164adfb974f32a7dbeb08f494f6f7b3c3",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    }
+  ],
+  "planner_attempts": [
+    {
+      "status": "validated",
+      "prompt_sha256": "8cf0bb25c94a8bf26ac53f093e34252a7f114192a39e3089f721e7b0027c6f72",
+      "response_file": "planner-1.json"
+    }
+  ],
+  "status": "retrieval_no_usable_abstracts",
+  "queries": [
+    "((drinking coffee) AND (on an empty stomach)) AND (prevent acidity)",
+    "((coffee consumption) OR (coffee drinking)) AND (on empty stomach) AND (acidity prevention)"
+  ],
+  "result": {
+    "status": "retrieval_no_usable_abstracts",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json",
+    "evidence_sha256": "c2864297d6bd8b9e46c1f80cd221a201402a1440eb64557b47318612ebefc936",
+    "candidate_pmids": 0,
+    "usable_abstracts": 0,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "((drinking coffee) AND (on an empty stomach)) AND (prevent acidity)",
+      "((coffee consumption) OR (coffee drinking)) AND (on empty stomach) AND (acidity prevention)"
+    ]
+  },
+  "output": {
+    "sha256": "c2864297d6bd8b9e46c1f80cd221a201402a1440eb64557b47318612ebefc936"
+  }
+}

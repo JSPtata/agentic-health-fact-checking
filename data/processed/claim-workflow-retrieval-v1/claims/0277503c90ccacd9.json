@@ -1,0 +1,43 @@
+{
+  "claim_id": "fitness-02-c006",
+  "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+  "status": "awaiting_relevance_screening",
+  "interrupted": true,
+  "pending_action": "rank_candidates_and_complete_suitability_verification_and_review",
+  "source_review_status": "source_review_incomplete",
+  "retrieval": {
+    "status": "awaiting_relevance_screening",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json",
+    "evidence_sha256": "e836979c85c2e12d1cdb841c9999680d79da0d978abc5397b0ebbb2f0b9a8890",
+    "candidate_pmids": 3,
+    "usable_abstracts": 3,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "((maintaining proper posture) AND (prevent back pain)) AND (while sitting) AND (title OR abstract)",
+      "((proper posture maintenance) OR (correct posture) OR (postural alignment)) AND (back pain prevention) AND (sitting) AND (title OR abstract)"
+    ]
+  },
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [
+    {
+      "action": "retrieval_finished",
+      "result": {
+        "status": "awaiting_relevance_screening",
+        "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json",
+        "evidence_sha256": "e836979c85c2e12d1cdb841c9999680d79da0d978abc5397b0ebbb2f0b9a8890",
+        "candidate_pmids": 3,
+        "usable_abstracts": 3,
+        "unresolved_pmids": [],
+        "empty_abstract_pmids": [],
+        "queries": [
+          "((maintaining proper posture) AND (prevent back pain)) AND (while sitting) AND (title OR abstract)",
+          "((proper posture maintenance) OR (correct posture) OR (postural alignment)) AND (back pain prevention) AND (sitting) AND (title OR abstract)"
+        ]
+      }
+    }
+  ],
+  "adjudication": null
+}

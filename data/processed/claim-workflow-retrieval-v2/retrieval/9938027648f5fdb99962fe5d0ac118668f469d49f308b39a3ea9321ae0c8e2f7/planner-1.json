@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-20T17:49:28.465771Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"exposure_anchor\": \"drinking coffee\",\n  \"exposure_terms\": [\n    \"coffee consumption\",\n    \"coffee intake\"\n  ],\n  \"outcome_anchor\": \"prevent acidity\",\n  \"outcome_terms\": [\n    \"acidity prevention\",\n    \"acid reflux\"\n  ],\n  \"context_anchor\": \"on an empty stomach\",\n  \"context_terms\": [\n    \"empty stomach\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 23216279291,
+  "load_duration": 6761298041,
+  "prompt_eval_count": 228,
+  "prompt_eval_cached_count": 0,
+  "prompt_eval_duration": 3943445000,
+  "eval_count": 85,
+  "eval_duration": 12404133000
+}

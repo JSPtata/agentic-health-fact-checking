@@ -1,0 +1,544 @@
+{
+  "sources": [
+    {
+      "source_id": "S769add810a2f3b05",
+      "pmid": "27390450",
+      "title": "Effects of movement from a postural maintenance position on lumbar hemodynamic changes.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "reviewed_source_reused"
+    },
+    {
+      "source_id": "Sb32746eed12ef1fb",
+      "pmid": "22608170",
+      "title": "What do physiotherapists consider to be the best sitting spinal posture?",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "unresolved_screen"
+    },
+    {
+      "source_id": "S59faa64eae2bd75b",
+      "pmid": "16494070",
+      "title": "Lumbopelvic kinematics and trunk muscle activity during sitting on stable and unstable surfaces.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sb8580d50fe6aa21a",
+      "pmid": "40338112",
+      "title": "Relationship Between Sleep Posture and Low Back Pain: A Systematic Review.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S3d14a83dc1ca8c47",
+      "pmid": "33814719",
+      "title": "Effect of low back pain on the muscles controlling the sitting posture.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S7c626c55141da95c",
+      "pmid": "16736200",
+      "title": "Association between sitting and occupational LBP.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S6a02a01852261055",
+      "pmid": "40111906",
+      "title": "Low back pain and sitting time, posture and behavior in office workers: A scoping review.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sc38c87ea96403998",
+      "pmid": "21393649",
+      "title": "Body posture and syndromes of back pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S731c77fc56dfc6e1",
+      "pmid": "34306274",
+      "title": "Effects of the Multidimensional Treatment on Pain, Disability, and Sitting Posture in Patients with Low Back Pain: A Randomized Controlled Trial.",
+      "verification_scope": "selected_complete_abstract",
+      "original_screen_status": "reviewed_source_reused"
+    },
+    {
+      "source_id": "Seadc26b6077abaa3",
+      "pmid": "15105072",
+      "title": "Classroom posture and self-reported back and neck pain in schoolchildren.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sea536e17e2cc05b1",
+      "pmid": "29762947",
+      "title": "DETERMINATION OF THE OPTIMAL DURATION OF WORK EXPOSURE WHILE SITTING IN A SQUATTING POSITION TO AVOID LOW BACK PAIN: A SIMULATION STUDY.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sf2ef4bdf7d0fcb12",
+      "pmid": "39586823",
+      "title": "Posture and Pain: Beliefs and Attitudes of Patients With Chronic Low Back Pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S53d6232b60b32770",
+      "pmid": "41735830",
+      "title": "Extensive thoracic spontaneous epidural hematoma presenting with position-induced transient paraplegia: successful conservative management in the resource limited settings.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sc69bfed911da1fc6",
+      "pmid": "16508537",
+      "title": "Effects of pelvic asymmetry and low back pain on trunk kinematics during sitting: a comparison with standing.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Se171d8737a0c2414",
+      "pmid": "34626219",
+      "title": "The relationship between low back pain and the basic lumbar posture at work: a retrospective cross-sectional study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S5d33c2b9c0aa1e86",
+      "pmid": "31451200",
+      "title": "No consensus on causality of spine postures or physical exposure and low back pain: A systematic review of systematic reviews.",
+      "verification_scope": "selected_complete_abstract",
+      "original_screen_status": "reviewed_source_reused"
+    },
+    {
+      "source_id": "S588f93a2218ed865",
+      "pmid": "23009637",
+      "title": "Lumbar posture and trunk muscle activation during a typing task when sitting on a novel dynamic ergonomic chair.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Se98087b598ff8613",
+      "pmid": "36540732",
+      "title": "Postural Hypervigilance and Perception of Correct Sitting Posture in Individuals With and Without Low Back Pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S9a5a171badbf03b2",
+      "pmid": "37655847",
+      "title": "Spinal posture assessment and low back pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S03a92dec8837d2a3",
+      "pmid": "32621351",
+      "title": "Movement, posture and low back pain. How do they relate? A replicated single-case design in 12 people with persistent, disabling low back pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sa22e9d1be2bb63d7",
+      "pmid": "1535315",
+      "title": "Preparation of dynamic posture and occurrence of low back pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S766ef4044e369851",
+      "pmid": "39593595",
+      "title": "Estimation of joint and muscle forces during exercise in various postures.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sf5d8e484937301da",
+      "pmid": "23122693",
+      "title": "Lumbar posture and muscular activity while sitting during office work.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S641023a1d7086fcd",
+      "pmid": "25862508",
+      "title": "Trunk motor control deficits in acute and subacute low back pain are not associated with pain or fear of movement.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S95a4fe0497346188",
+      "pmid": "30498961",
+      "title": "Lumbar spine posture and spinopelvic parameters change in various standing and sitting postures.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S9dc429cba6c500dc",
+      "pmid": "19097476",
+      "title": "Influence of trunk muscle co-contraction on spinal curvature during sitting reclining against the backrest of a chair.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Scfb9227f2097848f",
+      "pmid": "34444119",
+      "title": "Spinal and Pelvic Alignment of Sitting Posture Associated with Smartphone Use in Adolescents with Low Back Pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S430edbf1a35eb5c3",
+      "pmid": "16696264",
+      "title": "Stability ball versus office chair: comparison of muscle activation and lumbar spine posture during prolonged sitting.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S2c8ff8bdeb68800b",
+      "pmid": "40840244",
+      "title": "Effect of femoral greater trochanter compression on chair-sitting difficulty due to sacroiliac joint disorder: A clinical and numerical study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S68a3f238c1aeb642",
+      "pmid": "21775218",
+      "title": "Measured loads on a vertebral body replacement during sitting.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "Sc31a38bcb52ada00",
+      "pmid": "36589467",
+      "title": "The two-stage therapeutic effect of posture biofeedback training on back pain and the associated mechanism: A retrospective cohort study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "provisional_model_screen"
+    },
+    {
+      "source_id": "S994bfe07ee563229",
+      "pmid": "39166267",
+      "title": "Postural asymmetry in low back pain - a systematic review and meta-analysis of observational studies.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sda67bb110be85707",
+      "pmid": "39881436",
+      "title": "The effects of age, fitness, and health on the passive stiffness of the intact low back and its impact on seated work in a healthy, working, female population.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sb68eb3217a74e6c0",
+      "pmid": "34982777",
+      "title": "Correlations between body postures and musculoskeletal pain in guitar players.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S61d1d5be4deeb72b",
+      "pmid": "2941567",
+      "title": "Comparison of electromyographic response patterns during posture and stress tasks in chronic low back pain patterns and control.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S4f12f82f4d801722",
+      "pmid": "20552952",
+      "title": "Influence of trunk muscle co-contraction on spinal curvature during sitting cross-legged.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sb2f6361155a6511f",
+      "pmid": "9742469",
+      "title": "An analysis of posture and back pain in the first and third trimesters of pregnancy.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S775987eb19dd323f",
+      "pmid": "29843282",
+      "title": "A pilot study on the influence of exercising on unstable training machine on balance control and trunk muscles activity.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S8319d16bf3aed2fe",
+      "pmid": "31261549",
+      "title": "The effect of lumbar stabilization and walking exercises on chronic low back pain: A randomized controlled trial.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S59b89090087339eb",
+      "pmid": "39252107",
+      "title": "Prevalence of spine pain among Tunisian children and adolescents and related factors.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S9f4e7593d91209e2",
+      "pmid": "35988231",
+      "title": "Workers' subjective discomfort, muscle fatigue, and kinematics during a manual packaging task.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S79ea41b10ee6346e",
+      "pmid": "17918502",
+      "title": "Influence of trunk muscle co-contraction on spinal curvature during sitting for desk work.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S4f4481c93dbfc079",
+      "pmid": "35159999",
+      "title": "3D Stereophotogrammetric Quantitative Evaluation of Posture and Spine Proprioception in Subacute and Chronic Nonspecific Low Back Pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sd28a4574b1c7606f",
+      "pmid": "21419349",
+      "title": "The fall of the postural-structural-biomechanical model in manual and physical therapies: exemplified by lower back pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S7e49116f8a6a8c91",
+      "pmid": "34776134",
+      "title": "Relationships between forward head posture and lumbopelvic sagittal alignment in older adults with chronic low back pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S9ff44314c234c87c",
+      "pmid": "36400864",
+      "title": "Ergonomic and psychosocial risk factors associated with work-related musculoskeletal disorders in Mohs histotechs.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S57957afdfc923bfe",
+      "pmid": "32747149",
+      "title": "The Effect of Respiratory Phase on Abdominal Muscle Activity During Stable and Unstable Sitting Positions in Individuals With and Without Chronic Low Back Pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S788e73f40216ab12",
+      "pmid": "34709132",
+      "title": "The effect of walking and stationary work on the acute back pain, muscle activation, posture and postural control of older women.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S417f5bd0959e28c7",
+      "pmid": "11415538",
+      "title": "Exercise, posture, and back pain during pregnancy.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S6a2b508cbb5d1e70",
+      "pmid": "37156852",
+      "title": "Back pain in children and adolescents: a cross-sectional study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Saca98b2871b00d61",
+      "pmid": "30678889",
+      "title": "The relationship between lumbopelvic flexibility and sitting posture in adult women.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S6d6c1c09b7c2e22f",
+      "pmid": "35959703",
+      "title": "From protection to non-protection: A mixed methods study investigating movement, posture and recovery from disabling low back pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sc4412d113ccd2985",
+      "pmid": "25212451",
+      "title": "Association between home posture habits and low back pain in high school adolescents.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Safa54b601c17ebfe",
+      "pmid": "27190453",
+      "title": "Impact of pregnancy on back pain and body posture in women.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sf62564a18e433598",
+      "pmid": "39446920",
+      "title": "Association of self-reported musculoskeletal pain with school furniture suitability and daily activities among primary school and university students.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S447741ee4048dd37",
+      "pmid": "33096769",
+      "title": "Pervasive Lying Posture Tracking.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S120c67d8ae794e12",
+      "pmid": "27629132",
+      "title": "Posture and low back pain during pregnancy - 3D study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sa4165c1675cb3802",
+      "pmid": "30636192",
+      "title": "Application of Pilates-based exercises in the treatment of chronic non-specific low back pain: state of the art.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S60769e442e7f15e1",
+      "pmid": "24049103",
+      "title": "Foot posture, foot function and low back pain: the Framingham Foot Study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sd05201d9be98ffb0",
+      "pmid": "35223808",
+      "title": "Leg Length Discrepancy and Nonspecific Low Back Pain: 3-D Stereophotogrammetric Quantitative Posture Evaluation Confirms Positive Effects of Customized Heel-Lift Orthotics.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S55f016d8a3816b23",
+      "pmid": "11415539",
+      "title": "Exercise, posture, and back pain during pregnancy.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sa2d6756b09f94964",
+      "pmid": "32942932",
+      "title": "Differences in lumbar spine measures as a function of MRI posture in low back pain patients and its clinical implications.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sb805d237c63224e0",
+      "pmid": "29191701",
+      "title": "Back Pain and Body Posture Evaluation Instrument for Adults: Expansion and Reproducibility.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S4bc8a880d79bf1a9",
+      "pmid": "18976172",
+      "title": "Charcot spinal disease after spinal cord injury.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sfb8717a3397f1fd4",
+      "pmid": "39595401",
+      "title": "Maternal Parity Effect on Spine Posture Changes and Back Pain During Pregnancy.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S9d39600dd87f1af5",
+      "pmid": "37148816",
+      "title": "\"Posture first\": Interaction between posture and locomotion in people with low back pain during unexpectedly cued modification of gait initiation motor command.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sd3daa8a997e6816d",
+      "pmid": "36110777",
+      "title": "Prevalence of Lower Back Pain and its Relationship with Driving Postures among Drivers in Taif, Saudi Arabia.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S8ab9c68953f2b406",
+      "pmid": "34900361",
+      "title": "Prevalence of Low Back Pain and Associated Risk Factors among Farmers in Jeju.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Se9de94fb530fd4ff",
+      "pmid": "37949554",
+      "title": "Back Pain and Body Posture Evaluation Instrument for Adults (BackPEI-A): Updating and an online application.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S784aec0311944910",
+      "pmid": "33633850",
+      "title": "Back pain and its risk factors in Brazilian adolescents: a longitudinal study.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S39602b88c2a3c269",
+      "pmid": "23275945",
+      "title": "Back pain and body posture evaluation instrument (BackPEI): development, content validation and reproducibility.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S4789030ff3e2465c",
+      "pmid": "35261817",
+      "title": "Back pain and body posture of non-professional Brazilian Jiu-Jitsu practitioners.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sab062b77568c8726",
+      "pmid": "11869914",
+      "title": "Leg length discrepancy.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sa9d0f2e885800998",
+      "pmid": "35162421",
+      "title": "Back Pain and Body Posture Evaluation Instrument for Children and Adolescents (BackPEI-CA): Expansion, Content Validation, and Reliability.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S009aded795928eae",
+      "pmid": "38255027",
+      "title": "Body Posture and Low Back Pain: Differences between Folk and Ballroom Dancers.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "S8a845503d28b4508",
+      "pmid": "36477012",
+      "title": "Reliability and validity of Foot Posture Index (FPI-6) for evaluating foot posture in participants with low back pain.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    },
+    {
+      "source_id": "Sca271beecd4658d4",
+      "pmid": "35634829",
+      "title": "Ergonomic and psychosocial risk factors for low back pain among rice farmers in West Bengal, India.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "pending"
+    }
+  ],
+  "coverage": "Bounded assessment of 2/77 available abstracts; all other sources remain unassessed in this draft. No full-text or exhaustive-search appraisal."
+}

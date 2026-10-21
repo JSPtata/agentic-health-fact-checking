@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "source_id": "S04c98a2dfe4a7bb8",
+      "pmid": "10499460",
+      "title": "Coffee and gastrointestinal function: facts and fiction. A review.",
+      "verification_scope": "selected_complete_abstract",
+      "original_screen_status": "unresolved_screen"
+    },
+    {
+      "source_id": "S9a65f24112340433",
+      "pmid": "15841908",
+      "title": "The impairment of gastroduodenal mucosal barrier by coffee.",
+      "verification_scope": "selected_complete_abstract",
+      "original_screen_status": "unresolved_screen"
+    },
+    {
+      "source_id": "S4c5b1fa8e5c2255d",
+      "pmid": "36233963",
+      "title": "Evaluation of Recycled Spent Coffee Material Treated with Animal Glue, Starch, and Red Clay as Acid Materials.",
+      "verification_scope": "not_assessed_in_this_draft",
+      "original_screen_status": "unresolved_screen"
+    }
+  ],
+  "coverage": "Bounded assessment of 2/3 available abstracts; all other sources remain unassessed in this draft. No full-text or exhaustive-search appraisal."
+}

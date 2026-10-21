@@ -1,0 +1,96 @@
+{
+  "claim": {
+    "claim_text": "The best time for exercise is early morning or evening.",
+    "exposure": "exercise",
+    "outcome": null,
+    "context": "early morning or evening",
+    "claim_id": "fitness-02-c004"
+  },
+  "articles": {
+    "42658446": {
+      "kind": "pubmed_abstract",
+      "pmid": "42658446",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42658446/",
+      "title": "Influence of Morning and Afternoon Exercise on Body Composition and Metabolic Health: A Systematic Review and Meta-Analysis.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Aug 27"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592391+00:00",
+      "text_scope": "abstract_only",
+      "id": "S40445dbef38b6b61",
+      "text_file": "sources/S40445dbef38b6b61.txt",
+      "text_sha256": "0dd996e19b5268e17ab3ff18c366f90313b4ba159abbafc3e0986c119cc59e83",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2642,
+      "abstract": "BACKGROUND: Exercise is widely recognized for its beneficial effects on metabolic health and can serve as a non-pharmacological health intervention. However, the effect of morning versus afternoon exercise on various metabolic indicators remains unclear. This study aimed to systematically analyze the effect of exercise at various times of day on body composition, glucose and lipid metabolism.\n\nMETHODS: Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines, this study conducted literature searches in the electronic databases PubMed, Embase, Web of Science, Scopus and SPORTDiscus. Fourteen long-term and five acute studies were analyzed (n = 765 participants) that compared exercise performed in the morning versus the afternoon or evening, and assessed body weight, body mass index, fat mass, fasting blood glucose, hemoglobin A1c (HbA1c), insulin, and/or triglycerides. The risk of bias was assessed using the Cochrane tool (RoB 2). The certainty of evidence was assessed using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework.\n\nRESULTS: In the long-term studies, morning training was associated with a greater reduction in HbA1c (mean difference [MD] - 0.11%, 95% confidence intervals [CI] - 0.19 to - 0.03, I2 = 0%, p = 0.009), an effect primarily observed in populations with type 2 diabetes (T2D) in subgroup analyses. In contrast, afternoon training was associated with a greater reduction in fasting blood glucose (MD 0.13 mmol/L, 95% CI 0.01 to 0.24, I2 = 0%, p = 0.03). No significant timing effects were observed for other body composition or lipid outcomes. In the acute studies, afternoon exercise was associated with greater reductions in glucose levels from pre- to post-exercise (MD 0.53 mmol/L, 95% CI 0.10 to 0.96, I2 = 21%, p = 0.02), but no difference was found for fasting blood glucose. The certainty of evidence ranged from moderate to very low across most outcomes, primarily due to risk of bias and imprecision.\n\nCONCLUSIONS: Morning and afternoon exercise suggest selective effects on glycemic control, though these findings should be considered preliminary and were primarily observed in populations with T2D. Morning training was associated with a statistically significant reduction in HbA1c, whereas afternoon training was associated with lowering fasting blood glucose. However, these findings should be interpreted with caution, as the result was primarily observed in T2D populations and the overall certainty of evidence was low. No consistent differential effects were observed for body composition or other lipid parameters.",
+      "abstract_sha256": "0dd996e19b5268e17ab3ff18c366f90313b4ba159abbafc3e0986c119cc59e83",
+      "abstract_available": true
+    },
+    "42812561": {
+      "kind": "pubmed_abstract",
+      "pmid": "42812561",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42812561/",
+      "title": "Morning or evening? Time of day does not affect body composition, cardiopulmonary performance, and muscle strength responses to combined training in women with obesity.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592520+00:00",
+      "text_scope": "abstract_only",
+      "id": "S2b482cbe59d234dd",
+      "text_file": "sources/S2b482cbe59d234dd.txt",
+      "text_sha256": "e801b08b85d19ce6735b14fc289dfa424a141fb99a59e6eee7ef0639d05ee7f3",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 3476,
+      "abstract": "INTRODUCTION: Obesity is characterized by adipocyte dysfunction, accompanied by impairments in oxidative metabolism and physical function. Although physical training is known to improve oxidative capacity, body composition, and functional performance, the magnitude of these adaptations may be influenced by several modulatory factors. Among these, circadian rhythm has emerged as a potential determinant of exercise-induced adaptations due to daily fluctuations in metabolic and physiological processes; however, its influence in women with obesity remains unclear. Therefore, this study aimed to investigate the effects of combined training performed at different times of the day (morning vs. evening) on body composition, cardiopulmonary performance, and muscle strength in previously untrained women with obesity.\n\nMETHODS: This randomized clinical trial (NCT06601660) included women with obesity (waist circumference ≥88 cm) aged 18-50 years. Participants were randomly assigned to a control group (CG; n = 13), a morning training group (MT; training performed between 07:00 and 10:00 a.m.; n = 17), or an evening training group (ET; training performed between 06:00 and 09:00 p.m.; n = 19). Assessments conducted before and after the intervention included body composition (InBody® 770), cardiopulmonary performance evaluated by cardiopulmonary exercise testing (CPET), muscle strength assessed by the one-repetition maximum (1RM) test, and cardiovascular parameters evaluated by blood pressure (BP) and heart rate (HR); the last three were performed at both a.m. and p.m. times. Only participants in the MT and ET groups underwent the intervention, which consisted of an 8-week combined training program performed three times per week. Each session included both resistance and aerobic exercise, with progressive increases in exercise intensity and duration throughout the intervention period. Participants assigned to the CG underwent assessments only.\n\nRESULTS: Significant group-by-period interactions were observed for VO2peak and bench-press and leg-press 1RM, whereas maximal treadmill velocity showed a significant period effect without a significant group-by-period interaction. Bench-press 1RM increased in MT during morning and evening testing by 5.79 and 5.31 kg, respectively, and in ET by 4.97 and 5.50 kg (all p < 0.001; d = 2.37-2.76), with gains in both training groups exceeding those observed in CG. Leg-press 1RM increased in MT by 22.20 and 29.01 kg and in ET by 18.40 and 17.11 kg during morning and evening testing, respectively (p ≤ 0.001; d = 1.13-1.92); however, only MT showed a greater overall change than CG. VO2peak increased in MT during morning testing [2.42 mL·kg-1·min-1 (p = 0.004; d = 1.04)] and in ET during evening testing [1.57 mL·kg-1·min-1 (p = 0.048; d = 0.67)]. Maximal treadmill velocity and CPET duration improved over time, but their changes did not differ significantly among groups. Body-composition and cardiovascular adaptations were limited, with waist circumference increasing only in CG.\n\nCONCLUSION: Eight weeks of combined training performed either in the morning or evening improved maximal muscle strength and cardiopulmonary performance in women with obesity, while producing limited changes in body composition and cardiovascular measures. No consistent evidence of superior adaptations according to training time was observed, suggesting that both schedules can effectively promote health-related adaptations.",
+      "abstract_sha256": "e801b08b85d19ce6735b14fc289dfa424a141fb99a59e6eee7ef0639d05ee7f3",
+      "abstract_available": true
+    },
+    "42857179": {
+      "kind": "pubmed_abstract",
+      "pmid": "42857179",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42857179/",
+      "title": "Time-of-day effects of acute and regular exercise on sleep quality and mood: a three-level meta-analysis.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592584+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sa4bfda174a883e37",
+      "text_file": "sources/Sa4bfda174a883e37.txt",
+      "text_sha256": "9ee72b3385ff2407c5d18a79ea279c3fc6e37fda6bfb036e0106a3ff8347b60a",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1658,
+      "abstract": "BACKGROUND: Evidence regarding whether exercise timing differentially affects sleep quality and mood remains inconsistent. This study examined the effects of acute and regular exercise performed at different times of day on sleep and mood.\n\nMETHODS: Eight English and Chinese databases were searched from inception to June 2026. Parallel and crossover randomized trials were synthesized using three-level meta-analysis with non-diagonal sampling variance-covariance matrices. Exercise vs. Control and direct Time vs. Time comparisons were analyzed separately, with CR2 cluster-robust inference used as a robustness check.\n\nRESULTS: Thirteen studies contributed 81 effect sizes (40 sleep and 41 mood). For sleep, Exercise vs. Control showed a large effect in the conventional model (g = 0.86, 95% CI [0.26, 1.46], p = 0.005), but CR2 inference was non-significant (p = 0.109). Direct Time vs. Time comparisons were non-significant (g = 0.15, 95% CI [-0.08, 0.39], p = 0.209; CR2 p = 0.127), with no stable advantage for morning, afternoon, or evening exercise. For mood, Exercise vs. Control was large but non-significant (g = 0.95, p = 0.056). Time vs. Time was significant conventionally (g = 0.30, p = 0.027) but not under CR2 inference (p = 0.097). Afternoon vs. Evening favored afternoon exercise (g = 0.50, p = 0.001), although based on only two studies.\n\nCONCLUSION: Exercise itself may be more important than its specific timing for sleep, whereas mood may show timing-related signals that remain insufficiently robust for definitive recommendations.\n\nSYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/prospero/, identifier [CRD420261431622].",
+      "abstract_sha256": "9ee72b3385ff2407c5d18a79ea279c3fc6e37fda6bfb036e0106a3ff8347b60a",
+      "abstract_available": true
+    }
+  },
+  "status": "assessment_pending",
+  "verdict": null,
+  "claim_specification_issues": [
+    "Structured outcome missing; do not invent an outcome."
+  ],
+  "limitations": [
+    "Existing candidate pool only; not an exhaustive literature search.",
+    "Source hashes establish integrity, not scientific relevance or correctness.",
+    "Previous model selections and review decisions are not imported as approved facts.",
+    "Relevance screening, claim clarification where needed, assessment and review remain pending."
+  ]
+}

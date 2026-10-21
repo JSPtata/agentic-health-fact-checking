@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T19:11:16.93213Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"decision\": \"accept_for_adjudication\",\n  \"objections\": [],\n  \"remaining_gaps\": [\n    \"No long-term effects measured\",\n    \"Short-term study only\",\n    \"Limited to young males\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 16423139333,
+  "load_duration": 21393791,
+  "prompt_eval_count": 928,
+  "prompt_eval_cached_count": 3,
+  "prompt_eval_duration": 11070990000,
+  "eval_count": 51,
+  "eval_duration": 5193501000
+}

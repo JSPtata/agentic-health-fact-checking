@@ -1,0 +1,94 @@
+{
+  "claim": {
+    "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+    "exposure": "maintaining proper posture",
+    "outcome": "prevent back pain",
+    "context": "while sitting",
+    "claim_id": "fitness-02-c006"
+  },
+  "articles": {
+    "42740924": {
+      "kind": "pubmed_abstract",
+      "pmid": "42740924",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42740924/",
+      "title": "Sustained Improvements of Thoracic Hyperkyphosis, Body Dysmorphic Disorder, in a 26-Year-Old Male With Scheuermann's Disease Using Chiropractic BioPhysics® Spinal Rehabilitation: A Case Report and 28-Month Long-Term Follow-Up.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Sep"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592414+00:00",
+      "text_scope": "abstract_only",
+      "id": "S6e4e53b38a7db8f2",
+      "text_file": "sources/S6e4e53b38a7db8f2.txt",
+      "text_sha256": "1ce0ed74c18bba9b80ee047bec9433e96465668d60c00a37c0740f6dd9d36efe",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2029,
+      "abstract": "We report sustained improvements in thoracic hyperkyphosis, sagittal balance, and health-related quality of life in a 26-year-old male with Scheuermann's disease using Chiropractic BioPhysics® (CBP®) rehabilitation with a 28-month long-term follow-up. Scheuermann's is associated with significant reductions in quality-of-life outcomes and poor psychosocial outcomes. Body dysmorphic disorders and altered self-perception further deteriorate patient-reported outcomes. Reductions in abnormal spine conditions can reduce the likelihood of disability and chronic conditions. A 26-year-old male with posture deformity and hyperkyphosis had experienced only long-term mild pain and consequences from his abnormal posture. Poor sagittal alignment led to disqualification for enrollment into the United States Coast Guard; he sought treatment in Meridian, Idaho, USA. Physical examination demonstrated altered spine and postural alignment. Treatment was a multi-modal regimen focused on postural muscles, specific spine manipulation directed toward abnormal full-spine alignment, and specific mirror image traction aimed to improve spine integrity by realigning the spine toward a more normal position. Following 36 treatments over three months, all initial tests and outcome measures were repeated. All outcome measures, posture, and radiographic mensuration demonstrated improvement at the conclusion of treatment and were maintained at 28-month re-examination. SF-36 scores improved by the minimal clinically important difference in nearly all categories and were maintained at 28 months. We report that the CBP®treatment approach had a potential positive effect for a single patient with Scheuermann's kyphosis. This investigation is a single case, and no declarative statements of efficacy are made or implied. Larger controlled studies are necessary to make conclusions regarding Scheuermann's kyphosis with CBP treatment. This study adds to the literature regarding conservative methods of treating postural and spine disorders.",
+      "abstract_sha256": "1ce0ed74c18bba9b80ee047bec9433e96465668d60c00a37c0740f6dd9d36efe",
+      "abstract_available": true
+    },
+    "42763410": {
+      "kind": "pubmed_abstract",
+      "pmid": "42763410",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42763410/",
+      "title": "Static sagittal cervical alignment, pain, and jaw functional limitation across temporomandibular disorder subtypes: a cross-sectional study.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Sep 04"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592462+00:00",
+      "text_scope": "abstract_only",
+      "id": "S76ebc2ffbe320969",
+      "text_file": "sources/S76ebc2ffbe320969.txt",
+      "text_sha256": "c06180fc1b93df3b1735bb93a2d6ceb4bfffc5fdf7d26c57e19f481579513504",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2088,
+      "abstract": "BACKGROUND: This study aimed to compare cervical sagittal alignment among temporomandibular disorder subtypes and to investigate the relationships between cervical alignment parameters, temporomandibular joint pain, neck pain, and jaw functional limitation.\n\nMATERIALS AND METHODS: A total of 118 participants, including patients diagnosed with temporomandibular disorder (TMD) and healthy controls, were included in the study. The study was conducted between January 2, 2025, and July 2, 2025. Based on the DC/TMD criteria, participants were classified into four groups: healthy controls, myalgia, disc displacement with reduction (DDwR), and disc displacement without reduction (DDwoR). TMJ pain and cervical pain intensities were assessed using VAS, while jaw functional limitation was evaluated using the jaw functional limitation scale-8 (JFLS-8). Cervical sagittal alignment was assessed on lateral cephalometric radiographs using the C2-C7 Cobb angle, POCA, and O-C2 angle. Multivariate analysis of variance and correlation analyses were performed.\n\nRESULTS: TMJ pain intensity and JFLS-8 scores were significantly higher in the DDwoR group compared with the control group and other TMD subtypes (p < 0.001). No significant differences were observed among groups in terms of C2-C7 Cobb angle, POCA, or O-C2 angle (p > 0.05). Statiscally significant but weak positive correlations were found between TMJ pain and neck pain, as well as between TMJ pain and jaw functional limitation (p < 0.001). A weak positive correlation was initially observed between TMJ pain and the C2-C7 Cobb angle; however, this association did not remain statistically significant after correction for multiple comparisons.\n\nCONCLUSION: Although TMD subtypes differ significantly in TMJ pain severity and jaw functional limitation, cervical sagittal alignment parameters do not significantly distinguish these groups. These findings suggest that sagittal cervical alignment has a limited role in explaining TMD-related symptom severity and highlight the multifactorial nature of temporomandibular disorders.",
+      "abstract_sha256": "c06180fc1b93df3b1735bb93a2d6ceb4bfffc5fdf7d26c57e19f481579513504",
+      "abstract_available": true
+    },
+    "42824910": {
+      "kind": "pubmed_abstract",
+      "pmid": "42824910",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42824910/",
+      "title": "Axial Back Pain Secondary to Ligamentum Flavum Ossification in a Patient with Hypoparathyroidism: A Rare Case Report.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592539+00:00",
+      "text_scope": "abstract_only",
+      "id": "S407eacc6b499746c",
+      "text_file": "sources/S407eacc6b499746c.txt",
+      "text_sha256": "a7c446457447e82d6ddc78c393e5011efd787c403047c1542f45b195b3e3ab89",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 677,
+      "abstract": "The ligamentum flavum is a structure that connects adjacent laminae and plays a role in maintaining upright posture. Hypoparathyroidism can rarely cause ligamentum flavum ossification (LFO). LFO can cause symptoms due to spinal cord compression. A 48-year-old man was evaluated for complaints of widespread back pain, a burning sensation, and numbness in the lower extremities. Imaging revealed spinal stenosis at the T10-T11 level due to LFO. Following facet joint block and duloxetine treatment, the VAS score decreased from 8 to 3. Early diagnosis and appropriate treatment of LFO in patients with hypoparathyroidism are critical for symptom control and functional recovery.",
+      "abstract_sha256": "a7c446457447e82d6ddc78c393e5011efd787c403047c1542f45b195b3e3ab89",
+      "abstract_available": true
+    }
+  },
+  "status": "assessment_pending",
+  "verdict": null,
+  "claim_specification_issues": [],
+  "limitations": [
+    "Existing candidate pool only; not an exhaustive literature search.",
+    "Source hashes establish integrity, not scientific relevance or correctness.",
+    "Previous model selections and review decisions are not imported as approved facts.",
+    "Relevance screening, claim clarification where needed, assessment and review remain pending."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:50:06.983282Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"decision\": \"accept_for_adjudication\",\n  \"objections\": [\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"invented_fact\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q1\"\n    },\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"causal_overstatement\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q1\"\n    },\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"population_mismatch\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q1\"\n    }\n  ],\n  \"remaining_gaps\": [\n    \"population_and_intervention\"\n  ]\n  }"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 19016717417,
+  "load_duration": 4185542,
+  "prompt_eval_count": 759,
+  "prompt_eval_cached_count": 307,
+  "prompt_eval_duration": 4736175000,
+  "eval_count": 166,
+  "eval_duration": 14171089000
+}

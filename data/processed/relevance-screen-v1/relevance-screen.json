@@ -1,0 +1,2206 @@
+{
+  "binding": {
+    "profile": "claim-relevance-triage-v1",
+    "input_sha256": "1cab3582deddbb9ad8cdbfb9c145cf9774f61b20798c186cf19e69b186948819",
+    "script_sha256": "7e90ee4439ac86d73173ec61133be5cbbfcecbca796f90a547ba2c49d55bc06a",
+    "model": "qwen3:4b",
+    "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "attempts_per_pair": 2,
+    "anchor_code_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e",
+    "pydantic_version": "2.13.4"
+  },
+  "claims": [
+    {
+      "claim": {
+        "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+        "exposure": "drinking coffee",
+        "outcome": "prevent acidity",
+        "context": "on an empty stomach",
+        "claim_id": "fitness-02-c002",
+        "input_limitations": [
+          "Existing candidate pool only; no new literature search or relevance assessment.",
+          "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+          "No official guidance was fetched or assessed in this preparation step."
+        ]
+      },
+      "sources": {
+        "Sa4e9495eb84f9788": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q2"
+              ],
+              "population_ids": [
+                "Q2"
+              ],
+              "intervention_comparator_ids": [
+                "Q4"
+              ],
+              "outcome_result_ids": [
+                "Q6",
+                "Q7",
+                "Q8"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "population_ids",
+                  "problem": "The selected population_ids only include Q2, but the study has two distinct populations: GORD patients and healthy subjects. Q2 mentions 'participants' but does not specify the population groups. The complete abstract specifies 'Seven GORD'",
+                  "quote_ids": [
+                    "Q2"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids only include Q4, but Q4 describes the coffee/water intake protocol which is part of the intervention. However, the comparator (water) is not explicitly mentioned in Q4. The study uses water as a non-",
+                  "quote_ids": [
+                    "Q4"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids include Q6, Q7, Q8, but Q7 describes a specific finding (increased percentage acid reflux time in fasting period for GORD patients) which is a key contrast. The outcomes should include both null and adverse (",
+                  "quote_ids": [
+                    "Q6",
+                    "Q7",
+                    "Q8"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q2",
+                  "text": "OBJECTIVE: To assess the effect of coffee ingestion on gastro-oesophageal acid reflux.\n\nDESIGN: A randomized, controlled, crossover study.\n\nPARTICIPANTS: Seven GORD patients and eight healthy subjects.\n\n"
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q2",
+                  "text": "OBJECTIVE: To assess the effect of coffee ingestion on gastro-oesophageal acid reflux.\n\nDESIGN: A randomized, controlled, crossover study.\n\nPARTICIPANTS: Seven GORD patients and eight healthy subjects.\n\n"
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q4",
+                  "text": " At well-defined times, they ingested either 280 ml of regular paper-filtered coffee or 280 ml of warm water."
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q6",
+                  "text": "RESULTS: Coffee had no effect on postprandial acid reflux time or number of reflux episodes, either in GORD patients or in healthy subjects."
+                },
+                {
+                  "quote_id": "Q7",
+                  "text": " Coffee increased the percentage acid reflux time only when ingested in the fasting period in the GORD patients (median 2.6, range 0-19.3 versus median 0, range 0-8.3; P = 0.028), but not in the healthy subjects."
+                },
+                {
+                  "quote_id": "Q8",
+                  "text": " No effect of coffee on postprandial lower oesophageal sphincter pressure (LOSP), patterns of LOSP associated with reflux episodes or oesophageal contractions was found.\n\n"
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "10563539",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/10563539/",
+              "title": "Effect of coffee on gastro-oesophageal reflux in patients with reflux disease and healthy controls.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Clinical Trial",
+                "Journal Article",
+                "Randomized Controlled Trial"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "1999 Nov"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592149+00:00",
+              "text_scope": "abstract_only",
+              "id": "Sa4e9495eb84f9788",
+              "text_file": "sources/Sa4e9495eb84f9788.txt",
+              "text_sha256": "3d90a36ddee084ad350ae7c5491dd4edf98e000b3e3a2361c2b314af1efff8a8",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1468
+            },
+            "text": "BACKGROUND: Many patients with gastro-oesophageal reflux disease (GORD) report that coffee aggravates their symptoms and doctors tend to discourage its use in GORD.\n\nOBJECTIVE: To assess the effect of coffee ingestion on gastro-oesophageal acid reflux.\n\nDESIGN: A randomized, controlled, crossover study.\n\nPARTICIPANTS: Seven GORD patients and eight healthy subjects.\n\nMETHODS: After 1 day of coffee abstinence, participants underwent 24-h oesophageal pH and manometric monitoring. At well-defined times, they ingested either 280 ml of regular paper-filtered coffee or 280 ml of warm water. Coffee or water was drunk 1 h after breakfast, during lunch, 1 h after dinner and after an overnight fast Reflux and oesophageal motility parameters were assessed for the first hour after each coffee or water intake.\n\nRESULTS: Coffee had no effect on postprandial acid reflux time or number of reflux episodes, either in GORD patients or in healthy subjects. Coffee increased the percentage acid reflux time only when ingested in the fasting period in the GORD patients (median 2.6, range 0-19.3 versus median 0, range 0-8.3; P = 0.028), but not in the healthy subjects. No effect of coffee on postprandial lower oesophageal sphincter pressure (LOSP), patterns of LOSP associated with reflux episodes or oesophageal contractions was found.\n\nCONCLUSION: Coffee has no important effect on gastro-oesophageal acid reflux in GORD patients, and no effect at all in healthy subjects."
+          },
+          "error": "Unknown or duplicate quotation ID"
+        },
+        "S7253767afd363fd8": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q4"
+              ],
+              "population_ids": [
+                "Q4"
+              ],
+              "intervention_comparator_ids": [
+                "Q2",
+                "Q3"
+              ],
+              "outcome_result_ids": [
+                "Q5",
+                "Q6"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "population_ids",
+                  "problem": "The population description in Q4 is too narrow. Q4 states 'Thirty coffee-sensitive individuals' but the study is described as a crossover study with 'coffee-sensitive individuals' as the population. The population should be defined as 'coff",
+                  "quote_ids": [
+                    "Q4"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The comparator description in Q2 and Q3 is incomplete. Q2 mentions 'conduction roasting' but Q3 says 'differently processed yet otherwise similar coffee'. The comparison groups are not clearly defined as 'conduction roasting vs. another roa",
+                  "quote_ids": [
+                    "Q2",
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The outcome results in Q5 and Q6 are not fully aligned with the study's primary objective. Q5 states that both coffees caused symptoms in most individuals, but Q6 states no significant differences were found. The outcome results should be '",
+                  "quote_ids": [
+                    "Q5",
+                    "Q6"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q4",
+                  "text": " Thirty coffee-sensitive individuals completed this single-center, randomized, double-blind, crossover study in which the symptoms of heartburn, regurgitation and dyspepsia were assessed following coffee consumption"
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q4",
+                  "text": " Thirty coffee-sensitive individuals completed this single-center, randomized, double-blind, crossover study in which the symptoms of heartburn, regurgitation and dyspepsia were assessed following coffee consumption"
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q2",
+                  "text": " The primary objective of this study was to determine whether a coffee brewed with coffee beans processed using conduction roasting will result in fewer symptoms of gastroesophageal reflux and dyspepsia in"
+                },
+                {
+                  "quote_id": "Q3",
+                  "text": " coffee-sensitive individuals compared to a differently processed yet otherwise similar coffee."
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q5",
+                  "text": " both in the fasting state and after ingestion of a standard test meal. Consumption of both coffees resulted in heartburn, regurgitation, and dyspepsia in most individuals."
+                },
+                {
+                  "quote_id": "Q6",
+                  "text": " No significant differences in the frequency or severity of heartburn, regurgitation, or dyspepsia were demonstrated between the two coffees either in the fasting state or after the test meal."
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "12741451",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12741451/",
+              "title": "A randomized, double-blind comparison of two different coffee-roasting processes on development of heartburn and dyspepsia in coffee-sensitive individuals.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Clinical Trial",
+                "Comparative Study",
+                "Journal Article",
+                "Randomized Controlled Trial",
+                "Research Support, Non-U.S. Gov't"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2003 Apr"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592193+00:00",
+              "text_scope": "abstract_only",
+              "id": "S7253767afd363fd8",
+              "text_file": "sources/S7253767afd363fd8.txt",
+              "text_sha256": "9d8f6276c00f6395d7a56d4aadc26d9463db1cec202c4ff9250477a981bb06fc",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1204
+            },
+            "text": "The mechanism underlying coffee-induced heartburn and dyspepsia remains poorly understood. This has led to speculation that variations in coffee processing may be important. The primary objective of this study was to determine whether a coffee brewed with coffee beans processed using conduction roasting will result in fewer symptoms of gastroesophageal reflux and dyspepsia in coffee-sensitive individuals compared to a differently processed yet otherwise similar coffee. Thirty coffee-sensitive individuals completed this single-center, randomized, double-blind, crossover study in which the symptoms of heartburn, regurgitation and dyspepsia were assessed following coffee consumption both in the fasting state and after ingestion of a standard test meal. Consumption of both coffees resulted in heartburn, regurgitation, and dyspepsia in most individuals. No significant differences in the frequency or severity of heartburn, regurgitation, or dyspepsia were demonstrated between the two coffees either in the fasting state or after the test meal. We conclude that differences in the coffee bean roasting process do not result in marked differences in coffee-induced upper gastrointestinal symptoms."
+          },
+          "error": "Only context may be not_applicable"
+        },
+        "Sf8564f255404bdc9": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q3"
+              ],
+              "population_ids": [
+                "Q3"
+              ],
+              "intervention_comparator_ids": [
+                "Q3"
+              ],
+              "outcome_result_ids": [
+                "Q6",
+                "Q7",
+                "Q8",
+                "Q9"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "population_ids",
+                  "problem": "Q3 does not specify the population (e.g., patients with H. pylori infection status) as a comparison group. The abstract mentions H. pylori-uninfected, -infected, and -eradicated groups in Q6, but Q3 only describes the study population as '5",
+                  "quote_ids": [
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "Q3 does not define an intervention or comparator group. The study compares H. pylori-uninfected, -infected, and -eradicated groups, but Q3 does not mention these as a comparator.",
+                  "quote_ids": [
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "Q6 reports prevalence rates across H. pylori groups, but the selected outcome 'Q6' does not specify the outcome direction (e.g., higher prevalence in H. pylori-infected vs. uninfected) or the actual endpoints (e.g., hematin prevalence by H.",
+                  "quote_ids": [
+                    "Q6"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "Q7 reports a significant difference in mean pH between hematin-positive and hematin-negative cases, but the selected outcome 'Q7' does not specify the outcome direction (e.g., lower pH in hematin-positive cases) or the actual endpoints (e.g",
+                  "quote_ids": [
+                    "Q7"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "Q8 reports diagnostic performance metrics, but the selected outcome 'Q8' does not specify the outcome direction (e.g., high specificity for strong acidity) or the actual endpoints (e.g., pH 1 or 2 for fasting gastric juice).",
+                  "quote_ids": [
+                    "Q8"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "Q9 reports interobserver agreement and in vitro results, but the selected outcome 'Q9' does not specify the outcome direction (e.g., excellent agreement) or the actual endpoints (e.g., k=0.88).",
+                  "quote_ids": [
+                    "Q9"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q3",
+                  "text": " We investigated the clinical significance of endoscopic finding of hematin with respect to gastric acidity.\n\nMETHODS: A total of 501 patients were assessed for both hematin and fasting gastric juice pH by endoscopy."
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q3",
+                  "text": " We investigated the clinical significance of endoscopic finding of hematin with respect to gastric acidity.\n\nMETHODS: A total of 501 patients were assessed for both hematin and fasting gastric juice pH by endoscopy."
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q3",
+                  "text": " We investigated the clinical significance of endoscopic finding of hematin with respect to gastric acidity.\n\nMETHODS: A total of 501 patients were assessed for both hematin and fasting gastric juice pH by endoscopy."
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q6",
+                  "text": "RESULTS: The prevalence of hematin was 31.1% (142/206), 4.6% (5/109) and 45.2% (84/186) in the H. pylori-uninfected, -infected and -eradicated groups, respectively."
+                },
+                {
+                  "quote_id": "Q7",
+                  "text": " The mean pH of fasting gastric juice in the hematin-positive cases was significantly lower than the hematin-negative cases (mean pH 1.2, 95% confidence interval [CI] 1.1-1.3 vs. 2.7 95%CI 2.5-3.0; P<0.001)."
+                },
+                {
+                  "quote_id": "Q8",
+                  "text": " The sensitivity, specificity, positive predictive value and negative predictive value of hematin for predicting strong acidic condition (pH 1 or 2 for fasting gastric juice) were 36.0%, 98.1%, 98.7% and 29.3%,"
+                },
+                {
+                  "quote_id": "Q9",
+                  "text": " respectively. Interobserver agreement was categorized as \"excellent\" (k=0.88). Supplementary in vitro results showed that hematin formation was only observed at a pH=1.\n\n"
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "35784632",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35784632/",
+              "title": "Endoscopic finding of hematin represents strong gastric acidity.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2022 Jul-Aug"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592292+00:00",
+              "text_scope": "abstract_only",
+              "id": "Sf8564f255404bdc9",
+              "text_file": "sources/Sf8564f255404bdc9.txt",
+              "text_sha256": "6ea3e3936cd76a2a32eb1650f7d886d2a2e15de032f9abdeb456d3e3711d6112",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1613
+            },
+            "text": "BACKGROUND: Hematin is a state in which hemoglobin, as petechiae, is discolored to a brown coffee color by gastric hydrochloric acid. Given the nature of hematin, a close relationship between hematin and acidity has been suggested, but has not been confirmed. We investigated the clinical significance of endoscopic finding of hematin with respect to gastric acidity.\n\nMETHODS: A total of 501 patients were assessed for both hematin and fasting gastric juice pH by endoscopy. Endpoints were as follows: 1) the relationship between the presence of hematin and the fasting gastric juice pH; and 2) the diagnostic performance of endoscopic hematin. In addition, we performed a supplementary in vitro study to clarify the relationship between hematin formation and various acid pH levels.\n\nRESULTS: The prevalence of hematin was 31.1% (142/206), 4.6% (5/109) and 45.2% (84/186) in the H. pylori-uninfected, -infected and -eradicated groups, respectively. The mean pH of fasting gastric juice in the hematin-positive cases was significantly lower than the hematin-negative cases (mean pH 1.2, 95% confidence interval [CI] 1.1-1.3 vs. 2.7 95%CI 2.5-3.0; P<0.001). The sensitivity, specificity, positive predictive value and negative predictive value of hematin for predicting strong acidic condition (pH 1 or 2 for fasting gastric juice) were 36.0%, 98.1%, 98.7% and 29.3%, respectively. Interobserver agreement was categorized as \"excellent\" (k=0.88). Supplementary in vitro results showed that hematin formation was only observed at a pH=1.\n\nCONCLUSION: Endoscopic finding of hematin represent strong gastric acidity."
+          },
+          "error": "Only context may be not_applicable"
+        }
+      },
+      "verdict": null,
+      "priority_source_ids": [],
+      "scope_review_required": false,
+      "status": "relevance_review_required",
+      "next_action": "inspect_unresolved_or_unrelated_sources_before_new_retrieval"
+    },
+    {
+      "claim": {
+        "claim_text": "Eat fruits before meals, not after, for better digestion.",
+        "exposure": "eating fruits",
+        "outcome": "better digestion",
+        "context": "before meals, not after",
+        "claim_id": "fitness-02-c003",
+        "input_limitations": [
+          "Existing candidate pool only; no new literature search or relevance assessment.",
+          "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+          "No official guidance was fetched or assessed in this preparation step."
+        ]
+      },
+      "sources": {
+        "S171c08e96bbfe80a": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "design_ids",
+                  "problem": "The selected design_ids is empty. The complete abstract mentions multiple study designs: observational studies (Q5, Q6), randomized controlled trials (Q7), and theoretical models (Q8, Q9).",
+                  "quote_ids": [
+                    "Q5",
+                    "Q6",
+                    "Q7"
+                  ]
+                },
+                {
+                  "field": "population_ids",
+                  "problem": "The selected population_ids is empty. The complete abstract specifies NAFLD patients (Q5, Q6) and the general population (Q4).",
+                  "quote_ids": [
+                    "Q5",
+                    "Q6",
+                    "Q4"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids is empty. The complete abstract compares Western diets (Q5, Q6) with Mediterranean diet (Q7) and mentions beneficial vs. harmful nutrients (Q2, Q3).",
+                  "quote_ids": [
+                    "Q5",
+                    "Q6",
+                    "Q7"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids is empty. The complete abstract reports outcomes like weight loss (Q1), liver progression control (Q1), and improved liver health (Q7).",
+                  "quote_ids": [
+                    "Q1",
+                    "Q7"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "32077594",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32077594/",
+              "title": "The role of nutrition in non-alcoholic fatty liver disease: Pathophysiology and management.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article",
+                "Research Support, Non-U.S. Gov't",
+                "Review"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2020 Feb"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592267+00:00",
+              "text_scope": "abstract_only",
+              "id": "S171c08e96bbfe80a",
+              "text_file": "sources/S171c08e96bbfe80a.txt",
+              "text_sha256": "6535a1d4e9d2c35a89988b9c2f761f32dc77e2a12836947514b8a7828783e975",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1630
+            },
+            "text": "A healthy diet together with physical activity could induce weight loss and control the progression of non-alcoholic fatty liver disease (NAFLD). However, the composition of diet has not been clearly established. Macronutrients such as saturated fatty acids (SFA), trans-fats, simple sugars and animal proteins have a harmful effect on the liver. On the other hand, monounsaturated fats (MUFAs), polyunsaturated (PUFAs) omega-3-fats, plant-based proteins and dietary fibres are considered to be beneficial to the liver. The impact of specific micronutrients is less well-known. Nutrients are part of the food we eat. Food makes up our meals, which compose our dietary patterns. Non-alcoholic fatty liver disease patients usually follow Western diets which are rich in soda, frozen junk food, juice, red meat, lard, processed meats, whole fat dairy foods, fatty snack foods, take-away foods, cakes and biscuits and poor in cereals, whole grains, fruit, vegetables, extra virgin olive oil (EVOO) and fish. On the other hand, the Mediterranean diet (MD) is beneficial for NAFLD even when it is iso-caloric or there are no changes in body weight. A new approach, called 'nutritional geometry' considers the importance of integrating nutrition, animals and the environment. The goal of this approach is to combine nutrients and foods in a model to understand how food components interact to regulate the properties of diets affecting health and disease. The use of algorithms developed by artificial intelligence (AI) to create a personalized diet for patients can provide customized nutritional counselling to prevent and treat NAFLD."
+          },
+          "error": "Only context may be not_applicable"
+        },
+        "Se83ab42f263370e7": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q3"
+              ],
+              "population_ids": [
+                "Q5"
+              ],
+              "intervention_comparator_ids": [
+                "Q5"
+              ],
+              "outcome_result_ids": [
+                "Q8",
+                "Q10",
+                "Q11",
+                "Q12",
+                "Q13",
+                "Q14"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "population_ids",
+                  "problem": "Q5 specifies '45 college students' but the abstract does not explicitly state the population characteristics (e.g., gender, age, ethnicity) that might be relevant for the comparison groups. The selected population_id 'Q5' is too broad and o",
+                  "quote_ids": [
+                    "Q5"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids ['Q5'] does not specify a comparator group. The abstract does not mention a control group (e.g., 'no app' or 'standard diet') for comparison. The intervention is described as a single group (45 users",
+                  "quote_ids": [
+                    "Q5"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids ['Q8', 'Q10', 'Q11', 'Q12', 'Q13', 'Q14'] do not cover all principal relevant contrasts. The abstract reports multiple outcomes: diet quality (Q8), intuitive eating (Q10), disordered eating (Q11), SUS scores,",
+                  "quote_ids": [
+                    "Q8",
+                    "Q10",
+                    "Q11"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q3",
+                  "text": "OBJECTIVE: The purpose of this study was to improve diet quality among college students through the use of a novel smartphone app that promotes intuitive eating rather than calorie counting and weight loss.\n\n"
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q5",
+                  "text": " A total of 45 college students completed assessments of intuitive eating, diet quality, and disordered eating before and after 4 weeks of using the In2Eat app."
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q5",
+                  "text": " A total of 45 college students completed assessments of intuitive eating, diet quality, and disordered eating before and after 4 weeks of using the In2Eat app."
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q8",
+                  "text": "RESULTS: After our 4-week intervention, dietary qualities that protect against chronic disease increased by 28%, fruit consumption increased by 63%, and skin antioxidant levels increased by 6.1% (Hedges g=0.16; mean"
+                },
+                {
+                  "quote_id": "Q10",
+                  "text": " Global intuitive eating did not change during the user study; however, the unconditional permission to eat subscale increased (Hedges g=-0.28; mean difference 0.28, 95% BCa CI 0.07-0.49; P=.01, adjusted P=.07)."
+                },
+                {
+                  "quote_id": "Q11",
+                  "text": " Overall, disordered eating also did not change with app use, although dietary restraint decreased (Hedges g=-0.23; mean difference 0.30, 95% BCa CI -0.61 to -0.04; P=.04, adjusted P=.22)."
+                },
+                {
+                  "quote_id": "Q12",
+                  "text": " The average SUS score for the In2Eat app was 67.2 (SD 15.5)."
+                },
+                {
+                  "quote_id": "Q13",
+                  "text": " The number of days a meal was logged was positively correlated with SUS scores (r=0.28; P=.06), and the total number of meals logged had a monotonic association with app usability (ρ=0.31; P=.04)."
+                },
+                {
+                  "quote_id": "Q14",
+                  "text": " When divided according to the low (mean 10.2, SD 5.3), medium (mean 26.3, SD 2.8), and high (mean 33.6, SD 3.8) number of days logging meals, participants with higher days of logging reported the app as more usable"
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42467965",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42467965/",
+              "title": "A Smartphone App to Improve Intuitive Eating and Diet Quality: Design and Usability Study.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article",
+                "Research Support, Non-U.S. Gov't"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 Jul 17"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592341+00:00",
+              "text_scope": "abstract_only",
+              "id": "Se83ab42f263370e7",
+              "text_file": "sources/Se83ab42f263370e7.txt",
+              "text_sha256": "c4815f3ed4b2837fb72456be715193a1ec322846447dfcc4d34c5d8e49848f61",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 2811
+            },
+            "text": "BACKGROUND: Web-based and mobile phone-based apps have become widely available for dietary self-monitoring; however, their use may increase the risk of disordered eating. College students frequently demonstrate poor nutrient intake despite consumption of sufficient calories. One way to improve diet quality may be via the use of a smartphone app that encourages intuitive eating.\n\nOBJECTIVE: The purpose of this study was to improve diet quality among college students through the use of a novel smartphone app that promotes intuitive eating rather than calorie counting and weight loss.\n\nMETHODS: The In2Eat iOS mobile app was developed in SwiftUI and stored user data in a Firebase database. A total of 45 college students completed assessments of intuitive eating, diet quality, and disordered eating before and after 4 weeks of using the In2Eat app. Users evaluated the usability of the app with the System Usability Scale (SUS). Engagement with the app was recorded as the total number of days a meal was logged, the total number of meals logged, and the average number of meals logged per day.\n\nRESULTS: After our 4-week intervention, dietary qualities that protect against chronic disease increased by 28%, fruit consumption increased by 63%, and skin antioxidant levels increased by 6.1% (Hedges g=0.16; mean difference 0.33, 95% bias corrected and accelerated [BCa] CI 0.04-0.61; P=.03). Global intuitive eating did not change during the user study; however, the unconditional permission to eat subscale increased (Hedges g=-0.28; mean difference 0.28, 95% BCa CI 0.07-0.49; P=.01, adjusted P=.07). Overall, disordered eating also did not change with app use, although dietary restraint decreased (Hedges g=-0.23; mean difference 0.30, 95% BCa CI -0.61 to -0.04; P=.04, adjusted P=.22). The average SUS score for the In2Eat app was 67.2 (SD 15.5). The number of days a meal was logged was positively correlated with SUS scores (r=0.28; P=.06), and the total number of meals logged had a monotonic association with app usability (ρ=0.31; P=.04). When divided according to the low (mean 10.2, SD 5.3), medium (mean 26.3, SD 2.8), and high (mean 33.6, SD 3.8) number of days logging meals, participants with higher days of logging reported the app as more usable (H=6.75; P=.03). A regression analysis showed that 8% of the variance in system usability (R2=0.080; P=.31) was explained by app use; however, none of the individual predictors contributed substantially to the variance.\n\nCONCLUSIONS: An intuitive eating smartphone app can improve diet quality without increasing disordered eating. Results suggest that participants who logged more meals tended to rate the app as more usable. Further research is needed with a greater sample size after incorporating features to improve the app's usability."
+          },
+          "error": "Only context may be not_applicable"
+        },
+        "S3ecb0b2ddc3eab17": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "design_ids",
+                  "problem": "The selected design_ids is empty. The complete abstract does not mention any specific study design (e.g., observational, experimental, modeling). The abstract describes a theoretical model based on metabolic requirements and historical data",
+                  "quote_ids": [
+                    "Q2"
+                  ]
+                },
+                {
+                  "field": "population_ids",
+                  "problem": "The selected population_ids is empty. The complete abstract refers to 'early hominins' and 'human evolution' but does not specify a particular population or species (e.g., Homo sapiens, Homo erectus).",
+                  "quote_ids": [
+                    "Q1",
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids is empty. The complete abstract compares 'sugars' (intervention) to 'animal foods' (comparator) but does not explicitly state a comparator group or intervention group in the context of a study.",
+                  "quote_ids": [
+                    "Q3",
+                    "Q4"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids is empty. The complete abstract states that 'sugars provided >25% of dietary energy' (outcome) but does not specify the direction of the outcome (e.g., positive or negative) or whether it is an adverse or non",
+                  "quote_ids": [
+                    "Q4"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42561068",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42561068/",
+              "title": "A central role for dietary sugars in human evolution.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article",
+                "Review"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 Aug 06"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592361+00:00",
+              "text_scope": "abstract_only",
+              "id": "S3ecb0b2ddc3eab17",
+              "text_file": "sources/S3ecb0b2ddc3eab17.txt",
+              "text_sha256": "d4d1b1af4041b36ce687585f617736c5faab3eeeb81bb1121472fb57f63acc61",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 862
+            },
+            "text": "What did our ancestors eat? Current understanding of diet in human evolution is predicated on abundant animal foods and mastery of fire, both unlikely for early hominins. Using multiple lines of evidence, including the metabolic requirements of an enlarging brain and reproduction, we model macronutrient distribution across 4 million years of evolution. Before cooking made starch easily digestible, the sugars in fruit and honey provided glucose, the brain's preferred fuel. Modeling suggests that sugars provided >25% of dietary energy, fulfilling obligatory glucose demand. Pounding and cooking released glucose specifically, not merely energy. The evolution of a bigger brain is therefore a story of carbohydrate foods as much as animal foods: from sweet sugars to cooked starch, from chewing to processing, and from wadging to advanced nutrient extraction."
+          },
+          "error": "Only context may be not_applicable"
+        }
+      },
+      "verdict": null,
+      "priority_source_ids": [],
+      "scope_review_required": false,
+      "status": "relevance_review_required",
+      "next_action": "inspect_unresolved_or_unrelated_sources_before_new_retrieval"
+    },
+    {
+      "claim": {
+        "claim_text": "The best time for exercise is early morning or evening.",
+        "exposure": "exercise",
+        "outcome": null,
+        "context": "early morning or evening",
+        "claim_id": "fitness-02-c004",
+        "input_limitations": [
+          "Existing candidate pool only; no new literature search or relevance assessment.",
+          "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+          "No official guidance was fetched or assessed in this preparation step."
+        ]
+      },
+      "sources": {
+        "S40445dbef38b6b61": {
+          "status": "provisional_model_screen",
+          "label": "likely_unrelated",
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q4",
+                "Q5",
+                "Q6",
+                "Q7"
+              ],
+              "population_ids": [
+                "Q6"
+              ],
+              "intervention_comparator_ids": [
+                "Q6",
+                "Q9",
+                "Q10",
+                "Q11"
+              ],
+              "outcome_result_ids": [
+                "Q9",
+                "Q10",
+                "Q11",
+                "Q12",
+                "Q13",
+                "Q14"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "population_ids",
+                  "problem": "The selected population_ids only include Q6, but the abstract mentions T2D populations in Q9 and Q10, which are critical for the comparison groups. The population_ids should reflect the specific populations (e.g., T2D) where the effects are",
+                  "quote_ids": [
+                    "Q9",
+                    "Q10"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids include Q6, Q9, Q10, Q11, but Q9 and Q10 are outcomes (not comparators). The comparators should be the exercise timing groups (morning vs. afternoon/evening), not the outcomes themselves.",
+                  "quote_ids": [
+                    "Q9",
+                    "Q10"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids include Q9, Q10, Q11, Q12, Q13, Q14, but Q13 and Q14 are acute studies results, while the main focus of the study is long-term studies (Q9-Q12). The outcome_result_ids should focus on the primary outcomes (Hb",
+                  "quote_ids": [
+                    "Q13",
+                    "Q14"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q4",
+                  "text": "METHODS: Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines, this study conducted literature searches in the electronic databases PubMed, Embase, Web of Science, Scopus and"
+                },
+                {
+                  "quote_id": "Q5",
+                  "text": " SPORTDiscus."
+                },
+                {
+                  "quote_id": "Q6",
+                  "text": " Fourteen long-term and five acute studies were analyzed (n = 765 participants) that compared exercise performed in the morning versus the afternoon or evening, and assessed body weight, body mass index, fat mass,"
+                },
+                {
+                  "quote_id": "Q7",
+                  "text": " fasting blood glucose, hemoglobin A1c (HbA1c), insulin, and/or triglycerides. The risk of bias was assessed using the Cochrane tool (RoB 2)."
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q6",
+                  "text": " Fourteen long-term and five acute studies were analyzed (n = 765 participants) that compared exercise performed in the morning versus the afternoon or evening, and assessed body weight, body mass index, fat mass,"
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q6",
+                  "text": " Fourteen long-term and five acute studies were analyzed (n = 765 participants) that compared exercise performed in the morning versus the afternoon or evening, and assessed body weight, body mass index, fat mass,"
+                },
+                {
+                  "quote_id": "Q9",
+                  "text": "RESULTS: In the long-term studies, morning training was associated with a greater reduction in HbA1c (mean difference [MD] - 0.11%, 95% confidence intervals [CI] - 0.19 to - 0.03, I2 = 0%, p = 0.009), an effect"
+                },
+                {
+                  "quote_id": "Q10",
+                  "text": " primarily observed in populations with type 2 diabetes (T2D) in subgroup analyses."
+                },
+                {
+                  "quote_id": "Q11",
+                  "text": " In contrast, afternoon training was associated with a greater reduction in fasting blood glucose (MD 0.13 mmol/L, 95% CI 0.01 to 0.24, I2 = 0%, p = 0.03)."
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q9",
+                  "text": "RESULTS: In the long-term studies, morning training was associated with a greater reduction in HbA1c (mean difference [MD] - 0.11%, 95% confidence intervals [CI] - 0.19 to - 0.03, I2 = 0%, p = 0.009), an effect"
+                },
+                {
+                  "quote_id": "Q10",
+                  "text": " primarily observed in populations with type 2 diabetes (T2D) in subgroup analyses."
+                },
+                {
+                  "quote_id": "Q11",
+                  "text": " In contrast, afternoon training was associated with a greater reduction in fasting blood glucose (MD 0.13 mmol/L, 95% CI 0.01 to 0.24, I2 = 0%, p = 0.03)."
+                },
+                {
+                  "quote_id": "Q12",
+                  "text": " No significant timing effects were observed for other body composition or lipid outcomes."
+                },
+                {
+                  "quote_id": "Q13",
+                  "text": " In the acute studies, afternoon exercise was associated with greater reductions in glucose levels from pre- to post-exercise (MD 0.53 mmol/L, 95% CI 0.10 to 0.96, I2 = 21%, p = 0.02), but no difference was found for"
+                },
+                {
+                  "quote_id": "Q14",
+                  "text": " fasting blood glucose. The certainty of evidence ranged from moderate to very low across most outcomes, primarily due to risk of bias and imprecision.\n\n"
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42658446",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42658446/",
+              "title": "Influence of Morning and Afternoon Exercise on Body Composition and Metabolic Health: A Systematic Review and Meta-Analysis.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article",
+                "Systematic Review"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 Aug 27"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592391+00:00",
+              "text_scope": "abstract_only",
+              "id": "S40445dbef38b6b61",
+              "text_file": "sources/S40445dbef38b6b61.txt",
+              "text_sha256": "0dd996e19b5268e17ab3ff18c366f90313b4ba159abbafc3e0986c119cc59e83",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 2642
+            },
+            "text": "BACKGROUND: Exercise is widely recognized for its beneficial effects on metabolic health and can serve as a non-pharmacological health intervention. However, the effect of morning versus afternoon exercise on various metabolic indicators remains unclear. This study aimed to systematically analyze the effect of exercise at various times of day on body composition, glucose and lipid metabolism.\n\nMETHODS: Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines, this study conducted literature searches in the electronic databases PubMed, Embase, Web of Science, Scopus and SPORTDiscus. Fourteen long-term and five acute studies were analyzed (n = 765 participants) that compared exercise performed in the morning versus the afternoon or evening, and assessed body weight, body mass index, fat mass, fasting blood glucose, hemoglobin A1c (HbA1c), insulin, and/or triglycerides. The risk of bias was assessed using the Cochrane tool (RoB 2). The certainty of evidence was assessed using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework.\n\nRESULTS: In the long-term studies, morning training was associated with a greater reduction in HbA1c (mean difference [MD] - 0.11%, 95% confidence intervals [CI] - 0.19 to - 0.03, I2 = 0%, p = 0.009), an effect primarily observed in populations with type 2 diabetes (T2D) in subgroup analyses. In contrast, afternoon training was associated with a greater reduction in fasting blood glucose (MD 0.13 mmol/L, 95% CI 0.01 to 0.24, I2 = 0%, p = 0.03). No significant timing effects were observed for other body composition or lipid outcomes. In the acute studies, afternoon exercise was associated with greater reductions in glucose levels from pre- to post-exercise (MD 0.53 mmol/L, 95% CI 0.10 to 0.96, I2 = 21%, p = 0.02), but no difference was found for fasting blood glucose. The certainty of evidence ranged from moderate to very low across most outcomes, primarily due to risk of bias and imprecision.\n\nCONCLUSIONS: Morning and afternoon exercise suggest selective effects on glycemic control, though these findings should be considered preliminary and were primarily observed in populations with T2D. Morning training was associated with a statistically significant reduction in HbA1c, whereas afternoon training was associated with lowering fasting blood glucose. However, these findings should be interpreted with caution, as the result was primarily observed in T2D populations and the overall certainty of evidence was low. No consistent differential effects were observed for body composition or other lipid parameters."
+          },
+          "assessment": {
+            "exposure": {
+              "match": "mismatch",
+              "quote_ids": [
+                "Q6"
+              ]
+            },
+            "outcome": {
+              "match": "mismatch",
+              "quote_ids": [
+                "Q9",
+                "Q10",
+                "Q11",
+                "Q12"
+              ]
+            },
+            "context": {
+              "match": "not_applicable",
+              "quote_ids": []
+            },
+            "needs_scope_clarification": true,
+            "reason": "The claim states 'the best time for exercise' but the study only shows differential effects on specific metabolic markers (HbA1c, fasting glucose) in T2D populations, not a general 'best time' for all individuals or health outcomes. The study does not provide a universal recommendation for 'best time' across all populations or health contexts. The claim is overly broad and does not align with the ",
+            "gaps": [
+              "The study does not address general population benefits beyond T2D populations",
+              "No evidence for long-term benefits outside of T2D populations",
+              "No comparison of exercise timing across different health conditions or populations",
+              "The claim implies a single optimal time for all, but the study shows context-dependent effects"
+            ]
+          },
+          "passages": {
+            "exposure": [
+              {
+                "quote_id": "Q6",
+                "text": " Fourteen long-term and five acute studies were analyzed (n = 765 participants) that compared exercise performed in the morning versus the afternoon or evening, and assessed body weight, body mass index, fat mass,"
+              }
+            ],
+            "outcome": [
+              {
+                "quote_id": "Q9",
+                "text": "RESULTS: In the long-term studies, morning training was associated with a greater reduction in HbA1c (mean difference [MD] - 0.11%, 95% confidence intervals [CI] - 0.19 to - 0.03, I2 = 0%, p = 0.009), an effect"
+              },
+              {
+                "quote_id": "Q10",
+                "text": " primarily observed in populations with type 2 diabetes (T2D) in subgroup analyses."
+              },
+              {
+                "quote_id": "Q11",
+                "text": " In contrast, afternoon training was associated with a greater reduction in fasting blood glucose (MD 0.13 mmol/L, 95% CI 0.01 to 0.24, I2 = 0%, p = 0.03)."
+              },
+              {
+                "quote_id": "Q12",
+                "text": " No significant timing effects were observed for other body composition or lipid outcomes."
+              }
+            ],
+            "context": []
+          }
+        },
+        "S2b482cbe59d234dd": {
+          "status": "provisional_model_screen",
+          "label": "likely_unrelated",
+          "source": {
+            "status": "blocked",
+            "error": "Complete abstract exceeds context budget; no text was truncated",
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42812561",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42812561/",
+              "title": "Morning or evening? Time of day does not affect body composition, cardiopulmonary performance, and muscle strength responses to combined training in women with obesity.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592520+00:00",
+              "text_scope": "abstract_only",
+              "id": "S2b482cbe59d234dd",
+              "text_file": "sources/S2b482cbe59d234dd.txt",
+              "text_sha256": "e801b08b85d19ce6735b14fc289dfa424a141fb99a59e6eee7ef0639d05ee7f3",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 3476
+            },
+            "text": "INTRODUCTION: Obesity is characterized by adipocyte dysfunction, accompanied by impairments in oxidative metabolism and physical function. Although physical training is known to improve oxidative capacity, body composition, and functional performance, the magnitude of these adaptations may be influenced by several modulatory factors. Among these, circadian rhythm has emerged as a potential determinant of exercise-induced adaptations due to daily fluctuations in metabolic and physiological processes; however, its influence in women with obesity remains unclear. Therefore, this study aimed to investigate the effects of combined training performed at different times of the day (morning vs. evening) on body composition, cardiopulmonary performance, and muscle strength in previously untrained women with obesity.\n\nMETHODS: This randomized clinical trial (NCT06601660) included women with obesity (waist circumference ≥88 cm) aged 18-50 years. Participants were randomly assigned to a control group (CG; n = 13), a morning training group (MT; training performed between 07:00 and 10:00 a.m.; n = 17), or an evening training group (ET; training performed between 06:00 and 09:00 p.m.; n = 19). Assessments conducted before and after the intervention included body composition (InBody® 770), cardiopulmonary performance evaluated by cardiopulmonary exercise testing (CPET), muscle strength assessed by the one-repetition maximum (1RM) test, and cardiovascular parameters evaluated by blood pressure (BP) and heart rate (HR); the last three were performed at both a.m. and p.m. times. Only participants in the MT and ET groups underwent the intervention, which consisted of an 8-week combined training program performed three times per week. Each session included both resistance and aerobic exercise, with progressive increases in exercise intensity and duration throughout the intervention period. Participants assigned to the CG underwent assessments only.\n\nRESULTS: Significant group-by-period interactions were observed for VO2peak and bench-press and leg-press 1RM, whereas maximal treadmill velocity showed a significant period effect without a significant group-by-period interaction. Bench-press 1RM increased in MT during morning and evening testing by 5.79 and 5.31 kg, respectively, and in ET by 4.97 and 5.50 kg (all p < 0.001; d = 2.37-2.76), with gains in both training groups exceeding those observed in CG. Leg-press 1RM increased in MT by 22.20 and 29.01 kg and in ET by 18.40 and 17.11 kg during morning and evening testing, respectively (p ≤ 0.001; d = 1.13-1.92); however, only MT showed a greater overall change than CG. VO2peak increased in MT during morning testing [2.42 mL·kg-1·min-1 (p = 0.004; d = 1.04)] and in ET during evening testing [1.57 mL·kg-1·min-1 (p = 0.048; d = 0.67)]. Maximal treadmill velocity and CPET duration improved over time, but their changes did not differ significantly among groups. Body-composition and cardiovascular adaptations were limited, with waist circumference increasing only in CG.\n\nCONCLUSION: Eight weeks of combined training performed either in the morning or evening improved maximal muscle strength and cardiopulmonary performance in women with obesity, while producing limited changes in body composition and cardiovascular measures. No consistent evidence of superior adaptations according to training time was observed, suggesting that both schedules can effectively promote health-related adaptations."
+          },
+          "assessment": {
+            "exposure": {
+              "match": "mismatch",
+              "quote_ids": [
+                "Q4",
+                "Q7",
+                "Q8",
+                "Q11"
+              ]
+            },
+            "outcome": {
+              "match": "partial",
+              "quote_ids": [
+                "Q13",
+                "Q15",
+                "Q16",
+                "Q17"
+              ]
+            },
+            "context": {
+              "match": "not_applicable",
+              "quote_ids": [
+                "Q6",
+                "Q7",
+                "Q8",
+                "Q9"
+              ]
+            },
+            "needs_scope_clarification": true,
+            "reason": "The claim states 'the best time for exercise' but the study compares morning vs. evening training without identifying a superior outcome. The outcomes measured (muscle strength, VO2peak) show improvements in both groups but no consistent superiority. The study does not claim a 'best' time, only that both schedules are effective. Vague outcomes like 'best' require clarification as the study does no",
+            "gaps": [
+              "The study does not specify which time of day is better for which outcome",
+              "No comparison of long-term effects or sustainability of results",
+              "Limited body composition changes reported (waist circumference increased in control group)"
+            ]
+          },
+          "passages": {
+            "exposure": [
+              {
+                "quote_id": "Q4",
+                "text": " remains unclear. Therefore, this study aimed to investigate the effects of combined training performed at different times of the day (morning vs."
+              },
+              {
+                "quote_id": "Q7",
+                "text": " Participants were randomly assigned to a control group (CG; n = 13), a morning training group (MT; training performed between 07:00 and 10:00 a.m.; n = 17), or an evening training group (ET; training performed between"
+              },
+              {
+                "quote_id": "Q8",
+                "text": " 06:00 and 09:00 p.m.; n = 19)."
+              },
+              {
+                "quote_id": "Q11",
+                "text": " Only participants in the MT and ET groups underwent the intervention, which consisted of an 8-week combined training program performed three times per week."
+              }
+            ],
+            "outcome": [
+              {
+                "quote_id": "Q13",
+                "text": "RESULTS: Significant group-by-period interactions were observed for VO2peak and bench-press and leg-press 1RM, whereas maximal treadmill velocity showed a significant period effect without a significant group-by-period"
+              },
+              {
+                "quote_id": "Q15",
+                "text": " Bench-press 1RM increased in MT during morning and evening testing by 5.79 and 5.31 kg, respectively, and in ET by 4.97 and 5.50 kg (all p < 0.001; d = 2.37-2.76), with gains in both training groups exceeding those"
+              },
+              {
+                "quote_id": "Q16",
+                "text": " observed in CG."
+              },
+              {
+                "quote_id": "Q17",
+                "text": " Leg-press 1RM increased in MT by 22.20 and 29.01 kg and in ET by 18.40 and 17.11 kg during morning and evening testing, respectively (p ≤ 0.001; d = 1.13-1.92); however, only MT showed a greater overall change than CG."
+              }
+            ],
+            "context": [
+              {
+                "quote_id": "Q6",
+                "text": "METHODS: This randomized clinical trial (NCT06601660) included women with obesity (waist circumference ≥88 cm) aged 18-50 years."
+              },
+              {
+                "quote_id": "Q7",
+                "text": " Participants were randomly assigned to a control group (CG; n = 13), a morning training group (MT; training performed between 07:00 and 10:00 a.m.; n = 17), or an evening training group (ET; training performed between"
+              },
+              {
+                "quote_id": "Q8",
+                "text": " 06:00 and 09:00 p.m.; n = 19)."
+              },
+              {
+                "quote_id": "Q9",
+                "text": " Assessments conducted before and after the intervention included body composition (InBody® 770), cardiopulmonary performance evaluated by cardiopulmonary exercise testing (CPET), muscle strength assessed by the"
+              }
+            ]
+          }
+        },
+        "Sa4bfda174a883e37": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "design_ids",
+                  "problem": "No design IDs selected. The study uses parallel and crossover randomized trials (Q3), so design IDs should include 'parallel', 'crossover'.",
+                  "quote_ids": [
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "population_ids",
+                  "problem": "No population IDs selected. The study specifies 'adults' (implied by context), but the abstract does not explicitly state population. However, the study likely involves adults given the context of exercise and sleep.",
+                  "quote_ids": [
+                    "Q2"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "No intervention comparator IDs selected. The study compares 'Exercise vs. Control' and 'Time vs. Time' (Q5, Q6, Q7).",
+                  "quote_ids": [
+                    "Q5",
+                    "Q6",
+                    "Q7"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "No outcome result IDs selected. The outcomes are sleep quality and mood (Q4, Q5, Q6, Q7).",
+                  "quote_ids": [
+                    "Q4",
+                    "Q5",
+                    "Q6"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42857179",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42857179/",
+              "title": "Time-of-day effects of acute and regular exercise on sleep quality and mood: a three-level meta-analysis.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article",
+                "Systematic Review"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592584+00:00",
+              "text_scope": "abstract_only",
+              "id": "Sa4bfda174a883e37",
+              "text_file": "sources/Sa4bfda174a883e37.txt",
+              "text_sha256": "9ee72b3385ff2407c5d18a79ea279c3fc6e37fda6bfb036e0106a3ff8347b60a",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1658
+            },
+            "text": "BACKGROUND: Evidence regarding whether exercise timing differentially affects sleep quality and mood remains inconsistent. This study examined the effects of acute and regular exercise performed at different times of day on sleep and mood.\n\nMETHODS: Eight English and Chinese databases were searched from inception to June 2026. Parallel and crossover randomized trials were synthesized using three-level meta-analysis with non-diagonal sampling variance-covariance matrices. Exercise vs. Control and direct Time vs. Time comparisons were analyzed separately, with CR2 cluster-robust inference used as a robustness check.\n\nRESULTS: Thirteen studies contributed 81 effect sizes (40 sleep and 41 mood). For sleep, Exercise vs. Control showed a large effect in the conventional model (g = 0.86, 95% CI [0.26, 1.46], p = 0.005), but CR2 inference was non-significant (p = 0.109). Direct Time vs. Time comparisons were non-significant (g = 0.15, 95% CI [-0.08, 0.39], p = 0.209; CR2 p = 0.127), with no stable advantage for morning, afternoon, or evening exercise. For mood, Exercise vs. Control was large but non-significant (g = 0.95, p = 0.056). Time vs. Time was significant conventionally (g = 0.30, p = 0.027) but not under CR2 inference (p = 0.097). Afternoon vs. Evening favored afternoon exercise (g = 0.50, p = 0.001), although based on only two studies.\n\nCONCLUSION: Exercise itself may be more important than its specific timing for sleep, whereas mood may show timing-related signals that remain insufficiently robust for definitive recommendations.\n\nSYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/prospero/, identifier [CRD420261431622]."
+          },
+          "error": "Only context may be not_applicable"
+        }
+      },
+      "verdict": null,
+      "priority_source_ids": [],
+      "scope_review_required": true,
+      "status": "relevance_review_required",
+      "next_action": "inspect_unresolved_or_unrelated_sources_before_new_retrieval"
+    },
+    {
+      "claim": {
+        "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+        "exposure": "screen time",
+        "outcome": null,
+        "context": "at least 30 minutes before going to bed",
+        "claim_id": "fitness-02-c005",
+        "input_limitations": [
+          "Existing candidate pool only; no new literature search or relevance assessment.",
+          "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+          "No official guidance was fetched or assessed in this preparation step."
+        ]
+      },
+      "sources": {
+        "Sc4a6f15dccff64e5": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q3",
+                "Q4"
+              ],
+              "population_ids": [
+                "Q3"
+              ],
+              "intervention_comparator_ids": [
+                "Q6",
+                "Q7",
+                "Q8",
+                "Q9"
+              ],
+              "outcome_result_ids": [
+                "Q6",
+                "Q7",
+                "Q8",
+                "Q9",
+                "Q10",
+                "Q11"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "population_ids",
+                  "problem": "The selected population_ids should include Q3, but the complete abstract does not specify a population beyond 'adult General Surgery cohorts' in Q3. The population description is incomplete and not explicitly stated in the abstract.",
+                  "quote_ids": [
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids include Q7, which describes methodological weaknesses rather than a direct intervention or comparator. Q7 is not a valid intervention or comparator but a description of methodological issues.",
+                  "quote_ids": [
+                    "Q7"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids include Q9, which describes variability in outcome definitions rather than a specific outcome result. Q9 is not a concrete outcome result but a description of variability.",
+                  "quote_ids": [
+                    "Q9"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q3",
+                  "text": "METHODS: Embase, Medline, Scopus, and Web of Science were systematically searched to June 2025. Studies employing AI or ML to predict LoS or discharge timing in adult General Surgery cohorts were included."
+                },
+                {
+                  "quote_id": "Q4",
+                  "text": " Data on model development, predictor and target variables, performance, and validation were extracted. Risk of bias was appraised using PROBAST + AI. A checklist was developed to guide future LoS-prediction research.\n\n"
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q3",
+                  "text": "METHODS: Embase, Medline, Scopus, and Web of Science were systematically searched to June 2025. Studies employing AI or ML to predict LoS or discharge timing in adult General Surgery cohorts were included."
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q6",
+                  "text": " Classifier models with low overall risk of bias achieved moderate discrimination (AUROC 0.71-0.83), whereas regression models performed poorly (RMSE 4.6-12.7 days)."
+                },
+                {
+                  "quote_id": "Q7",
+                  "text": " Methodological weaknesses were frequent, including data leakage, temporally invalid predictors, biased patient selection, limited external validation, and incomplete performance reporting."
+                },
+                {
+                  "quote_id": "Q8",
+                  "text": " Important predictors commonly included ASA score, age and operative duration; psychosocial and home-support features were rarely considered."
+                },
+                {
+                  "quote_id": "Q9",
+                  "text": " Outcome definitions and intended applications varied substantially, limiting direct comparison of performance."
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q6",
+                  "text": " Classifier models with low overall risk of bias achieved moderate discrimination (AUROC 0.71-0.83), whereas regression models performed poorly (RMSE 4.6-12.7 days)."
+                },
+                {
+                  "quote_id": "Q7",
+                  "text": " Methodological weaknesses were frequent, including data leakage, temporally invalid predictors, biased patient selection, limited external validation, and incomplete performance reporting."
+                },
+                {
+                  "quote_id": "Q8",
+                  "text": " Important predictors commonly included ASA score, age and operative duration; psychosocial and home-support features were rarely considered."
+                },
+                {
+                  "quote_id": "Q9",
+                  "text": " Outcome definitions and intended applications varied substantially, limiting direct comparison of performance."
+                },
+                {
+                  "quote_id": "Q10",
+                  "text": " Models predicting discharge within short, dynamically reassessed time horizons may achieve greater accuracy, but offer limited capacity for longer-term bed forecasting."
+                },
+                {
+                  "quote_id": "Q11",
+                  "text": " No included study benchmarked ML or AI predictions against usual clinician LoS estimates."
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42755093",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42755093/",
+              "title": "Artificial Intelligence for Predicting Length of Stay for General Surgery Patients: A Systematic Review.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article",
+                "Systematic Review",
+                "Review"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 Oct"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592438+00:00",
+              "text_scope": "abstract_only",
+              "id": "Sc4a6f15dccff64e5",
+              "text_file": "sources/Sc4a6f15dccff64e5.txt",
+              "text_sha256": "6478e3d8be0c4160206b63c7ce6b62cfc2a45dec12d3b672486621a905fb0619",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 2526
+            },
+            "text": "BACKGROUND: Length of stay (LoS) prediction is vital for optimizing surgical patient flow and resource allocation. Artificial intelligence (AI) and machine learning (ML) models may enhance LoS prediction, yet their validity and clinical utility in General Surgery remain unclear.\n\nMETHODS: Embase, Medline, Scopus, and Web of Science were systematically searched to June 2025. Studies employing AI or ML to predict LoS or discharge timing in adult General Surgery cohorts were included. Data on model development, predictor and target variables, performance, and validation were extracted. Risk of bias was appraised using PROBAST + AI. A checklist was developed to guide future LoS-prediction research.\n\nRESULTS: Nine of 4115 screened records met inclusion criteria. Classifier models with low overall risk of bias achieved moderate discrimination (AUROC 0.71-0.83), whereas regression models performed poorly (RMSE 4.6-12.7 days). Methodological weaknesses were frequent, including data leakage, temporally invalid predictors, biased patient selection, limited external validation, and incomplete performance reporting. Important predictors commonly included ASA score, age and operative duration; psychosocial and home-support features were rarely considered. Outcome definitions and intended applications varied substantially, limiting direct comparison of performance. Models predicting discharge within short, dynamically reassessed time horizons may achieve greater accuracy, but offer limited capacity for longer-term bed forecasting. No included study benchmarked ML or AI predictions against usual clinician LoS estimates. Low-bias models were retrospective and generally internally validated, so performance in prospective or external cohorts remains unknown. More complex neural network models did not consistently outperform simpler methods. This review identifies recurring barriers to prospective clinical application for routine real-world use.\n\nCONCLUSION: AI and ML models can moderately predict LoS for General Surgery patients, but generalizability is limited by methodological bias, incomplete reporting, and non-standard outcome definitions. Current models appear more suited to hospital-wide forecasting than bedside decision support. Future development should use prospectively available predictors, clinically meaningful outcomes, transparent performance reporting, and external validation. The proposed framework highlights strategies to avoid common methodological flaws in models published to date."
+          },
+          "error": "Only context may be not_applicable"
+        },
+        "Sd3bc3ec724b26757": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "design_ids",
+                  "problem": "No design IDs selected. The study uses an experimental ICU bed allocation scenario with 8227 scientists surveyed across disciplines. The design should include the experimental setup (e.g., simulated ICU bed allocation scenarios) as a key 'Q",
+                  "quote_ids": [
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "population_ids",
+                  "problem": "No population IDs selected. The study population is 8227 scientists across disciplines surveyed in April and May 2020. The population should include the specific group (e.g., health-related scientists) as a key 'Q",
+                  "quote_ids": [
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "No intervention/comparator IDs selected. The study compares incumbent patient (earlier-arriving) vs. alternative patients (later-arriving) in triage decisions. The intervention/comparator should include the procedural rule (FCFS) and the 't",
+                  "quote_ids": [
+                    "Q5"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "No outcome/result IDs selected. The study reports outcomes like 'lower decision avoidance' and 'robust arrival-priority pattern'. The outcome should include the key results (e.g., 'many respondents prioritize earlier-arriving patient') as a",
+                  "quote_ids": [
+                    "Q5",
+                    "Q6"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42810318",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42810318/",
+              "title": "Treating the incumbent patient in triage: An analysis of \"first come, first served\" as a procedural rule.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 Sep 18"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592480+00:00",
+              "text_scope": "abstract_only",
+              "id": "Sd3bc3ec724b26757",
+              "text_file": "sources/Sd3bc3ec724b26757.txt",
+              "text_sha256": "8bcf9688046459d280619f994aa09836a82d9e9d2e2242e80e0e1a037ad6b370",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1498
+            },
+            "text": "Allocating scarce intensive care resources requires decisions about both which patients should receive priority and which rules should guide those choices. We investigate how the procedural allocation rule \"first come, first served\" (FCFS) shapes triage decisions. Using experimental ICU bed allocation scenarios, we examine how 8227 scientists across disciplines, surveyed in April and May 2020, make life-and-death allocation decisions when patients differ in clinical and social characteristics and arrive simultaneously or sequentially. Many respondents prioritize the earlier-arriving incumbent patient even when the alternative has stronger survival-relevant claims, indicating a robust arrival-priority pattern. At the same time, the incumbent frame is associated with lower decision avoidance, suggesting that FCFS can function as a morally and organizationally \"safe\" shortcut in high-stakes settings. Reliance on FCFS varies across expert communities in ways consistent with disciplinary training. Health economists, whose work emphasizes trade-offs and policy evaluation, exhibit lower average adherence to FCFS than other health-related scientists, although substantial reliance on FCFS persists even within this group. The findings highlight a tension between procedural legitimacy and benefit-based triage criteria and suggest that guidelines should anticipate default-preserving tendencies and omission concerns when designing equitable and clinically grounded allocation procedures."
+          },
+          "error": "Only context may be not_applicable"
+        },
+        "S6ae3518c2a6eb3fa": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "blocked",
+            "error": "Complete abstract exceeds context budget; no text was truncated",
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42831210",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42831210/",
+              "title": "The Psychological Impact of Hospital Admission on the Elderly: A Prospective Comparative Clinical Audit and Service Evaluation.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 Oct"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592560+00:00",
+              "text_scope": "abstract_only",
+              "id": "S6ae3518c2a6eb3fa",
+              "text_file": "sources/S6ae3518c2a6eb3fa.txt",
+              "text_sha256": "b87994e1d998b4a9f26362885a0fbe3148903f039064e1523c53f94603c471ad",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 3421
+            },
+            "text": "Introduction Hospital admission in older adults can be associated with functional decline, loss of independence, delirium, disruption of routine, and psychological deterioration. Virtual Wards, also described as Hospital-at-Home models, provide acute clinical care in a patient's usual place of residence and may reduce some harms associated with inpatient admission. Although Virtual Wards are commonly evaluated in terms of bed capacity, admission avoidance, and clinical safety, their psychological impact remains less well explored. This audit compared depressive symptoms and self-rated mood in older adults managed in hospital with those treated through a Virtual Ward service. Methods A prospective comparative clinical audit and service evaluation was conducted within the Care of the Elderly directorate at East Cheshire NHS Trust. The audit included 100 patients aged ≥70 years: 50 hospital inpatients and 50 patients managed through Virtual Ward pathways. Eligible patients had received at least five days of inpatient or Virtual Ward care and had broadly comparable medical diagnoses. Patients with severe acute or life-threatening illness, those lacking capacity to participate, and those with communication barriers preventing completion of the assessment tools were excluded. Baseline age, sex, primary diagnosis, and Clinical Frailty Scale (CFS) characteristics were compared descriptively between cohorts. Depressive symptoms were assessed using the 15-item Geriatric Depression Scale (GDS-15), and self-rated mood was assessed using a five-point mood scale. Exploratory unadjusted between-group comparisons were performed for selected patient-level outcomes. Results Hospital inpatients demonstrated a greater depressive symptom burden than Virtual Ward patients. A GDS-15 score of ≥5 was recorded in 36 (72%) hospital inpatients compared with 15 (30%) Virtual Ward patients, corresponding to an unadjusted odds ratio of 6.00 (95% CI, 2.53-14.24; Fisher's exact p<0.001). Low self-rated mood, defined as a score of 1 or 2, was reported by 19 (38%) hospital inpatients compared with three (6%) Virtual Ward patients, with an unadjusted odds ratio of 9.60 (95% CI, 2.62-35.21; Fisher's exact p<0.001). Conversely, positive mood scores of 4 or 5 were reported by 32 (64%) Virtual Ward patients compared with 16 (32%) hospital inpatients. Baseline age and frailty distributions showed substantial descriptive overlap, although some variation in sex and primary diagnosis was present between cohorts. Conclusion Older adults receiving inpatient care demonstrated a greater burden of depressive symptoms and less positive self-rated mood than those managed through the Virtual Ward service. However, the non-randomised design, potential selection bias, and absence of adjustment for important baseline factors such as cognitive status, functional status, social support, and baseline psychological wellbeing mean that causation cannot be established. The findings should therefore be interpreted as an association between care setting and psychological wellbeing rather than evidence that Virtual Ward care itself improves mood. Further prospective evaluation using comprehensive baseline assessment, adjusted analyses, and post-discharge follow-up is required. Older adults who require hospital admission may also benefit from routine mood assessment and targeted measures to support psychological wellbeing."
+          },
+          "error": "Only context may be not_applicable"
+        }
+      },
+      "verdict": null,
+      "priority_source_ids": [],
+      "scope_review_required": true,
+      "status": "relevance_review_required",
+      "next_action": "inspect_unresolved_or_unrelated_sources_before_new_retrieval"
+    },
+    {
+      "claim": {
+        "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+        "exposure": "maintaining proper posture",
+        "outcome": "prevent back pain",
+        "context": "while sitting",
+        "claim_id": "fitness-02-c006",
+        "input_limitations": [
+          "Existing candidate pool only; no new literature search or relevance assessment.",
+          "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+          "No official guidance was fetched or assessed in this preparation step."
+        ]
+      },
+      "sources": {
+        "S6e4e53b38a7db8f2": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "design_ids",
+                  "problem": "No design IDs selected. The study is a single case report, so design should be 'case report' or 'single case'.",
+                  "quote_ids": [
+                    "Q11"
+                  ]
+                },
+                {
+                  "field": "population_ids",
+                  "problem": "No population IDs selected. The population is a 26-year-old male with Scheuermann's disease.",
+                  "quote_ids": [
+                    "Q4",
+                    "Q5"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "No intervention/comparator IDs selected. The intervention is CBP® spinal rehabilitation; no comparator is mentioned (it's a single case).",
+                  "quote_ids": [
+                    "Q1",
+                    "Q6",
+                    "Q10"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "No outcome/result IDs selected. Outcomes include improvement in thoracic hyperkyphosis, sagittal balance, health-related quality of life (SF-36 scores), and maintained improvements at 28 months.",
+                  "quote_ids": [
+                    "Q8",
+                    "Q9",
+                    "Q10"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42740924",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42740924/",
+              "title": "Sustained Improvements of Thoracic Hyperkyphosis, Body Dysmorphic Disorder, in a 26-Year-Old Male With Scheuermann's Disease Using Chiropractic BioPhysics® Spinal Rehabilitation: A Case Report and 28-Month Long-Term Follow-Up.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Case Reports",
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 Sep"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592414+00:00",
+              "text_scope": "abstract_only",
+              "id": "S6e4e53b38a7db8f2",
+              "text_file": "sources/S6e4e53b38a7db8f2.txt",
+              "text_sha256": "1ce0ed74c18bba9b80ee047bec9433e96465668d60c00a37c0740f6dd9d36efe",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 2029
+            },
+            "text": "We report sustained improvements in thoracic hyperkyphosis, sagittal balance, and health-related quality of life in a 26-year-old male with Scheuermann's disease using Chiropractic BioPhysics® (CBP®) rehabilitation with a 28-month long-term follow-up. Scheuermann's is associated with significant reductions in quality-of-life outcomes and poor psychosocial outcomes. Body dysmorphic disorders and altered self-perception further deteriorate patient-reported outcomes. Reductions in abnormal spine conditions can reduce the likelihood of disability and chronic conditions. A 26-year-old male with posture deformity and hyperkyphosis had experienced only long-term mild pain and consequences from his abnormal posture. Poor sagittal alignment led to disqualification for enrollment into the United States Coast Guard; he sought treatment in Meridian, Idaho, USA. Physical examination demonstrated altered spine and postural alignment. Treatment was a multi-modal regimen focused on postural muscles, specific spine manipulation directed toward abnormal full-spine alignment, and specific mirror image traction aimed to improve spine integrity by realigning the spine toward a more normal position. Following 36 treatments over three months, all initial tests and outcome measures were repeated. All outcome measures, posture, and radiographic mensuration demonstrated improvement at the conclusion of treatment and were maintained at 28-month re-examination. SF-36 scores improved by the minimal clinically important difference in nearly all categories and were maintained at 28 months. We report that the CBP®treatment approach had a potential positive effect for a single patient with Scheuermann's kyphosis. This investigation is a single case, and no declarative statements of efficacy are made or implied. Larger controlled studies are necessary to make conclusions regarding Scheuermann's kyphosis with CBP treatment. This study adds to the literature regarding conservative methods of treating postural and spine disorders."
+          },
+          "error": "Only context may be not_applicable"
+        },
+        "S76ebc2ffbe320969": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q1"
+              ],
+              "population_ids": [
+                "Q2"
+              ],
+              "intervention_comparator_ids": [
+                "Q4"
+              ],
+              "outcome_result_ids": [
+                "Q7",
+                "Q8",
+                "Q9",
+                "Q10"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "population_ids",
+                  "problem": "Q2 states '118 participants, including patients diagnosed with temporomandibular disorder (TMD) and healthy controls' but does not specify the exact number of TMD patients or healthy controls. This is a critical omission for population size",
+                  "quote_ids": [
+                    "Q2"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "Q4 states 'four groups: healthy controls, myalgia, disc displacement with reduction (DDwR), and disc displacement without reduction (DDwoR)' but does not explicitly state that these are the only comparison groups. The term 'myalgia' is not ",
+                  "quote_ids": [
+                    "Q4"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "Q7 mentions 'DDwoR group compared with the control group and other TMD subtypes' but does not specify which TMD subtypes are included in 'other TMD subtypes'. This is a critical omission for outcome comparison groups",
+                  "quote_ids": [
+                    "Q7"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "Q8 states 'No significant differences were observed among groups' but does not specify which groups were compared. The study has four groups, but the comparison is not explicitly stated",
+                  "quote_ids": [
+                    "Q8"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q1",
+                  "text": "BACKGROUND: This study aimed to compare cervical sagittal alignment among temporomandibular disorder subtypes and to investigate the relationships between cervical alignment parameters, temporomandibular joint pain,"
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q2",
+                  "text": " neck pain, and jaw functional limitation.\n\nMATERIALS AND METHODS: A total of 118 participants, including patients diagnosed with temporomandibular disorder (TMD) and healthy controls, were included in the study."
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q4",
+                  "text": " Based on the DC/TMD criteria, participants were classified into four groups: healthy controls, myalgia, disc displacement with reduction (DDwR), and disc displacement without reduction (DDwoR)."
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q7",
+                  "text": "RESULTS: TMJ pain intensity and JFLS-8 scores were significantly higher in the DDwoR group compared with the control group and other TMD subtypes (p < 0.001)."
+                },
+                {
+                  "quote_id": "Q8",
+                  "text": " No significant differences were observed among groups in terms of C2-C7 Cobb angle, POCA, or O-C2 angle (p > 0.05)."
+                },
+                {
+                  "quote_id": "Q9",
+                  "text": " Statiscally significant but weak positive correlations were found between TMJ pain and neck pain, as well as between TMJ pain and jaw functional limitation (p < 0.001)."
+                },
+                {
+                  "quote_id": "Q10",
+                  "text": " A weak positive correlation was initially observed between TMJ pain and the C2-C7 Cobb angle; however, this association did not remain statistically significant after correction for multiple comparisons.\n\n"
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42763410",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42763410/",
+              "title": "Static sagittal cervical alignment, pain, and jaw functional limitation across temporomandibular disorder subtypes: a cross-sectional study.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 Sep 04"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592462+00:00",
+              "text_scope": "abstract_only",
+              "id": "S76ebc2ffbe320969",
+              "text_file": "sources/S76ebc2ffbe320969.txt",
+              "text_sha256": "c06180fc1b93df3b1735bb93a2d6ceb4bfffc5fdf7d26c57e19f481579513504",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 2088
+            },
+            "text": "BACKGROUND: This study aimed to compare cervical sagittal alignment among temporomandibular disorder subtypes and to investigate the relationships between cervical alignment parameters, temporomandibular joint pain, neck pain, and jaw functional limitation.\n\nMATERIALS AND METHODS: A total of 118 participants, including patients diagnosed with temporomandibular disorder (TMD) and healthy controls, were included in the study. The study was conducted between January 2, 2025, and July 2, 2025. Based on the DC/TMD criteria, participants were classified into four groups: healthy controls, myalgia, disc displacement with reduction (DDwR), and disc displacement without reduction (DDwoR). TMJ pain and cervical pain intensities were assessed using VAS, while jaw functional limitation was evaluated using the jaw functional limitation scale-8 (JFLS-8). Cervical sagittal alignment was assessed on lateral cephalometric radiographs using the C2-C7 Cobb angle, POCA, and O-C2 angle. Multivariate analysis of variance and correlation analyses were performed.\n\nRESULTS: TMJ pain intensity and JFLS-8 scores were significantly higher in the DDwoR group compared with the control group and other TMD subtypes (p < 0.001). No significant differences were observed among groups in terms of C2-C7 Cobb angle, POCA, or O-C2 angle (p > 0.05). Statiscally significant but weak positive correlations were found between TMJ pain and neck pain, as well as between TMJ pain and jaw functional limitation (p < 0.001). A weak positive correlation was initially observed between TMJ pain and the C2-C7 Cobb angle; however, this association did not remain statistically significant after correction for multiple comparisons.\n\nCONCLUSION: Although TMD subtypes differ significantly in TMJ pain severity and jaw functional limitation, cervical sagittal alignment parameters do not significantly distinguish these groups. These findings suggest that sagittal cervical alignment has a limited role in explaining TMD-related symptom severity and highlight the multifactorial nature of temporomandibular disorders."
+          },
+          "error": "Only context may be not_applicable"
+        },
+        "S407eacc6b499746c": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "design_ids",
+                  "problem": "The selected design_ids is empty. The abstract describes a case report, which typically involves a single patient without a control group or comparison. However, the design should reflect the study design (e.g., case report, case series).",
+                  "quote_ids": [
+                    "Q1",
+                    "Q2",
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "population_ids",
+                  "problem": "The selected population_ids is empty. The abstract specifies a 48-year-old man with hypoparathyroidism, so the population should include this demographic and condition.",
+                  "quote_ids": [
+                    "Q2"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids is empty. The abstract mentions facet joint block and duloxetine treatment, but does not explicitly compare these interventions to a control group or alternative treatments.",
+                  "quote_ids": [
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids is empty. The abstract reports a VAS score decrease from 8 to 3, which is a key outcome measure.",
+                  "quote_ids": [
+                    "Q3"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42824910",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42824910/",
+              "title": "Axial Back Pain Secondary to Ligamentum Flavum Ossification in a Patient with Hypoparathyroidism: A Rare Case Report.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Case Reports",
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592539+00:00",
+              "text_scope": "abstract_only",
+              "id": "S407eacc6b499746c",
+              "text_file": "sources/S407eacc6b499746c.txt",
+              "text_sha256": "a7c446457447e82d6ddc78c393e5011efd787c403047c1542f45b195b3e3ab89",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 677
+            },
+            "text": "The ligamentum flavum is a structure that connects adjacent laminae and plays a role in maintaining upright posture. Hypoparathyroidism can rarely cause ligamentum flavum ossification (LFO). LFO can cause symptoms due to spinal cord compression. A 48-year-old man was evaluated for complaints of widespread back pain, a burning sensation, and numbness in the lower extremities. Imaging revealed spinal stenosis at the T10-T11 level due to LFO. Following facet joint block and duloxetine treatment, the VAS score decreased from 8 to 3. Early diagnosis and appropriate treatment of LFO in patients with hypoparathyroidism are critical for symptom control and functional recovery."
+          },
+          "error": "Only context may be not_applicable"
+        }
+      },
+      "verdict": null,
+      "priority_source_ids": [],
+      "scope_review_required": false,
+      "status": "relevance_review_required",
+      "next_action": "inspect_unresolved_or_unrelated_sources_before_new_retrieval"
+    },
+    {
+      "claim": {
+        "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+        "exposure": "replacing sugary drinks with herbal tea",
+        "outcome": "healthier alternative",
+        "context": null,
+        "claim_id": "fitness-02-c007",
+        "input_limitations": [
+          "Existing candidate pool only; no new literature search or relevance assessment.",
+          "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+          "No official guidance was fetched or assessed in this preparation step."
+        ]
+      },
+      "sources": {
+        "S252146dc9726d26a": {
+          "status": "provisional_model_screen",
+          "label": "likely_unrelated",
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "design_ids",
+                  "problem": "The selected design_ids is empty. The complete abstract does not mention any specific study design (e.g., cohort, case-control, cross-sectional). The abstract describes general epidemiological evidence but does not specify the design of the",
+                  "quote_ids": [
+                    "Q1",
+                    "Q2",
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "population_ids",
+                  "problem": "The selected population_ids is empty. The complete abstract does not specify the population (e.g., US adults, children, specific demographic groups). The abstract mentions 'the US' in Q4 but does not detail the population studied.",
+                  "quote_ids": [
+                    "Q4"
+                  ]
+                },
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids is empty. The complete abstract does not explicitly state a comparator group (e.g., non-consumers vs. consumers). The abstract discusses SSB consumption but does not specify a control group.",
+                  "quote_ids": [
+                    "Q5"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids is empty. The complete abstract mentions outcomes (weight gain, T2DM, CVD) but does not specify the exact outcomes or their direction (e.g., increased risk). The abstract states 'quantify the relationship' in",
+                  "quote_ids": [
+                    "Q5",
+                    "Q6",
+                    "Q8"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [],
+              "population_ids": [],
+              "intervention_comparator_ids": [],
+              "outcome_result_ids": []
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "20138901",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20138901/",
+              "title": "Sugar-sweetened beverages and risk of obesity and type 2 diabetes: epidemiologic evidence.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2010 Apr 26"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592215+00:00",
+              "text_scope": "abstract_only",
+              "id": "S252146dc9726d26a",
+              "text_file": "sources/S252146dc9726d26a.txt",
+              "text_sha256": "61aae14407ef77c87bd7252977896e6e1293c8e4d6039d1e752f600330b6bda4",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1667
+            },
+            "text": "In recent decades, temporal patterns in SSB intake have shown a close parallel between the upsurge in obesity and rising levels of SSB consumption. SSBs are beverages that contain added caloric sweeteners such as sucrose, high-fructose corn syrup or fruit-juice concentrates, all of which result in similar metabolic effects. They include the full spectrum of soft drinks, carbonated soft drinks, fruitades, fruit drinks, sports drinks, energy and vitamin water drinks, sweetened iced tea, cordial, squashes, and lemonade, which collectively are the largest contributor to added sugar intake in the US. It has long been suspected that SSBs have an etiologic role in the obesity epidemic, however only recently have large epidemiological studies been able to quantify the relationship between SSB consumption and long-term weight gain, type 2 diabetes (T2DM) and cardiovascular disease (CVD) risk. Experimental studies have provided important insight into potential underlying biological mechanisms. It is thought that SSBs contribute to weight gain in part by incomplete compensation for energy at subsequent meals following intake of liquid calories. They may also increase risk of T2DM and CVD as a contributor to a high dietary glycemic load leading to inflammation, insulin resistance and impaired beta-cell function. Additional metabolic effects from the fructose fraction of these beverages may also promote accumulation of visceral adiposity, and increased hepatic de novo lipogenesis, and hypertension due to hyperuricemia. Consumption of SSBs should therefore be replaced by healthy alternatives such as water, to reduce risk of obesity and chronic diseases."
+          },
+          "assessment": {
+            "exposure": {
+              "match": "mismatch",
+              "quote_ids": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ]
+            },
+            "outcome": {
+              "match": "partial",
+              "quote_ids": [
+                "Q10"
+              ]
+            },
+            "context": {
+              "match": "not_applicable",
+              "quote_ids": []
+            },
+            "needs_scope_clarification": true,
+            "reason": "The claim suggests replacing sugary drinks with herbal tea as a healthier alternative. The abstract mentions replacing SSBs with water (Q10) but does not specify herbal tea as an alternative. Herbal tea is not mentioned in the abstract, so the claim's proposed alternative is not directly supported. The abstract focuses on SSBs and their health impacts, but does not review herbal tea as a viable or",
+            "gaps": [
+              "Herbal tea is not mentioned in the abstract as a replacement for SSBs",
+              "The abstract specifies water as the healthy alternative (Q10), not herbal tea"
+            ]
+          },
+          "passages": {
+            "exposure": [
+              {
+                "quote_id": "Q1",
+                "text": "In recent decades, temporal patterns in SSB intake have shown a close parallel between the upsurge in obesity and rising levels of SSB consumption."
+              },
+              {
+                "quote_id": "Q2",
+                "text": " SSBs are beverages that contain added caloric sweeteners such as sucrose, high-fructose corn syrup or fruit-juice concentrates, all of which result in similar metabolic effects."
+              },
+              {
+                "quote_id": "Q3",
+                "text": " They include the full spectrum of soft drinks, carbonated soft drinks, fruitades, fruit drinks, sports drinks, energy and vitamin water drinks, sweetened iced tea, cordial, squashes, and lemonade, which collectively"
+              },
+              {
+                "quote_id": "Q4",
+                "text": " are the largest contributor to added sugar intake in the US."
+              }
+            ],
+            "outcome": [
+              {
+                "quote_id": "Q10",
+                "text": " Consumption of SSBs should therefore be replaced by healthy alternatives such as water, to reduce risk of obesity and chronic diseases."
+              }
+            ],
+            "context": []
+          }
+        },
+        "S5e123d68ca31bae9": {
+          "status": "provisional_model_screen",
+          "label": "likely_unrelated",
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q3"
+              ],
+              "population_ids": [
+                "Q2"
+              ],
+              "intervention_comparator_ids": [
+                "Q4",
+                "Q7"
+              ],
+              "outcome_result_ids": [
+                "Q5",
+                "Q6",
+                "Q7"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "Q4 is a methodological description of substitution modeling, not a comparison group. The comparison groups are explicitly listed in Q7: water, coffee/tea, milk. Q4 should not be included here as it describes the method, not the actual group",
+                  "quote_ids": [
+                    "Q4"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "Q6 is a result about the trend in SSB intake categories, but the outcome direction (inverse association) is not covered here. The outcome direction is critical for the principal contrasts, and Q6 does not report the direction of effect (e.g",
+                  "quote_ids": [
+                    "Q6"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "Q7 is a result about substitution effects, but it is listed twice in outcome_result_ids (Q7 appears in both intervention_comparator_ids and outcome_result_ids). This is a duplication error",
+                  "quote_ids": [
+                    "Q7"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q3",
+                  "text": " Multivariate linear regression with adjustment for covariates was used to examine the associations between SSB consumption and body mass index (BMI) and waist circumference (WC)."
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q2",
+                  "text": " population.\n\nMETHODS: We used data from 9341 adults ages ≥19 y from the 2011-2012 Australian National Nutrition and Physical Activity Survey."
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q4",
+                  "text": " Substitution modeling was used to simulate the effect of replacing SSB with water, coffee/tea, fruit juice, and milk.\n\n"
+                },
+                {
+                  "quote_id": "Q7",
+                  "text": " Replacing SSB with water, coffee/tea, or milk was inversely associated with BMI (β = -0.07 to -0.09 kg/m2; P < 0.001) and WC (β = -0.25 to -0.28 cm; P < 0.001).\n\n"
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q5",
+                  "text": "RESULTS: SSB intake (100 g/d) was associated with higher BMI (β = 0.06 kg/m2; P = 0.001) and WC (β = 0.19 cm; P < 0.001)."
+                },
+                {
+                  "quote_id": "Q6",
+                  "text": " A linear trend with BMI and WC also was seen when SSB intake was examined as categories of servings per day (Ptrend ≤ 0.001)."
+                },
+                {
+                  "quote_id": "Q7",
+                  "text": " Replacing SSB with water, coffee/tea, or milk was inversely associated with BMI (β = -0.07 to -0.09 kg/m2; P < 0.001) and WC (β = -0.25 to -0.28 cm; P < 0.001).\n\n"
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "28606573",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28606573/",
+              "title": "A modeling study of beverage substitution and obesity outcomes among Australian adults.",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2017 Jul-Aug"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592247+00:00",
+              "text_scope": "abstract_only",
+              "id": "S5e123d68ca31bae9",
+              "text_file": "sources/S5e123d68ca31bae9.txt",
+              "text_sha256": "dd1779435ca2a0882d42319ff752c1f8ab68974c4ce5bccb5fc7cb4f54b35bd3",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1357
+            },
+            "text": "OBJECTIVE: The aim of this study was to investigate the cross-sectional associations among sugar-sweetened beverage (SSB) consumption, its substitution with beverage alternatives, and obesity outcomes in an Australian population.\n\nMETHODS: We used data from 9341 adults ages ≥19 y from the 2011-2012 Australian National Nutrition and Physical Activity Survey. Multivariate linear regression with adjustment for covariates was used to examine the associations between SSB consumption and body mass index (BMI) and waist circumference (WC). Substitution modeling was used to simulate the effect of replacing SSB with water, coffee/tea, fruit juice, and milk.\n\nRESULTS: SSB intake (100 g/d) was associated with higher BMI (β = 0.06 kg/m2; P = 0.001) and WC (β = 0.19 cm; P < 0.001). A linear trend with BMI and WC also was seen when SSB intake was examined as categories of servings per day (Ptrend ≤ 0.001). Replacing SSB with water, coffee/tea, or milk was inversely associated with BMI (β = -0.07 to -0.09 kg/m2; P < 0.001) and WC (β = -0.25 to -0.28 cm; P < 0.001).\n\nCONCLUSIONS: The results of the present study suggested that SSB intake is associated with obesity and that coffee/tea, water, and milk may be good alternatives for SSB. Further longitudinal and intervention studies are warranted to examine the effects of beverage substitution on obesity."
+          },
+          "assessment": {
+            "exposure": {
+              "match": "mismatch",
+              "quote_ids": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ]
+            },
+            "outcome": {
+              "match": "partial",
+              "quote_ids": [
+                "Q5",
+                "Q6",
+                "Q7"
+              ]
+            },
+            "context": {
+              "match": "not_applicable",
+              "quote_ids": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ]
+            },
+            "needs_scope_clarification": true,
+            "reason": "The claim states 'herbal tea' as the alternative, but the study only mentions 'coffee/tea' (not herbal tea) as a substitution. The outcome is partially measured (BMI and WC), but the claim implies a direct health benefit without specifying the outcome. The context is not applicable as the study is a cross-sectional analysis, not an intervention study. The claim lacks specificity on the type of tea",
+            "gaps": [
+              "The study does not specify herbal tea as the alternative; it mentions coffee/tea",
+              "The outcome is measured as BMI and WC, but the claim implies a broader health benefit",
+              "The study is cross-sectional, so it does not provide evidence for causation or intervention effects"
+            ]
+          },
+          "passages": {
+            "exposure": [
+              {
+                "quote_id": "Q1",
+                "text": "OBJECTIVE: The aim of this study was to investigate the cross-sectional associations among sugar-sweetened beverage (SSB) consumption, its substitution with beverage alternatives, and obesity outcomes in an Australian"
+              },
+              {
+                "quote_id": "Q2",
+                "text": " population.\n\nMETHODS: We used data from 9341 adults ages ≥19 y from the 2011-2012 Australian National Nutrition and Physical Activity Survey."
+              },
+              {
+                "quote_id": "Q3",
+                "text": " Multivariate linear regression with adjustment for covariates was used to examine the associations between SSB consumption and body mass index (BMI) and waist circumference (WC)."
+              },
+              {
+                "quote_id": "Q4",
+                "text": " Substitution modeling was used to simulate the effect of replacing SSB with water, coffee/tea, fruit juice, and milk.\n\n"
+              }
+            ],
+            "outcome": [
+              {
+                "quote_id": "Q5",
+                "text": "RESULTS: SSB intake (100 g/d) was associated with higher BMI (β = 0.06 kg/m2; P = 0.001) and WC (β = 0.19 cm; P < 0.001)."
+              },
+              {
+                "quote_id": "Q6",
+                "text": " A linear trend with BMI and WC also was seen when SSB intake was examined as categories of servings per day (Ptrend ≤ 0.001)."
+              },
+              {
+                "quote_id": "Q7",
+                "text": " Replacing SSB with water, coffee/tea, or milk was inversely associated with BMI (β = -0.07 to -0.09 kg/m2; P < 0.001) and WC (β = -0.25 to -0.28 cm; P < 0.001).\n\n"
+              }
+            ],
+            "context": [
+              {
+                "quote_id": "Q1",
+                "text": "OBJECTIVE: The aim of this study was to investigate the cross-sectional associations among sugar-sweetened beverage (SSB) consumption, its substitution with beverage alternatives, and obesity outcomes in an Australian"
+              },
+              {
+                "quote_id": "Q2",
+                "text": " population.\n\nMETHODS: We used data from 9341 adults ages ≥19 y from the 2011-2012 Australian National Nutrition and Physical Activity Survey."
+              },
+              {
+                "quote_id": "Q3",
+                "text": " Multivariate linear regression with adjustment for covariates was used to examine the associations between SSB consumption and body mass index (BMI) and waist circumference (WC)."
+              },
+              {
+                "quote_id": "Q4",
+                "text": " Substitution modeling was used to simulate the effect of replacing SSB with water, coffee/tea, fruit juice, and milk.\n\n"
+              }
+            ]
+          }
+        },
+        "Sc4b5216516b60ca2": {
+          "status": "unresolved_screen",
+          "label": null,
+          "source": {
+            "status": "needs_source_review",
+            "selection": {
+              "design_ids": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ],
+              "population_ids": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ],
+              "intervention_comparator_ids": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ],
+              "outcome_result_ids": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
+              ]
+            },
+            "review": {
+              "decision": "revise",
+              "issues": [
+                {
+                  "field": "intervention_comparator_ids",
+                  "problem": "The selected intervention_comparator_ids include Q1-Q4, but Q1-Q4 do not represent comparative interventions or comparators. Q1-Q4 describe outcomes or general statements without explicit comparisons (e.g., 'smoking and passive smoking' inQ",
+                  "quote_ids": [
+                    "Q1",
+                    "Q2",
+                    "Q3"
+                  ]
+                },
+                {
+                  "field": "outcome_result_ids",
+                  "problem": "The selected outcome_result_ids include Q1-Q4, but Q1-Q4 do not describe specific outcomes or results with direction (e.g., 'increase', 'reduce', 'risk'). Q1-Q4 are general statements without clear outcome directions.",
+                  "quote_ids": [
+                    "Q1",
+                    "Q2",
+                    "Q3"
+                  ]
+                }
+              ]
+            },
+            "selected_passages": {
+              "design_ids": [
+                {
+                  "quote_id": "Q1",
+                  "text": "Smoking and passive smoking significantly increase both the incidence of diabetes and the risk of late complications."
+                },
+                {
+                  "quote_id": "Q2",
+                  "text": " While complete smoking and nicotine cessation may lead to weight gain and an increased risk of diabetes, it nevertheless reduces cardiovascular and all-cause mortality."
+                },
+                {
+                  "quote_id": "Q3",
+                  "text": " The basic diagnostic assessment (Fagerström test, exhaled carbon monoxide) is essential for successful smoking cessation."
+                },
+                {
+                  "quote_id": "Q4",
+                  "text": " Evidence-based pharmacological options include varenicline, nicotine replacement therapy, bupropion and cytisine; glucagon-like peptide 1 (GLP-1) receptor agonists may be used as adjunctive treatment for weight control"
+                }
+              ],
+              "population_ids": [
+                {
+                  "quote_id": "Q1",
+                  "text": "Smoking and passive smoking significantly increase both the incidence of diabetes and the risk of late complications."
+                },
+                {
+                  "quote_id": "Q2",
+                  "text": " While complete smoking and nicotine cessation may lead to weight gain and an increased risk of diabetes, it nevertheless reduces cardiovascular and all-cause mortality."
+                },
+                {
+                  "quote_id": "Q3",
+                  "text": " The basic diagnostic assessment (Fagerström test, exhaled carbon monoxide) is essential for successful smoking cessation."
+                },
+                {
+                  "quote_id": "Q4",
+                  "text": " Evidence-based pharmacological options include varenicline, nicotine replacement therapy, bupropion and cytisine; glucagon-like peptide 1 (GLP-1) receptor agonists may be used as adjunctive treatment for weight control"
+                }
+              ],
+              "intervention_comparator_ids": [
+                {
+                  "quote_id": "Q1",
+                  "text": "Smoking and passive smoking significantly increase both the incidence of diabetes and the risk of late complications."
+                },
+                {
+                  "quote_id": "Q2",
+                  "text": " While complete smoking and nicotine cessation may lead to weight gain and an increased risk of diabetes, it nevertheless reduces cardiovascular and all-cause mortality."
+                },
+                {
+                  "quote_id": "Q3",
+                  "text": " The basic diagnostic assessment (Fagerström test, exhaled carbon monoxide) is essential for successful smoking cessation."
+                },
+                {
+                  "quote_id": "Q4",
+                  "text": " Evidence-based pharmacological options include varenicline, nicotine replacement therapy, bupropion and cytisine; glucagon-like peptide 1 (GLP-1) receptor agonists may be used as adjunctive treatment for weight control"
+                }
+              ],
+              "outcome_result_ids": [
+                {
+                  "quote_id": "Q1",
+                  "text": "Smoking and passive smoking significantly increase both the incidence of diabetes and the risk of late complications."
+                },
+                {
+                  "quote_id": "Q2",
+                  "text": " While complete smoking and nicotine cessation may lead to weight gain and an increased risk of diabetes, it nevertheless reduces cardiovascular and all-cause mortality."
+                },
+                {
+                  "quote_id": "Q3",
+                  "text": " The basic diagnostic assessment (Fagerström test, exhaled carbon monoxide) is essential for successful smoking cessation."
+                },
+                {
+                  "quote_id": "Q4",
+                  "text": " Evidence-based pharmacological options include varenicline, nicotine replacement therapy, bupropion and cytisine; glucagon-like peptide 1 (GLP-1) receptor agonists may be used as adjunctive treatment for weight control"
+                }
+              ]
+            },
+            "metadata": {
+              "kind": "pubmed_abstract",
+              "pmid": "42162466",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42162466/",
+              "title": "[Smoking and nicotine use, heated tobacco products, psychological and socioeconomic aspects of dependence, alcohol, infections, vaccination and diabetes mellitus (Update 2026)].",
+              "organization": "PubMed record",
+              "publication_types": [
+                "Journal Article",
+                "Review",
+                "English Abstract"
+              ],
+              "dates_as_reported": {
+                "journal_pubdate": "2026 May"
+              },
+              "correction_notices": [],
+              "retrieved_at": "2026-10-20T05:53:09.592314+00:00",
+              "text_scope": "abstract_only",
+              "id": "Sc4b5216516b60ca2",
+              "text_file": "sources/Sc4b5216516b60ca2.txt",
+              "text_sha256": "afb23e8e10504f67ad3b473d0af9a463e61637529299460a7c3f3aeabe1bc9db",
+              "origin": "existing_retrieval_candidate_refreshed",
+              "characters": 1567
+            },
+            "text": "Smoking and passive smoking significantly increase both the incidence of diabetes and the risk of late complications. While complete smoking and nicotine cessation may lead to weight gain and an increased risk of diabetes, it nevertheless reduces cardiovascular and all-cause mortality. The basic diagnostic assessment (Fagerström test, exhaled carbon monoxide) is essential for successful smoking cessation. Evidence-based pharmacological options include varenicline, nicotine replacement therapy, bupropion and cytisine; glucagon-like peptide 1 (GLP-1) receptor agonists may be used as adjunctive treatment for weight control following smoking cessation. Neither heated tobacco products, e‑cigarettes nor smokeless nicotine products (nicotine pouches) are harmless alternatives, they are also associated with an increased risk of diabetes, morbidity, and mortality. Socioeconomic and psychological factors play a significant role in addictive behavior, including smoking, nicotine use and alcohol consumption. Moderate alcohol consumption appears to reduce the risk of diabetes and cardiovascular disease but selection bias and underreporting likely overestimate this effect. Dose-dependent risks, particularly through cancer, liver disease and infections predominate. Infections occur more frequently in individuals with diabetes, often with greater severity and atypical presentation. Unexplained hyperglycemia should always prompt consideration of an infection. Vaccinations are of even greater health relevance for patients with diabetes than for those without."
+          },
+          "error": "Only context may be not_applicable"
+        }
+      },
+      "verdict": null,
+      "priority_source_ids": [],
+      "scope_review_required": true,
+      "status": "relevance_review_required",
+      "next_action": "inspect_unresolved_or_unrelated_sources_before_new_retrieval"
+    }
+  ],
+  "model_attempts": 33,
+  "paused_service": false,
+  "scope": "Provisional relevance triage only. All sources retained. No scientific verification, exclusion, or claim verdict. Quote checks do not establish entailment."
+}

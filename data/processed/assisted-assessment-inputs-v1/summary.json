@@ -1,0 +1,69 @@
+{
+  "profile": "pending-assessment-inputs-v1",
+  "api_calls": 0,
+  "inputs": [
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/project-claim-status.json",
+      "sha256": "fe2fe9fd6bf36077620e815c7bf4b396b32121dc7f834effca2763be7ece889d"
+    },
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/source-review-batch-v1/source-review.json",
+      "sha256": "1cab3582deddbb9ad8cdbfb9c145cf9774f61b20798c186cf19e69b186948819"
+    }
+  ],
+  "script_sha256": "4e66741061f9adca729237ae608ce2fe0bf8c744d5869d8f80794e92c1de6602",
+  "claims": [
+    {
+      "claim_id": "fitness-02-c002",
+      "input": "fitness-02-c002/review-input.json",
+      "candidate_count": 3,
+      "status": "assessment_pending",
+      "claim_specification_issues": [],
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c003",
+      "input": "fitness-02-c003/review-input.json",
+      "candidate_count": 3,
+      "status": "assessment_pending",
+      "claim_specification_issues": [],
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c004",
+      "input": "fitness-02-c004/review-input.json",
+      "candidate_count": 3,
+      "status": "assessment_pending",
+      "claim_specification_issues": [
+        "Structured outcome missing; do not invent an outcome."
+      ],
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c005",
+      "input": "fitness-02-c005/review-input.json",
+      "candidate_count": 3,
+      "status": "assessment_pending",
+      "claim_specification_issues": [
+        "Structured outcome missing; do not invent an outcome."
+      ],
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c006",
+      "input": "fitness-02-c006/review-input.json",
+      "candidate_count": 3,
+      "status": "assessment_pending",
+      "claim_specification_issues": [],
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c007",
+      "input": "fitness-02-c007/review-input.json",
+      "candidate_count": 3,
+      "status": "assessment_pending",
+      "claim_specification_issues": [],
+      "verdict": null
+    }
+  ]
+}

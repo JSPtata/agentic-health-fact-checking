@@ -1,0 +1,12 @@
+{
+  "policy": "reviewed-criteria-adjudication-v1",
+  "script_sha256": "06c91834820ddf86f343b47fc526829fb3697fe0fc179e78cc0dbe9a65795e7f",
+  "inputs": [
+    {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-assessment-reviewed-v1/assessment-reviewed.json",
+      "sha256": "ff57ccc3efd722230ad35c1452536230f6fe37f8e368617f5d7ddab6c9788d2f",
+      "claim_id": "nutrition-01-diagnostic-c001",
+      "error": null
+    }
+  ]
+}

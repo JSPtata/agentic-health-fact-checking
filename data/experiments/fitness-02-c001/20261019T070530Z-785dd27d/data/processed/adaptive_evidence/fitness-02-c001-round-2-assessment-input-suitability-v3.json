@@ -1,0 +1,282 @@
+{
+    "provenance": {
+        "input_file": "/Users/User/Desktop/agentic-health-fact-checking/data/experiments/fitness-02-c001/20261019T070530Z-785dd27d/data/processed/adaptive_evidence/fitness-02-c001-round-2-assessment-input.json",
+        "input_sha256": "202a117533192d0af4f7e5f062844eac6b3603d3665395c79e972f39d5688fb5",
+        "model": "gemini-3.8-flash",
+        "rubric_version": "suitability-v3",
+        "status": "complete"
+    },
+    "claims": [
+        {
+            "claim_id": "fitness-02-c001",
+            "assessments": [
+                {
+                    "pmid": "19917733",
+                    "exposure_match": null,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The study evaluated low-frequency electrical stimulation combined with stretching exercises and foot orthoses in patients with plantar fasciitis. It measured 'first-step morning pain, and changes in daily activity levels' rather than circulation or blood flow."
+                },
+                {
+                    "pmid": "26275649",
+                    "exposure_match": null,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "Stretching was evaluated only as a component of a combined regimen ('brisk-walk with stretching exercise for 1h in the morning') against yoga. Outcomes were arterial stiffness indices, nitric oxide, and blood pressure rather than direct blood flow, and morning timing was not specified as immediately after waking."
+                },
+                {
+                    "pmid": "167706",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This study examined sleep disturbances in simulated space flights. An 'irresistible desire to stand up and stretch' was mentioned as a psychosomatic symptom of confinement rather than an evaluated stretching intervention."
+                },
+                {
+                    "pmid": "38741608",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "In a rodent model, the study demonstrated that 'static stretching increased blood flow to the proximal tibial metaphasis'. However, it evaluated localized bone perfusion in rats without examining human subjects or post-waking timing."
+                },
+                {
+                    "pmid": "28397006",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The study examined passive calf stretching in healthy young men and observed that 'faPWV in the stretched leg was significantly decreased'. It evaluated arterial stiffness rather than blood flow, and timing after waking was not assessed."
+                },
+                {
+                    "pmid": "40182711",
+                    "exposure_match": null,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The trial compared ischemic conditioning with traditional recovery involving stretching and foam rolling after strength training, measuring muscle soreness, jump height, and blood damage markers without measuring circulation."
+                },
+                {
+                    "pmid": "41361156",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "Elderly hypertensive patients performed passive stretching as a control condition in the morning or evening. The study assessed systemic hemodynamics but reported that 'no significant changes were observed in BP, systemic hemodynamics, or vascular parameters', and morning timing was not specifically post-waking."
+                },
+                {
+                    "pmid": "38640183",
+                    "exposure_match": null,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The study investigated a multicomponent yogic module incorporating breathing, meditation, and stretching-strengthening exercises, measuring cardiopulmonary capacity and hand grip strength rather than circulatory perfusion."
+                },
+                {
+                    "pmid": "24714795",
+                    "exposure_match": null,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The study evaluated aerobic training versus a control consisting of stretching and light walking for neurocardiogenic syncope, assessing head-up tilt test outcomes without evaluating circulation."
+                },
+                {
+                    "pmid": "40809290",
+                    "exposure_match": null,
+                    "outcome_match": null,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "Abstract unavailable; findings and suitability remain unassessed."
+                },
+                {
+                    "pmid": "33269763",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This review addresses central nervous system injury where 'stretching and shearing injury to microstructures' refers to physical trauma rather than voluntary stretching exercises."
+                },
+                {
+                    "pmid": "32763257",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study investigated in vitro mechanical stretching of cultured HL-1 cardiac muscle cells to assess Piezo1 channel activity rather than physical bodily stretching."
+                },
+                {
+                    "pmid": "11943651",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The paper focuses on mechanical ventilation-induced lung injury, where stretching denotes pathological alveolar distension rather than bodily stretching exercises."
+                },
+                {
+                    "pmid": "1556775",
+                    "exposure_match": null,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "This observational study of figure skaters recorded injury incidence and aerobic profile, mentioning warm-up and stretching as part of training routines without evaluating circulatory outcomes."
+                },
+                {
+                    "pmid": "17306136",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article evaluates mechanical ventilation-induced lung injury caused by stretching and alveolar rupture (volutrauma), unrelated to physical stretching."
+                },
+                {
+                    "pmid": "19935063",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This review concerns pulmonary-renal crosstalk in critical illness, mentioning prevention of lung tissue stretching from mechanical ventilation."
+                },
+                {
+                    "pmid": "21729635",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article reviews iatrogenic vascular injuries during joint replacement surgery, noting blunt vascular trauma from stretching over surgical material."
+                },
+                {
+                    "pmid": "23041761",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The study evaluated neurovascular coupling under auditory stimulation, discussing blood vessel wall stretching as a possible physiological mechanism limiting compliance rather than stretching exercises."
+                },
+                {
+                    "pmid": "32557265",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article describes the pathology of Guillain-Barré syndrome, where endoneurial fluid pressure causes mechanical stretching of the perineurium."
+                },
+                {
+                    "pmid": "8892143",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This cadaveric study evaluated arterial distortion and filling defects resulting from traumatic posterior hip dislocation, unrelated to voluntary stretching exercises."
+                },
+                {
+                    "pmid": "9266251",
+                    "exposure_match": null,
+                    "outcome_match": null,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The review covers general geriatric rehabilitation modalities. While it mentions traction increases peripheral circulation and lists stretching under exercise, it provides no experimental evaluation of stretching for circulation."
+                },
+                {
+                    "pmid": "28780647",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "This review highlights that 'acute stretching causes a significant macro- and microcirculatory event that alters blood flow', discussing cardiovascular regulation during skeletal muscle stretching. It is a narrative review rather than primary evidence and does not evaluate post-waking timing."
+                },
+                {
+                    "pmid": "25324203",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The study examined acute self-administered calf stretching and found that 'local blood flow... was found to be significantly increased relative to baseline at 1, 5 and 10 min after SAS'. However, it evaluated localized calf hyperaemia in a laboratory setting without assessing stretching after waking up."
+                },
+                {
+                    "pmid": "33337692",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The study measured Achilles tendon blood flow after various warm-up exercises, reporting that 'Static stretching and eccentric exercises elicited no significant changes'. The findings address localized tendon blood flow but do not evaluate timing after waking up."
+                },
+                {
+                    "pmid": "38157043",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The intervention studied was self-myofascial release (self-massage with a foam roller) rather than stretching exercises."
+                },
+                {
+                    "pmid": "32596231",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The study evaluated calf microvascular blood flow following passive ankle dorsiflexion, finding that 'All subjects expressed the PSRH effect in cutaneous microcirculation after a 10-s stretch stimulus'. It examined localized microvascular reactivity rather than systemic circulation and did not assess post-waking timing."
+                },
+                {
+                    "pmid": "35981730",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The study evaluated leg blood flow and central hemodynamics during static stretching before and after exercise-induced muscle damage, finding that stretching combined with muscle damage decreased resting limb blood flow. It did not examine stretching after waking up."
+                },
+                {
+                    "pmid": "31563842",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The study assessed muscle blood flow and reactive hyperemia in lengthened versus shortened positions, observing that 'The time to half recovery of oxygen levels during reactive hyperemia was slower in the stretched positions'. It investigated acute localized muscle positions without post-waking context."
+                },
+                {
+                    "pmid": "33079234",
+                    "exposure_match": true,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "The trial measured tibial artery hemodynamics during passive intermittent calf stretching, finding that 'during the relaxation period, the mean blood velocity... increased, and consequently, the shear rate... increased'. It assessed localized lower limb hemodynamics without evaluating post-waking timing."
+                },
+                {
+                    "pmid": "27160729",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "The article discusses emergency surgical management of mangled extremities, mentioning pain on passive muscle stretching as a diagnostic sign of compartment syndrome."
+                },
+                {
+                    "pmid": "41467762",
+                    "exposure_match": true,
+                    "outcome_match": false,
+                    "context_match": null,
+                    "suitability": "partial",
+                    "reason": "In a rat model, the authors found that 'passive stretching elicits an intensity-dependent and sustained reduction in microvascular Po2'. It evaluated microvascular oxygen partial pressure rather than directly measuring blood flow, and lacked human and post-waking context."
+                },
+                {
+                    "pmid": "16558458",
+                    "exposure_match": false,
+                    "outcome_match": false,
+                    "context_match": false,
+                    "suitability": "irrelevant",
+                    "reason": "This case report describes acute compartment syndrome in an athlete, noting pain with passive stretching as a diagnostic clinical sign."
+                },
+                {
+                    "pmid": "23261755",
+                    "exposure_match": false,
+                    "outcome_match": true,
+                    "context_match": null,
+                    "suitability": "irrelevant",
+                    "reason": "The study investigated passive leg raising, which is a diagnostic postural maneuver rather than a stretching exercise."
+                }
+            ],
+            "needs_more_evidence": true,
+            "missing_evidence": "Controlled clinical studies in humans assessing whether performing whole-body or localized stretching exercises immediately after waking up increases systemic or regional circulation compared to resting or alternative post-waking routines."
+        }
+    ]
+}

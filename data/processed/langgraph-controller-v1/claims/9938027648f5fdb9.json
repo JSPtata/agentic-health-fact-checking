@@ -1,0 +1,13 @@
+{
+  "claim_id": "fitness-02-c002",
+  "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+  "status": "awaiting_reviewed_assessment",
+  "interrupted": true,
+  "pending_action": "complete_relevance_screening_verification_and_review",
+  "source_review_status": "source_review_incomplete",
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [],
+  "adjudication": null
+}

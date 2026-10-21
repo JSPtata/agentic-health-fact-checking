@@ -1,0 +1,104 @@
+{
+  "claim": {
+    "claim_text": "Avoid screen time at least 30 minutes before going to bed.",
+    "exposure": "screen time",
+    "outcome": null,
+    "context": "at least 30 minutes before going to bed",
+    "claim_id": "fitness-02-c005",
+    "input_limitations": [
+      "Existing candidate pool only; no new literature search or relevance assessment.",
+      "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+      "No official guidance was fetched or assessed in this preparation step."
+    ]
+  },
+  "binding": {
+    "profile": "pending-claim-sources-v1",
+    "worklist_sha256": "fe2fe9fd6bf36077620e815c7bf4b396b32121dc7f834effca2763be7ece889d",
+    "evidence_sha256": "806c59b322f8bbde73869d9f006690d1bb455f3896680cf3a14d59bf6ca70d8d",
+    "script_sha256": "1b03106402a675742997484268a6672fca71f3a470dfdba00c58d025cfe6e41f",
+    "source_hashes": {
+      "Sc4a6f15dccff64e5": "6478e3d8be0c4160206b63c7ce6b62cfc2a45dec12d3b672486621a905fb0619",
+      "Sd3bc3ec724b26757": "8bcf9688046459d280619f994aa09836a82d9e9d2e2242e80e0e1a037ad6b370",
+      "S6ae3518c2a6eb3fa": "b87994e1d998b4a9f26362885a0fbe3148903f039064e1523c53f94603c471ad"
+    }
+  },
+  "sources": {
+    "Sc4a6f15dccff64e5": {
+      "kind": "pubmed_abstract",
+      "pmid": "42755093",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42755093/",
+      "title": "Artificial Intelligence for Predicting Length of Stay for General Surgery Patients: A Systematic Review.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Oct"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592438+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sc4a6f15dccff64e5",
+      "text_file": "sources/Sc4a6f15dccff64e5.txt",
+      "text_sha256": "6478e3d8be0c4160206b63c7ce6b62cfc2a45dec12d3b672486621a905fb0619",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2526
+    },
+    "Sd3bc3ec724b26757": {
+      "kind": "pubmed_abstract",
+      "pmid": "42810318",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42810318/",
+      "title": "Treating the incumbent patient in triage: An analysis of \"first come, first served\" as a procedural rule.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Sep 18"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592480+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sd3bc3ec724b26757",
+      "text_file": "sources/Sd3bc3ec724b26757.txt",
+      "text_sha256": "8bcf9688046459d280619f994aa09836a82d9e9d2e2242e80e0e1a037ad6b370",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1498
+    },
+    "S6ae3518c2a6eb3fa": {
+      "kind": "pubmed_abstract",
+      "pmid": "42831210",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42831210/",
+      "title": "The Psychological Impact of Hospital Admission on the Elderly: A Prospective Comparative Clinical Audit and Service Evaluation.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Oct"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592560+00:00",
+      "text_scope": "abstract_only",
+      "id": "S6ae3518c2a6eb3fa",
+      "text_file": "sources/S6ae3518c2a6eb3fa.txt",
+      "text_sha256": "b87994e1d998b4a9f26362885a0fbe3148903f039064e1523c53f94603c471ad",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 3421
+    }
+  },
+  "active_sources": [
+    "Sc4a6f15dccff64e5",
+    "Sd3bc3ec724b26757",
+    "S6ae3518c2a6eb3fa"
+  ],
+  "phase": "sources_prepared",
+  "counts": {
+    "model_calls": 0
+  },
+  "model_events": [],
+  "unresolved_pmids": [],
+  "empty_abstract_pmids": []
+}

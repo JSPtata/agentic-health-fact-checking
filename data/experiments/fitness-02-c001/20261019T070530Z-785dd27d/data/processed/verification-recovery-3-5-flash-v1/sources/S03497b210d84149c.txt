@@ -1,0 +1,13 @@
+OBJECTIVE: We aimed to determine the effect of yoga on arterial function in elderly with increased pulse pressure (PP).
+
+DESIGN: Randomized controlled study with two parallel groups.
+
+PARTICIPANTS: Elderly subjects with PP≥60 mmHg (n=60).
+
+INTERVENTIONS: Yoga group (n=30) was assigned for yoga training and brisk-walking (BW) group (n=30) for brisk-walk with stretching exercise for 1h in the morning for 6 days in a week for 12 weeks.
+
+MAIN OUTCOME MEASURES: Arterial stiffness measures: Brachial-ankle pulse wave velocity (baPWV), Carotid-femoral pulse wave velocity (c-f PWV), aortic augmentation index (AIx@75), arterial stiffness index at brachial (bASI) and tibial arteries (aASI). Total serum nitric oxide concentration (NOx) as an index of endothelial function. Heart rate variability (HRV) measures: Low frequency and high frequency in normalized units (LFnu, HFnu) and LF/HF ratio.
+
+RESULTS: The mean between-group change (with 95% CI) in arterial stiffness: c-f PWV(m/s) [1.25(0.59-1.89); p<0.001], baPWV(m/s) [1.96(0.76-3.16), p<0.01], AIx@75 [3.07(0.24-5.89), p=0.066], aASI [8.3(4.06-12.53), p<0.001]; endothelial function index: NO(μmol/L) [-9.03(-14.57 to -3.47), p<0.001]; SBP(mmHg) [14.23(12.03-16.44), p<0.001], DBP(mmHg) [0.1(-1.95-2.15), p=0.38], PP(mmHg) [14.07(11.2-16.92), p<0.001], MAP(mmHg) [4.7(3.08-6.32), p<0.001]; and cardiac autonomic function: LF(nu) [4.81(1.54-8.08), p<0.01], HF(nu) [-4.13(-7.57 to -0.69), p<0.01], LF/HF ratio [0.84(0.3-1.37), p<0.001], indicate significant difference in effects of two intervention on arterial stiffness, endothelial function, BP and cardiac autonomic activity. There was significant change within-yoga group in vascular function, BP and autonomic function, while no significant change within-BW group was observed.
+
+CONCLUSION: Our findings suggest that yoga program offered was more effective than brisk-walk in reducing arterial stiffness along with BP in elderly individuals with increased PP. Yoga can also significantly reduce sympathetic activity and improve endothelial function with enhancement in bioavailability of NO.

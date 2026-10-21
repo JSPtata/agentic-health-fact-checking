@@ -1,0 +1,74 @@
+{
+  "binding": {
+    "profile": "bounded-pubmed-first-pass-v1",
+    "claim": {
+      "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+      "exposure": "replacing sugary drinks with herbal tea",
+      "outcome": "healthier alternative",
+      "context": null,
+      "claim_id": "fitness-02-c007"
+    },
+    "model": "qwen3:4b",
+    "controller_sha256": "0c9d7eeb21a19ee8a7c70c38b426a4583f9cc862c7ae931785b83212807796dd",
+    "pubmed_client_sha256": "d3f484efb74e80b16265757ff410d6b82778c9819e31766fa0bbaa08cf24aca8",
+    "parser_sha256": "2130838f9a6772d24d1f925c54d8262004c6c1c53f9747177b6cbf04877eb135",
+    "limits": {
+      "planner_attempts": 2,
+      "queries": 2,
+      "results_per_query": 50,
+      "http_attempts_per_request": 2
+    }
+  },
+  "cache": {
+    "3eed6ddd8b41dae438bac068c61bbc913b49514088e1f8eaaa91840b6b0f4963": {
+      "file": "pubmed-cache/3eed6ddd8b41dae438bac068c61bbc913b49514088e1f8eaaa91840b6b0f4963.json",
+      "sha256": "aec17943d80295eb171391bf49ac45de2648d24237a96bc44cc9e0016882be6b",
+      "retrieved_at": "2026-10-20T17:29:06.009839+00:00"
+    },
+    "58616d371fa1ccf983744b45d7fcc8afc3c4516ce661f6a50aabfa92454f6615": {
+      "file": "pubmed-cache/58616d371fa1ccf983744b45d7fcc8afc3c4516ce661f6a50aabfa92454f6615.json",
+      "sha256": "20a59bb2597759e8ca9c73b283bd202372cfba56482a0c64c495d5fa6d874332",
+      "retrieved_at": "2026-10-20T17:29:06.564303+00:00"
+    }
+  },
+  "events": [
+    {
+      "key": "3eed6ddd8b41dae438bac068c61bbc913b49514088e1f8eaaa91840b6b0f4963",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    },
+    {
+      "key": "58616d371fa1ccf983744b45d7fcc8afc3c4516ce661f6a50aabfa92454f6615",
+      "endpoint": "esearch.fcgi",
+      "status": "cached"
+    }
+  ],
+  "planner_attempts": [
+    {
+      "status": "validated",
+      "prompt_sha256": "2da1a3f269e70f3d57a4747cad7d8b42a055706a65e2c2e4d4d2a635e768c83a",
+      "response_file": "planner-1.json"
+    }
+  ],
+  "status": "retrieval_no_usable_abstracts",
+  "queries": [
+    "((sugary drinks OR sweetened beverages) AND (herbal tea OR herbal beverages)) AND (healthier OR better health OR improved health outcomes) AND (substitution OR replacement) AND (dietary change OR lifestyle intervention)",
+    "((sug as a beverage OR sweetened drinks) AND (herbal tea OR herbal infusions)) AND (health benefits OR reduced risk OR improved health) AND (dietary substitution OR behavioral change)"
+  ],
+  "result": {
+    "status": "retrieval_no_usable_abstracts",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/62a8a37c067fdbbb6d7dcd5faa634681a3393cdcdbe7f28bf909620c9732a37e/evidence-input.json",
+    "evidence_sha256": "41e2b86dca0f23b8fdc008fb65d13c7f3443f84b64c3f0bf4d4806f25cc203a9",
+    "candidate_pmids": 0,
+    "usable_abstracts": 0,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "((sugary drinks OR sweetened beverages) AND (herbal tea OR herbal beverages)) AND (healthier OR better health OR improved health outcomes) AND (substitution OR replacement) AND (dietary change OR lifestyle intervention)",
+      "((sug as a beverage OR sweetened drinks) AND (herbal tea OR herbal infusions)) AND (health benefits OR reduced risk OR improved health) AND (dietary substitution OR behavioral change)"
+    ]
+  },
+  "output": {
+    "sha256": "41e2b86dca0f23b8fdc008fb65d13c7f3443f84b64c3f0bf4d4806f25cc203a9"
+  }
+}

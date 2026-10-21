@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:42:55.966548Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"decision\": \"accept_for_adjudication\",\n  \"objections\": [\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"population mismatch: claim specifies 'always' for general population, but study only tested healthy young males\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q9\"\n    },\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"intervention mismatch: claim says 'after waking up', but study used stretching after EIMD (DOMS) in specific experimental condition\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q9\"\n    },\n    {\n      \"severity\": \"critical\",\n      \"problem\": \"timing mismatch: claim implies general routine, but study measured effects only 24-48h post-EIMD (DOMS) not waking routine\",\n      \"requested_action\": \"revise\",\n      \"quote_id\": \"Q4\"\n    }\n  ],\n  \"remaining_gaps\": [\n    \"No evidence for general population stretching after waking up\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 32812353875,
+  "load_duration": 23800875,
+  "prompt_eval_count": 945,
+  "prompt_eval_cached_count": 251,
+  "prompt_eval_duration": 7554618000,
+  "eval_count": 237,
+  "eval_duration": 25019106000
+}

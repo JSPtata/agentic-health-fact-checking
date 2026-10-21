@@ -1,0 +1,118 @@
+{
+  "binding": {
+    "profile": "claim-relevance-triage-v2",
+    "input_files": {
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/ranking-summary.json": "d66a61598ea8db307e71b5325d1a2f7ea7788ebff9f6a51d5e6129a535cc45cb",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/bi-encoder/passage-ranking.json": "4c0ddeb3962e9c76470a5ca6de0518b3e1dfef60942f447a6cbc96689d0f345a",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cached-candidates.json": "831fb25a71ac928aefd9170b443e7ca32757cb2c0f43ce2dd94c89dedf522b42",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json": "e421b8c037fa3c0195451f921b68a2ed985b1ccc7c3eb45a73a95fa3fd7929be",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cross-encoder/cross-encoder-ranking.json": "099bc5f7a487e678d8bc91d059e93e734ba4b634f8ccdc3668bbb0d824c7d189",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/bi-encoder/passage-ranking.json": "55357725c5c9b998134fe51ff2283f7bbb003066f4520b1b9d5a689c7d627d21",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cached-candidates.json": "ae19fc9a8251deb2ae5d18775f32e6c1a266da747a48adf36b8800bc32ec7724",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cross-encoder/cross-encoder-ranking.json": "fb15bb9c11d43cdd2e4960919768293e57ed5ed11568a7f9b913a00179588b3a",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/bi-encoder/passage-ranking.json": "30d2a57dd458a56fd8a9da37512fb98b01de689afa83ec144b6038afada60477",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/cached-candidates.json": "89e631ddd9f58fc9cce8025010b61f9568ce845fdf0cb36097bc12f8359b2722",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json": "dce19253d689867dac16f925b5b80ae667ae7d3f28ddafc60a55c6268c759f68",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/cross-encoder/cross-encoder-ranking.json": "3af61bf8e68343defe57b8df91786bb5784298a8e2aaf2366dee762a1bcfe945",
+      "/Users/User/Desktop/agentic-health-fact-checking/scripts/assess_source_roles.py": "dfc47f0a9bf803297c74f2d072139824e85fbc343a41bd0f439b33b81d772279",
+      "/Users/User/Desktop/agentic-health-fact-checking/scripts/apply_assessment_review.py": "d3ee3ed4cbfb4746a9ad13ba00d2deec0882f64c71691d2ddb1eafdd4e439c43",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/source-role-posture-reviewed-v1/source-roles.json": "04993f93ec48fca9223065182190584c7396762b3f6c88746b109b065ea419ac",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/source-role-posture-reviewed-v1/source-review-record.json": "0ed300c00c8cba42e8bf489285a693a82efb45f3ba9d75eb7839d211ac98f24c"
+    },
+    "input_sha256": "56cf81045c9e5974820e616afdb04c45053e43981d65933e4e3bf66362a39dc2",
+    "script_sha256": "fef72a1008930b3878f6db4f7b55d542dda9656cd655b2504ec85f7f302c073c",
+    "model": "qwen3:4b",
+    "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "attempts_per_pair": 2,
+    "anchor_code_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e",
+    "pydantic_version": "2.13.4"
+  },
+  "outputs": {},
+  "events": [
+    {
+      "key": "28e9ebbe84e8a516d7312c72c1fd0714625877b1d9ee4f74a5b37103c7a1edb5",
+      "status": "invalid_output",
+      "prompt_sha256": "72893d60121ad3d4cda875ee0c519ca1f5bee73776faa1ccc72c3710d73228cc",
+      "response_file": "responses/0001.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "28e9ebbe84e8a516d7312c72c1fd0714625877b1d9ee4f74a5b37103c7a1edb5",
+      "status": "invalid_output",
+      "prompt_sha256": "21a1a147f81d63a66a4d35f000ca7832ba32a2ddd8a3e734cf25ad2ecccd297d",
+      "response_file": "responses/0002.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "77e7e3b0a461e939eea7dabdb1318e6626d39652034a73ac669715eacc4f3a75",
+      "status": "invalid_output",
+      "prompt_sha256": "b04a7c30ed4e0e91bff74f72fed3445fc7bcfa2000f8e0b30d2ba9843ef80dfd",
+      "response_file": "responses/0003.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "77e7e3b0a461e939eea7dabdb1318e6626d39652034a73ac669715eacc4f3a75",
+      "status": "invalid_output",
+      "prompt_sha256": "0cdb9cc88d16897b00aed8adaac4bb050709854e87fed53eedba07a00e9ef1f9",
+      "response_file": "responses/0004.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "7225af70c56eecfd7e11870eb105964e695de52ed4308b9d97d19ed1cc13d437",
+      "status": "invalid_output",
+      "prompt_sha256": "13b49d6e3de38fec64b765bc9d11070b61d7bda517c1e3107ea0a4470234fa99",
+      "response_file": "responses/0005.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "7225af70c56eecfd7e11870eb105964e695de52ed4308b9d97d19ed1cc13d437",
+      "status": "invalid_output",
+      "prompt_sha256": "bcd4e3f6ff16b7ac418f79b849084eabc2b4b162945bcf0f111a98aa090a9d8a",
+      "response_file": "responses/0006.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "aed999275c1e2b71d91efcf2dfb162a9ccc2eb78f634603072fd19389ca5e7e7",
+      "status": "invalid_output",
+      "prompt_sha256": "e838ac003e2bec053b863c51f3aaebe888a2944e17093aeefcf930946af6f133",
+      "response_file": "responses/0007.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "aed999275c1e2b71d91efcf2dfb162a9ccc2eb78f634603072fd19389ca5e7e7",
+      "status": "invalid_output",
+      "prompt_sha256": "b5a9da4f0c4bce9cbfc7a21f677aefe2fbe2e0a14f6945f30a578f9a7c7b808a",
+      "response_file": "responses/0008.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "ba222423b5f3fb4b7ab65ae1171f53f02cf390df31a65f10e0655754847a329e",
+      "status": "invalid_output",
+      "prompt_sha256": "93808c02fdb78f2f1fb149aae43044f76ca478bee7a4ac00bdbd0423210e35d1",
+      "response_file": "responses/0009.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "ba222423b5f3fb4b7ab65ae1171f53f02cf390df31a65f10e0655754847a329e",
+      "status": "invalid_output",
+      "prompt_sha256": "fcd77868ebbd872827512c8676cf3aad5d292d794964e9eb054cef24c24ea362",
+      "response_file": "responses/0010.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "f8ad14485702b63aecaea5161d3d6b012ace872866205a43442d8cbf93bf754d",
+      "status": "invalid_output",
+      "prompt_sha256": "66d34e8e895c965eaf201add590623e6ee7f5ab76d2d5ecbdce42c693a734fce",
+      "response_file": "responses/0011.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "f8ad14485702b63aecaea5161d3d6b012ace872866205a43442d8cbf93bf754d",
+      "status": "invalid_output",
+      "prompt_sha256": "b735e5125a2d2d1ead07b8f2642b0cb1074b69ef4627f374e13c111587415b4c",
+      "response_file": "responses/0012.json",
+      "error": "Only context may be not_applicable"
+    }
+  ]
+}

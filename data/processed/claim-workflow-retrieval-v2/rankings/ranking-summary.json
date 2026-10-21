@@ -1,0 +1,61 @@
+{
+  "workflow_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/workflow-summary.json",
+  "workflow_sha256": "ea8f44e824f9fe1ff1cc1fddfb9f46e391c86c8d7f53cdcbdd9b14f87d2453a4",
+  "claims": [
+    {
+      "claim_id": "fitness-02-c001",
+      "workflow_status": "completed_from_reviewed_assessment",
+      "status": "skipped"
+    },
+    {
+      "claim_id": "fitness-02-c002",
+      "workflow_status": "awaiting_relevance_screening",
+      "status": "passage_and_cross_encoder_ranked",
+      "passage_report": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/bi-encoder/passage-ranking.json",
+      "passage_report_sha256": "4c0ddeb3962e9c76470a5ca6de0518b3e1dfef60942f447a6cbc96689d0f345a",
+      "source_evidence_sha256": "e421b8c037fa3c0195451f921b68a2ed985b1ccc7c3eb45a73a95fa3fd7929be",
+      "usable_abstracts": 3,
+      "cross_encoder_report": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cross-encoder/cross-encoder-ranking.json",
+      "cross_encoder_report_sha256": "099bc5f7a487e678d8bc91d059e93e734ba4b634f8ccdc3668bbb0d824c7d189"
+    },
+    {
+      "claim_id": "fitness-02-c003",
+      "workflow_status": "awaiting_relevance_screening",
+      "status": "passage_and_cross_encoder_ranked",
+      "passage_report": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/bi-encoder/passage-ranking.json",
+      "passage_report_sha256": "55357725c5c9b998134fe51ff2283f7bbb003066f4520b1b9d5a689c7d627d21",
+      "source_evidence_sha256": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+      "usable_abstracts": 70,
+      "cross_encoder_report": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cross-encoder/cross-encoder-ranking.json",
+      "cross_encoder_report_sha256": "fb15bb9c11d43cdd2e4960919768293e57ed5ed11568a7f9b913a00179588b3a"
+    },
+    {
+      "claim_id": "fitness-02-c004",
+      "workflow_status": "claim_clarification_required",
+      "status": "skipped"
+    },
+    {
+      "claim_id": "fitness-02-c005",
+      "workflow_status": "claim_clarification_required",
+      "status": "skipped"
+    },
+    {
+      "claim_id": "fitness-02-c006",
+      "workflow_status": "awaiting_relevance_screening",
+      "status": "passage_and_cross_encoder_ranked",
+      "passage_report": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/bi-encoder/passage-ranking.json",
+      "passage_report_sha256": "30d2a57dd458a56fd8a9da37512fb98b01de689afa83ec144b6038afada60477",
+      "source_evidence_sha256": "dce19253d689867dac16f925b5b80ae667ae7d3f28ddafc60a55c6268c759f68",
+      "usable_abstracts": 77,
+      "cross_encoder_report": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/cross-encoder/cross-encoder-ranking.json",
+      "cross_encoder_report_sha256": "3af61bf8e68343defe57b8df91786bb5784298a8e2aaf2366dee762a1bcfe945"
+    },
+    {
+      "claim_id": "fitness-02-c007",
+      "workflow_status": "claim_clarification_required",
+      "status": "skipped"
+    }
+  ],
+  "cross_encoder_requested": true,
+  "scope": "Cached source relevance ranking only; no scientific verdict or review approval."
+}

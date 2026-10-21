@@ -1,0 +1,298 @@
+{
+  "$defs": {
+    "Citation": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "quote": {
+          "minLength": 12,
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "quote"
+      ],
+      "title": "Citation",
+      "type": "object"
+    },
+    "Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_id": {
+          "minLength": 1,
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "claim_text": {
+          "minLength": 1,
+          "title": "Claim Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "claim_id",
+        "claim_text"
+      ],
+      "title": "Claim",
+      "type": "object"
+    },
+    "Criterion": {
+      "additionalProperties": false,
+      "properties": {
+        "criterion_id": {
+          "minLength": 1,
+          "title": "Criterion Id",
+          "type": "string"
+        },
+        "wording": {
+          "minLength": 1,
+          "title": "Wording",
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "core",
+            "qualifier"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "conclusion": {
+          "enum": [
+            "supported",
+            "refuted",
+            "mixed",
+            "insufficient_evidence"
+          ],
+          "title": "Conclusion",
+          "type": "string"
+        },
+        "applicability": {
+          "enum": [
+            "direct",
+            "indirect",
+            "unclear"
+          ],
+          "title": "Applicability",
+          "type": "string"
+        },
+        "evidence_strength": {
+          "enum": [
+            "sufficient",
+            "limited"
+          ],
+          "title": "Evidence Strength",
+          "type": "string"
+        },
+        "rationale": {
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/Citation"
+          },
+          "title": "Citations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "criterion_id",
+        "wording",
+        "role",
+        "conclusion",
+        "applicability",
+        "evidence_strength",
+        "rationale",
+        "citations"
+      ],
+      "title": "Criterion",
+      "type": "object"
+    },
+    "Objection": {
+      "additionalProperties": false,
+      "properties": {
+        "severity": {
+          "enum": [
+            "critical",
+            "major",
+            "minor"
+          ],
+          "title": "Severity",
+          "type": "string"
+        },
+        "problem": {
+          "minLength": 1,
+          "title": "Problem",
+          "type": "string"
+        }
+      },
+      "required": [
+        "severity",
+        "problem"
+      ],
+      "title": "Objection",
+      "type": "object"
+    },
+    "Review": {
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "enum": [
+            "accept",
+            "revise"
+          ],
+          "title": "Decision",
+          "type": "string"
+        },
+        "reviewer": {
+          "minLength": 1,
+          "title": "Reviewer",
+          "type": "string"
+        },
+        "method": {
+          "enum": [
+            "human",
+            "assisted",
+            "model"
+          ],
+          "title": "Method",
+          "type": "string"
+        },
+        "claim_requirements_complete": {
+          "title": "Claim Requirements Complete",
+          "type": "boolean"
+        },
+        "assessment_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Assessment Sha256",
+          "type": "string"
+        },
+        "unresolved_objections": {
+          "items": {
+            "$ref": "#/$defs/Objection"
+          },
+          "title": "Unresolved Objections",
+          "type": "array"
+        }
+      },
+      "required": [
+        "decision",
+        "reviewer",
+        "method",
+        "claim_requirements_complete",
+        "assessment_sha256",
+        "unresolved_objections"
+      ],
+      "title": "Review",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "text_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Text Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text",
+        "text_sha256"
+      ],
+      "title": "Source",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "adjudication-ready-v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "workflow_status": {
+      "enum": [
+        "complete",
+        "incomplete"
+      ],
+      "title": "Workflow Status",
+      "type": "string"
+    },
+    "claim": {
+      "$ref": "#/$defs/Claim"
+    },
+    "criteria": {
+      "items": {
+        "$ref": "#/$defs/Criterion"
+      },
+      "minItems": 1,
+      "title": "Criteria",
+      "type": "array"
+    },
+    "sources": {
+      "additionalProperties": {
+        "$ref": "#/$defs/Source"
+      },
+      "title": "Sources",
+      "type": "object"
+    },
+    "summary": {
+      "minLength": 1,
+      "title": "Summary",
+      "type": "string"
+    },
+    "evidence_gaps": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Gaps",
+      "type": "array"
+    },
+    "proposed_verdict": {
+      "anyOf": [
+        {
+          "enum": [
+            "supported",
+            "refuted",
+            "misleading",
+            "insufficient_evidence"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Proposed Verdict"
+    },
+    "review": {
+      "$ref": "#/$defs/Review"
+    }
+  },
+  "required": [
+    "schema_version",
+    "workflow_status",
+    "claim",
+    "criteria",
+    "sources",
+    "summary",
+    "evidence_gaps",
+    "review"
+  ],
+  "title": "ReadyReport",
+  "type": "object"
+}

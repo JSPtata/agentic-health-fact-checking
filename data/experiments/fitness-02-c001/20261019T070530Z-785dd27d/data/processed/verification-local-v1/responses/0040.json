@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:45:51.505585Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"Sa7b17fb771d89d6c\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"unavailable\",\n  \"measured_outcome_or_recommendation\": \"unavailable\",\n  \"finding\": \"unavailable\",\n  \"relation\": \"unassessable\",\n  \"limitations\": [\n    \"No mention of stretching or waking up in passage\",\n    \"No evidence of effect on circulation\"\n  ],\n  \"quote_ids\": [\n    \"Q1\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 12723696625,
+  "load_duration": 29632417,
+  "prompt_eval_count": 435,
+  "prompt_eval_cached_count": 375,
+  "prompt_eval_duration": 678812000,
+  "eval_count": 125,
+  "eval_duration": 11866038000
+}

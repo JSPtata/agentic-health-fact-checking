@@ -1,0 +1,104 @@
+{
+  "claim": {
+    "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+    "exposure": "replacing sugary drinks with herbal tea",
+    "outcome": "healthier alternative",
+    "context": null,
+    "claim_id": "fitness-02-c007",
+    "input_limitations": [
+      "Existing candidate pool only; no new literature search or relevance assessment.",
+      "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+      "No official guidance was fetched or assessed in this preparation step."
+    ]
+  },
+  "binding": {
+    "profile": "pending-claim-sources-v1",
+    "worklist_sha256": "fe2fe9fd6bf36077620e815c7bf4b396b32121dc7f834effca2763be7ece889d",
+    "evidence_sha256": "806c59b322f8bbde73869d9f006690d1bb455f3896680cf3a14d59bf6ca70d8d",
+    "script_sha256": "1b03106402a675742997484268a6672fca71f3a470dfdba00c58d025cfe6e41f",
+    "source_hashes": {
+      "S252146dc9726d26a": "61aae14407ef77c87bd7252977896e6e1293c8e4d6039d1e752f600330b6bda4",
+      "S5e123d68ca31bae9": "dd1779435ca2a0882d42319ff752c1f8ab68974c4ce5bccb5fc7cb4f54b35bd3",
+      "Sc4b5216516b60ca2": "afb23e8e10504f67ad3b473d0af9a463e61637529299460a7c3f3aeabe1bc9db"
+    }
+  },
+  "sources": {
+    "S252146dc9726d26a": {
+      "kind": "pubmed_abstract",
+      "pmid": "20138901",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20138901/",
+      "title": "Sugar-sweetened beverages and risk of obesity and type 2 diabetes: epidemiologic evidence.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2010 Apr 26"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592215+00:00",
+      "text_scope": "abstract_only",
+      "id": "S252146dc9726d26a",
+      "text_file": "sources/S252146dc9726d26a.txt",
+      "text_sha256": "61aae14407ef77c87bd7252977896e6e1293c8e4d6039d1e752f600330b6bda4",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1667
+    },
+    "S5e123d68ca31bae9": {
+      "kind": "pubmed_abstract",
+      "pmid": "28606573",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28606573/",
+      "title": "A modeling study of beverage substitution and obesity outcomes among Australian adults.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2017 Jul-Aug"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592247+00:00",
+      "text_scope": "abstract_only",
+      "id": "S5e123d68ca31bae9",
+      "text_file": "sources/S5e123d68ca31bae9.txt",
+      "text_sha256": "dd1779435ca2a0882d42319ff752c1f8ab68974c4ce5bccb5fc7cb4f54b35bd3",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1357
+    },
+    "Sc4b5216516b60ca2": {
+      "kind": "pubmed_abstract",
+      "pmid": "42162466",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42162466/",
+      "title": "[Smoking and nicotine use, heated tobacco products, psychological and socioeconomic aspects of dependence, alcohol, infections, vaccination and diabetes mellitus (Update 2026)].",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "English Abstract"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 May"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592314+00:00",
+      "text_scope": "abstract_only",
+      "id": "Sc4b5216516b60ca2",
+      "text_file": "sources/Sc4b5216516b60ca2.txt",
+      "text_sha256": "afb23e8e10504f67ad3b473d0af9a463e61637529299460a7c3f3aeabe1bc9db",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1567
+    }
+  },
+  "active_sources": [
+    "S252146dc9726d26a",
+    "S5e123d68ca31bae9",
+    "Sc4b5216516b60ca2"
+  ],
+  "phase": "sources_prepared",
+  "counts": {
+    "model_calls": 0
+  },
+  "model_events": [],
+  "unresolved_pmids": [],
+  "empty_abstract_pmids": []
+}

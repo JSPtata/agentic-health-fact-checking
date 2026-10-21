@@ -1,0 +1,185 @@
+{
+  "schema_version": "source-role-review-v1",
+  "source_report_sha256": "d2db55032b05afff845f8037dff48fb165b03c000bd257c3dcb090aeecb84f3f",
+  "reviewer": "ChatGPT-assisted scientific abstract review",
+  "method": "assisted",
+  "scope": "Interpretation of three supplied abstracts only; no full-text appraisal, independent review or claim-level adjudication.",
+  "independently_reviewed": false,
+  "expert_validated": false,
+  "source_reviews": [
+    {
+      "claim_id": "fitness-02-c006",
+      "claim_text_sha256": "00ce26c11342d05dc5b868921a5b035d8c930e0a34ca947e8b1cf889ea4c7213",
+      "pmid": "27390450",
+      "abstract_sha256": "22e16fa1ee91cc363fdc86e79186a6d761f0f0d78ad1c81dad3fa79a76773817",
+      "assessment": {
+        "D": [
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "P": [
+          "Q2"
+        ],
+        "I": [
+          "Q3",
+          "Q4"
+        ],
+        "O": [
+          "Q5"
+        ],
+        "R": [
+          "Q6",
+          "Q7"
+        ],
+        "T": [],
+        "G": [],
+        "M": [
+          "Q8",
+          "Q9"
+        ],
+        "L": [],
+        "role": "mechanistic_context",
+        "fit": "partial",
+        "contrast": "within_group",
+        "reason": "Twenty-five healthy adults underwent trunk-position exercises. Muscle activity and lumbar hemodynamics were measured; the abstract reports no clinical back-pain prevention endpoint. The prevention statement is a research aim, not demonstrated preventive benefit.",
+        "scope_flags": [
+          "Physiological surrogate, not incident back pain.",
+          "Sitting and standing exercises, not isolated sitting-posture advice.",
+          "Research purpose is not a clinical recommendation."
+        ],
+        "basis": [
+          "Q5",
+          "Q6",
+          "Q7"
+        ]
+      },
+      "rationale": "The participants were healthy, but the experiment assessed muscle activity and hemodynamic responses rather than subsequent pain incidence. Its stated prevention purpose cannot establish preventive efficacy. Conclusions about circulation remain mechanistic context.",
+      "corrections": [
+        "Remove the research-purpose quotation from guidance.",
+        "Include both continuation anchors for the results and conclusion.",
+        "Replace field-code scope flags with explicit applicability limitations."
+      ]
+    },
+    {
+      "claim_id": "fitness-02-c006",
+      "claim_text_sha256": "00ce26c11342d05dc5b868921a5b035d8c930e0a34ca947e8b1cf889ea4c7213",
+      "pmid": "31451200",
+      "abstract_sha256": "d52c9d296cae3a9fb3063db3a9ff4429ce1e90a97bc552c62112ba3b443057e6",
+      "assessment": {
+        "D": [
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6"
+        ],
+        "P": [],
+        "I": [
+          "Q7"
+        ],
+        "O": [
+          "Q4"
+        ],
+        "R": [
+          "Q7",
+          "Q8",
+          "Q9",
+          "Q10"
+        ],
+        "T": [],
+        "G": [],
+        "M": [],
+        "L": [
+          "Q9",
+          "Q10"
+        ],
+        "role": "indirect_evidence",
+        "fit": "partial",
+        "contrast": "synthesis",
+        "reason": "This umbrella review includes sitting and other physical exposures and reports positive and null associations, with mixed temporal and dose-response evidence. It is relevant to causal uncertainty but does not establish benefit from a defined sitting-posture intervention.",
+        "scope_flags": [
+          "Broad physical exposures; no isolated posture-correction contrast.",
+          "Mixed associations do not establish causality.",
+          "No consensus does not establish absence of effect."
+        ],
+        "basis": [
+          "Q7",
+          "Q9",
+          "Q10"
+        ]
+      },
+      "rationale": "Forty-one reviews were included. The abstract explicitly reports both positive and null associations and mixed evidence that exposures precede first-time LBP. This is relevant indirect evidence about the claim's causal premise; uncertainty about causality should not erase the source's relevance or be converted into proof of no effect.",
+      "corrections": [
+        "Replace unclear role/contrast with relevant indirect synthesis.",
+        "Retain both positive and null findings and causal uncertainty.",
+        "Do not label the claim refuted from lack of consensus."
+      ]
+    },
+    {
+      "claim_id": "fitness-02-c006",
+      "claim_text_sha256": "00ce26c11342d05dc5b868921a5b035d8c930e0a34ca947e8b1cf889ea4c7213",
+      "pmid": "34306274",
+      "abstract_sha256": "9fb044febbe675e878ba27864386ac49a183123dc2c6f8546ddff48abdd803b3",
+      "assessment": {
+        "D": [
+          "Q2"
+        ],
+        "P": [
+          "Q1",
+          "Q2"
+        ],
+        "I": [
+          "Q4"
+        ],
+        "O": [
+          "Q5",
+          "Q6"
+        ],
+        "R": [
+          "Q7",
+          "Q8"
+        ],
+        "T": [
+          "Q3",
+          "Q7"
+        ],
+        "G": [
+          "Q9"
+        ],
+        "M": [],
+        "L": [],
+        "role": "indirect_evidence",
+        "fit": "partial",
+        "contrast": "between_groups",
+        "reason": "Sixty patients with existing LBP received core exercise with or without pain education. Pain, disability and sitting angles improved more with multidimensional treatment. This is treatment evidence; it neither tests new-onset prevention nor isolates a posture-only intervention.",
+        "scope_flags": [
+          "Existing pain, not new-onset prevention.",
+          "Core exercise plus education versus core exercise alone.",
+          "Posture was an outcome; its independent causal effect was not isolated."
+        ],
+        "basis": [
+          "Q1",
+          "Q4",
+          "Q5",
+          "Q7"
+        ]
+      },
+      "rationale": "Both arms received core stability exercise; the multidimensional arm additionally received pain-principles and management training. The between-group result therefore concerns that treatment package in patients with existing pain. Improved posture and pain do not isolate posture as the cause of improvement, and the abstract does not report prevention of new pain episodes. The concluding clinical suggestion concerns treatment, not a preventive guideline.",
+      "corrections": [
+        "Replace direct applicability with partial/indirect applicability.",
+        "Distinguish treatment effects from prevention of new pain.",
+        "Do not attribute a combined treatment effect to posture alone."
+      ]
+    }
+  ],
+  "evidence_gaps": {
+    "fitness-02-c006": [
+      "Define proper posture, its duration, comparator and intended population, including whether prevention means first onset or recurrence.",
+      "Assess clinical prevention outcomes separately from symptom improvement, disability and physiological proxies.",
+      "Find evidence that isolates sitting-posture advice or correction from exercise, education and other interventions.",
+      "Only these three sources were reviewed; remaining retrieved candidates were not screened in this review.",
+      "Full-text methods, risk of bias, effect sizes and certainty have not been appraised here."
+    ]
+  }
+}

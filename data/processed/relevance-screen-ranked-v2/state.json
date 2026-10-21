@@ -1,0 +1,2271 @@
+{
+  "binding": {
+    "profile": "claim-relevance-triage-v2",
+    "input_files": {
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/ranking-summary.json": "d66a61598ea8db307e71b5325d1a2f7ea7788ebff9f6a51d5e6129a535cc45cb",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/bi-encoder/passage-ranking.json": "4c0ddeb3962e9c76470a5ca6de0518b3e1dfef60942f447a6cbc96689d0f345a",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cached-candidates.json": "831fb25a71ac928aefd9170b443e7ca32757cb2c0f43ce2dd94c89dedf522b42",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json": "e421b8c037fa3c0195451f921b68a2ed985b1ccc7c3eb45a73a95fa3fd7929be",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cross-encoder/cross-encoder-ranking.json": "099bc5f7a487e678d8bc91d059e93e734ba4b634f8ccdc3668bbb0d824c7d189",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/bi-encoder/passage-ranking.json": "55357725c5c9b998134fe51ff2283f7bbb003066f4520b1b9d5a689c7d627d21",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cached-candidates.json": "ae19fc9a8251deb2ae5d18775f32e6c1a266da747a48adf36b8800bc32ec7724",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cross-encoder/cross-encoder-ranking.json": "fb15bb9c11d43cdd2e4960919768293e57ed5ed11568a7f9b913a00179588b3a",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/bi-encoder/passage-ranking.json": "30d2a57dd458a56fd8a9da37512fb98b01de689afa83ec144b6038afada60477",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/cached-candidates.json": "89e631ddd9f58fc9cce8025010b61f9568ce845fdf0cb36097bc12f8359b2722",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json": "dce19253d689867dac16f925b5b80ae667ae7d3f28ddafc60a55c6268c759f68",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/cross-encoder/cross-encoder-ranking.json": "3af61bf8e68343defe57b8df91786bb5784298a8e2aaf2366dee762a1bcfe945",
+      "/Users/User/Desktop/agentic-health-fact-checking/scripts/assess_source_roles.py": "dfc47f0a9bf803297c74f2d072139824e85fbc343a41bd0f439b33b81d772279",
+      "/Users/User/Desktop/agentic-health-fact-checking/scripts/apply_assessment_review.py": "d3ee3ed4cbfb4746a9ad13ba00d2deec0882f64c71691d2ddb1eafdd4e439c43",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/source-role-posture-reviewed-v1/source-roles.json": "04993f93ec48fca9223065182190584c7396762b3f6c88746b109b065ea419ac",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/source-role-posture-reviewed-v1/source-review-record.json": "0ed300c00c8cba42e8bf489285a693a82efb45f3ba9d75eb7839d211ac98f24c"
+    },
+    "input_sha256": "56cf81045c9e5974820e616afdb04c45053e43981d65933e4e3bf66362a39dc2",
+    "script_sha256": "0d100a0e77bb9baed6de7d98c868bf8c24abf4a8530a904f8433265a47a58399",
+    "model": "qwen3:4b",
+    "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "attempts_per_pair": 2,
+    "anchor_code_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e",
+    "pydantic_version": "2.13.4"
+  },
+  "outputs": {
+    "5b59beeafeb2378b314059c4c75b768b0966b05005f96c20b832e0ae3e60f6a6": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1"
+        ]
+      },
+      "outcome": {
+        "match": "unclear",
+        "quote_ids": []
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": []
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim mentions 'better digestion' as an outcome but the abstract discusses polyphenols and protective effects of fruit/vegetable-rich diets without specifying digestion or timing of fruit consumption. No context details (population, timing, dose) are provided in the abstract to support the claim. The abstract does not mention 'before meals' or 'after meals' timing relative to digestion. The 'd",
+      "gaps": [
+        "No mention of digestion as an outcome in abstract",
+        "No timing information (before/after meals) in abstract",
+        "No dose or population details provided"
+      ]
+    },
+    "afa02e39a5b480ba854166d72987f6e1d917da3b87ecf8cab91fee8ca37d585f": {
+      "exposure": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q8",
+          "Q9"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain', but the study focuses on comparing lumbopelvic kinematics and muscle activation on stable vs unstable surfaces. The outcomes measured (postural sway, EMG) do not directly address back pain prevention. The context (healthy adults, not patients with back pain) and the intervention (unstable surfaces) are not aligned with ",
+      "gaps": [
+        "The study does not measure back pain outcomes directly; it only assesses postural sway and muscle activity.",
+        "The population is healthy adults, not individuals with back pain, so the claim about preventing back pain is not applicable.",
+        "The intervention (unstable surfaces) is not the same as 'maintaining proper posture' as claimed."
+      ]
+    },
+    "94f825baa4f63a057ecf295f5bb7505ca2a268f5639cbeef33ef5d90b067b672": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' However, the abstract discusses the effect of in vitro digestion on phenolic and flavonoid contents of apple and jujube pomaces, not the timing of fruit consumption relative to meals. The study evaluates digestion effects on pre-existing pomace samples, not actual human consumption timing. No context (population, timing, ",
+      "gaps": [
+        "No human studies on eating timing",
+        "No comparison of digestion outcomes when fruits are eaten before vs after meals",
+        "No mention of digestion benefits for human health"
+      ]
+    },
+    "3b0711bd2ada920017290b678b26c2cf64affbe7c894eee39d6ee47d01696707": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q4",
+          "Q5"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q6",
+          "Q7"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim focuses on sitting posture, but the abstract discusses sleep postures (supine, prone, side-lying) and LBP. No sitting posture data is present in the abstract. The outcome (back pain prevention) is mentioned in the abstract but the context (sitting) is not addressed. The abstract covers sleep-related outcomes, not sitting postures. The claim's context (sitting) is not covered in the study",
+      "gaps": [
+        "No data on sitting posture in the abstract",
+        "The abstract focuses on sleep postures, not sitting postures"
+      ]
+    },
+    "160067cb421e58945c41a212bb82d56d8be8e8b4c6b7e49749081b847fc56f44": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q8"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3",
+          "Q4",
+          "Q10"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after' for better digestion. The study shows increased fruit consumption (4.0 to 4.3 times/week) but does not specify timing (before or after meals) or compare it to a control group. The outcome is measured as tolerance improvement but not specifically for fruits in relation to meal timing. Context includes PUD and G/D patients, but the claim is about",
+      "gaps": [
+        "No information on when fruits are consumed (before or after meals)",
+        "No comparison of fruit consumption timing between groups",
+        "No mention of how fruit consumption affects digestion in the context of meal timing"
+      ]
+    },
+    "db323182451bff274ecd3d936be2b76ab62ec45ba4d5c4463558868426cd1b7e": {
+      "exposure": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q6",
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain' but the study only compares two sitting positions (upright vs. slump) and measures muscle activity. The study does not test the effect of maintaining proper posture on preventing back pain, nor does it provide evidence that maintaining proper posture prevents back pain. The outcomes measured are muscle activity and spine",
+      "gaps": [
+        "No evidence that maintaining proper posture prevents back pain",
+        "No intervention or comparator for 'prevent back pain' in the claim",
+        "Study does not test prevention of back pain but rather compares muscle activity in different postures"
+      ]
+    },
+    "aaa95284b771df01adf56e56a82b346b9911488b3d05845b8a9e57f2217dbb70": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q6",
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' However, the abstract focuses on evaluating antioxidant capacity of fruit-based beverages for infants and young children, not on the timing of fruit consumption relative to meals or digestive benefits. The study does not address when fruits should be eaten (before or after meals) or how this timing affects digestion. The ",
+      "gaps": [
+        "No information on timing of fruit consumption (before vs after meals) in relation to digestion",
+        "No data on digestive benefits of eating fruits at different times",
+        "No comparison between pre-meal and post-meal fruit consumption"
+      ]
+    },
+    "b1c0bb22915184b35042fbc7317618dbdd4cc7374495cb7e6fc5084b39ab615c": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting' as a prevention strategy for back pain. The abstract discusses sitting in occupational contexts with co-exposure factors (WBV, awkward postures) and shows that sitting alone does not increase LBP risk. The abstract does not specify 'proper posture' as a defined intervention or outcome. The context is restricted to occupational settings with ",
+      "gaps": [
+        "The claim's intervention ('maintain proper posture') is not explicitly addressed in the abstract. The abstract focuses on co-exposure factors (WBV, awkward postures) rather than posture as a standalone intervention.",
+        "The abstract does not define what constitutes 'proper posture' or how it is measured/assessed in the context of the study.",
+        "The claim implies a preventive action, but the abstract shows that sitting alone does not increase LBP risk; the risk only increases with co-exposure factors."
+      ]
+    },
+    "7ad6ab976da7bfedff35bb4401ebc1ef20a7e10ebc11f2548cd0caeb9ba77094": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim 'Eat fruits before meals, not after, for better digestion' refers to a dietary recommendation for digestive health. The abstract discusses historical colonial diets in sixteenth-century Portuguese America, focusing on the role of native fruits in colonial sweets and their relation to medical discourse. There is no mention of eating fruits before or after meals, digestion, or any health/益",
+      "gaps": [
+        "No reference to digestion or digestive health in the abstract",
+        "No mention of eating fruits before or after meals",
+        "No context of modern dietary practices or health outcomes"
+      ]
+    },
+    "84ca0d3ba2ec265d331275c0eec238bdee408b41323991b087e2a97e7fd11265": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Maintain proper posture while sitting to prevent back pain.' The abstract discusses sitting time, posture, and behavior as factors affecting low back pain (LBP) risk. However, the abstract does not explicitly state that maintaining proper posture prevents back pain; it identifies associations with LBP prevalence. The claim implies a preventive action (maintaining posture) to acau",
+      "gaps": [
+        "The abstract does not specify how maintaining proper posture prevents back pain; it only shows associations with LBP prevalence.",
+        "The claim suggests a preventive action, but the abstract focuses on risk factors and associations, not interventions or prevention strategies."
+      ]
+    },
+    "0eb6fe883399d58f377e2505993a4a42fc350e30431c7fab871069a9d2a41da4": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after' but the intervention focused on increasing overall fruit and vegetable intake at meals and snacks (Q3), not specifically timing of consumption relative to meals. Outcomes measured were intake levels and knowledge (Q5, Q6), not digestion improvement as claimed. Context is older adults (Q2), not general population. No mention of 'before vs after'",
+      "gaps": [
+        "No specific timing of fruit consumption relative to meals",
+        "No direct measurement of digestion improvement",
+        "No comparison of pre-meal vs post-meal consumption"
+      ]
+    },
+    "018ffe3d4dedd0422d162f05ceea8987eb2a56d769ea9644938ad64c7791aaa2": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5",
+          "Q6"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting' as a prevention strategy, but the study focuses on work-related postures and occupational tasks (Q5-Q6), not sitting specifically. The outcome 'back pain' is mentioned (Q7), but the study does not measure prevention or intervention effects (Q8-Q9). Context details like population (midwives, physiotherapists, scoliosis history) and timing (no",
+      "gaps": [
+        "No explicit prevention or intervention strategy tested in the study",
+        "No data on sitting posture specifically",
+        "No comparison of proper vs. incorrect posture as an intervention"
+      ]
+    },
+    "fc7bdbe71f739538fcd30899395c48b5af9872a0a9fac12a94e910edaa84fbc3": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q6",
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals' but the study uses minipigs and focuses on gastric digestion with specific dietary components (sunflower oil, ground beef). The study does not address human consumption timing or digestion outcomes directly. The outcome mentions lipid oxidation and iron forms but does not specify digestion improvement as claimed. Context is mismatched as the study uses a ",
+      "gaps": [
+        "No human data on fruit consumption timing",
+        "No direct measurement of digestion efficiency",
+        "No comparison of pre-meal vs post-meal fruit consumption"
+      ]
+    },
+    "3cea997342643328e794a78ebc30ab1b463a7f3c0292c79d69687a6660788c38": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q6"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim specifies 'eat fruits before meals' as an intervention for better digestion. The abstract mentions edible plants (including fruits) in meals but does not specify timing (before vs after meals) or directly link fruit consumption timing to digestion outcomes. The outcomes discussed (carbohydrate handling, enteroendocrine modulation) are not explicitly tied to 'better digestion' as claimed.",
+      "gaps": [
+        "No specific mention of fruit timing relative to meals",
+        "No direct evidence linking fruit consumption timing to improved digestion outcomes",
+        "Abstract focuses on T2DM management, not general digestion"
+      ]
+    },
+    "8b08bf8839c74103155fa5cf6358815b66cc3e47552fc736e93622eeb8116769": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'prevent back pain' but the abstract only reports associations between sitting posture and pain, not prevention. The abstract does not specify if the posture intervention was implemented or if it was a passive observation. The context is limited to schoolchildren aged 11-14, but the claim is general. The outcome is measured as pain association, not prevention. The abstract doesnot",
+      "gaps": [
+        "No evidence of prevention or intervention",
+        "No specification of whether the posture was actively maintained or passively observed",
+        "No indication of whether the study was a prevention or treatment approach"
+      ]
+    },
+    "7952544b14351a46f6770be213bbf7e604aedcc663bdab6cf6df76e220115caf": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q4"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim 'Eat fruits before meals, not after, for better digestion' refers to dietary timing for digestion benefits. The abstract discusses anaerobic digestion of fruit and vegetable waste, not human dietary practices. No context (population, timing, dose, prevention/treatment) is provided that relates to human digestion or meal timing. The abstract focuses on waste processing techniques, not how",
+      "gaps": [
+        "No mention of human digestion, meal timing, or dietary interventions in the abstract",
+        "Abstract does not address whether fruit consumption before meals affects digestion in humans",
+        "No comparison between pre-meal vs post-me: the claim specifies timing relative to meals, but the abstract discusses waste processing"
+      ]
+    },
+    "3f0b1caecdffd6c6b76345bfdfb9ca7e7031d4e177f414ffa07f55b246275963": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q4"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting' but the study focuses on squatting posture in jewellery manufacturing, not sitting. The outcome 'back pain' is not measured; instead, body part discomfort (BPD) is measured on a 10-point scale. Context details like age, height, weight, BMI are provided but the study is specific to young male participants in a controlled environment for metal",
+      "gaps": [
+        "The study does not measure back pain as claimed; it measures body part discomfort (BPD) on a 10-point scale.",
+        "The study is limited to young male participants in a controlled environment for metal setting, not general population or sitting posture.",
+        "The claim mentions 'prevent back pain' but the study suggests an optimal duration for squatting posture, not a prevention strategy for sitting."
+      ]
+    },
+    "99caa8c7c7121180543df0fe3b578da5f77902efce94d2ef10402a7adce1dda9": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after, for better digestion' but the abstract focuses on fructose and sorbitol absorption in fruit juices, particularly in pediatric health, using breath hydrogen measurements. The claim does not specify the context (e.g., fruit juices, pediatric population) or the outcome (e.g., gastrointestinal symptoms, absorption rates). The abstract does not link",
+      "gaps": [
+        "No mention of eating fruits before vs after meals",
+        "No specific outcome related to digestion improvement",
+        "No context restriction on when or how fruits are consumed"
+      ]
+    },
+    "d7dc5d55b565e35d8190bf26e2cb1fb9744526299e41e82c1299c0d654473293": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q7"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q10",
+          "Q11"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain' but the study focuses on patients with chronic low back pain who are on the waiting list for physiotherapy. The study does not test the effect of maintaining proper posture on preventing back pain; it investigates beliefs and attitudes about posture. The outcome described in the abstract (misconceptions leading to poor Q",
+      "gaps": [
+        "The study does not evaluate the effectiveness of posture maintenance in preventing back pain.",
+        "The claim implies a preventive measure, but the study is about beliefs in patients with existing chronic back pain."
+      ]
+    },
+    "abcb497c3eeab2965f7c99ed6bfbbb3258d64672eb8a207916873e6dc309f6a7": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q9",
+          "Q10"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q11",
+          "Q12",
+          "Q13",
+          "Q14"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' However, the study focuses on comparing different preparation protocols for capsule endoscopy (CE) studies, specifically examining the effects of Ensure(®), PEG, and standard preparations on small bowel cleanliness and image quality. The study does not address the timing of fruit consumption relative to meals or its role,",
+      "gaps": [
+        "The study does not investigate the timing of fruit consumption (before or after meals) as claimed.",
+        "The study does not measure or review digestion outcomes related to fruit consumption.",
+        "The study does not compare the effects of fruits versus other food items on digestion or small bowel cleanliness."
+      ]
+    },
+    "03bf6f183205549bf01f0de4e876d05cb3674d0d21a6a370961bb0ff3433718d": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q14",
+          "Q15",
+          "Q16",
+          "Q17"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q13",
+          "Q18",
+          "Q19"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q14",
+          "Q15",
+          "Q16",
+          "Q17"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim 'Maintain proper posture while sitting to prevent back pain' is not supported by the abstract. The abstract discusses a case of spontaneous spinal epidural hematoma (SSEH) where symptoms improved when supine and worsened while sitting. The outcome described (recovery without surgery) is not a prevention of back pain but a treatment response to a specific condition. The context (spinal ep",
+      "gaps": [
+        "The abstract does not discuss general back pain prevention, but focuses on a specific neurological condition (SSEH).",
+        "The claim implies a general preventive measure for back pain, but the abstract describes a case-specific response to a rare condition."
+      ]
+    },
+    "d2dfaece966390a38303ed263a8471f1ab21b87020bd4a8570d167ebab7d07a9": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' However, the abstract focuses on in vitro studies of polyphenol-rich fruit extracts inhibiting digestive enzymes (α-amylase and α-glucosidase) in digestion models. The claim implies a dietary timing intervention (before vs. after meals), but the abstract discusses polyphenol effects on enzyme activity without addressing a",
+      "gaps": [
+        "No mention of dietary timing (before vs. after meals) in the abstract",
+        "No evidence on how fruit consumption timing affects digestion in humans",
+        "Abstract focuses on in vitro enzyme inhibition, not human digestion or postprandial effects"
+      ]
+    },
+    "6fcfbe2fe127d55f65cdea847e2c6e8791a02f5f7e394bcc247396efcc47fbee": {
+      "exposure": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q9",
+          "Q10"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim 'Maintain proper posture while sitting to prevent back pain' does not directly address the exposure (posture) or outcome (back pain prevention) as defined in the abstract. The study focuses on pelvic asymmetry and trunk motion in sitting, but does not explicitly state that maintaining proper posture prevents back pain. The outcomes measured are kinematic differences and correlations, not",
+      "gaps": [
+        "No direct evidence that maintaining proper posture prevents back pain",
+        "No mention of prevention vs treatment in the context of back pain",
+        "The study does not address the effectiveness of posture maintenance as a preventive measure"
+      ]
+    },
+    "f222465d94518ca4b60ce599d461371369c31c3c07c085f77b00c5317292ce02": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q11",
+          "Q12",
+          "Q13"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' However, the abstract discusses meals composed of fruits and vegetables with low starch content for people with type 2 diabetes, focusing on glucose and insulin responses. The claim does not specify timing (before/after meals) or digestion benefits, and the study does not compare fruit consumption timing but rather mealst",
+      "gaps": [
+        "No information on when fruits are consumed relative to meals (before/after)",
+        "No direct evidence on digestion benefits (only glucose/insulin responses in diabetics)",
+        "No comparison of fruit consumption timing (before vs after meals)"
+      ]
+    },
+    "925092d0ecabfc9ffb1328de1e02d5dfb6084fb0fa25ba0926ec2bccdf8e7687": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2",
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q3",
+          "Q5",
+          "Q6",
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2",
+          "Q3"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting' as a prevention strategy for back pain. The study focuses on work-related lumbar posture (sitting, standing, walking) and their relationship with LBP. However, the study does not explicitly define 'proper posture' or specify sitting as the primary posture to maintain. The outcomes measured include LBP symptoms over 12 months and 7 days, but ",
+      "gaps": [
+        "The claim does not specify which posture is considered 'proper' (e.g., sitting vs. walking).",
+        "The study does not define 'proper posture' or provide a specific sitting posture recommendation.",
+        "The study does not explicitly state that sitting is the intervention for prevention; it compares walking vs. standing."
+      ]
+    },
+    "253e957bde42731ce94078b53fdc04d1cb36e969dc5490665842cf9bb5659f7d": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q6"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q6"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim 'Eat fruits before meals, not after, for better digestion' refers to dietary timing and digestion benefits. The abstract discusses methane production from food waste in anaerobic bioreactors, focusing on fruit and vegetable waste composition, not human digestion or dietary timing. No context (human population, digestion process) is mentioned in the abstract. The outcome (methane yield) ≠",
+      "gaps": [
+        "No human digestion context",
+        "No comparison of pre-meal vs post-meal fruit consumption",
+        "No mention of digestion benefits"
+      ]
+    },
+    "ad92e43a818d36ee7e96056479a90cd6922130f66e57297a5730dcaf651c3a76": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q9",
+          "Q10",
+          "Q11"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' However, the abstract focuses on calcium, iron, and zinc availability from weaning foods (specifically comparing fruits vs. vegetables) in an in vitro setting. The claim's recommendation about timing (before vs. after meals) is not addressed in the study. The abstract does not discuss digestion, meal timing, or the impact",
+      "gaps": [
+        "No information on meal timing (before vs. after meals) in the context of digestion",
+        "No discussion of digestion as an outcome",
+        "No comparison of fruit consumption timing relative to meals"
+      ]
+    },
+    "50c4e250c2a982ffb21a572270cbe9a9d68f78a9b205f121cc7553578deff8c1": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2",
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5",
+          "Q6"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'prevent back pain', but the study only measured outcomes in pain-free participants (Q3) and did not evaluate prevention of back pain in individuals with existing back pain. The study's context is limited to pain-free participants, not the general population with back pain. The outcome measures (lumbar flexion and muscle activation) are proxies for back pain, but the claim implies",
+      "gaps": [
+        "The study did not assess prevention of back pain in individuals with existing back pain (the claim specifies 'prevent back pain', but the study only used pain-free participants).",
+        "The study did not evaluate long-term effects or real-world applicability of the intervention (the claim implies prevention, but the study only tested acute effects during a typing task).",
+        "The study did not measure back pain directly as an outcome, only indirect proxies (lumbar flexion and muscle activation)."
+      ]
+    },
+    "2a2fb52e9de2057db5af86b3f408285a64619425940345a12f2f263289a6d5b5": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after' for better digestion. The abstract discusses polyphenol components of berries inhibiting digestive enzymes (e.g., alpha-glucosidase, alpha-amylase, proteases) but does not specify timing of fruit consumption relative to meals. The abstract mentions potential effects on starch, protein, and lipid digestion but does not address whether eating fru",
+      "gaps": [
+        "Timing of fruit consumption (before vs. after meals) is not addressed in the abstract",
+        "Specific polyphenol components and their effects on digestion are discussed, but the claim's focus on timing is missing",
+        "The abstract does not clarify if the inhibition of digestive enzymes by polyphenols occurs when fruits are consumed before meals versus after meals"
+      ]
+    },
+    "754c54ae824188ae556477c225b0fa2b1726ee6a5880b9c28e8e1cedd8e9f378": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q1",
+          "Q2"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain' but the study only compares postural hypervigilance and perception of correct sitting posture between individuals with and without low back pain. The outcomes (Q7, Q8) show no significant differences, which contradicts the claim's preventive implication. Context is unclear as the study does not specify population, timing",
+      "gaps": [
+        "No cohort data for prevention claim",
+        "No dose or timing specified for posture maintenance",
+        "No comparison to active interventions"
+      ]
+    },
+    "d8d5dfc3bd9214096a35efb9640bb48b5e961296a518b7aa17ddbcd5ea462771": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after, for better digestion' but the abstract only discusses kiwifruit's composition and in vitro digestion effects. The abstract does not mention timing of consumption (before/after meals), nor does it address digestion benefits in the context of eating fruits at specific times. The outcome (digestion) is discussed but not in relation to meal timing.",
+      "gaps": [
+        "No information on when fruits should be eaten relative to meals",
+        "No comparison between eating fruits before vs after meals",
+        "No evidence that eating kiwifruit before meals improves digestion compared to eating after"
+      ]
+    },
+    "60fc54b6e1705f5420b9214427895df6cafddf7d2cb4bba6e1c3e0f5c9aaf1f4": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain' but the abstract does not explicitly state that maintaining proper posture while sitting is a specific intervention or that it prevents back pain. The abstract mentions postural assessment, alignment, and potential risks of poor posture, but does not directly link maintaining proper posture while sitting to prevention of",
+      "gaps": [
+        "No explicit statement that maintaining proper posture while sitting is an intervention that prevents back pain",
+        "No mention of the specific population or timing for the intervention",
+        "No dose or frequency details for maintaining proper posture"
+      ]
+    },
+    "f2355fbbf1fb937097c2d2ec867c4892d1ef1af1c4b6902cb87f4e8b141bba0d": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' The abstract mentions in Q5 that 'green kiwifruit aids digestion and laxation.' However, the claim specifies timing (before vs after meals) which is not explicitly addressed in the abstract. The abstract does not provide information on when fruits should be consumed relative to meals for digestion benefits. The claim's 'e",
+      "gaps": [
+        "Timing of fruit consumption relative to meals for digestion benefits",
+        "Specific comparison of digestion benefits when fruits are eaten before vs after meals"
+      ]
+    },
+    "2fe92bd1998a6f220099a528bdb2678b4a809c507fa3416daf3ff318bf2ace0b": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5",
+          "Q8",
+          "Q9",
+          "Q15"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q8",
+          "Q9",
+          "Q15"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Maintain proper posture while sitting to prevent back pain.' However, the abstract focuses on within-person changes in movement and posture related to clinical outcomes in people with persistent, disabling NSLBP, not on preventing back pain through maintaining proper posture. The study uses a specific intervention (physiotherapy-led) over a 22-week period with wearable sensors, a",
+      "gaps": [
+        "The abstract does not specify what constitutes 'proper posture' or how it should be maintained for prevention.",
+        "The study does not address prevention (the claim's context) but focuses on treatment of persistent, disabling NSLBP.",
+        "The abstract mentions 'less protective' postural changes but does not define what 'proper posture' would be in the context of prevention."
+      ]
+    },
+    "698c775ea01d4f83e78046006df2d516992c0e6478a11bdbed4841cd4986ab1a": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q6",
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim 'Eat fruits before meals, not after, for better digestion.' refers to a general dietary advice about fruit consumption timing. The abstract discusses in vitro digestion studies on Kadsura coccinea fruits (a specific plant species), focusing on bioactive compounds, antioxidant activity, and bioaccessibility. There is no mention of eating fruits before or after meals in the context of this",
+      "gaps": [
+        "No information on fruit consumption timing (before/after meals) in the abstract",
+        "No comparison between eating fruits before vs after meals",
+        "No data on digestion benefits related to timing of fruit consumption"
+      ]
+    },
+    "6cb7ddb22dae97c99fbaecfa9a2314b70c56ec484352f324eeb711c70496a7fa": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q1",
+          "Q2",
+          "Q3"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting' as a prevention strategy for back pain. The abstract discusses low back pain in dynamic postures (Q1, Q2, Q3, Q4) and mentions that low back pain occurs in specific postural patterns (Q3, Q4). However, the abstract does not explicitly state that maintaining proper posture while sitting prevents back pain. Instead, it focuses on dynamic postu",
+      "gaps": [
+        "The abstract does not specify sitting posture as the context for prevention.",
+        "The abstract does not clarify if the 'appropriate preparatory set' (Q7) refers to sitting posture or other postures."
+      ]
+    },
+    "1dc2a816850d02453406b94ad27a85342ba5e78f781824cae8d4597861fd3c91": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q10"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' However, the abstract does not mention timing of fruit consumption (before or after meals), nor does it specify that fruits are the source of prebiotics or their role in digestion. The abstract discusses prebiotics, probiotics, and synbiotics in general but does not address the timing of fruit consumption relative to meal",
+      "gaps": [
+        "No mention of fruit timing (before/after meals)",
+        "No specific reference to fruits as prebiotics or their role in digestion timing",
+        "No comparison between eating fruits before vs after meals"
+      ]
+    },
+    "4d829c9543261a62d3da356c37ef1c1b51bbf7a1afac93f8669bc39425b5d587": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q8",
+          "Q9"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q6"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain', but the study focuses on joint and muscle forces during exercises in sitting/supine postures, not posture maintenance for prevention. Outcomes like joint forces and muscle forces are not directly equivalent to back pain prevention. Context details (e.g., healthy males, specific exercises) do not align with the claim's '",
+      "gaps": [
+        "The study does not address back pain prevention specifically; it examines joint forces during exercises.",
+        "No data on posture maintenance or its impact on back pain prevention is provided.",
+        "The context (healthy males, specific exercises) does not match the claim's general population or prevention context."
+      ]
+    },
+    "ca032c47afa483946b9d23aef543622a2d36f4aedb403d21d15101dea25a113e": {
+      "exposure": {
+        "match": "match",
+        "quote_ids": [
+          "Q3",
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q7",
+          "Q10"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3",
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after' but the study only tested baobab fruit extract added to white bread (not consumed as a fruit before meals). The outcome 'better digestion' is not directly measured; the study measured GR (glycemic response) and satiety, but the claim's 'better digestion' is a proxy. Context is mismatched as the study used baobab extract in bread, not fruits as ",
+      "gaps": [
+        "The claim specifies 'fruits before meals', but the study used baobab extract in bread (not fruits consumed before meals).",
+        "The outcome 'better digestion' is not directly measured; the study measured GR and satiety, but 'better digestion' is a proxy.",
+        "The study did not compare eating fruits before vs after meals; it tested extract in bread."
+      ]
+    },
+    "0742f92206c45abb7c2b46df80a084db29a782a179c03df6be890fcea7d8d312": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q6",
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting' as a prevention strategy for back pain. The abstract describes a study on lumbar spine posture and sEMG during office work, but does not specify what constitutes 'proper posture' or how maintaining it would prevent back pain. The study found low muscle activation during sitting (Q7) and a correlation between lumbar flexion and reduced muscle",
+      "gaps": [
+        "Definition of 'proper posture' is missing",
+        "No information on whether maintaining specific postures prevents back pain",
+        "No data on the effectiveness of posture maintenance as a preventive measure"
+      ]
+    },
+    "7f83925d4ad572958bc6cc9add629003cd6c8ccfc5a0c8225516dada340bcd7a": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q6"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after' for better digestion. The study focuses on in vitro digestion of polysaccharides from Choerospondias axillaris fruit (CAP) and its effects on gut microbiota. The study does not address the timing of fruit consumption (before vs. after meals) or compare it with other fruits. The outcomes measured are fermentation products and gut microbiota modu",
+      "gaps": [
+        "No comparison of fruit consumption timing (before vs. after meals)",
+        "No direct comparison of CAP with other fruits or interventions",
+        "No mention of human studies on actual fruit consumption timing"
+      ]
+    },
+    "f12ed31a8f58bf812a5966c491d7de243ff841c1f183d97aa723dd8fea33f7d9": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q8",
+          "Q9"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q7"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Maintain proper posture while sitting to prevent back pain.' However, the study focuses on identifying trunk motor control impairments in patients with acute to subacute low back pain (LBP) who have movement coordination impairments (MCIs). The study does not investigate the effectiveness of maintaining proper posture as a preventive measure for back pain. The outcomes measured (",
+      "gaps": [
+        "The study does not evaluate the effectiveness of posture maintenance as a preventive strategy for back pain.",
+        "The study does not address the claim's context of prevention versus treatment.",
+        "The study does not provide evidence that maintaining proper posture prevents back pain in the general population."
+      ]
+    },
+    "b715b3829c567e7f4e60f5c8ccf757274b5bf313ce0b0f953eaa2a8bf7e00acb": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3",
+          "Q4",
+          "Q5"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after' for better digestion. The abstract discusses in vitro digestion methods for carotenoids in fruits, vegetables, egg yolk, and salmon. The study does not address the timing of fruit consumption (before vs after meals) or its impact on digestion. The outcomes measured are carotenoid bioaccessibility and stability, not general digestion. The study,",
+      "gaps": [
+        "No information on timing of fruit consumption (before vs after meals)",
+        "No information on digestion outcomes beyond carotenoids",
+        "No comparison of fruit consumption timing in real human digestion"
+      ]
+    },
+    "5fee64dca005e04849f587ffdf4ae43d9c9921b43c22eb9717a51dbed9eeeac6": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q6",
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting' as a prevention strategy for back pain. The study compares lumbosacral and spinopelvic parameters between pain developers and non-pain developers, but does not specifically address sitting posture interventions or outcomes. The outcome measures (lumbar lordosis, joint angles) are not directly related to back pain prevention through posture. ",
+      "gaps": [
+        "No intervention or comparator for sitting posture is described in the abstract",
+        "No outcome related to back pain prevention through sitting posture is measured",
+        "The study focuses on standing-induced low back pain, not sitting posture interventions"
+      ]
+    },
+    "23beba3a6a96f2d32b7da51e07327cac594cace6be1c68d4ba68a6defbc06105": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after' for better digestion. The study focuses on persimmon polyphenols (Kaki-tannin) and their effect on postprandial glucose levels, not the timing of fruit consumption relative to meals. The outcomes measured are glucose suppression, not general digestion improvement. Context includes animal and human trials with specific doses, but the claim's 'fr",
+      "gaps": [
+        "The claim does not specify which fruit (persimmon is studied, not general fruits).",
+        "The claim does not address the timing of fruit consumption (before vs after meals) as the study measures glucose response to polyphenol ingestion, not the timing of fruit intake.",
+        "The outcomes measured are glucose levels, not general digestion improvement as claimed."
+      ]
+    },
+    "fb1888c530e147ae53d050760e3caf146026fadbd5dc6572a1aaeaa51896768b": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q15",
+          "Q16"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q8",
+          "Q9",
+          "Q10",
+          "Q11"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain', but the study focuses on co-contraction of trunk muscles to achieve correct lumbar curvature and reduce stress on passive structures. The study does not directly address prevention of back pain (CLBP) as a primary outcome, but rather investigates spinal curvature and muscle activity during specific postures. The outcome",
+      "gaps": [
+        "The study does not explicitly state that maintaining proper posture prevents back pain; it shows co-contraction reduces lumbar curvature and stress but does not directly link to prevention of back pain.",
+        "The claim mentions 'prevent back pain', but the study's outcomes are measured in terms of spinal curvature and muscle activity, not pain reduction or prevention of back pain."
+      ]
+    },
+    "fd6139af9f744af743722c5f3b3a2ac2f38b94791b48f36279c5a7913f709dac": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q9",
+          "Q10",
+          "Q11",
+          "Q12"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim 'Eat fruits before meals, not after, for better digestion.' refers to human dietary practices, but the abstract discusses anaerobic digestion of fruit and vegetable waste in industrial settings. There is no mention of human digestion, meal timing, or dietary recommendations in the abstract. The abstract focuses on methane production from waste substrates, not human health outcomes. The '",
+      "gaps": [
+        "No information on human digestion or meal timing in the abstract",
+        "No data on fruit consumption timing relative to meals",
+        "No discussion of digestive health outcomes in humans"
+      ]
+    },
+    "0fb5d14869f82805202e0582251c47040d64552a46ddc815ec59949570bbb26d": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q5",
+          "Q6"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain', but the study focuses on smartphone use and its effect on posture changes in adolescents with LBP. The study does not directly address 'maintaining proper posture' as an intervention to prevent back pain, but rather observes changes in posture after sitting. The outcomes measured (thoracolumbar kyphosis, lumbar lordosis",
+      "gaps": [
+        "The study does not specify how 'proper posture' is defined or maintained as an intervention.",
+        "The claim mentions 'prevent back pain', but the study only examines adolescents with existing LBP, not prevention of back pain.",
+        "The study does not evaluate the effectiveness of maintaining proper posture as a preventive measure for back pain."
+      ]
+    },
+    "0d9e23618ad5d0911be7ec5aa4541b551b7b0ce657eb2d945f75ffa13b8547d0": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals' but the study only evaluated kombucha made from specific fruits (jaboticaba, grumixama, juçara) and does not compare fruit consumption timing (before vs after meals). The outcome 'better digestion' is not directly measured; the study reports SCFA changes and microbiota shifts, which are proxies. Context is limited to specific fruits and kombucha, not the ",
+      "gaps": [
+        "No comparison of fruit consumption timing (before vs after meals)",
+        "No direct measurement of digestion improvement",
+        "No information on whether the fruits were consumed as whole foods or processed into kombucha"
+      ]
+    },
+    "4d6da9fbb6b4397fdd901034d65f26ad02477b68d27851c2ff15135ffbc27363": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q1"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain' but the study compares stability balls vs office chairs for muscle activation and posture, not posture maintenance as a preventive measure. The outcome (back pain prevention) is not measured in the study; instead, they report increased discomfort and muscle activation differences. Context is unclear as the study focuses ",
+      "gaps": [
+        "No measurement of back pain prevention or reduction in the study",
+        "No information on how proper posture maintenance is defined or implemented in the context of the study",
+        "The study does not address whether sitting on a stability ball prevents back pain but rather compares discomfort and muscle activation"
+      ]
+    },
+    "50c70a1650926a9af6e4d5ed5141e999c0b6efeed84867ac7aee8f6084fe7255": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q6",
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "unclear",
+        "quote_ids": [
+          "Q2"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals', but the study compares fresh oranges vs. pasteurized orange juice as interventions, not timing of consumption relative to meals. The outcome (digestion) is measured but not directly tied to 'better digestion' as claimed. Context (population, timing, etc.) is not specified in the abstract beyond the study design, making it unclear if this applies to the '",
+      "gaps": [
+        "No information on when fruits are eaten relative to meals",
+        "No data on digestion improvement for general fruit consumption",
+        "No comparison of fresh vs. pasteurized juice timing with meals"
+      ]
+    },
+    "7c23594e51ba93e05717724b4b2c76e3085178af8522a2ef2053c6b19af39cd4": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q4",
+          "Q6"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting' as a prevention strategy for back pain. The study focuses on a specific biomechanical intervention (seating orthosis compressing greater trochanters) for sacroiliac joint disorder, not general posture maintenance. The outcome measures (sitting time, stress distribution) are not directly equivalent to 'back pain prevention'. Context is highly",
+      "gaps": [
+        "The claim refers to general back pain prevention, but the study targets sacroiliac joint disorder specifically.",
+        "The study does not measure or report on 'proper posture' as a general intervention but rather a specific orthotic device for a specific condition.",
+        "No data on long-term effects or general population applicability for back pain prevention."
+      ]
+    },
+    "7f11245450dd484d6cecb8c93393748a3b6240c2a6cff37e3c40a8183a7fb654": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3",
+          "Q5"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q7"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q4",
+          "Q5"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'Eat fruits before meals, not after, for better digestion.' However, the study focuses on adding fruit extracts (baobab and green tea) to white bread, not consuming whole fruits before meals. The outcomes measured (glycemic response, insulin response, satiety) do not directly relate to 'better digestion' as claimed. The context specifies a controlled trial with specific extracts, ",
+      "gaps": [
+        "The study does not address fruit consumption timing (before vs after meals) as claimed.",
+        "The outcomes measured (glycemic response, insulin response) are not equivalent to 'better digestion' as claimed.",
+        "The study uses extracts added to bread, not whole fruits consumed before meals."
+      ]
+    },
+    "b9e985fc71ffc328a49c207eb99efe2900558e3110b694e749baa56a0abfa957": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q1",
+          "Q2"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q8",
+          "Q9",
+          "Q10",
+          "Q11"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain', but the study measures spinal loads on implants in patients with compression fractures, not back pain prevention in healthy populations. The outcome (spinal loads) is a proxy for potential back pain, but the study does not measure back pain outcomes. The context is mismatched as the study focuses on patients with pre-ex",
+      "gaps": [
+        "No back pain outcomes measured",
+        "No comparison to 'proper posture' as defined in the claim",
+        "Study population is patients with compression fractures, not general population"
+      ]
+    },
+    "7b2ba9fa18e58c37870fef777c6734e82bfe3c756a057fd116882aa72e4bd79b": {
+      "exposure": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "outcome": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q5",
+          "Q6",
+          "Q7",
+          "Q8"
+        ]
+      },
+      "context": {
+        "match": "mismatch",
+        "quote_ids": [
+          "Q3"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'eat fruits before meals, not after, for better digestion' but the study focuses on lycopene isomers in gac fruit (Momordica cochinchinensis Spreng) and their digestive stability, not on the timing of fruit consumption relative to meals. The study compares digestive stability of lycopene isomers but does not address when fruits should be eaten (before or after meals) as a strategy",
+      "gaps": [
+        "No information on the timing of fruit consumption (before vs after meals) in relation to digestion outcomes",
+        "No direct comparison of digestion efficiency when fruits are eaten before vs after meals",
+        "The study does not evaluate the impact of eating fruits at different times on digestive processes"
+      ]
+    },
+    "cf5ba7c90e12c066b92c7360f768fa55e5d9c51e724a628f4944f028bc64c101": {
+      "exposure": {
+        "match": "partial",
+        "quote_ids": [
+          "Q6",
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "outcome": {
+        "match": "partial",
+        "quote_ids": [
+          "Q9",
+          "Q10",
+          "Q11",
+          "Q12"
+        ]
+      },
+      "context": {
+        "match": "partial",
+        "quote_ids": [
+          "Q6",
+          "Q7",
+          "Q8",
+          "Q9"
+        ]
+      },
+      "needs_scope_clarification": true,
+      "reason": "The claim states 'maintain proper posture while sitting to prevent back pain' but the study focuses on digital biofeedback training for pain management, not general posture maintenance. The outcomes measured are pain reduction and posture quality improvements, but the claim implies prevention of back pain, which is not addressed in the study. The context includes a specific intervention (UpRight) ",
+      "gaps": [
+        "The study does not address prevention of back pain but rather treatment of existing pain through biofeedback training.",
+        "The claim mentions 'prevent' but the study measures outcomes in a treatment context (reducing existing pain), not prevention.",
+        "The study does not specify if the intervention is for prevention or treatment of back pain."
+      ]
+    }
+  },
+  "events": [
+    {
+      "key": "28e9ebbe84e8a516d7312c72c1fd0714625877b1d9ee4f74a5b37103c7a1edb5",
+      "status": "invalid_output",
+      "prompt_sha256": "72893d60121ad3d4cda875ee0c519ca1f5bee73776faa1ccc72c3710d73228cc",
+      "response_file": "responses/0001.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "28e9ebbe84e8a516d7312c72c1fd0714625877b1d9ee4f74a5b37103c7a1edb5",
+      "status": "invalid_output",
+      "prompt_sha256": "21a1a147f81d63a66a4d35f000ca7832ba32a2ddd8a3e734cf25ad2ecccd297d",
+      "response_file": "responses/0002.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "77e7e3b0a461e939eea7dabdb1318e6626d39652034a73ac669715eacc4f3a75",
+      "status": "invalid_output",
+      "prompt_sha256": "b04a7c30ed4e0e91bff74f72fed3445fc7bcfa2000f8e0b30d2ba9843ef80dfd",
+      "response_file": "responses/0003.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "77e7e3b0a461e939eea7dabdb1318e6626d39652034a73ac669715eacc4f3a75",
+      "status": "invalid_output",
+      "prompt_sha256": "0cdb9cc88d16897b00aed8adaac4bb050709854e87fed53eedba07a00e9ef1f9",
+      "response_file": "responses/0004.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "7225af70c56eecfd7e11870eb105964e695de52ed4308b9d97d19ed1cc13d437",
+      "status": "invalid_output",
+      "prompt_sha256": "13b49d6e3de38fec64b765bc9d11070b61d7bda517c1e3107ea0a4470234fa99",
+      "response_file": "responses/0005.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "7225af70c56eecfd7e11870eb105964e695de52ed4308b9d97d19ed1cc13d437",
+      "status": "invalid_output",
+      "prompt_sha256": "bcd4e3f6ff16b7ac418f79b849084eabc2b4b162945bcf0f111a98aa090a9d8a",
+      "response_file": "responses/0006.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "aed999275c1e2b71d91efcf2dfb162a9ccc2eb78f634603072fd19389ca5e7e7",
+      "status": "invalid_output",
+      "prompt_sha256": "e838ac003e2bec053b863c51f3aaebe888a2944e17093aeefcf930946af6f133",
+      "response_file": "responses/0007.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "aed999275c1e2b71d91efcf2dfb162a9ccc2eb78f634603072fd19389ca5e7e7",
+      "status": "invalid_output",
+      "prompt_sha256": "b5a9da4f0c4bce9cbfc7a21f677aefe2fbe2e0a14f6945f30a578f9a7c7b808a",
+      "response_file": "responses/0008.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "ba222423b5f3fb4b7ab65ae1171f53f02cf390df31a65f10e0655754847a329e",
+      "status": "invalid_output",
+      "prompt_sha256": "93808c02fdb78f2f1fb149aae43044f76ca478bee7a4ac00bdbd0423210e35d1",
+      "response_file": "responses/0009.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "ba222423b5f3fb4b7ab65ae1171f53f02cf390df31a65f10e0655754847a329e",
+      "status": "invalid_output",
+      "prompt_sha256": "fcd77868ebbd872827512c8676cf3aad5d292d794964e9eb054cef24c24ea362",
+      "response_file": "responses/0010.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "f8ad14485702b63aecaea5161d3d6b012ace872866205a43442d8cbf93bf754d",
+      "status": "invalid_output",
+      "prompt_sha256": "66d34e8e895c965eaf201add590623e6ee7f5ab76d2d5ecbdce42c693a734fce",
+      "response_file": "responses/0011.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "f8ad14485702b63aecaea5161d3d6b012ace872866205a43442d8cbf93bf754d",
+      "status": "invalid_output",
+      "prompt_sha256": "b735e5125a2d2d1ead07b8f2642b0cb1074b69ef4627f374e13c111587415b4c",
+      "response_file": "responses/0012.json",
+      "error": "Only context may be not_applicable"
+    },
+    {
+      "key": "5b59beeafeb2378b314059c4c75b768b0966b05005f96c20b832e0ae3e60f6a6",
+      "status": "structure_checked",
+      "prompt_sha256": "02aa5bc0dc073f2efeabb2e1367f13c6454218722010efd5dbc99065a0d82872",
+      "response_file": "responses/0013.json"
+    },
+    {
+      "key": "afa02e39a5b480ba854166d72987f6e1d917da3b87ecf8cab91fee8ca37d585f",
+      "status": "structure_checked",
+      "prompt_sha256": "d470d358420d2adede086f15779965206f862fa57732bec793e99ccf56cbceb4",
+      "response_file": "responses/0014.json"
+    },
+    {
+      "key": "94f825baa4f63a057ecf295f5bb7505ca2a268f5639cbeef33ef5d90b067b672",
+      "status": "structure_checked",
+      "prompt_sha256": "7201a8322d537e5b6808be12d811df7152d3d792e4a6c94b2dd246709a14e45d",
+      "response_file": "responses/0015.json"
+    },
+    {
+      "key": "3b0711bd2ada920017290b678b26c2cf64affbe7c894eee39d6ee47d01696707",
+      "status": "structure_checked",
+      "prompt_sha256": "49d02c74379d32c07ae91dc59a476b6f6bdc8f74902d451ea78869b1b1f2d7fc",
+      "response_file": "responses/0016.json"
+    },
+    {
+      "key": "160067cb421e58945c41a212bb82d56d8be8e8b4c6b7e49749081b847fc56f44",
+      "status": "structure_checked",
+      "prompt_sha256": "c9e27b89271208aa90ad6982973d94dd6ad05e32fa884727804122db466625e3",
+      "response_file": "responses/0017.json"
+    },
+    {
+      "key": "db323182451bff274ecd3d936be2b76ab62ec45ba4d5c4463558868426cd1b7e",
+      "status": "structure_checked",
+      "prompt_sha256": "7a2d81a5779e89f682ffad3769c5fd72f479e87a847411dd5163f80cbd444464",
+      "response_file": "responses/0018.json"
+    },
+    {
+      "key": "aaa95284b771df01adf56e56a82b346b9911488b3d05845b8a9e57f2217dbb70",
+      "status": "structure_checked",
+      "prompt_sha256": "37757800663ae51b7fd51f6de56cba14a0aa9f087b6ca4461cd62b302eb29e9f",
+      "response_file": "responses/0019.json"
+    },
+    {
+      "key": "b1c0bb22915184b35042fbc7317618dbdd4cc7374495cb7e6fc5084b39ab615c",
+      "status": "structure_checked",
+      "prompt_sha256": "2f279010d26c4f69e298aa0a7bca732a6004ff482af0784c2a47aa8b302a13d8",
+      "response_file": "responses/0020.json"
+    },
+    {
+      "key": "7ad6ab976da7bfedff35bb4401ebc1ef20a7e10ebc11f2548cd0caeb9ba77094",
+      "status": "structure_checked",
+      "prompt_sha256": "f56d48f91d444701669abf6081f4af676539c9b8018e1da9012979d8937ab03b",
+      "response_file": "responses/0021.json"
+    },
+    {
+      "key": "84ca0d3ba2ec265d331275c0eec238bdee408b41323991b087e2a97e7fd11265",
+      "status": "structure_checked",
+      "prompt_sha256": "07e958086ee7f00056fed116de5cf4b7e49b92f129094f19b5b52a0b587ee8be",
+      "response_file": "responses/0022.json"
+    },
+    {
+      "key": "0eb6fe883399d58f377e2505993a4a42fc350e30431c7fab871069a9d2a41da4",
+      "status": "structure_checked",
+      "prompt_sha256": "669adf2e85e0c67879595e0247cb1625e8ad5e2a5aae9e4f2e63705ad0476348",
+      "response_file": "responses/0023.json"
+    },
+    {
+      "key": "018ffe3d4dedd0422d162f05ceea8987eb2a56d769ea9644938ad64c7791aaa2",
+      "status": "structure_checked",
+      "prompt_sha256": "e1e170e1ca42e6fe0bfda44bb76ec1fb7195f21c4098f5cb1d748c0596708018",
+      "response_file": "responses/0024.json"
+    },
+    {
+      "key": "fc7bdbe71f739538fcd30899395c48b5af9872a0a9fac12a94e910edaa84fbc3",
+      "status": "structure_checked",
+      "prompt_sha256": "59f10e8adf15ac362c456da54dedf0e2f8ade7d51324885f4ad065a089c988c6",
+      "response_file": "responses/0025.json"
+    },
+    {
+      "key": "3cea997342643328e794a78ebc30ab1b463a7f3c0292c79d69687a6660788c38",
+      "status": "structure_checked",
+      "prompt_sha256": "dfc4ca8fa122f03bc7e1c45567d8e38d8462127cfb96dacdecf29e03da5f44cb",
+      "response_file": "responses/0026.json"
+    },
+    {
+      "key": "8b08bf8839c74103155fa5cf6358815b66cc3e47552fc736e93622eeb8116769",
+      "status": "structure_checked",
+      "prompt_sha256": "4065bfc2463eefba0f6a87c33ff363a83627bcbd70b80d3a12ca42523ce3717c",
+      "response_file": "responses/0027.json"
+    },
+    {
+      "key": "7952544b14351a46f6770be213bbf7e604aedcc663bdab6cf6df76e220115caf",
+      "status": "structure_checked",
+      "prompt_sha256": "a8e9e2cd2e5aa470377a87bc7a83bff6b79965a00f7e80e229a1c91b78651eea",
+      "response_file": "responses/0028.json"
+    },
+    {
+      "key": "3f0b1caecdffd6c6b76345bfdfb9ca7e7031d4e177f414ffa07f55b246275963",
+      "status": "structure_checked",
+      "prompt_sha256": "0d0c7fe4dd3d3cf9f6676658299e33148595dd44be643987ce5617cb722067b8",
+      "response_file": "responses/0029.json"
+    },
+    {
+      "key": "99caa8c7c7121180543df0fe3b578da5f77902efce94d2ef10402a7adce1dda9",
+      "status": "structure_checked",
+      "prompt_sha256": "eb6e67b3a40a2f4646c03bc41a16e17c196109a18724f33f33025c54dce17b0b",
+      "response_file": "responses/0030.json"
+    },
+    {
+      "key": "d7dc5d55b565e35d8190bf26e2cb1fb9744526299e41e82c1299c0d654473293",
+      "status": "structure_checked",
+      "prompt_sha256": "bbdf222c79782904b4486744f05346869195122e1679a1376ff048799581f19f",
+      "response_file": "responses/0031.json"
+    },
+    {
+      "key": "abcb497c3eeab2965f7c99ed6bfbbb3258d64672eb8a207916873e6dc309f6a7",
+      "status": "structure_checked",
+      "prompt_sha256": "83f654ff4aed3aef8864fd57d4dc89d50a5d0315002d259922fc020285c96a8e",
+      "response_file": "responses/0032.json"
+    },
+    {
+      "key": "03bf6f183205549bf01f0de4e876d05cb3674d0d21a6a370961bb0ff3433718d",
+      "status": "structure_checked",
+      "prompt_sha256": "80747d3a7f00c56980079b36c0cfeda492d7a871ef5b6af962acb506689f6cbf",
+      "response_file": "responses/0033.json"
+    },
+    {
+      "key": "d2dfaece966390a38303ed263a8471f1ab21b87020bd4a8570d167ebab7d07a9",
+      "status": "structure_checked",
+      "prompt_sha256": "155245a000d592c12fee6e3cfb97bac7f3a81cb798a05972392b260ba4113fce",
+      "response_file": "responses/0034.json"
+    },
+    {
+      "key": "6fcfbe2fe127d55f65cdea847e2c6e8791a02f5f7e394bcc247396efcc47fbee",
+      "status": "structure_checked",
+      "prompt_sha256": "f138de68575a97d0fee4356c50a17ea27d3cd431af4f76ab93b8872c2583269f",
+      "response_file": "responses/0035.json"
+    },
+    {
+      "key": "f222465d94518ca4b60ce599d461371369c31c3c07c085f77b00c5317292ce02",
+      "status": "structure_checked",
+      "prompt_sha256": "283f8fad8ef3564d4b2bcaba425512385e1bf92c1c7447c8d2c47032056a1b22",
+      "response_file": "responses/0036.json"
+    },
+    {
+      "key": "925092d0ecabfc9ffb1328de1e02d5dfb6084fb0fa25ba0926ec2bccdf8e7687",
+      "status": "structure_checked",
+      "prompt_sha256": "d600d3b699786dd74958e9feef7f91dd1ab4805ef1e0daea1549f8f50ab4e981",
+      "response_file": "responses/0037.json"
+    },
+    {
+      "key": "253e957bde42731ce94078b53fdc04d1cb36e969dc5490665842cf9bb5659f7d",
+      "status": "structure_checked",
+      "prompt_sha256": "64aa4c44f6217f305babd3fef81463a01da0b56b36b651ef6a9e20bde1a66fcd",
+      "response_file": "responses/0038.json"
+    },
+    {
+      "key": "ad92e43a818d36ee7e96056479a90cd6922130f66e57297a5730dcaf651c3a76",
+      "status": "structure_checked",
+      "prompt_sha256": "271711f6fd99ad9b123ae69791c03d8c3ab4000c60151a5915066249486b2991",
+      "response_file": "responses/0039.json"
+    },
+    {
+      "key": "50c4e250c2a982ffb21a572270cbe9a9d68f78a9b205f121cc7553578deff8c1",
+      "status": "structure_checked",
+      "prompt_sha256": "ff45fccbfd0c9c5135be76d3d9c7cf96100affb62bf26dc1a130acf68d484aad",
+      "response_file": "responses/0040.json"
+    },
+    {
+      "key": "2a2fb52e9de2057db5af86b3f408285a64619425940345a12f2f263289a6d5b5",
+      "status": "structure_checked",
+      "prompt_sha256": "1cc6888198f0309bc22a738dd2896437df94b33af1bb0b007ec65023468bf6b1",
+      "response_file": "responses/0041.json"
+    },
+    {
+      "key": "754c54ae824188ae556477c225b0fa2b1726ee6a5880b9c28e8e1cedd8e9f378",
+      "status": "structure_checked",
+      "prompt_sha256": "9cfd5d39f82c22517f84be1337c2e034047e1ff734faedf4ca7fbff5a81fdf9d",
+      "response_file": "responses/0042.json"
+    },
+    {
+      "key": "d8d5dfc3bd9214096a35efb9640bb48b5e961296a518b7aa17ddbcd5ea462771",
+      "status": "structure_checked",
+      "prompt_sha256": "826709a30a667a1db373f4eb024370f7e0bdb0ed392d69a35a38815e6d56aded",
+      "response_file": "responses/0043.json"
+    },
+    {
+      "key": "60fc54b6e1705f5420b9214427895df6cafddf7d2cb4bba6e1c3e0f5c9aaf1f4",
+      "status": "structure_checked",
+      "prompt_sha256": "f4fb421262d4f203e8c6d16ffa820d4710fb40be59b40c52642799c3b91d39b4",
+      "response_file": "responses/0044.json"
+    },
+    {
+      "key": "f2355fbbf1fb937097c2d2ec867c4892d1ef1af1c4b6902cb87f4e8b141bba0d",
+      "status": "structure_checked",
+      "prompt_sha256": "cff6b6ccf5cf45aa37c870a32b48cfa1baaabe5bcee752212be0485bee447f8c",
+      "response_file": "responses/0045.json"
+    },
+    {
+      "key": "2fe92bd1998a6f220099a528bdb2678b4a809c507fa3416daf3ff318bf2ace0b",
+      "status": "structure_checked",
+      "prompt_sha256": "71b97107dfe9ffa2189c764dbad501b1078fd9e45983e497b10c7d72eb419c13",
+      "response_file": "responses/0046.json"
+    },
+    {
+      "key": "698c775ea01d4f83e78046006df2d516992c0e6478a11bdbed4841cd4986ab1a",
+      "status": "structure_checked",
+      "prompt_sha256": "f2e387bf7552b94ba0c6e938c86a4bd8ce4aa8809df8639808fe8af17714f123",
+      "response_file": "responses/0047.json"
+    },
+    {
+      "key": "6cb7ddb22dae97c99fbaecfa9a2314b70c56ec484352f324eeb711c70496a7fa",
+      "status": "structure_checked",
+      "prompt_sha256": "e73f52496683095e7fe15da04183c1d813a25f76716d4b856d269eed7db17595",
+      "response_file": "responses/0048.json"
+    },
+    {
+      "key": "1dc2a816850d02453406b94ad27a85342ba5e78f781824cae8d4597861fd3c91",
+      "status": "structure_checked",
+      "prompt_sha256": "545b81d7594c469aa825dbed5577a687c6c34f5f37e1a337e767744278f04181",
+      "response_file": "responses/0049.json"
+    },
+    {
+      "key": "4d829c9543261a62d3da356c37ef1c1b51bbf7a1afac93f8669bc39425b5d587",
+      "status": "structure_checked",
+      "prompt_sha256": "5b21afecaf2edcdc9c9a736bf7876b6d1ccbdbac5d7acca12b451d3af360eee6",
+      "response_file": "responses/0050.json"
+    },
+    {
+      "key": "ca032c47afa483946b9d23aef543622a2d36f4aedb403d21d15101dea25a113e",
+      "status": "structure_checked",
+      "prompt_sha256": "623779eef2fe25dc485d1e905637f1bfd114efa9af2a4d8a055362d7d2c9e0bd",
+      "response_file": "responses/0051.json"
+    },
+    {
+      "key": "0742f92206c45abb7c2b46df80a084db29a782a179c03df6be890fcea7d8d312",
+      "status": "structure_checked",
+      "prompt_sha256": "f046541978222d772c1215f072af7c158555c0ebadcb889eefb12b1b6aaacceb",
+      "response_file": "responses/0052.json"
+    },
+    {
+      "key": "7f83925d4ad572958bc6cc9add629003cd6c8ccfc5a0c8225516dada340bcd7a",
+      "status": "structure_checked",
+      "prompt_sha256": "a9a1506ee5c2c1f10c705ab78ad0aba94f16295a629bdcf7cb5f554fc4a697bf",
+      "response_file": "responses/0053.json"
+    },
+    {
+      "key": "f12ed31a8f58bf812a5966c491d7de243ff841c1f183d97aa723dd8fea33f7d9",
+      "status": "structure_checked",
+      "prompt_sha256": "3dbde127628eb5e00001b4587f3661182a12c59ac4269f78b3a2515c9926060a",
+      "response_file": "responses/0054.json"
+    },
+    {
+      "key": "b715b3829c567e7f4e60f5c8ccf757274b5bf313ce0b0f953eaa2a8bf7e00acb",
+      "status": "structure_checked",
+      "prompt_sha256": "2c6318203c590b81e72728560449eb6658b46d29d4f0264f78700a43d91eba87",
+      "response_file": "responses/0055.json"
+    },
+    {
+      "key": "5fee64dca005e04849f587ffdf4ae43d9c9921b43c22eb9717a51dbed9eeeac6",
+      "status": "structure_checked",
+      "prompt_sha256": "43b291cb17717a2bbe14d919936f0069ed00e7037d57ffeb089adff53e326e93",
+      "response_file": "responses/0056.json"
+    },
+    {
+      "key": "23beba3a6a96f2d32b7da51e07327cac594cace6be1c68d4ba68a6defbc06105",
+      "status": "structure_checked",
+      "prompt_sha256": "435e58d6a044679412ad64ed5c5dabe231c6d570a5088b91d7496906b96b8d18",
+      "response_file": "responses/0057.json"
+    },
+    {
+      "key": "fb1888c530e147ae53d050760e3caf146026fadbd5dc6572a1aaeaa51896768b",
+      "status": "structure_checked",
+      "prompt_sha256": "3f5f754c5eed6f18915fd6a2bdd19f6a4767d2ae65c3b8fd837b9a101dcc9de2",
+      "response_file": "responses/0058.json"
+    },
+    {
+      "key": "fd6139af9f744af743722c5f3b3a2ac2f38b94791b48f36279c5a7913f709dac",
+      "status": "structure_checked",
+      "prompt_sha256": "3eda7f5528d2f5b70373343178727e135f6ead7b7adfb61410d79bf387e53d5d",
+      "response_file": "responses/0059.json"
+    },
+    {
+      "key": "0fb5d14869f82805202e0582251c47040d64552a46ddc815ec59949570bbb26d",
+      "status": "structure_checked",
+      "prompt_sha256": "c617c59e1593aebff89e9238ef252534e5e135b3c9e90697594a4ee119065663",
+      "response_file": "responses/0060.json"
+    },
+    {
+      "key": "0d9e23618ad5d0911be7ec5aa4541b551b7b0ce657eb2d945f75ffa13b8547d0",
+      "status": "structure_checked",
+      "prompt_sha256": "8db63f42acf164eb068626dc83404983a44ade579237cfe5379da609b05fcb9f",
+      "response_file": "responses/0061.json"
+    },
+    {
+      "key": "4d6da9fbb6b4397fdd901034d65f26ad02477b68d27851c2ff15135ffbc27363",
+      "status": "structure_checked",
+      "prompt_sha256": "f56268997696f48472e9fb529aa25854ce3259a3cfad0c614967f96bb173067e",
+      "response_file": "responses/0062.json"
+    },
+    {
+      "key": "50c70a1650926a9af6e4d5ed5141e999c0b6efeed84867ac7aee8f6084fe7255",
+      "status": "structure_checked",
+      "prompt_sha256": "4355265340c4781d62b3c5f819126b7f11c9c649c86249fe80e2c5179f568360",
+      "response_file": "responses/0063.json"
+    },
+    {
+      "key": "7c23594e51ba93e05717724b4b2c76e3085178af8522a2ef2053c6b19af39cd4",
+      "status": "structure_checked",
+      "prompt_sha256": "bf9161b7dda4c69724969d01556fa1f6c77442b8b2708f19e92be9732bc25a48",
+      "response_file": "responses/0064.json"
+    },
+    {
+      "key": "7f11245450dd484d6cecb8c93393748a3b6240c2a6cff37e3c40a8183a7fb654",
+      "status": "structure_checked",
+      "prompt_sha256": "7647d4ef29d60b0db1aa1ce0abcf70f55e7cc8f0f1933b0cf1767a9e4192efb4",
+      "response_file": "responses/0065.json"
+    },
+    {
+      "key": "b9e985fc71ffc328a49c207eb99efe2900558e3110b694e749baa56a0abfa957",
+      "status": "structure_checked",
+      "prompt_sha256": "7f99c09f2741c1cd8119d8e7fae53fc116b2c21ff60856155371e861e41244c1",
+      "response_file": "responses/0066.json"
+    },
+    {
+      "key": "7b2ba9fa18e58c37870fef777c6734e82bfe3c756a057fd116882aa72e4bd79b",
+      "status": "structure_checked",
+      "prompt_sha256": "184f385de64b4ce3f286c7eac6dfcdb8b3bf0be885e9b9d2b4abcc6bec1c58c0",
+      "response_file": "responses/0067.json"
+    },
+    {
+      "key": "cf5ba7c90e12c066b92c7360f768fa55e5d9c51e724a628f4944f028bc64c101",
+      "status": "structure_checked",
+      "prompt_sha256": "0d46314ac233f5dc799dc83a9d5af2c110185c84c73aad14e8faf862d8defc6b",
+      "response_file": "responses/0068.json"
+    },
+    {
+      "key": "17db95d7c80981af0b536b86c97e7a5c49de75b29010ed8ca21406ebdf750987",
+      "status": "started",
+      "prompt_sha256": "340a292883d7ce457dfa1037bedfa9b8abd406e8eb735d3007c62baad4a9b845"
+    }
+  ],
+  "migration": {
+    "method": "axis-enum-contract-fix-v1",
+    "original_run": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/relevance-screen-ranked-v1",
+    "original_state_sha256": "71d6890474655dc669db3a532a61ec5d4703f0a65236955dc3a8b62de33a1764",
+    "original_script_sha256": "fef72a1008930b3878f6db4f7b55d542dda9656cd655b2504ec85f7f302c073c",
+    "new_script_sha256": "0d100a0e77bb9baed6de7d98c868bf8c24abf4a8530a904f8433265a47a58399",
+    "historical_event_count": 12,
+    "response_sha256": {
+      "responses/0001.json": "5c5207f04945dd7f604967feeb6596ed037a39f5fee3632925cd624228e34832",
+      "responses/0002.json": "e46607d44bdedd3fbcc8e350a29b5f3857b1b79cf0151f0a6116cad21f8ab1a0",
+      "responses/0003.json": "3b494e70e1c22fbeddb2c55c40bd316018d4b6e59c88b01bf7662f0ad95f68cb",
+      "responses/0004.json": "2a28031c9afaff614ad00ca15354682134f64a65346d069a0e304524e0c1f9dd",
+      "responses/0005.json": "4f587dc99f4bdd31094df99dad5b7b14045e2ff3097bb53a6e36d368a2563fdf",
+      "responses/0006.json": "d018086c9d09ca3e48adb891fafe2775bfa81c1575afe54c9c4b406834c715bf",
+      "responses/0007.json": "14cca67b330c9cb426013ed14842a09869db7df82fefb0c48503917f50315860",
+      "responses/0008.json": "be509dbb12135ce781f1fa15e291cadfac6d1682133baf0640d9fbdbbfce08c2",
+      "responses/0009.json": "c732c9e0167492c2ca797cb6356420ff12ebc4d46f273fd77e26f3bb53b9c855",
+      "responses/0010.json": "eef9fd90eb006655de50690d823b850dc590951421c09fad489c9852f40d8264",
+      "responses/0011.json": "009babb2040c9eec20e4e3951101c049b276a25fc5d6407790a1138bf8193b72",
+      "responses/0012.json": "95a428940fdc3cbff55d197081b0d42b8e2e63f1c6dfab1796560450cfc8162a"
+    },
+    "model_calls": 0,
+    "scope": "Schema fix only; failed responses remain unresolved and all attempts are retained."
+  }
+}

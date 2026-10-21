@@ -1,0 +1,187 @@
+{
+  "binding": {
+    "profile": "source-roles-v1",
+    "inputs": {
+      "/Users/User/Desktop/agentic-health-fact-checking/data/diagnostics/nutrition-01-ranking-comparison-review.json": "fbdbbb7f45d62719465c0f978697b875a411883ecd426f65f80ea5e40cc70af2"
+    },
+    "backend": "ollama",
+    "model_identity": {
+      "model": "qwen3:4b",
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    "selected_pmids": [
+      "37296485",
+      "40760353",
+      "41628734"
+    ],
+    "script_sha256": "48867083ca64ddf4efe7afbc952f57dea9a01acef7bcf64f470dd7282856616d",
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e"
+  },
+  "outputs": {
+    "149995ad3a8112621b3895f111207e462e317a931be2d093930f6029ce27ef2b": {
+      "D": [],
+      "P": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "I": [
+        "Q7",
+        "Q8"
+      ],
+      "O": [
+        "Q9"
+      ],
+      "R": [
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15"
+      ],
+      "T": [],
+      "G": [
+        "Q10",
+        "Q11",
+        "Q12"
+      ],
+      "M": [],
+      "L": [
+        "Q7",
+        "Q8"
+      ],
+      "role": "critical_guidance",
+      "fit": "not_applicable",
+      "contrast": "not_reported",
+      "basis": [
+        "Q10",
+        "Q11",
+        "Q12"
+      ],
+      "reason": "The claim describes a specific dietary switch (processed foods + excess carbs/fats → only meat, fish, eggs, vegetables, fruit) resulting in rapid fat loss. The abstract does not describe any study or evidence supporting this specific dietary switch. The abstract mentions a recommended dietary model:",
+      "scope_flags": [
+        "no_reliable_selection",
+        "no_proof_of_absence",
+        "no_proxy_endpoint_used_for_claimed_endpoint_100%_match_100%_match_100%_match_100%_match_100%_match_100%_match_100%_match_100%_match_100%_match_100%_match_100%_match_100%_match_100%"
+      ]
+    },
+    "e0020f8631e6ad4787e19a9a7d4c71a87234cf8b6d6673cf068adbab878e6f0e": {
+      "D": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "P": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "I": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "O": [
+        "Q5"
+      ],
+      "R": [
+        "Q5"
+      ],
+      "T": [
+        "Q2"
+      ],
+      "G": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "M": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "L": [
+        "Q6"
+      ],
+      "role": "effect_evidence",
+      "fit": "direct",
+      "contrast": "between_groups",
+      "basis": [
+        "Q5"
+      ],
+      "reason": "The study directly compares weight loss between minimally processed food (MPF) and ultraprocessed food (UPF) diets in a randomized crossover trial. The primary outcome (%WC) shows significantly greater weight loss on MPF (-2.06%) compared to UPF (-1.05%).",
+      "scope_flags": [
+        "population",
+        "dose",
+        "timing"
+      ]
+    }
+  },
+  "events": [
+    {
+      "key": "149995ad3a8112621b3895f111207e462e317a931be2d093930f6029ce27ef2b",
+      "status": "invalid_output",
+      "prompt_sha256": "5bad4f28cfdb18102a8714e7855a3770dd60645fc571beaf5e73430c26e25ec7",
+      "response_file": "responses/0001.json",
+      "prompt_eval_count": 878,
+      "error": "Unknown/duplicate quotation IDs in P"
+    },
+    {
+      "key": "149995ad3a8112621b3895f111207e462e317a931be2d093930f6029ce27ef2b",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "21fba75ba592b6c2caead9bb097b6e65b89ecbc5a75df9339b3517bde0bc349a",
+      "response_file": "responses/0002.json",
+      "prompt_eval_count": 889
+    },
+    {
+      "key": "e0020f8631e6ad4787e19a9a7d4c71a87234cf8b6d6673cf068adbab878e6f0e",
+      "status": "invalid_output",
+      "prompt_sha256": "932e4281002978eaecaa4dbc9a6ac1fccc823260e611e1f83013ccac8367fc62",
+      "response_file": "responses/0003.json",
+      "prompt_eval_count": 801,
+      "error": "Unknown/duplicate quotation IDs in D"
+    },
+    {
+      "key": "e0020f8631e6ad4787e19a9a7d4c71a87234cf8b6d6673cf068adbab878e6f0e",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "dbdf78612629de68612e68a651d3aa913e3bc67b9d07dc053b78186f6a827cde",
+      "response_file": "responses/0004.json",
+      "prompt_eval_count": 812
+    },
+    {
+      "key": "ec1e765dcd0e63259d1965dfe640ec7f3df55ade901b7523defe4bb4fbf19b35",
+      "status": "invalid_output",
+      "prompt_sha256": "e9a5c181d61f5bef4845a388f50ef000a4e5df70dc578492dd63673af4413530",
+      "response_file": "responses/0005.json",
+      "prompt_eval_count": 775,
+      "error": "Guidance role needs guidance quotations"
+    },
+    {
+      "key": "ec1e765dcd0e63259d1965dfe640ec7f3df55ade901b7523defe4bb4fbf19b35",
+      "status": "invalid_output",
+      "prompt_sha256": "1e668e0834f30d5029789f0b6b9f8b0169174bc201688a6be5e3fa08642c5249",
+      "response_file": "responses/0006.json",
+      "prompt_eval_count": 784,
+      "error": "Unknown/duplicate quotation IDs in D"
+    }
+  ]
+}

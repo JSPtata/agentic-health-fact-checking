@@ -1,0 +1,43 @@
+{
+  "claim_id": "fitness-02-c003",
+  "claim_text": "Eat fruits before meals, not after, for better digestion.",
+  "status": "retrieval_no_usable_abstracts",
+  "interrupted": true,
+  "pending_action": "review_search_coverage_and_source_availability",
+  "source_review_status": "source_review_incomplete",
+  "retrieval": {
+    "status": "retrieval_no_usable_abstracts",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json",
+    "evidence_sha256": "dfdbf737491bc0a0de3bb87ddb557f83469cf211cb91d9755e107d3f1d34d6bf",
+    "candidate_pmids": 0,
+    "usable_abstracts": 0,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "eating fruits before meals AND better digestion",
+      "eating fruits prior to meals AND improved gastrointestinal function"
+    ]
+  },
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [
+    {
+      "action": "retrieval_finished",
+      "result": {
+        "status": "retrieval_no_usable_abstracts",
+        "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json",
+        "evidence_sha256": "dfdbf737491bc0a0de3bb87ddb557f83469cf211cb91d9755e107d3f1d34d6bf",
+        "candidate_pmids": 0,
+        "usable_abstracts": 0,
+        "unresolved_pmids": [],
+        "empty_abstract_pmids": [],
+        "queries": [
+          "eating fruits before meals AND better digestion",
+          "eating fruits prior to meals AND improved gastrointestinal function"
+        ]
+      }
+    }
+  ],
+  "adjudication": null
+}

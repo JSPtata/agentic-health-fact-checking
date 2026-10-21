@@ -1,0 +1,13 @@
+{
+  "claim_id": "fitness-02-c007",
+  "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+  "status": "awaiting_reviewed_assessment",
+  "interrupted": true,
+  "pending_action": "complete_relevance_screening_verification_and_review",
+  "source_review_status": "source_review_incomplete",
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [],
+  "adjudication": null
+}

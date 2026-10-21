@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:40:21.685373Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S65191223e280ad02\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"Achilles tendon\",\n  \"measured_outcome_or_recommendation\": \"blood flow and stiffness\",\n  \"finding\": \"Static stretching and eccentric exercises elicited no significant changes\",\n  \"relation\": \"unassessable\",\n  \"limitations\": [\n    \"Results specific to Achilles tendon, not general body stretching\",\n    \"No mention of timing relative to waking up\",\n    \"No evidence of effect on circulation after waking\",\n    \"No comparison to post-waking stretching protocols\"\n  ],\n  \"quote_ids\": [\n    \"Q1\"\n  ]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 14177931708,
+  "load_duration": 8672292,
+  "prompt_eval_count": 485,
+  "prompt_eval_cached_count": 373,
+  "prompt_eval_duration": 1153250000,
+  "eval_count": 164,
+  "eval_duration": 12873506000
+}

@@ -1,0 +1,43 @@
+{
+  "claim_id": "fitness-02-c007",
+  "claim_text": "Replace sugary drinks with herbal tea for a healthier alternative.",
+  "status": "retrieval_no_usable_abstracts",
+  "interrupted": true,
+  "pending_action": "review_search_coverage_and_source_availability",
+  "source_review_status": "source_review_incomplete",
+  "retrieval": {
+    "status": "retrieval_no_usable_abstracts",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/62a8a37c067fdbbb6d7dcd5faa634681a3393cdcdbe7f28bf909620c9732a37e/evidence-input.json",
+    "evidence_sha256": "41e2b86dca0f23b8fdc008fb65d13c7f3443f84b64c3f0bf4d4806f25cc203a9",
+    "candidate_pmids": 0,
+    "usable_abstracts": 0,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "((sugary drinks OR sweetened beverages) AND (herbal tea OR herbal beverages)) AND (healthier OR better health OR improved health outcomes) AND (substitution OR replacement) AND (dietary change OR lifestyle intervention)",
+      "((sug as a beverage OR sweetened drinks) AND (herbal tea OR herbal infusions)) AND (health benefits OR reduced risk OR improved health) AND (dietary substitution OR behavioral change)"
+    ]
+  },
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [
+    {
+      "action": "retrieval_finished",
+      "result": {
+        "status": "retrieval_no_usable_abstracts",
+        "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/62a8a37c067fdbbb6d7dcd5faa634681a3393cdcdbe7f28bf909620c9732a37e/evidence-input.json",
+        "evidence_sha256": "41e2b86dca0f23b8fdc008fb65d13c7f3443f84b64c3f0bf4d4806f25cc203a9",
+        "candidate_pmids": 0,
+        "usable_abstracts": 0,
+        "unresolved_pmids": [],
+        "empty_abstract_pmids": [],
+        "queries": [
+          "((sugary drinks OR sweetened beverages) AND (herbal tea OR herbal beverages)) AND (healthier OR better health OR improved health outcomes) AND (substitution OR replacement) AND (dietary change OR lifestyle intervention)",
+          "((sug as a beverage OR sweetened drinks) AND (herbal tea OR herbal infusions)) AND (health benefits OR reduced risk OR improved health) AND (dietary substitution OR behavioral change)"
+        ]
+      }
+    }
+  ],
+  "adjudication": null
+}

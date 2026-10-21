@@ -1,0 +1,154 @@
+{
+  "binding": {
+    "profile": "focused-endpoint-check-v1",
+    "input_sha256": "1052b1ce1883ebca096ec4cfde9abf73b7428d9d768dc413c35ead347f39a839",
+    "model_identity": {
+      "model": "qwen3:4b",
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    "script_sha256": "dbfd54f62b2953187bb911832810d2b2809625d797833bccfe0246a9291892e4",
+    "transport_sha256": "48867083ca64ddf4efe7afbc952f57dea9a01acef7bcf64f470dd7282856616d",
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e"
+  },
+  "sources": [
+    {
+      "claim_id": "nutrition-01-diagnostic-c001",
+      "pmid": "37296485",
+      "claimed_outcome": "Losing a lot of fat very quickly",
+      "source": {
+        "title": "Position statement on nutrition therapy for overweight and obesity: nutrition department of the Brazilian association for the study of obesity and metabolic syndrome (ABESO-2022).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37296485/",
+        "abstract": "Obesity is a chronic disease resulting from multifactorial causes mainly related to lifestyle (sedentary lifestyle, inadequate eating habits) and to other conditions such as genetic, hereditary, psychological, cultural, and ethnic factors. The weight loss process is slow and complex, and involves lifestyle changes with an emphasis on nutritional therapy, physical activity practice, psychological interventions, and pharmacological or surgical treatment. Because the management of obesity is a long-term process, it is essential that the nutritional treatment contributes to the maintenance of the individual's global health. The main diet-related causes associated with excess weight are the high consumption of ultraprocessed foods, which are high in fats, sugars, and have high energy density; increased portion sizes; and low intake of fruits, vegetables, and grains. In addition, some situations negatively interfere with the weight loss process, such as fad diets that involve the belief in superfoods, the use of teas and phytotherapics, or even the avoidance of certain food groups, as has currently been the case for foods that are sources of carbohydrates. Individuals with obesity are often exposed to fad diets and, on a recurring basis, adhere to proposals with promises of quick solutions, which are not supported by the scientific literature. The adoption of a dietary pattern combining foods such as grains, lean meats, low-fat dairy, fruits, and vegetables, associated with an energy deficit, is the nutritional treatment recommended by the main international guidelines. Moreover, an emphasis on behavioral aspects including motivational interviewing and the encouragement for the individual to develop skills will contribute to achieve and maintain a healthy weight. Therefore, this Position Statement was prepared based on the analysis of the main randomized controlled studies and meta-analyses that tested different nutrition interventions for weight loss. Topics in the frontier of knowledge such as gut microbiota, inflammation, and nutritional genomics, as well as the processes involved in weight regain, were included in this document. This Position Statement was prepared by the Nutrition Department of the Brazilian Association for the Study of Obesity and Metabolic Syndrome (ABESO), with the collaboration of dietitians from research and clinical fields with an emphasis on strategies for weight loss.",
+        "abstract_sha256": "8da821853214ba670076aafffa3b0a03c06e437af9a1470d32497d8d7bf0e919",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "correction_notices": []
+      },
+      "previous_role": "critical_guidance",
+      "previous_fit": "not_applicable",
+      "status": "provisional_endpoint_check",
+      "full_claim_fit": "not_verified",
+      "adjudication_approved": false,
+      "assessment": {
+        "relation": "different",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "reason": "The claimed outcome 'Losing a lot of fat very quickly' refers to rapid weight loss, but the abstract discusses the slow and complex nature of weight loss processes, emphasizing long-term management rather than quick results. The abstract mentions that weight '"
+      },
+      "quotations": [
+        {
+          "quote_id": "Q1",
+          "text": "Obesity is a chronic disease resulting from multifactorial causes mainly related to lifestyle (sedentary lifestyle, inadequate eating habits) and to other conditions such as genetic, hereditary, psychological, cultural,"
+        },
+        {
+          "quote_id": "Q2",
+          "text": " and ethnic factors."
+        },
+        {
+          "quote_id": "Q3",
+          "text": " The weight loss process is slow and complex, and involves lifestyle changes with an emphasis on nutritional therapy, physical activity practice, psychological interventions, and pharmacological or surgical treatment."
+        },
+        {
+          "quote_id": "Q4",
+          "text": " Because the management of obesity is a long-term process, it is essential that the nutritional treatment contributes to the maintenance of the individual's global health."
+        }
+      ],
+      "direct_fit_conflict": false
+    },
+    {
+      "claim_id": "nutrition-01-diagnostic-c001",
+      "pmid": "40760353",
+      "claimed_outcome": "Losing a lot of fat very quickly",
+      "source": {
+        "title": "Ultraprocessed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health: a randomized, crossover trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40760353/",
+        "abstract": "Ultraprocessed food (UPF) consumption is associated with noncommunicable disease risk, yet no trial has assessed its health impact within the context of national dietary guidelines. In a 2 × 2 crossover randomized controlled feeding trial, 55 adults in England (body mass index ≥25 to <40 kg m-2, habitual UPF intake ≥50% kcal day-1) were provided with two 8-week ad libitum diets following the UK Eatwell Guide: (1) minimally processed food (MPF) and (2) UPF, in a random order. Twenty-eight people were randomized to MPF then UPF, and 27 to UPF then MPF; 50 participants comprised the intention-to-treat sample. The primary outcome was the within-participant difference in percent weight change (%WC) between diets, from baseline to week 8. Participants were blinded to the primary outcome. MPF (%WC, -2.06 (95% confidence interval (CI), -2.99, -1.13) and UPF (%WC, -1.05 (95% CI, -1.98, -0.13)) resulted in weight loss, with significantly greater %WC on MPF (Δ%WC, -1.01 (95% CI, -1.87, -0.14), P = 0.024; Cohen's d, -0.48 (95% CI, -0.91, -0.06)). Mild gastrointestinal adverse events were common on both diets. Findings indicate greater weight loss on MPF than UPF diets and needing dietary guidance on food processing in addition to existing recommendations. Clinicaltrials.gov registration: NCT05627570 .",
+        "abstract_sha256": "400fed3501f485f830425687e3c7bc6c9e1f18635394530f813841f6b888f424",
+        "publication_types": [
+          "Journal Article",
+          "Randomized Controlled Trial"
+        ],
+        "correction_notices": []
+      },
+      "previous_role": "effect_evidence",
+      "previous_fit": "direct",
+      "status": "provisional_endpoint_check",
+      "full_claim_fit": "not_verified",
+      "adjudication_approved": false,
+      "assessment": {
+        "relation": "exact",
+        "quote_ids": [
+          "Q4"
+        ],
+        "reason": "The claimed outcome 'Losing a lot of fat very quickly' is directly measured as 'within-participant difference in percent weight change (%WC) between diets, from baseline to week 8' in Q4. This is a precise endpoint construct for weight loss over time, matching"
+      },
+      "quotations": [
+        {
+          "quote_id": "Q4",
+          "text": " The primary outcome was the within-participant difference in percent weight change (%WC) between diets, from baseline to week 8. Participants were blinded to the primary outcome."
+        }
+      ],
+      "direct_fit_conflict": false
+    },
+    {
+      "claim_id": "nutrition-01-diagnostic-c001",
+      "pmid": "41628734",
+      "claimed_outcome": "Losing a lot of fat very quickly",
+      "source": {
+        "title": "Energy metabolism, nutrition and cancer.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41628734/",
+        "abstract": "Cancer is a complex group of diseases characterized by the uncontrolled growth and spread of abnormal cells, and it remains a major global health concern. In order to meet the increased energy and biosynthetic requirements of rapid growth, cancer cells undergo metabolic reprogramming. In this setting, nutrition exerts a crucial influence on nutrients availability and increasing evidence highlights the significant role of nutrition in the prevention, development, and management of cancer. Dietary patterns and nutrient intake can influence cancer risk through various biological mechanisms, including inflammation, oxidative stress, immune modulation, and hormonal regulation. Diets high in processed foods, red meats, saturated fats and added sugars, have been associated with an increased risk of several cancers. Such diets may contribute to chronic inflammation, insulin resistance, and obesity-conditions known as major risk factors for cancer. Obesity itself is considered a significant contributor to cancer incidence and mortality, linking excess body fat to hormonal imbalances and altered metabolic pathways. Conversely, balanced diets rich in fruits, vegetables, whole grains, legumes, healthy fats and low refined carbohydrates, provide essential vitamins, minerals, fiber, and phytochemicals that have protective properties. These components can help the scavenging of free radicals, reduce DNA damage, and regulate cell growth, potentially lowering the risk of developing certain types of cancer. Nutritional needs in patients with cancer become complex, because of changes in metabolism and tolerance, frequently associated with cancer progression and treatment. Personalized nutritional support can help maintain body weight, preserve muscle mass, and improve treatment tolerance, potentially enhancing overall performance status and survival. While nutrition is not a cure for cancer, it is an essential component of an integrative approach to prevention and care. Further research is necessary to explore how diet can be optimized to support long-term health, reduce recurrence, and improve outcomes in cancer.",
+        "abstract_sha256": "835e7bea1888baf231b1dc62971adcefa49551ad4af8a97d8cc980bbc20df785",
+        "publication_types": [
+          "Journal Article",
+          "Review",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "correction_notices": []
+      },
+      "previous_role": null,
+      "previous_fit": null,
+      "status": "provisional_endpoint_check",
+      "full_claim_fit": "not_verified",
+      "adjudication_approved": false,
+      "assessment": {
+        "relation": "different",
+        "quote_ids": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "reason": "The claimed outcome 'Losing a lot of fat very quickly' refers to a rapid weight loss process, but the abstract discusses cancer-related topics without any mention of fat loss, weight loss, or related constructs. The endpoints described in the abstract are all "
+      },
+      "quotations": [
+        {
+          "quote_id": "Q1",
+          "text": "Cancer is a complex group of diseases characterized by the uncontrolled growth and spread of abnormal cells, and it remains a major global health concern."
+        },
+        {
+          "quote_id": "Q2",
+          "text": " In order to meet the increased energy and biosynthetic requirements of rapid growth, cancer cells undergo metabolic reprogramming."
+        },
+        {
+          "quote_id": "Q3",
+          "text": " In this setting, nutrition exerts a crucial influence on nutrients availability and increasing evidence highlights the significant role of nutrition in the prevention, development, and management of cancer."
+        },
+        {
+          "quote_id": "Q4",
+          "text": " Dietary patterns and nutrient intake can influence cancer risk through various biological mechanisms, including inflammation, oxidative stress, immune modulation, and hormonal regulation."
+        }
+      ],
+      "direct_fit_conflict": false
+    }
+  ],
+  "model_attempts": 3,
+  "paused_service": false,
+  "scope": "Focused same-model diagnostic, not independent validation. Exact endpoint does not establish exposure, population, duration, causal inference, magnitude or full claim fit. No final claim verdicts."
+}

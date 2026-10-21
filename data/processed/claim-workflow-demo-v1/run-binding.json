@@ -1,0 +1,34 @@
+{
+  "verification_settings": {
+    "root": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-demo-v1/verification",
+    "snapshot": {
+      "path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/relevance-screen-ranked-v2/screening-review-16d48eaeaa32.json",
+      "sha256": "2fec066e825bbf018bee8f4218e9fabe4836bd8bfee93ae8c99e5a8988871556"
+    },
+    "model": "qwen3:4b",
+    "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "source_limit": 2,
+    "helper_sha256": "d666a51fc87a0e70449ac7ceb4e2df323c9f5a29e045ec2edc2b164b28999f37",
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e",
+    "schema_sha256": "4e10bb834df497562fa5549e99a234807af56a3dc044c7ea459959a7438baf8c"
+  },
+  "retrieval_settings": null,
+  "profile": "claim-controller-v1",
+  "script_sha256": "de171f57cc643d39a463715b184e889b323ba6fd03c50b2d62bdfb3c9a1144aa",
+  "adjudicator_sha256": "6bc1a50e07c7277ea7e8f6c0b4ca80a96aa09fdff612082ea51c3db68e5f3c14",
+  "framework_versions": {
+    "langgraph": "1.2.16",
+    "langgraph-checkpoint-sqlite": "3.1.2",
+    "langgraph-checkpoint": "4.3.0",
+    "pydantic": "2.13.4"
+  },
+  "claim_inputs": {
+    "fitness-02-c001": "4b928f4ff07df9b3613ef4cdb3c862010ec6ac994e991c472df5e9d6c8644369",
+    "fitness-02-c002": "64ece18fdf8623d1d21db9eecf03ab2d52c39a57536c5743f045f09b3ae8ffa1",
+    "fitness-02-c003": "6de263004c637a6ea7934ec73da9ba019072e903cd0064e8357c962fabe20b48",
+    "fitness-02-c004": "932fdecaf11f4b9070ad2326f27a944a2232a2583e2213f607bf561f83858c40",
+    "fitness-02-c005": "46d77149d9988c9a8c1ce18af12323adb6430f9b398a750181f28b59c27042d6",
+    "fitness-02-c006": "98edf5d0c75b40c090cbcef03963891641cec9167a885baffd505209d9ab1122",
+    "fitness-02-c007": "cd7c78e5b399a7e49aff4015b9564f76d5963d82d8d77b821348c1bcca96dc2f"
+  }
+}

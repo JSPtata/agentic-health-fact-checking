@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:4b",
+  "created_at": "2026-10-19T16:47:46.585228Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"source_id\": \"S046d91794ffce008\",\n  \"study_or_document_type\": \"study\",\n  \"population_and_intervention\": \"young men; passive one-legged intermittent static stretching\",\n  \"measured_outcome_or_recommendation\": \"increased shear rate in peripheral artery of stretched leg during relaxation period\",\n  \"finding\": \"Q1\",\n  \"relation\": \"contradiction\",\n  \"limitations\": [\n    \"Local effect only\",\n    \"Acute timing (during relaxation period)\",\n    \"Peripheral artery only\",\n    \"Young male population\"\n  ],\n  \"quote_ids\": [\"Q1\"]\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 13938533667,
+  "load_duration": 18622500,
+  "prompt_eval_count": 460,
+  "prompt_eval_cached_count": 372,
+  "prompt_eval_duration": 998062000,
+  "eval_count": 149,
+  "eval_duration": 12751121000
+}

@@ -1,0 +1,43 @@
+{
+  "claim_id": "fitness-02-c002",
+  "claim_text": "Avoid drinking coffee on an empty stomach to prevent acidity.",
+  "status": "retrieval_no_usable_abstracts",
+  "interrupted": true,
+  "pending_action": "review_search_coverage_and_source_availability",
+  "source_review_status": "source_review_incomplete",
+  "retrieval": {
+    "status": "retrieval_no_usable_abstracts",
+    "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json",
+    "evidence_sha256": "c2864297d6bd8b9e46c1f80cd221a201402a1440eb64557b47318612ebefc936",
+    "candidate_pmids": 0,
+    "usable_abstracts": 0,
+    "unresolved_pmids": [],
+    "empty_abstract_pmids": [],
+    "queries": [
+      "((drinking coffee) AND (on an empty stomach)) AND (prevent acidity)",
+      "((coffee consumption) OR (coffee drinking)) AND (on empty stomach) AND (acidity prevention)"
+    ]
+  },
+  "verdict": null,
+  "last_error": null,
+  "submissions": 0,
+  "history": [
+    {
+      "action": "retrieval_finished",
+      "result": {
+        "status": "retrieval_no_usable_abstracts",
+        "evidence_path": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v1/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json",
+        "evidence_sha256": "c2864297d6bd8b9e46c1f80cd221a201402a1440eb64557b47318612ebefc936",
+        "candidate_pmids": 0,
+        "usable_abstracts": 0,
+        "unresolved_pmids": [],
+        "empty_abstract_pmids": [],
+        "queries": [
+          "((drinking coffee) AND (on an empty stomach)) AND (prevent acidity)",
+          "((coffee consumption) OR (coffee drinking)) AND (on empty stomach) AND (acidity prevention)"
+        ]
+      }
+    }
+  ],
+  "adjudication": null
+}

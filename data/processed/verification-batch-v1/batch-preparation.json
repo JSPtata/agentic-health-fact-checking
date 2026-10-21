@@ -1,0 +1,91 @@
+{
+  "binding": {
+    "profile": "pending-claim-sources-v1",
+    "worklist_sha256": "fe2fe9fd6bf36077620e815c7bf4b396b32121dc7f834effca2763be7ece889d",
+    "evidence_sha256": "806c59b322f8bbde73869d9f006690d1bb455f3896680cf3a14d59bf6ca70d8d",
+    "script_sha256": "1b03106402a675742997484268a6672fca71f3a470dfdba00c58d025cfe6e41f"
+  },
+  "claims": [
+    {
+      "claim_id": "fitness-02-c002",
+      "status": "source_snapshots_prepared",
+      "candidate_pmids": 3,
+      "usable_abstracts": 3,
+      "unresolved_pmids": [],
+      "empty_abstract_pmids": [],
+      "structured_outcome_missing": false,
+      "input_issue": null,
+      "source_run": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/verification-batch-v1/fitness-02-c002",
+      "scientific_verification_status": "not_started",
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c003",
+      "status": "source_snapshots_prepared",
+      "candidate_pmids": 3,
+      "usable_abstracts": 3,
+      "unresolved_pmids": [],
+      "empty_abstract_pmids": [],
+      "structured_outcome_missing": false,
+      "input_issue": null,
+      "source_run": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/verification-batch-v1/fitness-02-c003",
+      "scientific_verification_status": "not_started",
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c004",
+      "status": "source_snapshots_prepared",
+      "candidate_pmids": 3,
+      "usable_abstracts": 3,
+      "unresolved_pmids": [],
+      "empty_abstract_pmids": [],
+      "structured_outcome_missing": true,
+      "input_issue": null,
+      "source_run": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/verification-batch-v1/fitness-02-c004",
+      "scientific_verification_status": "not_started",
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c005",
+      "status": "source_snapshots_prepared",
+      "candidate_pmids": 3,
+      "usable_abstracts": 3,
+      "unresolved_pmids": [],
+      "empty_abstract_pmids": [],
+      "structured_outcome_missing": true,
+      "input_issue": null,
+      "source_run": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/verification-batch-v1/fitness-02-c005",
+      "scientific_verification_status": "not_started",
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c006",
+      "status": "source_snapshots_prepared",
+      "candidate_pmids": 3,
+      "usable_abstracts": 3,
+      "unresolved_pmids": [],
+      "empty_abstract_pmids": [],
+      "structured_outcome_missing": false,
+      "input_issue": null,
+      "source_run": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/verification-batch-v1/fitness-02-c006",
+      "scientific_verification_status": "not_started",
+      "verdict": null
+    },
+    {
+      "claim_id": "fitness-02-c007",
+      "status": "source_snapshots_prepared",
+      "candidate_pmids": 3,
+      "usable_abstracts": 3,
+      "unresolved_pmids": [],
+      "empty_abstract_pmids": [],
+      "structured_outcome_missing": false,
+      "input_issue": null,
+      "source_run": "/Users/User/Desktop/agentic-health-fact-checking/data/processed/verification-batch-v1/fitness-02-c007",
+      "scientific_verification_status": "not_started",
+      "verdict": null
+    }
+  ],
+  "unique_requested_pmids": 18,
+  "model_calls": 0,
+  "scope": "Source preparation only; no suitability decisions, scientific verification or adjudication."
+}

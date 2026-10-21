@@ -1,0 +1,191 @@
+{
+  "binding": {
+    "profile": "source-roles-v1",
+    "inputs": {
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/ranking-summary.json": "d66a61598ea8db307e71b5325d1a2f7ea7788ebff9f6a51d5e6129a535cc45cb",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/bi-encoder/passage-ranking.json": "4c0ddeb3962e9c76470a5ca6de0518b3e1dfef60942f447a6cbc96689d0f345a",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cached-candidates.json": "831fb25a71ac928aefd9170b443e7ca32757cb2c0f43ce2dd94c89dedf522b42",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/evidence-input.json": "e421b8c037fa3c0195451f921b68a2ed985b1ccc7c3eb45a73a95fa3fd7929be",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/9938027648f5fdb99962fe5d0ac118668f469d49f308b39a3ea9321ae0c8e2f7/cross-encoder/cross-encoder-ranking.json": "099bc5f7a487e678d8bc91d059e93e734ba4b634f8ccdc3668bbb0d824c7d189",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/bi-encoder/passage-ranking.json": "55357725c5c9b998134fe51ff2283f7bbb003066f4520b1b9d5a689c7d627d21",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cached-candidates.json": "ae19fc9a8251deb2ae5d18775f32e6c1a266da747a48adf36b8800bc32ec7724",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/evidence-input.json": "6d29f3d2de32aca26111d6fc9912ddced967904bb50fee90e635dcb3a66b44f7",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/562f549dbdcb5407ef0a4240eb9781fb462c324c585046d5f9ea02e8e834d964/cross-encoder/cross-encoder-ranking.json": "fb15bb9c11d43cdd2e4960919768293e57ed5ed11568a7f9b913a00179588b3a",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/bi-encoder/passage-ranking.json": "30d2a57dd458a56fd8a9da37512fb98b01de689afa83ec144b6038afada60477",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/cached-candidates.json": "89e631ddd9f58fc9cce8025010b61f9568ce845fdf0cb36097bc12f8359b2722",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/retrieval/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/evidence-input.json": "dce19253d689867dac16f925b5b80ae667ae7d3f28ddafc60a55c6268c759f68",
+      "/Users/User/Desktop/agentic-health-fact-checking/data/processed/claim-workflow-retrieval-v2/rankings/0277503c90ccacd9975995040ab5b7b9919c92f6d09ef0325e6323ef9ed882d5/cross-encoder/cross-encoder-ranking.json": "3af61bf8e68343defe57b8df91786bb5784298a8e2aaf2366dee762a1bcfe945"
+    },
+    "backend": "ollama",
+    "model_identity": {
+      "model": "qwen3:4b",
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+    },
+    "selected_pmids": [
+      "27390450",
+      "31451200",
+      "34306274"
+    ],
+    "ranking_top_k": 10,
+    "script_sha256": "dfc47f0a9bf803297c74f2d072139824e85fbc343a41bd0f439b33b81d772279",
+    "anchors_sha256": "19729ee585dc949cdeb1794c30c325f69a9ae2a8d6097075cee0c7e428ecf84e"
+  },
+  "outputs": {
+    "42d88b41b3a7f948968cb83b77ae760808d4a3b2146d05926742444f0aaff6ee": {
+      "D": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5"
+      ],
+      "P": [
+        "Q2"
+      ],
+      "I": [
+        "Q3",
+        "Q4"
+      ],
+      "O": [
+        "Q6",
+        "Q7",
+        "Q8"
+      ],
+      "R": [
+        "Q6",
+        "Q7",
+        "Q8"
+      ],
+      "T": [
+        "Q3",
+        "Q4"
+      ],
+      "G": [
+        "Q1"
+      ],
+      "M": [
+        "Q6",
+        "Q7",
+        "Q8"
+      ],
+      "L": [
+        "Q1"
+      ],
+      "role": "mechanistic_context",
+      "fit": "partial",
+      "contrast": "within_group",
+      "basis": [
+        "Q1"
+      ],
+      "reason": "The study investigates hemodynamic changes during movement from postural maintenance positions, which relates to the mechanism of how posture affects blood flow in the lumbar region. However, it does not directly measure back pain prevention or provide evidence for the claim that maintaining proper ",
+      "scope_flags": [
+        "D",
+        "P",
+        "I"
+      ]
+    },
+    "ba67ff3f6141025005ea6071743e5183688d77567febf17c4e8d4dbfcef0cd5a": {
+      "D": [],
+      "P": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6"
+      ],
+      "I": [
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10"
+      ],
+      "O": [
+        "Q10"
+      ],
+      "R": [
+        "Q10"
+      ],
+      "T": [],
+      "G": [],
+      "M": [],
+      "L": [
+        "Q10"
+      ],
+      "role": "unclear",
+      "fit": "unclear",
+      "contrast": "unclear",
+      "basis": [
+        "Q10"
+      ],
+      "reason": "No consensus on causality of spine postures or physical exposure and low back pain: A systematic review of systematic reviews. The claim 'Maintain proper posture while sitting to prevent back pain' is a behavioral recommendation for preventing back pain. The abstract states there is no consensus on ",
+      "scope_flags": [
+        "unclear",
+        "no consensus",
+        "no causal evidence for prevention claim in the claimed population (sitting)"
+      ]
+    },
+    "251f6dcb599bda851bde73d1402128ec7628c659308197a77ab3b65ad62fb676": {
+      "D": [],
+      "P": [
+        "Q2"
+      ],
+      "I": [
+        "Q4"
+      ],
+      "O": [
+        "Q7"
+      ],
+      "R": [
+        "Q7"
+      ],
+      "T": [],
+      "G": [],
+      "M": [],
+      "L": [],
+      "role": "effect_evidence",
+      "fit": "direct",
+      "contrast": "between_groups",
+      "basis": [
+        "Q1"
+      ],
+      "reason": "The study directly compares the MT group (with multidimensional treatment including core stability exercises and pain management) versus UT group (core stability exercises only) for pain and disability outcomes. The claim specifies 'prevent back pain' but the study focuses on patients with existingL",
+      "scope_flags": [
+        "P: LBP patients",
+        "I: core stability exercise",
+        "O: pain relief persistence 3 months post-training"
+      ]
+    }
+  },
+  "events": [
+    {
+      "key": "42d88b41b3a7f948968cb83b77ae760808d4a3b2146d05926742444f0aaff6ee",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "363c4a36fe986078984765a62f24f9783a7a6afe7a5c2182b5dc27e10b962b55",
+      "response_file": "responses/0001.json",
+      "prompt_eval_count": 749
+    },
+    {
+      "key": "ba67ff3f6141025005ea6071743e5183688d77567febf17c4e8d4dbfcef0cd5a",
+      "status": "invalid_output",
+      "prompt_sha256": "9d3be5e8badabc1ed4168a02a4b17187ad5d3b74543d31c44719ddc4ced2c6af",
+      "response_file": "responses/0002.json",
+      "prompt_eval_count": 814,
+      "error": "Unclear role requires unclear fit"
+    },
+    {
+      "key": "ba67ff3f6141025005ea6071743e5183688d77567febf17c4e8d4dbfcef0cd5a",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "489038ee898b87cbe0a7505fbbe66684a89e387ab9880702f3c08ee1b0a5653c",
+      "response_file": "responses/0003.json",
+      "prompt_eval_count": 824
+    },
+    {
+      "key": "251f6dcb599bda851bde73d1402128ec7628c659308197a77ab3b65ad62fb676",
+      "status": "quotation_ids_checked",
+      "prompt_sha256": "4e8edd73f49cedde6db27a42abc1098257af4f1207c754f3edc8ed017b113d65",
+      "response_file": "responses/0004.json",
+      "prompt_eval_count": 806
+    }
+  ]
+}

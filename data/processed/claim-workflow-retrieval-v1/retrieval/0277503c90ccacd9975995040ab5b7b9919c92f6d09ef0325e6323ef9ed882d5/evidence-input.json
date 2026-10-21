@@ -1,0 +1,116 @@
+{
+  "claims": [
+    {
+      "claim_text": "Maintain proper posture while sitting to prevent back pain.",
+      "exposure": "maintaining proper posture",
+      "outcome": "prevent back pain",
+      "context": "while sitting",
+      "claim_id": "fitness-02-c006",
+      "evidence": [
+        {
+          "kind": "pubmed_abstract",
+          "pmid": "8379161",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8379161/",
+          "title": "[Prevention of spinal disorders].",
+          "organization": "PubMed record",
+          "publication_types": [
+            "English Abstract",
+            "Journal Article",
+            "Review"
+          ],
+          "dates_as_reported": {
+            "journal_pubdate": "1993"
+          },
+          "correction_notices": [],
+          "retrieved_at": "2026-10-20T17:28:49.224411+00:00",
+          "text_scope": "abstract_only",
+          "matched_queries": [
+            2
+          ],
+          "abstract": "The increasing number of people suffering from vertebral column disorders, despite great progress having been made in both diagnosis and treatment, shows the necessity of an effective prophylaxis. The therefore requisite recognition, generally and from case to case, of pathogenic factors, is of essential importance. Influencing prevailing physical conditions such as static, dynamic, muscular and other functional factors by appropriate, drilled exercises, takes priority. Later, correction and instruction for day to day living, such as standing, walking, sitting down, sitting, lifting, carrying and lying correctly, is of equal importance to taking into consideration the possible harmful effects at the place of work, and of sport and also psychosomatic mechanism. The problem with the prophylaxis is that the activities listed should be carried out all life long, but the effects, particularly by primary prevention, cannot be seen till later.",
+          "abstract_available": true,
+          "abstract_sha256": "1868e212d864296b406f18e9051980160491742d8b04f6e0acfd48f87c7ec473"
+        },
+        {
+          "kind": "pubmed_abstract",
+          "pmid": "24195394",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24195394/",
+          "title": "[Development and application on rehabilitation chair of preventing low back pain].",
+          "organization": "PubMed record",
+          "publication_types": [
+            "English Abstract",
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "dates_as_reported": {
+            "journal_pubdate": "2013 Jul"
+          },
+          "correction_notices": [],
+          "retrieved_at": "2026-10-20T17:28:49.224411+00:00",
+          "text_scope": "abstract_only",
+          "matched_queries": [
+            2
+          ],
+          "abstract": "OBJECTIVE: This paper discusses the necessary factors keeping normal spine curve and body pressure uniform distribution in sitting posture based on analysis sitting posture of low back pain and long time sitting persons. The purpose is to correct the sitting posture and prevention low back pain by changing the curves of the chair and material.\n\nMETHODS: 16 patients with low back pain were equally divided into research group and control group. The patients in research group accepted the rehabilitation chair, and other patients in control group accepted the chair same to before. JOA score were used as effect measures in both groups.\n\nRESULTS: The differences were statistically significant (P < 0.005) comparison of control group after 6 months.\n\nCONCLUSIONS: The rehabilitation chair is in accord with the body biomechanics, and has significant meaning for preventing low back pain.",
+          "abstract_available": true,
+          "abstract_sha256": "3dd5138941c5c2576225838089cae1f217704c2895c226342a5954f582afa0f2"
+        },
+        {
+          "kind": "pubmed_abstract",
+          "pmid": "41576961",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41576961/",
+          "title": "[Ergonomics in Robotic Surgery - A Practical Guide].",
+          "organization": "PubMed record",
+          "publication_types": [
+            "Journal Article",
+            "Review",
+            "English Abstract"
+          ],
+          "dates_as_reported": {
+            "journal_pubdate": "2026 Aug"
+          },
+          "correction_notices": [],
+          "retrieved_at": "2026-10-20T17:28:49.224411+00:00",
+          "text_scope": "abstract_only",
+          "matched_queries": [
+            2
+          ],
+          "abstract": "Ergonomics remain an underestimated challenge in medicine, particularly in robotic surgery. Despite technical advances, surgeons often suffer from musculoskeletal disorders often involving the neck, back, and wrist. Previous studies have shown that a lack of knowledge and awareness of ergonomic recommendations for the use of the console, unnatural or poor physiological postures, and a lack of training are common causes of poor posture and associated complaints. A physiological posture is the basis for a healthy workspace, both when standing and sitting. Of particular relevance are a neutral head, pelvis, and spine position, as well as core stability and regular training of the critical muscles for a stable posture.A comparison of different robotic systems revealed significant differences in console design and associated ergonomic challenges. Systems with adjustable headpieces, for example, improve neck posture, while open consoles facilitate communication in the operating room.In addition, the role of the bedside assistant is critical from an ergonomic perspective. The discrepancy between the motor and visual axes quickly leads to discomfort in the neck, shoulder, and arm areas. Structured training curricula and ergonomic guidelines are lacking in everyday surgical practice.To prevent musculoskeletal pain and potential disorders, targeted stretching and mobilization exercises can be performed during so-called micro breaks, which have been proven to reduce pain and improve concentration and performance. Correct adjustment of the console can also significantly improve the ergonomics in the robotic operating theatre.",
+          "abstract_available": true,
+          "abstract_sha256": "870734dfc28ca6be6ea8f87814745555bebfb65e04c871a801e25006827a8df0"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "query": "((maintaining proper posture) AND (prevent back pain)) AND (while sitting) AND (title OR abstract)",
+      "total_matches": "0",
+      "query_translation": "(\"maintainance\"[All Fields] OR \"maintained\"[All Fields] OR \"maintaining\"[All Fields] OR \"maintains\"[All Fields] OR \"maintenance\"[MeSH Terms] OR \"maintenance\"[All Fields] OR \"maintain\"[All Fields]) AND \"proper\"[All Fields] AND (\"postural\"[All Fields] OR \"posturally\"[All Fields] OR \"posture\"[MeSH Terms] OR \"posture\"[All Fields] OR \"postures\"[All Fields] OR \"postured\"[All Fields] OR \"posturing\"[All Fields]) AND ((\"prevent\"[All Fields] OR \"preventability\"[All Fields] OR \"preventable\"[All Fields] OR \"preventative\"[All Fields] OR \"preventatively\"[All Fields] OR \"preventatives\"[All Fields] OR \"prevented\"[All Fields] OR \"preventing\"[All Fields] OR \"prevention and control\"[MeSH Subheading] OR (\"prevention\"[All Fields] AND \"control\"[All Fields]) OR \"prevention and control\"[All Fields] OR \"prevention\"[All Fields] OR \"prevention s\"[All Fields] OR \"preventions\"[All Fields] OR \"preventive\"[All Fields] OR \"preventively\"[All Fields] OR \"preventives\"[All Fields] OR \"prevents\"[All Fields]) AND (\"back pain\"[MeSH Terms] OR (\"back\"[All Fields] AND \"pain\"[All Fields]) OR \"back pain\"[All Fields])) AND (\"sitting position\"[MeSH Terms] OR (\"sitting\"[All Fields] AND \"position\"[All Fields]) OR \"sitting position\"[All Fields] OR \"sitting\"[All Fields] OR \"sittings\"[All Fields]) AND (\"title\"[All Fields] OR \"titled\"[All Fields] OR \"titles\"[All Fields] OR (\"abstract s\"[All Fields] OR \"abstractable\"[All Fields] OR \"abstracters\"[All Fields] OR \"abstracting and indexing\"[MeSH Terms] OR (\"abstracting\"[All Fields] AND \"indexing\"[All Fields]) OR \"abstracting and indexing\"[All Fields] OR \"abstract\"[All Fields] OR \"abstracted\"[All Fields] OR \"abstracting\"[All Fields] OR \"abstraction\"[All Fields] OR \"abstractions\"[All Fields] OR \"abstractive\"[All Fields] OR \"abstractness\"[All Fields] OR \"abstracts\"[All Fields]))",
+      "warnings": {
+        "phrasesignored": [
+          "while"
+        ],
+        "quotedphrasesnotfound": [],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "returned_pmids": [],
+      "retrieved_at": "2026-10-20T17:28:46.504831+00:00"
+    },
+    {
+      "query": "((proper posture maintenance) OR (correct posture) OR (postural alignment)) AND (back pain prevention) AND (sitting) AND (title OR abstract)",
+      "total_matches": "3",
+      "query_translation": "((\"proper\"[All Fields] AND (\"postural\"[All Fields] OR \"posturally\"[All Fields] OR \"posture\"[MeSH Terms] OR \"posture\"[All Fields] OR \"postures\"[All Fields] OR \"postured\"[All Fields] OR \"posturing\"[All Fields]) AND (\"maintenance\"[MeSH Terms] OR \"maintenance\"[All Fields] OR \"maintenances\"[All Fields])) OR ((\"correct\"[All Fields] OR \"correctability\"[All Fields] OR \"correctable\"[All Fields] OR \"corrected\"[All Fields] OR \"correctible\"[All Fields] OR \"correcting\"[All Fields] OR \"correction\"[All Fields] OR \"corrections\"[All Fields] OR \"corrective\"[All Fields] OR \"correctives\"[All Fields] OR \"correctness\"[All Fields] OR \"corrects\"[All Fields]) AND (\"postural\"[All Fields] OR \"posturally\"[All Fields] OR \"posture\"[MeSH Terms] OR \"posture\"[All Fields] OR \"postures\"[All Fields] OR \"postured\"[All Fields] OR \"posturing\"[All Fields])) OR ((\"postural\"[All Fields] OR \"posturally\"[All Fields] OR \"posture\"[MeSH Terms] OR \"posture\"[All Fields] OR \"postures\"[All Fields] OR \"postured\"[All Fields] OR \"posturing\"[All Fields]) AND (\"align\"[All Fields] OR \"alignability\"[All Fields] OR \"alignable\"[All Fields] OR \"aligned\"[All Fields] OR \"alignement\"[All Fields] OR \"aligner\"[All Fields] OR \"aligner s\"[All Fields] OR \"aligners\"[All Fields] OR \"aligning\"[All Fields] OR \"alignment\"[All Fields] OR \"alignments\"[All Fields] OR \"aligns\"[All Fields]))) AND ((\"back pain\"[MeSH Terms] OR (\"back\"[All Fields] AND \"pain\"[All Fields]) OR \"back pain\"[All Fields]) AND (\"prevent\"[All Fields] OR \"preventability\"[All Fields] OR \"preventable\"[All Fields] OR \"preventative\"[All Fields] OR \"preventatively\"[All Fields] OR \"preventatives\"[All Fields] OR \"prevented\"[All Fields] OR \"preventing\"[All Fields] OR \"prevention and control\"[MeSH Subheading] OR (\"prevention\"[All Fields] AND \"control\"[All Fields]) OR \"prevention and control\"[All Fields] OR \"prevention\"[All Fields] OR \"prevention s\"[All Fields] OR \"preventions\"[All Fields] OR \"preventive\"[All Fields] OR \"preventively\"[All Fields] OR \"preventives\"[All Fields] OR \"prevents\"[All Fields])) AND (\"sitting position\"[MeSH Terms] OR (\"sitting\"[All Fields] AND \"position\"[All Fields]) OR \"sitting position\"[All Fields] OR \"sitting\"[All Fields] OR \"sittings\"[All Fields]) AND (\"title\"[All Fields] OR \"titled\"[All Fields] OR \"titles\"[All Fields] OR (\"abstract s\"[All Fields] OR \"abstractable\"[All Fields] OR \"abstracters\"[All Fields] OR \"abstracting and indexing\"[MeSH Terms] OR (\"abstracting\"[All Fields] AND \"indexing\"[All Fields]) OR \"abstracting and indexing\"[All Fields] OR \"abstract\"[All Fields] OR \"abstracted\"[All Fields] OR \"abstracting\"[All Fields] OR \"abstraction\"[All Fields] OR \"abstractions\"[All Fields] OR \"abstractive\"[All Fields] OR \"abstractness\"[All Fields] OR \"abstracts\"[All Fields]))",
+      "warnings": {},
+      "returned_pmids": [
+        "41576961",
+        "8379161",
+        "24195394"
+      ],
+      "retrieved_at": "2026-10-20T17:28:48.050752+00:00"
+    }
+  ],
+  "retrieval_scope": "PubMed candidates only; no suitability or truth determination."
+}

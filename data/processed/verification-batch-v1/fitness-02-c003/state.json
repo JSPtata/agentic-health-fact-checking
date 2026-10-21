@@ -1,0 +1,106 @@
+{
+  "claim": {
+    "claim_text": "Eat fruits before meals, not after, for better digestion.",
+    "exposure": "eating fruits",
+    "outcome": "better digestion",
+    "context": "before meals, not after",
+    "claim_id": "fitness-02-c003",
+    "input_limitations": [
+      "Existing candidate pool only; no new literature search or relevance assessment.",
+      "PubMed abstracts are not full texts. Missing abstracts remain unavailable.",
+      "No official guidance was fetched or assessed in this preparation step."
+    ]
+  },
+  "binding": {
+    "profile": "pending-claim-sources-v1",
+    "worklist_sha256": "fe2fe9fd6bf36077620e815c7bf4b396b32121dc7f834effca2763be7ece889d",
+    "evidence_sha256": "806c59b322f8bbde73869d9f006690d1bb455f3896680cf3a14d59bf6ca70d8d",
+    "script_sha256": "1b03106402a675742997484268a6672fca71f3a470dfdba00c58d025cfe6e41f",
+    "source_hashes": {
+      "S171c08e96bbfe80a": "6535a1d4e9d2c35a89988b9c2f761f32dc77e2a12836947514b8a7828783e975",
+      "Se83ab42f263370e7": "c4815f3ed4b2837fb72456be715193a1ec322846447dfcc4d34c5d8e49848f61",
+      "S3ecb0b2ddc3eab17": "d4d1b1af4041b36ce687585f617736c5faab3eeeb81bb1121472fb57f63acc61"
+    }
+  },
+  "sources": {
+    "S171c08e96bbfe80a": {
+      "kind": "pubmed_abstract",
+      "pmid": "32077594",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32077594/",
+      "title": "The role of nutrition in non-alcoholic fatty liver disease: Pathophysiology and management.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2020 Feb"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592267+00:00",
+      "text_scope": "abstract_only",
+      "id": "S171c08e96bbfe80a",
+      "text_file": "sources/S171c08e96bbfe80a.txt",
+      "text_sha256": "6535a1d4e9d2c35a89988b9c2f761f32dc77e2a12836947514b8a7828783e975",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 1630
+    },
+    "Se83ab42f263370e7": {
+      "kind": "pubmed_abstract",
+      "pmid": "42467965",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42467965/",
+      "title": "A Smartphone App to Improve Intuitive Eating and Diet Quality: Design and Usability Study.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Jul 17"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592341+00:00",
+      "text_scope": "abstract_only",
+      "id": "Se83ab42f263370e7",
+      "text_file": "sources/Se83ab42f263370e7.txt",
+      "text_sha256": "c4815f3ed4b2837fb72456be715193a1ec322846447dfcc4d34c5d8e49848f61",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 2811
+    },
+    "S3ecb0b2ddc3eab17": {
+      "kind": "pubmed_abstract",
+      "pmid": "42561068",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42561068/",
+      "title": "A central role for dietary sugars in human evolution.",
+      "organization": "PubMed record",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "dates_as_reported": {
+        "journal_pubdate": "2026 Aug 06"
+      },
+      "correction_notices": [],
+      "retrieved_at": "2026-10-20T05:53:09.592361+00:00",
+      "text_scope": "abstract_only",
+      "id": "S3ecb0b2ddc3eab17",
+      "text_file": "sources/S3ecb0b2ddc3eab17.txt",
+      "text_sha256": "d4d1b1af4041b36ce687585f617736c5faab3eeeb81bb1121472fb57f63acc61",
+      "origin": "existing_retrieval_candidate_refreshed",
+      "characters": 862
+    }
+  },
+  "active_sources": [
+    "S171c08e96bbfe80a",
+    "Se83ab42f263370e7",
+    "S3ecb0b2ddc3eab17"
+  ],
+  "phase": "sources_prepared",
+  "counts": {
+    "model_calls": 0
+  },
+  "model_events": [],
+  "unresolved_pmids": [],
+  "empty_abstract_pmids": []
+}

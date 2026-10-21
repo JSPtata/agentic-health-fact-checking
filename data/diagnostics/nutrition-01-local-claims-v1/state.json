@@ -1,0 +1,57 @@
+{
+  "binding": {
+    "transcript_sha256": "af42bf7b6387139342a619bcd43f1fbfaf4fbb219100e744e1f80297eb3acda2",
+    "video_id": "nutrition-01",
+    "model": "qwen3:4b",
+    "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+    "script_sha256": "7620a94bb4b9fdb8fdda34aa6b850b175495d18855d7b0d12280a8d5cf3cf244"
+  },
+  "events": [
+    {
+      "part": 0,
+      "status": "failed",
+      "error": "TimeoutError: timed out"
+    },
+    {
+      "part": 0,
+      "status": "failed",
+      "response": {
+        "model": "qwen3:4b",
+        "created_at": "2026-10-21T07:08:07.085527Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"claims\": [\n    {\n      \"claim_text\": \"You can eat meat, fish, eggs, fruit, and vegetables.\",\n      \"exposure\": \"meat, fish, eggs, fruit, and vegetables\",\n      \"outcome\": \"You can eat\",\n      \"context\": \"You're not going to eat bread, pasta, rice, tortillas, anything else.\"\n    },\n    {\n      \"claim_text\": \"You're not going to eat bread, pasta, rice, tortillas, anything else.\",\n      \"exposure\": \"bread, pasta, rice, tortillas\",\n      \"outcome\": \"You're not going to eat\",\n      \"context\": \"You can eat meat, fish, eggs, fruit, and vegetables.\"\n    },\n    {\n      \"claim_text\": \"If it's not in that short list, water, coffee, or tea are fine.\",\n      \"exposure\": \"water, coffee, or tea\",\n      \"outcome\": \"If it's not in that short list\",\n      \"context\": \"You can eat meat, fish, eggs, fruit, and vegetables.\"\n    },\n    {\n      \"claim_text\": \"What you find is that people who've been eating a lot of processed foods and excess carbohydrates and fats together, when they switch to eating meat, fish, eggs, vegetables, and fruit, and nothing else except, of course, drinking enough water, coffee.\",\n      \"exposure\": \"processed foods and excess carbohydrates and fats\",\n      \"outcome\": \"people who've been eating a lot of processed foods and excess carbohydrates and fats\",\n      \"context\": \"when they switch to eating meat, fish, eggs, vegetables, and fruit, and nothing else except, of course, drinking enough water, coffee.\"\n    },\n    {\n      \"claim_text\": \"No, you're not drinking alcohol.\",\n      \"exposure\": \"alcohol\",\n      \"outcome\": \"you're not drinking\",\n      \"context\": \"What you find is that people who've been eating a lot of processed foods and excess carbohydrates and fats together, when they switch to eating meat, fish, eggs, vegetables, and fruit, and nothing else except, of course, drinking enough water, coffee.\"\n    },\n    {\n      \"claim_text\": \"No, you're not drinking milk.\",\n      \"exposure\": \"milk\",\n      \"outcome\": \"you're not drinking\",\n      \"context\": \"What you find is that people who've been eating a lot of processed foods and excess carbohydrates and fats together, when they switch to eating meat, fish, eggs, vegetables, and fruit, and nothing else except, of course, drinking enough water, coffee.\"\n    },\n    {\n      \"claim_text\": \"What you find is they lose a lot of fat very, very quickly.\",\n      \"exposure\": \"they\",\n      \"outcome\": \"lose a lot of fat very, very quickly\",\n      \"context\": \"people who've been eating a lot of processed foods and excess carbohydrates and fats together, when they switch to eating meat, fish, eggs, vegetables, and fruit, and nothing else except, of course, drinking enough water, coffee.\"\n    }\n  ]\n}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 89264588334,
+        "load_duration": 7498218625,
+        "prompt_eval_count": 350,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 4185747999,
+        "eval_count": 653,
+        "eval_duration": 77517788000
+      },
+      "error": "ValueError: context must quote the claim or be null"
+    }
+  ],
+  "parts": {},
+  "output_sha256": null,
+  "configuration_migrations": [
+    {
+      "reason": "Reduce local context/output limits after first timeout",
+      "from_script_sha256": "2402aaae239e94bd142c0e153fb9f2858a570f21a9a5a122b678fb9a67008a4e",
+      "to_script_sha256": "7620a94bb4b9fdb8fdda34aa6b850b175495d18855d7b0d12280a8d5cf3cf244",
+      "previous_options": {
+        "num_ctx": 8192,
+        "num_predict": 3072
+      },
+      "new_options": {
+        "num_ctx": 4096,
+        "num_predict": 1024
+      },
+      "retained_attempts": 1,
+      "attempt_limit_per_passage": 2
+    }
+  ]
+}
